@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <!-- title of the source -->
+            <title xml:lang="de">Protokollregister über Dayezade İbrahim Paschas Abschiedsaudienz, Istanbul, 
+                 19. April 1719</title>
+            <title xml:lang="en">Protocol register of Dayezade İbrahim Paşa’s farewell audience, Istanbul, 
+                 April 19, 1719</title>
+            <title xml:lang="tr">Teşrifat defteri kaydı, Dayezade İbrahim Paşa’nın veda töreni, İstanbul,
+                19 Nisan 1719</title>
+            <!-- author of the source -->
+            <author>
+                <persName>Teşrifati Salman Efendi</persName>
+            </author>
+            <!-- Responsibilities for the digital source -->
+            <respStmt>
+                <!-- editor -->
+                <resp>Edition</resp>
+                <persName xml:id="yy">
+                    <forename>Yasir</forename>
+                    <surname>Yılmaz</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+                <!-- data modelling-->
+                <resp>Datenmodellierung</resp>
+                <persName>
+                    <forename>Stephan</forename>
+                    <surname>Kurz</surname>
+                </persName>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>
+                <orgName ref="https://www.oeaw.ac.at/">
+                    Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies
+                </orgName>
+            </publisher>
+            <distributor>
+                <orgName ref="https://gams.uni-graz.at">
+                    GAMS - Geisteswissenschaftliches Asset Management System
+                </orgName>
+            </distributor>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0">
+                    Creative Commons BY 4.0
+                </licence>
+            </availability>
+            <date when="2021">2021</date>
+            <pubPlace>Vienna</pubPlace>
+            
+            <idno type="PID">o:vipa.pr.osm.17190419</idno>
+       </publicationStmt>
+        <seriesStmt>
+            <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+            <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+            <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+            <respStmt>
+                <resp>Projektleitung</resp>
+                <persName>
+                    <forename>Arno</forename>
+                    <surname>Strohmeyer</surname>
+                </persName>
+            </respStmt>
+        </seriesStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <institution>BOA, İstanbul</institution>
+                    <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                    <idno>no. 347, p. 49</idno>
+                </msIdentifier>
+                
+                <physDesc>
+                  
+                </physDesc>
+                <history>
+                    <origin>
+                        <origDate when="1719-04-19"/>
+                    </origin>
+                </history>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>Editionsregeln und Kodierungsrichtlinien</p>
+            <!-- this may be a pointer to the actual document --> 
+        </editorialDecl>
+        <projectDesc>
+            <ab>
+                <ref target="context:vipa" type="context">
+                    Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                </ref>
+                <ref target="context:vipa.pr" type="context">
+                    Protokollbücher
+                </ref>
+                <ref target="context:qhod" type="context">
+                    Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                </ref>
+            </ab>
+            <!-- Project description -->
+            <p>Projektbeschreibung</p>
+            <!-- this may be a pointer to the actual document -->
+        </projectDesc>
+        <refsDecl>
+            <p>
+                Protokollregister über Dayezade İbrahim Paschas Abschiedsaudienz, Istanbul, 19. April 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+            </p>
+        </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="ota">Ottoman Turkish</language>
+        </langUsage>
+        
+    </profileDesc>
+</teiHeader>
+
+<facsimile>
+    <surface start="#IMG1">
+        <graphic url="A_}d___00347_00023b.jpg" xml:id="IMG1"/>
+    </surface>
+</facsimile>
+<text type="protocol">
+<body>
+    
+    
+    <div type="original" xml:id="vipa.pr.osm.17190419">
+    <pb n="1" facs="#IMG1"/> 
+    <ab><lb/><rs type="place">Nemçe’ye</rs> ilçi taʿyīn olunan sābıḳan silahdār-ı şehriyārī <rs type="person">İbrāhīm Aġanıñ</rs> ilçilik
+        <lb/>ve ʿazīmetini müşʿirdür. Der-sene 1131 tariḫ-i ʿazīmeteş
+        <date type="Hijri" when="1719-04-19">29 C<supplied resp="#yy">emaziyülevvel</supplied> 1131</date></ab>  
+    
+        <ab><lb/>Mez̠kûr <rs ana="MPRautomatched" ref="#mpr14228" type="person">İbrāhīm Aġa</rs> <rs type="place">Āsitāne’ye</rs> gelindikde <rs type="place" ref="#mpr14238">Rūmili</rs> pāyesiyle 
+        <rs type="place">Nemçeye</rs> ilçi
+            <lb/>taʿyīn olunub nevrūzda <note resp="#yy" type="footnote" xml:id="ftn1">Turkish <foreign xml:lang="tr">Nevruz</foreign> Persian <foreign xml:lang="fa">Newroz</foreign>; marking Spring’s arrival.</note>
+            ʿazīmet üzere meʾmūr olunmaġla ḥīn-i ʿazīmetden
+        <lb/>bir ay muḳaddem ḳapuya geldikde <choice><corr>vizāret</corr><sic>vizerāt</sic></choice> 
+        ʿünvānıyla altı şāṭır ve maṭaracı ve tüfengci
+        <lb/>ve öñince ḳapucılar ketḫüdāsı ve selām aġası yürüyüb gitdi. Erkān ferāce 
+        <lb/>kürk ile müzeyyen olmak üzere bu es̠nāda müşarün ileyh <unclear>bu ṭaḳımı</unclear> yalñız 
+        <lb/>ḳapuya geldikde vekil her ne ṭarafa gider ise bu minvāl üzere ḥareketi fermān 
+        <lb/>olunmaġla öylece itmişdür. Ve <date type="Hijri" when="1719-04-19">sene-i mezbūre Cemāz̠iyüʾl-evvelinüñ yigirmi
+        <lb/>ṭoḳuzuncı Pencşenbe günü</date> kendi ṭaḳımı alayı ile ṣavb-ı me<supplied resp="#yy">ʾ</supplied>mûresine
+        <lb/>ʿāzm ve rāhī olunmışdur.</ab>
+        <note resp="#yy" type="footnote" xml:id="ftn2">When did Ibrahim
+            Pasha depart Istanbul? According to the travelogue of Ibrahim Pasha’s 
+            mission to Vienna, written by an anonymous author in 1726, the journey began on March 23, 1719.
+            However, in the above entry, there are two conflicting dates:
+            According to the title of the entry, the departure from Istanbul took place
+            on April 19, 1719. Next, the opening paragraph emphasizes that
+            Ibrahim Pasha was instructed to set out on his journey on the day of Nevruz,
+            the first day of the year according to the Persian calender corresponding
+            to the spring equinox on or around March 21. Then, the last sentence informs
+            the readers that Ibrahim Pasha and his entourage set on their journey on April 19, 1719.
+            Did Ibrahim Pasha depart on Nevruz or did he stay in Istanbul until April 19? 
+            Given the fact that Ibrahim Pasha waited for the arrival of the Austrian mission 
+            at Niš for forty days, he must have actually left Istanbul on the day of Nevruz.
+            The Ottoman mission's departure from Istanbul on March 23 is also confirmed by multiple
+            Habsburg sources. <ref target="/o:vipa.tr.hbg.1723#page14">For instance, see fol. 12v
+                in the instructions of Virmont, dated May 6, 1719.</ref>
+        </note>
+      
+    </div>
+           
+    <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190419-transl">
+        <pb n="1" facs="#IMG1"/> 
+        <ab>The appointment of the ambassador to Austria, previously the sultan’s sword keeper,
+         Ibrahim Agha’s mission and departure [hereby] announced in the year 1719.
+         The date of departure is <date when="1719-04-19">April 19, 1719</date>.</ab>
+               
+        <ab>
+         When the aforementioned Ibrahim Agha arrived to the royal court [in Istanbul],
+         he was granted the honorary rank of Governor General of (<foreign xml:lang="ota">Rumili</foreign>)
+            and [he] was commissioned to leave on the Persian New Year.<ref target="#ftn1" type="note_reference"/>
+            
+            <!-- <note resp="#yy" type="footnote" xml:id="ftn1">Turkish <foreign xml:lang="tr">Nevruz</foreign> Persian <foreign xml:lang="fa">Newroz</foreign>; marking Spring’s arrival.</note> -->    
+         
+         
+         During his visit to the court for an audience one month before his departure, he paraded with the rank of a vizier
+         [and was] followed by six footmen, cupbearers, and musketeers. [He was] preceded by the commander of the palace gatekeepers
+         and the master of ceremonies. The aforementioned [Ibrahim Agha] arrived alone at the gate
+         with a ceremonial cloak on him and, as he was commanded to follow the lieutenant in whichever direction the latter went,
+         he did so. In this year, on <date when="1719-04-19">April 19, Thursday</date> (29 Cemaziyülevvel 1131), he with his entourage,
+            paraded and set out on their journey to the direction of their appointment [to Vienna].<ref target="#ftn2" type="note_reference"/></ab>
+        
+        <!-- <note resp="#yy" type="footnote" xml:id="ftn2">When did Ibrahim
+            Pasha depart Istanbul? According to the travelogue of Ibrahim Pasha’s 
+            mission to Vienna, written by an anonymous author in 1726, the journey began on March 23, 1719.
+            However, in the above entry, there are two conflicting dates:
+            According to the title of the entry, the departure from Istanbul took place
+            on April 19, 1719. Next, the opening paragraph emphasizes that
+            Ibrahim Pasha was instructed to set out on his journey on the day of Nevruz,
+            the first day of the year according to the Persian calender corresponding
+            to the spring equinox on or around March 21. Then, the last sentence informs
+            the readers that Ibrahim Pasha and his entourage set on their journey on April 19, 1719.
+            Did Ibrahim Pasha depart on Nevruz or did he stay in Istanbul until April 19? 
+            Given the fact that Ibrahim Pasha waited for the arrival of the Austrian mission 
+            at Niš for forty days, he must have actually left Istanbul on the day of Nevruz.
+            The Ottoman mission's departure from Istanbul on March 23 is also confirmed by multiple
+            Habsburg sources. <ref target="/o:vipa.tr.hbg.1723#page14">For instance, see fol. 12v
+            in the instructions of Virmont, dated May 6, 1719.</ref>
+            </note> !-->
+     
+     
+     
+        
+    
+    </div>
+    </body>
+</text>
+</TEI>

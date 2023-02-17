@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an Eugen von Savoyen, Pera, 3. April 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to Eugene of Savoy, Pera, April 3, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                
+                <idno type="PID">o:vipa.l.hbg.17200403</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 187-2, fol. 87r-v, 90v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an Eugen von Savoyen, Pera, 3. April 1720, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/750640/">Pera</placeName>
+                    <date when="1720-04-03">3. April 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/118605941">Eugen von Savoyen-Carignan</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="next" target="/o:vipa.l.hbg.17200404">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1720-04-04">4. April 1720</date>
+                    </ref>
+                    <ref type="previous" target="/o:vipa.l.hbg.17200324">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1720-03-24">24. März 1720</date>
+                    </ref>
+                </correspContext>
+                
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>complains of the Sublime Port concerning the lacking liberation of Ottoman captives</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="38KV_87r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="38KV_87v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="38KV_88r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="38KV_88v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="38KV_89r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="38KV_89v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="38KV_90r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="38KV_90v.jpg" xml:id="IMG8"/>
+        </surface>
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="87r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 38.</ref> d.do. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                <date when="1720-04-03">3. Aprilis 1720</date> ohne beylag.</metamark>
+            <pb n="87v" facs="#IMG2"/>
+            <pb n="88r" facs="#IMG3"/>
+            <opener>
+                <salute>Durchleüchtigster fürst. p.</salute></opener> 
+            <p>Gnädigster herr. Eüer durchleucht solle ich gehorsambst beybringen, daß mir seine excellenz der herr <rs type="person" ref="#mpr9441">groß vezier</rs> auf befehl ihrer Mt. des <rs type="person" ref="#mpr14244">groß sultans</rs> durch der Pforten ober-dollmetsch den herrn <rs type="person" ref="#mpr14575">Gika</rs> vermelden lassen. Wie sich der Pforten verweundere, daß sie weder von des herrn <rs type="person" ref="#mpr14276">Ibrahim bassa</rs> excellenz, noch sonsten nicht das mindeste biß dato vern<subst><del>o</del><add>e</add></subst>hmen, daß noch ein einziger türckhischer gefangener weder auß denen offentlichen gefängnussen, weder durch loßgeld von particularen zuruckhgegeben worden seye. Dahero vermainen, gleichsamb ursach zu haben, umb zu zweiffeln, ob von seitten ihrer <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> denjenigen articul, welcher zum guten beederseitigen gefangenen dem Posarovizischen tractat einverleibt ist, ein genüge geschehe. Da doch hiesigerseiths sowohl auß denen offentlichen
+            <pb n="88v" facs="#IMG4"/>gefängnussen, alß auch dem gewalt der particularen schon eine ansehenliche anzahl gefangener Teütschen, oder anderer ksl. unterthannen loß gemacht seye worden. Thätte derowegen vorgedachte seine excellenz der herr <rs type="person" ref="#mpr9441">groß vezier</rs> auf befehl ihrer Mt. des <rs type="person" ref="#mpr14244">groß sultan</rs> von mir verlangen, an euer durchleucht zu schreiben, sye hierüber zu informiren, und dieselbe sonderlich zu ersuchen, daß starckhe befehl aller orthen und vor allen in <rs type="place" ref="#mpr1398">Hungarn</rs>, allwo ihren sagen nach verschidene gefangene Türckhen sich noch befinden sollen, welche sie publicos zu seyn glauben, weillen man sie zur offentlichen arbeith gebrauche. Sogleich ergehen, crafft derenselben nicht allein all solche offentliche oder des publici gefangene umbsonst, sondern auch die, bey denen particularen anzutreffen, umb ein
+            <pb n="89r" facs="#IMG5"/>billiches loßgeld des herrn <rs type="person" ref="#mpr14276">Ibrahim bassa</rs> excellenz außgeliffert, und also den articul des oberwehnten Posarovizischen fridens instruments auf alle weiß hierinfahls ein genüge gelaistet werde. Obwollen ich nun zwar nicht einmahl, sondern öffters der gefangenen halber hier versichert, und geantworttet habe, daß ich gewiß wisse, wan gefangene Türckhen zu finden, man selbe gar gern dem <rs type="person" ref="#mpr14276">ottomannischen herrn bottschaffter</rs> heraußgeben wurde, ich kunte aber versprechen, daß erstlich keine publici verhanden, die particularen aber, so gefangene Türckhen haben möchten, dieselbe umb ein billiches loßgeld herauß zu geben, ganz leicht zu halten seyn werden. Weillen mir jedoch zum besten bekhandt, daß eueren durchleucht des ganzen hofs und der allerhöchsten person selbsten gänzlicher willen und synn seye,
+            <pb n="89v" facs="#IMG6"/>alle und jede, durch den Posarovizer friden ausgemachte und geschlossene bedingnussen, besonders was die gefangene betrifft, richtig zu erfillen, und ammit eine genaue freündschafft mit der Pforten zu unterhalten. Also habe kein bedenckhen zu tragen gehabt, an euer durchleucht ein schreiben in diser sach abzugeben, und dieselbe nach den verlangen der Pforten zu bitten. Daß sye wegen möglicher aufbringung der gefangenen Türckhen und dieselbe nach der durch den mehrgemelten Posarovizer tractat vorgeschribenen arth und weiß herausß zu geben ihre hohe auctorität einlegen möchten, und zwar mit so gnädiger naigung, alß ich mich schuldig befinde, die sonderlichen ehren, die mir bey der Pforten und vornemblich von ihre excellenz dem herrn <rs type="person" ref="#mpr9441">groß vezier</rs> geschehen, sehr zu rüehmen, auch bißanhero nur
+            <pb n="90r" facs="#IMG7"/>sechs und achtzig gefangene auß denen offentlichen gefängnussen geliffert und sonsten von particularen schon zweyhundert drey und fünffzig loßgemacht, und jezt leztlich widerumn fünffzehen Napolitaner auß der bannio, wegen welcher auß verschidenen umbständen difficultäten waren, und man sich lang gewaigert, zu bezaigung der freündschafft endtlich extradirt worden. Womit mich gehorsambst empfehle und ersterbe.</p>
+            <closer>
+                <salute>Euer durchleucht.</salute>
+                
+                <dateline><rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs type="place" ref="#mpr14055">Constantinopl</rs> den <date when="1720-04-03">3. Aprilis 1720</date>.</dateline>
+                <signed>Gehorsambster und dienstschuldigster diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+                
+            </closer>
+            
+            <pb n="90v" facs="#IMG8"/>
+            <metamark><date when="1720-04-03">3. April 1720</date></metamark>
+            <metamark>Pro notitia <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1720-04-04">4. Maii 1720</date>.</metamark>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 11</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15710000</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Staatsabteilungen, Türkei I</collection>                        
+                        <idno type="regest_petritsch" n="652">Turcica 28/2, fol.149a</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date when="1571" confidence=".8">ca. 1571</date>
+                    
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15700922">Urkunde 10</ref>
+                <ref type="next" target="o:sema.rc.osm.15720731.1">Urkunde 12/1</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 11: Geschrieben ca. 1571. Befehl an den
+                Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>, <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>. Die Abschrift einer Liste von
+                Grenzverletzungen und Überfällen, die der Gesandte von <rs type="place" ref="#mpr13416">Wien</rs> vorgelegt hat, wurde ihm zugesendet. 
+                Die Einhaltung des Friedensvertrages ist allen Begs und Truppen anzuordnen und Übertretungen zu bestrafen. Verlangt eine Liste aller muslimischen Übeltäter und der Muslime, die gefangengenommen worden sind. 
+                Gegnerische Grenzverletzungen sollen ebenfalls gemeldet werden und die Freilassung der Muslime zu fordern.</p>                
+                </abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 11: Selim II. an Muṣṭafā Paşa, ca. 1571, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.11">
+            <graphic url="11_652-1.jpg" xml:id="IMG.11"/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+                
+            
+                
+                
+               
+                <div n="11"><div type="transcription" xml:lang="ota">
+                    <pb facs="#IMG.11" n="11"/>
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    
+                    
+                    <ab>Ṣūret-i ḥükm-i şerīf</ab>
+                    
+                        <ab type="inscriptio"><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine 
+                        ḥükm ki</ab> <ab type="narratio">ḥālīyen <rs type="place" ref="#mpr13416">Beç </rs> ėlçisi dergāh-i muʿallāma ʿarż-i ḥāl ṣunub emn u emāna muḫālif ol cānibden 
+                    <lb n="2"/>ḫayli esīr alınub ṣalıvėrildükde ve anuñ gibi fesād u şenāʿatde ʿahda mugāyir evżāʿ ṣādır olmaġla ṭutılmayub gendü 
+                    <lb n="3"/>maṣlaḥatlerinde iken ʿahd u emān içinde ṭarafeynden ṭutılub esīr olanlar iki cānibden iṭlāḳ olunmasın murād 
+                    <lb n="4"/>ėdindüklerin ve serḥadd ġāzīleri aṣlā memleket u vilāyetleri ġāretden ḫālī olmadugın iʿlām ėdüb daḫı 
+                    <lb n="5"/>baʻż-i ḫuṣūslar bildürmekle vėrdükleri ʿarż-i ḥālüñ bir ṣūreti ʿayni ile yazılub saña irsāl olundı</ab> <ab type="narratio">buyurdum ki                                                        
+                    <lb n="6"/>varduḳda ʿarż-i ḥāllerinde mesṭūr olan ḫuṣūṣlarına naẓar ėdüb daḫı min baʿd
+                    serḥadda olan                              
+                    <lb n="7"/>ümerā’ ḳullaruma ve sāyir ʿasker ḫalḳına muhkem tenbīh u te’kīd eyleyüb min baʿd ṣulḥ u ṣalāḥa ve ʿahdnāme-i hümāyūnuma muḫālif 
+                    <lb n="8"/>vilāyetlerine ve reʿāyā vü berāyāsına daḫl u taʿarruż ėtdürmeyesin anuñ gibi eslemeyüb ʿahd u emāna muḫālif 
+                    <lb n="9"/>memleket u vilāyetlerine ve gendü ḥāllerinde olan reʿāyā vü ādemlerine daḫl u taʿarruż ėdenlerüñ ḥaḳḳlarından gelüb 
+                    <lb n="10"/>ṣulḥ u ṣalāḥa mugāyir iş ėtdürmeyesin ve sen-daḫı ʿahd u emān içinde anlar esīr ėtdükleri ehl-i islāmı 
+                    <lb n="11"/>defter ėdüb bir ṣūretin dergāh-i muʿallāma gönderüb ve bir ṣūretin daḫı mezbūr ėlçiye teslīm eyleyüb 
+                    <lb n="12"/>esīr ėtdükleri müslümānları ol cānibden ṭaleb ėdüb ehl-i islāmuñ istiḫlāṣı bābında iḳdām u ihtimāmuñ 
+                    <lb n="13"/>ẓuhūra getüresin anuñ gibi mezbūrlaruñ ʿasākirinden ve reʿāyāsından gendü ḥāllerinde olub ṣulḥ u ṣalāḥa 
+                    <lb n="14"/>ve ʿahdnāme-i hümāyūnuma muḫālif vażʿ ṣudūr ėtmedin bu cānibde esīr olmış kimesneleri varsa berü cānibden                                                    
+                    <lb n="15"/>esīr olanları anlar iṭlāḳ ėtdükden-ṣoñra sen-daḫı anlar ṭarafından esīr olanları iṭlāḳ ėtdürüb 
+                    <lb n="16"/>ʿahd u emāna muḫālif vażʿ ṣudūrına aṣlā bir ferde rıżā vėrmeyesin</ab> 
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.11" n="11"/>
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    
+                    <ab>Die Abschrift des erhabenen Befehls</ab>
+                    
+                    <ab type="inscriptio">Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>:</ab>
+                    <ab type="narratio">Nun hat der Gesandte von <rs type="place" ref="#mpr13416">Wien</rs> meiner hohen Pforte eine Petition eingereicht und <supplied resp="#ht">folgendes</supplied> bekanntgegeben: Es wurden von jener Seite viele gegen den Frieden (und Sicherheit) gefangen genommen 
+                        und <supplied resp="#ht">wieder</supplied> freigelassen. Sie hegen den Wunsch, dass jene Gefangene, die nicht aufgrund vertragswidriger Handlungen in Aufruhr und Niedertracht gefangen wurden,
+                        sondern während des Vertrags und Waffenstillstandes ihren Geschäften nachgingen, <supplied resp="#ht">aber</supplied> von beiden Seiten gefasst und gefangen genommen wurden freigelassen werden. 
+                         Die Glaubenskämpfer an der Grenze unterlassen es niemals die Länder und die Gebiete zu plündern.
+                          Und <supplied resp="#ht">außerdem</supplied> noch einige Angelegenheiten mitgeteilt. Eine Abschrift der von ihnen eingereichten Petition wurde wortwörtlich niedergeschrieben und an Dich geschickt.</ab>
+                    <ab type="dispositio">Ich befehle, dass, sobald <supplied resp="#ht">er</supplied> einlangt, Du ihre
+                            Angelegenheiten, die in der Petition niedergeschrieben sind untersuchst
+                            und von nun an meine Diener, die Emire und übrige Soldaten an der Grenze
+                            eindringlichst in Kenntnis setzt und instruierst. Und auf ihre Gebiete
+                            und Untertanen zukünftig keine Einmischung und keinen Angriff gegen
+                            Friede und Eintracht und mein großherrliches Vertragsschreiben erfolgen lässt.                        
+                    Jene, die nicht gehorchen und gegen den Vertrag
+                            und Waffenstillstand ihre Länder und Gebiete und die friedlichen
+                            Untertanen und Leute angreifen und überfallen sollst Du bestrafen und
+                            nichts der Ordnung und dem Frieden Widersprechendes geschehen
+                            lassen. 
+                    Und auch Du sollst die Muslime, die sie während
+                            des Vertrags und Waffenstillstands gefangen genommen haben auflisten,
+                            eine Abschrift an meine hohe Pforte schicken und auch dem erwähnten
+                            Gesandten eine <supplied resp="#ht">weitere</supplied> Abschrift übergeben, und die gefangenen Muslime
+                            von der anderen Seite zurückfordern und in der Sache der Freilassung der
+                            Muslime Deine Beharrlichkeit und Sorgfalt erweisen.
+                    Genauso, wenn es Soldaten und Untertanen der
+                            Erwähnten gibt, die sich friedlich benommen haben und ohne, dass eine
+                            Handlung gegen Friede und Eintracht und mein großherrliches Vertragsschreiben erfolgt ist, auf dieser Seite gefangen genommen wurden, sollst Du, nachdem
+                            sie die Gefangenen auf ihrer Seite freigelassen haben,
+                            die Freilassung derGefangenen von ihrer Seite
+                            veranlassen und absolut niemandem erlauben gegen den Vertrag und Waffenstillstand zu handeln.</ab>
+                    
+                          
+                </div>
+                </div>
+                
+            
+        </body></text>
+    </TEI>

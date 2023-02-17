@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pazardzhik, 22. Mai 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pazardzhik, May 22, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName>
+                        <forename xml:id="mm">Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200522</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 66r-69v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Pazardzhik, 22. Mai 1720, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/728378/">Pazardzhik</placeName>
+                    <date when="1720-05-22">22. Mai 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17200512"> Letzter Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-05-12">12. Mai 1720</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17200529"> Nächster Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-05-29">29. Mai 1720</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                <item>return journey.</item>
+                <item>preparations for the exchange ceremony.</item>
+                <item>health issues</item>
+            </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName></change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="44KV_66r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="44KV_66v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="44KV_67r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="44KV_67v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="44KV_68r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="44KV_68v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="44KV_69r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="44KV_69v.jpg" xml:id="IMG8"/>
+        </surface>
+       
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="66r" facs="#IMG1"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 44</ref> d.do. <rs ana="MPRautomatched"
+                ref="#mpr14588" type="place">Paradzhik</rs> ohne beylag.</metamark>
+            <metamark>P.S. de eodem ohne beylag</metamark>
+            <pb n="66v" facs="#IMG2"/>
+            <pb n="67r" facs="#IMG3"/>
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath p.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. Meiner schuldigkeit gemäß habe zu seyn erachtet, eüer durchleuchtigsten excellenzien und meinen hochgeehrtisten von dem guten fortgang meiner reyse ferreren bericht abzustatten, anbey gehorsambst und schuldigst zu erinneren, daß <date when="1720-05-21">gestern</date> zu <rs type="place" ref="#mpr9442">Philipopoli</rs> durchgezohen. Anhünt glückhlich allhier angelanget und meinen march, so vill sich thuen lasset, nach denen gränitzen mit allem eyfer prosequiren werde. Daß also den <date when="1720-06-06">sechst-</date> oder <date when="1720-06-07">sibenden künfftigen monaths Junii</date> geliebts Gott zu <rs type="place" ref="#mpr14602">Nissa</rs> ohngefehr einzutreffen gedenckhe.</p>
+            <p>Es schreibet mir herr general feldwachtmeister <rs type="person" ref="#mpr14241">graf
+                    von Oduyer</rs>, daß er allschon zu zweymahlen auf meine gethane erinnerung
+                wegen meiner reception zu erwehnten <rs type="place" ref="#mpr14602">Nissa</rs> und
+                den auswechslungs-actum <pb n="67v" facs="#IMG4"/>an denen gränitzen alldasigen
+                seraskier zugeschriben, umb das concerto wegen diser function mit ihme pflegen zu
+                können, von selbten aber jederzeit zur antwort erhalten, wie daß er von seitten der
+                ottomanischen Pforten hierzu noch nicht benennet worden seye, in hoc puncto aber
+                einen expressen mit briefen nacher <rs type="place" ref="#mpr14055"
+                    >Constantinople</rs> abgeschickhet hätte, bey dessen zuruckhkunfft er hierüber
+                die vollmacht erwarttete. Woran umb so weniger zu zweifflen habe, alß mir der <rs
+                    type="person" ref="#mpr9441">groß vezier</rs>, daß solches geschehen solle,
+                nicht allein gesagt, sondern derbey mir zur beglaittung seyende capigi-bassa
+                confirmiret, daß wehrenden meinen marches ein ciohodar besagten seraskiers mit einem
+                befelch von der Pforten, auch cafftan vor mein gefolg nach ihren gebrauch vorbey
+                zuruckh gegangen seye. <pb n="68r" facs="#IMG5"/>Ich vernehme ferrers von gedachten
+                herrn general feldwachtmeister <rs type="person" ref="#mpr14241">grafen von
+                    Oduyer</rs>, daß ohangesehen ein hochlöblicher ksl. hof-kriegs-rath ihme
+                intimiret hätte, es werde der türckhische herr <rs type="person" ref="#mpr14276"
+                    >gros bottschaffter</rs> positive den <date when="1720-05-04">vierten
+                    huius</date> von <rs type="place" ref="#mpr13416">Wienn</rs> aufbrechen, so habe
+                er jedoch mit lezter ordinari von dem ksl. schüff-ambts obristleütnant den bericht
+                erhalten, wie daß eine ohnmöglichkeit seye, bey dermahligen hohen wasser den <date
+                    when="1720-05-06">sechsten dits</date> von dorten abfahren zu können, und wäre
+                auch darauf kein gedanckhen zu machen, biß nicht das wasser klaffter hoch fallen
+                würde. Mir also nichts verlässliches überschreiben könne, verhoffe aber, demnächsten
+                hiervon versicherte nachricht zu erhalten, da ich diesem ungeacht meinen march
+                indessen, wie oben gemeldet, fortseze. <pb n="68v" facs="#IMG6"/>Von ansteckenden
+                kranckheiten habe wehrenden meinen march nichts verspühret, und höret man auch von
+                anderen orthen her nicht das mindeste. Es ist nicht weniger alles bey meinem gefolg
+                in guter gesundheit, ausser daß der dollmetsch <rs type="person" ref="#mpr15670"
+                    >Gottschalckh</rs> und sprachknab <rs type="person" ref="#mpr15671">Momarts</rs>
+                mit fiebern behafftet, und also nur den <rs type="person" ref="#mpr10485">Nicola
+                    Theyls</rs> zum dienst übrig, fangen aber beede schon zu besseren an.</p>
+            <p>Ich werde von <rs type="place" ref="#mpr10977">Sophia</rs> und weithers von denen gränitzen die berichte von allem, was wehrender meiner reyse vorgegangen, gehorsambst und schuldigst einzusenden ohnermanglen. Womit mich zu beharrlichen gnaden gehorsambst empfehle verharre.</p>
+            <closer>
+                <salute>Eüer  durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldigster <rs ana="MPRautomatched" ref="#mpr9435"
+                    type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr14588" type="place">Passarsick</rs>
+                </address>
+                <dateline>den <date when="1720-05-22">22. Maii 1720</date></dateline>
+            </closer>
+            <pb n="69r" facs="#IMG7"/>
+            <postscript>
+                <p>P.S.</p>
+                <p>Auch durchleüchtigster fürst, excellenzin und meine hochgeehrtiste herren. ich hatte eben vorhergehenden bericht zum vorauß verferttiget, umb solchen von hier auß gehorsambst und schuldigst abgehen zu lassen, alß mich der ksl. courrier <rs type="person" ref="#mpr15307">Theodor Constanz</rs> bey einruckhung in das gestrige lager unweit <rs type="place" ref="#mpr9442">Philipopoli</rs> antraffe, und alda mir euer durchleuchtigsten excellenzien und meiner hochgeehrtisten herren untern <date when="1720-05-10">10.</date> an mich gnädigst und gnädig abgelassenes richtig und wohl überlifferte. und habe ich denselben nach deziferirung und überlesung unaufgehaltener weiters fort gnädigst und gnädig anbefohlenermassen alsobald nacher <rs type="place" ref="#mpr14055">Constantinopel</rs> expedirt, wie ich dan nach dem darin enthaltenen bey sich eraignenden fall mich zu richten wissen werde, und wegen der etwan nach <rs type="place" ref="#mpr14151">Persien</rs> zu schickhen seyender person, auf daß selbe den <rs type="person" ref="#mpr14276">türckhischen gesandten</rs> zu mehrerer sicherheit und bequemblichkeit noch antreffen möge, die allerhöchste ksl. resolution ohne gehorsambster maßgebung bald thuenlichst erwartte. Da mir
+                <pb n="69v" facs="#IMG8"/><metamark place="top">Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> <date when="1720-07-01">1. Julii 1720</date>.</metamark>
+                übrigens zu abermahliger meiner absonderlichen consolation geraicht, daß dasjenige, was vor die cathollische religion in der insul <rs type="place" ref="#mpr15308">Scio</rs> vor die ksl. negotianten privative zugestandenen bottaschen handel, sodan in fortschaffung des <rs type="person" ref="#mpr15310">Ragozy</rs> und seiner boßhafften adhaerenten nach <rs type="place" ref="#mpr15345">Rhodoste</rs> vor meiner abreys auß <rs type="place" ref="#mpr14055">Constantinopl</rs> auszurichten vermöcht, zu euer durchleuchtigsten excellenzien und meiner hochgeehrtsiten herren approbation und wohlgefahlen gewesen. Der mich annebst zu ferreren gnaden gehorsambst empfehlendt ersterbe. Datum ut in litteris.</p>
+                <closer>
+                    <signed><rs ana="MPRautomatched" ref="#mpr9435" type="person">Virmonten</rs></signed>
+                </closer>
+            </postscript>
+          
+        </body>
+    </text>
+</TEI>

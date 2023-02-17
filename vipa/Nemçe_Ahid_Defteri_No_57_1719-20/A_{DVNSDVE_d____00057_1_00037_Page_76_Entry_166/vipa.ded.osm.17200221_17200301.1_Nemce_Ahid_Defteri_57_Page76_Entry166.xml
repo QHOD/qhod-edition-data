@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Admiral Wesir Süleyman
+                    Pascha und den Obersten Richter (Mevlana) von İzmir über die Freilassung von
+                    sieben österreichischen Gefangenen, die sich in Händen des Seekapitäns Derviş
+                    Ağazade İsmail Pascha befinden; Istanbul, 21. Februar – 1. März 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the Admiral Vizier Süleyman Pasha
+                    and to the chief judge (<foreign>mevlāna</foreign>) of İzmir about the release
+                    of seven Austrian captives who are found in possession Derviş Ağazade İsmail
+                    Pasha, a sea captain; Istanbul, February 21 – March 1, 1720</title>
+
+                <abstract xmlns="">
+                    <list>
+                        <item>Austrian ambassador</item>
+                        <item>Nemçe elçisi</item>
+                        <item>Damian Hugo von Virmont</item>
+                        <item>Decree to the governor of Shkodër and the judge of Ulcinj about the
+                            returning of the seized goods of merchants Orlando and Stefan, who are
+                            subjects of the Holy Roman Emperor according to the conditions of the
+                            imperial letter of agreement</item>
+                        <item>Admiral</item>
+                        <item>Kaptan-ı derya</item>
+                        <item>Vizier Süleyman Pasha</item>
+                        <item>Izmir</item>
+                        <item>captive</item>
+                        <item>esir</item>
+                        <item>prisoners of war</item>
+                        <item>Dervişağazade İsmail Paşa</item>
+                        <item>Asitane-i saadet (Istanbul)</item>
+
+                        <item>ahidname</item>
+                    </list>
+                </abstract>
+
+                <title xml:lang="tr">Sultanın, Kaptan-ı Derya Vezir Süleyman Paşa ve mevlāna İzmir
+                    kadısına hitaben, deniz kaptanlarından Derviş Ağazade İsmail Paşa’nın
+                    mülkiyetinde bulunan yedi Avusturyalı esirin serbest bırakılması hakkında hükmü;
+                    İstanbul, 21 Şubat – 1 Mart, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200221-17200301.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 76, entry 166</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-02-21" notAfter="1720-03-01"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Admiral Wesir Süleyman Pascha und den
+                    Obersten Richter (Mevlana) von İzmir über die Freilassung von sieben
+                    österreichischen Gefangenen, die sich im Besitz des Seekapitäns Derviş Ağazade
+                    İsmail Pascha befinden; Istanbul, 21. Februar – 1. März 1720; bearb. von Yasir
+                    Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz,
+                    in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20),
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00037_Page_76_Entry_166.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200221-17200301.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">166</metamark>
+
+                <ab><lb/>Bi-l-fiʿl ḳapūdān olan <rs type="person" ref="#mpr16133">Vezīr Süleymān
+                        Paşaya</rs> mevlānā <rs type="place" ref="#mpr15599">İzmīr</rs> ḳāḍīsına
+                    ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399"
+                        >Romā imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma
+                    gelen <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+                <ab>baş yedinde bulunan esīrler daḫī münāsib vechle mümkin olan maḳūl <lb/>ve
+                    muʿtedil bahā ile ıṭlāḳları cāʾiz ola esīr ṣāḥibi ile uzlaşılmayub nizāʿ
+                    vāḳiʿolduḳda ḥākimü’l-vaḳt olanlar <lb/>mābeynleri tevfīḳ ideler eger imkān
+                    olunur ise alduḳları bahāları isbāt ve yāḫūd ṣāḥiblerine yemīn teklīfiyle ẓāhir
+                    olduḳda <lb/>edā olunub ıṭlāḳ olunalar ve ṣāḥibleri ziyāde aḳça ṭamaʿıyla üṣārā
+                    taḫlīṣine māniʿ olmayalar diyü müşārün ileyh <rs type="person" ref="#mpr9399"
+                        >Romā imperāṭorı</rs>
+                    <lb/>ṭarafına iʿṭā olunan ʿahdnāme-i hümāyūnda mesṭūr ve muḳayyed olduġına
+                    bināʾen</ab>
+
+                <ab>ümerāʾ-ı deryādan <rs type="person" ref="#mpr16136">Dervīşaġazāde İsmaʿīl
+                        Paşa</rs>
+                    <lb/>yedinde bulunan <rs type="person" ref="#mpr16138">Niḳolo Pençler</rs> ve
+                        <rs type="person" ref="#mpr16139">Frānçesḳo Yeger</rs> ve <rs type="person"
+                        ref="#mpr16143">Miḳāel Geber</rs> ve <rs type="person" ref="#mpr16145"
+                        >Miḳāel Mayer</rs> ve <rs type="person" ref="#mpr16147">Adam
+                        Eşmed-Oḫred</rs>(?) ve <rs type="person" ref="#mpr16149">Françesḳo
+                        Ḫamil</rs> ve <rs type="person" ref="#mpr16151">Miḳāel Sincimeyd</rs>(?)
+                    <lb/>nām yedi nefer Nemçelü esīrlerüñ taḫlīṣi içün</ab>
+
+                <ab>sen ki <rs type="person" ref="#mpr16133">vezīr-i müşārün ileyh</rs>sin bundan
+                    aḳdem saña ḫiṭāben fermān-ı ʿālī ṣādır olmışken ḳable’t-taḫlīṣ <lb/><rs
+                        type="person" ref="#mpr16136">mīr-i mırān-ı meẕkūr</rs>
+                    <rs type="place" ref="#mpr15599">İzmīr</rs> ṭarafına ʿāzim oldıġın bildürüb
+                    ʿahdnāme-i hümāyūn mūcebince üsārā-yı mezbūr aʿdel vechle taḫlīṣ ve <rs
+                        type="place" ref="#mpr15599">İzmīr</rs>de <lb/>olan ādemīsine teslīm olunmaḳ
+                    bābında emr-i şerīfüm ricā eyledügi ecilden</ab>
+
+                <ab>sen ki <rs type="place" ref="#mpr16133">vezīr-i müşārün ileyh</rs>sin ʿahdnāme-i
+                    hümāyūn mūcebince aʿdel <lb/>vechle ıṭlāḳlarına ihtimām olunub ḫilāfında teraḳḳī
+                    olmamaḳ bābında fermān-ı ʿālī-şānum ṣādır olmışdur <rs type="person"
+                        ref="#mpr14244">buyurdum ki</rs>.</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1720-02-21" notAfter="1720-03-01">fī evāsıt-ı
+                            R<supplied resp="#yy">Rebīʿi’l-āḫir</supplied> sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200221-17200301.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the current Admiral <rs type="person" ref="#mpr16133">Vizier Süleyman
+                        Pasha</rs> [and] to the chief judge of <rs type="place" ref="#mpr15599"
+                        >İzmir</rs>:</ab>
+
+
+                <ab><rs type="person" ref="#mpr9399">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to the gate of my court as grand
+                    ambassador from the <rs type="person" ref="#mpr9435">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>It is written and recorded in the imperial letter of agreement (<foreign
+                        xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>) that was delivered to the
+                    aforesaid <rs type="person" ref="#mpr9399">Roman emperor</rs> that it shall be
+                    lawful to free in an appropriate way the captives who are found in the
+                    possession of notables(?) with the payment of a potential price that is
+                    acceptable and reasonable. In case no agreement is reached with the owner of a
+                    captive and a disagreement occurs, the notables shall
+                    intermediate between the two parties. If possible, the owner shall prove the
+                    price of purchase or the value shall be disclosed after taking an
+                    oath is proposed [to the owner of the captive]. After the price is revealed in
+                    this manner, the price shall be paid and the captive shall be freed. The owners
+                    shall not prevent the liberation of captives with greed for more money.</ab>
+
+                <ab>Based on this article, concerning the liberation of seven Austrian captives, named <rs
+                        type="person" ref="#mpr16138">Nicolo Penchler/Penkler/Pengler</rs>, <rs
+                        type="person" ref="#mpr16139">Francesco/Franz Jäger</rs>, <rs type="person"
+                        ref="#mpr16143">Michael Geber</rs>, <rs type="person" ref="#mpr16145"
+                        >Michael Mayer</rs>, <rs type="person" ref="#mpr16147">Adam
+                        Schmid-Ohred</rs>(?), <rs type="person" ref="#mpr16149">Francesco/Franz
+                        Hammel</rs>, and <rs type="person" ref="#mpr16151">Michael
+                        Senschmid/Sengtschmid</rs>(?) who are found in possession of <rs
+                        type="person" ref="#mpr16136">Dervişağazade İsmail Pasha</rs> from among the
+                    sea commanders:</ab>
+
+                <ab>You are the <rs type="person" ref="#mpr16133">aforesaid vizier</rs>! Previously,
+                    an illustrious edict addressed to you was issued. Before the liberation of the
+                    captives, <rs type="person" ref="#mpr16136">the aforesaid commander</rs>
+                    reported that he was on his way to <rs type="place" ref="#mpr15599">İzmir</rs>.
+                        [<rs type="person" ref="#mpr9435">The ambassador</rs>] requested my noble
+                    order for the aforesaid captives to be freed in the most just way as required by
+                    the imperial letter of agreement and for their delivery to [<rs type="person"
+                        ref="#mpr9435">the ambassador</rs>’s] men located in <rs type="place"
+                        ref="#mpr15599">İzmir</rs>. You are <rs type="person" ref="#mpr16133">the
+                        aforesaid vizier</rs>! Great care shall be paid to the liberation of the
+                    captives in the most just way as required by the imperial letter of agreement.
+                    My illustrious edict has been issued for nothing to develop in its violation. So
+                    have <rs type="person" ref="#mpr14244">I</rs> commanded!</ab>
+
+
+                <ab><date type="Hijri" notBefore="1720-02-21" notAfter="1720-03-01">February 21 to
+                        March 1, 1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

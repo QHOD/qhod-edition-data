@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Beilage 4 zu Brief 4. April 1720: Kopie des Briefes von Virmont vom 11. März 1720</title>
+                <title xml:lang="en">Attachment 4 to letter April 04. 1720: copy of Virmont's letter from March 11. 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17200404.b2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 187-2, fol. 110r-113v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Beilage 4 zu Brief 4. April 1720: Kopie des Briefes von Virmont vom 11. März 1720, bearb. von Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1) Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918
+                    </ref>
+                    
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <date when="1720-04-04">4. April 1720</date>
+                </correspAction>
+                <note>
+                    <ref type="attachedTo" target="/o:vipa.l.hbg.17200404"/>
+                </note>
+            </correspDesc>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="39B4_110r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="39B4_110v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="39B4_111r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="39B4_111v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="39B4_112r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="39B4_112v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="39B4_113r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="39B4_113v.jpg" xml:id="IMG8"/>
+        </surface>
+        
+    </facsimile>
+</TEI>
+

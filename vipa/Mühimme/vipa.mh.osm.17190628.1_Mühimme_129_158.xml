@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Befehl an den Rechtsgelehrter von Sofia und an alle Richter, 
+                    den stellvertretenden Gouverneur von Sofia, Adjutanten der Janitscharenkommandanten, 
+                    Janitscharenchefs, Würdenträger der Provinz und Funktionäre,
+                    die auf der Straße nach bis Sofia und Plovdiv stationiert sind, 
+                    um die sichere Reise des Großbotschafters des österreichischen Kaisers zu gewährleisten,
+                    Istanbul, 28. Juni 1719</title>
+                <title xml:lang="en">Command to the chief judge of Sofya and to all judges, to the
+                    lieutenant governor of Sofia, aides-de-camp of janissary commanders,
+                    janissary chiefs, notables of the province, and functionaries that
+                    are stationed on the road to Sofia and Plovdiv, to ensure the safe journey of
+                    the grand ambassador of the Austrian emperor, İstanbul, June 28, 1719</title>
+                <title xml:lang="tr">Sofya mollasına, Sofya ve Filibe'ye gelince yol üzerindeki kadılara,
+                    Sofya mütesellimine, kethüdayerleri, yeniçeri serdarları, ayan-ı vilayet
+                    ve iş erlerine, Nemçe çesarı büyükelçisinin emniyet içinde yolculuğunun temin edilmesi
+                    İstanbul, 28 Haziran 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.mh.osm.17190628.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Mühimme defteri 129</collection>
+                        <idno>158</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-06-28"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>
+                    Befehl an den Rechtsgelehrter von Sofia und an alle Richter, 
+                    den stellvertretenden Gouverneur von Sofia, Adjutanten der Janitscharenkommandanten, 
+                    Janitscharenchefs, Würdenträger der Provinz und Funktionäre,
+                    die auf der Straße nach bis Sofia und Plovdiv stationiert sind, 
+                    um die sichere Reise des Großbotschafters des österreichischen Kaisers zu gewährleisten,
+                    Istanbul, 28. Juni 1719, 
+                    bearb. von Yasir Yılmaz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), 
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.mh" type="context"> Mühimme </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="Muhimme_129_158.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.mh.osm.17190628.1">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <lb/>Ṣofya mollāsına ve Ṣofya ve Filibeye gelince yol üzerinde vāḳiʿ
+                olan ḳāżilara ve Ṣofya mütesellimine ve ketḫüdāları ve yeñiçeri 
+                serdārları ve aʿyān-ı vilāyet ve iş erlerine ḥüküm ki:
+                
+                <lb/>ʿAtebe-i ʿaliyye-i mülūkāneme Nemçe çāsārı ṭarafından baʿs̱ 
+                ve irsāl olunan büyükilçinüñ bir maḥallde teʾḫīr ve tevḳīf itdirilmeyüb
+                bir ān aḳdem der-i devlet-medāra irsāl ve īṣāline taḳayyüd olmaḳ lāzım
+                
+                <lb/>ve mühimm olmaġın bu ḫuṣūṣda Filibe ve Edirne ṭaraflarına
+                daḫı iʿlām-ı şerīfüm ıṣdār ve irsāl olmaġın imdi siz ki mūmā ileyhsiz
+                ilçi-yi mūmā ileyh her biriñizüñ taḫt-ı ḳażāsına dāḫıl olduḳda
+                
+                <lb/>bundan aḳdem sāye-i ṭarafuñuza ıṣdār ve irsāl olunan emr-i şerīfüm mūcebince
+                iḳtiżā iden levāzım ve mühimmāt taʿyīn olunan mübāşir maʿrifetiyle bi-lā teʾḫīr XXX
+                ve meks̱ ve tevaḳḳuf itdürilmeyüb taʿcīl-i
+                
+                <lb/>ʿāle’t-taʿcīl birbiriñüze irsāl ve bir an muḳaddem Filibeye īṣāl eyleyüb 
+                ihmāl ve tekāsülden bī-ġāyet iḫtirāz eyleyesiz. İlçi-yi mūmā ileyhiñ bir maḥallde bir nesneye
+                müżāyaḳa çekdürmeksizün
+                
+                <lb/>ve bi-lā-teʾḫīr refāhiyyet ile bir ān evvel ve bir s̱āʿat muḳaddem der-i devlet-medāruma irsāl ve
+                īṣāli devlet-i ʿaliyyemüñ ehemm-i umūrından olmaġla şöyle ki bundan aḳdem mālīye ṭarafından
+                
+                <lb/>ıṣdār ve irsāl olunan emr-i şerīfüm mūcebince ilçi-yi mūmā ileyhüñ 
+                mezād ve żaḫīre ve levāzım ve mühimmātın virmekde ve sürʿat üzere birbiriñüze irsāl ve bir ān evvel Filibeye
+                
+                <lb/>iṣālde zerre miḳdārı tehāvün ve ihmāl ve tėkāsülüñüz vuḳūʿ bulacaḳ olur ise bir dürlü ʿöẕr ve cevābıñuz iṣġā
+                ve iʿtibār olunmayub eşmeġ-i ʿuḳūbet ile muʿāḳıb
+                
+                <lb/>olacaġıñuzı muḳarrer ve muḥaḳḳaḳ bilüb āna göre bu emr-i lāzımü’l-ihtimāmuma her biriñüz diḳḳat-i
+                tāmm ve ilçi-yi mūmā ileyhi bir ān aḳdem Filibe’ye irsāl ve īṣālde ziyāde iḳdām
+                
+                <lb/>eylemeñüz bābında nişān-ı ʿālīşānum ṣādır olmuşdur. Buyurdum ki                
+                Fī evāyīl-i Ş[aban] [1]131 (19-28 June, 1719)
+                
+                
+            </ab>
+               
+            </div> 
+            
+<!--            <div type="translation" xml:lang="en" xml:id="vipa.mh.osm.17190628.1.trans">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

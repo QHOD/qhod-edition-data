@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Edirne, 12. Mai 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Edirne, May 12, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName>
+                        <forename xml:id="mm">Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200512</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 47r-51v, 53r-56v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Edirne, 12. Mai 1720, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/747712/">Edirne</placeName>
+                    <date when="1720-05-12">12. Mai 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17200501"> Letzter Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-05-01">1. Mai 1720</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17200522"> Nächster Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-05-22">22. Mai 1720</date>
+                    </ref>
+                </correspContext>
+                <note>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17200512.b1"/>
+                    
+                </note>
+            </correspDesc>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <list>
+                <item>return journey</item>
+                    <item>preparations for exchange ceremony</item>
+                    <item>exilation of Hungarian rebels</item>
+                    <item>plague</item>
+            </list>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName></change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="43KV_47r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="43KV_47v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="43KV_48r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="43KV_48v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="43KV_49r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="43KV_49v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="43KV_50r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="43KV_50v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="43KV_51r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="43KV_51v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="43KV_53r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="43KV_53v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="43KV_54r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="43KV_54v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="43KV_55r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="43KV_55v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="43KV_56r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="43KV_56v.jpg" xml:id="IMG18"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="47r" facs="#IMG1"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 43</ref> d.do. <rs ana="MPRautomatched"
+                ref="#mpr14060" type="place">Adrianople</rs> <date when="1720-05-12">12. Maii 1720</date> nebst ainer beylag.</metamark>
+            <metamark>P.S. de eodem ohne beylag</metamark>
+            <pb n="47v" facs="#IMG2"/>
+            <pb n="48r" facs="#IMG3"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 43</ref> d.do. <rs ana="MPRautomatched"
+                ref="#mpr14060" type="place">Adrianople</rs> <date when="1720-05-12">12. Maii 1720</date>.</metamark>
+            <metamark>P.S. de eodem</metamark>
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath p.</salute>
+            </opener>
+            <p>Durchleüchtigster fürst, excellenzien und meine hochgeehrtiste herren. Alß ich zum
+                vorauß einen gehorsambst- und schuldigsten bericht verferttiget hatte, in mainung,
+                solchen von hier per expressum einzuschickhen, überbringet mir der ksl.
+                orientalische courrier <rs type="person" ref="#mpr15987">Gergovich</rs> eine halbe
+                stund ausser diser residenz statt (alß ich in halber galla, mit fliehenden fahnen
+                und klingenden spiell in gewöhnlicher ordnung meinen solennen einzug vornahme) eüer
+                durchleuchtigste excellenzien und meiner hochgeehrtisten herren gnädigst und
+                gnädiges schreiben von <date when="1720-04-28">28. passati</date>. Worauß sehr gern
+                ersehen, daß meine über <rs type="place" ref="#mpr9425">Belgrad</rs> gehorsambst und
+                schuldigst eingesändte relationes richtig eingeloffen, in hoffnung, es werden auch
+                die <seg rend="encrypted"><choice>
+                        <orig>73 21 32 74 475 167 468 428 197 137 21 113 188 23 19 77 10 26 158 23
+                            10 6 75 492 143 361 61 97 40 358 33</orig>
+                        <reg type="decoding">über <rs type="place" ref="#mpr1794">Wallachey</rs>
+                            undt <rs type="place" ref="#mpr9372">Sibenbürgen</rs>, über welchen weeg
+                            zwar niemahlen nichts</reg>
+                    </choice></seg>
+                <pb n="48v" facs="#IMG4"/><seg rend="encrypted"><choice>
+                        <orig>127 123 32 39 282 10 33 190 21 145 77 166 70 159 510</orig>
+                        <reg type="decoding">gar geheimbes berichtet</reg>
+                    </choice></seg>) gleichfahls eindessen nachgefolget seyn. Und habe nicht zu
+                zweiflen, es werde der courrier <rs type="person" ref="#mpr15672">Arakiel</rs> meine
+                an ihre <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs>
+                allerunterthänigst- allergehorsambst und euer durchleuchtigsten excellenzien und
+                meine hochgeehrtiste herren gehorsambst und schuldigste berichte immittels richtig
+                und zu rechter zeit überbracht haben. Nebst deme werden dieselbe auß meinen lezteren
+                von <date when="1720-04-14">14.</date> und <date when="1720-04-16">16. April</date>
+                <add place="superlinear">auf <date when="1720-05-01">1. Maii</date></add> unter
+                anderen des mehreren gnädigst und gnädig ersehen haben. Wie nemblich den <date
+                    when="1720-04-27">27. verlittenen monaths Aprilis</date> meinen solennen auszug
+                auß <rs type="place" ref="#mpr10447">Pera</rs> vollzohen und meine ruckh-reys
+                vorgenohmen. Daß die janizaren wegen verüebten verschidenen ungebühren vorauß auf
+                dem wasser abgeführet worden, werde ich ohnermanglen, mit der ursach und umbständen
+                bey sich eraignender gelegen <pb break="no" n="49r" facs="#IMG5"/>heit in haltenden
+                gesprächen in diser meiner ruckh-reys denen türckhischen bassen oder commendanten
+                anbefohlenermassen beyzubringen. Meinen march belangend, werde bestens beflissen
+                seyn, solchen zu beschleünigen. Doch wirdt sich fast unmöglich thuen lassen, mit dem
+                    <rs type="person" ref="#mpr14276">türckhischen herrn großbottschaffter</rs> zu
+                gleicher zeit an denen gränitzen einzutreffen, da solcher sowohl wegen
+                bequemblichkeit des wassers mir leichtlich vorkomben und ich meine reys nicht nach
+                willen fortsezen kan, sondern der mir von denen türckhen vorgeschribenen route von
+                tag zu tag wegen herbeyschaffenden victualien und vorspann zu folgen mich bemüssiget
+                befinde. Bey meiner herein-reyse habe von der gränitz biß anhero zwey- und dreyßig
+                täge zugebracht und allhier zwey tag wegen zu verschaffen seyender <add
+                    place="superlinear">neüen</add> vor <pb break="no" n="49v" facs="#IMG6"/>spann
+                warthen müessen und waiß ich noch nicht, ob disesmahl morgen oder erst übermorgen
+                die vorspann ferttig werde. Ich werde an möglichen fleiß nichts erspahren lassen,
+                gleich dan auch von <rs type="place" ref="#mpr10447">Pera</rs> gerne mich etliche
+                täge ehender loßgemacht, wan solches möglich gewesen, da ich <seg rend="encrypted"><choice>
+                        <orig>54 32 51 287 406 75 14 13 95 6 128 34 73 77 197 130 32 106 53 10 113
+                            67 189 468 492 143 471 75 171 187 10 19 168 186 61 21 32 51 154 153 97
+                            126 484 26 190 34 19 33 39 66 154 129 327 10 40 37 70 169 211 61 32 121
+                            26 11 519 153 8 27 13 186 77 10 32 34 113 70 7 151 14 73 115 74 66 61 40
+                            178 80 166 39 493 51 95 130 38 26 106 97 188 130 152 77 70 167 468 37
+                            113 198 358 129 23 88 44 53 25 98 13 124 130 519 227 169 210 66 10 126
+                            178</orig>
+                        <reg type="decoding">der hungarischen rebellen abzug auch gerne erst und
+                            zwar umb so vill lieber sehen wollen, alß dise leuthe mit allerhand
+                            heimblicher arth auch die lezte zeith zugewinnen gesucht und mir nicht
+                            wenig ombrage biß auf die</reg>
+                    </choice></seg>
+                <pb n="50r" facs="#IMG7"/><seg rend="encrypted"><choice>
+                        <orig>80 166 189 149 26 54 75 179 32 73 113 122 77 10 70 196 503</orig>
+                        <reg type="decoding">lezte stunde verursachet</reg>
+                    </choice></seg>.</p>
+            <p>Daß der türckhische courrier an ihren <rs type="person" ref="#mpr14276">großbottschaffter</rs> mit der ordre annoch nicht angelanget, thuet mich nicht befrembden, da ich auß aigner erfahrung waiß, wie langsamb sye türckhen mit briefschafften auf der strassen seyn.</p>
+            <p>Sonsten gedeihet mir zur höchsten consolation, daß ihre <rs type="person"
+                    ref="#mpr9399">ksl. und cathol. Mt.</rs> wegen abschaff- und entfehrnung des <rs
+                    type="person" ref="#mpr15310">Ragozy</rs> und was in religions sonsten sich
+                wegen übrigen vermocht, ein allergnädigstes wohlgefahlen getragen, und werden
+                dieselbe dessen würckhliche beschehene transportirung nach <rs type="place"
+                    ref="#mpr15345">Rhodoste</rs> auß meiner allerunterthänigst-, allergehorsambsten
+                relation untern <date when="1720-04-14">14.</date> und <date when="1720-04-16">16.
+                    Aprilis</date> ferrers allergnädigst ersehen haben. Es haben mir etliche
+                vornehme Türckhen <pb n="50v" facs="#IMG8"/>zu <rs type="place" ref="#mpr15313"
+                    >Ciorlu</rs>
+                <seg rend="encrypted"><choice>
+                        <orig>73 26 130 118 7 32 74 11 131 72 189 22 8 19 128 185 97 51 113 170 90
+                            132 167 171 40 34 13 23 32 70 7 33 190 54 32 518 67 124 33 154 26 75 130
+                            130 97 126 54 26 151 346 52 186 130 70</orig>
+                        <reg type="decoding">ungefehr drey meill von <rs type="place"
+                                ref="#mpr15345">Rhodoste</rs> so abwehrts der strassen gegen den
+                            meer liget</reg>
+                    </choice></seg>, da mich dieselbe auf des <rs type="person" ref="#mpr9441"
+                    >großvezier</rs> befelch in wehrenden march auf eine hetz geführet, <seg
+                    rend="encrypted"><choice>
+                        <orig>229 130 13 124 77 70 167 380 199 10 113 56 7 178 134 51 38 61 53 48 33
+                            66 10 127 443 95 40 32 170 90 132 188 37 70 54 27 404 468 154 61 106 27
+                            168 143 22 8 106 60 66 130 26 14 97 121 26 6 530 154 7 32 143 73 21 19
+                            95 52 269 10 97 23 131 26 189 23 8 19 178 97 10 32 169 211 10 32 121 97
+                            11 53 60 26 171 178 97 64 10 26 159 171 66 10 154 19 21 39 37 70 197 23
+                            8 21 32 97 468 124 73 21 26 188 21 130 153 97 455 26 151 468 296 97 66
+                            61 40 113 170 90 132 32 66 33 102 7 19 133 74 10 71 24 131 33</orig>
+                        <reg type="decoding">beygebracht oder erzehlet, wie das die Türckhen zu <rs
+                                type="place" ref="#mpr15345">Rhodoste</rs> mit dem <rs type="person"
+                                ref="#mpr15310">Ragoczy</rs> und seinem maynaydigen anhang sehr übel
+                            zufrieden wären, weillen er allerhand insolenzien, so dieselbe mit
+                            weibern und rauben begehen thätten, und hätten die Rhodoster dißfalls
+                            expresse</reg>
+                    </choice></seg>
+                <pb n="51r" facs="#IMG9"/><seg rend="encrypted"><choice>
+                        <orig>154 51 37 70 152 24 111 186 119 26 127 95 54 113 394 130 140 12 165 70
+                            75 37 70 36 70 166 196 48 33 66 154 188 123 132 40 14 97 54 32 23 32 70
+                            7 133 163 26 189 134 124 26 33 91 32 175 131 70 23 32 54 97 46 77 166 26
+                            468 171 19 178 97 39 164 115 54 131 97 74 187 20 10 168 179 32 172 14 73
+                            70 166 26 51 295 26 329 97 48 33 143 102 7 19 133 590 164 61 318 130 170
+                            32 138 26 54 97 455 26 129 164 10 66 61 40 185 113 106 7 27 132 198 10 8
+                            97 33 352 133 39 95 122 27 21 26 52 121 73 10 97 167 47 19 166 97 468 17
+                            26 143 164 61 14 20 10 151 95 281 189 121 97 11 126 14 26 178 6 166 97
+                            168 30 113 54 66 10 394 128 318 10 26 60 97 74 49 32 175 84 172 145 531
+                            95 78 124 5 10 97 481 26 40 211 61 8 26 33 130 122 27 13 70 198 487 66
+                            154 97 45 154 26 327 97 14 73 77 358 74</orig>
+                        <reg type="decoding">mit supliquen zu der Pforten geschicket mit bitte, daß
+                            dise gäste anderwertshin transportiret werden möchten, und sollen sich
+                            deren ville verlauthen haben lassen, daß, falls sie kein gehör finden
+                            thätten, sie die <del>fuhrn</del> fürnehmbste einsmahls zusamben hauen
+                            wolten, und wan sie alle zugleich hand anlegten, würde die Pforten
+                            keinen <del>in</del> in particulari zustraffen wissen, alle insgesambt
+                            wegen <del>ge</del> disen bösen leuthen auch nicht</reg>
+                    </choice></seg>
+                <pb n="51v" facs="#IMG10"/><seg rend="encrypted"><choice>
+                        <orig>67 124 26 147 186 131 97 484 26 510</orig>
+                        <reg type="decoding">stranguliren wollen</reg>
+                    </choice></seg>. Dises zwar ist nur eine rede, welche ich dahin gestellet seyn
+                lasse.</p>
+            <p>Es ist der ksl. kriegs-und legations secretarius <rs type="person" ref="#mpr14960">von Dirling</rs> von allem und jeden, was wehrender meiner obgehabten bottschafft abgehandlet worden, <add place="superlinear">informiert,</add> und wirdt also disem wohl zu inhaeriren wissen, übrigens auch das dermahlige ministerium zimblich gelehrnet, dasjenige, was ihme von zeit zu zeit committiret werden wirdt, nach den bey ihme verspührten diensteyfer und capacität, wie ich nicht zweiffle, wohl exequiren.</p>
+            <p>Ich werde leztlichen von der zeit, daß an der gränitz einzutreffen gedenckhe, gnädigst befohlenermassen herrn general feldwachtmeister <rs type="person" ref="#mpr14241">grafen von Oduyer</rs> auch zu berichten nicht umbhin seyn, wie dan solches auf ein monath ungefehr ankomben wirdt. Welchem
+                <pb n="53r" facs="#IMG11"/><metamark place="margin">1.</metamark><note type="editorial">Die <ref target="/o:vipa.l.hbg.17200512.b1">Beilage</ref> ist erhalten.</note> auch, was vorspann benöttiget seyn werde, eine hierbey ligende gleichlauttende specifikation überschickhe, welche zwar von vorauß schon verferttiget, und wan mir auch diser gnädigst- und gnädige befehl nicht eingeloffen were, von hierauß abgehen zu lassen willens ware. Worbey dan gehorsambsten danckh abstatte, daß mir auf denen magazinen das benöttigte brod und hartes futter abfolgen zu lassen die verordnung ergangen.</p>
+            <p>Schlüsslichen wirdt von dem contagiosen übel weder alhier, noch von anderwerths her nicht das mindeste verspühret. Womit mich zu beharrlichen gnaden gehorsambst und schuldigst empfehlend verharre.</p>
+            <closer>
+                <salute>Eüer  durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldigster <rs ana="MPRautomatched" ref="#mpr9435"
+                    type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs>
+                </address>
+                <dateline>den <date when="1720-05-12">12. Maii 1720</date></dateline>
+            </closer>
+            <pb n="53v" facs="#IMG12"/>
+            <pb n="54r" facs="#IMG13"/>
+            <pb n="54v" facs="#IMG14"/>
+            <pb n="55r" facs="#IMG15"/>
+            <postscript>
+                <p>P.S.</p>
+                <p>Auch durchleüchtigster fürst, excellenzin und meine hochgeehrtiste herren. Der an mich abgeschickhte courrier hat das an den herrn <rs ref="#mpr14988" type="person">seraskier</rs> zu <rs type="place" ref="#mpr14602">Nissa</rs> von euer durchlaucht ergangene schreiben auß unvorsichtigkeit anhero überbracht, welches ich anheünt per expressum dahin remittire. Womit p. Datum ut in litteris.</p>
+            </postscript>
+            <pb n="55v" facs="#IMG16"/>
+            <pb n="56r" facs="#IMG17"/>
+            <pb n="56v" facs="#IMG18"/>
+            <metamark>Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-07-01">1. Julii 1720</date></metamark>
+        </body>
+    </text>
+</TEI>

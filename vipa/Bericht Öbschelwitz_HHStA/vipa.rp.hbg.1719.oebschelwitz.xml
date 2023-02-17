@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Bericht des Otto Friedrich von Öbschelwitz über die Reise der
+                    habsburgischen Großbotschaft nach Konstantinopel, o.O., 1719</title>
+                <title xml:lang="en">The report of Otto Friedrich von Öbschelwitz on the journey of
+                    the habsburg grand embassy to Constantinople, n.p., 1719</title>
+                <author><persName>Otto Friedrich von Öbschelwitz</persName></author>
+                <!-- JS: removed @ref from persName here; info in teiHeader should be 'plain' for processing/harvesting reasons -->
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Königer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Korrektur, Überarbeitung der Edition und Kodierung</resp>
+                    <persName>
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences,
+                        Institute for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.rp.hbg.1719.oebschelwitz</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="http://gams.uni-graz.at/qhod">Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-1, fol. 136r-159v</idno>
+                    </msIdentifier>
+                    <physDesc/>
+                    <history>
+                        <origin>
+                            <origDate when="1719"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Bericht des Otto Friedrich von Öbschelwitz über die Reise der habsburgischen
+                    Großbotschaft nach Konstantinopel, o.O., 1719, bearb. von Lisa Brunner, Manuela
+                    Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien
+                    2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.rp" type="context"> Berichte </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="Bericht_Oebschelwitz_136r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="Bericht_Oebschelwitz_136v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="Bericht_Oebschelwitz_137r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="Bericht_Oebschelwitz_137v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="Bericht_Oebschelwitz_138r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="Bericht_Oebschelwitz_138v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="Bericht_Oebschelwitz_139r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="Bericht_oebschelwitz_139v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="Bericht_Oebschelwitz_140r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="Bericht_Oebschelwitz_140v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="Bericht_Oebschelwitz_141r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="Bericht_Oebschelwitz_141v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="Bericht_Oebschelwitz_142r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="Bericht_Oebschelwitz_142v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="Bericht_Oebschelwitz_143r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="Bericht_Oebschelwitz_143v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="Bericht_Oebschelwitz_144r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="Bericht_Oebschelwitz_144v.jpg" xml:id="IMG18"/>
+        </surface>
+        <surface start="#IMG19">
+            <graphic url="Bericht_Oebschelwitz_145r.jpg" xml:id="IMG19"/>
+        </surface>
+        <surface start="#IMG20">
+            <graphic url="Bericht_Oebschelwitz_145v.jpg" xml:id="IMG20"/>
+        </surface>
+        <surface start="#IMG21">
+            <graphic url="Bericht_Oebschelwitz_146r.jpg" xml:id="IMG21"/>
+        </surface>
+        <surface start="#IMG22">
+            <graphic url="Bericht_Oebschelwitz_146v.jpg" xml:id="IMG22"/>
+        </surface>
+        <surface start="#IMG23">
+            <graphic url="Bericht_Oebschelwitz_147r.jpg" xml:id="IMG23"/>
+        </surface>
+        <surface start="#IMG24">
+            <graphic url="Bericht_Oebschelwitz_147v.jpg" xml:id="IMG24"/>
+        </surface>
+        <surface start="#IMG25">
+            <graphic url="Bericht_Oebschelwitz_148r.jpg" xml:id="IMG25"/>
+        </surface>
+        <surface start="#IMG26">
+            <graphic url="Bericht_Oebschelwitz_148v.jpg" xml:id="IMG26"/>
+        </surface>
+        <surface start="#IMG27">
+            <graphic url="Bericht_Oebschelwitz_149r.jpg" xml:id="IMG27"/>
+        </surface>
+        <surface start="#IMG28">
+            <graphic url="Bericht_Oebschelwitz_149v.jpg" xml:id="IMG28"/>
+        </surface>
+        <surface start="#IMG29">
+            <graphic url="Bericht_Oebschelwitz_150r.jpg" xml:id="IMG29"/>
+        </surface>
+        <surface start="#IMG30">
+            <graphic url="Bericht_Oebschelwitz_150v.jpg" xml:id="IMG30"/>
+        </surface>
+        <surface start="#IMG31">
+            <graphic url="Bericht_Oebschelwitz_151r.jpg" xml:id="IMG31"/>
+        </surface>
+        <surface start="#IMG32">
+            <graphic url="Bericht_Oebschelwitz_151v.jpg" xml:id="IMG32"/>
+        </surface>
+        <surface start="#IMG33">
+            <graphic url="Bericht_Oebschelwitz_152r.jpg" xml:id="IMG33"/>
+        </surface>
+        <surface start="#IMG34">
+            <graphic url="Bericht_Oebschelwitz_152v.jpg" xml:id="IMG34"/>
+        </surface>
+        <surface start="#IMG35">
+            <graphic url="Bericht_Oebschelwitz_153r.jpg" xml:id="IMG35"/>
+        </surface>
+        <surface start="#IMG36">
+            <graphic url="Bericht_Oebschelwitz_153v.jpg" xml:id="IMG36"/>
+        </surface>
+        <surface start="#IMG37">
+            <graphic url="Bericht_Oebschelwitz_154r.jpg" xml:id="IMG37"/>
+        </surface>
+        <surface start="#IMG38">
+            <graphic url="Bericht_Oebschelwitz_154v.jpg" xml:id="IMG38"/>
+        </surface>
+        <surface start="#IMG39">
+            <graphic url="Bericht_Oebschelwitz_155r.jpg" xml:id="IMG39"/>
+        </surface>
+        <surface start="#IMG40">
+            <graphic url="Bericht_Oebschelwitz_155v.jpg" xml:id="IMG40"/>
+        </surface>
+        <surface start="#IMG41">
+            <graphic url="Bericht_Oebschelwitz_156r.jpg" xml:id="IMG41"/>
+        </surface>
+        <surface start="#IMG42">
+            <graphic url="Bericht_Oebschelwitz_156v.jpg" xml:id="IMG42"/>
+        </surface>
+        <surface start="#IMG43">
+            <graphic url="Bericht_Oebschelwitz_157r.jpg" xml:id="IMG43"/>
+        </surface>
+        <surface start="#IMG44">
+            <graphic url="Bericht_Oebschelwitz_157v.jpg" xml:id="IMG44"/>
+        </surface>
+        <surface start="#IMG45">
+            <graphic url="Bericht_Oebschelwitz_158r.jpg" xml:id="IMG45"/>
+        </surface>
+        <surface start="#IMG46">
+            <graphic url="Bericht_Oebschelwitz_158v.jpg" xml:id="IMG46"/>
+        </surface>
+        <surface start="#IMG47">
+            <graphic url="Bericht_Oebschelwitz_159r.jpg" xml:id="IMG47"/>
+        </surface>
+        <surface start="#IMG48">
+            <graphic url="Bericht_Oebschelwitz_159v.jpg" xml:id="IMG48"/>
+        </surface>
+
+    </facsimile>
+    <text type="report">
+        <body>
+            <pb facs="#IMG1" n="136r"/>
+            <p> Nr. 2</p>
+            <p> Relation </p>
+            <p> Von der reise der röm. ksl. großbotschafft an die <rs type="place">ottomannische
+                    Pforte</rs>, so anno <date when="1719">1719</date> geschehen, und zwar von <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> aus bis nach <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs>, auch was
+                längst besagten marches vor militarische observationes zu machen. </p>
+            <p> Den <date when="1719-05-30">30. Maii de anno</date> seyndt ihro excellenz herr <rs
+                    ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo, des heyligen röm.
+                    reichsgraff von Virmond</rs>, ksl. geheimbder und hoffkriegsrath,
+                generalfeldzeugmeister über ein regiment infanterie, als ksl. großbottschaffter an
+                die <rs type="place">ottomannische Pforte</rs> unter dreymahliger lösung 60 canonen
+                mit 70 schiffen auf der <rs ana="MPRautomatched" ref="#mpr14699" type="place"
+                    >Donau</rs> von <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wien</rs>
+                zu <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> ankommen, allwo
+                ihro excellenz der herr <rs type="person">großbottschaffter</rs>, von ihro
+                excellenz, dem herrn <rs ana="MPRautomatched" ref="#mpr14241" type="person">graffen
+                    von Oduyer</rs>, ksl. generalfeldwachtmeister und commendanten empfangen und mit
+                dero suite als cavaliers und gentil hommes zur taffel geladen wor <metamark><del
+                        rendition="s">Marches Nr. 18 19 20 21 et 22</del></metamark>
+                <metamark><del rendition="erased">Zu der türckischen carten Nr. 12</del></metamark>
+                <pb facs="#IMG2" n="136v" break="no"/> den. Unter wehrender zeit bey den gesundheit
+                trincken iedes mahl mit 6 canons gefeuert worden. </p>
+            <p>
+                <date from="1719-05-31" to="1719-06-07">Biß den 7. Iunii</date> des morgens um 3 uhr
+                haben ihro excellenz, der herr <rs ana="MPRautomatched" ref="#mpr14241"
+                    type="person">graff von Oduyer</rs>, mit ausmachung undt unterschreibung derer
+                ceremonien bey der auswechslung der großbottschafft mit dem <rs type="person">reczep
+                    aga</rs> als türckischen darzu gevollmächtigten zugebracht. </p>
+            <p> Den <date when="1719-06-07">7. Iunii</date> wurde der <rs type="person">ksl.
+                    ingenieurhauptmann von Öbschelwitz</rs> mit dem türckichen obbesagtem <rs
+                    type="person">reczep aga</rs> auf die gräntze zwischen <rs ana="MPRautomatched"
+                    ref="#mpr14607" type="place">Baragin</rs> und <rs type="place">Raschanic</rs>
+                oder zwischen der <rs type="place">Nissaer Landstraße</rs> und <rs type="place"
+                    >Stolatz</rs> vorausgeschicket, umb allda die gräntzseulen zur auswechslung
+                gedachter großbotschafft setzen zu laßen. </p>
+            <p> Besagte seulen nun wurden gesetzet wie folget: Das loch zur mittlern säule, welche
+                gleich denen übrigen zweyen von stein, wurde auf die linie von der gräntze von
+                beyderseits gleich vielen arbeitern gegraben. Auch die säule mit dergleichen
+                arbeitern aufgehoben, eingesetzet und feste gemachet. Die löcher zu den <pb
+                    facs="#IMG3" n="137r"/> andern zwey säulen wurden 20 schritt genau von der
+                mittleren säule, eines herüber und das andere hinüber gemeßen und gezeichnet und
+                diese säulen von iederseits arbeitern allein, sonder einander zu helfen,
+                eingesetzet. Als dann wurden 5 schritte von der mittlern nach der äusern säule auf
+                beyden seiten gleichfals genau gemeßen und gezeichnet, allwo die herren <rs
+                    type="person">principal commissarii</rs> und herren <rs type="person"
+                    >großbotschaffter</rs> von den pferden abstiegen, auch hernach dero cavalliers,
+                welche vorhero 15 schritt von der äusern säule von beyder seiten eine stange
+                gestecket wurde, von denen pferden abgestiegen, stehen bleiben solten, wie auch 60
+                schritt von leztbesagter säule, bis wohin die commandirte miliz derer herren <rs
+                    type="person">großbotschaffter</rs> marchiren und stehen bleiben solte. </p>
+            <p> Der <date when="1719-06-09">9. Iunii</date> seyndt ihro excellenz, der herr <rs
+                    type="person">großbotschaffter</rs>, in begleitung verschiedener cavalliers mit
+                zwey schiffen von <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                bis <rs ana="MPRautomatched" ref="#mpr14911" type="place">Krotzka</rs> gegangen.
+                Deren übrige suite und pagage aber ist so wohl vom ksl. fuhrwesen als andern
+                vorspannungen zu lande <pb facs="#IMG4" n="137v"/> fortgeschicket worden und hat man
+                bey der abfarth von <rs ana="MPRautomatched" ref="#mpr9425" type="place"
+                    >Belgrad</rs> die 60 canonen wiederum 3 mahl lösen laßen. Ihro excellenz, der
+                herr <rs ana="MPRautomatched" ref="#mpr14241" type="person">graff von Oduyer</rs>,
+                aber seynd gleichfals zu lande gegangen. Der march zu lande von <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> bis dahin ist 6
+                stunden. </p>
+            <p> Den <date when="1719-06-10">10.</date> seyndt ihro excellenz der herr <rs
+                    type="person">großbotschaffter</rs>, mit dero völligen suite zu lande bis <rs
+                    ana="MPRautomatched" ref="#mpr14920" type="place">Colar</rs> gegangen. Der march
+                war 3 stunden 30 minuten. </p>
+            <p> Den <date when="1719-06-11">11.</date> über <rs type="place">Hassan Bascha
+                    Palanka</rs> nacher <rs type="place">Battachim</rs>. Weilen aber der weg durch
+                das stete regen wetter immer schlimmer worden, ist die meiste pagage <date
+                    when="1719-06-11">diesen tag</date> zurück geblieben. Der march 9 stunden 45
+                minuten. </p>
+            <p> Den <date when="1719-06-12">12.</date> über <rs type="place">Devibakerdan</rs> nach
+                    <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodin</rs>. Von dar
+                giengen ihro excellenz, der herr <rs ana="MPRautomatched" ref="#mpr14241"
+                    type="person">graff von Oduyer</rs>, nach <rs type="place">Morova Palanka</rs>,
+                die brücke, welche zurißen wieder machen zu laßen. Der march war 7 stunden 20
+                minuten. </p>
+            <p> Den <date when="1719-06-13">13.</date>, weilen vorige nacht die <rs type="place"
+                    >schiffsbrücke</rs> vom großen waßer wieder zerrißen worden, giengen ihro
+                excellenz, der herr general <rs type="person">graff <pb facs="#IMG5" n="138r"/> von
+                    Oduyer</rs>, des morgens wieder voraus nach <rs type="place">Morova
+                Palanka</rs>, um die brücke allda wiederum verfertigen zu laßen, welchem ihro
+                excellenz, der herr <rs type="person">großbotschaffter</rs>, mit deßen suite
+                folgete. Weiln aber die brücke, ehe sie fertig, zum dritten mahl von denen
+                herabschwimmenden bäumen zerrißen wurde, muste die großbotschafft biß nach mittage
+                an der <rs type="place">Morova</rs> warten, worauf sie dann nach verfertigung der
+                    <rs type="place">schiffsbrücken</rs> über die <rs type="place">Morova</rs> und
+                    <rs type="place">Ravenaz fluß</rs> passireten und bis <rs ana="MPRautomatched"
+                    ref="#mpr14607" type="place">Baragin</rs> giengen, allwo beyde <rs type="person"
+                    >excellenzen</rs> in dasigem palanka logireten, deren suite und commandirte aber
+                meist campiren musten. Der march war 4 stunden 11 minuten. </p>
+            <p> Den <date when="1719-06-14">14. Iunii</date> war rasttag und wurden von beederseits
+                herrn <rs type="person">großbotschafftern</rs> durch officirer briefe überschicket,
+                wie auch der tag und stunde zur auswechslung gewiß gemachet. </p>
+            <p> Den <date when="1719-06-15">15.</date> brachen die commandirten des morgens auf und
+                marchirten nach der gräntze, worauf ihro ex <pb facs="#IMG6" n="138v" break="no"/>
+                cellenz, der herr <rs type="person">großbotschaffter</rs>, nebst ihro excellenz dem
+                herrn <rs ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs>,
+                als ksl. principal commissarius mit der völligen suite folgeten und bis 1.000
+                schritt von der gräntze anhielten. Allda wurde ein zelt aufgeschlagen, aus welchem
+                beyde herren <rs type="person">großbotschaffter</rs>, nebst die herren <rs
+                    type="person">commissarii</rs>, ihro ankunfft durch officirer einander zu wißen
+                thun ließen. Die commandirte cavallerie und infanterie aber, so wohl ksl. als
+                türckischer seits, rückten bis 80 schritt von der gräntze en ordre de bataille gegen
+                einander an, allwo sie bis zu endigung stehen blieben. Nachdem nun die complimente
+                von beyden seiten abgeleget, begaben sich ihro excellenz, der herr <rs
+                    ana="MPRautomatched" ref="#mpr14241" type="person">graff von Oduyer</rs>, mit
+                dero cavalliers zu pferde und giengen in begleitung deren bedienten in kostbarer
+                rothen mit silber portirten livree zu fuß dem <rs type="person">seraskier</rs>, als
+                ottomannischen principal commissarium, biß auf die ausgemachte 15 schritt von der
+                äusern säu <pb facs="#IMG7" n="139r" break="no"/> le entgegen, allwo die cavalliers
+                beederseits abstiegen, die pferde stehen ließen undt die herren <rs type="person"
+                    >principal commissarii</rs> bis an die 5 schritt von der mittlern oder rechten
+                gräntzsäule zu fuß begleiteten, allwo auch beyde herren <rs type="person">principal
+                    commissarii</rs> von den pferden abstiegen, die herren cavalliers biß einen
+                allda laßend und giengen mit gleichen schritten bis an die mittlere gräntzsäule
+                vollends zusammen, allwo sie einander embrassireten und auf seßeln sitzende ihre
+                complimente ablegeten. Nachdem nun gehörige fragen und antwort geschehen, schicketen
+                besagte herren <rs type="person">commissarii</rs> dero adiutanten an ihro herren <rs
+                    type="person">großbotschaffter</rs> und ließen ihnen zu wißen machen, daß sie
+                kommen möchten. Worauf sich denn die herren <rs type="person">großbotschaffter</rs>
+                auch zu pferde begaben und mit dero suite in grosser pracht und ordnung zwischen die
+                infanterie durch, gleich denen herren <rs type="person">principal commissariis</rs>
+                einzogen und einander bey der mittlern säule empfiengen, setzten sich zur rechten
+                ihrer herren <pb facs="#IMG8" n="139v"/>
+                <rs type="person">commissarien</rs> gleichfals auf taborets nieder, worauf ihro
+                excellenz, der ksl. herr <rs type="person">großbotschaffter</rs> seine anrede in
+                lateinischer sprache thate, welche der türckische vezier <rs type="person">Mückerem
+                    Kumeli Valesi Baiesile Toia Sade Ibrahim bascha</rs> in der seinigen
+                beantwortete. Dann wurden bey einigen andern discoursen einander allerhandt
+                erfrischungen gereichet. Wehrender dieser zeit wurde so wohl aus 6 feldstücken als
+                auch von der sämtlichen miliz in 1.700 mann bestehend, von beyden theilen
+                dreymahlige salve gegeben. Auch wurde die pagage beordert umzupacken und die gräntze
+                zu passiren. Darauf überreichte ieder <rs type="person">commissarius</rs> seinem
+                herren <rs type="person">großbotschaffter</rs> aus seiner rechten hand in die rechte
+                hand des anderen. Als denn nahmen sie allerseits von einander abschiedt, passireten
+                nebst ihrer suite die gräntze, worauf sie sich wieder zu pferde setzten, und nahm
+                ieder offtbenambte <rs type="person">commissarius</rs> seinen überkommenen herrn <rs
+                    type="person">großbotschaffter</rs> und begleiteten ihn nach denen zuvor ausge
+                    <pb facs="#IMG9" n="140r" break="no"/> machten puncten, mit denen bey sich
+                habenden 1.700 mann commandirten, und zwar die rechte handt laßend bis eine stunde
+                vor der gräntze, umb selben allda nach dem ihnen in einem aufgeschlagenem zelt
+                einige confecturen und refrigements gereichet, zu verlaßen. </p>
+            <p>Weil nun der seraskier, <rs type="person">Urumli Beiglen Beky Abdula bascha Duhum
+                    Schade</rs>, als ottomannischer principal commissarius, eine mehrere höfligkeit
+                als in vorigen punckten ausgemachet zeigen wollen, also führete er den ksl. herrn
+                    <rs type="person">großbotschaffter</rs> 5/4 stunden von der gräntze, allwo so
+                wohl ihro excellenz, der herr <rs type="person">großbotschaffter</rs>, als auch
+                deßen gantze suite in einigen darzu aufgeschlagenen zeltern gespeiset und auf
+                türckische art mit waßer und scherbet geträncket worden. Als nun die ceremonien mit
+                der taffel vorbey, beurlaubete sich der <rs type="person">seraskier</rs> und gieng
+                mit seinem gefolge, nachdem er den <rs type="person">capiczi bascha</rs> als
+                spesirungs commissarius mit behöriger convoy an ihro excellenz, den herrn <rs
+                    type="person">großbotschaffter</rs>, <pb facs="#IMG10" n="140v"/> übergeben,
+                wieder nach <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>. Wir
+                aber giengen in unser angewiesen lager, so etwan eine halbe stunde lincker hand der
+                    <rs type="place">straße</rs> und ¾ stunden von <rs type="place">Raschanic</rs>,
+                allwo wir die zelter, so uns die Türcken zu unserer reise gereichet, bereits
+                aufgeschlagen funden. Der march war 3 stunden 15 minuten. </p>
+            <p> Den <date when="1719-06-16">16. Iunii</date>, weilen die pagage erst die nacht und
+                des morgens völlig in das lager kam, wurde allda rasttag gehalten, welchen <date
+                    when="1719-06-16">tag</date> sich dann auch einige erdbeben spüren ließen. </p>
+            <p> Den <date when="1719-06-17">17.</date> marchireten so wohl wir als die pagage,
+                allezeit längst auf einer höhe, lincker hand der straße biß nach <rs type="place"
+                    >Raschanie</rs>, bis wohin 1 stunde 40 minuten. Alsdenn von besagten <rs
+                    type="place">Raschanie</rs> nach <rs type="place">Alexinize</rs>, allwo dißseits
+                unser lager zu stehen kam. Der ganze march war 5 stunden 31 minuten. </p>
+            <p> Den <date when="1719-06-18">18. Iunii</date> durch <rs type="place">Alexinize</rs>
+                und bis über <rs type="place">Toppolnize bach</rs>, allwo wir campiret. Der march
+                war 4 stunden. </p>
+            <pb facs="#IMG11" n="141r"/>
+            <p> Den <date when="1719-06-19">19.</date> marchirten wir mit völliger parade und halber
+                galla <add place="superlinear">unter lösung</add> der 18 ausgemachten canons durch
+                    <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>, in welchem wir
+                den <rs type="place">Nissova fluß</rs> passireten und kommen gleich oberhalb <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> zwischen den
+                campirenden <rs type="person">seraskier</rs> zu stehen. Und ob zwar ausgemachet, daß
+                wir in der <rs type="place">festung</rs> logiren solten, so wolte es sich doch wegen
+                der engen gaßen und unserer vielen pagage nicht thun laßen. Der march war 2 stunden. </p>
+            <p> Von <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> biß <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> nun, wie auch von
+                besagter <rs type="place">vestung Nissa</rs> von sich selbst, ist folgendes zu
+                observiren: Die straße von <rs ana="MPRautomatched" ref="#mpr9425" type="place"
+                    >Belgrad</rs> bis <rs ana="MPRautomatched" ref="#mpr14609" type="place"
+                    >Iagodin</rs> ist vor eine armee zwar passable, aber nicht allzu commode, weil
+                das land in flachen bergen, auch recht und lincker handt in lauter wald bestehet.
+                Dahero bis zu obbesagtem <rs ana="MPRautomatched" ref="#mpr14609" type="place"
+                    >Iagodin</rs> nirgends genug terrain, allwo eine gantze armee, sondern nur
+                einige regimenter campiren können, und ist die straße von <rs type="place">Hassan
+                    Bascha Palancka</rs> bis <rs type="place">Devibakerda</rs>n, allwo die berge
+                schon höher, vor artillerie und wägen nicht gar geschwind zu passiren. Dahero müste
+                sich die armee zertheilen und eine part die straße über <rs type="place">Abila</rs>
+                <pb facs="#IMG12" n="141v"/> und das <rs type="place">gebürge Swinia Clissura</rs>
+                auf <rs type="place">Kraiogawatz</rs> und dann nach <rs ana="MPRautomatched"
+                    ref="#mpr14609" type="place">Iagodin</rs> gehen. An welcher straße nun, so zwar
+                hin und wieder bevoraus auf dem <rs type="place">Siwinia Clissura gebürge</rs> vor
+                wägen müste repariret werden, besagter theil der armee als denn gnugsame plätze von
+                march zu march zu campiren findet. </p>
+            <p> Bey <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodin</rs> hat eine
+                große armee zum campement plaz übrig gnug. Von besagten <rs ana="MPRautomatched"
+                    ref="#mpr14609" type="place">Iagodin</rs> nun biß <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> ist die <rs type="place">straße</rs> so
+                breit und beßer als vorige zu passiren und ist dieselbe auf rechter seite von <rs
+                    type="place">Morova</rs> und lincker hand von denen <rs type="place">hohen
+                    gebürgen</rs>, welche vor wenig infanterie sehr schwer und vor cavallerie gar
+                nicht zu passiren seynd, wohl bedecket, daß also ein feind, so er nicht zuvor an der
+                    <rs type="place">bäche</rs> einem, so von denen <rs type="place">gebürgen</rs>
+                in die <rs type="place">Morova</rs> gehen, mit verschantzungen posto faßet, keine
+                diversion machen kan, indem man durch vorausschickung der zimmerleuthe einige
+                brücken über die bäche vor infanterie geschwinde kan machen laßen, <pb facs="#IMG13"
+                    n="142r"/> damit gedachte infanterie recht und lincker hand der straße durch den
+                wald gehen, die cavallerie, artillerie und wägen aber auf die straße verbleiben kan.
+                Fourage und gelegene campements finden sich an dieser straße auch von einem march
+                zum andern, es sey denn, daß durch ein sehr trockenes iahr der <rs type="place"
+                    >Schuppellag</rs> und <rs type="place">Raschanske bach</rs> austrocknete, so
+                könte der march von <rs ana="MPRautomatched" ref="#mpr14607" type="place"
+                    >Baragin</rs> biß <rs type="place">Raschanie</rs> verändert und von <rs
+                    ana="MPRautomatched" ref="#mpr14609" type="place">Iagodin</rs> bis auf die
+                plaine bey <rs type="place">Stolatz</rs> an der <rs type="place">Morova</rs> und von
+                dar biß gegen <rs type="place">Alexinize</rs> genommen werden. Übrigens, weilen die
+                    <rs type="place">Morova</rs> im frühiahr meistentheils groß und nicht allzu
+                krumm wie unterhalb lauffet, könte man auch auf derselben mit fahrzeugen fast biß an
+                    <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> ein und anders
+                zur armee nöthiges mit hinauf bringen. </p>
+            <p> Die stadt <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> nun an
+                sich selbst ist in dem ober oder dißeitigem theil ein wenig größer als die ietzige
+                    <rs type="place">festung Belgrad</rs> mit einem hohen wall, welcher hin und
+                wieder und gegen die waßer seite fast meist in mit altem mauerwerck ausgefütterten
+                gräben versehen. Um besagten wall ist <pb facs="#IMG14" n="142v"/> ein glacis,
+                welches den wall so bedecket, daß man nichts von selbem als die crone der brustwehr
+                und die batterien auf denen pointen sehen kan. Umb den hohen wall und vorglacis
+                befinden sich trockene gräben, gleich unter ohne böschung ausgegraben. Ienseits oder
+                bulgarischer seite des <rs type="place">Nissava flußes</rs> ist die <rs type="place"
+                    >brücke</rs> (unter welcher eine große mühle) über besagten <rs type="place"
+                    >fluß</rs> mit einem regularem horn werck bedecket, umb welches durch den graben
+                die <rs type="place">Nissava</rs> fließet. Der graben aber ist gleichfalls wie die
+                andern sonder böschung ausgehoben und nicht gefüttert. Um die auf besagter seite
+                liegende <rs type="place">vorstadt</rs> ist eine linie mit einem banquet 3 ½ schuch
+                hoch und einem graben von 14 biß 16 schuch breit, in welchem gleichfals die <rs
+                    type="place">Nissava</rs> herumfließet, gezogen. Der linie defension bestehet
+                rund herum in kleinen bastions mit face und flanquen und nicht in places des armes
+                oder halben redouten, wie der conducteur <rs type="person">Rosseau</rs> gezeichnet.
+                Die länge der courtinen von einem kehlpunct zum andern ist 150 biß 180 schritt. </p>
+
+            <pb facs="#IMG15" n="143r"/>
+            <p> Die ober <rs type="place">stadt</rs> ist dicht und mehr als die <rs type="place"
+                    >vorstadt</rs> bebauet, in welcher letztern aber noch bis dato viele neue
+                gebäude aufgerichtet werden. Dahero die gaßen sehr enge und in feuersgefahr große
+                noth haben würde. NB. Weilen durch das mühlwehr an der <rs type="place">brücke</rs>,
+                wie auch in denen gräben obbsagter wercke, der <rs type="place">Nissava fluß</rs>
+                kan geschwellet werden, ist so wohl die <rs type="place">vorstadt</rs> als auch
+                deren äuseres terrain, welches niedriger als das dißeitige, gar leicht zu inundiren,
+                welche inundation aber wiewohl durch ziemliche arbeit abzugraben ist. </p>
+            <p> Die situation nun um die gantze <rs type="place">stadt</rs> herum bestehet in
+                gleicher ebene und ist eine circumvallation über die in rechter distanz umher
+                liegende <rs type="place">berge</rs> gar vortheilhafftig herumzuführen. Die
+                eroberung der <rs type="place">stadt</rs> könte nach der zeit daran befindlichen
+                defension und nach eröffnung derer trenchein mit völliger force innerhalb 14 tagen
+                vollzogen werden. Der plan hiervon wird alles deutlicher zeigen. </p>
+
+            <pb facs="#IMG16" n="143v"/>
+            <p> Von <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> gehet eine
+                hauptstraße oder <rs type="place">pass</rs> in <rs ana="MPRautomatched"
+                    ref="#mpr14247" type="place">Bosnien</rs> nach <rs type="place">Serallien</rs>
+                über <rs type="place">Carvin Grad</rs>, <rs type="place">Palanka Corsumblia</rs> und
+                    <rs ana="MPRautomatched" ref="#mpr14089 mpr14292 mpr14592" type="place"
+                    >Novi</rs> oder <rs type="place">Geni Bazar</rs>. Ferner gehet eine hauptstraße
+                von dar über <rs type="place">Courvin Grad</rs> nach <rs type="place">Scopia</rs>
+                und weiter hinein. </p>
+            <p> Den <date when="1719-06-20">20. Iunii</date> gaben ihro excellenz, der <rs
+                    type="person">herr großbotschaffter</rs>, in halber galla dem <rs type="person"
+                    >seraskier</rs> die visite, umb ihm den brief von ihro hochfürstlichen
+                durchleuchtigsten dem <rs type="person">prinz Eugen</rs> überreichen zu laßen. Bey
+                welcher visite denn die gantze suite gespeiset und nachgehends ihro excellenz, der
+                    <rs type="person">herr großbotschaffter</rs>, nebst denen herren cavalliers und
+                drey <rs type="person">gentil hommes</rs> mit cafftans verehret wurden. </p>
+            <p> Den <date when="1719-06-21">21.</date> gab der <rs type="person">seraskier</rs> an
+                ihro excellenz, den <rs type="person">herrn großbotschaffter</rs>, die gegen visite,
+                so sonst niemals geschehen, bey welcher die Türcken denn wiederum mit caffee und
+                confecturen, nebst ein und andern refraichements tractiret wurden, da dann auch nach
+                dem abschied der Türcken, ihro excellenz, der <rs type="person">herr
+                    großbotschaffter</rs>, dem <rs type="person">seraskier</rs> die kostbaren ksl.
+                geschencke überschicket. <pb facs="#IMG17" n="144r"/> Bey der visiten war zu
+                observiren, daß so wohl der <rs type="person">herr großbotschaffter</rs>, als <rs
+                    type="person">seraskier</rs> durch die gestellete parade biß in das vorzelt
+                ritten, ehe sie abstiegen.</p>
+            <p> Den <date when="1719-06-22">22.</date> marchirten wir wieder unter 3 mahliger lösung
+                der 18 canons von <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>
+                ab und giengen zwischen den <rs type="place">gebürgen</rs> und dem <rs type="place"
+                    >Nissava fluß</rs> biß an das <rs type="place">Kutinska flüßgen</rs>, allwo
+                unweit <rs type="place">Koritniack</rs> unser lager zu stehen kam. Der march war 1
+                stunde 9 minuten. </p>
+            <p> Den <date when="1719-06-23">23.</date> giengen wir ferner zwischen der <rs
+                    type="place">Suah</rs> felsigten gebürge, aus welchem viele warme bäder
+                entspringen, und den <rs type="place">Nissava fluß</rs> biß nach <rs type="place"
+                    >Mussa Bascha Palanka</rs>, allwo wir zwischen dem <rs type="place">Nissava</rs>
+                und <rs type="place">Luschniz fluß</rs> campirten. 4 stunden von <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> kamen wir auf
+                bulgarischen boden. Der march war schwer und 5 stunden 33 minuten. </p>
+            <p> Weilen nun von <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> auf
+                    <rs ana="MPRautomatched" ref="#mpr14598" type="place">Pirot</rs> und <rs
+                    ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> keine andere
+                straße und eine armee dahin oder hergehen solte, wäre ihr der <rs type="place"
+                    >pass</rs> etwan 1 ¾ stunden von <rs ana="MPRautomatched" ref="#mpr14602"
+                    type="place">Nissa</rs>, allwo eine karaule oder banturen wacht zwischen dasigen
+                hohen <rs type="place">gebürgen</rs>, so mit wald bewachsen, gar leicht <pb
+                    facs="#IMG18" n="144v"/> abzuschneiden und könten ein paar tausend mann, die
+                allerstärckste armee allda aufhalten. </p>
+            <p> Von besagter koraula gegen <rs type="place">Mussa Bascha Palanka</rs> nun, gehet die
+                straße etwas lincker hand einen hohen <rs type="place">berg</rs> hinauf, welche
+                nachdem sie zuvor repariret, dennoch gar schwer vor eine artillerie zu passiren
+                wäre. Wenn man nun von besagten <rs type="place">berg</rs>, so biß 2 stunden währet,
+                wieder herunter kommet, befindet sich von dasigen <rs type="place">Toppolniz
+                    bach</rs> biß nach <rs type="place">Mussa Bascha Palancka</rs> längst dem <rs
+                    type="place">Nissava fluß</rs> ein überaus morastiger und schlimmer weg, so im
+                frühiahr und herbstzeit sonder viele ausbeßerung von einer armee unmöglich zu
+                passiren. Was das campement einer armee an anbelanget, so findet dieselbe so wohl
+                bey <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> als <rs
+                    type="place">Mussa Bascha Palanka</rs> platz und zu einem lager gehöriges auf
+                ein paar tage gnug. </p>
+            <p>
+                <rs type="place">Mussa Bascha Palanka</rs> an sich selbst bestehet in einer
+                starcken, in 4 seitigt gemauerten palanka mit 8 thürmen auf der mauer, so bey dieser
+                zeit mit spahi besetzet war und weilen in dieselbe von dem nahe daran liegenden <rs
+                    type="place">gebürge</rs> mit kleinem gewehr gar leicht hinein geschoßen werden
+                kan, hat dieselbe nichts zu bedeuten.</p>
+
+            <pb facs="#IMG19" n="145r"/>
+            <p> Den <date when="1719-06-24">24. Iunii</date> marchirten wir bis durch den
+                marcktflecken <rs ana="MPRautomatched" ref="#mpr14598" type="place">Pirot</rs> oder
+                    <rs type="place">Schardkier</rs>, allwo in dasigem <rs type="place">schloß</rs>
+                3 canons 3 mahl gelöset wurden. Das lager kam gleich bey dem städtgen an der <rs
+                    type="place">Nissava</rs> zu stehen. Der march war 4 stunden 48 minuten.</p>
+            <p> Den <date when="1719-06-25">25.</date> war rasttag. </p>
+            <p> Von <rs type="place">Mussa Bascha Palanka</rs> nach <rs ana="MPRautomatched"
+                    ref="#mpr14598" type="place">Pirot</rs> ist wieder eine schlimme straße. Denn
+                auf 43 minuten von der palanka gehet selbige eine viertelstunde hoch den <rs
+                    type="place">Zernicoir berg</rs> gar schrege hinauf, alsdann oben an einer gäh
+                abfallenden höhe hin, allwo es wegen denen herabfallenden quellwäßern viele garstige
+                löcher hat, biß etliche 20 minuten weit fort und eine gute halbe stunde lang
+                zwischen sehr hohes <rs type="place">gebürge</rs> durch. In dasigem grunde lieget
+                eine karaula, allwo man ohnweit derselben eine armee gar leicht wieder arretiren
+                könte. Nach 10 minuten von besagter karaula gehet die straße wieder an einer
+                abdachung eines <rs type="place">berges</rs> bis 43 minuten weit hinunter, und zwar
+                von wo sie den <rs type="place">berg</rs> herauf kommet biß daher allezeit nur
+                einfach, daß dahero eine armee gar schwer zu defiliren hätte. Weil aber das <rs
+                    type="place">gebürge</rs> in kleinen schieferstein bestehet und holtz genug hat,
+                könte die straße durch <pb facs="#IMG20" n="145v"/> vorausschickung der pionniers
+                gar leicht 2 und 3 fach neben einander gemachet werden. So man nun den <rs
+                    type="place">berg</rs> herunter, passiret man noch ein paar kleine höhen und
+                bäche, so ein wenig auszubeßern wären und dann bis <rs ana="MPRautomatched"
+                    ref="#mpr14598" type="place">Pirot</rs> über lauter acker feld. </p>
+            <p>
+                <rs ana="MPRautomatched" ref="#mpr14598" type="place">Pirot</rs> oder <rs
+                    type="place">Schardkier</rs> lieget lincker hand an den <rs type="place">Nissava
+                    fluß</rs>, zwischen felsen und morast, hat ein alt klein gemauertes <rs
+                    type="place">schloß</rs>, in welchem zu der zeit 3 canons und 1 fahne
+                ianitzscharen zur besatzung waren. Könte auch schon, weiln wegen des daran liegenden
+                scharffen felsens die canons nicht wohl anzubringen, einem kleinem corpo diversion
+                machen, es sey denn, daß man ein paar starcke mortiers dahin brächte, mit welchen
+                man, weilen das schloß sehr enge, die besatzung bald heraus iagen könte. Weil aber
+                auch eine straße zwischen demselben und dem <rs type="place">gebürge</rs> rechter
+                hand vorbey gehet, kan es einer armee gar nicht schaden, sondern leicht occupiret
+                werden. Auch hat es platz und zugehöriges zum lager einer armee gnug allda. Nach dem
+                ich auf der rückreise in das <rs type="place">castell</rs> gelaßen wurde, habe
+                gefunden, daß es also ruiniret, daß nicht ein mann einen stand darinnen findet, von
+                wo er heraus feuern könte. <pb facs="#IMG21" n="146r"/> Die 3 canons, so darinnen
+                sind, stehen auf höltzernen batterien. Ist auch kein gebäude darinnen, als heraußen
+                in dem vorgemäuer befindet sich ein wachthauß, in welches nur wache gehet, wenn ein
+                großer herr dar passiret. Auserdem schließen sie nur das thor zu. </p>
+            <p> Zehen minuten über <rs ana="MPRautomatched" ref="#mpr14598" type="place">Pirot</rs>
+                gehet eine straße rechter hand ab, über das gebürge, <rs type="place">Palanka
+                    Tern</rs>. </p>
+            <p> Den <date when="1719-06-26">26. Iunii</date> marchireten wir allezeit im schmahlen
+                grunde zwischen denen bergen, rechter hand den <rs type="place">Nissava fluß</rs>
+                hinauf, biß nach dem dorffe <rs type="place">Zaribrod</rs>, unter welchen das lager
+                zu stehen kam, biß wohin wir 9 bäche zu passiren und gegen <rs type="place"
+                    >Zaribrod</rs> gar morastigen weg hatten, daß die wägen fast bis an die axen
+                eingiengen. Der march war 3 stunden 50 minuten. </p>
+            <p> Den <date when="1719-06-27">27.</date> durch den <rs type="place">Ieschowiz
+                    felsen</rs> dem dorffe <rs type="place">Dragomann</rs>, <hi rend="#u">allwo eine
+                    straße von <rs ana="MPRautomatched" ref="#mpr14929" type="place">Vidin</rs>
+                    herkommet</hi>, rechter hand vorbey bis nach dem dorffe <rs type="place"
+                    >Slibnick</rs>. Der march war 5 stunden 6 minuten. </p>
+            <p> Den <date when="1719-06-28">28. Iunii</date> sind wir bis 1 stunde von <rs
+                    ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> marchiret und
+                ohnweit dem dorff <rs type="place">Obello</rs> zu stehen kommen. Der march war 5
+                stunden. </p>
+
+            <pb facs="#IMG22" n="146v"/>
+            <p> Den <date when="1719-06-29">29.</date> hielten wir den einzug in <rs
+                    ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> und kam die gantze
+                großbotschafft auser die cavalliers in ein palais oder seraglium zu logiren. Der
+                march biß an die <rs type="place">stadt</rs> war 1 stunde 30 minuten. <add
+                    place="sublinear">Daß palais hatte über hundert zimmer.</add>
+            </p>
+            <p> Den <date when="1719-06-30">30.</date> war rasttag und wurde die vorspannung
+                abgelöset. </p>
+            <p> Zwischen <rs ana="MPRautomatched" ref="#mpr14598" type="place">Pirot</rs> und <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> nun ist 5/4 stunden
+                von <rs type="place">Zaribrod</rs> gegen <rs type="place">Slibnick</rs> der dritte
+                und von wägen oder artillerie gleichfals gar schlimme <rs type="place">pass</rs>
+                durch den <rs type="place">Ieschowiz felsen</rs>, welcher zu beyden seiten gerade in
+                die höhe stehet und auch 20 minuten lang ist, bey welcher alda befindlichen karaule
+                (oder semen banturen wacht) ebenfalls eine armee durch ein wenig arbeit gar leicht
+                aufzuhalten ist, wiewohl man gegen infanterie das <rs type="place">gebürge</rs> eine
+                halbe stunde rechter handwerts biß über das <rs type="place">Lucovo flüßgen</rs>
+                besetzen müste. </p>
+            <p> Weiln nun eine armee bey <rs type="place">Zaribrod</rs> zum campement, außer sehr
+                zerstreuet zu stehen keinen plaz hat, auch bey <rs type="place">Slibnick</rs>, allwo
+                zwar plaine genug, aber die berge gantz kahl, man also kein holtz findet, müste
+                dieselbe das lager über <rs ana="MPRautomatched" ref="#mpr14598" type="place"
+                    >Pirot</rs> herauf nehmen, umb folgenden <pb facs="#IMG23" n="147r"/> march biß
+                an das dorff <rs type="place">Dragomann</rs> zu machen, allwo man sich wegen waßer
+                gleichfals nicht allzuweit extendiren dörffte. </p>
+            <p> Von besagtem <rs type="place">Dragomann</rs> bis <rs ana="MPRautomatched"
+                    ref="#mpr10977" type="place">Sophia</rs> ist die straße gantz gut und längst
+                derselben 2 bis 3 stunden breit. Zu beyden seiten viel felder und dörffer, daß also
+                unweit <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> gar leicht
+                wieder ein lager kan genommen werden. </p>
+            <p> Was das land von <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>
+                bis <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> anbetrifft, so
+                bestehet daßelbe rechter hand der straße bis <rs type="place">Dragomann</rs> in
+                lauter hohem <rs type="place">gebürge</rs> und wald, welches aber dennoch in
+                thälern, mit Christen bewohnet und befindet sich von <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> bis <rs ana="MPRautomatched"
+                    ref="#mpr14598" type="place">Pirot</rs> das sehr hohe <rs type="place">Suba
+                    gebürge</rs> in lauter felsen bestehend. Bey <rs type="place">Dragomann</rs>
+                wendet sich das <rs type="place">gebürge</rs> von der straße etwas rechter hand ab
+                und ist oben meist gantz kahl. Lincker hand der straße aber, gehet das mit wald
+                bewachsene <rs type="place">gebürge</rs> nur bis <rs ana="MPRautomatched"
+                    ref="#mpr14598" type="place">Pirot</rs>, allwo sich das <rs type="place">Stara
+                    Planina</rs> oder <rs type="place">alte gebürge</rs> anfänget undt biß gegen <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> gehet.
+                Bestehet oben in puren todten felsen, so gantz kahl, woher es auch den nahmen haben
+                mag. Unten in den gründen der felsen aber, und biß auf die helffte hinauf, seynd die
+                schönsten felder, wiesen, weinberge und waldungen, <pb facs="#IMG24" n="147v"/>
+                dahero es auch, wie dasige bauern selbst sagen, durchgehends gar starck soll
+                bewohnet seyn. </p>
+            <p>
+                <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> vor sich selbst
+                ist nach türckischer art eine ziemliche große stadt, hat viel einwohner und schöne
+                moscheen, aber gleich einem dorfe gantz offen, könte aber der situation halber schön
+                fortificiret werden, wenn man nicht von dem berge <rs type="place">Witoscha</rs>, so
+                1 stunde ablieget, in die <rs type="place">stadt</rs> hinein sehen könte. Denn ob
+                man schon von demselben mit canons nicht hinein schießen kan, würde man doch in alle
+                wercke sehen, und der garnison thun und laßen wahrnehmen können. </p>
+            <p> Von hier aus gehet eine straße von <rs type="place">Leschkowatz <del rend="#s"
+                        >U</del> Vranie</rs> nach <rs type="place">Serallien</rs>. Eine gute stunde
+                davon zur rechten lieget der hohe berg <rs type="place">Witoscha</rs>, von welchem
+                wegen deßen schönen prospects und nutzbarkeit etwas zu melden meritiret. Besagter
+                    <rs type="place">berg</rs> ist 4 stunden hoch, unten um den <rs type="place"
+                    >fluß</rs> deßelben, aus welchem 2 schöne in hohem werth gehaltene warme bäder
+                kommen, liegen etliche dörffer mit schönen feldern und weingärten, wird auch weiter
+                zur rechten daßelben viel eysen gegraben. Den <rs type="place">berg</rs> hinauf hat
+                es etliche absätze oder flächen, auf welchen ersten die schönsten äcker felder.
+                Weiter hinauf verändert sich ieder <pb facs="#IMG25" n="148r"/> absatz und
+                fruchtbarkeit undt clima. Denn da das untere land von der hitze gantz verbrandt oder
+                verdorret, findet man oben das schönste lange graß, welches stehet, als wäre es in
+                einer nacht gewachsen. In denen gründen und an den höhen hat es auch wald oder
+                pusch, so sich gleichfals nach denen höhen oder absätzen verändert. So man weiter
+                hinauf kömmet, seynd auf dasigen wiesen eine sonderliche art wacholderbeersträucher,
+                auch allerhand schöne blumen und kräuter, so ich sonst nirgends gesehen. Gantz oben
+                auf befinden sich sehr hohe berge von gar großen steinen aufgesetzet und läst sich
+                ansehen, als ob sie mit fleiß aufeinander gelegt wären. Aus diesen entspringen viel
+                starcke bäche, so bald über, bald unter der erden des <rs type="place">berges</rs>
+                herunter rauschen, auch oben gar sumpfichte wiesen verursachen. Zwischen diesen
+                aufeinander liegenden steinen oder felsen lieget gar viel und tieffer schnee, so
+                niemals vergehet. Auf besagtem <rs type="place">berge</rs> (über welchem eine
+                fahrstraße, so zwar schlecht gehet) werden etliche tausend schaafe und pferde von
+                weiten her erhalten. Übrigens hat man unterschiedener orten des <rs type="place"
+                    >berges</rs> ein ungewöhnliches und weites aussehen, so wohl über die darunter
+                befindliche plaine <pb facs="#IMG26" n="148v"/> und dörffer als auch dem
+                herumliegenden hohen, mit schnee bedeckten <rs type="place">gebürge</rs>. </p>
+            <p> Den <date when="1719-07-01">1. Iulii</date> marchirten wir biß nach dem dorff <rs
+                    type="place">Grublian</rs> und kamen über alldasigen fluß <rs type="place"
+                    >Iskar</rs> zu stehen. Der march war 2 stunden. </p>
+            <p> Den <date when="1719-07-02">2.</date> nach <rs type="place">Ieni</rs> oder <rs
+                    type="place">Novi Haan</rs>, welches gleichfals ein dorff mit einem schönen
+                haan. Der march war 3 stunden 7 Minuten. </p>
+            <p> Den <date when="1719-07-03">3.</date> bey dem dorff <rs type="place">Wokerel</rs>
+                vorbey nach <rs type="place">Ichtemann</rs> und wegen der felsigten <rs type="place"
+                    >berge</rs> ein sehr schlimmer weg. Der march war 4 stunden 46 minuten. </p>
+            <p> Den <date when="1719-07-04">4.</date> war rasttag. Diesen abend war ein gar
+                entsetzliches donnerwetter, welche da zu lande zwischen denen hohen <rs type="place"
+                    >gebürgen</rs> gar gemein seyn sollen, und weil zu beyden seiten des thals die
+                    <rs type="place">berge</rs> gar hoch, bließ der wind gleich als in einem
+                blaserohr darinnen her, daß auch die meisten zelte zerrißen und umgeworffen, auch
+                theils wagen in eine ecke fortgetrieben wurden. </p>
+            <p> Den <date when="1719-07-05">5.</date> marchirten wir der <rs type="place">Porta
+                    Traiani</rs> unter etwan ¾ stunden rechter hand vorbey und zwar längst in einem
+                    <rs type="place">bache</rs> und sehr tieffen, steinigten, auch schmalen, hohlen
+                wege fort, <pb facs="#IMG27" n="149r"/> so über eine stunde lang und kamen wieder in
+                einem grunde oder ebene bey dem fluße <rs type="place">Marize</rs> 1 ½ stunde von
+                    <rs type="place">Banga</rs>, so rückwerts lieget, zu bestehen, allwo zur rechten
+                das mit schnee bedeckte <rs type="place">Rillo gebürge</rs>. In dieser gegend giebt
+                es viel warme bäder. Der march war 2 stunden 50 minuten. </p>
+            <p> Den <date when="1719-07-06">6. Iulii</date> passireten wir über dasige <rs
+                    type="place">brücke</rs> die <rs type="place">Marize</rs> und giengen allezeit
+                zur rechten zwischen denen felsen, längst derselben hin, allwo wir viel schöne
+                marmor felsen antraffen, passirten das dorff <rs type="place">Iabrowize</rs> und <rs
+                    type="place">Kisderwen</rs>, kamen endlich in einer großen ebene bey dem dorff
+                    <rs type="place">Serambeick</rs> zu stehen. Diesen march kamen wir aus <rs
+                    ana="MPRautomatched" ref="#mpr9443" type="place">Bulgarien</rs> auf romanischen
+                boden. Der march war 4 stunden 43 minuten. </p>
+            <p> Den <date when="1719-07-07">7.</date> marchireten wir nach <rs type="place"
+                    >Passarezick</rs>, allwo wir wieder die <rs type="place">Marize</rs> pasireten,
+                und in häusern logirten. Der march war 2 stunden 51 minuten. </p>
+            <p> Der <date when="1719-07-08">8.</date> war rasttag. </p>
+            <p> Von <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> bis <rs
+                    type="place">Passarezick</rs> hat eine armee folgendes zu observiren: Erstlich,
+                obschon die aue von besagten <rs ana="MPRautomatched" ref="#mpr10977" type="place"
+                    >Sophia</rs> bis <rs type="place">Geni</rs> oder <rs type="place">Novi Haan</rs>
+                bis 2 stunden breit, so ist dieselbe doch von gar viel kleinen bächen, so zur
+                sommerszeit <pb facs="#IMG28" n="149v"/> meistens trocken, und nur vom regen
+                entstanden, dahero sie gar tief ausgewaschene ufer haben. Weilen nun über besagte
+                bäche nur eine einfache straße gehet, welche vor eine armee im marche nicht
+                zulänglich, als wäre nöthig, etliche hundert pionniers voraus zu schicken, umb mehr
+                wege durch die bäche zu machen. Ingleichen befindet sich unweit <rs type="place"
+                    >Geni Haan</rs> gegen <rs type="place">Ichtemann</rs> wiederum eine sehr
+                schlimme passage, so ¾ stunden lang, über einen felsigten <rs type="place">berg</rs>
+                eingehauen, und gleichfalls zu repariren ist, worauf man dann bis unter <rs
+                    type="place">Porta Traiani</rs> wieder viel bäche, wie vorige, zu passiren hat.
+                Bey der <rs type="place">Porta Traiani</rs> ist der 4. pass und seynd alda zwey
+                straßen. Die eine, so von unten über den <rs type="place">berg</rs> eingehauen,
+                gehet durch besagte <rs type="place">Porte</rs>, die andere gehet unten etwas
+                rechter hand ab und zwar in einem sehr tiefen grunde, in welchen ein <rs
+                    type="place">bach</rs> fließet über eine stunde lang fort, hat auf beyden seiten
+                gar hohe felsen und ist so schmal, daß gar selten ein wagen den andern passiren oder
+                umwenden kan. Ingleichen gehet die straße etliche mahl aus dem <rs type="place"
+                    >bach</rs> in die höhe an den felsen über einige brücken weg, allwo man mit
+                langen wagen gar schwer wenden kan. Die brücken auch sehr schlecht sind. Allda könte
+                man wiederum mit einer kleinen gegenwehr <pb facs="#IMG29" n="150r"/> die
+                allerstärckste macht zurücke halten. Und ob ich schon vor dieses mahl von der
+                straße, so durch die <rs type="place">Porta</rs> gehet, keinen weitlauffigen rapport
+                geben kan, welches bis zu der rückkunfft verschieben muß, so kan doch aus der
+                situation so viel urtheilen, daß, wann man die beyden straßen mit einer linie oder
+                    sch<del rend="#s">l</del>antze zusammen hienge, die obere straße auf dem <rs
+                    type="place">berge</rs> gleichfalls zu disputiren sey. NB. Die straße, so
+                lincker hand durch die <rs type="place">Porta Traiani</rs> nach <rs type="place"
+                    >Passarezick</rs> gehet ist kürtzer und fast beßer, als die unten zur rechten
+                hand, aber gleichfals gar schmal und gehet zwar von unten ½ stunde an den berg
+                hinauf, allwo sich besagte <rs type="place">Porta</rs> (so noch in einem baufälligem
+                bogen von ziegeln bestehet) befindet. Von dar gehet die straße wieder bergunter, bey
+                oben lincker hand liegenden <rs ana="MPRautomatched" ref="#mpr14605" type="place"
+                    >palanka</rs> vorbey, über eine kurtze steinerne brücke, so 1.100 schritt von
+                der <rs type="place">Porte</rs>, und dann zwischen dem hohen <rs type="place"
+                    >bergen</rs> längst einen <rs type="place">bach</rs> eine stunde weit hinunter,
+                allwo lincker hand am <rs type="place">berge</rs> eine karaule. Aus diesem grunde
+                gehet die straße wieder längst einem <rs type="place">bach</rs> eine gute halbe
+                stunde bergauf, biß allwo eine gemauerte palancke, <rs type="place">Hissarzig</rs>
+                genannt, lincker hand am wege zwischen den <rs type="place">bergen</rs> liegt und
+                gleich der karaula mit semen besetzet ist. Von besagter <rs ana="MPRautomatched"
+                    ref="#mpr14605" type="place">palanka</rs> gehet die straße <pb facs="#IMG30"
+                    n="150v"/> wieder wie zuvor zwischen den <rs type="place">bergen</rs> 46 minuten
+                weit bergunter, allwo am ende des <rs type="place">paßes</rs> das dorff <rs
+                    type="place">Novaselle</rs>, biß wohin die straße meist in felsen eingehauen.
+                Von besagtem <rs type="place">Novaselle</rs> biß <rs type="place">Passarczick</rs>
+                gehet die straße auf lauter ebene lincker hand der <rs type="place">Marize</rs> hin. </p>
+            <p> Von itztbesagtem <rs type="place">pass</rs> eine stunde weit gegen <rs type="place"
+                    >Passarezick</rs> fänget sich der 5. stärckste <rs type="place">pass</rs> an, so
+                dicht zur rechten an dem <rs type="place">Marizefluß</rs> 2 ½ stunde lang hingehet.
+                In diesem <rs type="place">pass</rs> nun, welcher zur lincken über der <rs
+                    type="place">Marize</rs> gar hohe, zur rechten aber etwas niedrigere felsen hat,
+                gehet der weg dichte an den scarpirten marmor felsen über brücken hin. Zwischen
+                diesen zwey angehenden brücken aber, über 4 starcke <rs type="place">bäche</rs>, so
+                ein sehr hohes felsigtes ufer haben und weiter rechter hand hinauf nicht passiret
+                werden können, sondern nur allein über die hohe und sehr schmale steinerne brücke,
+                so über ieden an den mund deßelben, wo sie in die <rs type="place">Marize</rs>
+                fallen, gebauet sind. So man nun die felsen lincker hand über der <rs type="place"
+                    >Marize</rs>, so sehr hoch und höher als die zur rechten, auch von der natur den
+                weg recht zu bestreichen geleget, nur mit etlichen 100 mann, nebst etliche kleine
+                canons besetzete, <pb facs="#IMG31" n="151r"/> könte die allerstärckste macht, mit
+                was art und weise sie auch nur könne abgehalten werden. </p>
+            <p> Weiln der <rs type="place">pass</rs> bey <rs type="place">Hissarzeg palanka</rs>
+                nicht über eine halbe stunde von diesem, wäre gar leicht eine communication über
+                gebürge von einem zum andern zu machen. Zwischen dem vorigen und diesem 5. <rs
+                    type="place">pass</rs> gehet die hauptstraße nach <rs type="place"
+                    >Serallien</rs> rechter hand hinein ab, und zwar über <rs type="place"
+                    >Panga</rs>, <rs type="place">Samkon</rs>, <rs type="place">Tubnize</rs>, <rs
+                    type="place">Zestentil Panga</rs>, <rs type="place">Gridere Palanka</rs> und <rs
+                    type="place">Prischtena</rs>. </p>
+            <p> Wann man aus besagtem <rs type="place">paß</rs> heraus kommet, ist eine ziemlich
+                weite plaine, in lauter feld bestehend, und hat biß <rs type="place">Passarezik</rs>
+                weiter nichts als 6 kleine <rs type="place">bäche</rs> oder reißgräben zu passiren,
+                über welche, so eine armee nicht längsam defiliren wolte, durch pionniers noch
+                einige brücken könte machen laßen. Zu denen campements findet eine armee auser denen
+                passen, platz und zugehöriges aller orthen gnug. </p>
+            <p> Was das land zwischen <rs ana="MPRautomatched" ref="#mpr10977" type="place"
+                    >Sophia</rs> und <rs type="place">Passarezick</rs> anbelanget, so bestehet
+                daßelbe zu beyden seiten der straße in lauter gebürge mit wald bewachsen, zwischen
+                welchen aber sich dennoch gar schöne auen und dörffer befinden. Wird auch in dem <rs
+                    type="place">gebürge</rs> zur rechten viel eysen gegraben. </p>
+            <p> Etwas rechter hand ab lieget das <rs type="place">Rillo gebürge</rs>, so <pb
+                    facs="#IMG32" n="151v"/> gleich dem andern, welches weiter gegen <rs
+                    ana="MPRautomatched" ref="#mpr7819" type="place">Dalmatien</rs> hinein lieget,
+                allezeit mit schnee bedecket. Obschon ich das land recht und lincker hand nicht
+                kundig, so kan doch aus den vielen gebürgen so viel schlüßen, daß eine armee
+                anfänglich bis <rs type="place">Passarezick</rs>, sonder andre zufuhr über winters
+                schwerlich wirdt subsistiren können, weiln die einwohner aus mangel der verführung
+                (es sey denn nach <rs type="place">Serallien</rs>) wenig mehr frucht bauen, als sie
+                selbst genüßen können. Was die <rs type="place">Marize</rs> anbetrifft, ist dieselbe
+                bis hieher mit pferden aller orthen zu passiren, man kan auch hin umd wieder zu fuß
+                durchgehen, es sey denn, daß sie vom regen oder schnee waßer extraordinair groß
+                würde. </p>
+            <p> Die stadt <rs type="place">Passarezik</rs> an sich selbst liegt an der <rs
+                    type="place">Marize</rs>, über welche eine höltzerne brücke. Ist fast so groß
+                und handelbar wie <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>,
+                hat aber noch beßere, auch mehr pallais oder herren häuser, ist im diametro ½ stunde
+                breit und gleichfals wie ein dorff rund herum offen. Ist aber die gelegenste und am
+                besten situirte <rs type="place">stadt</rs> von allen, so zwischen <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> und <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> zu
+                fortificiren. </p>
+            <p> Den <date when="1719-07-09">9. Iulii</date> marchireten wir an der <rs type="place"
+                    >Marize</rs> lincker seits hinunter, giengen durch <pb facs="#IMG33" n="152r"/>
+                <rs type="place">Philippopel</rs>, allwo wir die <rs type="place">Marize</rs> wieder
+                passireten. Und weil die pest in der <rs type="place">stadt</rs>, haben wir unser
+                lager 24 minuten über dieselbe hinaus genommen. Der march war 6 stunden 18 minuten. </p>
+            <p> Von <rs type="place">Passarezik</rs> bis <rs type="place">Philippopel</rs> hat man
+                lauter plaine, so in ackerfeldern bestehet, und ist zur lincken der <rs type="place"
+                    >Marize</rs> 3 biß 4 stunden breit, bis an das <rs type="place">gebürge</rs> zur
+                rechten der <rs type="place">Marize</rs>, aber nur 1 biß 1 ½ stunde breit. Es
+                befinden sich aber in dieser gegend viel waßergräben, so express, umb die reißfelder
+                zu überschwemmen, gemacht sind. Daher es auch ohnweit von <rs type="place"
+                    >Passarezik</rs> heraus, von dem aus denen gräben getretenem waßer so stehen
+                bleibt, gar übler undt morastigter weg, von deßen gestanck auch die lufft gar unrein
+                wirdt. </p>
+            <p> So nun eine armee darzwischen campiren wolte, müste sich dieselbe aus mangel des
+                holtzes zur rechten der <rs type="place">Marize</rs> an das <rs type="place"
+                    >gebürge</rs> halten. </p>
+            <p> Die stadt <rs type="place">Philippopel</rs> ist ohngefehr in der größe wie <rs
+                    ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>, hat vor alters
+                mauern gehabt, von welchen aber anitzo nicht viel zu sehen. <rs type="place"
+                    >Allhier</rs> beginnet die <rs type="place">Marize</rs> schiffreich zu werden,
+                dahero auch auf denen von bretern <pb facs="#IMG34" n="152v"/> zusammen geschlagenen
+                flößen viel eysen und getrayde von dar nach <rs ana="MPRautomatched" ref="#mpr14060"
+                    type="place">Adrianopel</rs> geführet wirdt. </p>
+            <p> Den <date when="1719-07-10">10. Iulii</date> marchireten wir rechter hand an der <rs
+                    type="place">Marize</rs> hinunter und kamen über den bach <rs type="place"
+                    >Stannimock</rs> zu stehen, allwo 2 stunden zur rechten das städtgen <rs
+                    type="place">Stannimock</rs>, nebst einem großen <rs type="place">kloster</rs>,
+                am gebürge <rs type="place">Rupeza</rs> lag. Der march 1 stunde 10 minuten. </p>
+            <p> Den <date when="1719-07-11">11.</date> längst den <rs type="place">Marize fluß</rs>
+                so fort durch das dorff <rs ana="MPRautomatched" ref="#mpr14576" type="place"
+                    >Papasli</rs> und kamen bey <rs type="place">Hali Aga Czeschma</rs> oder
+                röhrbrunnen zu stehen, so etwan ¾ stunden von dem fluß <rs type="place">Marize</rs>
+                rechter hand ab. Der march 4 stunden 21 minuten. </p>
+            <p> Den <date when="1719-07-12">12.</date> kamen wir durch das dorff <rs type="place"
+                    >Niderwen</rs> oder <rs type="place">Novomahale</rs>, so 24 minuten von dem
+                gewesenem lager. Ferner durch das dorff <rs type="place">Kogali</rs>, <rs
+                    type="place">Kuruczeschma</rs> und <rs type="place">Semischcze</rs>, allwo auch
+                gleich hinter dem leztern das lager zu stehen kam. Der march 4 stunden 53 minuten. </p>
+            <p> Den <date when="1719-07-13">13.</date> rasttag. </p>
+            <p> Den <date when="1719-07-13">14.</date> giengen wir durch den marcktflecken <rs
+                    type="place">Usumschewa</rs> und das städtgen <rs type="place">Hermanli</rs>,
+                bey welchem leztern eine schöne steinerne brücke und haan, kamen endlich bey einem
+                    <pb facs="#IMG35" n="153r"/> röhrbrunnen an der <rs type="place">Marize</rs> zu
+                stehen. Der march gar schwer und 6 stunden 32 minuten. </p>
+            <p> Den <date when="1719-07-15">15.</date> marchirten wir durch das dorff <rs
+                    type="place">Hebibcze</rs> und kamen dißeits bey dem städtgen <rs type="place"
+                    >Mustapha Bascha Tzgupri</rs> an der <rs type="place">Marize</rs> zu stehen.
+                Alda ist wiederum eine schöne steinerne brücke von 21 pfeilern und 400 schritt lang
+                über die <rs type="place">Marize</rs>. Auf diesem march, eine halbe stunde vom
+                lager, ist uns das castell <rs type="place">Marco</rs> 5/4 stunden vom weg rechter
+                hand am <rs type="place">gebürge</rs> liegen blieben. Ist nicht groß, aber doch
+                besetzet. Der march 4 stunden 33 minuten. </p>
+            <p> Den <date when="1719-07-16">16. Iulii</date> rasttag. </p>
+            <p> Den <date when="1719-07-17">17.</date> passireten wir die <rs type="place"
+                    >Marize</rs> und durch obbsagtes <rs type="place">städtgen</rs>, giengen längst
+                an der <rs type="place">Marize</rs> lincker hand hinunter, marchireten <rs
+                    type="place">Teckie Haan</rs> vorbey und kamen ¼ stunde von <rs type="place"
+                    >Ekmeckcziquoi</rs> oder bey einem brunnen an der <rs type="place">Marize</rs>
+                zu stehen. Der march 3 stunden 38 minuten. </p>
+            <p> Den <date when="1719-07-18">18.</date> marchireten wir vollends nach <rs
+                    ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs>, in welchen
+                wir den einzug wie ordinari in halber galla hielten, und kamen alda in die häuser zu
+                logiren, weilen wir wegen der pest <pb facs="#IMG36" n="154v"/> nicht wehlen konten,
+                schlecht genug waren. Der march 1 stunde 30 minuten. </p>
+            <p> Den <date when="1719-07-19">19.</date> und <date when="1719-07-20">20.</date> war
+                rasttag, unter welcher zeit denn die vorspannung wieder abgelöset wurde. </p>
+            <p> Von <rs type="place">Philippopel</rs> bis an das dorff <rs ana="MPRautomatched"
+                    ref="#mpr14576" type="place">Papasli</rs>, so auf 6 stunden austräget, befindet
+                sich zu beyden seiten der <rs type="place">Marize</rs> eine ziemlich große ebene in
+                lauter feld bestehend, so aber doch zur lincken der <rs type="place">Marize</rs>
+                breiter als zur rechten, und beyderseits von etlichen bächen, so von dem
+                seitliegendem <rs type="place">gebürge</rs> in die <rs type="place">Marize</rs>
+                fallen zertheilet, und ist das holtz bis daher sehr rar. Von besagtem <rs
+                    ana="MPRautomatched" ref="#mpr14576" type="place">Papasli</rs> aber, bis an den
+                marcktflecken <rs type="place">Usunschewa</rs> hat es lauter flache höhen mit busch
+                und feld vermischet, so mit vielen kleinen bächen durchschnitten, welche, ob sie
+                schon im sommer meist trocken, einer armee im schleunigem march gleichwohl
+                hindernüße machen solten. Ingleichen ist vor iztbesagtem <rs type="place"
+                    >marcktflecken</rs> eine heide oder wiese von einer stunde lang, über welche der
+                weg bey regenwetter ziemlich schlimm seyn wirdt. </p>
+            <p> Von <rs type="place">Usunschewa</rs> nach <rs type="place">Hermonli</rs> befindet
+                sich wegen der vielen gründe wieder ein schlimmer weg, <pb facs="#IMG37" n="154r"/>
+                welcher, weil das <rs type="place">gebürge</rs> allda zu beyden seiten wieder höher,
+                nicht zu umgehen ist, und wäre allhier vor den 6. <rs type="place">pass</rs> zu
+                rechnen. Denn so man ein paar hohe berge, so dicht zur rechten an der straße liegen,
+                besetzete und mit einer linie längst den allda befindlichen bach auf der höhe ½
+                stunde lang biß an die <rs type="place">Marize</rs> hinunter gienge und den <rs
+                    type="place">berg</rs> zur lincken über die <rs type="place">Marize</rs>, so
+                gleichfals einen <rs type="place">bach</rs> vor sich, mit anhienge, könte man sich
+                gleichfalls gegen eine ziemliche macht defendiren. </p>
+
+            <p> Von dar aus bis vollends nach <rs ana="MPRautomatched" ref="#mpr14060" type="place"
+                    >Adrianopel</rs>, befindet sich die straße (welche über lauter feld mit busch
+                vermenget, gehet) gar gut, auser daß dieselbe wie ordinair mit vielen bächen, so
+                meist vom regen entstanden und tief ausgewaschen, traversiret wirdt. Dahero, weil
+                nur eine brücke über ieden, die pionniers allezeit nöthig voraus zu schicken wäre.
+                Was das lager anbelanget, kan daßelbe bis daher aller orten genommen werden. </p>
+            <p> Was das land zwischen <rs ana="MPRautomatched" ref="#mpr11768" type="place"
+                    >hier</rs> und <rs type="place">Philippopel</rs> anbelanget, so ist daßelbe weit
+                beßer als rückwerts und ob es schon seitwerts noch strichweise <rs type="place"
+                    >gebürge</rs> giebet, so ist es doch nicht allzuhoch. Und ist das land aller
+                orthen <pb facs="#IMG38" n="154v"/> so wohl gut bewohnet als gebauet, dahero eine
+                armee dieser gegend schon viel beßer als rückwerts subsistieren könte. Eine stunde
+                rechter hand von <rs type="place">Hepipcze</rs> und <rs type="place">Mustapha Bascha
+                    Tzgupri</rs> lieget das <rs type="place">Karrata</rs> oder <rs type="place"
+                    >Schwartze Gebürge</rs>, in welchem viel eisen gegraben wirdt. An diesem <rs
+                    type="place">gebürge</rs> lieget auch etwan eine stunde von der straße das <rs
+                    type="place">castell Macco</rs>, welches dem weiten ansehen nach nicht viel zu
+                sagen hat. </p>
+            <p> Die einwohner dieses landes betreffende, so befinden sich in denen marcktflecken und
+                städtgen fast lauter Türcken. Die dörffer aber sind noch meist von Christen
+                bewohnet. </p>
+            <p>
+                <rs ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs> an und vor
+                sich selbst ist sehr groß und volckreich, hat innerhalb eine alte ringmauer, so hin
+                und wieder gar baufällig und mit häusern verbauet ist. In besagter ringmauer oder
+                inneren stadt wohnen meist Christen und Iuden. Neben der <rs type="place">stadt</rs>
+                ist ein <rs type="place">schloß</rs> oder seraglium von <rs type="person"
+                    >großsultan</rs>, so ein sehr groß und weitläuffig mit bley bedeckt gebäude,
+                auch meist in wilden gärten bestehet. Gleich unter <rs ana="MPRautomatched"
+                    ref="#mpr14060" type="place">Adrianopel</rs> fället der <rs type="place">Tuncza
+                    fluß</rs>, so durch die <rs type="place">stadt</rs> gehet, in die <rs
+                    type="place">Marize</rs>, daher dieselbe schon ziemlich navigable ist. </p>
+
+            <pb facs="#IMG39" n="155r"/>
+            <p> Neben der <rs type="place">stadt</rs> fällt noch über der <rs type="place"
+                    >Tuncza</rs> der <rs type="place">Arta fluß</rs> in die <rs type="place"
+                    >Marize</rs>. Aus der <rs type="place">stadt</rs> gehet eine steinerne brücke
+                über die <rs type="place">Marize</rs>, biß unter welche die handelsschiffe von <rs
+                    type="place">Schmirna</rs> gehen können. </p>
+            <p> Zu fortificiren ist die <rs type="place">stadt</rs> gar nicht, weiln sie in der
+                tieffe und fast rund herum gar hohe <rs type="place">berge</rs> hat. Um die <rs
+                    type="place">stadt</rs> herum seynd gar viel weinberge. </p>
+            <p> Den <date when="1719-07-21">21. Iulii</date> seynd wir aus <rs ana="MPRautomatched"
+                    ref="#mpr14060" type="place">Adrianopel</rs> wieder aufgebrochen und bis durch
+                das dorff <rs type="place">Habsa</rs> marchiret, allwo hart an demselben das lager
+                zu stehen kam. Der march 4 stunden 45 minuten. </p>
+            <p> Den <date when="1719-07-22">22.</date> durch das dorff <rs type="place"
+                    >Minorelligoi</rs> und biß an das städtgen <rs type="place">Babeisky</rs>, allwo
+                wir dißeits desselben campireten. Der march war 4 stunden 7 minuten. </p>
+            <p> Den <date when="1719-07-23">23.</date> durch <rs type="place">Babeisky</rs>, so gar
+                klein und durch das städtgen <rs type="place">Bürgas</rs>, hinter welchen wir wieder
+                stehen blieben. Der march 3 stunden 47 minuten. </p>
+            <p>
+                <rs type="place">Bürgas</rs> ist eine der besten kleinen städte, hat auch feine
+                herrn häuser und von hier ist das <rs ana="MPRautomatched" ref="#mpr14148"
+                    type="place">meer</rs> noch eine tagereise, biß wohin lauter ebene. </p>
+            <p> Den <date when="1719-07-24">24.</date> rasttag. </p>
+            <p> Den <date when="1719-07-25">25.</date> nahmen wir unser lager bey dem städtgen <pb
+                    facs="#IMG40" n="155v"/>
+                <rs type="place">Karischran</rs>, allwo ein klein <rs type="place">seraglium</rs>
+                vom <rs type="place">großsultan</rs>. Der march war 3 stunden 10 minuten. </p>
+            <p> Den <date when="1719-07-26">26.</date> kamen wir gleich hinter dem städtgen <rs
+                    type="place">Czorlu</rs> zu stehen, welches vor alters eine mauer gehabt, so
+                aber anitzo gantz eingefallen. Von dar siehet man das <rs ana="MPRautomatched"
+                    ref="#mpr14148" type="place">meer</rs>. Der march war 3 stunden 47 minuten. </p>
+            <p> Den <date when="1719-07-27">27.</date> marchirten wir bis an das dorff <rs
+                    type="place">Kunikli</rs>. Der march war 2 stunden 45 minuten. </p>
+            <p> Den <date when="1719-07-28">28.</date> kamen wir nach 2 stunden an das <rs
+                    ana="MPRautomatched" ref="#mpr14148" type="place">meer</rs>, langst welchem wir
+                dann bis an die stadt <rs type="place">Silivria</rs> marchireten. Der march war 4
+                stunden 3 minuten. </p>
+            <p> Den <date when="1719-07-29">29.</date> war rasttag. </p>
+            <p>
+                <rs type="place">Silivria</rs> lieget an einem <rs type="place">berge</rs> oder
+                hohen ufer des <rs ana="MPRautomatched" ref="#mpr14148" type="place">meers</rs>, hat
+                eine alte mauer mit gar eingefallenen thürnen, ist darinnen gar wüste und meist mit
+                Christen und Iuden bewohnet. Die rechte <rs type="place">stadt</rs> lieget auserhalb
+                der mauer und ist durchgehends mit Türcken bewohnet. <rs type="place">Allhier</rs>
+                ist ein <rs type="place">hafen</rs>, in welchem wegen fläche des <rs
+                    ana="MPRautomatched" ref="#mpr14148" type="place">meers</rs> nicht allzugroße
+                schiffe gehen können. </p>
+            <p> Den <date when="1719-07-30">30.</date> marchireten wir längst dem ufer des <rs
+                    ana="MPRautomatched" ref="#mpr14148" type="place">meers</rs>, passireten das
+                dorff <rs type="place">Bivatos</rs> und <rs type="place">Gallos</rs>, welche beyde
+                alte bleckthurne zuvor seeräuber <pb facs="#IMG41" n="156r"/> gehabt. Unser lager
+                kam dißeits an <rs type="place">Ponte Grande</rs> oder <rs type="place"
+                    >Buiukzczeckmercze</rs> zu stehen. Der march war 5 stunden 7 minuten. </p>
+            <p> Den <date when="1719-07-31">31. Iulii</date> passirten wir den arm oder meerbusen
+                über <rs type="place">Ponte Grande</rs> und durch den ienseits davor gelegenen
+                flecken, kamen des <rs type="person">großveziers</rs> garten, und dem dorff <rs
+                    type="place">Horramidere</rs> vorbey, giengen noch über <rs type="place">Ponte
+                    Piccolo</rs> und dasigen flecken, kamen endlich an das lusthauß <rs type="place"
+                    >Hasnatar Czisstlick</rs>, so dem itzigem türckischem <rs type="person"
+                    >großbotschaffter</rs> zugehörig, bey welchem wir wegen der pest in <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> ¾ stund
+                von der <rs type="place">stadt</rs>, und ein halbe stund vom <rs
+                    ana="MPRautomatched" ref="#mpr14148" type="place">meer</rs> stehen blieben. Der
+                march 5 stunden. </p>
+            <p> Ist also der march von <rs ana="MPRautomatched" ref="#mpr9425" type="place"
+                    >Belgrad</rs> bis <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs>, und zwar im schritt zu pferde zu verstehen, 162 stunden,
+                48 minuten. </p>
+            <p> Von <rs ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs> bis <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> ist die
+                straße an sich selbsten sehr gut, auser daß dieselbe alle viertel oder halbe stunden
+                (wegen der vielen bäche, so von der lincken zur rechten, <hi rend="#u">wordurch die
+                    straße</hi> ins <rs ana="MPRautomatched" ref="#mpr14148" type="place">meer</rs>
+                fließen) berg auf und unter gehet. <pb facs="#IMG42" n="156v"/> Denn obschon die
+                meisten bey sommers zeit trocken, so hat doch ieder durch die länge der zeit und des
+                regenwetters sich so tief eingewaschen und einen grund oder thal formiret. Derer
+                bäche nun giebt es von <rs ana="MPRautomatched" ref="#mpr14060" type="place"
+                    >Adrianopel</rs> bis <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs> 85, über welche in der straße meist brücken sind und
+                seitwerts derselben mit pferd und wagen selten zu passiren seyn. </p>
+            <p> NB. Von dem dorffe <rs type="place">Gallos</rs> am <rs ana="MPRautomatched"
+                    ref="#mpr14148" type="place">meer</rs>, allwo ein ruinirter blockthurn, gehet
+                längst der straße über <rs type="place">Ponte Grande</rs> und <rs type="place"
+                    >Piccolo</rs> biß <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs> ein steinweg, so zwar gar schmal und auser schlimmen wetter
+                gar nicht gefahren wirdt. </p>
+            <p> Das land zwischen besagten beyden <rs type="place">städten</rs> bestehet so weit man
+                recht und lincker handt sehen kan in lauter feldern mit vielen dörffern bebauet. Das
+                holtz und graß ist sehr rar und siehet man auser 9 stunden von <rs
+                    ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs> heraus weder
+                busch noch bäume. Die dörffer sind allhier mit Grichen und Türcken bewohnet, die
+                arbeit aber wird fast gantz von Griechen und andern Christen, so von weiten um geld
+                zu verdienen anhero kommen, verrichtet. Dieser gegend regnet es sommerszeit wenig,
+                soll aber im herbst und frühiahr desto heftiger seyn. <pb facs="#IMG43" n="157r"/>
+                So nun eine armee in dieses <rs type="place">land</rs> kommen solte, müste es auf
+                das späteste im monath Iunio geschehen, damit sie sich mit fourage versehen könte.
+                Denn im monath Iulio wird schon alles getraydig gehauen und auf dem felde durch
+                ochsen und pferde mit schleiffen in welchen viel feuersteine stecken, gantz zu
+                hecker zerpflegget, daß das stoh fast gar nichts nütze wirdt. Das getrayde aber wird
+                theils in die städte, theils aufs meer verkaufft, dahero eine armee, wenn das
+                getreyde oder frucht aus dem felde, unmöglich subsistiren kan. Die zwey brücken oder
+                marktfläcken, als <rs type="place">Ponte Grande</rs> und <rs type="place"
+                    >Piccolo</rs> wären auch vor päße zu rechnen, sey dann, daß man dieselben
+                lincker handt, oben durch das <rs type="place">gebürge</rs> umb marchiren könte, von
+                welchem keine gewißheit erfragen können. Umb <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopel</rs> herum giebet es wenig dörffer,
+                aber gar viel vorwerge oder herrenhöfe, welchen das herumliegende feld zukömbt. NB.
+                In diesen vorwergen oder lusthäusern sind gar schöne und grosse bäume als
+                cypressen-, granat-, lorbeer- undt feigenbäume und dergleichen, so gantz wild
+                wachsen. </p>
+            <p>
+                <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> an sich
+                selbst ist wie bereits welt <pb facs="#IMG44" n="157v" break="no"/> kündig sehr
+                groß, hat gegen die landseite gedoppelte mauer mit unterschiedenen eckigten thürnen,
+                so in ieder mauer etliche 90 biß 100 schritt voneinander. Die dritte mauer, so am
+                graben, ist gar niedrig und mit schießlöchern, ist mehrentheils eingefallen. Gegen
+                die waßerseite ist meist einfache mauer, so gleichfals mit thürnen versehen, und
+                sind die mauern und thürne, ohngeachtet des großen alters noch ziemlich gut. Eine
+                weitere beschreibung darvon zu machen wird ohnnöthig seyn, weilen man deren ohne dem
+                bereits genug hat. </p>
+            <p> So man nun in diesen landen einen krieg bekäme oder führen müste, so hielte ich
+                meines erachtens vor das rathsambste zu seyn, <rs ana="MPRautomatched"
+                    ref="#mpr14929" type="place">Vidin</rs> und <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> zuerst wegzunehmen, um dadurch <rs
+                    ana="MPRautomatched" ref="#mpr14247" type="place">Bosnien</rs> so wohl von der
+                nissaer als auch von der dalmatier seite occupiren oder abzuschneiden können. Und
+                weil wegen dem zur rechten hand liegenden <rs type="place">Albanien</rs> und <rs
+                    type="place">Grichenland</rs> nicht rathsamb, den krieg ferner gegen <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs>
+                fortzusetzen, in deme man allezeit aus so großen ländern einen einfall oder
+                occupirung zugewarten hätte, könte man die päße wohl ver <pb facs="#IMG45" n="158r"
+                    break="no"/> wahren und den krieg ferner über der <rs ana="MPRautomatched"
+                    ref="#mpr14699" type="place">Donau</rs> in der <rs type="place">Wallachey</rs>
+                und <rs ana="MPRautomatched" ref="#mpr14097" type="place">Moldau</rs> fortführen,
+                allwo man allezeit die flügel von der <rs ana="MPRautomatched" ref="#mpr14699"
+                    type="place">Donau</rs> und <rs type="place">Niesterflu</rs>ß gedecket hätte,
+                auch die in die <rs ana="MPRautomatched" ref="#mpr14699" type="place">Donau</rs>
+                herabfallende flüße sehr nützlich gebrauchen könte. Wann man sich nun des landes, so
+                wohl neben als zwischen der <rs ana="MPRautomatched" ref="#mpr14699" type="place"
+                    >Donau</rs> und <rs type="place">Niesterfluß</rs> bemeistert, könte man die
+                länder als <rs type="place">Grichenland</rs>, <rs type="place">Albanien</rs> und
+                dergleichen, durch auswertige allianzen zur see, wie auch von der <rs
+                    ana="MPRautomatched" ref="#mpr14699" type="place">Donau</rs> herüber entweder
+                bey <rs ana="MPRautomatched" ref="#mpr14060" type="place">Adrianopel</rs> (worzu der
+                    <rs type="place">Marizefluß</rs> bequem) oder bey denen <rs type="place"
+                    >Dardanellen</rs> und <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs> selbst occupiren, iedoch daß sich die aliirten zur see
+                zuvor der benöthigten insulen bemächtiget und man sich der christlichen einwohner
+                freundschafft versichert hätte. </p>
+            <p> NB. Was die 4 <rs type="place">Dardanellen</rs> am <rs type="place">Schwartzen
+                    Canal</rs> zwischen <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs> und dem <rs type="place">Schwartzen Meer</rs> anbelanget,
+                so haben dieselben nicht gar viel zu bedeuten, indem sie nur in bloßen mauern mit
+                thürnen bestehen und so man etliche biß 16 canons aufs land brächte, könte man von
+                denen allda befindlichen bögen die mauren in kurtzen übern hauffen schießen. Einige
+                thürne darinnen seyn wohl vor canons gebauet, weiln dieselben aber von der höhe auf
+                das waßer <pb facs="#IMG46" n="158v"/> schlechten effect thun, stehen keine
+                darinnen, sondern haben bey ieder <rs type="place">Dardanelle</rs> unten am ufer des
+                    <rs type="place">canals</rs> biß 23 canons unter ein dach gesetzet, umb den <rs
+                    type="place">canal</rs> auf dem waßer hin desto beßer zu bestreichen.
+                Deßgleichen befinden sich an dem <rs type="place">ksl. seraglio</rs> außer der mauer
+                am <rs type="place">meere</rs> 70 canons, theils mit, theils ohne laffetten,
+                ingleichen auf dem <rs type="place">Leonderthurm</rs> 7 canons. Dieses wäre denn,
+                was man von besagter reise oder straße mit kurtzem melden können.</p>
+            <p><rs type="person">Otto Friedrich von Öbschelwitz</rs></p>
+            <p>Ksl. ingenier haubtman</p>
+
+            <pb facs="#IMG47" n="159r"/>
+
+            <pb facs="#IMG48" n="159v"/>
+            <metamark><date from="1719-05-30" to="1719-07-31">1719, 30. Mai - 31.
+                Iuli</date></metamark>
+            <metamark>N. 1</metamark>
+
+
+
+
+
+        </body>
+    </text>
+</TEI>

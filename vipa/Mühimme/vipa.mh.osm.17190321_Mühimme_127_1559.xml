@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Befehl an den rumelischen Gouverneur Wesir Abdullah Paşa, schnell nach Niš zu reisen, 
+                    um die osmanische Delegation während des Botschaftsaustauschs zu führen, Istanbul, 21. bis 31. März, 1719 </title>
+                <title xml:lang="en">Order to the Rumelian Governor Vizier Abdullah Paşa to quickly travel to Niš
+                    to lead the Ottoman delegation during the embassy exchange, Istanbul, March 21 to 31, 1719</title>
+                <title xml:lang="tr">Rumeli Valisi Abdullah Paşa'ya hızlı bir şekilde Niş'e gitmesi ve büyükelçi değişimi 
+                    esnasında Osmanlı delegasyonuna liderlik etmesi hakkında emir, İstanbul, 21-31 Mart, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.mh.osm.17190321</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Mühimme defteri 127</collection>
+                        <idno>1559</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-03-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>
+                    Befehl an den rumelischen Gouverneur Wesir Abdullah Paşa, schnell nach Niš zu reisen, um die osmanische Delegation während des Botschaftsaustauschs zu führen, Istanbul, 21. bis 31. März, 1719, 
+                    bearb. von Yasir Yılmaz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), 
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.mh" type="context"> Mühimme </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="Muhimme_127_1559.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.mh.osm.17190321">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <lb/>Rūmili vālīsi Vezīr ʿAbdallāh Paşaya ḥüküm ki,
+                
+                <lb/>Nemçe çāsārı ṭarafından āsitāne-i saʿādete gelecek ilçi baʿs̱ ve irsāl olunduġı
+                düstūr-i mükerrem müşīr-i mufaḫḫam niẓāmü’l-ʿālem ḥālā Nīşde olan vezīrim Mehmed
+                Paşa edāmellāhu teʿāla iclālehu
+                
+                <lb/>ṭarafından iʿlām ve ṭaraf-ı devlet-i ʿaliyyemden daḫı emīru ümerā-i’l-kirām 
+                İbrāhīm Paşa dāmet maʿālīhi daḫı ḫidmet-i risālet ile Nevrūzdan iki gün ṣoñra ḫamīs güni
+                
+                <lb/>baʿs̱ ve ir<choice><sic>ṣ</sic><corr>s</corr></choice>āl olunub ancaḳ vezīr-i
+                müşārün ileyh ilçiler mübādelesinde devlet-i
+                ʿaliyyemüñ ʿırż ve şānı muḳteżāsı üzerine ḥarekete sezā esbāb-ı iḥtişāmı olmamaġla
+                
+                <lb/>beher-ḥāl senüñ vaḳtiyle Nīşde bulunmaña ehemm ve elzem olmaġın imdi sen ki
+                vezīr-i müşārün ileyhsin işbu emr-i şerīfüm vuṣūlinde bulunduġuñ maḥalle ḥareket ve ḳapuñ
+                
+                <lb/>ḫalḳı ve mükemmel vezāret ṭaḳımuñla bir ān evvel Nişe varub muḥāfaẓasuna 
+                ḳıyām ve vezīr-i müşārün ileyhüñ manṣıbı üzere Van ṭarafına ircāʿ ve ṭarafeynüñ
+                ilçileri vuṣūlinde
+                
+                <lb/>de’b-i ḳadīm ve üslūb-ı merġūb-ı dīrīn ve şān ve şevket-i devlet-i ebed-müddetüme
+                sezā ḥareket ile itmām-ı ḫidmet ve tekmīl-i ʿırż-u-vezāret eyleyüb zinhār ve zinhār
+                ayaḳ sürümeyüb
+                
+                <lb/>vaḳt ü zemānıyla Nīşde mevcūd bulunmaḳ-üzre ve nā-şāyeste ḥareketden ziyāde
+                iḥtirāz ve ictināb eylemek bābında fermān-ı ʿālīşānum ṣādır olmışdur. Buyurdum ki.
+                
+                <lb/>Fī evāyil-i C[em]ā[ziyülevvel] sene [1]131 
+                
+            </ab>
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.mh.osm.17190321.trans">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

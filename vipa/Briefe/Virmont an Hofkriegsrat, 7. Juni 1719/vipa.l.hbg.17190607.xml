@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 7. Juni 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Belgrade, June 7, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb"><!-- JS: xml:id added for further referencing -->
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.l.hbg.17190607</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 23r-28v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 7. Juni 1719, bearb. von Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/792680/">Belgrad</placeName>
+                    <date when="1719-06-07">7. Juni 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190603"> Letzter Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                            <date when="1719-06-03">3. Juni 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190609"> Nächster Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an <orgName>Hofkriegsrat</orgName>:
+                            <date when="1719-06-09">9. Juni 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>arrival of troops for vanguard</item>
+                    <item>course of the border between Habsburg and Ottoman empire</item>
+                    <item>Holy Land</item>
+                    <item>liberation of Christian slaves</item>
+                    <item>contract signed between count Oduyer and the serasker of Ni&#x015F; concerning the exchange ceremony</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName></change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="6KV_23r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="6KV_23v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="6KV_24r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="6KV_24v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="6KV_25r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="6KV_25v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="6KV_26r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="6KV_26v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="6KV_27r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="6KV_27v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="6KV_28r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="6KV_28v.jpg" xml:id="IMG12"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="23r" facs="#IMG1"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 6</ref> d.d. <rs ana="MPRautomatched"
+                    ref="#mpr9425" type="place">Belgrad</rs>
+                <date when="1719-06-07">7. Junii 1719</date></metamark>
+            <metamark>P.S. de eodem</metamark>
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath p.</salute>
+            </opener>
+            <p>Eüer durchleuchtigsten excellenzien und meiner hochgeehrtisten herren. Vom <date
+                    when="1719-05-31">lezten Maii</date> an mich gnädig und geneigt erlassenes
+                rescript hat mich noch allhier eingehollet, weillen mich eben annoch die jenige
+                retardirungen aufhalten, von denen in meinen vorigen gehorsambst und schuldig parte
+                gegeben, und endtlich heünt erst die commandirte von dem löblichen Cordovaischen
+                Regiment auf mein durch aigne staffeta an den herrn general feld marschall leüthnand
+                    <rs type="person" ref="#mpr15755">freyherrn von Beckhers</rs> beschehenes pressiren endtlichen
+                anhero eingetroffen.</p>
+            <pb n="23v" facs="#IMG2"/>
+            <p>Die von Vasquez aber noch also zuruckh seyndt, daß man nicht vernembt, wo sie zu
+                dato seyndt, und wie ermelter herr general feld marschall leüthnand <rs
+                    type="person" ref="#mpr15755">freyherr von Beckhers</rs> mir berichtet, wegen daß sie soweit und
+                etliche compagnien gar bey <rs type="place" ref="#mpr15752">Verovitiza</rs> gelegen, er auch den
+                hofkriegs räthlichen befehl wegen ihrer nicht ehender bekomben, vor den <date
+                    when="1719-06-10">zehenden dises</date> nicht bey <rs type="place" ref="#mpr9422">Semblin</rs>
+                ankomben können. Also ist gleichfahls die benöttigte vorspann noch nicht völlig
+                zusamben gebracht worden, sondern wirdt mir hoffnung gegeben, selbe <pb n="24r"
+                    facs="#IMG3"/> disen abend zu haben, dahero vor <date when="1719-06-08"
+                    >morgen</date> mich zu moviren nicht im standt bin.</p>
+            <p>Die gnädig und beliebig communicirte copien von des leztlich durch den <rs type="person">Mustaffa aga</rs> an eüer hochfürstlichst durchleuchtigst
+                überbrachten <rs type="person" ref="#mpr9441">vezier</rs> schreiben und deroselben antwortt komben
+                mir zu richtlicher nachricht zu statten und werde die mappam von denen strittigen
+                orthen der gränizen gehorsambst und dienstlich erwartten. Die religions
+                angelegenheiten und was <rs type="place" ref="#mpr15741">Terram Sanctam</rs> angehet, solle nicht
+                weniger mit all schuldigst und gehörigem eyfer bewachen. <pb n="24v" facs="#IMG4"/>
+                Wüntschend, daß meiner inbrunst zu disen sach allen ersprießlichen fortgang und
+                würckhung erhalte und da die auß dem <rs type="place" ref="#mpr15756">Zattharer comitat</rs> in die
+                tartarische sclaverey anno 1717 entführte seelen und unterthannen absonderlich zu
+                beseüfzen, so wirdt es an mir keines weegs erwinden, alles das jenige zu
+                contribuiren und anzuwenden, was zu ihrer widererlösung dienlich seyn mag. Dahero
+                ich gleichfahls denen mir folgenden P.P. S.S. Trinitatis selbe auf das beste zu
+                recommandiren unermangle, wan nur <pb n="25r" facs="#IMG5"/> auch ihr in disem
+                werckh bekhanten eyfer und pietät mit zuelänglichen fundis unterstüzt sich befunde.
+                Es ist aber auch nicht zu zweiflen, bemelter <rs type="place" ref="#mpr15756">comitat</rs> wirdt
+                sich besonders zu gemüeth fassen und dahin sorgen, daß er zu disen ende mit einiger
+                geld summa aufkombe und je eher, je besser übermache, dan sich sonsten wohl mehrer
+                andere arme gefangene auß denen Teütsch- und Erblanden sowohl in <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopel</rs> alß auf
+                dem weeg finden dörffen, welche hülff brauchen, und umb der erlösung anflehen werden
+                    <pb n="25v" facs="#IMG6"/> und dahero eben darumben zu wüntschen, daß auch ich
+                mit einem particular fundo darzue versehen und nicht so lähr were.</p>
+            <p>In ausbleibung des orientalischen hoffdollmetsch <rs type="person" ref="#mpr15757">Andre Schmid</rs>
+                wirdt der auch orientalische dollmetsch <rs type="person" ref="#mpr15758">Venner</rs> nach
+                ertheillten befehl zur auswechslung mitgenomben werden, umb die türckhische
+                pottschafft biß zur eintreffung des erstern zu beglaitten und zu bedienen.</p>
+            <p>Das wegen des caeremonial zwischen den herrn general feldwachtmaister <rs
+                    ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs> und
+                dem <rs type="person" ref="#mpr14242">seraskier</rs> zu <rs ana="MPRautomatched" ref="#mpr14602"
+                    type="place">Nissa</rs> auf <pb n="26r" facs="#IMG7" break="no"/> gerichte
+                instrumentum ist erst heünt fruhe gegen drey uhr unterschriben worden, worvon
+                erstbemelter <rs type="person" ref="#mpr14241">herr general feldwachtmaister</rs> seinen
+                gehorsambsten und schuldigsten bericht des mehreren, wie gebühret, ohngezweiffelt
+                ablegen wirdt und ich mich anmit dahin, alß auch auf das, wovon in meinen lezteren
+                anregung gethan, beziehe und allem beyruckhe, daß es wegen eindingung der schüff die
+                    Donau hinab, ja gar
+                über das <rs type="place" ref="#mpr14149">Schwarze Meer</rs> biß <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopel</rs>, die absicht unser seyts
+                gehabt, umb wan es schon für <pb n="26v" facs="#IMG8"/> meine bequemblichkeit nicht
+                vonnöthen oder nuzlich ist, es khünfftighin jedoch, wer waiß in was für einen
+                gelegenheiten und umbständen, villeicht aber absonderlich in dem commerce weesen zum
+                vortheyll und einen tauglichen praeiudicium dienen kunte, womit mich gehorsambst und
+                dienstlich empfehle und verbleibe.</p>
+            <closer>
+                <salute>Eüer hochfürstlichsten durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldigster <rs ana="MPRautomatched" ref="#mpr9435"
+                        type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                </address>
+                <dateline>den <date when="1719-06-07">7. Junii 1719</date></dateline>
+            </closer>
+            <pb n="27r" facs="#IMG9"/>
+            <postscript>
+                <p>P.S.</p>
+                <p>Auch durchlaüchtigster fürst, eüer excellenzien undt hochgeehrtiste herrn p. p.
+                    Kombet deß löblichsten Vasquezischen Regiment obristwachtmaister herr <rs
+                        type="person" ref="#mpr15754">marchese Botta Adorno</rs>
+                    <del rendition="#s">all</del> noch vor schlüeßung diser allhier an, so von denen
+                    commandirten vorauß gegangen umb anzumelden, daß dieselbe morgends den <date
+                        when="1719-06-08">8.</date> bey <rs type="place" ref="#mpr9422">Semblin</rs> einruckhen
+                    werden, wohin sye vor den <date when="1719-06-13">13.</date>, <add
+                        place="sublinear">wie er selbst bekennet</add>, nicht gekomben weren, wan
+                    ihn nicht daß jenige advertenz schreiben noch den <date when="1719-06-04"
+                        >4.</date> angetroffen hette, welches ich ihne, sowohl als an dem
+                    commandirenden herrn officier, auß <rs type="place" ref="#mpr1775">Peterwardin</rs> zu
+                    schreiben, die praecaution genomben undt er dahero sogleich seinen marchen <pb
+                        n="27v" facs="#IMG10"/> pressiret und seines orths nichts dabey vorsammben
+                    wollen. Ut in literis p.</p>
+                <closer>
+                    <signed><rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff
+                            von Virmonten</rs></signed>
+                </closer>
+            </postscript>
+            <pb n="28r" facs="#IMG11"/>
+            <pb n="28v" facs="#IMG12"/>
+            <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den
+                    <date when="1719-06-17">17. Junii 1719</date></metamark>
+            <metamark><date when="1719-06-07">7. Junii</date></metamark>
+        </body>
+    </text>
+</TEI>

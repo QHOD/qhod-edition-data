@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Befehl über die erforderlichen Zubehöre der dem österreichischen Botschafter zugeteilten Diener, Istanbul, 6. Oktober 1719</title>
+                <title xml:lang="en">Decree concerning the supplies needed by the servants assigned to the service of Austrian
+                    ambassador, Istanbul, October 6, 1719</title>
+                <title xml:lang="tr">Nemçe elçisinin hizmetine tayin edilen bazı görevlilerin ihtiyaçları hakkında emir, Istanbul, 6 Ekim 1719</title>
+                
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17191006</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>AE.SAMD.III</collection>
+                        <idno>160-15673-001</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-10-06"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Befehl über die erforderlichen Zubehöre der dem österreichischen Botschafter zugeteilten Diener, Istanbul, 6. Oktober 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="AE_SAMD_III_00160_15673_001_001.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17191006">
+            <pb n="1" facs="#IMG1"/>
+                                       
+            <ab>
+            <lb/>ʿİzzetlü cebecibaşı aġa zīde mecduhū Nemçe ilçisinüñ yanında olan saḳalaruñ ḳamçı
+                ve çerā??? 
+            <lb/>ve ḳamçıları <unclear>?</unclear> iḳtiżā itmekle dört ḳıtʿa ??? ile dört ʿaded ḳamçı virdiresiz.
+            <date type="Hijri" when="1719-10-06">Fī 22 Zā[<supplied resp="#yy">Zilkade</supplied>] sene 1131</date>
+            </ab>
+             
+            <ab><unclear reason="eccentric_ductus">signature</unclear></ab>
+            
+            <ab>Kisve ve şalvārların daḫı viresiz.</ab>
+            
+            <ab>
+            <lb/>Fermān buyurılan dört ʿaded ???
+            <lb/>ve dört ʿaded ḳamçı ve dört ʿaded şalvār ve dört ʿaded     
+            <lb/>kisve tamamen saʿādetlü cebecibaşı aġa ḥażretleri ṭarafından
+            <lb/>maḳābużı olmaġın bu maḥalle memhūr? kılındı.
+            <lb/><date type="Hijri" when="1719-10-06">Fī 22 Zā[<supplied resp="#yy">Zilkade</supplied>] sene [1]131</date>
+            <lb/>El-faḳīr İbrāhīm çavuş-ı dīvān [<supplied resp="#yy">tem</supplied>]me
+            </ab>
+            
+            <ab><unclear reason="eccentric_ductus">mühür</unclear></ab>
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17191006-transl">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

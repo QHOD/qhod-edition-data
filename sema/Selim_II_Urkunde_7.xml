@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 7</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15681120</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türkische Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="581"/>                    
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Ṭuġra gold</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1568-11-11" notAfter="1568-11-20" calendar="#hijri">976 Cemāẕī I 21-30 </date>     
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15681115">Urkunde 6</ref>
+                <ref type="next" target="o:sema.rc.osm.15690118">Urkunde 8</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 7: Geschrieben zwischen dem 11. und 20.11.1568
+                in <rs type="place" ref="#mpr14055">Konstantinopel.</rs> <rs type="person">Selīm</rs> gibt die Rückkehr des Pfortendolmetsch <rs type="person" ref="#mpr14181">İbrāhīm Beg</rs> mit Maximilians Friedensratifikation bekannt. 
+                Außerdem sind zwei Diener von İbrahim Beg mit seinem Geld, Edelsteinen und kostbaren Kleidern und die Frau eines Yayabaşı, samt Dienern, kostbaren Schmuckstücken und Kleidern in das habsburgische Gebiet geflohen. Verlangt die Auslieferung der flüchtigen Personen.
+                </p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Nāme</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>
+                   
+                </interpretation> 
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 7: Selim II. an Maximilian II., Konstantinopel, zwischen 11. und 20.11.1568, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.7">
+            <graphic url="07_581.jpg" xml:id="IMG.7"/>
+            
+        </surface>
+        
+    </facsimile>    
+        <text type="record"><body>
+           
+                <div n="7"><div type="transcription" xml:lang="ota">
+                    
+                    <pb facs="#IMG.7" n="7"/>                                            
+                   
+                    <ab>hüve</ab>
+                    <ab type="Ṭuġra"><note place="footnote" n="1">Die Invocatio befindet sich nicht wie gewöhnlich oben in der Mitte
+                                der Urkunde, sondern in der Mitte der rechten Hälfte des
+                                zusammengefalteten Papiers.</note><rs type="person" ref="#mpr14045">Selīm</rs> 
+                                Şāh bin <rs type="person" ref="#mpr11015">Süleymān</rs>  Şāh Ḫān el-muẓaffer dā’imā</ab>
+                    
+                    <p>
+                            <lb n="1"/>İftiḫāru l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtāru l-küberā’i
+                        l-fiḫāmi fī l-milleti l-mesīḥīye muṣliḥu maṣāliḥi cemāhīri ṭ-ṭāyifeti n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti
+                        ve-l-vaḳār ṣāḥibü delāyili l-mecdi ve-l-iftiḫār vilāyet-i <rs type="place" ref="#mpr13416">Beç</rs>
+                         ḳırālı ve imperādorı <rs type="person" ref="#mpr14157">Maḳsimilyānūş
+                            </rs> ḳırāl ḫutimet ʿavāḳibühū bi-l-ḫayr
+                            <lb n="2"/> tevḳīʿ-i refīʿ-i hümāyūn vāṣıl olıcaḳ maʿlūm ola ki südde-i
+                            seʿādetüm müteferriḳalarından olub ʿahdnāme-i hümāyūnumuzla gönderilen
+                            ḳıdvetü l-emācid ve-l-ekārim cāmiʿu l-meḥāmid ve-l-mekārim tercümān <rs type="person" ref="#mpr14181">İbrāhīm</rs>
+                            zīde mecdühū ʿatebe-i ʿalīye-i ʿālem-penāhuma gelüb ol cānibden irsāl olunan ʿahdnāmeñüzden ġayrı 
+                        <lb n="3"/>ṣulḥ u ṣalāh ḫuṣūṣında müşārün ileyhe her ne dėnilmiş ise ʿalā vechi t-tafṣīl pāye-i serīr-i
+                        ʿālem-maṣīr-i ḫusrevāneme ʿarż u taḳrīr ėdüb ʿilm-i şerīf-i ʿālem-şümūl-i pādişāhānem muḥīṭ u şāmil olmışdur
+                        ammā müşārün ileyhüñ <rs type="place" ref="#mpr14063">Ḳomarān</rs>
+                        nām maḥallde iki nefer ḳulları yüz yetmiş beş sikke filūrisin 
+                        <lb n="4"/>ve iki yüz elli ʿaded ġurūşın ve bir cevherī levḥasın ve iki gümüşlü ḳılıcın ve iki şişin
+                        alub ol cānibe ḳaçub bu ḫuṣūṣı müşārün ileyh tercümāna ḳoşub gönderdügüñüz ādemlerüñüz daḫı bilürlermiş
+                        ve andan māʿadā <rs type="place" ref="#mpr7448">Budūn</rs>yayabaşılarından 
+                        <lb n="5"/>birisinüñ ʿavreti iki cāriye ve iki oġlanıyla ve cevāhir esbābı ve serāser libāsı ile ḳaçub
+                        <rs type="place" ref="#mpr14063">Ḳomarān</rs> a varub müşārün ileyh
+                        tercümān <rs type="person" ref="#mpr14181">İbrāhīm</rs>  zīde ḳadrühū anda Ḳomarānda iken mezbūre ʿavreti Ḳomarān
+                            żābıṭı bir şāyiḳa re’īsine vėrübʿahda muḫālif iş eylemiş                            
+                            <lb n="6"/>imdi mābeynde dostlıḳ olub ʿahdnāme vėrilmekden murād iki
+                            cānibden ṣulḥ u ṣalāḥ ve ʿahd u emān riʿāyet olunub kimesneden ʿahda
+                            muḫālif vażʿ ṣādır olmamaḳdur ḫuṣūṣan müşārün ileyh tercümān <rs type="person" ref="#mpr14181">İbrāhīm</rs>
+                             zīde ḳadrühūnüñ ḳulları memleketüñüz sınurında iken ẕikr olunan naḳdīye ve esbābın 
+                        <lb n="7"/>alub ḳaçalar anuñ gibi ḫıyānet ėdenleri ṣaḳlamaḳ ve mezbūr yayabaşınuñ ʿavreti niçe zemāndan
+                        berü ʿavreti olub islām üzre iken <rs type="place" ref="#mpr14063">Ḳomarān</rs>
+                            żābıṭı alub şāyiḳa re’īsine vėrmek
+                            mābeynde olan dostlıġı ve ʿahd u emānı riʿāyet ėtmeyüb
+                            <lb n="8"/>dostlıġa muḫālif vażʿuñ ṣudūrı yanuñuzda cāyiz oldugındandur
+                            gerekdür ki nāme-i hümāyūnumuz varub vuṣūl bulduḳda mābeynde olan
+                            dostlıḳ muḥkem u muḳarrer olub iki cānibden daḫı ṣulḥ u ṣalāḥa mugāyir
+                            vażʿ ṣādır olmamaḳ içün
+                            <lb n="9"/> vėrilen ʿahdnāme-i hümāyūnumuz muḳteżāsınca müşārün ileyh
+                            tercümān <rs type="person" ref="#mpr14181">İbrāhīm</rs> 
+                        zīde ḳadrühūnuñ iki nefer ḳullarını ʿayni ile alub ḳaçduḳları filūrī ve ġurūş ve sāyir esbāblariyle ʿale
+                            l-ḫuṣūṣ mezbūr yayabaşınuñʿavretini ve cāriyelerini                          
+                            <lb n="10"/>ve oġlanlarını ʿahdnāmede muḳayyed oldugı üzre emīn ü sālim
+                            bu cānibe irsāl u īṣāl ėdüb ve ʿahda muḫālif berü cānibden böyle ḳaçub
+                            gidenlere muʿīn olub ḥimāyet ėdenlerüñ geregi gibi ḥaḳḳlarından gelesiz
+                            ki sāyirlerine daḫı
+                            <lb n="11"/>mūcib-i ʿibret vāḳiʿ olub min baʿd ṭarafeynden kimesnenüñ
+                            ṣulḥ u ṣalāḥa ve ʿahd u emāna mugāyir vażʿ ėtmege mecāli olmaya şöyle
+                            bilesiz  <date calendar="#hijri" notBefore="1568-11-11" notAfter="1568-11-20"> taḥrīren fī
+                                evāḫiri şehri Cemāzīye l-evvel senete sitt ve-sebʿīn
+                            ve-tisʿa mi’e</date></p>  
+                    <p>bi-maḳāmi <rs type="place" ref="#mpr14055">Ḳosṭanṭinīye</rs> el-maḥrūse</p>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.7" n="7"/>
+                    <ab>Er</ab>
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs> 
+                        Şāh, Sohn <rs type="person" ref="#mpr11015">Süleymāns</rs></ab>
+                    
+                    <p>Ruhmvoller der mächtigen christlichen Fürsten,
+                            Erwählter der geehrten Großen in der christlichen Glaubensgemeinschaft,
+                            Ordner der Angelegenheiten der christlichen Staaten, Träger der Schleppe
+                            von Ruhm und Würde, Inhaber der Zeichen der Majestät und der Ehre, König
+                            und Kaiser von <rs type="place" ref="#mpr13416">Wien</rs>,
+                        <rs type="person" ref="#mpr14157">Maximilian</rs>, sein Leben möge im Guten
+                            enden.</p>
+                    <p>Sobald das erhabene großherrliche Schreiben
+                            einlangt, möge bekannt werden:</p>
+                    <p>Der Bote meiner glückhaften Schwelle, Vorbild der
+                            Edlen und Großwürdigen, Sammler der lobenswerten Handlungen und
+                            Eigenschaften, der  Dolmetscher <rs type="person" ref="#mpr14181">İbrāhīm</rs>, seine Würde möge sich mehren,
+                            der mit meinem großherrlichen Vertragsschreiben abgesandt wurde, ist
+                            <supplied resp="ht">wieder</supplied> an meine Schwelle, dem Zufluchtsort der Welt zurückgekehrt. Was
+                            immer dem Obenerwähnten, außer Eurem von Eurer Seite geschickten
+                            Vertragsschreiben noch bezüglich Friede und Eintracht gesagt wurde, ist
+                            in allen Einzelheiten dem Fuße unseres ḫosrowischen Thrones, dem
+                            Zufluchtsort der Welt unterbreitet worden und von unserem erhabenen,
+                            weltumfassenden sultanischen Wissen erfasst und aufgenommen
+                        worden.</p>
+                    <p>Es haben zwei seiner Diener aber in der Ortschaft
+                        namens <rs type="place" ref="#mpr14063">Komorn</rs> seine 175 Dukaten,
+                        250 Ġurūş Münzen, eine Schmucktafel mit Juwelen, zwei Silberschwerter und zwei Speere genommen und sind auf die andere Seite geflohen. Diese Sache sollen auch Eure beigestellten und geschickten Leute anscheinend kennen. Außerdem ist die Frau von einem Yayabaşı aus <rs type="place" ref="#mpr7448">Buda</rs> mit seinen zwei Sklavinnen, zwei Söhnen, Juwelen und ihren
+                        Kleidern aus Brokat nach <rs type="place" ref="#mpr14063">Komorn</rs>
+                        geflüchtet. Und als der obenerwähnte Dolmetscher <rs type="person" ref="#mpr14181">İbrāhīm</rs>, mehren möge sich seine Macht in <rs type="place" ref="#mpr14063">Komorn</rs>
+                        sich befand, hat der Kommandant von <rs type="place" ref="#mpr14063">Komorn</rs>
+                        die Frau einem Schaikaführer gegeben und <supplied resp="#ht">so</supplied> gegen den Vertrag gehandelt.</p>
+                    <p>Nun besteht zwischen <supplied resp="ht">uns</supplied> Freundschaft und die Absicht bei der Gewährung
+                        eines Vertragsschreibens ist, dass Ordnung und Frieden, Vertrag und Waffenstillstand von beiden Seiten
+                        eingehalten wird und dass von niemandem eine dem Vertrag
+                            zuwiderlaufende Handlung erfolgt.</p>
+                                                                 
+                    
+                    <p>Insbesondere, wenn die Diener des obenerwähnten Dolmetschers 
+                        <rs type="person" ref="#mpr14181">İbrāhīm 
+                    </rs>, mehren möge sich seine Macht, sein Geld und seine Sachen; innerhalb der Grenze 
+                        Eures Gebietes wegnehmen und flüchten, geschah das Verstecken solcher Verräter, sowie die Tatsache,
+                        dass der Kommandant von <rs type="place" ref="#mpr14063">Komorn</rs>
+                        die Frau des erwähnten Yayabaşı, obwohl sie seit langer Zeit seine Frau und
+                        eine Muslimin ist nimmt und einem Schaikaführer übergibt,
+                            weil Ihr die zwischen <supplied resp="ht">uns</supplied> bestehende Freundschaft
+                        und den Vertrages und Waffenstillstand nicht einhaltet und eine Handlung gegen den Vertrag                                 
+                            erlaubt.</p>
+                                
+                            
+                    <p>  Es ist notwendig, dass Ihr, sobald unser großherrliches Schreiben ankommt und einlangt,
+                        die zwischen <supplied resp="ht">uns</supplied> bestehende Freundschaft ist gefestigt und aufrecht ist
+                        und von beiden Seiten keine der Ordnung und dem Frieden zuwiderlaufende Handlung erfolgt, gemäß
+                        den Erfordernissen des gewährten großherrlichen Vertragsschreibens die beiden Diener des obenerwähnten
+                        Dolmetschers <rs type="person" ref="#mpr14181">İbrāhīm</rs>
+                        mehren möge sich seine Macht, samt den Dukaten, Ġurūş und sonstigen Sachen, die sie genommen
+                        und mit denen sie geflüchtet sind und vor allem die Frau, die Sklavinnen und die Söhne des erwähnten Yayabaşı, sowie auf
+                        in dem Vertragsschreiben aufgeschrieben sicher und wohlbehalten herüberschickt.</p>
+                                 
+                    
+                    <p> Und ihr sollt jene, die denjenigen, die so von unserer Seite flüchten, helfen und sie beschützen                     
+                             wie erforderlich bestrafen, damit es für die anderen ein abschreckendes Beispiel sei.
+                             So soll von beiden Seiten niemand mehr im Stande sein gegen Ordnung und Frieden, und den Vertrag und die Sicherheit zu handeln.</p>
+                    <p>So sollt Ihr es wissen. Geschrieben in der <date calendar="#hijri" notBefore="1568-11-11" notAfter="1568-11-20"> letzten
+                        Dekade des Monats Cemāẕīye l-evvel des Jahres 976 (11.–20.11.1568)</date>, in der Residenz, im
+                            wohlbehüteten <rs type="place" ref="#mpr14055">Konstantinopel</rs></p></div>
+                    
+
+                
+            </div>
+        </body></text>
+ </TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Gouverneur von
+                    Scutari/Shkodra und an den Richter von Ulcinj/Ulqini, um die
+                    Piraterieaktivitäten der Festung Ulcinj zu verhindern; Istanbul, 24. September –
+                    4. Oktober 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the governor of the Scutari/Shkodër and to
+                    the judge of Ulcinj to prevent the piracy activities of the Ulcinj fortress;
+                    Istanbul, September 24 – October 4, 1719</title>
+
+                <title xml:lang="tr">Sultan’ın, İşkodra valisi ve Ülgün kadısına hitaben yazılmış,
+                    Ülgün kalesi sakinlerinin korsanlık faaliyetlerini engellemeleri hakkında hükmü;
+                    İstanbul, 24 Eylül - 4 Ekim, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190925-17191004.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 68-69, entry 130</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-09-24" notAfter="1719-10-04"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den Gouverneur der Scutari/Shkodra und an den
+                    Richter von Ulcinj/Ulqini, um die Piraterieaktivitäten der Festung Ulcinj zu
+                    verhindern; Istanbul, 24. September – 4. Oktober 1719, bearb. von Yasir Yılmaz
+                    und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>about the prevention of piracy in the Adriatic and Mediterranean</item>
+                    <item>about the prevention of new ship constructions</item>
+                    <item>judge of Scutari / Shkodër</item>
+                    <item>judge of Ulcinj</item>
+                    <item>piracy</item>
+                    <item>corsair</item>
+                    <item>korsan</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00033_Page_68_Entry_130_Part1.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="A_{DVNSDVE_d____00057_1_00034_Page_69_Entry_130_Part2.jpg" xml:id="IMG2"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190925-17191004.2">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">130</metamark>
+
+                <ab><lb/>Ber-vech-i arpalıḳ <rs type="place" ref="#mpr15845">İskenderiyye</rs>
+                    sancaġına mutaṣarrıf olan dāme iḳbālehūya ve <rs type="place" ref="#mpr15331"
+                        >Ülgün</rs> ḳāḍīsına ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile āsitāne-i saʿādetüme gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl <lb/>Ġrūf de Virmond</rs> ḫutimet
+                    ʿavāḳibühū bi’l-ḫayr südde-i saʿādetüme ʿarż-ı ḥāl idüb</ab>
+
+                <ab><rs type="place" ref="#mpr15331">Ülgün</rs> ḳalʿası ahālīsi min baʿd ḳorṣānlıġa
+                    <lb/>çıḳmayub tüccār sefīnelerine żarar ve ziyān itmemek içün ellerinde olan
+                    firḳate ve sāʾir ḳorṣān <lb/>sefīneleri refʿ ve tüccār sefīnelerine
+                    taʿarrużundan külliyyet ile menʿ ve fī mā baʿd inşā itmemek üzere tenbīh olunub
+                        <pb n="1" facs="#IMG2"/>
+                    <metamark place="margin">69</metamark>
+                    <lb/>şöyleki içlerinde ḫilāf-ı fermān-ı hümāyūn ve muġāyir-i ṣulḥ ve ṣalāḥ vażʿ
+                    u ḥareket ve tüccār sefīnelerine īṣāl-i ḫasārete <lb/>cesāret idenlerüñ nehb ü
+                    ġāret eyledükleri emvāl ve eşyā her ne ise girü ṣāḥiblerine istirdāda ve vāḳiʿ
+                    olan <lb/>żarar ve ziyān gendülerden tażmīn ve esīr eyledükleri kimesneler daḫī
+                    esīrlikden istiḫlāṣ olunub ve bu maḳūle <lb/>eşḳıyānuñ sāʾire mūcib-i ʿibret
+                    olmaḳ içün şerʿen lāzım gelen cezāları tertīb oluna diyü müşārün ileyh <lb/><rs
+                        type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafına virilen
+                    ʿahdnāme-i hümāyūnumuza mesṭūr ve muḳayyed olmaġla mūcebince ʿamel ve ḥareket
+                    olunmaḳ içün emr-i <lb/>şerīfüm virilmek bābında istidʿā-yı ʿināyet
+                    eylemegin</ab>
+
+                <ab>ʿahdnāme-i hümāyūnum mūcebince şerāʾiṭ-i ṣulḥ u ṣalāḥuñ icrāsı ehemm-i umūr-ı
+                    <lb/>devlet-i ʿaliyyemden olmaġla sen ki mīr-i mīrān-ı mūmā ileyh ve mevlānā-yı
+                    meẕkūrsın ḥālā <rs type="place" ref="#mpr15331">Ülgün</rs> ḳalʿası ahālīsi min
+                    baʿd ḳorsānlıġa <lb/>çıḳmayub tüccār sefīnelerine żarar ve ziyān etmemek içün
+                    ellerinde olan firḳat ve sāʾir ḳorsān sefīnelerini <lb/>refʿ ve tüccār
+                    sefīnelerinetaʿarrużdan külliyyet ile menʿ ve defʿ ve fī mā baʿd inşā itmemek
+                    üzere muḥkem tenbīh ve teʾkīd eyleyesin</ab>
+
+                <ab><lb/>şöyle ki ḫilāf-ı ferman cihān-muṭāʿ ellerinde olan sefīnelerinüñ refʿine
+                    muḫālefet ve şerāʾiṭ-i ṣulḥ u ṣalāḥa muġāyir vażʿ <lb/>ve ḥareket iderler ise
+                    üzerlerine vüzerā-yı ʿiẓāmumdan biri ʿasker ile taʿyīn ve sāʾire mūcib-i ʿibret
+                    olmaḳ içün <gap rend="overstriked"/>
+                    <lb/>lāzım gelen cezāları tertīb olunacaġın gendülere geregi gibi tefhīm ve siz
+                    daḫī şerāʾiṭ-i ṣulḥ ve ṣalāḥuñ mürāʿātında ve fermān-ı <lb/>celīlü l-ʿunvānumuñ
+                    tenfīẕ ve icrāsında taḳayyüd-i tāmm eyleyüb tehāvün ve taḳṣīrden be-ġāyet
+                    iḥtirāz ve ictīnāb eylemeñüz bābında <lb/>fermān-ı ʿālī-şānum ṣādır olmışdur
+                    buyurdum ki.</ab>
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">fī evāsıṭ-ı Ẕā
+                            [<supplied resp="#yy">Ẕi’l-ḳaʿide</supplied>] sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190925-17191004.2.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab>Decree to the person who is the governor of the <rs type="place" ref="#mpr15845"
+                        >Scutari</rs> district by way of stipend (<foreign xml:lang="ota">arpalıḳ</foreign>) and to the judge of <rs
+                        type="place" ref="#mpr15331">Ulcinj</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my threshold of felicity as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a petition to
+                    my felicitious threshold. He made an official request about [the
+                    following matter]:</ab>
+
+                <ab>The residents of <rs type="place" ref="#mpr15331">Ulcinj</rs> shall not go on
+                    maritime raids from now on. The light galleys and other corsair ships in their possession
+                    shall be removed so as not to harm and damage merchant ships; they shall be absolutely
+                    prohibited from attacking merchant ships, and they shall be warned not to build
+                    [ships] henceforward. <pb n="1" facs="#IMG2"/> Now, what assets and goods have
+                    been plundered and pillaged by those among them who act and behave in violation
+                    of the imperial edict–daring to inflict injuries to merchant ships in opposition
+                    to the peace and amity–shall be returned. The damage and loss
+                    caused shall be compensated by them and the prisoners they took shall be freed
+                    from captivity. It is written and recorded in our imperial letter of agreement
+                        (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>) that was given to the
+                    aforesaid <rs type="person" ref="#mpr9399">Roman emperor</rs> that, to
+                    make this a lesson for others, these kinds of brigands shall be punished as
+                    prescribed by Islamic law. [The grand ambassador requested] the issuance of my
+                    blessed order about acting and to go about as required.</ab>
+
+                <ab>The execution of the peace conditions and reconciliation–as required by my
+                    imperial letter of agreement–is one of the important matters of my <rs type="place" ref="#mpr7118">sublime state</rs>.
+                    You are the aforesaid governor of governors and you are the aforesaid
+                    judge! You [two] shall warn and reiterate firmly so that henceforward the <rs
+                        type="place" ref="#mpr15331">Ulcinj</rs> fortress shall not sail for piracy;
+                    the light galleys and other piracy ships in their possession shall be removed so
+                    that they may not harm and damage merchant ships; and, from now on, they shall
+                    be absolutely prohibited and averted from attacking merchant ships and not to
+                    build [new ones].</ab>
+
+                <ab>That is to say, in violation of the edict obeyed by the whole world, if they
+                    oppose the removal of the ships in their possession and act and behave contrary
+                    to the conditions of peace and reconciliation, one of my grand viziers will be
+                    appointed to march on them with troops, and the required punishments will be
+                    executed in order to make that a lesson for others. You shall explain that to
+                    them as required. My illustrious edict has been issued that you too shall
+                    display perfect attention in obeying the conditions of peace and reconciliation
+                    and the implementation and execution of my glorious edict. You shall diligently
+                    avoid and beware of negligence and shortcomings. So have <rs type="person"
+                        ref="#mpr14244">I</rs> commanded!</ab>
+
+
+
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">September 25 to
+                        October 4, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

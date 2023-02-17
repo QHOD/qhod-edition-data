@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den kommandierenden Vezier von
+                    Nissa (Niš) und andere osmanische Verwalter entlang der Route von Istanbul zur
+                    österreichischen Grenze über den Schutz und die gute Behandlung von zwei
+                    Kapitänleutnants (Kurieren), ihren Dienern und Tieren während ihrer Reise zur
+                    Grenze; Istanbul, 14. November – 23. November 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the commander vizier of Nissa (Niš) and
+                    other Ottoman administrators situated on the road from Istanbul to the Austrian
+                    border about the protection and good treatment of two captain-lieutenants, their
+                    servants, and animals during their journey to the border; Istanbul, November 14
+                    – November 23, 1719</title>
+
+
+                <title xml:lang="tr">Sultanın, Niş vezirine ve İstanbul’dan Avusturya sınırına kadar
+                    yol boyunca bulunan Osmanlı idarecilerine hitaben yazılmış, sınıra seyahat eden
+                    iki haberci subayın, adamlarının ve hayvanlarının korunması ve onlara iyi
+                    muamele edilmesi hakkında hükmü; İstanbul, 14 Kasım – 23 Kasım, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.1719114-17191123</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 72, entry 143</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-11-14" notAfter="1719-11-23"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Kommandanten Vezier von Nissa (Niš) und
+                    andere osmanische Verwalter entlang der Route von Istanbul zur österreichischen
+                    Grenze über über den Schutz und die gute Behandlung von zwei Kapitänleutnants
+                    (Kurieren), ihren Dienern und Tieren während ihrer Reise zur Grenze; Istanbul,
+                    14. November – 23. November 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>protection of traveling Austrian merchant according to the conditions of
+                        the imperial letter of agreement (ahidname)</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>Nissa (Niš)</item>
+                    <item>Austrian couriers</item>
+                    <item>Austrian border</item>
+                    <item>protection</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00035_Page_72_Entry_143.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.1719114-17191123">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">143</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr14602">Nīş</rs>
+                    <rs type="person" ref="#mpr14242">vezīr</rs>ine ve <rs type="place"
+                        ref="#mpr14055">āsitāne-i saʿādetüm</rs>den <rs type="place" ref="#mpr6718"
+                        >Nemçe</rs> ḥudūdına varınca <lb/>yol üzerinde vāḳiʿ olan ḳāḍīlara ve
+                    ketḫüdā yirleri ve yeñiçeri <lb/>serdārları ve aʿyān-ı vilāyet ve iş erlerine
+                    ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile <lb/>der-i devlet-medāruma gelen
+                        <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet
+                    ʿavāḳibühū <lb/>bi-l-ḫayr südde-i saʿādetüme mühürlü mektūb gönderüb</ab>
+
+                <ab>bundan aḳdem <rs type="place" ref="#mpr13416">Beç</rs> ṭarafından <lb/>gelen <rs
+                        type="person">Brinc Ḥolerculerñ</rs>(?) nām iki nefer ḳapūdān vekīlleri
+                    <lb/>ḥālā girü <rs type="place" ref="#mpr13416">Beç</rs> ṭarafına ʿavdet ve
+                    recʿat üzere ādamlarıyla <lb/>mesfūrlar ve yanlarında olan ḫidmetkārları ve
+                    iştirā <lb/>eyledükleri on yedi reʾs atlarıyla her ḳangıñuzuñ taḥt-ı
+                    <lb/>ḥükūmet ve ḳażāsına varub dāḫil olurlar ise esnā-yı rāhde <lb/>menāzil ve
+                    merāḥilde gendülerine ve ḫidmetkārlarına ve esvāb <lb/>ve atlarına daḫl ve
+                    taʿarruż ve mürūrlarına mümānaʿat ve sāʾir aḳça muṭālebesiyle <lb/>kimesneye
+                    rencīde itdürilmeyüb emīn u sālim birbiriñüze īṣāle <lb/>taḳayyüd ve iḥtimām
+                    eylemek bābında ḥükm-i hümāyūnum ricā eylemegin vech-i <lb/>meşrūḥ üzere ʿamel
+                    olunmaḳ bābında fermān-ı ʿālī-şānum ṣādır <lb/>olmışdur buyurdum ki. <note
+                        xml:id="ftn1" type="editorial" resp="#yy">It appears that there was a
+                        translation problem on the Ottoman side in the writing of this order or at
+                        least a lack of attention to details which is reflected in the wording of
+                        the text. The Turkish text reads "two captain-lieutenants named Prinz
+                        Holerculer." Obviously, two captain-lieutenants cannot be the same person.
+                        Also, a prince would not have traveled to the Ottoman capital without due
+                        ceremonies. In reality, as we learn from <ref
+                            target="https://gams.uni-graz.at/o:vipa.tr.hbg.1723/sdef:TEI/get?mode=view:read#page279"
+                            >the travelogue of Cornelius von den Driesch</ref>, the
+                            <foreign>prince</foreign> mentioned here was Friedrich Wilhelm, the
+                        Prince of Hohenzollern who was an imperial Field Marshal in the Habsburg
+                        army at the time. The two captain-lieutenants were two couriers from his
+                        cuirassier regiment. These two men, &gt;whose names the secretary Driesch
+                        did not mention, had arrived in Istanbul on between September 6 and 8 and
+                        had brought letters from Germany. Driesch noted that one of these
+                        lieutenants had spent a long time as a prisoner in the Ottoman lands and
+                        could speak very good Turkish. For the note about their departure, see
+                        Driesch, <ref
+                            target="https://gams.uni-graz.at/o:vipa.tr.hbg.1723/sdef:TEI/get?mode=view:read#page291"
+                            >p. 291</ref>.</note></ab>
+
+
+
+
+
+                <ab><date type="Hijri" notBefore="1719-11-14" notAfter="1719-11-23">fī evāil-i
+                        Muḥarrem sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en" xml:id="vipa.ded.osm.1719114-17191123.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab>Decree to the <rs type="person" ref="#mpr14242">vizier</rs> of <rs type="place"
+                        ref="#mpr14602">Nissa (Niš)</rs> and to the judges, aides-de-camp of
+                    janissary commanders, janissary commanders, provincial notables, and
+                    functionaries situated on the road from my <rs type="place" ref="#mpr14055"
+                        >threshold of felicity</rs> to the <rs type="place" ref="#mpr6718"
+                        >Austrian</rs> border:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity and requested my imperial decree [about the
+                    following matter]:</ab>
+
+                <ab>Two captain-lieutenants [from the prince] named <rs type="person">Brinc
+                        Holerculern</rs>(?) who formerly came from <rs type="place" ref="#mpr13416"
+                        >Vienna</rs> are now going and returning to <rs type="place"
+                        ref="#mpr13416">Vienna</rs> along with their men, their servants, and
+                    seventeen horses that they purchased. When they arrive and enter the
+                    administrative territory and town of whomever among you, themselves, their
+                    servants, garments, and horses shall not be interfered with and attacked during
+                    the journey, at stations, and at stages of the journey. Their passing shall not
+                    be prevented. No one shall be allowed to injure them with claims of a variety of
+                    fees. Each of you shall pay attention and take great care of delivering them
+                    safe and sound from one of you to the other. My illustrious edict has been
+                    issued for [all] to act in the described way. So have I commanded!<ref
+                        target="#ftn1" type="note_reference"/></ab>
+
+
+
+
+                <ab><date type="Hijri" notBefore="1719-11-14" notAfter="1719-11-23">November 14 to
+                        November 23, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

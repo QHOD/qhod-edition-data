@@ -1,0 +1,274 @@
+
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.lido-schema.org http://gams.uni-graz.at/lido/1.0/lido.xsd">
+
+  <!-- noch durchdenken/besprechen -->
+  <lido:lidoRecID lido:type="PID">o:vipa.art.hbg.2</lido:lidoRecID>
+
+  <lido:category>
+    <lido:conceptID lido:source="CIDOC" lido:type="ID">E22</lido:conceptID>
+    <lido:term xml:lang="en">Man-Made Object</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa">Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa.art">Artefakte</lido:term>
+    <lido:term lido:label="info:fedora/context:qhod">Online Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)</lido:term>
+  </lido:category>
+
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term>Uhr</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+    </lido:objectClassificationWrap>
+
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue>Tischuhr</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <lido:repositoryName>
+            <lido:legalBodyName>
+              <lido:appellationValue>Uhrensammlung, Topkapi Saray Museum</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>https://muze.gen.tr/muze-detay/topkapi</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="idno">53/194</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+
+      <lido:objectDescriptionWrap>
+
+        <lido:objectDescriptionSet lido:type="description">
+          <lido:descriptiveNoteValue>Die quadratische Tischuhr steht auf vier kugelförmigen Füßen
+            und weist ein arabisches Ziffernblatt mit Stunden- und Minutenanzeige auf. Bei
+            Betätigung des seitlich hervorstehenden Knopfes ertönt ein Klang. Die gesamte Oberfläche
+            der Tischuhr wurde vergoldet und an der Außenseite ist ein Blütendekor angebracht, der
+            sich aus Email und Edelsteinen zusammensetzt (Çakmut/Gürbüz, Topkapı, 40, 110; Davis,
+            Clocks, 43). Diese Verzierung ahmt offensichtlich den osmanischen Dekorstil aus der Zeit
+            Ahmeds III. nach, der z.B. auf einem Pferdebrustriemen aus der kaiserlichen Wagenburg in
+            Wien zu finden ist (G 259). </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet lido:type="provenance">
+          <lido:descriptiveNoteValue>Der Großbotschafter Virmont erwähnt in seinem Brief vom 3.
+            Dezember 1719 eine goldene Repetieruhr, die der osmanische Großbotschafter Ibrahim
+            Pascha für den Großwesir einkaufen und schicken soll (Österreichisches Staatsarchiv,
+            Haus-, Hof- und Staatsarchiv Wien, Staatenabteilung Türkei I, 185-1, fol. 87v–88r). Im
+            Reisebericht der Großbotschaft von Virmont wird berichtet, dass am 6. April 1720 der
+            kaiserliche Kurier Archatiel eine goldene Repetieruhr dem Großwesir überbrachte
+            (Driesch, Historische Nachricht, 403). Die Ankunft dieser Uhr beim Großwesir ist auch in
+            dem Brief Virmonts vom 16. April 1720 bezeugt (Österreichisches Staatsarchiv, Haus-,
+            Hof- und Staatsarchiv Wien, Staatenabteilung Türkei I, 187–2, fol. 166v.).
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet lido:type="preservation">
+          <lido:descriptiveNoteValue>Die Tischuhr befindet sich in einem sehr guten Zustand.
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+        <lido:objectDescriptionSet lido:type="usage">
+          <lido:descriptiveNoteValue>Zeitmessung, Religion und Glaube </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+      </lido:objectDescriptionWrap>
+
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>size</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>Höhe: 8cm; Breite: 8cm; Tiefe: 8cm</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+    </lido:objectIdentificationWrap>
+
+    <lido:eventWrap>
+
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <!-- 'Production' -->
+            <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00007</lido:conceptID>
+            <lido:term>Herstellung</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:displayActorInRole>Uhrmacher</lido:displayActorInRole>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:label="dc_creator">Joseph Derchinger (Uhrmachermeister, gest. 1736)</lido:appellationValue>
+                </lido:nameActorSet>
+                <lido:vitalDatesActor>
+                  <lido:latestDate>1736</lido:latestDate>
+                </lido:vitalDatesActor>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+          <lido:eventDate>
+            <lido:displayDate lido:label="dc_date">1720</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1715</lido:earliestDate>
+              <lido:latestDate>1725</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>Wien</lido:displayPlace>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="material">
+                <lido:term>Eisen, Gold, Diamanten, Rubine, Kristall, Email </lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Datenerfassung</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:label="editor">Dandachi, Laila</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+        </lido:event>
+      </lido:eventSet>
+    </lido:eventWrap>
+
+
+    <lido:objectRelationWrap>
+      <lido:relatedWorksWrap>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Feza ÇAKMUT/Şule GÜRBÜZ, Topkapı Sarayı saat
+                koleksiyonu: dünyanın kıskandığı saatler, Istanbul 2012. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Fanny DAVIS, The Clocks and watches of the
+                Topkapi Palace Museum, in: Journal of Turkish Studies 8 (1984), 41–54.
+              </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Cornelius von den DRIESCH, Historische
+                Nachricht von der Röm. Kayserl. Groß-Botschafft nach Constantinopel […]. Worinnen
+                ganz besondere Nachrichten von der Türken Policey, Religion, Griechischen
+                Antiquitäten und andern merkwürdigen anderswo vergeblich gesuchten Sachen, zu finden
+                […], Nürnberg 1723. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectWebResource>/o:vipa.tr.hbg.1723/sdef:TEI/get?mode=view:facs#facs_453</lido:objectWebResource>
+              <lido:objectID lido:type="PID">o:vipa.tr.hbg.1723</lido:objectID>
+              <lido:objectNote lido:type="reference">Driesch, Historische Nachricht,
+                403.</lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Referenz</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+      </lido:relatedWorksWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:recordWrap>
+      <lido:recordID lido:type="PID">o:vipa.art.hbg.2</lido:recordID>
+      <lido:recordType>
+        <lido:term>single object</lido:term>
+      </lido:recordType>
+
+      <!-- Institute for Habsburg and Balkan Studies ? -->
+
+      <lido:recordSource lido:type="distributor">
+        <lido:legalBodyName>
+          <lido:appellationValue>GAMS - Geisteswissenschaftliches Asset Management
+            System</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>https://gams.uni-graz.at</lido:legalBodyWeblink>
+      </lido:recordSource>
+
+      <lido:recordSource lido:type="photographer">
+        <lido:legalBodyName>
+          <lido:appellationValue>Bahadır Taşkin 2021</lido:appellationValue>
+        </lido:legalBodyName>
+      </lido:recordSource>
+
+      <lido:recordRights>
+        <lido:rightsHolder>
+          <lido:legalBodyID lido:source="http://d-nb.info/gnd" lido:type="ID">1001454-8</lido:legalBodyID>
+          <lido:legalBodyName>
+            <lido:appellationValue>Österreichische Akademie der Wissenschaften</lido:appellationValue>
+          </lido:legalBodyName>
+          <lido:legalBodyWeblink>https://www.oeaw.ac.at/oesterreichische-akademie-der-wissenschaften</lido:legalBodyWeblink>
+        </lido:rightsHolder>
+        <lido:creditLine lido:label="text">Creative Commons BY 4.0</lido:creditLine>
+        <lido:creditLine lido:label="uri"
+          >https://creativecommons.org/licenses/by/4.0</lido:creditLine>
+      </lido:recordRights>
+    </lido:recordWrap>
+
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="IMAGE">IMG.1</lido:resourceID>
+        <lido:resourceRepresentation>
+          <lido:linkResource lido:formatResource="image/jpeg">IMG1.jpg</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+
+      <lido:resourceSet lido:sortorder="2">
+        <lido:resourceID lido:type="IMAGE">IMG.2</lido:resourceID>
+        <lido:resourceRepresentation>
+          <lido:linkResource lido:formatResource="image/jpeg">IMG2.jpg</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+
+      <lido:resourceSet lido:sortorder="3">
+        <lido:resourceID lido:type="IMAGE">IMG.3</lido:resourceID>
+        <lido:resourceRepresentation>
+          <lido:linkResource lido:formatResource="image/jpeg">IMG3.jpg</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

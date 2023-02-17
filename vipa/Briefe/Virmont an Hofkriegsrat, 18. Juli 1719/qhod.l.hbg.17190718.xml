@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Edirne, 18. Juli 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Edirne, July 18, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17190718</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 141r-144v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Edirne, 18. Juli 1719, bearb. von Lisa Brunner, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918
+                    </ref>
+                    
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="#http://sws.geonames.org/747712/">Edirne</placeName>
+                    <date when="1719-07-18">18. Juli 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190709">
+                    Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                    an den
+                    <orgName>Hofkriegsrat</orgName>
+                    :
+                    <date when="1719-07-09">9. Juli 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190813">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an
+                        <persName>Kaiser Karl VI.</persName>
+                        :
+                        <date when="1719-08-13">13. August 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>plague</item>
+                    <item>official entry in Adrianople</item>
+                    <item>accomodations in Constantinople</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="12KV_141r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="12KV_141v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="12KV_142r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="12KV_142v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="12KV_143r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="12KV_143v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="12KV_144r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="12KV_144v.jpg" xml:id="IMG8"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+    <pb facs="#IMG1" n="141r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 12</ref> d.d. <rs type="place" ref="#mpr14060">Adrianople</rs> <date when="1719-07-18">18. Julii 1719</date></metamark>
+            <opener><salute>Hochlöbl. ksl. hof-kriegs-rath.</salute></opener>
+            <p>An eüer hochfürstlichsten durchleuchtigsten excellenzien und meinen hochgeehrtisten
+                herren habe ich auß einem lager eine halbe stund von <rs type="place" ref="#mpr9442"
+                    >Philipopoli</rs> unter den <date when="1719-07-09">neünten dises</date> mit
+                abschickhung eines janizaren nach <rs ana="MPRautomatched" ref="#mpr9425"
+                    type="place">Belgrad</rs> gehorsambst und schuldigst berichtet, daß wegen der in
+                selber statt regirenden c<supplied resp="#lb" reason="damage">on</supplied>tagiosen
+                kranckheiten, mich ausser derselben gelagert und wider dises übel sonsten alle
+                nöttige praecautionen, sovill an mir gelegen, vorgekhert habe. Solchemnach bin auch
+                von dannen biß anhero jedesmahl im feld unter gezelten gebliben, die inficirte
+                örther ausgewichen und, sovill sich thuen gelassen, der communication mit
+                denenselben vorgebogen. Es befindet sich auch (Gott sey danckh) all mein gefolg
+                nicht allein von disen alß anderen kranckheiten zu dato frey und in gesundem <pb
+                    facs="#IMG2" n="141v"/> wohlstand. Weillen ich aber vermeynt, daß es
+                ansehentlicher und villeicht auch wegen künfftiger consequenzien zu reflectiren, wan
+                ich in einer so berüehmten statt und ksl. residenz alß <rs type="place"
+                    ref="#mpr14060">Adrianople</rs> logiren kunte, alß habe einen medicum nebst
+                dollmetschen vorauß anhero geschickht, einige sichere information, wie es wegen der
+                kranckheiten seye, einzuhollen und da mir selbe im <date when="1719-07-17"
+                    >gestrigen</date> lager rapportirt, daß die seüche darinnen nicht so starckh
+                grassire, sondern fast mehrers in pödötschen und dergleichen bestehe, auch eben
+                keine grosse mortalität allda seye und nur dort und da unter dem gemeinen volckh
+                etwas sterbe, so habe kein bedenckhen gemacht einen solennen einzug, gleichwie zu
+                    <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> und <rs
+                    ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>, hier zu halten,
+                auch in solche haüser zu logiren, <pb facs="#IMG3" n="142r"/> in welchen kein
+                infection zu vermuthen. Hingegen seyndt von <rs ana="MPRautomatched" ref="#mpr14055"
+                    type="place">Constantinople</rs> die fatale nachrichten eingeloffen, daß aldort
+                die leydige seüche fast schon in flagranti und auch in das jenige canton oder gassen
+                zu <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>, allwo für mich
+                und mein gefolg die quartier schon destinirt und würckhlich zuberaithet worden, und
+                welches eben die jenige seyndt, so die ksl. öttingische grosbottschafft innen
+                gehabt, eingegriffen habe. Und wie ich von dem dollmetsch <rs ana="MPRautomatched"
+                    ref="#mpr10485" type="person">Theyls</rs> vernehme, so ist nächst dem für mich
+                zugerichten hauß ein freüdthoff, also daß alle daherumb sterbende dahin und vor
+                meinen und meines gefolg augen vorbey getragen werden, wie nicht weniger wären
+                kürzlich zwey spittäller für die mit disem übel behaffte leüth mitten unter denen
+                für die bottschafft angeschribenen quar <pb facs="#IMG4" n="142v" break="no"/>
+                tieren gestüfftet und angelegt worden. Ob nun ich zwar vor mein person kein
+                abscheüen hievor habe, so befinde jedoch, daß erstlich auf ihrer <rs type="person"
+                    ref="#mpr9399">ksl. und catholischen Mt.</rs> allerhöchsten dienst reflexion zu
+                machen und sodan wegen meines gefolgs zu sorgen, dahero gar nicht rathsamb seye, so
+                blatter dingen nach <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinople</rs> und zwar in die so gefährlich situirte wohnungen
+                einzuziehen. Disemnach befinde nöttig, alsogleich jemand an den <rs type="person"
+                    ref="#mpr9441">groß vezir</rs> zu schickhen und selbem die behörige
+                remonstrationes thuen zu lassen, damit mir eine station bey einem nahe <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> gelegenen
+                aber gesunden orth oder dorffschafft angewisen werde, umb sich darauf <add
+                    place="superlinear">nur einige täge</add> aufzuhalten, biß aigentlich und recht
+                sicher erfahren kan, ob und wie ohne gefahr mich mit meinem gefolg <pb facs="#IMG5"
+                    n="143r"/> hinein begeben dörffe, <add place="left" corresp="#addition1">
+                    zumahlen auch alle ausländische ministri sich schon auf das land retiriret
+                    haben.</add> Wobey doch keine gelegenheit versaumben werde, alles das jenige zu
+                beobachten und vorzunehmen, was nach möglichkeit zu ihrer <rs type="person"
+                    ref="#mpr9399">ksl. und catholischen Mt.</rs> dienst sich thuen würdt lassen. </p>
+            <p>Nach solchem entschluß habe dem <rs type="person" ref="#mpr14960">ksl. legation<supplied resp="#lb"
+                        reason="damage">s</supplied> secretario</rs> dise commission aufgetragen und
+                ihne sogleich nach expedirung dises mit dem dollmetsch <rs ana="MPRautomatched"
+                    ref="#mpr10485" type="person">Theyls</rs> abschickhe. Allhier hat mich der
+                residirende <rs type="person">bostangi bassa</rs> nebst denen vornembsten sowohl
+                militar alß civil officieren vor der statt empfangen und nach gewonheit
+                complimentirt. </p>
+            <p>
+               Das leztere von eüer hochfürstlichen durchleuchtigsten excellenzien
+                und meiner hochgeehrtisten herren an mich erlassene rescript
+                ware vom <date when="1719-06-14">vierzehenden verlittenen monaths Junii</date> und erwartte ich auch   
+             
+            <pb facs="#IMG6" n="143v"/>
+                noch von <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> die antwortten,
+                ob meine auß <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> und bey <rs type="place" ref="#mpr9442">Philipopoli</rs>
+                dahin durch janizaren abgesändte expeditiones richtig überbracht worden,
+                gleichwie auch dises widerumb durch einen janizaren schickhe,
+                indem den jenigen bey mir befündlichen courrier <rs ana="MPRautomatched" ref="#mpr15315" type="person">Lucas</rs>
+                zu fernerer nothdurfft und wichtigkeit zuruckh behalte,
+                womit mich gehorsambst und dienstschuldigst empfehle, verharrend.
+            </p>
+            <closer>
+                <salute>Euerer hochfürstlichsten durchleuchtigsten excellenzien und meiner hochgeehrtisten herren</salute>
+                
+                <signed>Gehorsambster und dienstschuldiger diener
+                <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                
+                <address><rs type="place" ref="#mpr14060">Adrianopl</rs></address> <dateline>den <date when="1719-07-18">18. Julii 1719</date></dateline>
+                
+            </closer>
+            
+            <pb facs="#IMG7" n="144r"/>
+            
+            <pb facs="#IMG8" n="144v"/>
+            
+            <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1719-08-04">4. Augusti 1719</date></metamark>
+            <metamark><date when="1719-07-18">18. Julii</date></metamark>
+
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Kommandanten von Nissa
+                    (Niš) und viele andere osmanische Verwalter und Beamte, die sich an der Straße
+                    von Istanbul nach Nissa (Niš) befinden, um gemäß dem kaiserlichen
+                    Vertragsschreiben (ahidname) die österreichischen Geistlichen zu schützen, die
+                    mit zweihundertachtundsiebzig befreiten Sklaven nach Österreich reisen;
+                    Istanbul, 21. März – 30. März 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the commander of Nissa (Niš) and
+                    many other Ottoman administrators located on the road from Istanbul to Nissa
+                    (Niš) to protect, according to the imperial letter of agreement (ahidname), the
+                    Austrian clergy who travel to Austria along with two hundred seventy-eight freed
+                    slaves; Istanbul, March 21 – March 30, 1720</title>
+
+
+
+                <title xml:lang="tr">Sultanın, Niş muhafızı paşaya ve İstanbul’dan Niş’e varıncaya
+                    kadar yolda bulunan Osmanlı idarecilerine hitaben yazılmış, yanlarinda iki yüz
+                    yetmiş sekiz serbest bırakılmış esir ile Avusturya’ya seyahat eden rahiplerin
+                    korunması ve kendilerine ahidname hükümlerine göre muamele edilmesi hakkında
+                    hükmü; İstanbul, 21 Mart – 30 Mart, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200321-17200330.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 77, entry 175</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-03-21" notAfter="1720-03-30"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Kommandanten von Nissa (Niš) und viele
+                    andere osmanische Verwalter und Beamte, die sich an der Straße von Istanbul nach
+                    Nissa (Niš) befinden, um gemäß dem kaiserlichen Vertragsschreibens (ahidname)
+                    den österreichischen Klerus zu schützen, der zusammen mit zweihundertsiebzig-
+                    acht befreite Sklaven nach Österreich reißen; Istanbul, 21. März – 30. März
+                    1720; bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob
+                    Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und
+                    Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>protection and treatment of traveling Austrian merchants according to the
+                        conditions of the imperial letter of agreement (ahidname)</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>Nissa</item>
+                    <item>Niš</item>
+                    <item>Austrian clergy</item>
+                    <item>Holy Roman emperor</item>
+                    <item>protection</item>
+                    <item>captive</item>
+                    <item>prisoner of war</item>
+                    <item>esir</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00038_Page_77_Entry_175.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+            <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200321-17200330.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="above">175</metamark>
+
+                <ab><lb/><rs type="person" ref="#mpr14242"><rs type="place" ref="#mpr14602">Nīş</rs>
+                        muḥāfıẓı</rs>na ve <rs type="place" ref="#mpr14055">āsitāne-i
+                    saʿādet</rs>ümden <rs type="place" ref="#mpr14602">Nīş</rs>e varınca yol
+                    üzerinde <lb/>vāḳiʿ olan ḳāḍīlara ve voyvoda ve mütesellimlere ve ketḫüdā yiri
+                    ve yeñiçeri <lb/>serdārları ḫavāṣṣ ve evḳāf żābiṭi ve aʿyān-ı vilāyet ve iş
+                    erlerine <lb/>ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından der-i devlet-medāruma büyükilçilik ile
+                        <lb/><sic>der-i devlet-medāruma</sic> gelen <rs type="person" ref="#mpr9435"
+                        >Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+
+                <ab><rs type="place" ref="#mpr6718">Nemçe</rs> diyārından <lb/>esīr istiḫlāṣı içün
+                    gelen <rs type="place" ref="#mpr6718">Nemçe</rs> ruhbānı ve fermān-ı ʿālī ile
+                    beglik zindānından seksen alṭı nefer ve aḳçalarıyla <lb/>istiḫlāṣ eyledükleri
+                    gerek ẕükūr ve gerek inās kebīr ve ṣaġır yüz ṭoḳsan reʾs ki min ḥaysi l-mecmūʿ <lb/><choice>
+                        <sic>ikiyüz yetmiş altı</sic>
+                        <corr>ikiyüz yetmiş sekiz</corr>
+                    </choice> ʿaded esīrler ile mesfūrdan rāhibler vilāyetlerine ʿavdet
+                    itmeleriyle</ab>
+
+
+                <ab>siz ki <lb/>mūmā ileyhimsiz mesfūrūn rāhibler üserā-yı merḳūma ile her
+                    ḳanġıñuzuñ taḥt-ı ḳażāsına varub <lb/>dāḫıl olurlar ise emīn ve maḥfūẓ
+                        maḥaller<supplied>de</supplied> ḳondurulub ve gider olduḳlarında yanlarına
+                    ḳulaġuzlar <lb/>ḳoşılub esnā-yı ṭarīḳde vāḳiʿ menāzil ve merāḥilde gendülere
+                    libās ve ṭavarlarına <lb/>daḫl ü taʿarruż ve geçid aḳçası ve ḫilāf-ı ʿahdnāme-i
+                    hümāyūn cizye ve sāʾir bahāne ile aḳça <lb/>muṭālebesiyle rencīde ve remīde
+                    olunmayub ve iḳtiżā iden zād u ze<supplied>v</supplied>ādelerin narḫ-ı <lb/>rūzī
+                    üzere ṣatanlardan aḳçalarıyla aldurılub bir vechle żarūret ve mużāyaḳa
+                    <lb/>çekdürilmeyüb emīn ve sālim birbiriñüze irsāl ve vilāyetlerine īṣāle
+                    <lb/>taḳayyüd ve ihtimām olunmaḳ bābında emr-i şerīfüm ricā etmegin <lb/>vech-i
+                    meşrūḥ üzere ʿamel oluna diyü yazılmışdur. <note type="editorial" resp="#yy"
+                        xml:id="ftn1">The ambassador Virmont reported <ref
+                            target="/o:vipa.l.hbg.17200416.2">in a letter dated April 16, 1720</ref>
+                        the departure of a Trinitarian father named <rs type="person"
+                            ref="#mpr16015">P. Joseph à Jesu Maria</rs> in the company of up to 400
+                        freed slaves.</note></ab>
+
+
+
+
+                <ab><date type="Hijri" notBefore="1720-03-21" notAfter="1720-03-30">fī evāsıt-ı
+                            Cā[<supplied resp="#yy">Cemāẕiyye’l-evvel</supplied>] sene
+                    1132</date></ab>
+
+
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200321-17200330.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the <rs type="person" ref="#mpr14242">commander vizier of <rs
+                            type="place" ref="#mpr14602">Nissa (Niš)</rs></rs> and to all judges,
+                    voivodes, deputy governors, aides-de-camp of janissary commanders, janissary
+                    commanders, notables, officers of pious foundations, provincial notables, and
+                    functionaries that are located on the road from my <rs type="place"
+                        ref="#mpr14055">threshold of felicity</rs> to <rs type="place"
+                        ref="#mpr14602">Nissa (Niš)</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my threshold of felicity as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs> sent a
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>The <rs type="place" ref="#mpr6718">Austrian</rs> clergy who came from the <rs
+                        type="place" ref="#mpr6718">Austrian</rs> lands for the liberation of
+                    captives, eighty-six captives they freed from the prison of the naval arsenal
+                        (<foreign xml:lang="ota">beglik zindānı</foreign>), and one hundred and
+                    ninety-two male, female, old, and young captives they freed with money — in total <choice>
+                        <sic>two hundred seventy-six</sic>
+                        <corr>two hundred seventy-eight</corr>
+                    </choice> captives — and priests from among the aforesaid clergy are returning to
+                    their lands.</ab>
+
+                <ab>You are the aforesaid [administrators]! When the aforesaid priests and captives
+                    arrive and enter to the administrative territory of whomever among you, you
+                    shall lodge them in safe and protected quarters. When they continue their
+                    journey, you shall assign guides to accompany them. When they are on the road,
+                    at the stations and during the stages of the journey, [no one] shall interfere
+                    with or attack them, their garments, and their animals. They shall not be
+                    injured or disturbed with claims of passage fee or, in violation of the imperial
+                    letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>), with
+                    claims of jizya and or money under any pretext. The required provisions and
+                    supplies shall be purchased with [his own] money from those who sell for the
+                    daily fixed prices. You shall not let them suffer need of anything or be in
+                    distress by any means. You shall send them safe and sound from one of you to the
+                    other and pay attention and take care to deliver them to their lands. The
+                    ambassador requested my noble order on this matter. It has been written that you
+                    shall act in the way described.<ref target="#ftn1" type="editorial"/></ab>
+
+                <ab><date type="Hijri" notBefore="1720-03-21" notAfter="1720-03-30">March 21 to
+                        March 30, 1720</date></ab>
+            </div>
+        </body>
+    </text>
+</TEI>

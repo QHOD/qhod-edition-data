@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Jagodina, 17. Juni 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Jagodina, June 17, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> 
+                        Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200617.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 162r-166v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl> 
+            <refsDecl><p>Damian Hugo von Virmont an den Hofkriegsrat, Jagodina, 17. Juni 1720, bearb. von Manuela Mayer, Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+                
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr14609" ref="https://sws.geonames.org/789923/">Jagodina</placeName>
+                    <date when="1720-06-23">23. Juni 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                    
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev"> 
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-17">17. Juni 1720</date>
+                    </ref>
+                    <ref type="next"> 
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-21">21. Juni 1720</date>
+                    </ref>
+                </correspContext>
+                <note>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17200617.2.b1"/>
+                    
+                </note>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>unclear situation concerning the payment of the Ottoman interpretor Ghica</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="52KV_162r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="52KV_162v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="52KV_163r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="52KV_163v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="52KV_164r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="52KV_164v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="52KV_165r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="52KV_165v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="52KV_166r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="52KV_166v.jpg" xml:id="IMG10"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="162r" facs="#IMG1"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">Nr. 52</ref> d.do. <rs type="place" ref="#mpr14609">Jagodina</rs> <date when="1720-06-17">17. Junii 172<subst><del>1</del><add>0</add></subst></date> nebst 2 beylagen.</metamark>
+            <pb n="162v" facs="#IMG2"/>
+            <pb n="163r" facs="#IMG3"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">No. 52</ref> d.do. <rs type="place" ref="#mpr14609">Jagodina</rs> <date when="1720-06-17">17. Junii 1720</date></metamark>
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath. Durchleut excellenc undt meine hochgeehrte herren.</salute>
+            </opener>
+<p>Ich habe in einer aus dem lager bey <rs type="place" ref="#mpr14598">Scharkoii</rs> unter den
+                    <date when="1720-06-02">2. Junii</date> abgelassener gehorsambster relation
+                angezogen, wie der von der granitzen mitt mehrerer sicherkeit eine erleuterung uber
+                das, was ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs> hof undt feltkriegs
+                secretarius <rs type="person" ref="#mpr14960">von Dierling</rs> mich wegen einer
+                vermeinten, von der ottomanischen Porten dolmetschen <rs type="person"
+                    ref="#mpr14575">Gyka</rs> gefasten disgusto, ahn einen hochloblichen berichtet
+                zu haben. Zu schreiben nun weis ich <unclear reason="illegible">zumalen</unclear>
+                eigentlich, was er <rs type="person" ref="#mpr14960">von Dierling</rs> berichtet
+                hat, die sach aber bestehet indeme, das nach deme ich zum tag vohr meiner abreis dem
+                dolmetsch von der Porten danck undt höflichkeit ahngenohmen, kombt abens vohr meiner
+                abreis sein confident, der bewuste Gyracki zu mihr undt <pb n="163v" facs="#IMG4"
+                />gibt mihr zu vernehmen, wie das der dolmetsch sich bewundete, das ihme
+                    <del>d</del> der von ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs> das
+                ordinarium nitt geschencket, oder ich, da doch andren tage reisen wurde, nach nitt
+                hette geben lassen. Undt da ich zeigte, wie in der wahrheit, nitt verstande, was das
+                sein solte, oder er sagen wolte, brach er heraus, es wehren diesser 3 oder 4 tahler,
+                so der <rs type="person" ref="#mpr10486">graf von Ottingen</rs>, als dahmahligen
+                ksl. großbottschafter, seinem vohrfahren als auch ottomanischen oberdolmetschen, bey
+                seiner abreis hinterlassen undt demnechst vohr weilant <rs type="person"
+                    ref="#mpr15184">ksl. Mt. Leopoldo</rs> glorwurdigsten andenckens <add
+                    place="superlinear">jährlich</add> wehren bezahlet worden. Ich antworttete ihme,
+                das dasjenige, so bishero von mihr geschehen seie, ohne das ihro <rs type="person"
+                    ref="#mpr9399">ksl. Mt.</rs>, als welcher ich bey meiner ahnkombft zu <rs
+                    type="place" ref="#mpr13416">Wien</rs> darvon red undt rechenschaft zu geben
+                hatte, bishero darvon wissig, wi den er dolmetsch mir ja solches bis zu meiner
+                muntlicher alleruntertehnigster relation zu verschweigen gebeten, da es der
+                dolmetsch mitt weniger devotion zugetahn, oder etwas gedienet hette, oder ferner zu
+                dienen gedächte. Wan ich auf <rs type="place" ref="#mpr13416">Wien</rs> kommete, so
+                wurde ich ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs> alles
+                alleruntertehnigst vohrstellen undt fals dieselbe sich von ihme, dem dolmetschen <pb
+                    n="164r" facs="#IMG5"/> wohl gedienet funden wurden, so sie des
+                allerdurchleuchtigsten <unclear reason="illegible">erzhaus</unclear> nitt anders,
+                als genereus undt erkäntlich zu sein, wie es dan, wan sein respective vetter undt
+                vohrfahrer, <rs type="person" ref="#mpr15782">Mauro Cordato</rs> so viel jahrlichs
+                empfangen haben solte, wehren ich jedoch zweiflete, von der experiens sehete, es
+                musste diessen zueziechen sein, das er eben, der <rs type="person" ref="#mpr15782"
+                    >Mauro Cordato</rs>, unter der hant gedienet hette. Darvon könten bey der cammer
+                oder sonsten (zumahlen solches geheimbe ausgaben wehren), kein nachricht gefunden
+                werden. Hette mihr auch also keine <unclear reason="illegible">commiche</unclear>
+                hier geben werden konnen. Umb so viel mehr als man nitt wissen können, ob er <rs
+                    type="person" ref="#mpr14575">Gyka</rs> eine devotion vohr ihro <rs
+                    type="person" ref="#mpr9399">ksl. mt.</rs> haben wurde. Ich fugte hiezu, ich
+                wolte mitt der Porten dolmetsch <unclear reason="illegible">quartale</unclear> nicht
+                zu tuhen haben, undt muste auf diessen fuer nicht praetendiret werden, als wan ein
+                romischer kayser einen <unclear reason="illegible">zeitlichen</unclear>
+                ottomanischen dolmetsch gleichfals nötig hette, und einem solchen bey abreis eines
+                bottschaffters undt hernegst jahrlichs ein gewissen geben sollte. Was aber den
+                jezigen dolmetsch, als <rs type="person" ref="#mpr14575">Gyka</rs> ahngiengt, wan er
+                continuiren wolte, seine nachrichten zu geben, so bliebe ich bey genohmener abrede,
+                ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs> solches alleruntertehnigst
+                vohrzutragen undt wissen hingegen von seiner seiten sich zu verlassen, ihme
+                uberschreiben wurde. Er replicirte mihr, alle nationes geben dem dolmetsch jahrlichs
+                ein sicheres, weilen er viele mich undt in seiner <pb n="164v" facs="#IMG6"/>nötig
+                hetten, contentirte sich indessen gleichwohl mitt meiner antwohrt, selbe dem
+                oberdolmetsch zu uberbringen, ich hingegen fugte ihme allerhandt contestationes
+                hinzue, umb selben bey gutem willen zu erhalten, erkenne aber abermahl, wie ich
+                meinen auszug schon gehalten, zu <unclear reason="illegible">Jaud bassa</unclear>
+                unter der zelten zu mihr undt wolle von wehm der dolmetsch mihr beybringen, das er
+                vohr sein particulare wegen gelauter diensten, von mihr bekommenen regalien undt
+                recompensen wohl zufrieden, auch kunfftig hin gerne mitt aller freud dienen undt
+                uber die, wie ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> hingegen
+                gedenckende gnadt von mihr abgeretermassen von <rs type="place" ref="#mpr13416"
+                    >Wien</rs> aus das <unclear reason="illegible">palitare</unclear> erwerben wolte, allein wolte er sich disgustiter
+                zeigen, das man ihme von seiten des hoffs oder cammer weniges tractiren oder halten
+                wolte, als seinen vohrfahrer. Ich wurde hierauf veranlasset, etwas starckes undt
+                clares zu reden, wie das ich solche ungereimbte propositiones nitt anhören möchte,
+                es wehre eines romischen ksl. dolmetsch allerhochsten decor undt hoheit zu wieder,
+                einem ottomanischen dolmetsch gleichfahls aus einer schuldigkeit oder eingefuhrten
+                    <unclear reason="illegible">misbrauch</unclear>, wan solcher gleichwohl also
+                jahrlichs etwas zahlen zu lassen, ich wehre des herren <rs type="person"
+                    ref="#mpr14575">Gyka</rs> gutter freunt undt wolte derhalben zu <rs type="place"
+                    ref="#mpr13416">Wien</rs> auch nitt einmahl sagen, das er sich desgleichen etwas
+                einfahllen lassen, was aber ihme als <rs type="person" ref="#mpr14575">Gyka</rs> in
+                particulari betreffe, solte er, wan er anders gutte dienste leisten wolte, so wohl
+                als er gyracki selbst auch, sich auch ihro <rs type="person" ref="#mpr9399">ksl.
+                    Mt.</rs> magnificens undt meine freundtschafft unvohrstellen verlassen. <pb
+                    n="165r" facs="#IMG7"/>Und da nun diesse leut gegen ihro <rs type="person"
+                    ref="#mpr9399">ksl. Mt.</rs><rs type="person" ref="#mpr14960">secretarium</rs>
+                etwas kaltsinnig erzeigen, mag eines teils die ursach sein, umb sich desto mehr
+                precios undt necessair zu machen, andren teils auch, das sie undt zumahl der erstere
+                wohl haben will, das der <rs type="person" ref="#mpr14960">von Dierling</rs> weis,
+                das es einige freuntschafft mitt mihr, nitt aber wie weit sie allerdings gehe. Das
+                aber diesse leut nitt abzubrechen gedencken, zeigen beykommende zu in chifre, wahrzu
+                den schlussel gehorsambst beylege, und das andre, als wan es an einen kauffman
+                gienge, mihr zugeschickte mitt dessen <rs type="person" ref="#mpr14960">von
+                    Dierling</rs> brieff, mihr zugleich einlaufende schicken.<note>Die <ref
+                        target="/o:vipa.l.hbg.17200617.2.b1">Beilagen</ref> sind erhalten.</note>
+                Alle beide zeigen clar des <rs type="person" ref="#mpr14575">Gyka</rs> vohrwissen
+                undt cointelligens undt wirdt sich bey meiner <unclear reason="illegible"
+                    >vorhabenkeit</unclear> baldiger dahinkunfft, den ferneren befelch, was
+                hierinfals zu ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> allerhochsten
+                dienst zu tuhen, zu empfangen haben undt das werck wohl zu richten sein, des mich
+                indessen zu beharlichen gnaden empfelent verbleibe</p>
+
+
+            
+            <closer>
+                <salute>Euer hochloblichster ksl. hoffkriegsrath, euer hochlöblichste excellenc undt meine hochgeehrtesten herren</salute>
+                <signed>gehorsambst schuldiger diener<rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs type="place" ref="#mpr14609">Jagodina</rs>
+                </address>
+                <dateline>den <date when="1720-06-17">17. Junii 1720</date></dateline>
+            </closer>
+            <pb n="165v" facs="#IMG8"/>
+            
+            <pb n="166r" facs="#IMG9"/>
+            <pb n="166v" facs="#IMG10"/>
+            <metamark>Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-07-19">19. Julii 1720.</date></metamark>
+            
+            
+        </body>
+    </text>
+</TEI>

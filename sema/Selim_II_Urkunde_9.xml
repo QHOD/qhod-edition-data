@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 9</title>
+                    <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15691209</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>                     
+                            <institution>ÖStA, HHstA Wien</institution>
+                            <collection>Türkische Urkunden</collection>                        
+                            <idno type="regest_petritsch" n="600"/>
+                    </msIdentifier>
+                    <physDesc>
+                         <p>Ṭuġra gold</p> 
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1569-12-01" notAfter="1569-12-09" calendar="#hijri"> 977 Cemāẕī II 21-29 </date> 
+                    <placeName ref="https://sws.geonames.org/311303/">İnecik</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15690118">Urkunde 8</ref>
+                <ref type="next" target="o:sema.rc.osm.15700922">Urkunde 10</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract> <p>Urkunde 9: Geschrieben zwischen dem 1. und 9.12.1569
+                im Lager von İnecik. Selīm II. antwortet auf ein Schreiben Maximilians II.
+                an den inzwischen verstorbenen habsburgischen Gesandten <rs type="person" ref="#mpr14180">Albert de
+                    Wijs. </rs> <rs ana="MPRautomatched" ref="#mpr14157" type="person">Maximilian</rs> hatte die Gefangennahme des Neffen von Hamza Beg
+                durch Truppen aus <rs type="place" ref="#mpr14080">Tata</rs> und Papa bekanntgegeben und gegen die Streifzüge in der Gegend von Zemdere protestiert.Fordert die Freilassung der Personen, die von <rs type="person" ref="#mpr14182">İmre Begi</rs>gefangen genommen wurden.
+                Außerdem bekam der Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs> <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>  den Befehl, alle nach Abschluss des Friedensvertrages gefangengenommenen, egal ob sich diese bei den Begs von Fülek, <rs type="place" ref="#mpr14089">Nógrád</rs> oder woanders befinden freizulassen. Fordert strenge Bestrafung der Friedensverletzungen.</p></abstract>
+                 <textClass> 
+                <keywords>
+                    <term>Nāme-i hümāyūn</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>                    
+                </interpretation>                
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 9: Selim II. an Maximilian II., Inecik, zwischen 1. und 9.12.1569, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.9">
+            <graphic url="09_600.jpg" xml:id="IMG.9"/>
+            
+        </surface>
+        
+    </facsimile>
+    <text type="record"><body>
+                            
+                <div n="9"><div type="transcription" xml:lang="ota">
+                    
+                    
+                    <pb facs="#IMG.9" n="9"/> 
+                    
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    <note resp="#yy" place="footnote" n="1">
+                    Es ist sehr wahrscheinlich, dass sich ursprünglich eine
+                    Invocatio am Anfang des Dokuments befand,
+                    die jedoch fast vollständig gelöscht wurde.</note> 
+                    
+                    <ab type="Ṭuġra"> <rs type="person" ref="#mpr14045">Selīm</rs> 
+                     Şāh bin <rs type="person" ref="#mpr11015">Süleymān</rs> Şāh Ḫān el-muẓaffer dā’imā</ab>                   
+                    
+                    
+                        
+                        <ab type="inscriptio"><lb n="1"/>İftiḫāru l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtāru l-küberā’i
+                        l-fiḫāmi fī milleti l-mesīḥīye muṣliḥu maṣāliḥi cemāhīri ṭ-ṭāyifeti
+                        n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti ve-l-vaḳār ṣāḥibü delāyili l-mecdi
+                        ve-l-iftiḫār vilāyet-i <rs type="place" ref="#mpr13416">Beç</rs>
+                        imperādorı <rs type="person" ref="#mpr14157">Maḳsimiliyānūş</rs> ḳırāl</ab>                       
+                        <ab type="salutatio"><lb n="2"/>ḫutimet ʿavāḳibühū bi-l-ḫayr</ab> 
+                        <ab type="notificatio">tevḳīʿ-i refīʿ-i hümāyūn vāṣıl
+                        olıcaḳ maʿlūm ola ki</ab> 
+                        <ab type="narratio">südde-i seʿādetümde olan ėlçiñüze mektūb gönderüb
+                        ėlçiñüz mürd olmaġla ẕikr olunan mektūbuñuz dergāh-i muʿallāma getürilüb
+                        <lb n="3"/>tercüme ėtdürildükde Tātālu ve Pāpālu nām begleriñüz
+                        <rs type="person" ref="#mpr14183">Ḥamza beg</rs>
+                        üñ ḳarındaşı oġlı ile baʿż-i ġāzīlerüñ yolın baṣub baʿżın pāreleyüb ve baʿżın ele getürüb                          
+                        fesād eylemişler emn u emān ve barışıḳlıġa 
+                        <lb n="4"/>muḫālif ol-vech-ile fesād ėdenler ele getürilüb ḥaḳḳlarından gelinmek muḳarrerdür
+                        ammā ol cānibde olan ġāzīlerümüz içün ʿahd ü emānı riʿāyet ėtmeyüb
+                        reʿāyāmuzı ġāret ėtmekden
+                        <lb n="5"/>ḫālī olmaduḳlarından ġayrı yeñiden 
+                        <rs type="place" ref="#mpr14081">Semedre</rs>
+                        nām ḳalʿenüñ eṭrāfından nice köyler ġāret u ḫasāret olunub bu barışıḳlıḳ içinde alınan İmre Beg
+                        ve <rs type="person" ref="#mpr14182">Foġrāc</rs> ve sāyir                             
+                        <lb n="6"/>bile alınan ḫıristiyānları iṭlāḳ ėderler ise bu cānibden alınan esīrler daḫı
+                        iṭlāḳ olunur dėyü iʿlām eylemişsiz andan māʿadā daḫı her ne dėnilmiş ise 
+                        <lb n="7"/>pāye-i serīr-i ʿālem-maṣīr-i ḫusrevānemüze ʿarż olunub ʿilm-i şerīf-i ʿālem-şümūl-i pādişāhānemüz
+                        muḥīṭ ü şāmil olmışdur bu bābda 
+                        <rs type="place" ref="#mpr7448">Budūn</rs>
+                        beglerbegisine mü’ekked ḥükm-i şerīfüm yazılub 
+                        <lb n="8"/>ẕikr olunan esīrler eger bu barışıḳlıḳ içinde alınmış ise eger  
+                        <rs type="place" ref="#mpr14065">Fīlek</rs> ve
+                        <rs type="place" ref="#mpr14089">Novīġrād</rs> beglerindedür
+                        eger ġayrıdadur buldurub iṭlāḳ eyleyüb ol cānibden daḫı 
+                        <lb n="9"/><rs type="person" ref="#mpr14183">Ḥamza beg</rs>üñ 
+                        ḳarındaşı oġlı ve sāyir esīrler iṭlāḳ olunub min baʿd serḥadde olan 
+                        beglere ve sāyir ʿasākire ʿahdnāme-i hümāyūna muḫalif iş ėtdürmeyesiz                                                      
+                        <lb n="10"/>şöyle-ki ol cānibden ʿahda muḫālif bir vażʿ ṣādır olmadın
+                        berü cānibden mugāyir-i ʿahd-i hümāyūn bir ḥālet ẓuhūr eyleye her kim
+                        olursa olsun ʿazl ile ḳonulmayub
+                        <lb n="11"/>muʿāteb olmaḳ muḳarrerdür dėyü geregi gibi tenbīh ü te’kīd
+                        olunmışdur gerekdür ki siz daḫı şerāyiṭ-i ṣulḥ u ṣalāḥı oñat vech-ile
+                        riʿāyet ėdüb beglerüñüzden
+                        <lb n="12"/>ve ġayrı askerüñüzden bir ferde ʿahda muḫālif vażʿ 
+                        ėtdürmeyesiz ve muḳaddemā irsāl olunan defter-i cedīd-i                           
+                        ḫāḳānīde muḳayyed olan ḳaryelere bir ferdi daḫl ü taʿarruż ėtdürmeyesiz
+                        <lb n="13"/>ve müşārün ileyh Budūn beglerbegisi dāme iḳbālühū
+                        <rs type="person" ref="#mpr14183">Ḥamza beg</rs>
+                        üñ ḳarındaşı oġlın ve sāyir alınan esīrleri ṭaleb ėtdükde emīn ü sālim teslīm olunub                            
+                        <lb n="14"/>müşārün ileyh daḫı bu barışıḳlıḳ içinde ol ṭarafdan alınan eger
+                         <rs type="person" ref="#mpr14182">İmre Begi</rs> eger
+                        Foġrāc ve ġayrıdur buldurub iṭlāḳ ėdüb ʿahda muḫālif min baʿd ṭarafeynden                                                         
+                        <lb n="15"/>bir vażʿ ṣādır olmayub reʿāyā vü berāyā daḫı āsūde-ḥāl olub kār u kesblerinde
+                        olalar ammā mezbūrān <rs type="person" ref="#mpr14182">İmre Begi</rs>
+                        ve Forġāc bizüm memālik-i maḥrūsemüz 
+                        <lb n="16"/>dāḫilinde ġāret ḳaṣdına gelüb ṭutulmış ise ʿahdnāme-i hümāyūnumuz muḳteżāsınca
+                        ḥaḳḳlarından gelinmek lāzımdur eger vilāyetüñüzde ṭutulmış ise bu barışıḳlıḳ içinde alınanları emr-i şerīfüm üzre 
+                        <lb n="17"/>müşārün ileyh <rs type="place" ref="#mpr7448">Budūn</rs>
+                        beglerbegisi dāme iḳbālühū emīn ü sālim irsāl ėdüb ve ʿahda muḫālif bu maḳūle iş ėdenlerüñ daḫı
+                        geregi gibi ḥaḳḳlarından gelür</ab> <ab type="datatio"><date calendar="#hijri" notBefore="1569-12-01" notAfter="1569-12-09">
+                            taḥrīren fī evāḫiri Cemāẕīye l-āḫire senete sebʿ ve-sebʿīn ve- tisʿa mi’e</date></ab>
+                    
+                    
+                    <ab type="locus">be-yurt <rs type="place" ref="#mpr14094">Ī necik</rs></ab>
+                
+                
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.9" n="9"/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <note resp="#yy" place="footnote" n="2">
+                        Siehe Fußnote 1.</note> 
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs>  Şāh, Sohn <rs type="person" ref="#mpr11015">Süleymāns</rs>
+                       </ab>
+                    
+                    <ab type="inscriptio">Ruhmvoller der mächtigen christlichen Fürsten,
+                       Erwählter der geehrten Großen in der christlichen Glaubensgemeinschaft,
+                       Ordner der Angelegenheiten der christlichen Staaten, Träger der Schleppe
+                       von Ruhm und Würde, Inhaber der Zeichen der Majestät und der Ehre,
+                       Kaiser des Landes <rs type="place" ref="#mpr13416">Wien</rs>, 
+                        König <rs type="person" ref="#mpr14157">Maximilian</rs></ab>
+                    <ab type="salutatio">sein Leben möge im Guten enden.</ab>
+                    <ab type="notificatio">Sobald das erhabene großherrliche Schreiben
+                            einlangt, möge bekannt werden:</ab>
+                    <ab type="narratio">An Euren Gesandten, der sich an meiner glückhaften
+                            Schwelle befindet habt Ihr einen Brief geschickt. Als Euer Gesandter
+                            verstorben ist wurde Euer genannter Brief an unsere hohe Pforte gebracht
+                            und übersetzt. Eure Fürsten namens Tātālu und Pāpālu haben den Neffen
+                            von <rs type="person" ref="#mpr14183">Ḥamza Beg</rs> 
+                        und einige Glaubenskämpfer überfallen, einige totgeschlagen und einige von ihnen gefangen
+                        genommen und Unruhe gestiftet. Es steht fest,
+                            dass jene, die auf diese Weise gegen Frieden und Sicherheit und den Waffenstillstand
+                            Unruhe stiften gefangen und bestraft werden.
+                    Ihr habt aber über unsere Glaubenskämpfer, die
+                            sich auf jener Seite befinden <supplied resp="ht">folgendes</supplied> bekanntgegeben:
+                        „Sie halten
+                            den Vertrag und Waffenstillstand nicht ein und hören nicht auf unsere
+                            Untertanen auszuplündern. Außerdem wurden in der Umgebung der Festung
+                            namens <rs type="place" ref="#mpr14081">Szendrő</rs> 
+                        erneut viele Dörfer geplündert und beschädigt. Wenn sie <rs type="person" ref="#mpr14182">İmre Begi</rs>
+                        Forġāc und andere Christen, die
+                            zusammen mit ihnen in dieser Freundschaft(szeit) gefangen genommen
+                            wurden freilassen, werden auch die Gefangenen, die von dieser Seite gefangen wurden
+                            freigelassen.”
+                    Was außerdem noch gesagt wurde, ist dem Fuße
+                            unseres ḫosrowischen Thrones, wo die Welt ihre Zuflucht findet dargelegt
+                            und von unserem erhabenen, die Welt umfassenden sultanischen Wissen
+                            aufgenommen worden.
+                    In dieser Angelegenheit wurde dem Beglerbegi von <rs type="place" ref="#mpr7448">
+                        Buda</rs> mein eindringlicher erhabener Befehl geschrieben.
+                            <supplied resp="ht">Er soll sie,</supplied> wenn die genannten Gefangenen in dieser 
+                        Friedenszeit gefangen genommen wurden, ob sie bei 
+                        den Begen von <rs type="place" ref="#mpr14065">Fülek</rs> 
+                        und <rs type="place" ref="#mpr14089">Nógrád</rs>  
+                        sind oder bei einem Anderen sind, finden lassen und freilassen. Von jener Seite sollen
+                        auch der Neffe des <rs type="person" ref="#mpr14183">Ḥamza Beg</rs> und andere Gefangene freigelassen werden. 
+                                Von nun an sollt Ihr die Bege an der Grenze und andere Soldaten nicht gegen das
+                                großherrliche Vertragsschreiben handeln lassen, sodass, solange von jener Seite
+                                nichts dem Vertrag Zuwiderlaufendes erfolgt, soll von unserer Seite gegen den 
+                                großherrlichen Vertrag kein Zustand auftreten. Es wurde entsprechend mit Nachdruck
+                                mitgeteilt, dass feststeht, dass, wer immer es sei, nicht nur abgesetzt, sondern
+                                auch getadelt wird.
+                       
+                    Es ist notwendig, dass auch ihr die Bedingungen
+                            der Ordnung und des Friedens in gehöriger Weise einhaltet und von Euren
+                            Fürsten und anderen Soldaten niemanden gegen den Vertrag handeln lasst.
+                            Ihr sollt jene Dörfer, die im neuen großherrlichen Registerbuch, das
+                            zuvor geschickt wurde eingetragen sind nicht angreifen oder überfallen
+                            lassen. Wenn der obenerwähnte Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>
+                        währen möge sein Glück, den Neffen von <rs type="person" ref="#mpr14183">
+                                Ḥamza Beg</rs> und andere gefangen genommene zurückfordert, sollen sie sicher und 
+                        wohlbehalten übergeben werden. Auch der Obenerwähnte soll, sei es Imre Begi, Forġāc oder seien
+                        es Andere finden lassen und freilassen. Von nun an soll von beiden Seiten gegen den Vertrag keine
+                        Handlung erfolgen und die Untertanen sollen auch ungestört bleiben und ihren täglichen Geschäften nachgehen.
+                    Aber wenn die erwähnten <rs type="person" ref="#mpr14182">İmre Begi</rs> 
+                        und Forġāc mit der Absicht des Raubzuges in unsere wohlbehüteten Länder gekommen sind und gefangen genommen wurden, 
+                        ist es notwendig sie nach dem Erfordernisse 
+                        unseres großherrlichen Vertragsschreibens zu bestrafen. Wenn sie in Eurem Gebiet gefasst wurden, 
+                        wird der obenerwähnte Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>,
+                            währen möge sein Glück jene, die in dieser Freundschaft(szeit) gefangen wurden 
+                            gemäß meinem edlen Befehl  sicher und wohlbehalten zurückschicken und jene, die in
+                                dieser Weise gegen den Vertrag gehandelt haben entsprechend bestrafen.</ab>
+                         
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1569-12-01" notAfter="1569-12-09"> 
+                        letzten Dekade des Cemāẕīye l-āḫire des Jahres 977</date></ab> 
+                    <ab type="locus">im Feldlager zu <rs type="place" ref="#mpr14094">İnecik</rs></ab>   
+                                                                 
+                </div>
+            </div>
+        </body></text>
+    </TEI>

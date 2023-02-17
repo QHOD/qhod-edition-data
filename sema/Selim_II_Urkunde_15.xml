@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 15</title>
+                
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt><resp>Edition</resp><persName key="#ht"><forename>Halit</forename><surname>Temiz</surname></persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15741116</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türkische Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="764"/>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Ṭuġra gold</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1574-11-16" notAfter="1574-11-25" calendar="#hijri">982 Şaʿbān 1-10</date>
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:sema.rc.osm.15740422">Urkunde 14</ref>
+                </correspContext>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Geschrieben zwischen dem 16. und
+                25.11.1574 in <rs type="place" ref="#mpr14055">Konstantinopel</rs>. Schreiben an <rs type="person" ref="#mpr14157">Maximilian II.,</rs> dass, nachdem der Friede verlängert wurde, es notwendig ist, die trotz der Friedensvereinbarung gefangengenommenen Muslime freizulassen. Außerdem verlangt er die Verhinderung friedenswidriger Handlungen. Leute wie <rs type="person" ref="#mpr14190">Zrīn oġli (der Sohn von Nikolaus Zrínyis, Georg)</rs>
+                            
+                            sind eine ständige Gefahr für den Frieden und sollen aus den Grenzgebieten entfernt werden.</p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Nāme-i hümāyūn</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+           
+            <interpretation>
+                <p>
+                    <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                        von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                        seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                </p>
+                
+            </interpretation>
+             </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 15: Selim II. an Muṣṭafā Paşa, Konstantinopel, zwischen 16. und 25.11.1574, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.15.1.">
+            <graphic url="15_764-stitched.jpg" xml:id="IMG.15.1."/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+            <div type="transkripte">
+                <div n="15"><div type="transcription" xml:lang="ota">
+                    
+                    <pb facs="#IMG.15.1." n="15.1."/>
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    <note place="footnote" n="1">The invocatio element was probably located where 
+                        there now exists a spot of ink at the top of the document.</note>
+                    
+                    
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs>  Şāh bin <rs type="person" ref="#mpr14045">Süleymān</rs>  Şāh Ḫān el-muẓaffer dā’imā</ab>
+                    
+                        <ab type="inscriptio"><lb n="1"/>İftiḫāru l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtāru l-küberā’i
+                        l-fiḫāmi fī l-milleti l-mesīḫīye muṣliḥu masāliḥi cemāhīri ṭ-ṭāyifeti
+                        n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti ve-l-vaḳār ṣaḥibü delāyili l-mecdi
+                        ve-l-iftiḫār vilāyet-i <rs type="place" ref="#mpr13416">Beç</rs>
+                            kırālı <rs type="person" ref="#mpr14157">Maḳsimilyānūş</rs> ḳırāl</ab>
+                        <ab type="salutatio">ḫutimet ʿavāḳibühū bi-l-ḫayr</ab>
+                            <ab type="notificatio">tevḳīʿ-i refīʿ-i hümāyūn
+                            <lb n="2"/>vāṣıl olıcaḳ maʿlūm ola ki</ab> 
+                    
+                    <ab type="narratio">bu sāl-i ferḫunde-fālde yüce
+                            āsitānemüze maʿhūd olan virgüñüz ile elçileriñüz ʿahd olunduġı üzre
+                            teslīm idüb ve şimdiye-degin mābeynde münʿaḳid olan sekiz yıllıḳ ṣulḥ u
+                            ṣalāḥ temām olduḳdan ṣoñra on yıla degin daḫı baʿż-i şurūṭla muḳarrer
+                            <lb n="3"/>olmasın gönderilen nāmeñüzde istidʿā olunduġından māʿadā
+                            elçileriñüz daḫı taḳrīr ü recā eyledükleri ecilden sābıḳā verilen
+                            ʿahdnāme tārīḫi temām olduḳda baʿż-i şurūṭla sekiz yıla degin ke-mā kāne 
+                            ṣulḥ u ṣalāḥa ruḫṣat-i hümāyūnumuz olub ol-bābda āsitān-i
+                            <lb n="4"/> seʿādet-meʿābum tercümānlarından ḳidvetü l-emācid
+                        ve-l-ekārim <rs type="person" ref="#mpr14216">Maḥmūd</rs>
+                        zīde mecdühū ile başḳa nāme-i hümāyūnumuz gönderilmişdür</ab> 
+                    
+                    <ab type="dispositio">gerekdür ki murād olunan ṣulḥ
+                        u ṣalāḥ bināsınuñ istiḥkāmı maḳṣūduñuz ise ol nāme-i hümāyūnumuz mūcibince ʿamel edüb
+                        ve muḳaddemā ḫilāf-i ʿahd u emān esīr olunan 
+                        <rs type="person" ref="#mpr14201">Ḳurd Aġa</rs>yı 
+                        ve <rs type="person" ref="#mpr14195">Süleymān Aġa</rs>yı
+                       
+                        <lb n="5"/>ve yoldaşların ve <rs type="place" ref="#mpr14247">Bosna</rs>
+                        serḥaddında <rs type="place" ref="#mpr14099">Ġrāniçe</rs>
+                        palānḳasından alınan müslimānları ve <rs type="place" ref="#mpr14100">Ṣopotḳa</rs>
+                        ḳurbında alınan <rs type="person" ref="#mpr14210">Ḳurd voyvoda</rs>
+                         yı ve <rs type="person" ref="#mpr14212">Şaʿbān ketḫüdā</rs>
+                        nuñ <rs type="person" ref="#mpr14202">İskender</rs>
+                        ve <rs type="person" ref="#mpr14214">Aḥmed</rs>
+                        nām yoldaşların iṭlāḳ edüb ve sābıḳā iṭlāḳ olunan 
+                        <rs type="person" ref="#mpr14228">İbrāhīm Aġa</rs>nuñ cebren kefāletin refʿ
+                            etdürüb ve <rs type="place" ref="#mpr7448">Budūn</rs>
+                        ḳaṣṣāblarınuñ ḳoyunların redd etdürüb
+                         
+                            <lb n="6"/>ve alınan çobanlarun iṭlāḳ etdürüb ve min baʿd ʿaskeriñüzi
+                            muḥkem żabṭ edüb memālik-i maḥmīyemüz sınurına baṣdurtmayasız ve
+                            ahālī-yi İslāmdan bir ferde żarar etdürmeyesiz ve ẕikr olunan
+                            elçileriñüz icāzet-i hümāyūn-i seʿādet-maḳrūnumuzla ol ṭarafa ʿavdet
+                            etmezden beş altı gün
+                        <lb n="7"/>muḳaddem <rs type="place" ref="#mpr1785">Ṭemeşvār</rs>
+                        beglerbegisi dāme iḳbālühū ile <rs type="place" ref="#mpr14101">Gūla</rs>
+                        begi ʿaskeriñüzden <rs type="place" ref="#mpr14106">Erdöhīk</rs>
+                        nām ḳalʿe altında ele getürdükleri ḳırḳ nefer miḳdārı ehl-i fesādı yüce āsitānemüze
+                        īṣāl eyleyüb mekānları su’āl olunduḳda memālik-i maḥmīyemüz sınurında ʿahd u emāna
+                        muḫālif iḥdās̠ olunan 
+                        <rs type="place" ref="#mpr14107">Ḳālo</rs> nām palānḳadan 
+                        <lb n="8"/>olub beglerinüñ icāzetiyle memālik-i maḥrūsemüze defeʿātle segirdüb
+                        fesād etdüklerin ve ḳalʿe-i mez̠kūre altında beşlü aġası
+                        <rs type="person" ref="#mpr14218">ʿAlī Aġa</rs>yı
+                        on beş nefer kimesne<supplied resp="#ht">y</supplied>i
+                                diri alduḳların taḳrīr edüb ve ġāret u ḫasārete icāzet içün begleri
+                                verdükleri mühürli mektūbların ele getürüb bile gönderüb ve 
+                        <rs type="place" ref="#mpr14101">Gūla
+                                </rs> altında 
+                        <lb n="9"/><rs type="person" ref="#mpr14208">Behrām Aġa</rs>yı
+                        on sekiz müslimān ile
+                        esīr edüb <rs type="person" ref="#mpr14188">Bekeş</rs>
+                        yanında geçen yıl Erduvārlu 
+                        <rs type="place" ref="#mpr7448">Budūn</rs>
+                        yeñiçerilerinden sekiz nefer kimesne<supplied resp="#ht">y</supplied>i alub ve 
+                        <rs type="place" ref="#mpr14109">Ṣārvāş</rs> palānkasına
+                        segirdüb bir aġa ve bir re’īs şehīd edüb ve yigirmi dört müslimān esīr etdüklerin 
+                        ve alduḳları esīrleri <rs type="place" ref="#mpr14107">Ḳālo</rs>
+                        palānkasına iledüb begleriñüze yarayanı 
+                        <lb n="10"/>beglere verüb yaramayanı āḫere ṣatub fesād etdüklerin ve ʿahda muḫālif
+                        daḫı nice vażʿ etdüklerin ḫaber verdiler imdi
+                        ẕikr olunan <rs type="place" ref="#mpr14107">Ḳālo</rs>
+                        palānḳası hedm olunmaḳ ṭarafeyne evlā vü enfaʿ olmaġın yüce āsitānemüzle ṣulḥ u ṣalāḥ
+                            murādıñuz ise bī-tevaḳḳuf ẕikr olunan 
+                        <rs type="place" ref="#mpr14107">Ḳālo</rs> palānḳasın temelinden hedm ü ḳalʿ edüb 
+                            <lb n="11"/>ve ḫilāf-i ʿahd alınan esīrleri ve ẕikr olunan aġalar ve yoldaşları
+                        ve <rs type="place" ref="#mpr14106">Erdöhīk</rs>
+                        altında alınan <rs type="person" ref="#mpr14218">ʿAlī Aġa</rs>
+                        ve on beş nefer yoldaşların ve <rs type="person" ref="#mpr14191">Sinān Beg
+                            voyvodası</rs>yı ve Ḥasan Emīni ve
+                        Erduvārlu aldugı yeñiçerilerinden henūz iṭlāḳ olunmayanların iṭlāḳ edüb ve 
+                        <rs type="place" ref="#mpr7448">Budūn</rs>
+                        ḳaṣṣābları ḳoyunların
+                            <lb n="12"/>ve çobanların verdürüb şerāyiṭ-i ṣulḥ u ṣalāḥ riʿāyetinde
+                            daḳīḳa fevt etmeyesiz bu ẕikr olunanlar iṭlāḳ ve Budūna īṣāl olunduġı
+                            gibi murād olunan <rs type="place" ref="#mpr10875">Kanīje</rs>
+                        esīrlerin ve <rs type="person" ref="#mpr14200">Rāc İstefān</rs>ı ṣalıverüb ol cānibe
+                        teslīm eyleye deyü vezīrüm <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs> edāme llāhü teʿālā
+                        iclālehūya emr-i şerīfümüz gönderilmişdür 
+                        <lb n="13"/>ve serḥadda nizāʿ olunan ḳaryeler daḫı vekīlüñüz ile görilüb faṣl olunmaḳ
+                        ḥuṣūṣı daḫı tenbīh olunmışdur aña göre siz daḫı müşārün ileyh ile ḫaberleşüb ʿahda muḫālif
+                        alınan esīrleri cānibeynden iṭlāḳ edüb ve yarar ādemüñüz gönderüb nizāʿ üzre olan ḳaryelerüñ aḥvālin 
+                        <lb n="14"/>faṣl edüb memālik-i maḥrūsemüz reʿāyāsın ve sāyir ahālisin rencīde etdürmeyüb
+                        ṣulḥ u ṣalāḥuñ riʿāyetinde mücidd ü sāʿī olasız ammā şöyle-ki 
+                        <rs type="place" ref="#mpr14107">Ḳālo</rs> palānḳası 
+                        hedm olunmaya binā-yi ṣulḥa tezelzül gelmesi muḳarrerdür aña göre fikr edüb vilāyet ü memlekete nāfiʿ olanıyla ʿamel 
+                            <lb n="15"/>edesiz ve <rs type="place" ref="#mpr7448">Budūn</rs>
+                        ḳaṣṣāblarınuñ ḳoyunları ḫuṣūṣında
+                            bundan aḳdem nāme-i hümāyūnumuz gönderilüb ṭaleb olunduḳda ḳoyunların ve
+                            çobanların getürüb ṣatmışlardur deyü cevāb verilmiş çobanlarınuñ ḫod
+                            eks̠eri ḳatl olunub bir ḳaç neferi ḳoyunlarıyla bile alınmışdur
+                            ḳoyunların
+                        <lb n="16"/>çobanları getürdi dėyenler ḫilāf-i vāḳiʿ demişlerdür mābeynde münʿaḳid olan ṣulḥ u ṣalāḥ
+                                mūcibince ḳoyunların redd etdürüb ol maḳūle fesād ve ṣulḥa mugāyir vażʿ
+                                edenlerün geregi gibi ḥaḳḳlarından geldürmekde iḳdāmuñuz ẓuhūra
+                                getüresiz ve <rs type="person" ref="#mpr14190">Zrīn</rs>oġlı
+                        babası intiḳamın 
+                            <lb n="17"/>almaḳ ḳaṣdıyla <rs type="place" ref="#mpr10875">Kanīje</rs>
+                        ye ṭālib olub anda ġroflık
+                            verilmiş geldükde merḥūm babam Ḫudāvendigār ṭābe s̠erāhū ḳuvve-i ḳāhire
+                            ile fetḥ eyledügi ḳalʿe-i 
+                        <rs type="place" ref="#mpr14103">Sigetvār</rs>uñ eṭrāfında olan
+                                ḳaryelerüñ ve andan berüde olub ḳadīmden vergülerin veren ḳaryelerüñ
+                                bīrolarına mektūb gönderüb
+                                <lb n="18"/>babam żabṭ etdügi köyleri Tūnaya varınca ḳırāl baña
+                                vermişdür vergüñüzi gönderesiz deyü bildürmiş bu-defʿa ele getürilen
+                                ehl-i fesāduñ ellerinde ʿaynı ile bulunub size gönderildi meẕkūruñ anda gelmekden murādı ne idügi 
+                        <lb n="19"/>maʿlūmdur ümīẕdür ki babasınuñ gibi gendünüñ daḫı başı kesilüb size gönderile ammā ol
+                        maḳūle melʿūnı anda göndermek size düşmezdi ki südde-i seʿādetümüzden ṣulḥ u ṣalāḥ murād edinürsiz
+                        hem ol aṣl melʿūnı anda gönderürsiz şerāyiṭ-i ṣulḥı nice riʿāyet 
+                        <lb n="20"/>edecegi maʿlūmdur ṣulḥdan ṣafāñuz var-ise serḥadd ve ʿırżuñuzı ṣiyānet eder ve 
+                        Allāhdan ḳorḳar bir ādemüñüze ıṣmarlayasız şöyle-ki ol bedbaḫt bir-daḫı ol-vech-ile edebsizlik
+                        eyleye ḥaḳḳından gelmeyesiz in şā’allāhü teʿālā anuñ daḫı ḥaḳḳından 
+                        <lb n="21"/>gelinür ṣoñra bī-ḥuẓūr olmayasız ve serḥaddlarda olan ġāzīler dāyimā memleket
+                        ü vilāyetümüze segirdüb reʿāyāyı esīr ederler deyü sābiḳā iʿlām etmişdiñüz vāḳıʿā varurlar
+                        ammā reʿā<supplied resp="#ht">yā</supplied>yı esīr etmezler ancaḳ sipāhīlerüñ ve ḥavāṣṣ-i hümāyūn reʿāyāsı 
+                        <lb n="22"/>begleriñüz ve ḳapudanlarıñuzun iżlāliyle vergülerin vermeyüb ve gelüb iṭāʿat 
+                        etmedükleri ecilden varub ḥaḳḳların ṭaleb edüb verdüklerinden ṣoñra gerü ṣalıverürler esīr
+                        etmeyüb ve köyleri daḫı iḥrāḳ etmezler ammā begleriñüz ve ādemleriñüz 
+                        <lb n="23"/>ḳuvve-i ḳāhire-i ḫusrevānemle fetḥ olub ġuzāt-i İslāma ve ḫavāṣṣ-i hümāyūna
+                        taʿayyün olunan köyleri bu cānibe iṭāʿat etdügiyçün iḥrāḳ edüb ve reʿāyāsın ḥabs ederler 
+                        Zrīn oġlınuñ oġlı olan bed-baḫt Sigetvār eṭrāfında bu cānibe vergü veren iki pāre ḳaryeleri 
+                        <lb n="24"/>iḥrāḳ bi-n-nār etmişdür sizüñ begleriñüz ve serḥaddiñüz żābıṭları defter-i cedīd-i
+                        ḫāḳānīde muḳayyed olub bu cānibe ve vergü veren reʿāyāyı iżlāl etmeyüb vergülerine māniʿ
+                        olmasunlar biz ġazīlerimüzi żabṭ edüb min baʿd reʿāyāyı 
+                        <lb n="25"/>iṭāʿat ederken serḥaddıñuza segirdenlerüñ ḥaḳḳlarından gelinmek muḳarrerdür</ab>
+                        
+                    <ab type="datatio"><date calendar="#hijri" notBefore="1574-11-16" notAfter="1574-11-25"> taḥrīren fī evāyili
+                            şehri Şaʿbāni l-muʿażżam senete is̠nā ve-s̠emānīn ve tisʿa mi’e</date></ab> 
+                    <ab type="locus">bi-maḳāmi
+                    dāri s-salṭaneti l-ʿalīye
+                    <rs type="place" ref="#mpr14055">Ḳosṭanṭinīye</rs>
+                    el-maḥmīye</ab>
+                    <pb facs="#IMG.15.1.a" n="15.1.a"/>
+                    
+                    <p>Rückseite: <rs type="place" ref="#mpr13416">Beç</rs>
+                        ḳırālına</p>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.15.1." n="15.1."/>
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <note place="footnote" n="1">The invocatio element was probably located where 
+                        there now exists a spot of ink at the top of the document.</note>
+                    
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs>
+                        Şāh, Sohn <rs type="person" ref="#mpr14045">Süleymāns</rs> Şāh Ḫān, immer siegreich</ab>
+                    <ab type="inscriptio">Ruhmvoller der mächtigen christlichen Fürsten,
+                        Erwählter der geehrten Großen in der christlichen Glaubensgemeinschaft,
+                        Ordner der Angelegenheiten der christlichen Staaten, Träger der Schleppe
+                        von Ruhm und Würde, Inhaber der Zeichen der Majestät und der Ehre, König
+                        des Landes <rs type="place" ref="#mpr13416">Wien</rs>,
+                    König <rs type="person" ref="#mpr14157">Maximilian</rs>,
+</ab>                    <ab type="salutatio">sein Leben möge im Guten enden.</ab>
+                    <ab type="notificatio">Sobald das erhabene großherrliche Schreiben
+                        einlangt, möge bekannt werden:</ab>
+                    
+                    <ab type="narratio">Eure Gesandte haben in diesem glückhaft bestimmten
+                        Jahr an unsere Hohe Pforte Eure, vertragsmäßig festgesetzte Steuer wie
+                        vereinbart übergeben.
+                    Außer, dass in Eurem geschickten Schreiben erbeten
+                        wurde, dass nach Auslaufen des zwischen <supplied resp="#ht">uns</supplied> bestehenden Friedens und
+                        Waffenstillstandes unter einigen Bedingungen <supplied resp="#ht">ein Frieden</supplied> auf zehn
+                        Jahre beschlossen werden soll, auch Eure Gesandte vorgebracht und
+                        gebeten haben, wurde unsere großherrliche Erlaubnis auf einen Frieden
+                        und Waffenstillstand unter einigen Bedingungen auf acht Jahre wie vordem
+                        gegeben, sobald das zuvor gewährte Vertrags<supplied resp="#ht">schreiben</supplied>
+                        ausläuft.
+                    In dieser Sache wurde mit dem Dolmetscher meiner
+                        glücklichen Schwelle, dem Vorbild der Edlen und Großwürdenträger, <rs type="person" ref="#mpr14216">
+                        Maḥmūd</rs>, sein Ruhm möge sich mehren, ein anderes
+                        großherrliches Schreiben <supplied resp="#ht">von uns</supplied> abgeschickt.</ab>
+
+                    <ab type="dispositio">Wenn es Euer Absicht ist den gewünschten Frieden
+                        und Waffenstillstand zu festigen, ist es notwendig, dass gemäß jenem
+                        <supplied resp="#ht">unseren</supplied> großherrlichen Schreiben gehandelt wird und <rs type="person" ref="#mpr14201">Ḳurd Aġa</rs>
+                        , <rs type="person" ref="#mpr14195">Süleymān</rs> Aġa und seine Gefährten, die zuvor vertragswidrig zu Gefangene gemacht wurden; die gefangen genommenen Muslime aus der Palanke <rs type="place" ref="#mpr14099">Granitza</rs>  an der bosnischen Grenze,
+                        <rs type="person" ref="#mpr14210">Ḳurd Woiwoda</rs> sowie die Gefährten des <rs type="person" ref="#mpr14212">Şaʿban Ketḫüdā</rs> namens
+                        <rs type="person" ref="#mpr14202">İskender</rs> Gefangener aus <rs type="place" ref="#mpr14100">Szabadka</rs> und <rs type="person" ref="#mpr14214">Aḥmed</rs>, die in der Nähe von <rs type="place" ref="#mpr14100">Szabadka</rs> gefangen genommen wurden freigelassen werden; die erzwungene Kaution des vordem freigelassenen İbrāhīm Aġa aufheben zu lassen, die Schafe der Fleischer aus <rs type="place" ref="#mpr7448">Buda</rs> zurückstellen zu lassen und die Freilassung der gefangenen Hirte veranlassen. 
+                        Und von nun an sollt ihr Eure Soldaten gehörig zurückhalten und die Grenzen unserer wohlbehüteten Länder nicht betreten und niemandem der Leute der muslimischen Bewohner Schaden zufügen lassen.
+                    Fünf bis sechs Tage bevor Eure genannten
+                        Botschafter mit meiner Glück verbundenen, großherrlichen Erlaubnis auf
+                        Euer Gebiet zurückkehrten, haben der Beglerbegi von <rs type="place" ref="#mpr1785">Ṭemesvár</rs>
+                        , sein Glück möge währen und der Beg von <rs type="place" ref="#mpr14101">Gyula</rs> 40 Missetäter von Euren Soldaten, die sie unter der Festung namens <rs type="place" ref="#mpr14106">Erdőhegy</rs> in die Hände bekommen haben an unsere erhabene Pforte geschickt.
+                        Als nach ihrem Ort gefragt wurde, haben sie berichtet, dass sie aus der Palanke namens <rs type="place" ref="#mpr14107">Nagykállo</rs>, die an der Grenze unserer wohlbehüteten
+                        Länder vertragswidrig von neuem erbaut wurde kommen <supplied resp="#ht">sind</supplied> und mit der
+                        Erlaubnis ihres Begen mehrmals in unsere beschützten Länder eingefallen
+                        sind und Aufruhr gestiftet haben. Sie haben <supplied resp="#ht">noch</supplied> berichtet, dass sie
+                        unter der genannten Festung den Beşlü <rs type="person" ref="#mpr14218">ʿAlī Aġa</rs> und 15 Personen lebendig weggeführt haben.Das gesiegelte Schreiben ihres Fürsten für die Erlaubnis zur Plünderung und                           ʿ                                                
+                        Beschädigung haben sie in die Hände bekommen und mitgeschickt. Sie haben
+                        vermeldet, dass sie bei (bzw. unter) <rs type="place" ref="#mpr14101">Gyula</rs> <rs type="person" ref="#mpr14208">Behrām Aġa</rs> mit 18 Muslimen gefangen genommen haben; im vergangenen Jahr bei (bzw. unter) <rs type="person" ref="#mpr14188">Békés</rs> acht Janitscharen von <rs type="place" ref="#mpr7448">Buda</rs> gefangen haben; in die Palanke <rs type="place" ref="#mpr14109">Szarvas</rs> eingefallen sind und einen Aġa und einen Re’īs getötet haben;
+                        24 Muslime gefangen genommen und diese Gefangene in die Palanke namens <rs type="place" ref="#mpr14107">Nagykálló</rs> abgeführt und jene, die für Eure Bege brauchbar sind den Begen übergeben und die Unbrauchbaren an andere verkauft und Aufruhr betrieben haben; und, dass sie noch viele vertragswidrige Handlungen unternommen haben.
+                    Da nun die Schleifung der Palanke <rs type="place" ref="#mpr14107">Nagykálló</rs> für beide Seiten besser und nützlicher ist, sollt Ihr, wenn Ihr mit unserer hohen Schwelle einen Vertrag und Waffenstillstand begehrt die genannte Palanke <rs type="place" ref="#mpr14107">Nagykálló</rs> samt dem Fundament abbrechen und niederreißen und vertragswidrig Gefangengenommene, 
+                        die genannten Aġas und ihre Gefährten, <rs type="person" ref="#mpr14218">ʿAlī Aġā</rs> und seine 15 Gefährten, die bei (bzw. unter) <rs type="place" ref="#mpr14106">Erdőhegy</rs> gefangen genommen wurden, den Woiwoden Sinān, den Emīn Ḥasan und jene Janitscharen von <rs type="place" ref="#mpr7448">Buda</rs>, die durch <supplied resp="#ht">Truppen aus</supplied> Erduvār
+                        gefangen genommen, <supplied resp="#ht">jedoch</supplied> noch nicht freigelassen wurden freilassen.
+                        Die Schafe der Fleischer von <rs type="place" ref="#mpr7448">Buda</rs> und ihre Hirte <supplied resp="#ht">sollt Ihr</supplied> zurückstellen und bei der Einhaltung der Bedingungen des Friedens und der Eintracht keine Minute verlieren. Meinem Wesir <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>, Allāh lasse seine Macht währen, wurde
+                        unser erhabener Befehl geschickt, dass er, sobald die Genannten
+                        freigelassen und nach <rs type="place" ref="#mpr7448">Buda</rs> geschickt werden, die erwünschten Gefangene von <rs type="place" ref="#mpr10875">Kanizsa</rs> und <rs type="person" ref="#mpr14200">Racz Stephan</rs>
+                        freilassen und Euch übergeben soll. Und ihm wurde
+                        befohlen, dass die Angelegenheit der strittigen Dörfer an der Grenze mit
+                        Eurem Vertreter untersucht und geschlichtet wird.
+                    Ihr sollt Euch demgemäß mit dem Obenerwähnten in
+                        Verbindung setzen, vertragswidrig Gefangengenommene von beiden Seiten
+                        freilassen, Euren geeigneten Mann schicken und die Situation der
+                        strittigen Dörfer schlichten; die Untertanen und die übrigen Bewohner
+                        unserer wohlbehüteten Länder nicht verletzen lassen und Euch bei der
+                        Einhaltung des Friedens und der Eintracht bemühen und
+                        anstrengen.
+                    Aber, wenn die Palanke <rs type="place" ref="#mpr14107">Nagykálló</rs> nicht zerstört (bzw. niedergerissen) wird, ist sicher, dass der Friede erschüttert wird. Ihr sollt dies dementsprechend bedenken und nach Nützlichem für das Gebiet und Land handeln.
+                    Und als zuvor unser großherrliches Schreiben
+                        bezüglich der Schafe der Fleischer von <rs type="place" ref="#mpr7448">Buda</rs> entsandt wurde und <supplied resp="#ht">diese</supplied> zurückgefordert wurden, war als Antwort gegeben worden: „Man hat ihre Schafe und Hirten verkauft.“ Die meisten Hirten wurden getötet und ein paar Soldaten samt ihren Schafen weggeführt. 
+                        Jene, die sagten: „Die Hirten haben ihre Schafe <supplied resp="#ht">dahin</supplied> getrieben“ haben falsch ausgesagt (bzw. der Billigkeit zuwider geredet.).
+                    Gemäß dem zwischen <supplied resp="#ht">uns</supplied> abgeschlossenen Frieden
+                        und Waffenstillstand sollt Ihr ihre Schafe zurückstellen lassen und bei
+                        der entsprechenden Bestrafung jener, die Aufruhr stiften und gegen den
+                        Frieden handeln Eure Beharrlichkeit erweisen.
+                    Zrīnyis Sohn beanspruchte Ḳanīje mit der Absicht,
+                        seinen Vater zu rächen. Dort wurde ihm die Grafschaft verliehen. Als er
+                        hinkam, schickte er an die Richter der Dörfer in der Umgebung der
+                        Festung <rs type="place" ref="#mpr14103">Sigetvár,</rs> die mein verstorbener Vater, der Ḫudāvendigār (bzw.
+                        Herrscher), angenehm sei seine Erde mit der siegreichen Macht erobert
+                        hat und der Dörfer, die sich diesseits der <supplied resp="#ht">Festung</supplied> befinden und seit
+                        Alters her ihre Steuern entrichten Schreiben und teilte <supplied resp="#ht">folgendes</supplied> mit:
+                        „Die Dörfer, die mein Vater bis an die Donau unter seiner Gewalt hatte,
+                        hat der König mir gegeben. Schickt Eure Steuern <supplied resp="#ht">an mich</supplied>.“
+                    Genau dasselbe <supplied resp="#ht">Schreiben</supplied> befand sich in den Händen der Missetäter, die ergriffen wurden und wurde Euch zugeschickt. Die Absicht des Erwähnten, weshalb er dorthin kam, ist bekannt. Es wird erhofft, dass auch sein Kopf, wie des seines Vaters abgeschlagen und an Euch gesendet wird. Aber es steht Euch nicht zu, einen solchen Verfluchten dorthin zu schicken, denn Ihr wünscht mit uns Friede und Eintracht, schickt aber einen solchen Verfluchten dorthin.  
+                    Es ist <supplied resp="#ht">doch</supplied> bekannt, wie er die Bedingungen des
+                        Friedens einhalten wird. Wenn Ihr Freude am Frieden habt (bzw. zufrieden
+                        seid), bestellt einen Eurer gottesfürchtigen Männer, der Eure Grenze und
+                        Ehre schützt. Sodass, wenn sich der Unglückliche noch einmal auf diese
+                        Weise ungehörig verhält und Ihr ihn nicht bestraft, wird er, so Gott der
+                        Erhabene (bzw. Majestät Gottes) es will <supplied resp="#ht">von uns</supplied> bestraft werden.
+                        Nicht, dass Ihr dann beunruhigt (bzw. misslaunig) seid. Und Ihr hattet
+                        zuvor <supplied resp="#ht">folgendes</supplied> bekanntgegeben: „Die Glaubenskämpfer an den Grenzen
+                        fallen ständig in unser Land und Gebiet ein und nehmen die Untertanen
+                        gefangen.“
+                    Es ist wahr, dass sie hinziehen, aber sie nehmen keine Untertanen gefangen. 
+                        Da aber die Untertanen der großherrlichen Staatsdomäne durch die Irreleitung Eurer Herren und Kapudane (bzw. Kommandanten) ihre Steuern an die Sipāhī nicht zahlen und nicht gehorchen, gehen sie hin und fordern ihre Rechte (bzw. Kontribution, ihren Tribut) ein. Nachdem sie <supplied resp="#ht">diese</supplied> gegeben haben, lassen sie <supplied resp="#ht">die Untertanen</supplied> wieder frei. Sie nehmen sie nicht gefangen und brennen auch keine Dörfer nieder. 
+                    Aber Eure Bege und Männer stecken die Dörfer in
+                        Brand, die mit meiner überwältigenden Kraft erobert und den muslimischen
+                        Glaubenskämpfern und meinen großherrlichen Staatsdomänen zugewiesen
+                        worden sind, weil sie uns (bzw. unserer Seite) gehorchen und kerkern
+                        deren Untertanen ein.
+                    Eure Bege und Grenzkommandanten sollen die
+                        Untertanen, die im neuen defter-i ḫāḳānī eingetragen sind und an diese
+                        Seite (bzw. uns) Steuer zahlen nicht irreleiten (bzw. irreführen) und
+                        sie von der Steuer(zahlung) nicht abhalten.
+                    
+                    Wir halten unsere Glaubenskämpfer im Zaum und es
+                        ist von nun an beschlossen, dass während die Untertanen Gehorsam leisten
+                        jene, die Eure Grenze berennen bestraft werden.</ab>
+                    
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1574-11-16" notAfter="1574-11-25"> ersten Dekade des Monats
+                        Şaʿbān, des Geehrten des Jahres 982.</date></ab>
+                    <ab type="locus">In der Residenz, im hohen Haus des Sultanats, im
+                        wohlbehüteten <rs type="place" ref="#mpr14055">Konstantinopel</rs>.</ab>
+                    <pb facs="#IMG.15.1.a" n="15.1.a"/>
+                    
+                    <p>Rückseite: An den König von <rs type="place" ref="#mpr13416">Wien</rs>.</p>
+                </div>
+                </div>
+            </div>
+        </body></text>
+    </TEI>

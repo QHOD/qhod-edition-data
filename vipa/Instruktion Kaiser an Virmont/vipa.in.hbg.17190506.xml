@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Instruktion Karls VI. an Damian Hugo Graf von Virmont, [Wien],
+                    6. Mai 1719</title>
+                <title xml:lang="en">Instruction from Charles VI to Damian Hugo Count of Virmont,
+                    [Vienna], May 6, 1719</title>
+                <author><persName>Karl VI</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences,
+                        Institute for Habsburg and Balkan Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.in.hbg.17190506</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="http://gams.uni-graz.at/qhod">Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-1, fol. 11r-38v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-05-06"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Instruktion Karls VI. an Damian Hugo Graf von Virmont, [Wien], 6. Mai 1719,
+                    bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Jakob Sonnberger,
+                    Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim
+                    Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition
+                    von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno
+                    Strohmeyer), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.in" type="context"> Instruktion </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918 </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <list>
+                    <item>instruction</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="Instruktion_11r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="Instruktion_11v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="Instruktion_12r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="Instruktion_12v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="Instruktion_13r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="Instruktion_13v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="Instruktion_14r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="Instruktion_14v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="Instruktion_15r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="Instruktion_15v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="Instruktion_16r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="Instruktion_16v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="Instruktion_17r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="Instruktion_17v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="Instruktion_18r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="Instruktion_18v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="Instruktion_19r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="Instruktion_19v.jpg" xml:id="IMG18"/>
+        </surface>
+        <surface start="#IMG19">
+            <graphic url="Instruktion_20r.jpg" xml:id="IMG19"/>
+        </surface>
+        <surface start="#IMG20">
+            <graphic url="Instruktion_20v.jpg" xml:id="IMG20"/>
+        </surface>
+        <surface start="#IMG21">
+            <graphic url="Instruktion_21r.jpg" xml:id="IMG21"/>
+        </surface>
+        <surface start="#IMG22">
+            <graphic url="Instruktion_21v.jpg" xml:id="IMG22"/>
+        </surface>
+        <surface start="#IMG23">
+            <graphic url="Instruktion_22r.jpg" xml:id="IMG23"/>
+        </surface>
+        <surface start="#IMG24">
+            <graphic url="Instruktion_22v.jpg" xml:id="IMG24"/>
+        </surface>
+        <surface start="#IMG25">
+            <graphic url="Instruktion_23r.jpg" xml:id="IMG25"/>
+        </surface>
+        <surface start="#IMG26">
+            <graphic url="Instruktion_23v.jpg" xml:id="IMG26"/>
+        </surface>
+        <surface start="#IMG27">
+            <graphic url="Instruktion_24r.jpg" xml:id="IMG27"/>
+        </surface>
+        <surface start="#IMG28">
+            <graphic url="Instruktion_24v.jpg" xml:id="IMG28"/>
+        </surface>
+        <surface start="#IMG29">
+            <graphic url="Instruktion_25r.jpg" xml:id="IMG29"/>
+        </surface>
+        <surface start="#IMG30">
+            <graphic url="Instruktion_25v.jpg" xml:id="IMG30"/>
+        </surface>
+        <surface start="#IMG31">
+            <graphic url="Instruktion_26r.jpg" xml:id="IMG31"/>
+        </surface>
+        <surface start="#IMG32">
+            <graphic url="Instruktion_26v.jpg" xml:id="IMG32"/>
+        </surface>
+        <surface start="#IMG33">
+            <graphic url="Instruktion_27r.jpg" xml:id="IMG33"/>
+        </surface>
+        <surface start="#IMG34">
+            <graphic url="Instruktion_27v.jpg" xml:id="IMG34"/>
+        </surface>
+        <surface start="#IMG35">
+            <graphic url="Instruktion_28r.jpg" xml:id="IMG35"/>
+        </surface>
+        <surface start="#IMG36">
+            <graphic url="Instruktion_28v.jpg" xml:id="IMG36"/>
+        </surface>
+        <surface start="#IMG37">
+            <graphic url="Instruktion_29r.jpg" xml:id="IMG37"/>
+        </surface>
+        <surface start="#IMG38">
+            <graphic url="Instruktion_29v.jpg" xml:id="IMG38"/>
+        </surface>
+        <surface start="#IMG39">
+            <graphic url="Instruktion_30r.jpg" xml:id="IMG39"/>
+        </surface>
+        <surface start="#IMG40">
+            <graphic url="Instruktion_30v.jpg" xml:id="IMG40"/>
+        </surface>
+        <surface start="#IMG41">
+            <graphic url="Instruktion_31r.jpg" xml:id="IMG41"/>
+        </surface>
+        <surface start="#IMG42">
+            <graphic url="Instruktion_31v.jpg" xml:id="IMG42"/>
+        </surface>
+        <surface start="#IMG43">
+            <graphic url="Instruktion_32r.jpg" xml:id="IMG43"/>
+        </surface>
+        <surface start="#IMG44">
+            <graphic url="Instruktion_32v.jpg" xml:id="IMG44"/>
+        </surface>
+        <surface start="#IMG45">
+            <graphic url="Instruktion_33r.jpg" xml:id="IMG45"/>
+        </surface>
+        <surface start="#IMG46">
+            <graphic url="Instruktion_33v.jpg" xml:id="IMG46"/>
+        </surface>
+        <surface start="#IMG47">
+            <graphic url="Instruktion_34r.jpg" xml:id="IMG47"/>
+        </surface>
+        <surface start="#IMG48">
+            <graphic url="Instruktion_34v.jpg" xml:id="IMG48"/>
+        </surface>
+        <surface start="#IMG49">
+            <graphic url="Instruktion_35r.jpg" xml:id="IMG49"/>
+        </surface>
+        <surface start="#IMG50">
+            <graphic url="Instruktion_35v.jpg" xml:id="IMG50"/>
+        </surface>
+        <surface start="#IMG51">
+            <graphic url="Instruktion_36r.jpg" xml:id="IMG51"/>
+        </surface>
+        <surface start="#IMG52">
+            <graphic url="Instruktion_36v.jpg" xml:id="IMG52"/>
+        </surface>
+        <surface start="#IMG53">
+            <graphic url="Instruktion_37r.jpg" xml:id="IMG53"/>
+        </surface>
+        <surface start="#IMG54">
+            <graphic url="Instruktion_37v.jpg" xml:id="IMG54"/>
+        </surface>
+        <surface start="#IMG55">
+            <graphic url="Instruktion_38r.jpg" xml:id="IMG55"/>
+        </surface>
+        <surface start="#IMG56">
+            <graphic url="Instruktion_38v.jpg" xml:id="IMG56"/>
+        </surface>
+
+    </facsimile>
+
+
+    <text type="instuction">
+        <body>
+            <pb facs="#IMG1" n="11r"/>
+            <p>Nr. 1.</p>
+            <p><rs ana="MPRautomatched" ref="#mpr9399" type="person">Carl</rs> p.</p>
+            <p>Instruction für den hoch und wohlgebohrnen unseren geheimen und hofkriegs rath,
+                obrist feldzeugmeistern, bestellten obristen und lieben getreuen <rs
+                    ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo grafen von
+                    Virmont</rs>, was selber alß unserer an die Ottomanische Porten abgeordneter
+                großbottschaffter daselbst zu beobachten und zu besorgen hat.</p>
+            <p>
+                <note place="left"><label>Ad art. I.</label> Zumahlen <rs ana="MPRautomatched"
+                        ref="#mpr9435" type="person">graf von Virmond</rs> dem passarovitzer <add
+                        place="superlinear">tractat</add> selbst beygewohnet, so hat man nicht
+                    nöthig gehabt, ihm darüber viele außkunfft zu geben, dahingegen habe ich mir
+                    gehörige mittheilung deß lezten tractat und ratification außzubitten und waß
+                    sonsten dißfalß in ansehung deß vergangenen zu wißen nöthig habe, nun so wohl
+                    gegen die Türckhen alß den <rs type="person" ref="#mpr15352">frantzösischen
+                        bothschaffter</rs> nicht ohne antwort zu bleiben, wan davon zukünftig
+                    gesprochen werden solle.</note> Erstlichen ist aus der gedruckten anlaag zu
+                ersehen und ihme als unserem zu solchem werck und dem congress verordnet gewesten
+                ersten gevollmächtigten extraordinari bottschafftern vorhin bestens bekandt, was
+                durch seine ruhmwürdige beywürckung dem <date when="1718-07-21">21. Julii des lezt
+                    abgeschlossenen jahres</date> zu <rs type="place" ref="#mpr14611"
+                    >Passaroviz</rs> in dem <rs type="place" ref="#mpr1478">königreich Servien</rs>
+                mit der Ottomanischen Porten für ein friden geschlossen und darüber beederseits
+                bestättiget, auch die in rechter zeit eingelangte ratificationes <pb facs="#IMG2"
+                    n="11v"/> eben daselbst in beyseyn deren großbrittanischen und holländischen
+                mediations ministern nemlichen des <rs type="person" ref="#mpr14962">Robert
+                    chevalier Sutton</rs> und des <rs ana="MPRautomatched" ref="#mpr14842"
+                    type="person">Jacobs graf von Colyers</rs> gegeneinander ausgewechslet worden
+                und andurch dises wichtige und angelegentliche geschäffte schon dazumahlen seine
+                vollständige richtig- und verlässlichkeit erreichet haben, also daß sothaner friden
+                und die andurch zwischen unß und dem <rs type="person" ref="#mpr14244">sultan</rs>
+                hergestellte freundschafft durch die in dergleichen fällen übliche und in dem
+                instrumento pacis art. 17. verglichene absendung deren beederseitigen mit gehörigen
+                geschencknussen versehenen grosbottschafften feyerlich bestättiget, solche auch an
+                denen granitzen gegen einander auf die hergebrachte arth ausgewechslet werden. Nun
+                ist</p>
+            <p>
+                <note place="left"><label>Ad art. II.</label> Nachdeme bey abreiß deß <rs
+                        type="person" ref="#mpr9435">grafen von Virmond</rs> der orth noch die arth
+                    der auß<pb sameAs="#IMG3"/>wexlung deren bothschafften nicht außgemachet ware,
+                    so könte vieleicht von nun an darauf angetragen werden, daß nicht daß eigene mir
+                    widerfahre. <rs type="person" ref="#mpr14842">Graf Colyers</rs> ist nach
+                    vollzogener mediation darzu gebrauchet worden, um daß dem seraskier zu <rs
+                        ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> aufgetragen
+                    wurde, daß nöthige mit dem <rs type="person" ref="#mpr14241">generalen
+                        Oduye</rs> zu verabreden, folglich unbedencklich zu seyn scheinet, daß <rs
+                        type="person" ref="#mpr15650">marquis de Villeneuve</rs> daß eigene
+                    bewürcke, worbey unentpöhrlich, daß von seiten ihrer <rs type="person"
+                        ref="#mpr9399">ksl. Mt.</rs> der <rs type="person" ref="#mpr14241"
+                        >generall</rs> so die außwexlung verrichten und daß nothige mit den granitz
+                    comandanten verabreden solle, benennet und ihm die nothige instruction
+                    zugeschicket werde, auf waß für ein orth zu der außwexlung er antragen solle,
+                    worbey in erwegung gezogen werden kan, daß diese verabredung sich nicht wohl,
+                    wie daß lezte mahl geschehen, wird auf die lezte stund verschieben laßen,
+                    dieweilen die außwexlung vermuthlich auf einer prucken wird geschihen sollen,
+                    welche ohne in voraus darzu vorgekehrten anstalten nicht sobald wird können
+                    geschlagen werden, alß man bey lezterer außwexlung auf dem land drey saulen
+                    aufgerichtet hat.</note> Andertens daß orth sothaner auswechslung mit denen
+                Türcken anoch nicht ausgemachet, be<pb facs="#IMG3" n="12r" break="no"/>schihet
+                jedoch der antrag dahin, daß solche auf der haubtgränitz zwischen <rs
+                    ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> und <rs
+                    type="place" ref="#mpr14612">Rasna</rs> in der landstrassen gegen <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> erfolgen solle,
+                allermassen wir unserem dermahlen in dem <rs type="place" ref="#mpr1478">königreich
+                    Servien</rs> commandirenden generalen und commendanten zu <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>, dem <rs
+                    ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs>,
+                darnach mit dem seraskier zu erstgedachten <rs ana="MPRautomatched" ref="#mpr14602"
+                    type="place">Nissa</rs> daß weitern ohngesaumbt zu reguliren gnädigst
+                anbefohlen, auch durch unsers hof kriegs raths praesidentens und general
+                lieutenantens <rs ana="MPRautomatched" ref="#mpr10441" type="person">prinzens
+                    Eugenii von Savoyen</rs> liebden p. vermög copeylicher anlaag ein gleiches
+                vermittels abgeschickten eigenem courrier an den zu <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopl</rs> anweesenden holländischen
+                ordinari bottschaffter, <rs ana="MPRautomatched" ref="#mpr14842" type="person"
+                    >grafen von Colyers</rs>, benachrichtigen und durch disen der Ottomanischen
+                Porten ferer beybringen lassen, wie nun nicht anzustehen ist. Es were alles, was
+                dises auswechslungs<pb facs="#IMG4" n="12v" break="no"/>werck betrifft, nächster
+                tagen zu seiner endschafft gedeyhen, da insonderheit der an unß abgeschickte
+                türckische großbottschaffter, <rs type="person" ref="#mpr14276">Ibrahim bassa</rs>,
+                beglerbeg von <rs type="place" ref="#mpr14238">Bumelien</rs> bereits den <date
+                    when="1719-03-23">23. Martii</date> jüngsthin zu <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopl</rs> aufgebrochen und eben gegen
+                diser strassen in anzug begriffen, wir auch ihme, <rs type="person" ref="#mpr9435"
+                    >graf Virmont</rs>, auf was weis dises geschäfft reguliret worden, mit nächsten
+                ferers gnädigst anzeigen lassen werden, mitlerweil aber daßjenige hiebey
+                anzuschliessen befehlen, wie man es nach dem carlovizischen friden verglichen und
+                beobachtet, auch derentwegen dem <rs ana="MPRautomatched" ref="#mpr14241"
+                    type="person">grafen von Oduyer</rs> in substantia darauf zu beharren instruiret
+                hat, alß wirdet derselbe sich dergestalten in ferttige bereitschafft zu stellen
+                wissen, wamit er in wenig tägen auf dem wasser auf denen dazu in bereitschafft
+                gestellten schiffen seine reyß antretten, darnach ohne weiter<pb facs="#IMG5"
+                    n="13r" break="no"/>re hindernus oder aufenthalt fortziehen, die auswechslung
+                auf denen granizen bewürken, und sodann die ihme aufgetragene bottschafft verrichten
+                möge, zu welchem ende er </p>
+            <p>
+                <note place="left"><label>Ad art. III.</label> Darmit scheinet nicht, daß ein
+                    anstand zu beförchten seyn werde, indeme der leztere <rs type="person"
+                        ref="#mpr14276">türckhische botschafter</rs> ein dergleichen schreiben an
+                    deß <rs ana="MPRautomatched" ref="#mpr10441" type="person">prinzen Eugenii von
+                        Savoye</rs> durchleuchtigst mitgebracht, folglich nicht zu zweiflen, daß die
+                    Porten daß eigene gegen ihre excellenz herrn <rs type="person" ref="#mpr10441"
+                        >hofkriegsrath praesidenten</rs> beobachten werde.</note> Drittens in der
+                jüngsthin bey unß gehabten öffentlichen beurlaubungsaudienz daß creditiv an den <rs
+                    type="person" ref="#mpr14244">sultan</rs> in originali schon empfangen, darvon
+                zu seiner ersehung eine abschrifft hiebey liget und nicht minder ein schreiben an
+                den <rs type="person" ref="#mpr9441">grosvezir</rs> in originali et copia
+                zugestellet wirdet, welche beede von ihme, <rs type="person" ref="#mpr9435">graf
+                    Virmont</rs>, an seine behörde abzugeben seynd. Nun hätten wir zwar billig
+                ursach gehabt, an den <rs type="person" ref="#mpr9441">groß vezier</rs> nicht mehr
+                zu schreiben, um willen der <rs type="person" ref="#mpr14244">sultan</rs> an unsern
+                    <rs type="person" ref="#mpr10441">kriegs praesidenten</rs> kein schreiben zu
+                erlassen pfleget, hingegen schon bey dem carlovizischen friden der antrag beschehen
+                und bey dem lezten congress weiters darauf ge<pb facs="#IMG6" n="13v" break="no"
+                />halten worden, alles zwischen beeden reichen in eine paritet zu bringen, zumahlen
+                aber gleichwohlen dergleichen rescript bisanhero bey absendung einiger unserer
+                ministrorum an die Ottomanische Porten jedesmahlen üblich gewesen und in der fridens
+                handlung kein widriges veranlasset worden, mithin die ohnvermuthe unterlassung des
+                alten ceremonialis ihme, unserem großbottschafftern, bey admittirung zur audienz und
+                in anderweeg leicht einige bedenckliche weiterungen und beschwärlichkeiten erwecken
+                kunte, alß haben wir ihme anoch dissmahl daß obgedachte rescript an den <rs
+                    type="person" ref="#mpr9441">groß vezier</rs> mitzugeben für unseren mehreren
+                dienst zu seyn dergestalten befunden, daß er, unser großbottschaffter, bey der
+                auswechsel und etwann sich anschickenden unterredung dem <rs type="person"
+                    ref="#mpr14276">türckischen großbottschaffter</rs> ganz natürlicher weise
+                beybringe, wie er <pb facs="#IMG7" n="14r"/> mit unserem ksl. rescripto an mich den
+                    <rs type="person" ref="#mpr9441">groß vezier</rs> versehen und nicht zweifflete,
+                daß der <rs type="person" ref="#mpr14244">sultan</rs> ebenfalls an unseren <rs
+                    type="person" ref="#mpr10441">kriegs praesidenten</rs> geschriben haben wurde
+                und sofern diser dergleichen schreiben nicht beyzuhaben vermeldete, hätte er darüber
+                eine verwunderung zu zeigen und zu vermelden, daß man allhier solches in allweeg
+                vermuthete und in widrigen, sofern der <rs type="person" ref="#mpr14244">sultan</rs>
+                an unserem <rs type="person" ref="#mpr10441">kriegs praesidenten</rs> hinführo in
+                dergleichen begebenheiten nicht schreibete, wir es ebenfalls an den <rs
+                    type="person" ref="#mpr9441">groß vezier</rs> unterlassen würden. Wie nun aber
+                in der macht des <rs type="person" ref="#mpr14276">türckischen bottschaffters</rs>
+                darinen zu remediren nicht beruhet, so hätte er, <rs type="person" ref="#mpr9435"
+                    >graf Virmont</rs>, ein gleiches an der Ottomanischen Porten selbsten zu
+                erkennen zu geben und zwar anbey, ob er nicht anoch die nachschickung sothanen
+                sultanischen schreibens auf gute arth und geschicklichkeit, mithin ohne daraus
+                machenden impegno <pb facs="#IMG8" n="14v"/> loswürcken könne, zu versuchen, jedoch
+                dissmahl sein creditiv, es möge dises erfolgen oder nicht, dem <rs type="person"
+                    ref="#mpr9441">groß vezir</rs> gleichwohlen zu überreichen.</p>
+            <p>
+                <note place="left"><label>Ad art. IV.</label> Mir ist unwißend, ob zur zeit, daß die
+                    außwexlung geschehen solle, daß schloß von <rs ana="MPRautomatched"
+                        ref="#mpr9425" type="place">Belgrad</rs> gesprenget und evacuirt seyn werde,
+                    ob der <rs type="person">Aly bascha</rs> seraskier von <rs ana="MPRautomatched"
+                        ref="#mpr9425" type="place">Belgrad</rs> seye, und ob nach geschehener
+                    evacuation <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> für
+                    die türkhische granitz festung gleich wie vormahlens <rs ana="MPRautomatched"
+                        ref="#mpr14602" type="place">Nissa</rs> werde angesehen werden, in welchen
+                    fall ich alda solle auf gleiche arth gleich wie der <rs type="person"
+                        ref="#mpr14276">türckhische großbothschaffter</rs> vormörckhlich zu <rs
+                        ana="MPRautomatched" ref="#mpr1775" type="place">Petervaradin</rs> empfangen
+                    werden solle, wo vieleicht zur selbigen zeit annoch zu <rs ana="MPRautomatched"
+                        ref="#mpr9425" type="place">Belgrad</rs> keine artilleria wird vorhanden
+                    seyn.</note> Viertens solle er, unser großbottschaffter, seine reys, so vill es
+                die zeit und gelegenheit zulasset, allerdings beschleunigen, sich auch unterweegs
+                ausser denen nothwendigen rasttägen nicht aufhalten, zu <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> jedoch etwelche wenige täge verweilen,
+                allwo er den seraskier nebst zustellung des anligenden von unserem <rs type="person"
+                    ref="#mpr10441">kriegs praesidenten</rs> an solchen ausgefertigten schreibens,
+                auch deren für disen beyhabenden praesenten salutiren, ihne zu haltung des
+                geschlossenen fridens und guter nachbarschafft anmahnen, die beforderung deren
+                reysenden und insonderheit deren disseitigen courriern <note place="left">Wegen
+                    denen curriren wird von dem seraskier nothwendig anbegehret werden müßen, daß
+                    man eß bey dem vormahligen gebrauch bewenden laße, indeme seit den lezten krieg
+                    deßfalß eine unangenehme änderung vorgenommen worden, <pb sameAs="#IMG9"/>
+                    zumahlen die an den <rs type="person" ref="#mpr15352">frantzösischen
+                        bothschaffter</rs> von hier auß abgeförtigte currirs, nicht ihm immediate,
+                    sondern an einen anderen correspondenten deß <rs type="person">Ali bascha</rs>
+                    adraissirt werden, bey welchen sie zuvor, alß sie zu den botschaffter kommen,
+                    sich einfinden müßen.</note> und handelsleuthen angelegentlich recommendiren,
+                desgleichen von wegen unser versprechen und ferner ihme, seraskier, um förder<pb
+                    facs="#IMG9" n="15r" break="no"/>lichen vorschub und assistenz zu seiner reyß
+                ersuchen. </p>
+            <p> Sonsten ist es </p>
+            <p>
+                <note place="left"><label>Ad. art. V.</label> Darmit ist zu vermuthen, daß kein
+                    anstand zu besorgen seye, dieweilen der seraskier von <rs ana="MPRautomatched"
+                        ref="#mpr14602" type="place">Nissa</rs> damahlens bey dem <rs
+                        ana="MPRautomatched" ref="#mpr9435" type="person">grafen von Virmont</rs>
+                    die gegen visite abgelegt hat, welches ebenfahls der <rs type="person"
+                        ref="#mpr14241">general Oduyr</rs> gegen den <rs type="person"
+                        ref="#mpr14276">Ibrahim bascha</rs> vollzogen.</note> Fünftens quoad
+                ceremoniale allerdings auf die weise zu halten, wie es von dem <rs type="person"
+                    ref="#mpr10486">graf von Ötting</rs> lauth dessen nebenligender relations
+                abschrift vom <date when="1699-12-12">12. Decembris 1699</date> mit dem seraskier zu
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> vormahls
+                beobachtet worden, dieweilen aber weder solcher, noch die andere unterweegs
+                betrettene bassa die gegenbesuchung abgeleget und derentwegen dise unterlassung auch
+                dermahln zu vermuthen, so hätte er, unser großbottschaffter, zwar vorläuffig kein
+                negotium zu machen, jedoch bey der auswechslung dem <rs type="person"
+                    ref="#mpr14276">Ibrahim bassa</rs> auf freundliche arth beyzubringen, wie er die
+                erst angemerckte gegen visiten dem allerseits üblichen gebrauch nach gewärttige,
+                benebens aber ihme vorläuffig angezeigt haben wolle, daß selber im widrigen solche
+                von unseren ksl. generalen und commendanten ebenfalls nicht zu gewartten hätte und
+                    <pb facs="#IMG10" n="15v"/> zumahlen wir nach erheischung unseres allerhöchsten
+                decors darauf in allweeg zu halten gedencken, hingegen er, <rs type="person"
+                    ref="#mpr9435">graf Virmont</rs>, vill geschwinder zu <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs>, alß der <rs type="person"
+                    ref="#mpr14276">türckische grosbottschaffter</rs> in <rs ana="MPRautomatched"
+                    ref="#mpr9425" type="place">Belgrad</rs> anlanget, so hat er den erfolg
+                ohngesaumbt an unseren commendanten zu <rs ana="MPRautomatched" ref="#mpr9425"
+                    type="place">Belgrad</rs>, <rs type="person" ref="#mpr14241">graf von
+                    Oduyer</rs>, wie auch unseren commendanten zu <rs type="place" ref="#mpr2046"
+                    >Essegg</rs>, dem feldtmarschall lieuthnand <rs type="person" ref="#mpr15755"
+                    >freyherrn von Beckers</rs>, zu überschreiben, um darnach die paritet beobachten
+                zu können, worauf er sich auch im fall der seraskier zu <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> die zurückbleibung eines vormahlen an
+                die granitz bassa erlaßenen ksl. rescripts etwann anthete, nebst disem anhang zu
+                beziehen, daß, weilen der <rs type="person" ref="#mpr14244">sultan</rs> an unseren
+                granitz generalen nicht schreibete, es ebenfalls an ihne, seraskier, nothwendig zu
+                unterbleiben gehabt hätte, ausser welchem aber darvon nichts zu melden wäre. </p>
+
+            <pb facs="#IMG11" n="16r"/>
+            <p> Sechstens beschihet der antrag, daß er, unser großbottschaffter, von hinnen bis in
+                die gegend <rs type="place" ref="#mpr14611">Passaroviz</rs>, wo nemlich die Morava
+                in die Donau fliesset, auf dem wasser abzufahren und von danen, ausser es kunte ein
+                theil der bagage durch gegentrib auf ersternannter Morava fortgebracht werden, den
+                zug über land zu continuiren, allermassen der <rs type="person" ref="#mpr14241">graf
+                    Oduyer</rs> von unserem ksl. hof kriegs rath schon befelchet ist, ihme mit aller
+                nothwenigkeit, insonderheit der vorspann zu beförderung seiner reyß bis an daß orth
+                der auswechslung die hand zu bietten und sich also mit solchem ferers behörig
+                einzuverstehen seyn wirdet. </p>
+            <p> Mann nun aber </p>
+            <p> Sibendens er, unser grosbottschaffter, zu <rs ana="MPRautomatched" ref="#mpr14055"
+                    type="place">Constantinopl</rs> oder an der Ottomanischen Porten angelanget, hat
+                er förderist nebst darauf zu sehen, daß sein ainzug und daß darauf zu folgen habende
+                anderwärtige tractament, so lange er daselbst zu verbleiben haben wirdet, <pb
+                    facs="#IMG12" n="16v"/> mit denen bey voriger ksl. bottschafftern und
+                insonderheit des <rs type="person" ref="#mpr10486">grafen von Ötting</rs> nach dem
+                carlovizischen friden erfolgter ankunfft an der Porten beobachten, ihme, <rs
+                    ana="MPRautomatched" ref="#mpr9435" type="person">graf von Virmont</rs>, bereits
+                bekannten, auch solchen ceremoniis beschehe, wie es unsere <rs type="person"
+                    ref="#mpr9399">ksl. hoheit</rs> und die in dem instrumento pacis passarovicensis
+                    <del>An</del> an 17 und 18 articul beederseits ausgedungenen gleichheit, auch
+                unseren ministern vor allen anderen ad distinguendam caesareo dignitatis
+                praerogativam zugestandene mehrere beehrung erfordern und erheischen thuet. Nach
+                disen wann nemlichen</p>
+            <p><note place="left"><label>Ad art. VIII.</label> Den vernehmen nach sollen dem <rs
+                        type="person" ref="#mpr15352">frantzosischen bothschaffter</rs> bey lezter
+                    außwexlung deren ratificationen besondere ehren bezeigungen erwisen worden seyn
+                    und währe guth, wofern man von deren beschaffenheit belehret währe, um in fall
+                    ihm etwaß zugestanden worden, waß sonsten in ansehung deren <pb sameAs="#IMG13"
+                    /> ksl. groß bothschaffteren nicht währe vormahlens beobachtet worden, daß
+                    eigene von mir anverlanget werden könne.</note> Achtens der einzug in <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> erfolget
+                und er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, alles in behörige
+                ordnung gestellet, solle er sich bey dem <rs type="person" ref="#mpr14244"
+                    >sultan</rs> und <rs type="person" ref="#mpr9441">groß vezier</rs> auf übliche
+                arth um audienz anmelden, zu dem ersten, um sich von anderer christlichen mächten
+                allda anweesenden bott<pb facs="#IMG13" n="17r" break="no"/>schafftern auch darinen
+                zu unterscheyden, in einem mantel oder imperial kleyd erscheinen, folgbar in der
+                audienz dem ermeldtem <rs type="person" ref="#mpr14244">sultan</rs> unser ksl.
+                schreiben einhändigen, die ihme mitgegebene praesenten an behörigen orthen dem
+                gebrauch nach ablegen und demselben mit vermeldung unsers freundlichen grueß und
+                nachbarlichen guten willens zu vernehmen geben, wie ihme, <rs type="person"
+                    ref="#mpr14244">sultan</rs>, ohne deme bereits wissend wäre, was massen über den
+                daß <date when="1718">abgeflossene jahr</date> zu <rs type="place" ref="#mpr14611"
+                    >Possaroviz</rs> in <rs ana="MPRautomatched" ref="#mpr9423" type="place"
+                    >Servien</rs> zwischen beeden reichen geschlossenen und hergestellten friden,
+                ingleichen den besonders errichten commercien und navigations tractat, die ksl.
+                diplomata und ratificationes in der verglichenen zeit ausgeferttiget und
+                ausgewechslet, die scheidung deren granitzen auch bis auf ein und andern kleineren
+                anstand bereits glücklich zum ende gebracht worden, und wie disem nach zu
+                vollständiger bewürckung des gedachten fridens nur anoch übrig wäre, <pb
+                    facs="#IMG14" n="17v"/> daß solcher durch beederseits absendende bottschafften
+                feyerlich bestättiget werde, alß hätten wir solches durch ihne, <rs
+                    ana="MPRautomatched" ref="#mpr9435" type="person">graf von Virmont</rs>,
+                verrichten, auch benebens ihme, <rs type="person" ref="#mpr14244">sultan</rs>, zu
+                bekräfftigung guter freund- und nachbarschafft mit denen überschickten praesenten
+                besuchen und nicht zweifflen wollen, daß gleichwie von unß alle nothdürfftige
+                anstalten zu steiff- und festhaltung sothanen fridens auch damit vereinbarten
+                commercien und navigations tractats allbereits gemachet worden, also es ebner massen
+                derselbe an seinem orth thuen und die bishero derentwegen abgegangene befehl nicht
+                allein widerhollen, sondern auch ob deren genauer beobachtung scharff und ernstlich
+                halten lassen werde. Es seye unß auch sonders lieb gewesen, daß mehrbemeldter <rs
+                    type="person" ref="#mpr14244">sultan</rs> seinen <rs type="person"
+                    ref="#mpr14276">großbottschafftern</rs> zu unß abgeferttiget, den wir dan also
+                wohl halten und tractiren lassen wolten, wie es die gute freund- und nachbarschafft
+                erfordert. Eben <pb facs="#IMG15" n="18r"/> dises solle </p>
+            <p> Neundtens er, unser großbottschafter, bey dem <rs type="person" ref="#mpr9441"
+                    >großvezier</rs> und andern fürnehmeren ministern, die in disen geschäfften von
+                der Porten gebrauchet werden, neben einhändigung deren mitnehmenden praesenten
+                anbringen und die steiffhaltung des fridens, auch commercien und navigations
+                tractats, bestens recommendiren, und daßjenige ferers beyrucken, was die sachen und
+                deren umstände, auch daß gespräch selbsten zu förderung unsers höchsten dienstes an
+                hand geben thuen, was sodan ferers quoad materiale durch unsern bottschafft bey der
+                Ottomanischen Porten auszumachen kommet, bestehet haubtsächlichen in erledigung
+                deren gefangenen christen, beförderung der religions angelegenheiten, einrichtung
+                deren commercien, auch sicherstellung der navigation gegen die barbaresquen und
+                vollkomener execution sowohl des derenthalben errichten tractats, alß des fridens
+                schlusses selbsten insonderheit mit abthuung <pb facs="#IMG16" n="18v"/> deren bey
+                der granitz scheidung an der Aluta und Unna etwelcher insuln halber annoch
+                obwaltenden anständen und was deme in anderweeg anhängig seyn mag. So vill nun </p>
+            <p> Zehendens die gefangene christen anbelanget, so thuet darinen daß instrumentum pacis
+                art. 12 bereits die rechte maas vorschreiben und gleichwie vermög dessen die in
+                denen siben thürn, in dem baad neben dem arsenal, auf denen galeeren oder sonsten
+                hin und wider in denen publicis carceribus angehaltene in ansehung des hergestellten
+                fridens von der ksl. grosmutigkeit und güte ihre entledigung zu hoffen, also hat er,
+                unser grossbottschaffter, wo dergleichen gefangene von unsern unterthanen oder
+                soldaten vorhanden, sich genau zu erkundigen und aller orthen benanntlich bey dem
+                    <rs type="person" ref="#mpr14244">sultan</rs> und <rs type="person"
+                    ref="#mpr9441">groß vezir</rs> seine officia anzuwenden, auf daß der effect <pb
+                    facs="#IMG17" n="19r"/> realiter durch dero loslassung erfolgen möge. </p>
+            <p> Belangend aber die in privat händen oder bey denen Tartarn befindliche gefangene, so
+                wäre zwar durch eine auswechslung der sache am füglichsten abgeholffen, nachdeme
+                aber in denen ksl. landen keine gefangene Türcken oder doch nur etliche wenige in
+                Croaten vorhanden, so wirdet forderist dahin anzutragen seyn, damit daß losgeld, wie
+                es mit einigen und specifice lauth copeylicher anlaage von seiten des commendanten
+                zu <rs type="place" ref="#mpr15461">Bihaz</rs> beschihet, nicht über die maas und
+                billigkeit erhöhet, sondern solches nach den buchstaben des bedeuten art. 12 ad
+                iustum et aequum pretium reduciret werde, inmassen auch unsere ksl. commendamenten
+                oder andere inhaaber türckhische gefangenen zu gleicher billigmässigen entlassung
+                auf beschehene nahmhafftmachung mit ernst angehalten werden solten, zumahlen aber
+                bey ohne deme unserem aerario durch stetts <pb facs="#IMG18" n="19v"/> anhaltende
+                schwere krieg und in anderweeg obligende grosse auslaagen zu diser erledigung nicht
+                vill beygetragen werden mag und die wenigste gefangene daß auch gemässigt lytrum von
+                eigenen mitteln zu verschaffen nicht vermögen, mithin daß haubtwerck hierenfalls auf
+                daß allmosen und die christliche charitet ankommet, alß hat er, unser <rs
+                    type="person" ref="#mpr9435">großbottschaffter</rs>, die P.P. Trinitarios de
+                redemptione captivorum ihren einzig und allein zu dienst und erlösung deren
+                gefangenen Christen abzilenden instituto gemäss beyzuziehen, solche bey der
+                Ottomanischen Porten unter der vorstellung, daß durch dise leuth für die sonst
+                grossen theils unausgelöster verbleibend und absterbende gefangene denen
+                eigenthümern anwachsenden mercklichen vortheils und baaren mittlen angenehm zu
+                machen auch dahin zu trachten, daß solche zu <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopl</rs> nach <pb facs="#IMG19" n="20r"/>
+                dem beyspill anderer ordens personen sich zu stabiliren, die erlaubnus auch darüber
+                ein ksl. mandatum frey pass erhalten, allenthalben in dem türckhischen reich in
+                obgedacht ihren berueff ohngehindert auf und abreysen zu können, worzu der art. 13
+                tractatus commerciorum eine gute veranlassung und vorschub geben kan, wir unß auch
+                zu seyn, <rs ana="MPRautomatched" ref="#mpr9435" type="person">grafens von
+                    Virmont</rs>, christlicher eyffer und bekannter geschicklichkeit besonders
+                verlassen, daß er sowohl obbesagte erledigung deren armen gefangenen Christen als
+                einführung ermeldter P. P. Trinitariorum unserer gnädigsten intention nach aufs
+                beste einzuleiten und zu erhalten möglichster dingen bemühet und beflißen seyn
+                werde. </p>
+            <p> Ailftens haben die P.P. Franciscaner und römisch catholischen christen ohne dem der
+                zeit die heiligen örther in besiz, thuen auch in anderweeg zimlich vill freyheiten
+                geniessen und ist disemnach sich in religionswee<pb facs="#IMG20" n="20v" break="no"
+                />sen an deme zu halten, was in dem 11. articul des fridens schluß darüber gehandlet
+                worden oder er, unser bottschaffter, zu jezt bedeuten ende in genere erspriesslich
+                und thunlich finden möchte, zumahlen aber unserem decor nicht wenig daran gelegen,
+                daß die ermeldte orientalisch catholische kirchen durch unsern qua advocati ecclesio
+                uniulis romano catholico beschehende beywürckung einen vortheil, wachsthum und
+                ergözlichkeit in dem ottomanischen gebiet erlangete, mithin dero conservation nicht
+                lediglich anderen christlichen mächten und inspecie der cron <rs type="place"
+                    ref="#mpr6873">Franckreich</rs> zuzuschreiben hätte, welche auch denen sicheren
+                nachrichten gemäss die restauration der cupel über daß heilige grab zu <rs
+                    ana="MPRautomatched" ref="#mpr14155" type="place">Jerusalem</rs> vor wenig
+                monathen aus eben diser anscheinenden ursach mit grosser mühe und kosten
+                ausgewürcket hat, als wäre, sofern anderst darinen <pb facs="#IMG21" n="21r"/> zu
+                reussiren eine versicherte hofnung anscheinet, sich dahin bestens zu bearbeiten, daß
+                folge der inobangeführten articul auf daß futurum ausgestellten confirmation aller
+                bisherigen der catholischen religion in dem Türckhischen Reich durch vormahlige
+                capitulationes oder ksl. special befehl ertheilten freyheiten und vortheilen solche
+                anjezo de praesenti vermittelst eines neuen general mandats in ansehung der
+                restaurirten freundschafft von dem <rs type="person" ref="#mpr14244">sultan</rs>
+                erfrischen oder etwan anoch zu beförderung restaurando cupulae hyerosolimitano ohne
+                jedoch darinen eine hindernus zu machen, was diensames in unseren nahmen
+                beygetragen, auch abgehindert werden möge, daß von denen griechischen schismaticis
+                ihrer gewohnheit und stätten bemühung nach zu unterdruckung oder nachtheil der
+                catholischen religion nichts beschehe oder gar zwischen solchen und anderen
+                sectariis eine dahin abzilende vereinigung der enden ab<pb facs="#IMG22" n="21v"
+                    break="no"/>gehandlet oder zu werck gerichtet werde. Hiernach nun </p>
+            <p>
+                <note place="left"><label>Ad art. XII.</label> So viel ich eüßerlich vernehme, so
+                    solle durch den lezten tractat eine andere vorsehung geschehen seyn, allein
+                    gleichwie ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> unterthanen
+                    künfftighin nicht werden verlangen können, von der so genanten auflag masterie
+                    gleichwie biß anhero geschehen befreyet zu seyn, weilen diese auflag eben von
+                    denen anderen nationen muß abgeführet werden, so ist anderer seits zu besorgen,
+                    daß die türckhische kauffleüthe viele beschwärden anbringen werden, daß sie
+                    nicht wie biß anhero ihre wahren gegen bezahlung beser 3 percento in ihro <rs
+                        type="person" ref="#mpr9399">ksl. Mt.</rs> erbkönigreich und lander
+                    einführen könne. Damit ich aber denen selben zu begegnen in stand gesezet werden
+                    möge, so wird unmaßgeblich nöthig seyn, mir die nöthige erläutherung an die hand
+                    zu geben, wie eß mit anderen nationen und denen eigenen ksl. unterthanen
+                    gehalten werde, um denen Türckhen dißfalß beweisen zu können, daß sie hierinfalß
+                    nicht deterioris conditionis alß andere seyen.</note> Zwöllfftens auf daß
+                commercium zu gelangen, so ist ihme, unsern grosbottschafftern, ohnedeme bekandt,
+                daß in zeit des possarovizischen congress über daß, was in dem 13. articul
+                instrumenti pacis darvon einkommet, durch vor beeden theilen erschinene besondere
+                gevollmächtigte einformlicher commercien und navigations tractat nach mehreren
+                enthalt des hier anbiegenden exemplaris erichtet, gegeneinander ausgewechslet und
+                ordentlich ratificiret worden, woraus dan in materia substrata seiner ferneren
+                negotiation und beobachtung halber zwey principia universalia seu generalia sich von
+                selbsten ergeben, daß nemlichen eines theils der ernenndte tractat in denen sich
+                zeit seiner anweesenheit an der Ottomanischen Porten äusserenden vorfallenheiten pro
+                norma zu nehmen und ob allem deme, was da<pb facs="#IMG23" n="22r" break="no"/>rinen
+                begriffen, festliglich zu halten, auch die etwann anscheinende oder von denen
+                Türcken beflissentlich erweckende anstände in favorem unserer ksl. trafficanten zu
+                leiten, anderen theils aber sein, unseres bottschaffters, bekannten geschicklichkeit
+                nach die sache dergestalten zu verhandlen und zu fassen seye, auf daß weder die
+                Türcken noch andere auswendige christliche mächten ein auf daß commercium von unß
+                segendes unmittelbares absehen oder daraus anhoffendes interesse aerarii erkennen,
+                sondern vill mehrers urtheilen können, daß solches allein ad reciproca subditorum
+                commoda promovenda und andurch beschehende nähere verbindung der freundschafft
+                abzihlen thue und obwohlen durch dises, daß ob dem errichten commercien und
+                navigations tractat in allen und jeden festiglich zu beharren, schon generaliter
+                alles begriffen, was derenthalben zu beobachten kommet, so haben wir doch <pb
+                    facs="#IMG24" n="22v"/> mehrerer klarheit willen weiters specifice gnädigst
+                beyzurucken befunden. Daß </p>
+            <p> Dreyzehendens er, <rs ana="MPRautomatched" ref="#mpr9435" type="person">graf von
+                    Virmont</rs>, forderist dahin zu trachten, daß unsere ksl. trafficanten nicht
+                allein in und durch daß türckhische gebiet freye handlung treiben, sondern auch
+                ihnen alle sicherheit darin fals angedeyen und selbe mit keinerley belästigung
+                angefochten werden mögen, worbey nicht minder darob zu halten, daß, wann etwa einige
+                schiff an ihren masten oder sonsten schaden leyden solten, ihnen zufolge des 1.
+                articuls mehrgedachten tractats freystehe, in was für hafen des türckhischen gebiets
+                sie immer einlauffen, sothanen erlittenen schaden repariren, was nöthig calefatiren,
+                auch neue masten verschaffen, ferers verglichenermassen an victualien, kein und
+                anderen nothdurfften so vill sie imer bedarffen, ohngehindert einladen zu können.
+                Über dises hat </p>
+
+            <pb facs="#IMG25" n="23r"/>
+            <p> Vierzehendens er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, unter andern
+                ganz natürlicher weis auf daß fundament des mehrbemeldtem commercien tractats von
+                der Porten die bewilligung anzusuchen, daß von unß zu desto füglicherer beförderung
+                des commercii auf der Donau nacher <rs type="place" ref="#mpr14929">Viddin</rs> und
+                    <rs type="place" ref="#mpr15657">Ruszik</rs> oder doch wenigstens in dem leztern
+                orth, wann es auf beede nicht eingestanden werden wollte, sogleich anjezo jemand
+                unter dem nahmen eines dollmetschers angestellet werden könne, welcher bey
+                ankomenden schiffen und waaren die übliche assistenz denen negotianten leiste. Des
+                gleichen hat selber </p>
+            <p> Fünffzehendens zu insistiren, damit der 3. articul des tractatus commerciorum auf
+                daß genaueste beobachtet, folgbar weder ein mehrers als die 3 pro cento von denen
+                führenden waaren abgefordert und all andere an denen granizen schon gesuchte und
+                genandte exactiones insonderheit der so genandten mastarie unterlassen, noch auch
+                die trafficanten nach schon einmahl <pb facs="#IMG26" n="23v"/> beschehener
+                visitation deren waaren weiteres darzu angehalten, mithin der tractat gleich
+                anfänglich zu seiner wahren execution gebracht werde. Und dieweilen </p>
+            <p> Sechzehendens die in dem Türckhischen Reich bestellende consules, vice consules und
+                dollmetschen von unserem alldasigen repraesentaten zu dependiren, ihnen auch alle
+                assistenz und schuz zu leisten, damit sie ihre obligenheit ohngekräncket bewürcken
+                mögen, so thuen wir derenselben bestellung der zeit ihme, unserem
+                großbottschafftern, gnädigst überlassen, welcher bey seiner anwesenheit in <rs
+                    type="place" ref="#mpr7118">Türckey</rs> am besten aburtheilen wirdet, auf was
+                für orther derley subalterne pro hic et nunc zu sezen nöthig oder welche subiecta
+                darzu am diensamsten seyn möchten? Ausser wir thäten ein oder anders von hier
+                ohnmittelbar benennen oder bestellen, in welchem fall solcher ohnweigerlich
+                anzunehmen und weiters in seiner function zu legitimiren wäre. Nun werden zwar
+                künfftighin in die grössere emporia des <pb facs="#IMG27" n="24r"/> besizenden
+                grösseren ansehens und andurch zuwachsenden mehreren fähigkeit halber die consuln
+                fürzuwehlen seyn, um willen aber die handlung anoch von keinen solchen stand und
+                kräfften, daß die nach erfordernus unseres allerhöchsten decors zimlich hoch
+                anlauffende salarirung deren consulum schon dermahlen bestritten werden kunte und
+                benebens anständlichen, die tüchtigkeit deren subiecten in der manipulation selbsten
+                zu erkennen, auch die dollmetsch leichter und ohnbedencklicher alß die consuln
+                abzuändern, als hätte er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, der
+                zeit und bis zu ersehenden guten fortgang des commercii nur dollmetsch auf die
+                höchst nöthig ermessende orth zu bestellen und nach denen emporiis an der Donau
+                forderist auf <rs type="place" ref="#mpr15599">Smirna</rs>, wo daß haubt commercium
+                obwaltet und die schiff fast von allen orthen und häfen daselbst einzulauffen
+                pflegen, eine dergleichen personam publicam sub titulo interpretis anzutragen,
+                sonsten aber diser leuth halber festiglich darob zu halten, auf <pb facs="#IMG28"
+                    n="24v"/> daß die consuln, vice consuln, dollmetsch, kauffleuth und die in deren
+                würcklichen diensten befindliche bediente von allem tribut oder sogenannten harasch
+                frey gelassen, von selben keine regalien, wie sie sonsten dem capitain bassa gegeben
+                zu werden pflegen, extorquiret oder abgefordert, ferners der art. 5 et 14 stipulirte
+                modus emptionis venditionis fideiussionis p. genau beobachtet und endlichen daß
+                freye exercitium religionis secundum tenorem tractatus ihnen allerdings gestattet
+                und zu solchem auch die catholischen Bulgaren ohne ausnahm zugelaßen werden.
+                Hiernächst ist zwar</p>
+            <p>Sibenzehendens der Ottomanischen Porten simpliciter nicht abzuschlagen, daß selbe
+                ebenfalls in die ksl. emporia oder handlungsstädte sogenannte sachbender oder
+                procuratores stelle, weilen es daß ius reciprocationis sowohl alß die offenbarn
+                convention art. 6 erheischet, um willen es jedoch dem disseitigen commercio mit
+                geschweigung deren politischen reflectionen jederzeit fürträglicher, sofern weniger
+                türckhische handels<pb facs="#IMG29" n="25r" break="no"/>leuth in die ksl. lande
+                kommen, mithin die lad- und gegenladung von unseren unterthanen bewürcket wirdet, so
+                hätte er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, in allweeg zu
+                trachten, damit die anstellung dergleichen sachbender auf verschidene
+                ohnbedenckliche weeg, so vill möglich gehindert oder wenigst gemindert werde. Und
+                zumahlen: </p>
+            <p>
+                <note place="left"><label>Art. XVIII.</label> Eß wird vermuthlich von denen in <rs
+                        type="place" ref="#mpr15215">Niderland</rs> comercirenden kauffleüthen
+                    anverlanget werden, daß ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> mir
+                    auftragen möchten, ihnen gegen die Algieriner einige sicherheit zu verschaffen,
+                    allein da solches nicht anderst kan befolget werden, alß daß die Porten sie zu
+                    nachlebung deß tractats anstrenge oder einige passaports abfordere, so scheinet
+                    eß aber darauf anzukommen, ob so viel mir von dem lezten tractat wißend nach
+                    desselben inhalt die Porten sich dißfalß in etwas einzulaßen schuldig
+                    seye.</note> Achtzehendens der disseitigen navigation und handlung einen grossen
+                vortheil und sicherheit gibet, so fern die mit unseren flaggen versehene schiff von
+                denen Barbaresquen befreyet und ohnangefochten seynd, so hat er, <rs type="person"
+                    ref="#mpr9435">graf Virmont</rs>, dahin zu sehen, damit secundum tenorem
+                instrumenti pacis art. 13 nicht allein die Dulcignoten von ihren auslauff und
+                pyraterie abgehalten, sondern auch gegen die Algierinen, Tunesaner und Tripolitaner
+                eine gleiche sicherheit von ihre Porten verschaffet werde. Um willen aber dise
+                völcker zwar sie, Porten, pro superiore auf gewisse arth verehren, jedoch, wie es
+                die tägliche erfahrenheit gibet, die mit solcher in friden stehen<pb facs="#IMG30"
+                    n="25v" break="no"/>de mächten derenthalben pro gente sibi amica ohne
+                absonderlicher einverständnus nit erkennen, sondern dero in dem meer betrettene
+                schiff gleichwohln feindlichen anfallen, an wenigsten aber selben in ihre häfen frey
+                einzulauffen gestatten thuen, alß wirdet er, <rs type="person" ref="#mpr9435">graf
+                    Virmont</rs>, forderist besorget seyn, damit unter assistenz und mediation ihro
+                Porten mit erwehnten nationen ein besonderne freundschaffts tractat geschlossen,
+                darinen die sicherheit denen mit unseren flaggen versehenen schiff stipuliret und
+                disen ihre häfen ungehindert einlauffen zu können bewilliget und zu solchen ende von
+                mehrgedachter Porten etwann einige deputirte von sothanen völckern nacher <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> beruffen
+                werden, sofern aber sie, Porten, hierzu nicht zu vermögen wäre, sondern etwann dahin
+                antragete, daß wir jemanden nach den exempel anderer christlicher mächten zu denen
+                Barbaresquen selbst abschicketen und alldas unter ihro Porten assistenz einen
+                freundschaffts tractat verhandleten, hätte er, <rs type="person" ref="#mpr9435">graf
+                    Virmont</rs>, uns solches ohngesaumbt <pb facs="#IMG31" n="26r"/> zu berichten,
+                damit aber </p>
+            <p> Neunzehendens weder die Türcken noch andere unter ihrer bottmässigkeit und schuz
+                stehende völker bey hinweggnehmung eines unserigen schiffes sich mit der
+                unwissenheit oder nicht gekannten flaggen zu entschuldigen gelegenheit haben, so
+                thuen wir ihme, unserem grosbottschaffter, ein form der flaggen, wie wir solche
+                hinkünfftig aus unseren kriegs- und kauffarthey schiff zu sichren entschlossen, zu
+                dem ende hiemit anlegen, damit er solche der Porten pro notitia unter der ansuchung
+                zustelle, wormit sie dise unsere flaggen sowohl in ihrem gebieth, alß bey denen
+                unter dero schuz stehenden nationen bekannt und zufolge des errichteten instrumenti
+                pacis auch tractatus commerciorum et navigationis behörig beobachten mache. </p>
+            <p>
+                <note place="left"><label>Ad art. XX.</label> Waß daß persianische comercium
+                    anbelanget, finde ich nicht ex antractis, daß etwaß weiteres währe zustande
+                    gekommen, alß daß ihre durchleucht der <rs type="person" ref="#mpr10441">printz
+                        Eugenus</rs> seelig an den <rs type="person">persianischen ministrum</rs>
+                    geschriben, daß schreiben der Porten comunicirt worden, welche <pb
+                        sameAs="#IMG32"/> selbst verlanget hat, daß jemand eigendts von seiten ihrer
+                        <rs type="person" ref="#mpr9399">ksl. Mt.</rs> darmit nach <rs
+                        ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> abgeschicket
+                    werde.</note> Zwanzigstens ist bereits hier oben die anmerckung beschehen, wie
+                dahin zu trachten, daß der erstberührte commercien und navigations tractat in allen
+                stücken zu seiner würcklichkeit gedeyen oder mehrers erweitert werden möge, worbey
+                wir anoch in genere behaaren. <pb facs="#IMG32" n="26v"/> Nachdeme aber art. 19
+                dictis tractatus daß commercium mit <rs ana="MPRautomatched" ref="#mpr14151"
+                    type="place">Persien</rs> zwar reciproce zugestanden und ein tariff von 5 per
+                cento darauf verglichen worden, hingegen selbes, sofern nicht mit <rs
+                    ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> eine ebenmässige
+                einverständnus beschihet, von keinen besonderen effect seyn kan und neben denen
+                christlichen mächten auch der Porten selbsten eine zwischen unß und <rs
+                    ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> einleitende
+                correspondenz und nähere einverständnus jederzeit bedencklich fallen dörffte, indeme
+                eines theils bey anderen nationen der nuzen des persianischen commercii und was
+                derenthalben vor wenig jahren <rs type="place" ref="#mpr6873">Franckreich</rs> für
+                mühe und kosten angewendet, bekannt, anderentheils aber wissend, daß die schiffarth
+                aus <rs type="place" ref="#mpr15215">Holland</rs> und dergleichen orthen dahin und
+                zurück über jahr und tag verheische, herentgegen aus dem <rs type="place"
+                    ref="#mpr14149">Schwarzen Meer</rs> in die Donau solche fast mit dem dritten
+                theil der zeit und weit grösserer sicherheit zu bewürcken, mithin vill unkosten zu
+                ersparen, auch neben unseren erblanden die angränzende auswendige landschafften vill
+                wohlfeyler mit denen von <pb facs="#IMG33" n="27r"/> danen kommenden waaren versehen
+                und anmit der verschleiss vermehret werden mag und dahero an einleitung sothanes
+                persianisches commercii unserem interesse mercklich gelegen, solchemnach hat öffters
+                berührter unser <rs type="person" ref="#mpr9435">großbottschafter</rs> dises
+                geschäffte mit besonderer circumspection politice zu fassen und als ein
+                gemeinschäfftliches werck mit ihro Porten dergestalt zu tractiren, daß selbe
+                zugleich begreiffe, was massen andurch daß grosse und sehr ansehnliche persianische
+                commercium an statt dessen, daß solches fast ohne daß türckische gebiett zu
+                betretten, über daß meer bis anhero in Europam geführet worden, anjezo völlig durch
+                solches geleitet, folgbar neben der mauth auch vill andere nuzbarkeiten denen
+                türckischen unterthanen zugezogen würden. </p>
+            <p> Wann nun er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, dise vorstellung
+                bey der Porten gemacht, hat selber, was sie bey solcher für einen ingress gefunden
+                und ob etwann der <rs type="person" ref="#mpr14244">sultan</rs> zu einleitung der
+                sachen nicht zugleich an den <rs type="person" ref="#mpr15659">könig</rs> in <rs
+                    ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> zu schreiben
+                veranlasset werden möchte, unß es sogleich zu weiterer entschliessung zu
+                benachrichtigen. <pb facs="#IMG34" n="27v"/> Endlichen ist </p>
+            <p>
+                <note place="left"><label>Ad art. XXI.</label> Ratione deß podaschen scheinet ex
+                    ante actis daß <rs type="person" ref="#mpr9435">graf Virmond</rs> gantzlich
+                    darmit außgelanget habe, indeme dißfalß die gehorige befehl an den <rs
+                        ana="MPRautomatched" ref="#mpr15442" type="person">fürsten</rs> von der <rs
+                        type="place" ref="#mpr1794">Walachey</rs> ergangen, allein ob der Porten
+                    befehl vollzogen worden, ist mir unwißend und scheinet sehr zu zweiflen ob
+                    anjezo ein comercium privativum von der Porten zu erhalten wohl zu hoffen seye,
+                    nachdeme durch den lezten tractat die türckhischen unterthanen den bißhero
+                    genoßenen vortheil dören 3 per cento <add place="superlinear">zu</add>
+                    verliehren die gefahr vorsehen können.</note> Ain und Zwanzigstens ohne dem
+                notorium, daß auf daß hier orths emporbringende commercium von allen seiten gesehen
+                werde und wirdet derentwegen alles, was in sachen vorzunehmen, oder zu verhandlen,
+                in geheim zu halten, sich darinen keinen extero, wer der auch seye, zu vertrauen und
+                bey der Porten die negotiation selbsten dergestalten zu fassen seye, auf daß die
+                auswertige repraesentanten solche nicht sogleich wahrnehmen, sondern allererst nach
+                geschlossener sache erfahren mögen und zumahlen die Türcken bedencken getragen, daß
+                commercium privatiorum des moldauischen baad aschen um bey anderen nationen keinen
+                vorwurff zu haben, in dem tractat zu inseriren, jedoch darinen auf eine particular
+                concession hoffnung gemacht, so hat er, unser grosbottschaffter, zu sehen, ob und
+                wie etwan auch dises werck mit geschicklichkeit und ohnvermerckt zu seinem stande
+                gebracht werde, da wir übrigens alles auf dessen prudenz und dahin ausstellen, das
+                im fall auch in re commerciorum was wichtiges vorfallete, worüber selber anoch in
+                zeit seiner an<pb facs="#IMG35" n="28r" break="no"/>weesenheit bey der Porten nähere
+                instruction bedörffte, er solche auch durch einen ohne deme beyhabendem courrier
+                ferers einhollen kunte. Hiernach ebenfalls </p>
+            <p>
+                <note place="left"><label>Art. XXII.</label> Über diesen art. werde ich zweifels
+                    ohne secundum statum prasentem rerum instruiret werden.</note> Zwey und
+                Zwanzigstens auf die granitz scheidung zu gelangen, so ist solche in <rs
+                    ana="MPRautomatched" ref="#mpr9423" type="place">Servien</rs>, wie auch in <rs
+                    ana="MPRautomatched" ref="#mpr14247" type="place">Bosnien</rs> völlig, in <rs
+                    type="place" ref="#mpr6938">Croatien</rs> aber bis <rs ref="#mpr15621"
+                    type="place">Novi</rs>, ingleichen von seiten der <rs type="place"
+                    ref="#mpr1794">Wallachey</rs> an der Donau völlig geschlossen, in denen ersten
+                dreyen gegenden auch die instrumenta divisionis limitum gegeneinander ausgewechslet
+                worden, also daß allein der fernere anstand auf einige bey <rs ref="#mpr15621"
+                    type="place">Novi</rs> in der Unna und andere in der Aluta gelegene insuln
+                ankommet und ob schon zu vermuthen stehet, es wurden solche von denen türckischen
+                commercien erwogene schwürigkeiten sich noch endlichen durch die beederseitige
+                commercien nach billigkeit abthuen lassen, mithin bey der Ottomanischen Porten
+                selbsten daraus eine negotiation zu machen nicht nöthig seye, so haben wir doch
+                ihme, unserem <rs type="person" ref="#mpr9435">grosbottschaffter</rs>, neben
+                anschliessung deren translatorum von der obberührten geendigten graniz scheidung,
+                auch von denen erster<pb facs="#IMG36" n="28v" break="no"/>nendten beeden
+                difficultaeten, um nach erfordernus darvon den behörigem gebrauch machen zu können,
+                die vollkomene information hiermit gnädigst ertheilen wollen und zwar ist ihme aus
+                dem art. 5 instrumenti pacis ohne deme wissend, daß uns <rs type="place"
+                    ref="#mpr15621">Neu Novi</rs> mit aller zugehör, wie solches nach dem
+                carlovizischen friden an die Türcken amore pacis abgetretten worden, ad
+                reconciciationem et satisfactionem hinwiderum zu restituiren kommet und zumahlen daß
+                nebenfindige türckische übernahms instrument und quittung klar in mund führet, daß
+                auch die darzu gehörige insuln damahlen übergeben worden, so schliesset sich von
+                selbsten gar klar, daß unß solche ebenfalls nunmehro zuruckzustellen seyen und sich
+                keines weeges erzwinge lasse als ob sie, Türcken, sothann insuln ausser des mehr
+                berührten <rs type="place" ref="#mpr15621">Neu Novi</rs> per pacem carlovicensem
+                überkommen und zu dem neu novischen gezirck nicht gehören thäten. Was aber die Aluta
+                concerniret, gibet der art. 1 pacis passarovicensis, daß diser flus zur fischerey,
+                    tran<pb facs="#IMG37" n="29r" break="no"/>ckung des viehes und anderen derley
+                nöthigen dingen zwar gemeinschäfftlich, denen türckischen unterthanen aber nur mit
+                fischer und anderen kleinen schifflein, unß und unseren unterthanen hingegen mit
+                lastschiffen darauf in die Donau hinaus und zurück zu fahren, folgbar unß ein
+                mehreres dominium oder gerechtsame darüber zugeeignet worden und derentwegen nicht
+                unbillig ware, daß wir alle darinen gelegene insuln praetendiren thätten. Wir wollen
+                aber auch hierinfalls alle mögliche moderation fürwalten lassen und derenthalben von
+                denen insuln, welche mehrers versus partem orientalem gelegen, nichts anforderen,
+                sondern allein bey denenjenigen verbleiben, welche disseits ex parte nempe
+                occidentali fluminis situiret, auch derentwegen die sehr ansehnliche insul <rs
+                    type="place">Romanaze</rs> ohne ferneren anspruch an die Türcken überlassen,
+                wormit sie hoffentlich vergnüget seyn und von der anderwärtigen praetension um so
+                mehrers abstehen werden, weilen die disseitige insuln von keiner wichtigkeit und
+                mehrers für <pb facs="#IMG38" n="29v"/> eine überschwemmung unsers territorii, alß
+                für eine absenderung anzusehen kommen, nichthin er, unser großbottschaffter, nach
+                disen principiis und weiterer anleitung deren beyligenden steinvilldischen
+                nachrichten bey erheischung deren umständen seine vorstellung zu machen hätte. </p>
+            <p> Drey und Zwanzigstens befinden sich an der Ottomanischen Porten bekanntermassen auch
+                bottschaffter und repraesentanten von verschidenen anderen christlichen mächten, mit
+                welchen allerseits eine gute correspondenz zu pflegen, damit die Türcken unser
+                ansehen in der Christenheit, auch daß mit denen alldasigen hohen haübtern obwaltende
+                gute vernehmen auch daraus erkennen mögen, zumahlen aber unß eben derentwegen
+                besonders daran gelegen, daß sothane correspondenz nach erheischung unseres
+                allerhöchsten decors beschehe, hingegen daß darbey zu beobachten kommende
+                ceremoniale sich auf mehrere casus reduciret, als hat er, unser grosbottschaffter,
+                darinen pro principio zu halten, <pb facs="#IMG39" n="30r"/> daß weilen wir <rs
+                    type="place" ref="#mpr3212">Engell-</rs> und <rs type="place" ref="#mpr15215"
+                    >Holland</rs> nur aus besonderen absichten auf dero und der Ottomanischen Porten
+                eigenes ansinnen pro mediatoribus bey der possarovizischen fridenshandlung
+                angenohmen und solche function durch den fridensschluß sich geendet, der
+                grosbrittanische bottschaffter, <rs type="person" ref="#mpr14961">Stanyan</rs>, auch
+                nicht einmahl darbey gewesen, solche nicht mehr pro mediatoribus anzusehen oder
+                ihren alldasigen ministris eine praerogatio derenthalben einzugestehen, sondern von
+                ihme, <rs type="person" ref="#mpr9435">graf Virmont</rs>, bey anlangung in <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> den
+                üblichen gebrauch nach seine ankunfft jedem deren auswendigen ministern durch einen
+                besonderen officier zu benachrichtigen, diejenige aber, welche an den <rs
+                    type="person" ref="#mpr14961">grosbrittanischen</rs>, <rs type="person"
+                    ref="#mpr14842">holländischen</rs> und etwan dazumahl schon anweesenden <rs
+                    type="person" ref="#mpr15746">venetianischen bottschaffter</rs> abgeschicket
+                werden, sich unterweegs dergestalten ohnvermerckt zu verweilen hätten, daß der zu
+                dem <rs type="person" ref="#mpr15352">französischen bottschaffter</rs> absendende
+                officier fast eine stund ehender zu solchem komme, mithin diser natürlicher weise
+                daß erste gegen oder empfangs <pb facs="#IMG40" n="30v"/> compliment machen; auch
+                die visite vor denen anderen frembden ministern ablegen könne, in erwegung zu zeiten
+                des <rs type="person" ref="#mpr10486">graf von Ötting</rs> seelig um willen solchen
+                der <rs type="person" ref="#mpr14961">großbrittanische</rs> vor dem <rs
+                    type="person" ref="#mpr15352">französischen</rs> besuchet, der leztere so dann
+                keine visite mehr gegeben hat, wohingegen neben geschweigung des von unseren erzhaus
+                der cron <rs type="place" ref="#mpr6873">Franckreich</rs> vor <rs type="place"
+                    ref="#mpr3212">Engelland</rs> jederzeit zugelegten ersten rangs unserem
+                allerhöchstem interesse daran gelegen, daß die zwischen unß und der erstbesagten
+                cron nunmehro obwaltende nähere einverständnus an der Ottomanischen Porten bekannt
+                gemacht und durch daß gute vernehmen beederseitiger ministern selbsten abgenohmen
+                werde. </p>
+            <p> Im fall sich aber gleichwohln ergebete, daß von ihme, unserem <rs type="person"
+                    ref="#mpr9435">bottschaffter</rs>, der <rs type="person" ref="#mpr14961"
+                    >großbrittanische</rs> vor dem <rs type="person" ref="#mpr15352"
+                    >französischen</rs> zur besuchung die stund begehrete, so wäre solcher
+                ohnbedencklich zu admittiren und bey abstattung der gegen visite die bey denen
+                    empfange<pb facs="#IMG41" n="31r" break="no"/>nen besuchungen gehaltene ordnung
+                zu beobachten, da sich ohnedem verstehet, daß der lezt angekomene minister eiusdem
+                gradus et caracteris von denen schon anweesenden die erste visite zu erwarten habe,
+                und obwohlen nicht wissend, daß der zeit von <rs type="place" ref="#mpr15434"
+                    >Moscau</rs>, <rs type="place" ref="#mpr1547">Pohlen</rs> oder einer anderen
+                souverainen macht ein internuntius oder envoyé extraordinaire an der Ottomanischen
+                Porten vorhanden oder dahin so geschwind zu kommen habe, so hätte doch er, <rs
+                    type="person" ref="#mpr9435">graf Virmont</rs>, allenfalls dahin zu sehen, daß
+                selber von einem nach seiner ankommenden ministro secundo classis die erste visite
+                empfange und in seinem eigenen haus die hand behalte, so dan aber dergleichen envoyé
+                extraordinaire jedoch nicht einem residenten oder noch geringere caracterisirten
+                person die solemne gegen visite hinwiderum abstatte, gleich wie aber sich dises
+                ersterwehnter massen alleine auf die repraesentanten deren souverainen mächten
+                    ver<pb facs="#IMG42" n="31v" break="no"/>stehet. Also kunte er, unser
+                grosbottschaffter, von denen ragusaeischen abgeordneten, die visite zwar anehmen,
+                jedoch solche nicht restituiren. Nebst deme hat sich bey der öttingischen
+                grosbottschafft ereignet, daß in dessen begleitung bey der abreyß von <rs
+                    ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> zwischen
+                der venetianischen und holländischen repraesentation ein praecedenz streitt
+                entstanden und eine der anderen vorgehen wollen, auch die erste gar sich ex publica
+                functione zu vermeydung alles praeiudiz retiriret hat, und obschon die <rs
+                    type="place" ref="#mpr1416">Republic Venedig</rs> vor der von <rs type="place"
+                    ref="#mpr15215">Holland</rs> dem rang nicht unbillig zu forderen, so hätte
+                jedoch er, unser bottschaffter, sich darein nicht zu mischen, sondern, sofern sie
+                sich nicht untereinander gütig einverstehten, vill mehrer zu dissimuliren, wann eine
+                oder andere oder auch beede ex hoc capite bey der öffentlichen begleitung ausbleiben
+                thäte. </p>
+            <p> Vier und Zwanzigstens pflegen die beede <rs type="person" ref="#mpr15442 mpr15618"
+                    >hospodarn</rs> in der <rs type="place" ref="#mpr1794">türckischen
+                    Wallachey</rs> und <rs ana="MPRautomatched" ref="#mpr14097" type="place"
+                    >Moldau</rs> eini<pb facs="#IMG43" n="32r" break="no"/>ge Boyaren oder agenten
+                stätts an der Ottomanischen Porten zu halten, welche sich bis anhero jederzeit in
+                nahmen ihrer principalen bey unsern ministern eingefunden und die weilen die gute
+                neigung sothaner beeden <rs type="person" ref="#mpr15442 mpr15618">hospodarn</rs>
+                respectu deren angränzenden landschafften auch in anderweeg allenmahl fürträglich
+                seyn kan, so hätte er, <rs ana="MPRautomatched" ref="#mpr9435" type="person">graf
+                    von Virmont</rs>, besagte ihre boyaren oder agenten auf beschehendes anmelden
+                freundlich zu tractiren, ihre principalen und die ganze nation bey vermuthender
+                nachbarlicher aufführung unserer höchsten gnad zu versichern, sich jedoch in ihre
+                daselbstige angelegenheiten nicht zu mengen oder solche durch eine zeigende
+                adhaerenz bey denen Türcken suspect machen, sondern die ihme gebende nachrichten mit
+                anscheinen lassender genehmhaltung ihres eyffers und devotion, ohne jedoch alles zu
+                glauben, anzuhören. Neben deme thuet sich </p>
+            <p> Fünff und Zwanzigstens ereignen, daß verschidene in unseren disseits der Aluta
+                gelegenen wallachi<pb facs="#IMG44" n="32v" break="no"/>schen districten sesshaffte
+                Boiaren und andere unterthanen, wie auch etwelche clöster in denen jenseitigen
+                türckischen gezürcken et versa vice verschidene türckische oder transalutanische
+                disseits einige güter und haabschafften eigenthumlich zu fordern haben, worinen wir
+                zu bezeugung aller benevolenz und guten nachbarschafft durch unseren
+                feldmarschallen, <rs type="person" ref="#mpr15348">comte de Steinville</rs>, den
+                jüngst abgestorbenen wallachischen hospoder <rs type="person" ref="#mpr15780">Joanni
+                    Mauro Cordato</rs> erklären lassen, wie wir gegen deme, daß ein gleiches
+                türkischer seits beschehe, auf die vor disem krieg ohne einzigen anstand beobachte
+                arth denen jenseitigen unterthanen, die in unserem landen habende güter und effecten
+                ferners ungekräncket geniessen lassen wolten, die weilen aber von solchem keine
+                antwortt darauf erfolget und was der successor <rs type="person" ref="#mpr15442"
+                    >Nicolaus Mauro Cordato</rs> in sachen zu thuen gedencked oder instruiret seyn
+                anoch unwissend. So hat er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, sich
+                des weiteren mit besagt unserem feldmarschallen, <rs type="person" ref="#mpr15348"
+                    >comte de Steinville</rs>, <pb facs="#IMG45" n="33r"/> zu vernehmen und bey der
+                Porten dises geschäffte nach unserem erstbedeutem absehen, in so weit es immer ohne
+                großen impegno seyn kan, um so mehrers einzuleiten, weilen unsere wallachische
+                unterthanen vill mehrers in dem türkischen gebiett, alß die alldasige in dem
+                unserigen zu suchen haben und zumahlen in disem casu specifico nichts widriges in
+                den fridens schluß enthalten, indeme die disseits der Aluta gelegene 5 districten
+                mit allen insassen und zugehörde unß durch den ersten articul pleno iure überlassen
+                und circa finem allein bey gerucket werden, daß die ex <rs type="place"
+                    ref="#mpr1794">Vallachia ottomanica</rs> in kriegs zeiten herüber geflohene
+                Boiaren und unterthanen zurück kehren und ihre güter hinwiderumen mit rucken zu
+                besizen, nicht aber, daß die disseits sesshaffte wegen ihrer accidentaliter et
+                simultanée darüber habenden gütern und effecten sich allda niderlassen solten, so
+                stehen wir nicht an, es werde die Ottomanische Porten gegen unserer freundlich in
+                der alten observanz gegründtes anerbietten kein absonderliches bedencken machen,
+                solte jedoch selbe gegen vermuthen sothanen <pb facs="#IMG46" n="33v"/> § art. 1
+                ungleich auslegen und alle, welche trans Alutam ein vermögen haben, mithin auch die
+                unseren Cis Alutanis districtibus domicilirende insassen zur besizung dahin positive
+                anhalten wollen, so kunten wir auch, wie es schon iure reciprocationis inhibiret
+                ist, denen türckischen unterthanen ihre güter in unserer <rs type="place"
+                    ref="#mpr1794">Wallachey</rs> und <rs type="place" ref="#mpr9372"
+                    >Sibenbürgen</rs> nicht geniessen lassen, sondern müsten solche gegen willen
+                einziehen und unseren durch dergleichen vorenthalt damnificirten unterthanen in so
+                weit solche erforderlich oder zuelänglich secundum proportionem damni passi
+                zutheilen lassen. </p>
+            <p>
+                <note place="left"><label>Ad art. 26.</label> Ob annoch einige von denen ungarischen
+                    rebellen im leben, ist mir unbekandten, wofern einige vorhanden wird nöthig
+                    seyn, daß ich deren nahmen specificiter überkomme, gleichwie auch annoch andere
+                    Ungarn die von zeit zu zeit zu denen Türckhen übergangen alda den vernehmen nach
+                    sich aufhalten sollen.</note> Sechs und Zwanzigstens ist der <rs type="person"
+                    ref="#mpr15310">Ragoczy</rs> sambt denen andern haübtern der vorgewesten
+                hungarischen rebellion zu <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopl</rs> anweesend und scheinet, daß selber bey gegenwärttigen
+                läuffen, um bey erster gelegenheit zu seinen meynaidigen vorhaben zu profitiren,
+                sich noch der orthen aufzuhalten suchen dörffte, weswegen er, <rs type="person"
+                    ref="#mpr9435">graf Virmont</rs>, ihne nach möglichkeit an der Porten zu
+                discreditiren, seine gegen unß stetts fortsezende untreu und wie sie, Porten, von
+                ihme sich nichts besseren zu getrösten und <pb facs="#IMG47" n="34r"/> dermahlen
+                wenig vortheil zugewartten, bey sich aüsserender thunlichkeit vorzustellen und zu
+                sehen, selber nicht etwann nach dem exempel des <rs type="person" ref="#mpr15663"
+                    >Tekeli</rs> in Asien verschaffet und andurch von dem türckischen hof mehrers
+                entfernet werden könne, zumahlen aber dises allein auf eine negotiation ankommet,
+                indeme die Türcken durch den fridensschluß darzu nicht gebunden, als wirdet der
+                ausgang zu gegenwärttigen hingegen auf die abschaffung deren in <rs type="place"
+                    ref="#mpr1794">Wallachey</rs> und <rs ana="MPRautomatched" ref="#mpr14097"
+                    type="place">Moldau</rs> anweesenden ragoczischen adhaerenten mit so mehrern
+                nachdruck positive zu dringen seyn, weilen solches gesuech in dem possarovizischen
+                friden ausdrucklich gegrindet ist und er, <rs type="person" ref="#mpr15310"
+                    >Ragoczy</rs>, stetts gefährlichen correspondenz in <rs type="place"
+                    ref="#mpr1398">Hungarn</rs> und <rs type="place" ref="#mpr9372">Sibenbürgen</rs>
+                unterhalten thuet. </p>
+            <p>
+                <note place="left"><label>Ad art. 27.</label> Wie dieseß auf die herüber getrettene
+                    Albanier und den lezten tractat einzurichten, ist mir auß ermanglung der
+                    wißenschafft, wie die umstände beschaffen, unbekandt.</note> Siben und
+                Zwanzigstens dörffte sich auch ergeben, daß von denen türckischen unterthanen an die
+                disseitige und absonderlich diejenige, welche den lezt abgeflossenen krieg unter
+                unsere bottmässigkeit gekommen, wie es schon an denen granizen beschehen, einige
+                forderungen stellen und sich darmit an ihne, unseren grosbottschaffter pro
+                    decernen<pb facs="#IMG48" n="34v" break="no"/>da satisfactione wenden thätten,
+                als wäre solchem fall zwischen denen vorkommenden schulden ein unterschied zu
+                machen, ob nemlichen solche von einer contribution oder einem ausstand deren
+                unterthanen an ihre vorige grundherrn oder von einem privat geschäffte herrühren
+                thuen und gleichwie in dem ersten durch den achten articul pacis passarovicensis die
+                abstattung deren ausständigen contributionen aufgehoben, also können auch die vorige
+                inhaaber derer unter unsere bottmässigkeit wehrenden krieg gebrachten dörffern keine
+                restanzen mit fueg forderen, weilen keiner solche iure proprietario besessen,
+                sondern nur quasi timariotae loco stipendii ad certum tempus genossen, mithin per
+                occupationem iure belli ihr ganzes recht sogleich erloschen und an unß übertragen
+                worden, wohingegen es der billigkeit und dem iuri gentium einstimig, daß nach
+                nunmehro hergestellten friden die particulares ihre gegeneinander vor dem krieg in
+                handl und wandl gemachte schulden abtragen und auf anmelden die hand um so vill
+                willfähriger gebotten werd<pb facs="#IMG49" n="35r" break="no"/>e, damit daß
+                vertrauen unter beederseits unterthanen bey nunmehro einleitenden commercio desto
+                füglicher vermehret werde und zu mahlen es in disem lezterem membro auf den modum
+                tractandi ankommet, also werden wir an unsere granitz generalen gnädigst verordnen
+                lassen, daß selbe auf anmelden deren Türcken die stellende forderungen durch die
+                beyhabende auditoriat ämbter summarie untersuchen und nach befund der liquiditet
+                denen praetendenten zu dem ihrigen schleunig verhelffen oder in widrigen die
+                beklagte absolviren und die ungegründte kläger abweisen er, unser grosbottschaffter,
+                aber derley an ihne bringende klagen nach veranlassung des art. 9 instrumenti pacis
+                an die gräniz verweisen und mit seinem schreiben begleiten, die daselbstige
+                generalen auch ihme darüber die behörige auskunfft geben sollen und weilen mit disem
+                auch in anderen geschäfften und insonderheit dem feldmarschallen, <rs type="person"
+                    ref="#mpr15348">comte de Steinville</rs>, und dem obristfeldwachtmeister, <rs
+                    ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs>, zu
+                correspondiren seye dörffte, so legen wir ihme einen besonderen zifferschlüssel <pb
+                    facs="#IMG50" n="35v"/> hiebey an, dessen er sich gegen solche tali casu
+                bedienen kan. </p>
+            <p> Acht und Zwanzigstens hat bey unß vermög anligenden convoluti die <rs type="place"
+                    ref="#mpr1416">Republic Venedig</rs> die ansuchung gethan, daß wir wegen
+                zuruckstellung ihrer bey <rs type="place" ref="#mpr15331">Dulcigno</rs> nach dem
+                armistitio hinweck genohmenen leuthen und effecten unsere officia interponiren
+                möchten, und gleichwie dises lauth copeylicher anlaage bereits schrifftlichen
+                beschehen, also hätte er, <rs ana="MPRautomatched" ref="#mpr9435" type="person">graf
+                    von Virmont</rs>, darinen pro re nata anoch fortzufahren, und was etwann durch
+                freundliche vorstellung zu erhalten, weiters zu sehen, auch mit dem <rs
+                    type="person" ref="#mpr15746">venetianischen bailo</rs>, als einem minister
+                unser ex foedere sacro wissentlichen aliirten in denen daß gemachte fridens werck
+                und deshalben gebührende execution betreffenden fällen eine engere aus besagtem
+                foedere sacro unß obligende verbind- und verständnus zu erkennen geben, folgbar
+                solchem dise habende ordre anzuzeigen, auch bey ereignender begebenheit mit
+                recommendation und anderen guten officiis zu assistiren, allermassen ein solches
+                jedesmahl so wohl respectu der <rs type="place" ref="#mpr1416">Republic <pb
+                        facs="#IMG51" n="36r"/> Venedig</rs> einen guten effect und mehrere
+                consideration derenselben bey denen Türcken zu wegen bringen, alß zugleich unserer
+                höchsten reputation zum besten angedeyen kan, im fall jedoch der <rs type="person"
+                    ref="#mpr15746">venetianische bailus</rs> oder andere an der Ottomanischen
+                Porten anweesende bottschaffter einige von grösserer wichtigkeit und insonderheit
+                daß türckische fridens weesen nicht betreffende dinge ihnen, unsern
+                großbottschafftern, proponireten, hätte er zwar alles anzuhören, jedoch sich aus
+                anziehenden defectu mandati in nichts einzulassen, sondern lediglich ad referendum
+                zu nehmen und uns gehorsambst zu berichten. </p>
+            <p> Neun und Zwanzigstens wollen wir auch denselben die iurisdiction über seine
+                mithabende suite jedoch dergestalten hiermit gnädigst ertheilen, daß er sich
+                solcher, ausser es thäte die ratio publica erheischen und ein periculum in mora
+                unterlauffen, in infligenda poena vitae vel alia graviori nicht gebrauchen, sondern
+                allein die etwann betrettene excedenten arrestiren und zu seiner zeit auf solche
+                weis zurück heraus führen und zur rechtlichen erkanntnus übergeben lassen solle. Im
+                fall <pb facs="#IMG52" n="36v"/> sich aber ereignete, daß die Türcken einen seiner
+                leuthen einfangen und anhalten liessen, hätte er die abfolglassung unter
+                versicherender billigen satisfactions ertheilung anzusuchen, sich ad praerogativam
+                legatorum und daß mit der türckischen bottschafft allhier beobachtende reciprocum zu
+                beziehen, bey verweigerung gegen all widriges zu protestiren und den verlauff anhero
+                nacher hof zu berichten. </p>
+            <p> Dreyssigstens ist er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, mit denen
+                benöthigten canzley personen, dollmetschen, sprachknaben und courriers, ingleichen
+                einen ingenieur, dan deren praesenten auch zu deren obsicht und austheilung halber
+                mit einem cassier versehen, um sich deren zu unserer dienst in vorfallenden
+                begebenheiten ihrer function nach<add place="superlinear">zu</add>gebrauchen, wenn
+                wir aber bey seinem abzug von <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopl</rs> um unseren angelegentheiten bey der Ottomanischen Porten
+                sodann weiters zu besorgen für unseren minister oder residenten zu bestellen für gut
+                finden werden, darüber wollen wir ihme zu seiner zeit unsere gnädigste meynung
+                ferers wissen lassen, da sich benebens ohne dem verstehet, daß die dollmetsch <pb
+                    facs="#IMG53" n="37r"/> und sprachknaben allda zu verbleiben und der <rs
+                    type="person" ref="#mpr15667">Forner</rs> allein bis etwan nacher <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> mit ihme, <rs
+                    ana="MPRautomatched" ref="#mpr9435" type="person">grafen von Virmont</rs>,
+                herauszugehen, sodann aber hinwiderumen nacher bedeutens <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopl</rs> zuruckzukehren habe. </p>
+            <p>
+                <note place="left"><label>Ad art. 31.</label> Nachdeme hiervon mir nichts bekandt,
+                    so werde unentpährlich nöthig haben, daß einer instruction eine specification
+                    beygeleget werde, über die personen, welche sich vor den krieg zu ihr <rs
+                        type="person" ref="#mpr9399">ksl. Mt.</rs> allerhöchsten dienst haben
+                    gebrauchen laßen, auch wie viel sie etwa jährlich in geld bekommen haben und ob
+                    sie währenden krieg nicht außgesezet haben einige gute dienst zu leisten.</note>
+                Ain und Dreyssigstens ist ihme, unseren grosbottschaffter, ohnedeme bekannt, was der
+                zeit für personen zu führung der geheimen correspondenz allda bestellet seynd,
+                welche noch ferers zu gebrauchen und nach proportion ihrer leistenden diensten zu
+                remuneriren, dem <rs type="person" ref="#mpr10485">Nicolao Theyls</rs> auch die ihme
+                untern <date when="1719-01-01">1. Januarii 1719</date> beygelegte jährliche pension
+                per 1200 fl. von denen zu geheimen ausgaaben beyhabenden geldern abzuführen und
+                benebens zu sehen, wie auch durch andere weeg die bey der Porten vorkommende
+                wichtigkeiten, insonderheit daßjenige, was etwann von dem <rs type="person"
+                    ref="#mpr16074">Duc d´Anjou</rs><note>Gemeint ist Philipp V. von Spanien. Obwohl
+                    seine Königswürde mit dem Ende des Spanischen Erbfolgekrieges auch von den
+                    Habsburgern anerkannt wurde, wurde er intern noch länger mit seinem früheren
+                    Titel als Herzog von Anjou bezeichnet.</note> dem <rs type="person"
+                    ref="#mpr15310">Ragoczy</rs> oder auch uns abgeneigten christlichen mächten,
+                ingleichen dem <rs type="person" ref="#mpr15433">czaar</rs> daselbst verhandlet
+                wirdet zu entdecken, auch eine stette correspondenz anhero durch verschidene weeg
+                einzuleiten suchen und an unß durch unseren <pb facs="#IMG54" n="37v"/> hof kriegs
+                rath seine relationes abzustatten hat, wo anbey die wichtigere nachrichten entweders
+                durch einen eigenen courrier oder wenigstens bis <rs ana="MPRautomatched"
+                    ref="#mpr9425" type="place">Belgrad</rs> abferttigenden janitsaren zu
+                überschicken seynd, welche leztere dahin zu instruiren, daß solche die brieff allda
+                unserem obrist feldwachtmeister, <rs ana="MPRautomatched" ref="#mpr14241"
+                    type="person">graf von Oduyer</rs>, zu weiterer beförderung aushändigen und
+                darüber die antwortt abwartten und zuruckbringen thuen, er, unser grosbottschaffter,
+                auch dem erstgedachten, <rs ana="MPRautomatched" ref="#mpr14241" type="person"
+                    >grafen von Oduyer</rs>, jedesmahlen anzeige, ob die brieffe der ordinari
+                beyzulegen oder einer mehreren wichtigkeit halber durch staffeten oder expresse
+                anhero zu befördern, wohingegen die abschickende courriers seit jedes mahlen
+                selbsten anhero zu verfügen haben, damit aber derselbe seine berichte desto sicherer
+                und ohnbedencklicher abstatten möge, so haben wir ihme den nebenkommenden
+                zifferschlüssel zuzustellen gnädigst verordnet, dessen er sich an uns oder obgedacht
+                unsern hofkrigesrath in denen wichtigeren vorfallenheiten zu gebrauchen hat. </p>
+            <pb facs="#IMG55" n="38r"/>
+            <p> Zwey und Dreyssigst und schliesslichen thuen wir alles daß weitere, was in zeit und
+                gelegenheit diser bottschafft zu unseren dienst, dan unserer erbkönigreich und
+                landen, auch gränzen und unterthanen besten sicherheit, aufnahm und nuzen gereichet
+                und in diser instruction nicht begriffen, sich jedoch ereignen mag, sein unsers
+                grosbottschaffters beywohnenden rühmlichen conduite, vernunfft in politicis
+                erworbenen stattlichen erfahrnus und besonders in verschidenen wichtigen
+                begebenheiten gezeigten getreuen eyffer gänzlichen vertrauen und gnädigst nicht
+                zweifflen, er werde all solches bestens und getreulich beobachten, obigen punctis
+                gebührend nachkommen und seiner pflichtmässigen sorgfalt und aufmercksamkeit gemäss
+                alles gezimend beobachten, was unser allerhöchster dienst interesse und decor bey
+                diser abschickung erheischen thuet und wir verbleiben ihme anbey mit ksl. hulden und
+                gnaden besonders wohl beygethan. Geben auf unsere <rs type="place" ref="#mpr10351"
+                    >schloß Laxenburg</rs> den <date when="1719-05-06">6 monaths tag May,
+                    1719</date> unserer reiche p. p. </p>
+            <pb facs="#IMG56" n="38v"/>
+            <metamark><date when="1719-05-06">1719 6. Mai</date></metamark>
+
+
+
+        </body>
+    </text>
+
+
+
+
+
+</TEI>

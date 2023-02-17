@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 31. Mai 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Belgrade, May 31, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.l.hbg.17190531.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 1r-2v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 31. Mai 1719, bearb. von Lisa Brunner, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/792680/">Belgrad</placeName>
+                    <date when="1719-05-31">31. Mai 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/118560107">Karl VI.</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190531"> Letzter Brief von 
+                        <persName>Damian Hugo von Virmont</persName> 
+                        an den
+                        <orgName>Hofkriegsrat</orgName> :
+                            <date when="1719-05-31">31. Mai 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190603"> Nächster Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an den <rs type="person">Hofkriegsrat</rs>:
+                            <date when="1719-06-03">3. Juni 1719</date>
+                    </ref>
+                </correspContext>
+
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>emplyment of Nicola Theyls</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="5KV_1r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="5KV_1v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="5KV_2r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="5KV_2v.jpg" xml:id="IMG4"/>
+        </surface>
+
+    </facsimile>
+
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="1r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720"><supplied resp="#lb">Nr.</supplied> 5</ref> d.d. <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                <date when="1719-06-03">3. Junii 1719</date></metamark>
+            <note type="editorial" resp="#lb">Es handelt sich hier um eine falsche Datierung der Hofkanzlei.
+                Damian Hugo von Virmont nennt am Ende des Briefes als Ausstellungsdatum den 31. Mai 1719.</note>
+           
+            <opener>
+                <salute>Hochloblicher ksl. hoff kriegs rath.</salute>
+            </opener>
+            
+            <p> Euer durchleuchtigsten excellens, meinen gnädig auch hochgeehrtesten herren wirdt
+                ohne zweiffel durch herrn general <rs type="person" ref="#mpr14241">graffen von
+                    Odoer</rs> schon berichtet worden sein, wie das der geweste hollendische
+                dolmetsch, <rs type="person" ref="#mpr10485">Nicolo Teils</rs>, sich alhier
+                eingefunden. Ich habe ihme mitt vermainden alhier ahngetroffen undt gleich er sich
+                bey mihr alsbaldt ahngeben, als habe ich meine verwunderung so wohl ob seinem hier
+                sein, als geschehener resignation bey dem hollandischen diensten nitt bergen mögen.
+                Ich fandt ihme resolviret, nach dem ksl. hoff abzugehen undt promittiret er sich,
+                das ihme nitt fehlen könne oder würde, das man ihme als einen ksl. dolmetsch als
+                baldt <pb facs="#IMG2" n="1v"/> wieder zuruck schicken wurde, zumahlen er es also zu
+                    <unclear reason="illegible"><supplied resp="#lb" reason="absent"
+                    >m</supplied>achen</unclear> glaubte, das mitt der post annoch bey oder vohr
+                meiner ahnkombft in <rs ana="MPRautomatched" ref="#mpr14055" type="place"
+                    >Constantinopel</rs> einträffe. Vermeinent, das er zu ksl. diensten sehr nutz
+                sein wurde undt scheinte sich mitt einer mehrerer capacitet undt weit mehrer
+                experiens ahne der ottomannischen Porten als der bey mihr seinde <rs type="person"
+                    >ksl. dolmetsch</rs> nitt besitzete zu vantiren. Nun lasse ich diesser seiner
+                    <unclear reason="illegible">ahrts</unclear> dahin gestelt sein <del
+                    rend="cancelled">lassen</del>, kan auch nitt in abrede sezen, das er fleissig,
+                wohl undt nuzlich gedienet hatt, auch mehr zu <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopel</rs> zu ihro <rs type="person"
+                    ref="#mpr9399">ksl. Mt.</rs> dienst (obwohlen nitt mehr wie vorhin directe
+                jedoch indirecte undt durch andere) vieleigt dienlich sein könte. Allein ist einem
+                hochloblichen ksl. hoff kriegs rath <pb facs="#IMG3" n="2r"/> gar zu wohl bekent,
+                wie undt auff was weise er gedienet, undt wie dergleichen leuten zu trauen, welche
+                auff solch ahrt einem herren, so sie mitt pflicht zugetahn, gedienet haben. Ich kan
+                aber auch nitt in abrede sezen, das, wan ein minister die leut kennet undt weiter
+                nitt, als was er sich vermeint undt nitt geheimb halten will ahnvertrauet, man sie
+                gleichwohl, wie der medicus das gifft, gebrauchen undt appliciren kan undt in
+                solchem fahl ein titel oder nahm mehr machet.
+                Ich habe dan diesses alles eine hochloblichen ksl.
+                hoffkriegsraht hohen guttachten, da nur noch diesses bey zu hencken habe, das ich in
+                forcht, er möchte vieleigt, der obgemelter <rs ana="MPRautomatched" ref="#mpr10485"
+                    type="person">Teils</rs>, einen hochloblichen hoffkrigsraht zu <rs
+                    ana="MPRautomatched" ref="#mpr13416" type="place">Wien</rs> (da ich dern
+                gedencken in diesser sachen nitt wissen kan) vieleigt zu mehrerem <unclear
+                    reason="illegible">embera</unclear>, diesen persuadiret, alhier auf seine
+                abgelassene brief undt ob er hinauff kommen solte eine andwohrt zu <gap
+                    reason="illegible"/> zwar mitt mihr persuadiret. Ich denke, glaubt ihme zu
+                persuadiren, andere dienst <pb facs="#IMG4" n="2v"/>
+                <metamark><date when="1719-06-03">1719 3. Juni</date></metamark>
+                <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs>
+                    den <date when="1719-06-11">11. Junii 1719</date></metamark>zu suchen undt
+                gleichwohl die pension neben anderen seinen diensten proportion <gap
+                    reason="illegible"/> reconpensen zu geniessen. Allein umbsorcht, er kembt mihr
+                fest desperat vohr, er kan mitt reputation, mitt ehre ohne einen titel oder nahmen
+                eine ksl. dolmetsch oder dergleichen unmoglich mehr auff <rs ana="MPRautomatched"
+                    ref="#mpr14055" type="place">Constantinopel</rs>, seiner meinung nach, mitt
+                kommen, wan man ihm nitt consoliret, glaubt er, es wirdt niemandt so bald mehr in
+                ksl. diensten, mitt solchem risico wie er gethan, brauchen lassen. Er verlange kein
+                zulag, seines mehreren gehalts seie mitt der pension zu frieden, aber ohne den
+                nahmen eines ksl. dieners kan er mitt reputation nitt mehr leben, <unclear
+                    reason="illegible">nach</unclear> seiner meinung. <supplied resp="#lb"
+                    reason="damage">B</supplied>esser, alles habe also gehorsambst zu berichten
+                mitthin mich zu gnaden empfelen sollen als</p>
+                <p>dem hochloblichen hoffkrigsrahte</p>
+                
+                <closer><signed>Untertahnig gehorsamb <gap reason="illegible"/> diener
+                <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo von Virmont</rs></signed>
+                <address><rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs></address> 
+                <dateline>den <date when="1719-05-31">31. Maii 1719</date></dateline>
+                </closer>
+            
+            
+
+            
+        </body>
+    </text>
+</TEI>

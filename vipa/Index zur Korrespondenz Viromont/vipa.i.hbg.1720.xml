@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Index zu den Briefen Damian Hugos von Virmont an den Wiener Hof, [Wien], o.J.</title>
+                <title xml:lang="en">Index on the letters of Damian Hugo von Virmont to the viennese court, [Vienna], n.d.</title>
+                <!-- JS: removed @ref from persName here; info in teiHeader should be 'plain' for processing/harvesting reasons -->
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName>
+                </publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.i.hbg.1720</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="http://gams.uni-graz.at/qhod">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie
+                    (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 186, fol. 288r-299v, 302r-302v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Index zu den Briefen Damian Hugos von Virmont an den Wiener Hof, [Wien], o.J., 
+                    bearb. von Lisa Brunner und Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), 
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.i" type="context">
+                        Indizes
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <list>
+                    <item>index of letters</item>
+                </list>
+            </abstract>
+ 
+                
+            
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+           
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="Index_302r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="Index_302v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="Index_288r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="Index_288v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="Index_289r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="Index_289v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="Index_290r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="Index_290v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="Index_291r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="Index_291v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11"><graphic url="Index_292r.jpg" xml:id="IMG11"/></surface>
+        <surface start="#IMG12"><graphic url="Index_292v.jpg" xml:id="IMG12"/></surface>
+        <surface start="#IMG13"><graphic url="Index_293r.jpg" xml:id="IMG13"/></surface>
+        <surface start="#IMG14"><graphic url="Index_293v.jpg" xml:id="IMG14"/></surface>
+        <surface start="#IMG15"><graphic url="Index_294r.jpg" xml:id="IMG15"/></surface>
+        <surface start="#IMG16"><graphic url="Index_294v.jpg" xml:id="IMG16"/></surface>
+        <surface start="#IMG17"><graphic url="Index_295r.jpg" xml:id="IMG17"/></surface>
+        <surface start="#IMG18"><graphic url="Index_295v.jpg" xml:id="IMG18"/></surface>
+        <surface start="#IMG19"><graphic url="Index_296r.jpg" xml:id="IMG19"/></surface>
+        <surface start="#IMG20"><graphic url="Index_296v.jpg" xml:id="IMG20"/></surface>
+        <surface start="#IMG21"><graphic url="Index_297r.jpg" xml:id="IMG21"/></surface>
+        <surface start="#IMG22"><graphic url="Index_297v.jpg" xml:id="IMG22"/></surface>
+        <surface start="#IMG23"><graphic url="Index_298r.jpg" xml:id="IMG23"/></surface>
+        <surface start="#IMG24"><graphic url="Index_298v.jpg" xml:id="IMG24"/></surface>
+        <surface start="#IMG25"><graphic url="Index_299r.jpg" xml:id="IMG25"/></surface>
+        <surface start="#IMG26"><graphic url="Index_299v.jpg" xml:id="IMG26"/></surface>
+        <surface start="#IMG27"><graphic url="Index_302r.jpg" xml:id="IMG27"/></surface>
+        <surface start="#IMG28"><graphic url="Index_302v.jpg" xml:id="IMG28"/></surface>
+        
+        
+        
+    </facsimile>
+    <text type="report">
+        <body>
+        <pb facs="#IMG1" n="302r"/>
+            <p>Nr. 70 fasc. 70</p>
+            <p>Relationes</p>
+            <p>Des <rs ana="MPRautomatched" ref="#mpr9435" type="person">grafens von Virmont</rs>, so er in der zeit der verrichten
+                grosbottschafft an der ottomannischen Porten
+                <date from="1719" to="1720">anno 1719 et 1720</date> abgestattet.
+            Bestehende
+            in 57 stucken, jede mit denen beylaagen beleget.
+            Sambt ainem indice und kurzen extract über die darinen enthaltene materias.</p>
+            
+        <pb facs="#IMG2" n="302v"/>
+            
+        <pb facs="#IMG3" n="288r"/>
+            <note type="editorial" resp="#lb">Am linken oberen Blattrand einer jeden recto-Seite
+                befindet sich eine zeitgenössische Foliierung. Diese wird für die Seitenzählung
+                nicht verwendet, stattdessen wird die zu einem späteren Zeitpunkt vom Archiv
+                vergebene Foliierung verwendet.</note>
+            <p>Index <date when="1719">1719</date></p>
+            <p>Yber die von dem ksl. geheimben und hofkriegsrath,
+                general feldzeügmaister und bestelten obristen herrn <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo grafen von Virmont</rs>
+                als an der ottomannischen Pforten ksl. grosbotschafftern abgestatte relationes.</p>
+            
+            <list><item corresp="o:vipa.l.hbg.17190527">
+            <p>
+                <ref target="/o:vipa.l.hbg.17190527">Nr. 1</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9458" type="place">Erdöd</rs> 
+                <date when="1719-05-27">27. Maii 1719</date> ohne beylag. Berichtet den forthgang seiner raise und daß ein page des <rs type="person" ref="#mpr15403">grafen
+                    Bathyan</rs> einen laggey des <rs type="person" ref="#mpr15405">grafen von Türheimb</rs>
+                        erstochen. <metamark>NB das hier fehlende findet sich in den entsprechenden
+                            Jahrgängen 13/12 1872 Foluanz.</metamark>
+                    </p>
+            </item>
+            
+            
+           <item corresp="o:vipa.l.hbg.17190528">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190528">Nr. 2</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr14653" type="place">Buckovar</rs>
+                        <date when="1719-05-28">28. Maii 1719</date> ohne beylaagen. Berichtet den
+                        forthgang der raise. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190531">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190531">Nr. 3</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> den <date when="1719-05-31">lezten Maii 1719</date> ohne
+                        beylag. Berichtet dasige ankunfft und wie man sich wegen des ceremoniale der
+                        auswechslung mit dem daselbst angekombenen <rs type="person">aga</rs>
+                        vergleichen werde. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190603">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190603">Nr. 4</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> den <date when="1719-06-03">3. Junii 1719</date> ohne
+                        beylag. Berichtet die regulirte zeith und ceremoniale der auswechslung. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190531.2">
+                <p> <ref target="/o:vipa.l.hbg.17190531.2">Nr. 5</ref> <date when="1719-05-31"><rs type="place" ref="#mpr9425">de eodem</rs></date> ohne allegato.
+                            <note type="editorial" resp="#lb">Es handelt sich hier wohl um eine
+                            falsche Datierung der Hofkanzlei. Damian Hugo von Virmont nennt am Ende
+                            des Briefes als Ausstellungsdatum den 31. Mai 1719.</note>
+                            Berichte<supplied resp="#lb" reason="absent">t</supplied> die ankunfft
+                        daselbst des gewesten holländischen dolmetschens <rs type="person" ref="#mpr10485">Nicola
+                            Theylls</rs> und das er ksl. dienst suche, worauf <pb facs="#IMG4" n="288v"/> er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, seyn mainung
+                        beyrucket. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190607">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190607">Nr. 6</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                        <date when="1719-06-07">7. Junii 1719</date> ohne beylag. Antworttet auf daß
+                        rescript von <date when="1719-05-31">lezten Maii</date>. </p>
+            <p>
+                Berichtet die ursachen, warumben er annoch gegen die gränzen nicht aufbrechen können.
+            </p>
+            <p>
+                Die communicirte copia der dem <rs type="person" ref="#mpr9441">grosvezier</rs> durch
+                den <rs type="person">Mustaffa aga</rs> erthailten antwortt wegen
+                der gränzschaidungs-differenz an der Aluta diene zur nachricht.
+            </p>
+            <p>
+                Die religions-angelegenheithen und was <rs type="place" ref="#mpr14155">Terram Sanctam</rs> betrifft, werde er beobachten.
+            </p>
+            <p>
+                Berichtet weithers,
+                was er wegen erlösung der gefangenen und in specie
+                der aus dem <rs type="place">Zatmarer Comitat</rs> in tartarischer sclaverey befindlichen nöthig zu seyn glaube.
+            </p>
+            <p>
+                Das instrumentum ceremoniarum bey der auswechslung seye unterschriben
+                und warumb auch der weeg auf
+                der Donau und über daß <rs type="place" ref="#mpr14149">Schwarze Meer</rs> <add place="left">zur rais der botschafft</add>
+                stipuliret worden. 
+            </p>
+            <p>
+                P.S. <date when="1719-06-07">de eodem</date> ohne beylag. Enthaltet,
+                daß die commandirte zur auswechslung den <date when="1719-06-08">8. eiusdem</date> zu <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> eintreffen werden.
+            </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190609">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190609">Nr. 7</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> den <date when="1719-06-09">9. Junii 1719</date> ohne
+                        allegato. Berichtet, daß er disen tag von <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> aufbrechen <pb facs="#IMG5" n="289r"/> und der
+                            <rs type="person" ref="#mpr10485">Theylls</rs>
+                        ihme folgen werde. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190622">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190622">Nr. 8</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <add place="superlinear">Erstes</add> feldlager über <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>
+                        <date when="1719-06-22">22. Junii 1719</date> nebst 3 beylaagen. Ad <rs type="person" ref="mpr9399">caesarem</rs>. Berichtet seine bis dahin abgelegte rais,
+                        die vorbeygegangene auswechslung an denen gränzen, die ankunfft, visite,
+                        revisite und abrais von <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>, warumben er nicht in
+                        der statt logiert und was sonsten bey dergleichen
+                        vorfallenheithen passiret. </p>
+            <p>
+                Werde deme nachkomben, was ihme in pohlnischen sachen den <date when="1719-06-10">10. dito</date> befohlen worden.
+            </p>
+            <p> P.S. <date when="1719-06-22">de eodem</date> ohne beylag.
+                        Berichtet, was ihme ein kaufman von vorhabender
+                        aufruhr der janitscharen zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> und, daß sie die
+                        ksl. grosbotschafft beschimpfen wollen, hinterbracht. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190622.2"> 
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190622.2">Nr. 9</ref>
+                        <date when="1719-06-22">de eodem</date> nebst 4
+                        allegatis. Antworttet auf die rescripta vom <date when="1719-06-07">7.</date> und <date when="1719-06-10">10. dis</date>, werde daß
+                        weithere wegen des <rs type="person" ref="#mpr10485">Theylls</rs> erwarthen und daß gebrauch
+                        von der mappa über die Aluta machen. Schliesset bey,
+                        was er an ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> p. unter ainstens schreibet. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190630">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190630">Nr. 10</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>
+                        <date when="1719-06-30">30. Junii 1719</date> ohne beylag. Berichtet den
+                        forthgang der raise und wie er sich des <rs type="person" ref="#mpr10485">Theylls</rs>
+                        persohn in daß künfftige gebrauchen werde. </p>
+            
+            <pb facs="#IMG6" n="289v"/>
+            <p>
+                Die religions-sachen zu <rs type="place" ref="#mpr15308">Scio</rs> werde er sich angelegen halten. 
+            </p>
+            <p> Machet eine kurze beschreibung der statt <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> und wie er
+                        darinnen empfangen worden. </p>
+            <p> Entlich, daß ihme der janitscharen aga zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> einen in <rs type="place" ref="#mpr1523">Corfu</rs> gefangenen Italianer frey gegeben. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190709">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190709">Nr. 11</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> lagerung über <rs ana="MPRautomatched" ref="#mpr9442" type="place">Philippopoli</rs>
+                        <date when="1719-07-09">9. Julii 1719</date> ohne allegatis. Berichtet, daß
+                        sich ansteckende krankheithen in dem türkischen verspüren lassen. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190718"> 
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190718">Nr. 12</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14060">Adrianople</rs>
+                        <date when="1719-07-18">18. Julii 1719</date> ohne beylag. Berichtet den
+                        daselbst gehaltenen einzug, die pesst in dem türkischen und was er
+                        diserwegen auch der künfftigen logirung halber zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> fürgekheret. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190813">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190813">Nr. 13</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place"
+                             ref="#mpr14713">Hasnadar Ciftigli</rs>
+                        <date when="1719-08-13">13. Augusti 1719</date> ad <rs type="person"
+                             ref="#mpr9399">caesarem</rs> nebst 2 allegatis. </p>
+            <p>
+                Beschreibet den von <rs type="place" ref="#mpr14060">Adrianople</rs> aus forthgesezten zug,
+                den gesundheitsstand und was er derenthalben bey seiner suite veranstalten müssen. 
+            </p>
+            <p>
+                Seye auf dem marche von einem ragusaeischen dolmetschen complimentiret worden.
+            </p>
+            <p>
+                Habe die zeith des einzugs und audienzien concertiren, auch die ankunfft denen ausländischen 
+            
+            <pb facs="#IMG7" n="290r"/>
+                ministris erindern lassen.
+            </p>
+            <p>
+                Der <rs type="person" ref="#mpr9441">grosvezier</rs> habe ihm durch einen aga confecturen und blumen verehret.
+            </p>
+            <p>
+                Beschreibet den gehaltenen einzug zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs>. 
+            </p>
+            <p>
+                Ingleichen die besuchung des <rs type="person" ref="#mpr9441">grosveziers</rs>.
+            </p>
+            <p>
+                Item die audienz bey dem <rs type="person" ref="#mpr14244">sultan</rs> und was darbey vorgegangen.
+            </p>
+            <p>
+                Habe auch dem <rs type="person" ref="#mpr15779">moscovitischen minister</rs> an der Pforten seine ankunfft notificirn lassen.  
+            </p>
+            <p>
+                Berichtet den aufenthalt deren hungarischen rebellen.
+            </p>
+            <p>
+                Der <rs type="person" ref="#mpr15352">französische bottschaffter</rs> habe ihm die visite gegeben.
+            </p>
+            <p>
+                Ingleichen der <rs type="person" ref="#mpr14961">engelländische</rs>,
+                was diser von der moscovitischen negotiation an der Pforthen
+                gegen den <rs type="person" ref="#mpr9399">kayser</rs> und <rs type="place" ref="#mpr1547">Pohln</rs> für einen discurs geführet.
+                Item von der aufführung des <rs type="person" ref="#mpr15352">französischen botschaffters</rs>.
+                Möchte von <rs ana="MPRautomatched" ref="#mpr6954 mpr9482" type="place">Paris</rs> aus instruiret werden, daß er die alda anweesende rebellen nicht fovire.
+            </p>
+            <p>
+                P.S. <date when="1719-08-13">de eodem</date> ohne beylag. Werde wegen der gränz-schaidungs-differenz
+                an der Aluta bis weithere erwarthende auskunfft keine anregung thuen. 
+            </p>
+            </item>
+            
+            
+            <pb facs="#IMG8" n="290v"/>
+            
+            <item corresp="o:vipa.l.hbg.17190813.2">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190813.2">Nr. 14</ref>
+                <date when="1719-08-13"><rs type="place" ref="#mpr14713">de eodem</rs></date> nebst 2
+                        allegatis. Schliesset an eine abschrifft von deme, so er ad <rs type="person" ref="#mpr9399">caesarem</rs> unter ainstens berichtet. </p>
+            <p>
+                Recomendiret ein memoriale des dolmetschen <rs type="person" ref="#mpr10485">Theylls</rs>.  
+            </p>
+            <p>
+                P.S. <date when="1719-08-13"><rs type="place" ref="#mpr14713">de eodem</rs></date>. Legt an verschidene brieff von
+                ausländischen kaufleuthen und ministern zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs>. 
+            </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17190906">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17190906">Nr. 15</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place"
+                             ref="#mpr14713">Hasnadar Ciftigli</rs>
+                        <date when="1719-09-06">6. Septembris 1719</date> nebst ainer beylag.
+                        Antworttet auf ein erhaltenes rescript vom <date when="1719-08-04">4.
+                            passato</date>. </p>
+            <p>
+                Müsse wegen der pesst alle praecantien nehmen. 
+            </p>
+            <p>
+                Habe dem <rs type="person" ref="#mpr15352">französischen</rs>, <rs type="person" ref="#mpr14961">engelländischen</rs> und <rs type="person" ref="#mpr14842">holländischen botschafftern</rs> die revisite gegeben.
+            </p>
+            <p>
+                Die deputirte von <rs ana="MPRautomatched" ref="#mpr7411" type="place">Ragusa</rs> bey der Pforten seyen bey ihme gewesen.
+            </p>
+            <p> Habe die angelegenheithen <rs type="place" ref="#mpr15741">Terrae Sanctae</rs>, P.P. Trinitariorum,
+                            <del rend="cancelled">et</del> erlösung deren sclaven undt commercii
+                        incaminiret. </p>
+            <p>
+                Was sich mit einem teutschen glashandler,
+                dan einem armenischen kaufman von <rs ana="MPRautomatched" ref="#mpr7448" type="place">Ofen</rs> wegen zu vill geforderten zoll eraignet.  
+            </p>
+            <p>
+                Beschreibet weithläuffig die negotiationes des <rs type="person" ref="#mpr15779">czaarischen abgesandten</rs>. 
+            </p>
+            <p>
+                Ingleichen die disposition und sustema der Pforten bey dermahligen umbständen.
+            </p>
+            <p>
+                Item eine entstandene unruhe zu <rs type="place" ref="#mpr15430">Groscairo</rs>.
+            </p>
+            <pb facs="#IMG9" n="291r"/>
+            <p>
+                Dan die ankunfft des <rs type="person" ref="#mpr15746">venetianischen botschaffters</rs> und wie mit solchem die besuchungen veranlasset worden. 
+            </p>
+            <p> Und leztlich den todt des sprachknaben <rs type="person" ref="#mpr15602">Götz</rs>, auch grassirende
+                        fieber bey seiner suite und wie der dolmetsch <rs type="person" ref="#mpr10485">Theylls</rs>
+                        qua talis daß iuramentum abgelegt, nebst einer nachricht von der capacitet
+                        der beyhabenden dolmetschen. </p>
+                <p> P.S. <date when="1719-09-06"><rs type="place" ref="#mpr14713">de eodem</rs></date> nebst 2 beylagen.
+                        Berichtet, wie er mit dem <rs type="person" ref="#mpr9441">grosvezier</rs> zusambgekommen
+                        und was er mit solchem von angelegenheiten der P.P. Trinitariorum, der
+                        gefangenen, des <rs type="person" ref="#mpr15433">czaar</rs> und hungarischen rebellen
+                        geredet, und was besonders der <rs type="person" ref="#mpr15594">Forgatsch</rs> für eine
+                        unterredung ansinne, wie er künfftig des dolmetschens <rs type="person" ref="#mpr10485">Theylls</rs> sich gebrauchen werde, und was ihme der <rs type="person" ref="#mpr14961">engellandische botschaffter</rs> für nachrichten communiciret. </p>
+            </item>
+            
+            <item corresp="o:vipa.l.hbg.17191005">
+            <p>
+                        <ref target="/o:vipa.l.hbg.17191005">Nr. 16</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs>
+                        <date when="1719-10-05">5. Octobris 1719</date> ohne beylag. Beklagt sich
+                        über die langsambkeit der Pforten in denen affairen; habe dahero wegen
+                        entfernung der hungarischen rebellen annoch keine gewisse resolution
+                        erhalten. </p>
+            <p> Der <rs type="person" ref="#mpr15779">moscovitische envoyé</rs> habe der Pforten parte gegeben, wie
+                        der <rs type="person" ref="#mpr15433">czaar</rs>
+                        <rs type="place" ref="#mpr1547">Pohlen</rs> angreiffen werde. <pb facs="#IMG10" n="291v"/>
+                        Aus der bagno werde er, <rs type="person" ref="#mpr9435">graf
+                            Virmont</rs>, sclaven erlöster bekomben. Für die P.P. Trinitarios habe
+                        er die stabilirung, <del rend="cancelled">erhalten und</del> auch wegen
+                        disarmirung der Dulcignoten, ein decret erhalten. </p>
+            <p>
+                Hoffe wegen des commercii respectu <rs ana="MPRautomatched" ref="#mpr1546" type="place">Algier</rs>,
+                <rs type="place" ref="#mpr15615">Tunis</rs> und <rs type="place" ref="#mpr15612">Tripolis</rs> nächstens mehrer schreiben zu können.
+            </p>
+            </item>
+            <item corresp="o:vipa.l.hbg.17191018">
+             <p>   <ref target="/o:vipa.l.hbg.17191018">Nr. 17</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1719-10-18">18. Octobris 1719</date> mit sechs allegatis.</p>
+                <p>Der <rs type="person" ref="#mpr9441">grosvezier</rs> habe bey einem festin versprochen, die
+                        hungarischen rebellen von <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> und denen
+                        gränzen in <rs ana="MPRautomatched" ref="#mpr14097" type="place">Moldau</rs> und <rs type="place" ref="#mpr1794">Wallachey</rs>
+                        zu entfernen und nach Asien zu schickhen, der reis effendi aber habe nach deme ihme <rs type="person" ref="#mpr9435">grafen Virmont</rs> persuadiren wollen, dieselbe auf
+                        angezogenen ursachen zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> verbleiben
+                        zulassen, worauf er
+                        <del>al</del>also hefftigen seinem petito insistire.</p>
+                <p>Der <rs type="person" ref="#mpr15779">moscovitische minister</rs> habe der Pforten erkläret, wie der <rs type="person" ref="#mpr15433">czaar</rs> ihrer <rs type="person" ref="#mpr9399">ksl. Mt. p.</rs> und <rs type="place" ref="#mpr1547">Pohlen</rs> bekrigen
+                        wolle, damit der <rs type="person" ref="#mpr15540">churprinz</rs> in <rs ana="MPRautomatched" ref="#mpr1933" type="place">Sachsen</rs> nicht könig in <rs type="place" ref="#mpr1547">Pohlen</rs>
+                        werde, die Pforten
+                        <subst>
+                            <del>wolle</del>
+                            <add>möchte</add>
+                        </subst> sich dermahlen darein nicht mengen, und den <rs type="person" ref="#mpr15310">Ragozy</rs> nach <rs type="place" ref="#mpr15434">Moscau</rs> gehen lassen.</p>
+                <p>Schliesset an, was der <rs type="person" ref="#mpr14961">grosbritannische minister</rs> in diser materi an ihne geschriben.</p>
+                <pb n="292r" facs="#IMG11"/>
+                <p>Die Pforten habe den <rs type="person" ref="#mpr15352">französischen botschaffter</rs> in diser sache consultiret, was er geantworttet.</p>
+                <p>Yberschikhet das für die P.P. Trinitarios ausgefertigte patent, füget darüber bey verschidene anmerkhung, seye auch die diploma für die gesambte geistlichkeit <subst><del>darbey</del><add>in <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs></add></subst> erneuert worden.</p>
+                <p>Der <rs type="person" ref="#mpr15352">französische minister</rs> habe eine convention ob <rs type="place" ref="#mpr15741">Terram Sanctam</rs> ausgewürkhet, was darbey zubeobachten,
+                        da die Griechen sehr darbey interessiret, und die superiores ex parte
+                        catholicorum jederzeith <rs type="place" ref="#mpr15335">Spanien</rs> und dem spanischen
+                        interesse zuegethan, woedurch ihrer <rs type="person" ref="#mpr9399">ksl. Mt. p.</rs> ehre
+                        und nuzen dero provinzien in ville weege praeiudicirt wurde.</p>
+                <p>Wegen erlösung der <add place="sublinear">publiquen</add> gefangenen gebe es
+                        difficulteten, weillen die Türkhen die in denen von der spänischen monarchie
+                        herrührenden landen gebührtige aus verschidene praetexten zuruckhalten
+                        wollen, so es <rs type="person" ref="#mpr9435">graf Virmont</rs> aber zu remediren
+                        suchet.</p>
+                <p>Der particular gefangenen halber <subst>
+                            <del>werde</del>
+                            <add>habe</add>
+                        </subst> er die taxen zu reguliren angetragen, und sich wieder den commendanten zu <rs type="place" ref="#mpr15461">Bihaz</rs>in hac
+                        materia beschwäret.</p>
+                <pb n="292v" facs="#IMG12"/>
+                <p>Berichtet weithers, was er wegen der Tripolitanern, Tunesiern und Algierinern negotiiret.</p>
+                <p>Habe einen ferman oder comandament
+                        an die Dulcignoten, so er beylegt, erhalten.</p>
+                <p>Finde keine taugliche subiecta zu besorgung des ksl. commercii.</p>
+                <p>Der <rs type="person" ref="#mpr14961">engelländische</rs>, wie auch <rs type="person" ref="#mpr14842">holländische consul</rs> zu <rs type="place" ref="#mpr15599">Smyrna</rs> ambiren das ksl. consulat daselbst.</p>
+                <p>Mit einem ksl. zu <rs type="place" ref="#mpr15601">Cypro</rs> angelangten schif habe sich ein anstand ergeben.</p>
+                <p>Berühret mit wenigen die gränzschaidung an der Aluta und
+                            Unna und was der <rs type="person" ref="#mpr15442">wayvoda</rs> in
+                        der <rs type="place" ref="#mpr1794">Wallachey</rs> wegen reciproquer geniessung der Boyaren
+                        gütter erindert.</p>
+                <p>Die Türkhen verlangen <subst><del>die</del><add>ihre</add></subst> bey der Schlacht zu <rs ana="MPRautomatched" ref="#mpr1775" type="place">Peterwardein</rs>verlohrene canzleyschrifften.</p>
+                <p>Der <rs type="person" ref="#mpr15746">venetianische botschaffter</rs> habe seinen einzug und audienz gehabt.</p>
+                <p>In der venetianischen gränzschaidung werden difficulteten besorget.</p>
+                <p>Die dolmetschen und sprachknaben bitten umb bezahlung der besoldung. Er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, aber <add place="superlinear">umb</add>
+                        weitheren verlag in seine cassam, auch einig<subst>
+                            <del>en</del>
+                            <add>e</add>
+                        </subst> uhren zu regalien.</p>
+                <pb n="293r" facs="#IMG13"/>
+                <p>Seye nöthig, umb neue confidenten sich zu bewerben, worzue er der Pforten dolmetsch in vorschlag bringet.</p>
+                <p>Die pesst zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> habe zimblich nachgelassen, und er dahero sich <del>in</del> seine logirung <del>nach</del> in <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bezogen, hingegen solle solche <del>pesst</del>zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> annoch grassiren.</p>
+            </item>
+                <item corresp="o.vipa.l.hbg.17191025">
+                 <p>
+                        <ref target="/o:vipa.l.hbg.17191025">Nr. 18</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1719-10-25">25. Octobris 1719</date> mit acht allegatis.
+                        Berichtet daß die Pforten einen schachbender oder
+                        agenten zu <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> halten wolle.</p>
+                    <p>Was wegen entfernung der <add place="superlinear">hungarischen</add> rebellen beschehen.</p>
+                    <p>Neben einigen seinigen cavaliers seye ein der rebellen halber suspecter französischer <rs type="person" ref="#mpr16040">Comte d'Absal</rs> von <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> abgeraist.</p>
+                    <p>Wegen disarmirung der Dulcignoten werde neuer verschärfter befehl gehen.</p>
+                    <p>Das ksl. zu <rs type="place" ref="#mpr15601">Cypro</rs> angehaltene schiff seye entlassen.</p>
+                    <p>Die Pforten verlange ein formular der ksl. patenten und flaggen.</p>
+                    <p>Er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, assistire denen Venetianern in ihrer
+                        gränz-schaidungs-differenz.</p>
+                    <p>Der <rs type="person" ref="#mpr15746">venetianische botschafter</rs> habe ihn, <rs type="person" ref="#mpr9435">grafen Virmont</rs>, besuchet, und an die Pforten praesenten gegeben.</p>
+                    <p>Der <rs type="person" ref="#mpr9441">grosvezier</rs> habe ihme commission aufgetragen,
+                        pelzfutter und uhren von <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> komben zulassen.</p>
+                    <pb n="293v" facs="#IMG14"/>
+                    <p>Die P.P. Dominicaner bitten umb stabilirung einiger familien zu <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191108">
+                    <p>
+                        <ref target="/o:vipa.l.hbg.17191105">Nr. 19</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs><date when="1719-11-08">8.
+                            Novmebris 1719</date> ohne beylag. Berichtet, daß <subst>
+                            <add place="superlinear">einige</add>
+                            <del>man</del>
+                        </subst> den <rs type="person" ref="#mpr15442">waywoden</rs> in der türkischen <rs type="place" ref="#mpr1794">Wallachey</rs> zu
+                        stürzen vorhaben.</p>
+                </item>
+                <item corresp="vipa.l.hbg.17191115">
+                    <p><ref target="/o:vipa.l.hbg.17191115">Nr. 20</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs><date when="1719-11-15">15.
+                            Novembris 1719</date> mit 3 beylagen. Berichtet eine mit verschidenen
+                        türkhen gehabte zusambenkunfft bey dem <rs type="person">rees
+                        effendi</rs>.</p>
+                    <p>Worbey von erlösung der sclaven, der gränzschaidung in <rs ana="MPRautomatched" ref="#mpr14097" type="place">Moldau</rs> und <rs type="place" ref="#mpr1794">Wallachey</rs>, reciproquer geniessung
+                        der gütteren für die <del>W</del> Boyaren der ksl. und türkischen <rs type="place" ref="#mpr1794">Wallachey</rs>, dem commercio nach <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs>, wegen des Podaschen in <rs type="place" ref="#mpr1794">Wallachey</rs> und <rs ana="MPRautomatched" ref="#mpr14097" type="place">Moldau</rs>, <add place="superlinear">dan</add> beedseithigen anstellung der consuln und
+                        schachbender gehandlet.</p>
+                    <p>Legt bey, was wegen des in <rs type="place" ref="#mpr15601">Cypern</rs> arrestirt gewesten ksl. schiff die Pforten ergehen lassen.</p>
+                    <p>Erindert fehrers, was wegen der venetianischen gränz-schaidungs-differenz tractirt worden. Und ein gegebenes fest in allen frembden ministris.</p>
+                    <p> Habe mit dem <add place="superlinear">hungarischen</add> rebellen <rs type="person" ref="#mpr15594">Forgatsch</rs> sich beredet.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191203">
+                    <p><ref target="/o:vipa.l.hbg.17191203">Nr. 21</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1719-12-03">3. Decembris 1719</date> mit 3 allegatis. Berichtet,
+                        wie es mit seiner spesirung in dem türkischen gehalten werde.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191203.2">
+                    <p><ref target="/o:vipa.l.hbg.17191203.2">Nr. 22</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1719-12-03">3. Decembris 1719</date> mit 4 beylagen. Der <pb n="294r" facs="#IMG15"/>
+                        <rs type="person" ref="#mpr9441">grosvezier</rs> urgire die nächsthin berichtete belzfutter
+                        und uhren.</p>
+                    <p> Der <rs type="person" ref="#mpr14276">türkische grosbotschaffter</rs> am ksl. hof habe sich bey der Pforten über ain und anderes beschwert.</p>
+                    <p>Berichtet weithers die czaarische negotia.</p>
+                    <p>Zu <rs type="place" ref="#mpr15610">Durazzo</rs> verlange ein<del>er</del> von <rs type="place" ref="#mpr7761">Segna</rs> abgeschikhter als ksl. consul zu stehen.</p>
+                    <p>Ein tunesiner corsar habe negrolitanisch- und venetianische schiffe
+                        weggenohmen.</p>
+                    <p>An <rs type="place" ref="#mpr15612">Tripolis</rs>, <rs type="place" ref="#mpr15615">Tunis</rs> und <rs ana="MPRautomatched" ref="#mpr1546" type="place">Algier</rs> seye in favorem des ksl. commercii ein ferman ergangen.</p>
+                    <p>Der <rs type="person" ref="#mpr14961">engelländische minister</rs> erwarthe ein ksl. gnadenzaichen wegen seiner officien bey dem possarovizischen frieden.</p>
+                    <p>Die venetianische sclaven werden losgelassen.</p>
+                    <p>Die pesst zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> continuire annoch.</p>
+                    <p>Das übrige bestehet in zeithungen.</p>
+                    <p>P.S. <date when="1719-12-03">de eodem</date> mit 4 beylagen. Berichtet die continuation de<subst><del>s</del><add>r</add></subst> moscovitischen affairen.</p>
+                    <p>Was an die <rs type="person" ref="#mpr15442 #mpr15618">wayvoden</rs> in <rs type="place" ref="#mpr1794">Wallachey</rs> und <rs ana="MPRautomatched" ref="#mpr14097" type="place">Moldau</rs> wegen des podaschen und reciproquer, item in <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> von der Pforten geschriben worden in materia des ksl. commercii.</p>
+                    <pb n="294v" facs="#IMG16"/>
+                    <p>P.S. <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1719-12-05">5. Decembris 1719</date> ohne beylag. Habe das ansuchen, als ob die Pforten einen neuen krieg vorhabe.</p>
+                    <p> Ein Maltheser schiff seye genohmen und zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> eingebracht worden.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191207">
+                    <p><ref target="/o:vipa.l.hbg.17191207">Nr. 23</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1719-12-07">7. Decembris 1719</date> nebst ainer beylag. Seye von der Pforten ersucht worden, damit ein gefangener turkh los komben möge.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191207.2">
+                    <p><ref target="/o:vipa.l.hbg.17191207.2">Nr. 24</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1719-12-07">de eodem</date> ohne allegato. Enthaltet
+                        gleichbesagte losmachung.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191211">
+                    <p><ref target="/o:vipa.l.hbg.17191211">Nr. 25</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1719-12-11">11. Decembris 1719</date> ohne beylag. Enthaltet eine nachricht der affairen der ksl. botschafft zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs>.</p>
+                    <p>P.S. <date when="1719-12-11">de eodem</date> ohne beylag. Der <rs type="person" ref="#mpr15779">moscovitische minister</rs> werde fehrers bey der Pforten bleiben und negotiiren.</p>
+                    <p>P.S. <date when="1719-12-11">de eodem</date> ohne beylag. Berichtet wie es mit seiner spesirung an der Pforten fehrers gehalten werde.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17191219">
+                    <p><ref target="/o:vipa.l.hbg.17191219">Nr. 26</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1719-12-11">11. Decembris 1719</date> ohne beylag. <note>Dieses Datum ist nicht korrekt. Der Brief wurde am 19. Dezember 1719 ausgestellt.</note>Berichtet
+                        einen anstand bey der moldanischen gränz-schaidung.</p>
+                   
+                    <p>Beklagt die langsambkeit der Pforten in deren affairen.</p>
+                    <p>Dem <rs type="person" ref="#mpr14244">sultan</rs> seye ein <rs ana="MPRautomatched" ref="#mpr8236" type="person">prinz</rs> gebohren und wider gestorben.</p>
+                    <p>P.S. <date when="1719-12-11">de eodem</date>. Habe widerumb einige sclaven erlöster bekomben.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200103">
+                    <pb n="295r" facs="#IMG17"/>
+                    <p><ref target="/o:vipa.l.hbg.17200103">Nr. 27</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1720-01-03">3. Januarii 1720</date> nebst 3 allegatis.
+                        Berichtet, was er mit dem <rs type="person" ref="#mpr9441">grosvezier</rs> wegen der
+                        hungarischen rebellen, wegen auslösung der gefangenen, der catholischen zu
+                            <rs ana="MPRautomatched" ref="#mpr14155" type="place">Jerusalem</rs> und <rs type="place" ref="#mpr15308">Scio</rs>, dan
+                        wegen des commercii verhandlet.</p>
+                    <p> Der <rs type="person" ref="#mpr15352">französische botschaffter</rs> protegire die hungarischen rebellen.</p>
+                    <p>Des weither betriffet die reciproque geniessung der wallachischen güttern für dasige Boyarn, die moldauische gränz-differenz, aufenthalt des <rs type="person" ref="#mpr15779">moscovitischen envoyé</rs> an der Pforten, dessen correspondenz durch die ksl. lande.</p>
+                    <p>Habe den <rs type="person">Topzi Bassa</rs> besuchet, und das zeughaus, was darbey vorgegangen.</p>
+                    <p>Die pesst habe aufgehöret.</p>
+                    <p>P.S. <date when="1720-01-03">de eodem</date> ohne beylag. Berichtet, was man in <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> von pohlnischen angelegenheithen für nachrichten habe.</p>
+                    <p>P.S. <date when="1720-01-03">de eodem</date>. Habe <subst><del>von</del><add place="superlinear">die</add></subst> angelegenheithen der catholischen zu <rs type="place" ref="#mpr15308">Scio</rs> und drey hungarische rebellen verhandlet; die Pforten mache kriegsanstalten. Wegen dislocirung der rebellen, der ksl. flaggen, auslassung der gefangenen und des fiumaner negotianten <rs type="person" ref="#mpr15620">Orlando</rs> seyen expeditiones ergangen.</p>
+                    <p>Die Pforten werde wegen commercien einen aga nach <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs> senden.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200121.2">
+                    <p><ref target="/o:vipa.l.hbg.17200121.2">Nr. 28</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-01-21">21. Januarii 1720</date> nebst ainer beylag. Habe sich ad <rs type="person" ref="#mpr9399">caesarem</rs><pb n="295v" facs="#IMG18"/> mit dem <rs type="person" ref="#mpr9441">grosvezier</rs> wegen pohlnisch- und moscovitischen sachen <del>unterredet</del> wegen der hungarischen rebellen entfernung, von der ruckkher beeder grosbotschaffter unterredet.</p>
+                    <p>Habe ein schreiben an den <rs type="person" ref="#mpr14244">sultan</rs> von der <rs type="person" ref="#mpr15439">königin</rs> in <rs ana="MPRautomatched" ref="#mpr9609" type="place">Schweden</rs> überraichet.</p>
+                    <p><subst>
+                            <del>Was der</del>
+                            <add place="left">Was die</add>
+                        </subst>
+                        Pforten
+                        <subst>
+                            <del>habe</del>
+                            <add place="superlinear">für</add>
+                        </subst> verschidene nachrichten von ihrem <rs type="person" ref="#mpr14276">botschaffter</rs> aus <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> erhalten.</p>
+                    <p>Weithers seye wegen der comercien, wegen reciproquer geniessung deren wallachischen gütter, und des pottaschen gehandlet <add place="superlinear">und das</add> der <rs type="person" ref="#mpr15460">von Fleischman</rs> nacher <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> zu komben, dem <rs type="person" ref="#mpr9441">vezier</rs> beygebracht worden.</p>
+                    <p>Die <add place="superlinear">ksl.</add> resolution wegen anstellung deren sachbender werde urgiret.</p>
+                    <p>Der <rs type="person" ref="#mpr14961">engelländische botschaffter</rs> agire offentlich wider <rs type="place" ref="#mpr15434">Moscau</rs>.</p>
+                    <p>Der <rs type="person" ref="#mpr15779">czaarische envoyé</rs> wird fehrers zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> bleiben.</p>
+                    <p>Nachricht von geheimben kundschafftern.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200121">
+                    <p><ref target="/o:vipa.l.hbg.17200121">Nr. 29</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1720-01-21">21. Januarii 1720</date> nebst 5 beylagen. Bezihet
+                        sich auf die relation ad <rs type="person" ref="#mpr9399">caesarem</rs>.</p>
+                    <p>Habe seine verpflegung schon vorhero berichtet und dem <rs type="person" ref="#mpr14842">holländischen botschaffter</rs> das ksl. praesent überraichet.</p>
+                    <p>Legt an die ergangene türkische mandata wegen des ksl. negotianten <rs type="person" ref="#mpr15620">Orlando</rs> und gefangenen <rs type="person" ref="#mpr15669">Jellachich</rs>.</p>
+                    <p>Die Pforten verlange justiz wegen gewisser von der
+                        ausgezogenen <pb n="296r" facs="#IMG19"/> belgrader garnison ausgezogenen janizarren.</p>
+                    <p>Die pesst habe völlig nachgelassen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200125">
+                    <p><ref target="/o:vipa.l.hbg.17200125">Nr. 30</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-01-25">25. Januarii 1720</date> sambt 2 beylagen. Berichtet, die weithere moscovitische negotiationes, die venetianische gränz-differenzien werden beygelegt und dero gefangene frey gelassen. Die Pforten declarire, <rs type="place" ref="#mpr15621">Novi</rs> abzutretten.</p>
+                    <p>Die abrais der botschaffter seye zu end Martii bestimbt. Die hungarischen rebellen werden von denen gränzen geschafft. Der <rs type="person" ref="#mpr15442">wayvod</rs> in der <rs type="place" ref="#mpr1794">Wallachey</rs> sucht sich mit geld zu manuteniren.</p>
+                    <p>Enthaltet letzlich die engelländische negotiationes an der Pforten wider <rs type="place" ref="#mpr15434">Moscau</rs>.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200129">
+                    <p><ref target="/o:vipa.l.hbg.17200129">Nr. 31</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-01-29">29. Januarii 1720</date> ohne beylag. Berichtet, was er in religions sachen wegen <rs ana="MPRautomatched" ref="#mpr14155" type="place">Jerusalem</rs> und <rs type="place" ref="#mpr15308">Scio</rs> heraus gebracht, nebst einigen anmerkungen über die sciotische religions angelegenheit, und das er dahin einen interpreten angestelt, welcher zuleich das religionswerkh alda besorge.</p>
+                    <p>P.S. de eodem nebst 3 beylagen. Übersendet intercisirte brieff an den renegaten <rs type="person" ref="#mpr15757">Schmid</rs>.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200212">
+                    <p><ref target="/o:vipa.l.hbg.17200212">Nr. 32.</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-02-12">12. Februarii 1720</date> ohne beylag. Berichtet eine entstandene aufruhr wegen eingeführter neuer anlagen.</p>
+                    <pb n="296v" facs="#IMG20"/> <p>Der Pforten aufführung in moscovitisch- und noordischen sache <add place="left">und was der <rs type="person" ref="#mpr9441">grosvezier</rs> diserweegen
+                            mit dem <rs type="person" ref="#mpr15779">czaarischen envoyé</rs> geredet</add>. Was der
+                            <rs type="person" ref="#mpr15352">französische ambassadeur</rs> in religions-sachen
+                        negotiiret. Die hungarischen rebellen sollicitiren einen andern orth als <rs type="place" ref="#mpr15626">Demischshar</rs> zu ihren aufenthalt. Der dasige <rs type="person" ref="#mpr15451">patriarch</rs> habe der Pforten 150
+                        beuttl geld geben müssen. Die pesst habe völlig aufgehöret.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200220">
+                    <p><ref target="/o:vipa.l.hbg.17200220">Nr. 33</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1720-02-20">20. Februarii 1720</date> ohne beylag. Betrifft die
+                        vorgehabte abänderung des <rs type="person" ref="#mpr15442">wayvoden</rs> in der <rs type="place" ref="#mpr1794">Wallachey</rs>.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200223">
+                    <p><ref target="/o:vipa.l.hbg.17200223">Nr. 34</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs><date when="1720-02-23">23. Februarii 1720</date> mit 2 beylagen. Berichtet, wie der <rs type="person" ref="#mpr9441">grosvezier</rs> ihme eine antworth an die <rs type="person" ref="#mpr15439">königin</rs> in <rs ana="MPRautomatched" ref="#mpr9609" type="place">Schweden</rs> zuegestellt und die hungarischen rebellen hinwegzuschaffen versprochen. Die Pforten schikhe in angelegenheithen einen <subst><del>aga</del><add place="superlinear">effendi</add></subst> nach <rs ana="MPRautomatched" ref="#mpr6873" type="place">Frankreich</rs>. Die venetianische sclaven seynt frey gesprochen worden.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200306">
+                    <p><ref target="/o:vipa.l.hbg.17200306">Nr. 35</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs><date when="1720-03-06">6.
+                            Martii 1720</date> ohne beylag. Betrifft die abschikhung des mehmed effendi nach <rs ana="MPRautomatched" ref="#mpr6873" type="place">Frankreich</rs>.</p>
+                    <p>Die husbekische tartaren bekriegen <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs>; sein abrais
+                        seye regulirt; die pesst habe völlig cessiret. Das übrige enthaltet die
+                        negotiation des <rs type="person" ref="#mpr14961">engelländischen botschaffters</rs> für <rs ana="MPRautomatched" ref="#mpr9609" type="place">Schweden</rs> wider <rs type="place" ref="#mpr15434">Moscau</rs>.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200311">
+                    <p><ref target="/o:vipa.l.hbg.17200311">Nr. 36</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs><date when="1720-03-11">11.
+                            Martii 1720</date> mit 4 allegatis. Continuiret die vorhin berichtete
+                        engelländische negotiation und pressirung seiner <pb n="297r" facs="#IMG21"/>abrais. Die
+                        rebellen sollen nunmehro relegirt werden. In favorem deren catholischen in
+                        <rs type="place" ref="#mpr15741">Terra Sancta</rs> seye ein nissan ausgefertiget. Die Bosnaken <del>be</del>
+                        klagen wider dasigen bassa. In Asien seye ein aufstand gewesen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.1720324">
+                    <p><ref target="/o:vipa.l.hbg.17200324">Nr. 37</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-03-24">24. Martii 1720</date> ohne beylaag. Berichtet die zeit der bestimbten urlaubs audienz, und das nirgends von einer pesst zuhören.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200403">
+                    <p><ref target="/o:vipa.l.hbg.17200403">Nr. 38</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-04-03">3. Aprilis 1720</date> ohne beylag. An des hern <rs type="person" ref="#mpr10441">kriegs-praesidentens</rs> durchlaucht p. Die Pforten urgire die loslassung der türkischen in denen ksl. landen befindlichen gefangenen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200404">
+                    <p><ref target="/o:vipa.l.hbg.17200404">Nr. 39</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> <date when="1720-04-04">4. Aprilis 1720</date> nebst 3 beylagen. Beschreibt seine dem <rs type="person" ref="#mpr14244">sultan</rs> gehabte urlaubs audienz. Die hungarischen rebellen werden nach <rs type="place" ref="#mpr15345">Rhodoste</rs> gesendet. Die Pforten urgire die loslassung ihrer gefangenen. Der capitain bassa werde nach <rs ana="MPRautomatched" ref="#mpr14929" type="place">Widin</rs> abfahren, von der pesst werde nichts mehr gehöret.</p>
+                    <p>P.S. de eodem ohne allegato. Erhalte einen courier von <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> und werde das anbefohlene eüfrig besorgen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200414">
+                    <p><ref target="/o:vipa.l.hbg.17200414">Nr. 40</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1720-04-16">16. Aprilis 1720</date> <note type="editorial">Das Datum ist nicht korrekt. Der Brief ist auf den 14. April 1720 datiert.</note>ad <rs type="person" ref="#mpr9399">caesarem</rs> mit 2 beylagen. Berichtet, was er mit dem <rs type="person" ref="#mpr9441">grosvezier</rs> verhandlet, wegen loslassung beedseithiger
+                        gefangenen; wegen disarmirung der Dulcignoten, wegen <rs type="place" ref="#mpr15612">Tripoli</rs>, <rs type="place" ref="#mpr15615">Tunis</rs> und <pb n="297v" facs="#IMG22"/>
+                        <rs ana="MPRautomatched" ref="#mpr1546" type="place">Algier</rs>; wegen des commercii nacher <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs>, in welchen lezteren er, <rs type="place" ref="#mpr9435">graf
+                            Virmont</rs>, einige anmerkhungen beyrukhet. Habe weithers mit dem <rs type="person" ref="#mpr9441">grosvezier</rs> in spänisch-, nordisch-, moscovitisch- und
+                        pohlnischen sachen geredet. Item wegen reciproquer geniessung der
+                        wallachischen gütteren, des pottaschen, der kirchen
+                        zu <rs type="place" ref="#mpr15308">Scio</rs>. Wegen der hungarischen rebellen; <subst>
+                            <del>wegen</del>
+                            <add place="superlinear">und</add>
+                        </subst> der venetianischen gränz-differenzien. Der <rs type="person" ref="#mpr9441">grosvezier</rs> habe die überschikhte neue regalien bekomben; selben
+                        habe er, <rs type="person" ref="#mpr9435">graf Virmont</rs>, von dem gehalt des <rs type="person" ref="#mpr14276">ottomanischen botschaffters</rs>
+                        <add place="superlinear">alhier</add> informiret, den legatum secretarium
+                            <rs type="person" ref="#mpr14960">Dirling</rs> accreditiret, die abris der ksl. flaggen
+                        communiciret; beklagt den geldmangel; habe denen dolmetschen und
+                        sprachknaben die besoldung ausgethailt, bewerbe sich umb geheimbe
+                        correspondenten. Urgire möglichst seine abrais.</p>
+                    <p>P.S. de eodem ohne beylag. Der <rs type="person" ref="#mpr15779">moscovitische envoyé</rs>
+                        habe bey dem <rs type="person" ref="#mpr9441">grosvezier</rs> in pohlnischen
+                        angelegenheithen audienz gehabt, was darbey vorgangen; erwehnter <rs type="person" ref="#mpr15779">envoyé</rs> habe <add place="superlinear">für</add> den
+                            <rs type="person" ref="#mpr15310">Ragozy</rs> gesprochen, seye nichtsdestoweniger
+                        befohlen worden, ihne nacher <rs type="place" ref="#mpr15345">Rhodoste</rs> abzuführen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200416">
+                    <p><ref target="/o:vipa.l.hbg.17200416">Nr. 41</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                        <date when="1720-04-16">16. Aprilirs 1720</date> mit ainer beylag. Hab seine
+                        abrais pressiret, ingleichen die loslassung der gefangenen. Der capitain bassa fahre nacher <rs ana="MPRautomatched" ref="#mpr14929" type="place">Widin</rs>, der Mehmed effendi aber nacher <pb n="298r" facs="#IMG23"/>
+                        <rs ana="MPRautomatched" ref="#mpr6873" type="place">Frankreich</rs> in commissionen. Habe den todt der
+                        verwittibten <rs type="person" ref="#mpr14283">kayserin</rs> notificirt. Den accehsihten <rs type="person" ref="#mpr15896">Eyrich</rs> in der canzley angestelt, werde die dolmetsch
+                        und sprachknaben dem <rs type="person" ref="#mpr14960">Dirling</rs> anweisen; seye keine
+                        pesst mehr in <rs type="place" ref="#mpr7118">Türkey</rs>. Habe dem <rs type="person" ref="#mpr14244">sultan</rs> einen wagen mit 6 pferden verehrt. Zwischen dem <rs type="person" ref="#mpr15352">französisch-</rs> und <rs type="person" ref="#mpr14961">engelländischen
+                            botschaffter</rs> ereigne sich bey sein <rs type="person" ref="#mpr9435">grafens
+                            Virmont</rs> ein praecedenzstreitt. Die P.P. Trinitarii seyen von <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> mit erlösten sclaven abgeraist; wegen
+                        einer gefangenen <rs type="person">hungarischen edlfrau</rs> zu <rs type="place" ref="#mpr15326">Hottin</rs> werde er ein commandement anführen.</p>
+                </item>
+                <item corresp="tobedone">
+                    <p><ref target="/o:vipa.l.hbg.17200501">Nr. 42</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14994">Ponte grande</rs>
+                        <date when="1720-05-01">1. Maii 1720</date> mit 3 beylagen. Beschreibet
+                        seine beurlaubung zu <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs>, ingleichen seinen
+                        auszug, worbey der <rs type="person" ref="#mpr14961">engelländische botschaffter</rs> und
+                        nation nicht erschünen, und was sonsten darbey vorgegangen. Habe annoch mit
+                        dem <rs type="person" ref="#mpr9441">vezier</rs> wegen <rs type="place" ref="#mpr1547">Pohlen</rs>
+                        verschidenes gesprochen. Die hungarischen rebellen beklagen sich ihrer
+                        entfernung halber. Die Pforten seye mit denen ihrem
+                            <rs type="person" ref="#mpr14276">botschaffter</rs> angethanen ehren wohl vergnügt.
+                        Nehme die dolmetschen <rs type="person" ref="#mpr10485">Theylls</rs> und <rs type="person" ref="#mpr15670">Gotschalk</rs> mit bit an die granzen, der sprachknabe <rs type="person" ref="#mpr15671">Momartz</rs> aber nach <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn.</rs></p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200512">
+                    <p><ref target="/o:vipa.l.hbg.17200512">Nr. 43</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14060">Adrianople</rs> <date when="1720-05-12">12. Maii 1720</date> mit einer beylag. Thue <pb n="298v" facs="#IMG24"/> seine rais möglichst beschleinigen, und werde die zeith seiner ungefehren an denen granzen nacher <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> berichten. Das übrige bestehet in einer antworth eines erhaltenen rescripts.</p>
+                    <p>P.S. <date when="1720-05-12">de eodem</date> accusiret ein rescript.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200522">
+                    <p><ref target="/o:vipa.l.hbg.17200522">Nr. 44</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14588">Passarcigk</rs> <date when="1720-05-22">22. Maii 1720</date> ohne beylag. Berichtet den forthgang seiner rais, und das er den auswechslungs act mit dem <rs type="person" ref="#mpr14241">grafen Oduyer</rs> comertire, auch allenthalben alles gesund seye.</p>
+                    <p>P.S. <date when="1720-05-22">de eodem</date> ohne beylag. Accusiret ein erhaltenes rescript von einem vorbeypassirten courier.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200529">
+                    <p><ref target="/o:vipa.l.hbg.17200529">Nr. 45</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs> <date when="1720-05-29">29. Maii 1720</date> mit ainer beylag. Berichtet den fortgang seiner rais, und aller orthen anhaltende gesundheit.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200602">
+                    <p><ref target="/o:vipa.l.hbg.17200602">Nr. 46</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14598">Scharkoy</rs> <date when="1720-06-02">2. Junii 1720</date> ohne beylag. Berichtet seine dasige ankunfft, und das er ein schreiben von dem legatum secretum <rs type="person" ref="#mpr14960">Dirling</rs> aus <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> erhalten, auf dessen enthalt er von denen gränzen eine erlautterung geben werde.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200606">
+                    <p><ref target="/o:vipa.l.hbg.17200606">Nr. 47</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> laager bey <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> <date when="1720-06-06">6. Junii 1720</date> mit einer beylag. Berichtet seine rais bis nach <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs>, seinen einzug alda, und was sich der logirung halber für ein anstand eraignet.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200607">
+                    <p><ref target="/o:vipa.l.hbg.17200607">Nr. 48</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> laager bey <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> <date when="1720-06-07">7. Junii 1720</date> ohne allegato. Habe die visite bey dasigem seraskier abgelegt, und warumben sich die auswechslung verzögere.</p>
+                </item>
+                <pb n="299r" facs="#IMG25"/>
+                <item corresp="o:vipa.l.hbg.17200613">
+                    <p><ref target="/o:vipa.l.hbg.17200613">Nr. 49</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr15646">Ciopalek</rs> <date when="1720-06-13">13. Junii 1720</date> ohne beylag. Berichtet, auf was orth eine visitation der ksl. botschafft wegen <del>darbey vermutheten</del> mit solcher herüberzugehen vermutheten türkhen beschehen, und wie der fehrers aufbruch,  und auswechslung mit dem bassa zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> concertiret worden.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200615">
+                    <p><ref target="/o:vipa.l.hbg.17200615">Nr. 50</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr15646">Ciopalek</rs><date when="1720-06-15">15. Junii 1720</date> enthaltet die ursach, warumben die auswechslung
+                        noch nicht für sich gangen.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.1700617">
+                    <p><ref target="/o:vipa.l.hbg.17200617">Nr. 51</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr14609" type="place">Jagodina</rs><date when="1720-06-17">17. Junii 1720</date> ohne beylag. Schliesset an eine relation ad <rs type="person" ref="#mpr9399">caesarem</rs>, so aber von hof nicht herabgekomben.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200617.2">
+                    <p><ref target="/o:vipa.l.hbg.17200617.2">Nr. 52</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr14609" type="place">Jagodina</rs><date when="1720-06-17">17. Junii 1720</date> mit 2 beylagen. Erthaillet eine erlautherung über den wider ihne von der ottomanischen Pforten <rs type="person" ref="#mpr14575">oberdolmetschen</rs> gegen den legations-secretär <rs type="person" ref="#mpr14960">Dirling</rs> zuerkhomen gegebenen disgesto.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200621">
+                    <p><ref target="/o:vipa.l.hbg.17200621">Nr. 53</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr14911" type="place">Krozka</rs><date when="1720-06-21">21. Junii 1720</date> ohne beylag. Schickhe die von <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> mitgenohmene dolmetschen widerumben dahin zurükh.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200623">
+                    <p><ref target="/o:vipa.l.hbg.17200623">Nr. 54</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs><date when="1720-06-23">23. Junii 1720</date> ohne beylag. Berichtet, wie er alda angelangt und
+                        baldist hiewiderumb aufbrechen werde.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200702">
+                    <p><ref target="/o:vipa.l.hbg.17200702">Nr. 55</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs ana="MPRautomatched" ref="#mpr2046" type="place">Esseg</rs><date when="1720-07-02">2. Julii 1720</date> ohne beylag. Bericht von dasiger ankunfft.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200704">
+                    <p><ref target="/o:vipa.l.hbg.17200704">Nr. 56</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr14657">Baronywar</rs><date when="1720-07-04">4. Julii 1720</date> ohne beylag. Enthaltet den forthgang der heraufrais.</p>
+                </item>
+                <item corresp="o:vipa.l.hbg.17200712">
+                    <p><ref target="/o:vipa.l.hbg.17200712">Nr. 57</ref> <choice><abbr>d.d.</abbr><expan>de dato</expan></choice> <rs type="place" ref="#mpr7795">Stulweissenburg</rs><date when="1720-07-12">12. Julii 1720</date> ohne Beylag. Berichtet seine dasige ankunfft, und weither rais.</p>
+                </item>
+            </list>
+            <pb facs="#IMG26" n="299v"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+    </text>
+</TEI>

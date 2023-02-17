@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Hazinedar Çiftliği [Serail in der Nähe von Konstantinopel], 13. August 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Hazinedar Çiftliği [Seraglio nearby Constantinople], August 13, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17190813.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 237r-237v, 257r-258v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Hazinedar Çiftliği [Serail in der Nähe von Konstantinopel], 13. August 1719, bearb. von Lisa Brunner, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918
+                    </ref>
+                    
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr14713" ref="https://sws.geonames.org/745044/">Hazinedar Çiftliği/Istanbul</placeName>
+                    <date when="1719-08-13">13. August 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190813">
+                    Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                    an
+                    <persName>Kaiser Karl VI.</persName>
+                    :
+                    <date when="1719-08-13">13. August 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190906">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-09-06">6. September 1719</date>
+                    </ref>
+                </correspContext>
+                <note>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17190813.2.b1"/>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17190813.2.b2"/>
+                </note>
+            </correspDesc>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract>
+                <list>
+                    <item>Virmont's report to emperor Charles VI.</item>
+                    <item>employment of Nicola Theyls</item>
+                    <item>reception of documents from the Aulic War Council</item>
+                    <item>enclosed letters from the French, English and Dutch ambassadors and several merchants</item>
+                </list>
+            </abstract>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="14KV_237r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="14KV_237v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="14KV_257r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="14KV_257v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="14KV_258r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="14KV_258v.jpg" xml:id="IMG6"/>
+        </surface>    
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="237r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 14</ref> d.d. <rs type="place" ref="#mpr14713">Hasnadar
+                    Ciftigli</rs>, <date when="1719-08-13">13. Augusti 1719</date> nebst 2 beylagen.
+                P.S. de eodem </metamark>
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath.</salute>
+            </opener>
+            <p> Eüer hochfürstlichsten durchleuchtigsten excellenzien und meinen hochgeehrtisten
+                herren lege ich gebührend hiebey, was ich unter einstens an seine <rs type="person"
+                    ref="#mpr9399">ksl. und cathol. Mt.</rs> allerunterthänigst referire. <metamark
+                    place="left">1.</metamark>
+                <note type="editorial">Die <ref target="/o:vipa.l.hbg.17190813.2.b1">Beilage</ref> ist
+                    erhalten.</note>
+            </p>
+            <p>Das lezte rescript, so ich von einem hochlöblichsten ksl. hof-kriegs-rath zu <rs
+                    type="place" ref="#mpr14060">Adrianopl</rs> erhalten, ist von <date when="1719-06-17">17.
+                    Junii</date> datirt gewesen und ware eine antwort auf meine noch aus <rs
+                    ana="MPRautomatched" ref="#mpr9425" type="place">Bellgrad</rs> von <date
+                    when="1719-06-07">7.</date> und <date when="1719-06-09">9.</date> noch des
+                selbstigen monaths erlassenen berichten. Ich habe eben dises rescript von <rs
+                    type="place" ref="#mpr15859">Hafsa</rs> vier stund herwerts <rs type="place" ref="#mpr14060">Adrianopl</rs>
+                gehorsamb und dienstlich accusiret. </p>
+            <pb facs="#IMG2" n="237v"/>
+            <p>
+                <metamark place="margin">2.</metamark><note type="editorial">Die <ref
+                        target="/o:vipa.l.hbg.1719.2.b2">Beilage</ref> ist erhalten.</note> Der neu
+                angenombene dollmätsch <rs type="person" ref="#mpr10485">Nicolaus Theyls</rs> hat
+                mich ersuchet, seine nebengehende gehorsambste supplique mit meinem wenigen vorwort
+                zu beglaitten. Es ist zwar nicht ohne, daß er noch jung in diensten ein solches
+                begehren zu thuen, ich muß aber der wahrheith zu steuer bekennen, daß er mit so
+                grossen eyfer und guter geschickligkeit seine dienst verrichtet, alß mann immer
+                verlangen kan und mir haubtsächlich wegen seiner practique bey dem hiesigen hoff zu
+                statten kommet, also, daß ihm <pb facs="#IMG3" n="257r"/> meinen unvorgreifflichen
+                erachten nach dise consolation zu gönnen wäre. Womit mich gehorsambst und dienstlich
+                empfehle und verbleibe.</p>
+            <closer><salute>Euer hochfürstlichste druchleuchtigste excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldiger diener, <rs ana="MPRautomatched"
+                        ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs type="place" ref="#mpr14713">Hasnadar Ciftigli</rs>
+                </address>
+                <dateline>den <date when="1719-08-13">13. Augusti 1719</date></dateline>
+            </closer>
+            <pb facs="#IMG4" n="257v"/>
+            <postscript>
+                <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs>
+                    <date when="1719-12-13">13. <del rend="cancelled">9.</del> Decembris
+                    1719</date>.</metamark>
+                <p>P.S. Auch durchleuchtigster fürst, euer excellenzien und hochgeehrtiste herren
+                    haben mich die <rs type="person" ref="#mpr15352">fanzösischen</rs>, <rs type="person" ref="#mpr14961">groß
+                        brittannischen</rs> und der <rs type="person" ref="#mpr14842">General Staaten</rs> hie
+                    anweesende bottschafftere ersuchet, beygehende ihre brieff (weillen ihnen wohl
+                    geduncket hat, daß ich nach der audienz beym <rs type="person" ref="#mpr14244">groß sultan</rs>
+                    jemanden abschicken werde) mitkommen zu lassen und da auch die unter ihrer
+                    protection stehende kauffleuth sich an die canzley addressiret und gebetten die
+                    ihrige mitzubringen, alßo schlüesse sie zusammen hiebey an, eines
+                    hochlöblichsten hof-kriegs-raths disposition selbe überlassend. </p>
+                <closer>
+                    <salute>Womit ut in litteris </salute>
+                    <signed><rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff
+                            von Virmonten</rs></signed>
+                </closer>
+            </postscript>
+            <pb facs="#IMG5" n="258r"/>
+            <pb facs="#IMG6" n="258v"/>
+            <metamark><date when="1719-08-13">1719 13. Augusti</date></metamark>
+            <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den
+                    <date when="1719-12-13">13. Decembris 1719</date></metamark>
+            <metamark><date when="1719-08-13">13. Augusti</date></metamark>
+        </body>
+    </text>
+</TEI>

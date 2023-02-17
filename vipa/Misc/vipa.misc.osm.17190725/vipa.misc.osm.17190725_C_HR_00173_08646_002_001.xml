@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Osmanische Korrespondenz zwischen Beamten über die Kosten
+                    für Kanonen, Zugpferde und andere erforderliche Ausrüstung, die für den
+                    Botschaftsaustausch an die Grenze transportiert werden, Istanbul, 25. Juli 1719</title>
+                <title xml:lang="en">Ottoman communication concerning the costs of cannonballs,
+                    carthorses, and other required equipment transported to the border for the embassy 
+                    exchange, Istanbul, July 25, 1719</title>
+                <title xml:lang="tr">Elçi değişimi için sınıra nakledilen toplar, beygirler,
+                    ve diğer malzemenin masrafları hakkında arzuhal, Istanbul, 25 Temmuz 1719</title>
+                
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17190725</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>C.HR</collection>
+                        <idno>173-8646-002</idno>
+                    </msIdentifier>
+
+                    <physDesc>
+                        <sealDesc>
+                            <seal>
+                                <ab>
+                                    <lb/>[Upper part]<unclear reason="faded">ʿabduhū</unclear>
+                                    <lb/>[Lower part] <unclear reason="faded">Maḥmūd</unclear>
+                                    <lb/>[Right] <unclear reason="faded">yā şāfī-i elṭāf</unclear>
+                                    <lb/>[Left] <unclear reason="faded">yā ḥayy-i ???</unclear>
+                                </ab>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-07-25"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Osmanische Korrespondenz zwischen Beamten über die Kosten
+                    für Kanonen, Zugpferde und andere erforderliche Ausrüstung, die für den
+                    Botschaftsaustausch an die Grenze transportiert werden, Istanbul, 25. Juli 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="C__HR___00173_08646_002_001.jpg" xml:id="IMG1"/>
+        </surface>
+        
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17190725">
+            
+                <pb n="1" facs="#IMG1"/>
+            <ab>Hüve</ab>
+                
+            <ab><seg rend="diagonal">
+              <lb/>Ṣaḥḥ
+                <lb/>Defterdār vekīli ʿizzetlü efendi ḥażretleri ʿarżuḥāli
+                <lb/>ve defter mūcebince ve derūn-ı defterde olan
+                <lb/>eşyā mevcūd-ı ṭob<choice><sic>ḥ</sic><corr>ḫ</corr></choice>āne olmaḳ üzere
+                iḳtiża iden
+                <lb/>yalñız yüz yigirmi bir ġurūşı Ṭopḫāneden virüb
+                <lb/><unclear reason="eccentric_ductus">???</unclear>e maḥsūb eyleyesin diyü 
+                <lb/>buyuruldı
+                <lb/><date type="Hijri" when="1719-07-25">Fī 8 [<supplied resp="#yy">Ramaza</supplied>]n sene [1]131</date>
+                </seg></ab>
+
+            <ab>
+                <lb/>Biñ yüz otuz bir senesinde vaḳiʿ Receb-i şerīfüñ yigirmi üçünci güninde ilçi
+                mübādelesinde ḥudūda altı ḳıṭʿa şāhī gitmesine
+                <lb/>devletlü efendimüz ṭarafından fermān buyurılmaġın iḳtiżā iden on sekiz reʾs bārgīr
+                ücretleri ve mühimmāt-ı sāʾiresi
+                <lb/>defter olındıġı vech üzere maʿrifet ve maʿrifet-i şerʿile behāları
+                taḳrīr olunub aṣḥāblarına virilmek üzere taḥrīr olınan defterdür.
+                
+                <list type="itemlist">
+                    <item rend="column1">ʿan <unclear reason="eccentric_ductus">???</unclear> ücret-i bārgīrān
+                        re’s be-her 18 <unclear reason="eccentric_ductus">???</unclear> 600  yekūn 10800</item>
+                    
+                    <item rend="column2">ḳaltaḳ maʿa tegilti mükemmel be-her 6, 33 <unclear reason="eccentric_ductus">ḳıtʿa?</unclear>, yekūn 1980</item>
+                    
+                    <item rend="column3"><unclear reason="eccentric_ductus">ḳāṭır ?</unclear>, be-her 18,
+                        36 <unclear reason="eccentric_ductus">ḳıtʿa?</unclear>, yekūn 648</item>
+                    
+                    <item rend="column4"><unclear reason="eccentric_ductus">pāybend?</unclear> maʿa köstek be-her 18 
+                        <unclear reason="eccentric_ductus">???</unclear> 30 yekūn 540</item>
+                    
+                                        
+                    <item rend="column5">ücret-i
+                        <unclear reason="eccentric_ductus">??? ??? ???</unclear>
+                        meremmāt-ı ʿarabahā-ı ṭop-ı şāhī, yekūn 640
+                        [note above the entry:]<seg rend="diagonal">temuri cebeḫāneden 
+                        <unclear reason="eccentric_ductus">???</unclear></seg></item>
+                    
+                    <item rend="column6">behā-i kömür, yekūn 160</item>
+                    
+                    <item rend="column1"><unclear reason="eccentric_ductus">???</unclear> baġı? yaġı? vuḳiyye 15,
+                        10 <unclear reason="eccentric_ductus">ḳıtʿa?</unclear>, yekūn 150</item>
+                    
+                    <item rend="column2"><unclear reason="eccentric_ductus">ʿan enbār-i ??? ʿan ???-i şaʿīr-i
+                        bārgīrān ??? re’s 18 fī ??? şaʿīr ??? 9 şaʿīr ?
+                        7 kīle (?) 6, 15, 3.5</unclear></item>
+                    
+                    <item rend="column3">ʿan bārgīrler <unclear reason="eccentric_ductus">???</unclear>
+                        ʿadedi 1, yekūn 48</item>
+                    
+                    <item rend="column4"><seg rend="diagonal">Yekūn 14526 bi-ḥisāb-i <unclear reason="eccentric_ductus">ġuruş?</unclear>
+                        naḳdiyye 6, ʿaded 121</seg></item></list>
+                    
+                    <seg rend="vertical">Yalñız yüz yigirmi bir ġurūş ile altı aḳçedür</seg>
+                
+            </ab>
+            
+            <ab>ḥarerehū el-faḳīr ileyhi ʿazze şānuhū Maḥmūd el-ḳāżī bi-Nīş</ab>
+                    
+
+            <ab>
+               
+               <lb/>Devletlü, sạʿādetlü <gap extent="10" unit="cm"/> sulṭānım <gap extent="5" unit="cm"/>
+               ḥażretleri saġ olsun.
+               <lb/>Ḥudūdda ilçi mübādelesinde şenlik içün Nīş’den altı ḳıṭʿa ṭob-ı şāhī götürmek üzere bu ḳullarına ḥiṭāben 
+               fermān-ı ʿālī 
+               <lb/>buyurulmaġla on sekiz bārgīr ücret ile dutulub ve sāʾir iḳtiżā iden mālzeme bālāda taḥrīr   
+               itdirildiġi üzere bu ḳulları maʿrifeti
+               <lb/>ve maʿrifet-i şerʿile mübāyaʿa eyleyüb edā-yı ḫidmetden ṣoñra ḥālā mevcūd-ı ṭopḫāne olmaġın meṣārıf-ı meẕkūr
+               aḳçeleri mīrīden iḫrāc buyurılmaḳ
+               
+               <lb/>bābında ḥālā Nīş defterdārı saʿādetlü ʿAbdurraḥmān efendiye ḫiṭāben fermān-ı ʿālīleri niyāz olunur.  
+            </ab>
+            
+                 
+            
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17190725-transl">
+            
+                <pb n="1" facs="IMG01"/>
+                
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                
+                <title xml:lang="en">Emperor Charles VI and Prince Eugene of Savoy to Grand Vizier Ibrahim Pasha, Vienna, April 10, 1720</title>
+                <title xml:lang="de">Karl VI. und Prinz Eugen von Savoyen an Großvizier Ibrahim Pasha, Wien, 10. April 1720</title>
+                <title xml:lang="tr">Avusturya İmparatoru 6. Karl ve Savoy Prensi Eugen’in Vezir-i Azam İbrahim Paşa’ya mektubu, Viyana, 10 Nisan 1720</title>
+                <!--<title></title>-->
+                <author><persName>Karl VI</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2021-04">2021</date>
+                <availability>
+                    <licence>CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:vipa.l.osm.17200410.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Nāme-i Hümayūn Defterleri</collection>
+                        <idno>Register no. 6, letter no. 282</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>2 Seite</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/118560107">Karl VI</persName>
+                    <date when="1720-04-10">1720-04-10</date>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/ https://sws.geonames.org/2761369/">Vienna</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1018616411">Damad İbrahim Paşa</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to
+                    reference them here.</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.l" type="context"> Briefe </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Karl VI. und Prinz Eugen von Savoyen an Großvizier Ibrahim Pasha, Wien, 10. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSNMH_d_00006_00239_a.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="A_{DVNSNMH_d_00006_00239_b.jpg" xml:id="IMG2"/>
+        </surface>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="transcription" xml:id="vipa.l.osm.17200410.2">
+            <pb facs="#IMG1" n="1"/>
+            <metamark function="archival"><lb/>282</metamark>
+            <ab><lb/><hi rend="#red"><rs type="person" ref="#mpr9435">Nemçe çāsārından</rs>
+                    <rs type="person" ref="#mpr9441">vezīr-i
+                        aʿẓam</rs> ḥażretlerine gelen mektūbuñ tercemesidür</hi></ab>
+            
+                <ab type="Intitulatio/Unvan"><lb/>Biz <rs type="person" ref="#mpr9399">Ḳārūlūs</rs> Allāhıñ luṭf ve
+                ʿināyetiyle muḫtār-ı Romā
+                imparaṭorı muẓaffer dāʾimā ve memālik-i Nemçe ve İspanya-ı
+                <lb/>Hindīniñ ve Macār ve Çeh ve Dālmāçye ve Ḫırvātḷıḳ ve Dot ve Ṣırf
+                ve İki Cicilye ve sāʾir memleketlerüñ
+                <lb/>ḳrālı ve Avusturyā Arcedūḳası.
+                <space unit="words" quantity="1" dim="horizontal"/></ab>
+                
+                <ab type="Narratio/Nakil"><rs type="person" ref="#mpr9399">Benüm</rs> refʿetlü rütbetlü ḥaḳiḳatlü ve maḥabbetlü 
+                <rs type="person" ref="#mpr14244">dostumuz</rs>: İki seneden
+            <lb/>muḳaddem munʿaḳid olan ṣulḥ ve ṣalāḥ ziyāde müstaḥkem ve muḳarrer ve edā-yı
+                muṣāfāt birle daḫi āşikār ve iẓhār-ı ʿ
+                <lb/>ʿālemīyān itdürilmek içün ḥālā ṭarafeynden merāsim-i resāʾil edā olunub itmām
+                bulmaġla ṭaraf-ı <rs type="place" ref="#mpr14055">āsitāne-i
+                <lb/>saʿādet</rs>den büyükilçilik ile ṭarafumuza gelen Rūm-ili beglerbegiligi pāyesiyle
+                müşerref olan ʿizzetlü <rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs>
+                <lb/>bu cānibde ḫoş ṭutılub geregi gibi ikrām olundıḳda
+                    ḥālā yine <rs type="place" ref="#mpr14055">ṭaraf-ı āsitāne-i saʿādete</rs> ʿavdet eylemekle
+                <lb/>ḥużūr-ı serīr-i aʿlāmuza gelüb mülāḳāt eyledügi iḫbār ve inhā olunur.</ab>
+               
+                <ab type="Narratio/Nakil">Bālāda ẕikr olunan ḥuṣūṣ-ı muṣālaḥa 
+                <seg rend="#diagonal">
+                <lb/>ʿaẓīm menāfiʿ-i reʿāyā
+                <lb/>fuḳarāsı içün eks̠erīyā ḥüsn-i saʿy
+                <lb/>ve ihtimāmıñuz ve kemāl-i ʿaḳl ve tedbīriñüz vesāṭet-i
+                <lb/>vesīle-i <rs type="place" ref="#mpr7118">ṭaraf-ı devlet-i ʿos̠mānīyeden</rs> münʿaḳid olundıġı
+                <lb/>müşārün ileyh <rs type="person" ref="#mpr14276">ilçi paşanuñ</rs>
+                    taḳrīrinden ḥuẓūẓ-ı mevfūre birle
+                <lb/>mesmūʿumuz olmışdur.</seg></ab>
+                
+            <ab type="Dispositio/Hüküm"><seg rend="#diagonal">Ke-z̠ālik yine gerek işbu ġāyet bereketlü
+                <lb/>menāfiʿ-i ṣulḥ ve ṣalāḥ ve gerek ḳavāʾid-i ḥuṣūṣ-i ticāret
+                <lb/>ʿahd ve ḳavl olunan zemāna dek ve eger ḥażret-i bārī böyle
+                <lb/>luṭf ve kerem ider ise daḫi ziyāde vaḳte degin
+                <lb/>henüz meşāḳḳ ve meṣāʾib-i cenk ve cidālden
+                <lb/>ḫalāṣ ve necāt bulan reʿāyā fuḳarāsınuñ
+                <lb/>beynine cereyān ve revān itdürilmekde bez̠l-i 
+                <unclear reason="faded">maḳdūr</unclear>
+                <lb/>idüb</seg>
+                
+                <pb facs="#IMG2" n="2"/>
+                <lb/>bir gūne mübārek rāḥat ve refāhīyyetü’l-miyānlıġına ḥalel getürür cemiʿ-i
+                ḫuṣūṣları kemāl-i taḳayyüd ve ihtimāmıñuz ile
+                <lb/>refʿ ve defʿ buyurasız.</ab>
+            
+                <ab type="Narratio/Nakil">Baʿdehū cemiʿ-i ḫalḳuñ refāhīyet ve
+                    istirāhatı içün ṣıyānet ve temşīyet-i ṣulḥ ve salāḥda
+                <lb/>nice edāʾ ve ażhā ile mütebeyyin olan ḥüsn-i merām-ı himmetimüzi müşarün ileyh
+                <rs type="person" ref="#mpr14276">ilçi paşa</rs> ol cānibe varduḳda inşā’allāh
+                <lb/>tafṣīl üzere ʿarż ve taḳrīr idecekdür.</ab>
+                
+                <ab type="Narratio/Nakil">Ġıbbe z̠ā<supplied resp="#yy">lik</supplied> müşārün ileyh
+                    <rs type="person" ref="#mpr14276">İbrāhīm
+                    Paşa</rs> ʿaḳd-i umūr-ı muṣālaḥada ġāyet-i
+                <lb/>vuḳūf ve istiʿdādı sebebinden ve mezīd-i riʿāyet ve ṣıyānet-i ḥüsn-i civār ve
+                muṣālaḥada kemāl-i ihtimāmı
+                <lb/>ḥasebiyle ṭarafımuzda ziyāde iʿtibār bulduġından māʿadā aḥsen vech üzere
+                edā-yı merāsim-i risālet itmekle
+                <lb/>müsteḥiḳḳ ü maḥall-i lü<choice><sic>ṣ</sic><corr>ṭ</corr></choice>f 
+                    ve iltifātıñuz olmışdur.Bāḳī lüṭf ve ʿināyet-i çāsārīyemüz ḥaḳḳıñuzda dāʾim ve muḳarrerdür.</ab>
+                
+               <ab type="Locus/Yer"> <lb/><rs type="place" ref="#mpr13416">Beç</rs> 
+                şehrimüzde</ab> <ab type="Datatio/Tarih"><date when="1720-04-10">māh-ı Abrilüñ onuncı güninde sene 1720</date>. 
+                Ḥükm-i ḥükūmet-i memleket-i Rūmyānīyeniñ ṭoḳuzıncı senesinde
+                <lb/>ve İspānyanıñ on yedisinde ve ḥükūmet-i memālik-i Macār ve Çehüñ ṭoḳuzında
+                taḥrīr olunmışdur.</ab>
+            
+            <closer><lb/><signed><rs type="person">Ānṭūnyūs Yūsefūs Ātl</rs></signed>
+                <signed><rs type="person" ref="#mpr10441">Eyūgenyūs de Ṣavūye</rs></signed>
+                <signed><rs type="person" ref="#mpr9399">Ḳārūlūs</rs></signed></closer>
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.l.osm.17200410.2-transl">
+                <pb n="1" facs="#IMG1"/>
+                
+                <ab><hi rend="#red">Translation of a letter that was sent 
+                by the <rs type="person" ref="#mpr9399">Austrian caesar</rs>
+                    to his excellency the <rs type="person" ref="#mpr9441">grand vizier</rs>.</hi>
+                </ab>
+                
+                <ab type="Intitulatio/Unvan">We are <rs type="person" ref="#mpr9399">Charles</rs>, 
+                    by the grace and favor of God, the ever-victorious
+                Roman emperor, king of the German lands (<foreign xml:lang="tur">Nemçe</foreign>),
+                    the Spanish Indies, Hungary, Czech, Dalmatia, Croatia, 
+                    Slavonia (<foreign xml:lang="tur">Dot</foreign>) and 
+                    Serbia (<foreign xml:lang="tur">Sırf</foreign>), the Two Sicilies,
+                    and other countries and Archduke of Austria.
+                </ab>
+                
+                <ab type="Narration/Nakil"><rs type="person" ref="#mpr9399">Our</rs> benign, sincere, and affectionate 
+                    <rs type="person" ref="#mpr9441">friend</rs> of high rank: In order 
+                to manifestly announce and reveal to the world the peace and amity
+                that was mutually agreed upon two years ago and to further reinforce and affirm
+                it with a mutual display of sincerity, the ambassadorial ceremonies 
+                have just been performed and completed by the two sides.
+                The honorable <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs>, 
+                who is exalted with the honorific rank of
+                the governor of Rumelia and came to us from the <rs type="place" ref="#mpr14055">felicitous
+                threshold</rs> with [the rank of] grand ambassadorship, was treated well
+                on our side and shown honor as required. We notify 
+                and inform <rs type="person" ref="#mpr9441">you</rs> that,
+                as he is now about to return to the <rs type="place" ref="#mpr14055">felicitous threshold</rs>,
+                <rs type="person" ref="#mpr14276">he</rs> came to the presence 
+                of <rs type="person" ref="#mpr9399">our</rs> exalted throne and had an audience.
+                </ab>
+                    
+                <ab type="Narratio/Nakil">We heard with great pleasure from the written
+                    notification of the aforesaid 
+                    <rs type="person" ref="#mpr14276">ambassador pasha</rs> that
+                    <rs type="place" ref="#mpr7118">the Ottoman state</rs>
+                    agrees to work with good intentions and pay attention
+                    to the peace conditions mentioned above for a great benefit to the poor
+                    subjects [of both sides] and act [with the guidance of] perfect wisdom and caution.
+                </ab>
+                
+                <ab type="Dispositio/Hüküm">Likewise, <rs type="person" ref="#mpr9441">you</rs>
+                    shall do your very best for the blessed benefits of 
+                    this peace and amity and the regulations of the trade matter
+                    to take effect and spread among the poor subjects—who have 
+                    just got rid of and escaped the difficulties and inconveniences
+                    of war and combat—until the agreed and pledged time and,
+                    if God the maker of order graces and favors so, even longer.
+                    [Thus] <rs type="person" ref="#mpr9441">you</rs> shall remove
+                    and repulse with utmost care and diligence all the issues
+                    that may in some way disturb the blessed comfort
+                    and means of prosperity [of the subjects].
+                </ab>
+                   
+                <ab type="Narratio/Nakil">After that, God willing, the 
+                    <rs type="person" ref="#mpr14276">ambassador [İbrahim] pasha</rs> will report and
+                    present after his arrival in detail our well-intended efforts—which
+                    have become evident through many fulfillments and sacrifices—in
+                    protecting and advancing the peace and amity for the prosperity
+                    and relaxation of all the people.
+                </ab>
+                
+                <ab type="Narratio/Nakil">Thereafter, the aforesaid 
+                    <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> found on our
+                    side a great amount of esteem due to his considerable insightfulness
+                    and skillfulness in matters of reconciliation and by virtue of his
+                    utmost diligence in abundantly observing and safeguarding good
+                    neighborliness and reconciliation. In addition, as he also 
+                    performed the ceremonies of messengership in the best way,
+                    he became worthy of and a focus for your favor and compliments.
+                    Our imperial favor and kindness for you are continuous and certain.</ab>
+                    
+                <ab type="Locus/Yer">Written in our city of 
+                    <rs type="place" ref="#mpr13416">Vienna</rs></ab> 
+                <ab type="Datatio/Tarih">on <date when="1720-04-10">the tenth day of April in the 
+                    year of one thousand seven hundred twenty</date>, in the ninth year of
+                    the government of the Roman realm, the seventeenth year of Spain,
+                    and the ninth year of the government of Hungary and Czech.</ab>
+                
+                <closer><lb/><signed><rs type="person">Antonius Josephus Atl</rs></signed>
+                    <signed><rs type="person" ref="#mpr10441">Prince Eugene</rs></signed>
+                    <signed><rs type="person" ref="#mpr9399">Charles</rs></signed></closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

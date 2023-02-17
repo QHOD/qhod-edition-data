@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Woiwoden von Galata über
+                    die Ernennung eines neuen Dolmetschers (Dragoman) für die österreichische
+                    Botschaft, der mit dem neuen Botschafter zusammenarbeiten wird, und um
+                    sicherzustellen, dass sich niemand in seine Angelegenheiten einmischt; Istanbul,
+                    21. Februar – 1. März 1720</title>
+
+                <title xml:lang="en">Sultan’s decree to the Voivode of Galata about the appointment
+                    of a new interpreter (dragoman) to the Austrian embassy to work with the new
+                    resident ambassador and to ensure that no one interferes with his affairs;
+                    Istanbul, February 21 – March 1, 1720</title>
+
+                <title xml:lang="tr">Sultanın, Galata Voyvodasına hitaben yazılmış, Avusturya
+                    elçiliğine yeni atanacak Avusturya sefiri ile beraber çalışması için sefarete
+                    yeni atanan tercümanın işlerine kimsenin karışmaması hakkında hükmü; İstanbul,
+                    21 Şubat – 1 Mart, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200221-17200301.5</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 77, entry 171-172</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-02-21" notAfter="1720-03-01"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Woiwoden von Galata über die Ernennung eines
+                    neuen Dolmetschers (Dragoman) für die österreichische Botschaft, der mit dem
+                    neuen Botschafter zusammenarbeiten wird, und um sicherzustellen, dass sich
+                    niemand in seine Angelegenheiten einmischt; Istanbul, 21. Februar – 1. März
+                    1720; bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob
+                    Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und
+                    Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Decree to the Voivode of Galata that the newly appointed dragoman of the
+                        Austrian embassy should be the sole authority on interpretership for the
+                        Austrian affairs</item>
+                    <item>imperial charter</item>
+                    <item>nīşān-ı hümāyūn</item>
+                    <item>berat</item>
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>Galata</item>
+                    <item>Galata Voyvodası</item>
+                    <item>Voivode of Galata</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00038_Page_77_Entry_171_172.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200221-17200301.5">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">171</metamark>
+                <ab><lb/>Ġalaṭa monlāsına ḥüküm ki:</ab>
+
+                <ab><lb/>Büyükilçilik ile der-i devlet-medāruma gelen <rs type="person"
+                        ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr
+                    südde-i saʿādetüme ʿarż-ı ḥāl gönderüb <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs></ab>
+
+                <ab>ṭarafından <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>ümde muḳīm
+                    olacaḳ ḳapu ketḫüdāsı yanında tercümānlıḳ ḫidmetinde olmaḳ üzere <rs
+                        type="person">Yaḳob Yāġer veled-i Ġontob(?)</rs> naṣb ve taʿyīn olunub
+                    <lb/>ʿahdnāme-i hümāyūnum mūcebince olıgeldügi üzere mesfūruñ yedine müceddeden
+                    tercümānlıḳ berātı virilmekle yedine virilen berāt-ı cedīd mūcebince tercümānlıḳ
+                    <lb/>mesfūra żabṭ itdürilüb berātına muġāyir āḫara müdāḫale ve muʿāraża
+                    itdürilmemek bābında ḥükm-i hümāyūnum ricā eyledügi ecilden berāt-ı cedīd
+                    <lb/>mūcebince żabṭ itdürilmek emrüm olmışdur <rs type="person" ref="#mpr14244"
+                        >buyurdum ki</rs>.</ab>
+
+                <ab><date type="Hijri" notBefore="1720-02-21" notAfter="1720-03-01">fī evāsıt-ı
+                            R<supplied resp="#yy">Rebīʿi’l-āḫir</supplied> sene 1132</date></ab>
+
+                <ab><metamark place="right">172</metamark>
+                    <lb/>bir ṣūreti daḫī <lb/>Sāġomon veled-i Malaḳoya vech-i meşrūḥ üzere</ab>
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200221-17200301.5.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the chief judge of <rs type="place" ref="mpr14828">Galata</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to the gate of my court as grand
+                    ambassador sent a sealed petition and requested my imperial decree [about the
+                    following matter]:</ab>
+
+                <ab><rs type="place">Jacob Jäger, son of Gontob,</rs> was assigned and appointed to
+                    work in the interpretership service of the <rs type="person" ref="#mpr9399"
+                        >Roman emperor</rs>’s envoy who will reside in my <rs type="place"
+                        ref="#mpr14055">threshold of felicity</rs>. A renewed interpretership
+                    charter was issued to him as it has been the practice as per my imperial letter of
+                    agreement (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>). [<rs
+                        type="person" ref="#mpr9435">The ambassador</rs>] requested my imperial
+                    decree so that, in accordance with the new charter issued to [the interpreter],
+                    the aforesaid [interpreter] shall have full control over interpretership; others
+                    shall not interfere with in violation of his charter and dispute about it. Thus,
+                    it has been my order that [the interpretership] shall be in his possession as
+                    per the new imperial charter. So have <rs type="person" ref="#mpr14244">I</rs>
+                    commanded!</ab>
+
+                <ab><date type="Hijri" notBefore="1720-02-21" notAfter="1720-03-01">February 21 to
+                        March 1, 1720</date></ab>
+                
+                <metamark place="margin">172</metamark>
+                <ab>A copy [for] Sagomon, son of Malakoy, in the way described.</ab>
+            </div>
+        </body>
+    </text>
+</TEI>

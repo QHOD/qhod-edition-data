@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an die Agha der Janitscharen und
+                    den Obergärtner, dem neu ernannten Dragoman der österreichischen Botschaft,
+                    Nicolo Theyls, gemäß den Bedingungen des kaiserlichen Vertragsschreibens
+                    (ahidname) zu gestatten, den von ihm für das Jahr 1132 (November 1719 - November
+                    1720) aus der Umgebung von Istanbul gekauften Wein in seine Residenz zu
+                    transportieren; Istanbul, 3. Januar – 12. Januar 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the agha of the Janissaries and
+                    the chief gardener to permit the newly appointed dragoman of the Austrian
+                    embassy, Nicolo Theyls, as per the imperial letter of agreement (ahidname), to
+                    transport the wine he purchased from around Istanbul for the year 1132 (November
+                    1719 - November 1720) to his residence; Istanbul, January 3 – January 12,
+                    1720</title>
+
+
+
+                <title xml:lang="tr">Sultanın, yeniçeri ağası ve bostancıbaşına hitaben yazılmış,
+                    Avusturya elçiliğinin yeni atanan tercümanı Nicolo Theyls’ın ahidname şartları
+                    çerçevesinde İstanbul çevresinden Hijri 1132 senesi için satın aldığı şarabı
+                    konağına nakletmesine engel olunmaması hakkında hükmü; İstanbul, 3 Ocak – 12
+                    Ocak, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200103-17200112.5</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 75, entry 162</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-01-03" notAfter="1720-01-12"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an die Agha der Janitscharen und des Obergärtners,
+                    dem neu ernannten Dragoman der österreichischen Botschaft, Nicolo Theyls, gemäß
+                    den Bedingungen des kaiserlichen Vertragsschreibens (ahidname) zu gestatten, den
+                    von ihm für das Jahr 1132 (November 1719 - November 1720) aus der Umgebung von
+                    Istanbul gekauften Wein in seine Residenz zu transportieren; Istanbul, 3. Januar
+                    – 12. Januar 1720; bearb. von Yasir Yılmaz und Merve Kurkutlu,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Decree to the agha of the janissary agha and chief gardener to allow the
+                        dragoman Nicolo Theyls to transport his wine to his residence according to
+                        the conditions of the imperial letter of agreement</item>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Nicolo Theyls</item>
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>wine</item>
+                    <item>şarap</item>
+                    <item>janissary agha</item>
+                    <item>yeniçeri ağası</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00037_Page_75_Entry_162.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200103-17200112.5">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">162</metamark>
+
+                <ab><lb/><rs type="person" ref="#mpr16121">Yeñiçeri aġası</rs>na ve <rs
+                        type="person">bostāncıbaşı</rs>ya ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+                <ab>müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafından
+                        <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>ümde ḳapu ketḫüdāsı
+                    <lb/>yanında muḳaddemā berāt-ı şerīfümle tercümān olan <rs type="person"
+                        ref="#mpr16117">Maderos(?)</rs> nām tercümānuñ ve ādamlarınuñ kifāf-ı
+                    nefsleri içün ʿahdnāme-i hümāyūn <lb/>mūcebince ruḫṣat virüldigi üzere beher
+                    medresi onar vuḳuyyet üzere senede bir defʿa aḳçasıyla iki biñ medre ḫamr
+                    iştirāsıçün <lb/>emr-i şerīf virile gelüb el-ḥāletü haẕihi tercümānlıḳ meẕkūr
+                        <rs type="person" ref="#mpr10485">Niḳolo Telis</rs>e tevcīh ve berāt-ı
+                    şerīfüm virilmegin<note type="editorial" xml:id="ftn1">The appointment was made
+                        in September 1719. For the appointment charter (<foreign>berat</foreign>)
+                            <ref target="/o:vipa.ded.osm.17190915-17190924.2">see the entry
+                            here.</ref>.</note></ab>
+                <ab>ʿahdnāme-i hümāyūn mūcebince <lb/>ruḫṣat virildigi üzere mesfūr <rs
+                        type="person" ref="#mpr10485">Niḳolo Tels</rs> nām tercümānuñ daḫī <rs
+                        type="place" ref="#mpr14055">İstānbul</rs>a ḳarīb iskele ve yalı ve
+                    aṭalardan aḳçasıyla <lb/>iştirā ve menziline naḳl eyledükde <rs type="place"
+                        ref="#mpr14828">Ġalaṭa</rs> voyvodası ve ümenā ve żābiṭler ṭarafından beher
+                    medresi onar vuḳiyye olmaḳ üzere işbu <lb/><date type="Hijri"
+                        notBefore="1719-11-14" notAfter="1720-11-02">biñ yüz otuz iki
+                    senesi</date>ne maḥsūb olmaḳ üzere iki biñ medre ḫamrı iştirā ve ḫānesine naḳl
+                    eyledükde <rs type="place" ref="#mpr14828">Ġalaṭa</rs> voyvodası <lb/>ve ümenā
+                    ve żābiṭler ṭarafından min baʿd gümrük ve bāc ve ʿavāʾid ve ḫarc nāmıyla ve
+                    sāʾir bahāne ile rencīde olmamaḳ bābında ḥükm-i <lb/>hümāyūnum ricā itmegin</ab>
+
+                <ab><rs type="place" ref="#mpr14984">divān-ı hümāyūn</rs>umda maḥfūẓ olan ḳuyūd-ı
+                    aḥkāma mürācaʿat olunduḳda muḳaddemā vech-i meşrūḥ üzere <lb/>emr-i şerīfüm
+                    virildügi mesṭūr ve muḳayyed bulunmaġın muḳaddemā ṣādır olan emr-i şerīfüm
+                    mūcebince naḳline mümānaʿat olmamaḳ emrüm olmışdur.</ab>
+
+                <ab><lb/><rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan emrüm üzere ʿamel daḫī vech-i meşrūḥ
+                    üzere <date type="Hijri" notBefore="1719-11-14" notAfter="1720-11-02">biñ yüz
+                        otuz iki senesinde</date>
+                    <lb/>beher medresi onar vuḳiyye olmaḳ üzere <rs type="place" ref="#mpr14055"
+                        >İstānbul</rs>a ḳarīb iskele ve yalı ve aṭalardan aḳçasıyla iştirā eyledügi
+                    iki biñ <lb/>medre ḫamruñ <rs type="place" ref="#mpr14828">Ġalaṭa</rs>da
+                    ḫānesine naḳline kimesneyi mümānaʿat itdürmeyüb <rs type="place" ref="#mpr14828"
+                        >Ġalaṭa</rs> voyvodası ve ümenā ve żābiṭler ṭarafından min baʿd <lb/>gümrük
+                    ve bāc ve ʿavāʾid ve ḫarc nāmıyla ve sāʾir bahāne ile rencīde eylemeyesiz ammā
+                    muḳayyed olasız ki miḳdār-ı muʿayyeneden ziyāde <lb/>ve senede iki defʿa alınmaḳ
+                    iḥtimāli olmaya şöyle bilesiz.</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">fī evāḫir-i
+                            Ṣ<supplied resp="#yy">afer</supplied> sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200103-17200112.5.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the <rs type="person" ref="#mpr16121">agha of the janissaries</rs> and
+                    the chief gardener:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>The interpreter named <rs type="person" ref="#mpr16117">Maderos(?)</rs>, by
+                    virtue of my noble charter, was formerly an interpreter in my threshold of
+                    felicity by the envoy who was sent by the aforesaid <rs type="person"
+                        ref="#mpr9399">Roman emperor</rs>. <rs type="person" ref="#mpr16117"
+                        >His</rs> people have been given a most noble order, as permitted in
+                    accordance with the imperial letter of agreement (<foreign xml:lang="ota"
+                        >ʿahdnāme-i ḥumāyūn</foreign>), for the purchase of two thousand medres of
+                    wine—each medre being equal to ten vuḳiyye—once a year with [his own] money and
+                    for their own consumption. At present, the interpretership is conferred to the
+                    aforesaid <rs type="person" ref="#mpr10485">Nicolo Theyls</rs> and my imperial
+                    charter has been issued.<ref target="#ftn1" type="note_reference"/></ab>
+
+                <ab>[<rs type="person" ref="#mpr9435">The ambassador</rs>] requested my imperial
+                    decree so that, as permitted by the imperial letter of agreement, when the
+                    aforesaid interpreter named <rs type="person" ref="#mpr10485">Theyls</rs>
+                    purchases with [his own] money from the piers, shores, and islands close to <rs
+                        type="place" ref="#mpr14055">Istanbul</rs> two thousand <foreign
+                        xml:lang="ota">medre</foreign>s of wine — each <foreign xml:lang="ota"
+                        >medre</foreign> being equal to ten vuḳiyye — appropriated for the current
+                    year <date type="Hijri" notBefore="1719-11-14" notAfter="1720-11-02">one
+                        thousand and thirty-two</date> and transports that wine to his house,
+                    from now on, he shall not be injured by the voivode of <rs type="place"
+                        ref="#mpr14828">Galata</rs>, superintendents, and officers [with claims]
+                    under the names of customs duty, tribute, fees, and contribution or under other
+                    pretexts.</ab>
+
+                <ab>Upon consultation with the recorded conditions kept in my <rs type="place"
+                        ref="#mpr14984">imperial council</rs>, it is written and recorded that my
+                    most noble order was issued in the way described. Therefore, my order is that in
+                    accordance with my previously issued most noble order its transportation shall
+                    not be prevented.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">I</rs> command that, when my order arrives,
+                    you shall act per my order issued about this matter. In the way described,
+                    you shall not let anyone prevent him from transporting in <rs
+                        type="place" ref="#mpr14828">Galata</rs> the two thousand <foreign
+                        xml:lang="ota">medre</foreign>s of wine — each <foreign xml:lang="ota"
+                        >medre</foreign> being equal to ten vuḳiyye — that [<rs type="person"
+                        ref="#mpr10485">Theyls</rs>] purchased in the year <date type="Hijri"
+                        notBefore="1719-11-14" notAfter="1720-11-02">one thousand and
+                        thirty-two</date> from the piers, shores, and islands close to <rs
+                        type="place" ref="#mpr14055">Istanbul</rs>. Henceforth, the voivode of <rs
+                        type="place" ref="#mpr14828">Galata</rs>, superintendents, and officers
+                    shall not injure him with claims under the names of customs duty, tribute, fees,
+                    and contribution or under other pretexts. In addition, attend to the matter
+                    diligently so that no charges shall be levied more than the fixed amount and
+                    there shall be no possibility of charging twice over a year. So shall you know! </ab>
+
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">January 3 to
+                        January 12, 1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

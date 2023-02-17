@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Memorandum des Privatsekretärs (Driesch?) des 
+                    österreichischen Großbotschafters Virmont am osmanischen Hof
+                    über die damaligen europäischen Angelegenheiten, Istanbul, 26. Jänner 1720</title>
+                <title xml:lang="en">A memorandum written by the private secretary (Driesch?)
+                    of the Austrian ambassador for the Ottoman court, concerning
+                    the European affairs at the time, Istanbul, January 26, 1720</title>
+                <title xml:lang="tr">Nemçe büyükelçisi Virmont'un sırkatibinin (Driesch?)
+                    OSmanlı sarayına Avrupa ahvali hakkında yazdığı takrir, Istanbul, 26 Ocak 1720</title>
+                
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17200126</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>IE.HR</collection>
+                        <idno>10-961-001</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-01-26"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Urkunde </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>Memorandum des Privatsekretärs (Driesch?) des 
+                    österreichischen Großbotschafters Virmont am osmanischen Hof
+                    über die damaligen europäischen Angelegenheiten, Istanbul, 26. Jänner 1720,  
+                    bearb. von Yasir Yılmaz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), 
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="İE_HR___00010_00961_001_001.jpg" xml:id="IMG1"/>
+        </surface>
+        
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17200126">
+            
+                <pb n="1" facs="#IMG1"/>
+                <ab>Hüve</ab>
+                <metamark function="archivalnumbering">961</metamark>                           
+            
+                
+                
+                <ab><cb/>
+                <lb/>Ḥālā der devlet-i ʿaliyyede iḳāmet üzere olan <rs type="person" ref="#mpr9399">Nemçe çāsārınuñ</rs>
+                <lb/>sır kātibiniñ taḳrīridür. 
+                <lb/><date type="Hijri" when="1720-01-26">15 Rā[<supplied resp="#yy">Rebiülevvel</supplied>] 1132</date></ab>
+                
+                <ab>
+                <lb/><date when="1719-09-12">Māh-ı Eylülüñ on ikinci günle</date> müverraḫ
+                    <rs type="place" ref="#mpr13416">Beçden</rs> mektūblarum gelüb 
+                <lb/>devletlü ve ʿināyetlü <rs type="person" ref="#mpr9441">ṣāḥib-i devlet efendimüz ḥażretlerine</rs>
+                <lb/>daḫı <rs type="person" ref="#mpr10441">başvekīlden</rs> başḳa mektūb gelüb cenāb-ı ʿālīlerine 
+                <lb/>selām ve duʿāların tebliġinden ṣoñra bu bendelerini bi-nefsihī 
+                <lb/>teslīmine meʾmūr eylemişlerdür.</ab>
+                
+                <ab>Şevketlü ve ʿaẓametlü <rs type="person" ref="#mpr14244">şehinşāh-ı 
+                <lb/>muʿaẓẓam efendimüz</rs> ḥażretleriniñ cenāb-ı hümāyūnlarına ve müşārün               
+                    <lb/>ileyḥ <rs type="person" ref="#mpr9441">devletlü efendimüz</rs> ḥażretlerine
+                    ḥaşmetlü <rs type="person" ref="#mpr9399">çāsār 
+                <lb/>efendimüñ</rs> ṭarafından nāmeler daḫı bi-lā-teʾḫīr ṭaraf-ı bendelerine 
+                <lb/>irsāl olunmak üzeredürler.</ab>
+                    
+                <ab>Lākin şimdik<choice><sic>e</sic><corr>i</corr></choice> ḥālde işbu 
+                <lb/>mektūb-ı meveddet-üslūbıyla bi-lā resm-i tekellüf ḫākipāy-ı ʿaliyyelerinde 
+                <lb/>şeref-yāb buyurılmaḳ mercū ve müteżarriʿdür.</ab> 
+                    
+                <ab>Ve bundan māʿadā
+                    <lb/>bundan aḳdem ilçi <rs type="person" ref="#mpr9435">Virmond</rs> dāʿīlerine taḥrīr buyurılan
+                <lb/>mektūbdan ḳānevizler makbūl-ı şerīfleri olacaġına müşārün ileyh
+                    <lb/><rs type="person" ref="#mpr9399">çāsār efendim</rs> ḫaber almaġla dostluḳ ve muvādaʿaya bināʾen
+                <lb/>merḳūm ḳānevizleri örnekleri ve taḥrīr buyurılan miḳdārı 
+                <lb/>mūcebince tedārük itdirüb bu bendelerine irsāl eylediler.
+                <lb/>Maḳbūl-ı ʿaliyyeleri olduḳda ne vech-ile fermān buyurılur
+                <lb/>ise ḥāẓır ve āmādedirler.</ab>
+                
+                <ab>Ḥavādis olmaḳ üzere
+                <lb/>taḥrīr eyledikleri budur ki Mosḳov çārınuñ donanması İsveç
+                <lb/>ḳrālınuñ donanmasıyla Baḥr-i Balṭıḳda muḳābil olub Mosḳovlunuñ
+                <lb/>ince donanması ziyāde olub ḳıyıda bulunmaġla ve İsveçlünüñ
+                <lb/>ḳalın donanması ḳıyıya yaḳlaşmaḳ mümkün olmamaġla bir miḳdār cenk
+                <lb/>ve cidālden ṣoñra İsveçlünüñ dört pāre fırkaṭeleri
+                <lb/>Mosḳovludan aḫz olunub küṣūrı çekilüb gitmişlerdür.
+                <lb/>Bundan ġayri ol ṭaraflarda bir şey vāḳiʿ olduġını
+                <lb/>yazmıyorlar.</ab>
+                
+                
+                <ab>Şimālde vāḳiʿ ḳrāllaruñ ʿumūmen muṣālaḥaları 
+                <cb/>
+                <lb/>içün maḥall-i mükāleme taʿyīn olunan Brūvunçuvk(?) nām mahalde
+                <lb/>egerçe henüz mükālemeye şürūʿ olunmamışdur; lākin Mosḳov
+                <lb/>çārı maḥall-i mezbūreye muraḫḫaṣ gönderüb mükālemeye aġāz 
+                <lb/>olunmaḳ üzere idi. Beçde olan ilçisi daḫı çārı
+                <lb/>ṭarafından çāsār efendime kemāl-i dostluḳ iẓhār
+                <lb/>idüb tecdīd-i muṣālaḥaya mübāşeret olunmaḳ üzeredir.
+                <lb/>Ve Leh cumhūrınun kadīmī istiḳlāli ve serbestiyeti ḥusūsı-çün
+                <lb/>başḳa mādde ʿaḳd olunmaḳ üzere karār virmüşlerdür.</ab>
+                
+                <ab><lb/>İspanya ḳrālı ile olan muṣālaḥa mükālemesi ḳuvvet-i ḳurbiyyeye
+                <lb/>gelüb Nemçe çāsārı ve Françe ḳrālı ve İspānya ḳrālı
+                <lb/>ve İngiltere ḳrālı ve Nederlande Estātı cānerālleri bu cümle
+                <lb/>ʿale’l-ittifāḳ muṣālaḥa eylemek üzeredürler. Lākin Françede
+                <lb/>beyne’l-ricāl ve’n-nās ʿazīm iḫtilāl olub ḳrāllıḳ vekīli
+                <lb/>olan Düḳa de Orliyens kemāl mertebede intibāh ve ġāile
+                <lb/>üzeredür. Zīrā İspānya ḳrālı yine gendü ḥālinde olmayub
+                <lb/>Françe ricālinden baʿżılarını el altından iżlāl idüb
+                <lb/>ṭarafına cezb itmekdedür. Bu aḥvāliñ niḥāyeti neye varacaġı
+                <lb/>maʿlūm deġildür diyü ḫatm-ı kelām eyledi.
+            
+            </ab>
+                
+                <metamark function="archivalcode">
+                    <lb/>Osmanlı Arşivi
+                    <lb/>İ.E. HR
+                    <lb/>10-961
+                    <lb/>2 urk
+                </metamark>
+            </div> 
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17200126-transl">
+            
+                <pb n="1" facs="#IMG1"/>
+                
+                <ab><cb/>
+                    <lb/>An official note by the <rs type="person">Austrian emperor</rs>'s private secretary
+                    who resides in the Sublime State at the moment.<date when="1720-02-25">25 February 1720</date></ab>
+                    
+                <ab><lb/>My letters dated <date when="1719-09-12">September 12</date> have arrived from
+                    <rs ana="MPRautomatched" ref="#mpr1761 mpr13416" type="place">Vienna</rs>. A seperate letter has also come 
+                    to our excellency, the most excellent and gracious 
+                    <rs type="person" ref="#mpr9441">holder of state [grand vizier]</rs>,
+                    from the <rs type="person" ref="#mpr10441">chief minister</rs>, who,  
+                    after declaration of greetings and good wishes, appointed this humble servant
+                    to deliver his letter in person.</ab> 
+                    
+                    <ab>The letters from my majestic lord, <rs type="person" ref="#mpr9399">caesar</rs>,
+                    addressed to the imperial excellency of our lord his highness, the majestic, august,
+                    esteemed king of kings, and to the exalted personage of 
+                    <rs type="person" ref="#mpr9441">the aforementioned most excellent lord</rs>
+                    are also about to be dispatched without delay to this humble 
+                    servant of yours.</ab>
+                    
+                                       
+                    <ab>However, for now, it is requested and expected to be honored at
+                    the exalted noble dust of your presence, along with the current affectionately
+                    written letter [by the chief minister Prince Eugene],
+                    without the observance of official ceremonial formalities.</ab> 
+                    
+                <ab>In addition, <rs type="person" ref="#mpr9399">my aforementioned lord caesar</rs>,
+                    having been informed through the letter that was previously written to your
+                    well-wisher <rs type="person" ref="#mpr9435">Virmond</rs> 
+                    that the canovaccios(?) will be deemed acceptable, had the 
+                    canovaccio(?) samples procured in the amount specified in writing and,
+                    as per friendship and reconciliation, dispatched
+                    to this servant of yours. As soon as the sublime permission is granted,
+                    in whichever fashion it is decreed, they are ready and available.</ab> 
+                    
+                    
+                <ab>The following have been written as news: The fleet of the Russian tsar
+                    came accross the fleet of the Swedish king in the Baltic Sea. 
+                    As the light fleet of the Muscovites was bigger in size and docked 
+                    by the coast, the major fleet of the Swedish was not able to 
+                    approach to the coast. After a little bit of combat and fighting,
+                    four Swedish frigates were captured by the Muscovites and the 
+                    rest of the fleet retreated and left. Other than this, they are not reporting
+                    anything else that took place in those quarters.
+                    Nothing else has been written in addition to these news.</ab>
+                
+                <ab>Even though negotiations have not yet begun in Brūvunçuvk, the place that
+                    had been designated as the location of negotiations for the conclusion
+                    of a peace among the kings quartered in the north, nonetheless,
+                    the Muscovite tsar dispatched a plenipotentiary to that said location
+                    and the talks were about to begin. [The tsar's] envoy in Vienna
+                    also displayed a perfect friendliness from his tsar to my lord caesar,
+                    and the peace negotiations are set to begin. 
+                    And they decided that a separate article will be concluded
+                    concerning the ancient freedom and independence of the Polish nation.</ab>
+                    
+                    
+                    <ab>The peace talks with the Spanish king is close to the 
+                    moment of conclusion. The Austrian emperor, the French king, the Spanish
+                    king, the English King, and the state general of the Netherlands
+                    are all about to sign a peace unanimously. However, there is a
+                    great unrest in France among the aristocracy and people; the Duke of
+                    Orléans, the deputy of kingship, is fully vigilent and in great anxiety.
+                    
+                    <note type="footnote" resp="#yy">
+                        The dukes of Orleans were not "deputies of kingship" 
+                        (<foreign xml:lang="tr">ḳrāllıḳ vekīli</foreign>)
+                        as the Turkish text implies; they only stood next in the order of succession
+                        to the throne if members of the senior branch ceased to exist.</note>
+                    
+                    
+                    Likewise, the Spanish king is also not standing still; he secretly corrupts
+                    some of the French noblemen and attracts them to his own side. 
+                    The letter ended stating that it is unknown where the
+                    fate of these affairs will lead to.</ab>
+        </div>
+        </body>
+    </text>
+</TEI>

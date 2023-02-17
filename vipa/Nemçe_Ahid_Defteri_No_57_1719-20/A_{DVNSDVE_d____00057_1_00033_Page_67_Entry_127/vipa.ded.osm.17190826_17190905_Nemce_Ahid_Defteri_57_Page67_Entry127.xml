@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den obersten Richter von Edirne
+                    und Russe, den Fall zweier österreichischer Kaufleute zu lösen, die unter
+                    Verletzung des kaiserlichen Vertragsschreibens (<foreign>ahidname</foreign>) vom
+                    osmanischen Zollbeamten in Russe gezwungen wurden, wiederkehrende Zölle zu
+                    zahlen und ihre beschlagnahmten Waren zurückzugeben; Istanbul, 26. August – 5.
+                    September 1719</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the chief judge of Edirne and the
+                    judge of Ruse to settle the case of two Austrian merchants who were forced to
+                    pay recurrent customs duty in violation of the imperial letter of agreement
+                        (<foreign>ahidname</foreign>) and to return their confiscated goods;
+                    Istanbul, August 26 – September 5, 1719</title>
+
+                <title xml:lang="tr">Sultanın, Edirne mollasına ve Ruscuk kadısına hitaben yazılmış,
+                    ahidnameye aykırı olarak mükerreren gümrük vergisi ödemeye zorlanan iki
+                    Avusturyalı tüccarın sorununu çözmeleri ve alıkonulan mallarını iade etmeleri
+                    hakkında hükmü; İstanbul, 26 Ağustos - 5 Eylül, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190826-17190905</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 67, entry 127</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-08-26" notAfter="1719-09-05"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den obersten Richter von Edirne und Russe, den
+                    Fall zweier österreichischer Kaufleute zu lösen, die unter Verletzung des
+                    ahidname vom osmanischen Zollbeamten in Russe gezwungen wurden, wiederkehrende
+                    Zölle zu zahlen, und ihre beschlagnahmten Waren zurückzugeben; Istanbul, 26.
+                    August – 5. September 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>treatment of Austrian merchants according to the conditions of the
+                        imperial letter of agreement (ahidname)</item>
+                    <item>returning of confiscated goods to merchants</item>
+                    <item>Edirne</item>
+                    <item>Russe</item>
+                    <item>merchnats</item>
+                    <item>trade</item>
+                    
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00033_Page_67_Entry_127.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190826-17190905">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">127</metamark>
+
+
+                <ab><lb/><rs type="place" ref="#mpr14060">Edirne</rs>
+                    <rs type="person">mollāsı</rs>na ve <rs type="person"><rs type="place"
+                            ref="#mpr15657">Ruscuḳ</rs> ḳāḍīsı</rs>na ḥüküm ki</ab>
+
+                <ab><lb/><rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafından
+                    büyükilçilik ile ḥālā der-i devlet-medāruma gelen ḳıdvetü
+                    ümerāʾi’l-milleti’l-mesīḥiyye Cenerāl <rs type="person" ref="#mpr9435">Ġrūf de
+                        Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl gönderüb
+                        <rs type="place" ref="#mpr6718">Nemçe</rs> tüccārı sefīneleriyle
+                    getürdükleri eşyānuñ bir defʿa gümrüklerin <lb/>virdüklerinden ṣoñra emtiʿası
+                    fürūḫt olunmayub āḫar iskeleye gitmek iḳtiżā ider ise tekrār gümrük ṭaleb
+                    olunmaya diyü ʿahdnāme-i <lb/>ḥumāyūnda mesṭūr ve muḳayyed</ab>
+                <ab>iken ḥālā <rs type="place" ref="#mpr6718">Nemçe</rs> tüccārlarından <rs
+                        type="person">Görgī Ḳravus</rs> ve şerīki <rs type="person">Barġa</rs> nām
+                    tācirler sefīneleriyle nehr-i Ṭūna üzerinden <lb/>götürdükleri billūruñ <rs
+                        type="place" ref="#mpr14929">Vidīn</rs>
+                    <rs type="person">gümrükçisine</rs> gümrügin bi-t-temām edā ve teslīm ve
+                    yedlerine edā teẕkeresi almışlar iken <rs type="place" ref="#mpr15657"
+                        >Rūscuḳ</rs>’a geldüklerinde <lb/>ẕikr olunan billūrı sefīnelerinden iḫrāc
+                    ve ʿarabalara taḥmīl ve <rs type="place" ref="#mpr14055">İstanbul</rs>’a
+                    götürmek üzere iken <rs type="place" ref="#mpr15657">Rūscuḳ</rs> gümrükçisi <rs
+                        type="person" ref="#mpr15836">İsmāʿīl</rs> nām kimesne yedlerinde <lb/>olan
+                    edā teẕkeresine iʿtibār itmeyüb ḫilāf-ı ʿahdnāme-i ḫumāyūn tekrār bir defʿa daḫī
+                    merḳūm tācirlerden gümrük alub ġadr <lb/>ve taʿaddī eyledügin ve ẕikr olunan
+                    billūruñ bir miḳdārın <rs type="place" ref="#mpr15657">Edirne</rs>’de
+                    alıḳoduḳların bildürüb</ab>
+                <ab>ḫilāf-ı ʿahdnāme-i ḫumāyūn alınan aḳçaları <lb/>girü aṣḥāb-ı meẕkūrlara redd ve
+                        <rs type="place" ref="#mpr15657">Edirne</rs>’de alıḳoduḳları eşyādan daḫī
+                    ḫilāf-ı ʿahdnāme-i ḫumāyūn tekrār gümrük müṭālebesiyle rencīde <lb/>olmamaları
+                    bābında emr-i şerīfüm ricā eylemegin</ab>
+                <ab>ʿahdnāme-i ḫümāyūnuma mürācaʿat olunduḳda vech-i meşrūḥ üzere mesṭūr ve muḳayyed
+                    bulunmaġın ʿahdnāme-i <lb/>ḫumāyun mūcebince bir defʿa <rs type="place"
+                        ref="#mpr14929">Vidīn</rs>’de gümrüklerin edā eyledüklerinden ṣoñra āḫar
+                    gümrükde daḫī olunmaḳ iḳtiżā idilmez iken <rs type="place" ref="#mpr15657"
+                        >Rūscuḳ</rs>
+                    <rs type="person" ref="#mpr15836">gümrükçisi</rs>
+                    <lb/>ḫilāf-ı ʿahdnāme-i ḫumāyūn tekrār gümrük almaġla aldıġı aḳça girü redd ve
+                        <rs type="place" ref="#mpr15657">Edirne</rs> gümrüginde alıḳoduḳları eşyānuñ
+                    gümrügi ṭaleb olunmayub <lb/>gendülere teslīm olunmaḳ emrüm olmışdur <rs
+                        type="person" ref="#mpr14244">buyurdum ki</rs>. <date type="Hijri"
+                        notBefore="1719-08-26" notAfter="1719-09-05">fī evāsıṭ-ı <supplied
+                            resp="#yy">Şevvā</supplied>l sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190826-17190905.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the <rs type="person">chief judge</rs> of <rs type="place"
+                        ref="#mpr14060">Edirne</rs> and the <rs type="person">judge</rs> of <rs
+                        type="place" ref="#mpr15657">Russe</rs>:</ab>
+
+                <ab>General <rs type="person" ref="#mpr9435">Graf von Virmont</rs>, the paragon of
+                    the great commanders of the community of the Messiah—may God end his days
+                    propitiously—who is currently at my gate that is the center of state as grand ambassador from
+                    the <rs type="person" ref="#mpr9399">Roman emperor</rs>, sent a sealed petition
+                    to my threshold of felicity. <rs type="person" ref="#mpr9435">He</rs> reported
+                    [the following] in that petition: It is written and recorded in the imperial
+                    letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>) that
+                    no customs duty shall be claimed in case <rs type="place" ref="#mpr6718"
+                        >Austrian</rs> merchants, having brought their commodities with their ships
+                    and paid their customs duties, are not able to sell their commodities and,
+                    therefore, are required to move on to another pier.</ab>
+
+                <ab>The <rs type="place" ref="#mpr6718">Austrian</rs> merchants <rs
+                        type="person">Görgi Kravus</rs>(?) and his associate <rs type="person"
+                        >Barga</rs>(?), having paid and delivered fully to <rs type="place" ref="#mpr14929"
+                        >Vidin</rs>’s customs superintendent the customs for the crystals they
+                    transported over the Danube on their ships and after receiving in their hands the
+                    certificate of payment, when they arrived in <rs type="place" ref="#mpr15657"
+                        >Russe</rs>, as they were about to load off the aforesaid crystal from their
+                    ships, transfer to carts, and take it to Istanbul, the <rs type="place" ref="#mpr15657"
+                        >Russe</rs> customs superintendent, <rs type="person" ref="#mpr15836"
+                        >İsmail</rs>, did not take into consideration the receipt of payment they had
+                    in their possession. In violation of the imperial letter of agreement, [<rs
+                        type="person" ref="#mpr15836">Ismail</rs>] received customs duty again one
+                    more time from the aforesaid merchants, thus acting unjustly and oppressing
+                    them. Some part of the aforesaid crystal was also withheld in <rs type="place"
+                        ref="#mpr14060">Edirne</rs>.</ab>
+                <ab>[<rs type="person" ref="#mpr9435">The ambassador</rs>] requested <rs
+                        type="person" ref="#mpr14244">my</rs> command that the money that has been
+                    collected in violation of the imperial letter of agreement shall be returned to
+                    the aforementioned merchants and that they shall not be injured again in
+                    violation of the imperial letter of agreement by the demand of customs duty for
+                    the goods withheld in <rs type="place" ref="#mpr14060">Edirne</rs>.</ab>
+
+                <ab>When my imperial letter of agreement is consulted, it is indeed written and
+                    recorded in the way described above. <rs type="person" ref="#mpr14244">I</rs>
+                    decree that: While, per the imperial agreement, no customs duty is required at
+                    other customs once the customs duties are paid at <rs type="place"
+                        ref="#mpr14929">Vidin</rs>, the <rs type="place" ref="#mpr15657">Russe</rs>
+                    customs superintendent collected customs duties one more time in violation of
+                    the imperial letter of agreement. Therefore: the money he collected shall be
+                    returned and no customs duty shall be demanded for the goods withheld in <rs
+                        type="place" ref="#mpr14060">Edirne</rs> and the goods shall be delivered
+                    back to them. <date type="Hijri" notBefore="1719-08-26" notAfter="1719-09-05"
+                        >August 26 to September 5, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

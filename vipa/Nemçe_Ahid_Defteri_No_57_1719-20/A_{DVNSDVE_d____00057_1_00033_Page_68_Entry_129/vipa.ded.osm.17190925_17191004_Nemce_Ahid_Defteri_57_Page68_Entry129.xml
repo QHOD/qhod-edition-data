@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den obersten Richter von
+                    Istanbul namens Salih, an die Richter von Galata und anderen Vierteln der Stadt,
+                    um sicherzustellen, dass die österreichischen Gefangenen gemäß den Bedingungen
+                    des kaiserlichen Vertragsschreibens (<foreign>ahidname</foreign>) befreit
+                    werden; Istanbul, 25. September – 4. Oktober 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the Chief Judge of Istanbul Salih, to the
+                    judges of Galata and other quarters in the city, to ensure that the Austrian
+                    captives are freed as per the conditions of the imperial letter of agreement
+                        (<foreign>ahidname</foreign>); Istanbul, September 25 – October 4,
+                    1719</title>
+
+                <title xml:lang="tr">Sultan’ın, İstanbul Mollası Salih, Galata kadısı ve şehirdeki
+                    bazı diğer kadılara hıtaben yazılmış, Avusturyalı savaş esirlerinin ahidname
+                    şartlarına göre serbest bırakılması hakkında hükmü; İstanbul, 25 Eylül - 4 Ekim,
+                    1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190925-17191004.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 68, entry 129</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-09-25" notAfter="1719-10-04"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den obersten Richter von Istanbul namens Salih,
+                    an die Richter von Galata und anderen Vierteln der Stadt, um sicherzustellen,
+                    dass die österreichischen Gefangenen gemäß den Bedingungen des des kaiserlichen
+                    Vertragsschreibens befreit werden; Istanbul, 24. September – 4. Oktober 1719,
+                    bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger,
+                    Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim
+                    Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von
+                    Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno
+                    Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Release of Austrian captives and prisoners of war according to the
+                        conditions of the imperial letter of agreement (ahidname)</item>
+                    <item>Chief judge of Istanbul</item>
+                    <item>Judge of Galata</item>
+                    <item>Galata</item>
+                    <item>Üsküdar</item>
+                    <item>Eyüp (Haslar)</item>
+                    <item>captive</item>
+                    <item>esir</item>
+                    <item>prisoners of war</item>
+                    <item>Judge of Üsküdar</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00033_Page_68_Entry_129.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190925-17191004.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">129</metamark>
+
+
+
+
+                <ab><lb/><rs type="person" ref="#mpr15840">Anaṭolı</rs> ḳaḍīʿaskerligi pāyesiyle
+                    ḥālā <rs type="place" ref="#mpr14055">İstanbul</rs> ḳāḍīsı olan <rs
+                        type="person">Mevlānā Ṣāliḥ</rs> edāme’llāhu taʿālā fażāilehūya ve <rs
+                        type="person" ref="#mpr14828">Ġalaṭa</rs> ḳāḍīsına <lb/>ve <gap unit="char"
+                        extent="4"/> ve <gap unit="char" extent="4"/> ve <gap unit="char" extent="4"
+                    /> ve <gap unit="char" extent="5"/> ve <gap unit="char" extent="5"/> ḳāḍīlarına
+                    ve <rs type="person" ref="#mpr15842">Üsküdār</rs> ve <rs type="person"
+                        ref="#mpr15437">Ḫāṣlar</rs> ḳażāları nāʾiblerine ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile āsitāne-i saʿādetüme gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Vir<lb break="no"/>
+                        <lb/>mūnd</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme ʿarż-ı ḥāl
+                    gönderüb</ab> 
+                
+                <ab>muḳaddemā ve bu defʿa ceng ü cidāl esnāsında ṭarafeynde <lb/>aḫẕ ve
+                    nāsuñ yedlerinde bulunan esīr münāsib vechle mümkin olan maʿḳūl ve muʿtedil
+                    bahālarıyla ıṭlāḳları <lb/>cāyiz ola esīr ṣāḥibi ile uzlaşılmayub nizāʿ vāḳiʿ
+                    olduḳda ḥākimü l-vaḳt olanlar mābeynlerin <lb/>tevfīḳ ideler imkān olmaz ise
+                    alduḳları bahāları isbāt ve yāḫūd ṣāḥiblerine yemīn teklīfiyle ẓāhir
+                    <lb/>olduḳda edā olunub ıṭlāḳ olunalar ve ṣāḥibleri ziyāde aḳça ṭamaʿıyla üsārā
+                    taḫlīṣine māniʿ olmayalar <lb/>ve lakin esīr aramaḳ ve ıṭlāḳlarına saʿy eylemek
+                    içün devlet-i ʿaliyyem ṭarafından maḫṣūs ādamlar taʿyīn <lb/>olundıġı taḳdīrce
+                    müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafından
+                    ḥākim olanlar üsārā fuḳarāsına ṣāḥib çıḳub ve bahāların <lb/>vech-i meşrūḥ üzere
+                    iledilüb taḫlīṣine saʿy ve ihtimām ile ve bu vech üzere esīrlerüñ ḫalāṣına
+                    ṭarafeynden <lb/>merḥamet oluna diyü ṭarafeynden alınub virilen ʿahdnāmelerde
+                    mesṭūr ve muḳayyed bulunmaġın</ab>
+
+                <ab>devlet-i ʿaliyyem ṭarafından <lb/>aḫẕ olunub nāsuñ yedlerinde bulunan esīrlerden
+                    İslām’a gelmeyenler bulunduḳları maḥallerden ʿahdnāme-i ḥümāyūn şürūṭınuñ
+                    <lb/>üzere taḫlīṣ olunub ve mābeynde tecdīd ve tevkīd olunan müsāleme ve
+                    dostluġa riʿāyeten müşārün ileyh <rs type="person" ref="#mpr9399">Romā
+                        imparātorı</rs>nuñ <lb/>ṭarafından āsitāne-i saʿādetümde olan <rs
+                        type="person" ref="#mpr9435">vekīli</rs> tedbīri ile esīr istiḫlāṣıyçün
+                    taʿyīn olunanlaruñ iḳāmetlerine <lb/>ve ṭarīḳlerine lāzım gelen sāʾir ḫıristiyān
+                    esīrlerden daḫī aṣḥābı olub rıżālarıyla fürūḫt <lb/>murād idenlerden bahālarıyla
+                    istiḫlāṣına ve berren ve baḥren diledükleri maḥallerden vilāyetlerine irsāl
+                    mümānaʿat olunmamaḳ <lb/>bābında istidʿā-yı ʿināyet itmegin vech-i meşrūḥ üzere
+                    ʿamel olunmaḳ bābında fermān-ı ʿālī-şānum ṣādır olmışdur</ab>
+
+                <ab><lb/><rs type="person" ref="#mpr14244">buyurdum ki</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan fermān-ı celīlü’l-ḳadrüm mūcebince ʿamel
+                    daḫī siz ki mūmā ileyhümsiz taḥt-ı ḳażālarıñuzdan <lb/>nāsuñ yedlerinde bulunub
+                    İslāma gelmeyen esīrleri ʿahdnāme-i ḥumāyūnum şürūṭı üzere taḫlīṣ ve vech-i
+                    meşrūḥ üzere <lb/>müşārün ileyh <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorınuñ</rs> ṭarafından āsitāne-i saʿādetümde olan vekīl tedbīri ile
+                    istiḫlāṣ içün <lb/>taʿyīn olunanlaruñ iḳāmetlerine mümānaʿat olunmayub
+                    ṭarīḳlerine lāzım gelen sāʾir ḫıristiyān esīrlerden <lb/>daḫī aṣḥābı olub
+                    rıżālarıyla fürūḫt murād idenler daḫī bahālarıyla istiḫlāṣ ve diledükleri
+                    maḥallerden <lb/>vilāyetlerine irsāle bī-vech kimesneyi mümānaʿat itdürmeyesiz
+                    şöyle bilesiz</ab>
+
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">fī evāsıṭ-ı Ẕā
+                            [<supplied resp="#yy">Ẕi’l-ḳaʿide</supplied>] sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190925-17191004.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+
+                <ab>Decree to Mevlana Salih, who is the judge of <rs type="person" ref="#mpr14055">Istanbul</rs> with the honorific rank of
+                    the chief judge of <rs type="person" ref="#mpr15840">Anatolia</rs>—may God the
+                    exalted make his virtues lasting—and to the judge of <rs type="person"
+                        ref="#mpr14828">Galata</rs>, and to the judges of <gap unit="char"
+                        extent="4"/> ve <gap unit="char" extent="4"/> ve <gap unit="char" extent="4"
+                    /> ve <gap unit="char" extent="5"/> ve <gap unit="char" extent="5"/>, and to the
+                    deputy judges of <rs type="person" ref="#mpr14828">Üsküdar</rs> and <rs
+                        type="person" ref="#mpr15437">Ḫāṣlar</rs> (Eyüp).</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my threshold of felicity as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my court (threshold of felicity). He requested my favor about [the
+                    following matter]:</ab> 
+                    
+                    <ab>It shall be lawful to free the captives, who have been
+                    captured previously in the most recent war and conflict and are held in the
+                    possession of people, in an appropriate way with the payment of a potential
+                    price that is acceptable and reasonable. In case no agreement is reached with
+                    the owner of a captive and a disagreement occurs, the notables [at a given
+                    location] shall intermediate between the two parties. If that is not possible,
+                    the value shall be proved [via documentation] or the value shall be disclosed
+                    after taking an oath is proposed [to the owner of the captive]. The owner
+                    shall not prevent the liberation of captives with greed for more money. 
+                    
+                    In addition, it was written and recorded in the letters of agreements exchanged
+                    between the two sides that, just as men were appointed by my <rs type="place" ref="#mpr7118">sublime state</rs> for
+                    the purpose of searching and working to liberate captives, arbiters [appointed]
+                    by the aforementioned <rs type="person" ref="#mpr9399">Roman emperor</rs> shall
+                    protect the poor captives—whose price shall be delivered in the way described—
+                    and work for their liberation and take great care. In this way, both sides shall
+                    show mercy for the liberation of the captives.</ab>
+
+                <ab>Hence, from among the captives taken by my <rs type="place" ref="#mpr7118">sublime state</rs> and found in the
+                    possession of people, those who have not converted to Islam shall be freed where
+                    they are—as per the conditions of the imperial letter of agreement (<foreign
+                        xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>). And, abiding by the renewed
+                    and bolstered reconciliation and friendship between the two sides, those
+                    Christian captives—whose [service] [will be] required at the residences and during the
+                    journeys of those who are appointed for the liberation of those captives by the
+                    aforesaid <rs type="person" ref="#mpr9399">Roman emperor</rs>’s <rs
+                        type="person" ref="#mpr9435">agent</rs> who dwells in my <rs type="place" ref="#mpr14055">threshold of
+                    felicity</rs>—who have friends desiring with their own will to be purchased, shall be
+                    freed against the payment of their price, and the sending [of those freed captives] to their lands over
+                    sea and land from wherever they wish shall not be hindered. My illustrious edict
+                    has been issued [for you] to act in the way described.</ab>
+
+                <ab>When it arrives, <rs type="person" ref="#mpr14244">I</rs> order that you
+                    act as required by my edict of glorious worth. Now, you are the aforementioned
+                    [officers]! As per the conditions of my imperial letter of agreement, you shall
+                    liberate the captives who are in the possession of people in your districts and
+                    who did not convert to Islam. And, in the way described, you shall not hinder
+                    the residence of those who have been appointed with the task of liberation [of
+                    captives] by the <rs type="person" ref="#mpr9399">Roman emperor</rs>’s agent who
+                    is at my felicitious threshold. Among the Christian captives—whose [service] is
+                    required [for the purpose of finding and collecting the captives], if there are
+                    those who have companions that desire–with their own consent–to be purchased, they
+                    too shall be freed with the payment of their fees, and you shall not allow
+                    anyone to hinder their sending to their lands from wherever they wish shall not
+                    be hindered. So shall you know!</ab>
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">September 25 to
+                        October 4, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

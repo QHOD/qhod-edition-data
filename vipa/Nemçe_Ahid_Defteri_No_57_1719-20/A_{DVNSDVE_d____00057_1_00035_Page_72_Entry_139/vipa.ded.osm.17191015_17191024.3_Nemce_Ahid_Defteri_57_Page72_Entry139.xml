@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den kommandierenden Wesir von
+                    Nissa (Niš) und andere osmanische Verwalter entlang der Route von Istanbul zur
+                    österreichischen Grenze über die sichere Durchreise eines habsburgischen
+                    Kaufmanns namens Georgi Kraus, der nach Belgrad reist; Istanbul, 15. Oktober –
+                    24. Oktober 1719</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the commander vizier of Nissa
+                    (Niš) and other Ottoman administrators along the route from Istanbul to the
+                    Austrian border, concerning the safe passage of a Habsburg merchant named Georgi
+                    Kraus who is traveling to Belgrade; Istanbul, October 15 – October 24,
+                    1719</title>
+
+                <title xml:lang="tr">Sultanın, Niş kumandanı vezir ve İstanbul’dan Avusturya
+                    sınırına kadar yol üzerindeki idarecilere hitaben yazılmış, Georgi Kraus isimli
+                    Avusturyalı tüccarın güvenli seyahati hakkında hükmü; İstanbul, 15 Ekim – 24
+                    Ekim, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191015-17191024.3</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 72, entry 139</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-10-15" notAfter="1719-10-24"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den Kommandanten Wesir von Nissa (Niš) und andere
+                    osmanische Verwalter entlang der Route von Istanbul zur österreichischen Grenze
+                    über die sichere Durchreise eines habsburgischen Kaufmanns namens Georgi Kraus,
+                    der nach Belgrad reist; Istanbul, 15. Oktober – 24. Oktober 1719, bearb. von
+                    Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan
+                    Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas
+                    (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von
+                    Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno
+                    Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>protection of traveling Austrian merchant according to the conditions of
+                        the imperial letter of agreement (ahidname)</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>Nissa (Niš)</item>
+                    <item>Austrian merchant</item>
+                    <item>Austrian border</item>
+                    <item>Georgi Kraus</item>
+                    <item>protection</item>
+
+
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00035_Page_72_Entry_139.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191015-17191024.3">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">139</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr14602">Nīş</rs>
+                    <rs type="person" ref="#mpr14242">muḥāfıẓı vezīr</rs>e ve <rs type="place"
+                        ref="#mpr14055">āsitāne-i saʿādet</rs>ümden <rs type="place" ref="#mpr14602"
+                        >Nīş</rs>e ve andan <rs type="place" ref="#mpr6718">Nemçe</rs> ḥudūdına
+                    varınca yol üzerinde vāḳiʿ olan ḳāḍīlara ve ketḫüdā yirleri, yeñiçeri serdārları
+                    <lb/>ve aʿyān-ı vilāyet ve iş erlerine ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile āsitāne-i saʿādetüme gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū
+                    bi-l-ḫayr <lb/>südde-i saʿādetüme ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab><rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> tüccārından <rs
+                        type="person" ref="#mpr16042">Corci Ḳravus/Ḳraūs</rs> nām tācir iki nefer
+                    müsteʾmin şerīk ve iki nefer müsteʾmin <lb/>ḫidmetkārlarıyla girü <rs
+                        type="place" ref="#mpr9425">Belġrād</rs> ṭarafına ʿavdet itmeleriyle her
+                    ḳanġıñuzuñ taḥt-ı ḥükūmet ve ḳażāsına varub dāḫil olurlar ise menāzil ve
+                    merāḥilde <lb/>esvāb ve ṭavarlarına daḫl ü taʿarruż olunmayub ḫilāf-ı ʿahdnāme-i
+                    hümāyūn ḫarāc nāmıyla ve sāʾir bahāne ile aḳça mutālebesiyle kimesneye
+                    <lb/>rencīde itdirilmeyüb emīn ve sālim birbiriñüze irsāl ve īṣāle her biriñüz
+                    taḳayyüd ve ihtimām eylemeñüz bābında ḥükm-ü hümāyūnum rica itmegin</ab>
+
+                <ab>vech-i meşrūḥ üzere <lb/>ʿamel olunmaḳ bābında fermān-ı ʿālī-şānum ṣādır
+                    olmışdur <rs type="person" ref="#mpr14244">buyurdum ki</rs>.</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-10-15" notAfter="1719-10-24">fī evāil-i
+                            Ẕ<supplied resp="#yy">Ẕī’l-ḥicce</supplied> sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17191015-17191024.3.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the <rs type="person" ref="#mpr14242">commander vizier</rs> of <rs
+                        type="place" ref="#mpr14602">Nissa (Niš)</rs> and to the judges,
+                    aides-de-camp of janissary commanders, janissary commanders, provincial
+                    notables, and functionaries situated on the road from my <rs type="place"
+                        ref="#mpr14055">threshold of felicity</rs> to <rs type="place"
+                        ref="#mpr14602">Nissa (Niš)</rs> and from there to the <rs type="place"
+                        ref="#mpr6718">Austrian</rs> border:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>
+                    —may God end his days propitiously—who came to my <rs type="place"
+                        ref="#mpr14055">threshold of felicity</rs> as grand ambassador from the <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs>, the paragon of the great
+                    commanders of the community of Messiah, sent a petition to my threshold of
+                    felicity and requested my imperial decree [about the following matter]:</ab>
+
+                <ab>From among the merchants of the <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs>, a merchant named <rs type="person" ref="#mpr16042">Corci
+                        Kravus (Georgi Kraus)</rs> and his two protected (<foreign xml:lang="ota"
+                        >müsteʾmin</foreign>) partners and two protected (<foreign xml:lang="ota"
+                        >müsteʾmin</foreign>) servants are returning to the direction of <rs
+                        type="place" ref="#mpr9425">Belgrade</rs>. When they arrive and enter the
+                    administrative territory and town of whomever among you, no one shall interfere
+                    with and attack the garments and flock of animals at stations and stages of the
+                    journey, [and] no one shall be allowed to injure them demanding money under the name
+                    of tribute or under other pretexts in violation of the imperial letter of
+                    agreement (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>). You shall send
+                    and deliver them safe and sound from one of you to the other. Each of you shall
+                    pay attention and take great care.</ab>
+
+                <ab>My illustrious edict has been issued for all of you to act in the described way.
+                    So have <rs type="person" ref="#mpr14244">I</rs> commanded!</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-10-15" notAfter="1719-10-24">October 15 to
+                        October 24, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

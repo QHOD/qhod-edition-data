@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Ciopalek, 13. Juni 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Ciopalek, June 13, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> 
+                        Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200613</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 142r-149v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl> 
+            <refsDecl><p>Damian Hugo von Virmont an den Hofkriegsrat, Ciopalek, 13. Juni 1720, bearb. von Manuela Mayer, Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+                
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr$$$" ref="https://sws.geonames.org/$$$/">Ciopalek</placeName> <!-- keine Ahnung, was das für ein Ort ist! -->
+                    <date when="1720-06-13">13. Juni 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                    
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev"> 
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-07">7. Juni 1720</date>
+                    </ref>
+                    <ref type="next"> 
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-15">15. Juni 1720</date>
+                    </ref>
+                </correspContext>
+                
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>delay of the exchange ceremony</item>
+                    <item>disagreements with Ottoman officials concerning converts in Virmont's entourage</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="49KV_142r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="49KV_142v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="49KV_143r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="49KV_143v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="49KV_144r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="49KV_144v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="49KV_145r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="49KV_145v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="49KV_146r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="49KV_146v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="49KV_147r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="49KV_147v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="49KV_148r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="49KV_148v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="49KV_149r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="49KV_149v.jpg" xml:id="IMG16"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="142r" facs="#IMG1"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">Nr. 49</ref> d.do. <rs type="place" ref="#mpr15646">Ciopalek</rs> <date when="1720-06-13">13. Junii 1720</date> ohne beylag.</metamark>
+            <metamark><date when="1720-06-13">13. Junii</date></metamark>
+            <opener>
+                <pb n="142v" facs="#IMG2"/>
+                <pb n="143r" facs="#IMG3"/>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. Nach
+                abschickhung meiner unter den <date when="1720-06-07">7. huius</date> auß dem lager
+                vor <rs type="place" ref="#mpr14602">Nissa</rs> an euer durchleuchtigste
+                excellenzien und mehrgeertiste herren gehorsambst und schuldigst erlassenen
+                relation, erhalte die nachricht von ihrer <rs type="person" ref="#mpr9399">ksl. und
+                    cathol. Mt.</rs> general feldwachtmeister und commendanten zu <rs type="place"
+                    ref="#mpr9425">Belgrad</rs> herrn <rs type="person" ref="#mpr14241">grafen von
+                    Oduyer</rs>, wie daß der <rs type="person" ref="#mpr14276">türkhische herr
+                    grosbottschaffter</rs> die auf den <date when="1720-06-06">6. dits</date>
+                angetragene erste visit mit fingirung einer ihme zugestossenen unpässlichkeit
+                recusirt, und wie nachgehets erstgedachter herr general feldwachtmeister <rs
+                    type="person" ref="#mpr14241">graf von Oduyer</rs> erfahren habe, daß solches
+                darumb geschehen, weillen selbter die bey ihme <rs type="person" ref="#mpr14276"
+                    >grosbottschaffter</rs> befindliche christen anverlanget hätte, nebst deme sich
+                verlauthen <pb n="143v" facs="#mprIMG4"/>lassen, wie daß ich gleichfahls ville
+                christen mitführte, so Turckhen gewesen wären, welches er dem <rs type="person"
+                    ref="#mpr14242">seraskier</rs> zu <rs type="place" ref="#mpr14602">Nissa</rs> zu
+                dem ende überschreiben wolte, auf daß solche auch zuruckh genohmen würden. Und
+                berichtete vorbesagter herr general <rs type="person" ref="#mpr14241">graf von
+                    Oduyer</rs> mir solches, auf daß ich eines theils wegen der visite ein gleiches
+                gegen der visite thuen, anderen theills auch meine mesures machen könte. Da ich aber
+                die erste visite ihme herrn <rs type="person" ref="#mpr14242">seraskier</rs>
+                vormittag schon abgestattet hatte, alß mir ungefehr umb mitternacht dises schreiben
+                einlieffe, alß ware ich nicht mehr in tempore, etwas zu thuen, oder mich merckhen zu
+                lassen, sondern die revisite erwartten müeste, so er auch eben vormittag anderen
+                tags mit aller solennität gabe, <pb n="144r" facs="#IMG5"/>und dabey alle freünd-,
+                höfflich- und ehrerbiettsamkeit bezaigte, und da ich dan gerne gewüst hätte, ob und
+                was etwan der <rs type="person" ref="#mpr14276">türckhische gros bottschaffter</rs>
+                ihme <rs type="person" ref="#mpr14242">seraskier</rs> geschrieben hätte, und was er
+                villeicht oder nicht mir auf dessen anreitz und anstifftung vor chicane zu machen
+                gedachte, so nahme gelegenheit, wegen eines juden buben <rs type="person"
+                    ref="#mpr15268">Salamon Jochelberger</rs> (dessen vatter zu <rs type="place"
+                    ref="#mpr7448">Ofen</rs> wohnhafft und diser seinen sohne, seiner aussag nach,
+                in die <rs type="place" ref="#mpr7118">Türckhey</rs> darumb geschickhet, weillen er
+                ein christ werden sollen, ihme die gelegenheit darzu benohmen würde, welches alles,
+                wan über die linien und ihrer <rs type="person" ref="#mpr9399">ksl. und cathol.
+                    Mt.</rs> landen seyn werde, ausführlich examiniret, mithin schuldigst und
+                gehorsambst berichtet werden solle), alß einen ksl. unterthan, welcher <pb n="144v"
+                    facs="#IMG6"/>sich alda befande, den ksl. dollmetsch <rs type="person"
+                    ref="#mpr10485">Nicolaum Theyls</rs> zu schickhen, und gabe ihm instruction, wie
+                er unvermerckht etwan dahin trachten möchte, daß der bassa auf die materie zu reden
+                gebracht würde, so dan auch gelungen, und brache er auß, wie daß der <rs
+                    type="person" ref="#mpr14276">gros bottschaffter</rs> ihme geschrieben und
+                aüsserist beklaget, wie daß er, und sein gefolg schon dreymahl mit absonderlicher
+                ungestimbet, ihme wider recht und billichkeit leüth hinweckh genohmen worden wären,
+                und da dan auch ihme wissend, daß ich christen, so Turckhen gewesen, und sonsten
+                dergleichen heimblich mitführte, alß solte man ihres orths represalien gegen mich
+                gebrauchen, und dergleichen leüth weckhnehmen. Der von mir instruirte dollmetsch
+                antwortete, wie daß ich <pb n="145r" facs="#IMG7"/>vier christen, so Türckhen
+                gewesen, auch sonsten niemand heimblich mitführte. Es weren ain- und andere theils
+                mir geschenckhte, theills von mir erkauffte sclaven dar, worunter 3 oder 4 kinder
+                beyderley geschlechts, zwey stickherinen mit ihren muettern, so cathol. christinen,
+                und zwar der Pforten unterthanen, aber nicht anderst alß vor jährliches gehalt zu
+                arbeiten, und nicht heimblich, sondern offentlich, und mit wissen des türckhischen
+                ministerii und hof ganz <rs type="place" ref="#mpr14055">Constantinopl</rs>
+                mitgeführt worden. Ich hätte 5 oder 6 Araber zu warttung meiner pferde, und eines
+                leopard oder tiger thiers, welche ebenfahls vor gehalt bedungen, und theills von
+                ottomanischen ministris mir recommendirt worden weren, also ich desshalben nichts zu
+                apprehendiren <pb n="145v" facs="#IMG8"/>hätte. Nun würde sowohl dem respect der
+                ksl. gros bottschafft, alß auch der freündtschafft mehr conform seyn, wan man keine
+                visitation vornehmen thätte, sintemahlen man keine andere leüthe finden würde: wan
+                jedoch der bassa eine manierliche nachsuchung thuen wolte, so würde ich nach
+                gestalter arth und manier, worüber man zu conveniren hätte, es endlich geschehen
+                lassen. Vill freündschafftlicher aber seye, wan solches unterlassen würde. Der bassa
+                liesse mir hierauf ein gar freundliches compliment machen und ohne zu sagen, was er
+                intentirte, dem dollmetsch aufgabe, nur zu melden, daß, gleichwie er an meinen
+                umbgang ein besonderes vergnugen, also ein wahrhaffte aestime vor meiner person
+                gefast hätte, so trüge er vor <pb n="146r" facs="#IMG9"/>die ksl. gros bottschafft
+                alle veneration, vor mich aber eine absonderliche liebe. Wie er dan auch die
+                nachricht öffters von <rs type="place" ref="#mpr14055">Constantinopl</rs> bekomben
+                hätte, daß das ganze türckhische ministerium vor mich eine gantz besondere naigung
+                hätte, schickhte mir auch demnächst den abbemelten jüdischen buben von <rs
+                    type="place" ref="#mpr7448">Ofen</rs>, und da er andern tags darauf den
+                dollmetsch verlangte, liesse er mir sagen, wie daß ihre leüth sehr wunderlich,
+                argwöhnisch und leicht bey der Pforten angeben würden, alß wan er unverantwortlich
+                Türckhen hätte mitnehmen lassen, auch wohl der schon irritierte <rs type="person"
+                    ref="#mpr14276">bottschaffter</rs> sich gegen ihne beschwehren würde, also er
+                nöttig fände, nur pro forma eine demonstration vorzunehmen, welchemnach dan
+                concertiret wurde, daß niemand <pb n="146v" facs="#IMG10"/>von thürckhischer seiten,
+                umb etwas nachzusuchen, oder nachzusehen, in mein laager komben solle, wohl aber
+                erlaubte, daß die jenige, so in meinen diensten stunden, und türckhische unterthanen
+                wären, zu den ausser meinen laager campirenden, mir von der Pforten mitgegebenen
+                capigi bassa gehen därfften, umba alda befragt zu werden, auf was arth und weiß sie
+                mitgiengen, und ob sie von Türckhen oder christen, so mitgenomben würden, etwas
+                wüsten, welches dan, und zwar obiter also beschehen ist. Wobey dan auch ein gleiches
+                von dem mir mitgegebenen janizaren commendanten und sechs chiausen befraget worden,
+                welche dan auch, daß sie von weithers nichts, alß wie dem bassa von dem dollmetsch
+                erzehlet worden, <pb n="147r" facs="#IMG11"/>wüsten, geantworttet: es liesse mir
+                hierüber der bassa ein abermahliges compliment, wie daß er sich erfreüte, daß alles
+                so befunden und er dises werckh nur pro forma hätte thuen müessen, übrigens mein
+                aufrichtiger freünd und diener were machen. Da ich nun mehrbesagten <rs
+                    type="person" ref="#mpr14242">seraskier</rs> ersuchet, den <rs type="person"
+                    ref="#mpr14276">bottschaffter</rs> auf alle waiß zu pressiren, und gegen die
+                gränitz zu eyllen, gleichwie ich dan auch dissfahls dem herrn general <rs
+                    type="person" ref="#mpr14241">grafen von Oduyer</rs> zuschreiben wolte, alß
+                versprache er mir, ihne zu befehlen, indeme er solches thuen zu können praetendiret,
+                den <date when="1720-06-15">15.</date> ohnfehlbar zur auswechslung zu erscheinen,
+                und wurde demnächst der <date when="1720-06-10">10.</date> zum aufbruch ernennet,
+                und obwohlen glaubte, er wurde mich mit einen theill der miliz convoyren lassen, so
+                hat er sich dahin exprimiret, daß <pb n="147v" facs="#IMG12"/>er convenienter und zu
+                mehrerer ehr der bottschafft zu seyn glaubte, daß er selbsten mit dem zur
+                auswechslung destinirten corpo mich biß auf die gränitz fuhrte, wo wir dan
+                miteinander, wan etwas vorfille, leichter communiciren, auch wan man wolte,
+                freündschafftlich und ohne caeremonien seyn könte. Er wolte also mit dem tag
+                aufbrechen, und möchte ihm gleich folgen, und wurde er einige trouppen zur
+                bedeckhung hinter mir lassen. Ich gerichte in argwohn, es därffte der bassa dise
+                proposition machen, auf daß, wan die stuckh von der vöstung geloset wurden, dise
+                ehren bezaigungen in zweifel gezohen werden könte, ob sie der ksl. bottschaffter
+                oder ihme <rs type="person" ref="#mpr14242">seraskier</rs> geschehe, desshalben zur antwort gabe, ich wolte eine halbe
+                stund nach seinen abzug wartten, auf daß die artillerie die zeit aufs neüe sich zu
+                gebung <pb n="148r" facs="#IMG13"/>der dreyfachen salve <del>w</del> zu richten
+                hätte, wie dan auch solches geschehen, und sowohl bey des bassa seinen aufbruch, alß
+                bey meinen eine dreyfache salve von der artillerie gegeben worden, und seynd wir dan
+                also in diser ordnung in drey marchen anhero gekomben, in dem campement stehet der
+                bassa allzeit von meinem lager wenig entfehrnet, etwas gegen die gränitz vorauß, die
+                trouppen aber hinten, und vorn mit einer gewöhnlichen zimblich unordnung. Und da dan
+                übermorgen der tag der auswechslung bestimbt, alß werde von darauß demnächsten, was
+                vorgegangen, per expressum gehorsmabst und schuldigst berichten, womit mich zu
+                beharrlich gnaden gehorsambst empfehle und schuldigst ersterbe. </p>
+            <closer>
+                <salute>Euer durchleuchtigste excellenzien und meiner hochgeehrtisten herren</salute>
+                <signed>gehorsambst und dienstschuldigster diener<rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address><placeName>
+                    <rs type="place" ref="#mpr15646">Czopalek</rs> anderthalb stund von der gränitz</placeName>
+                </address>
+                <dateline>den <date when="1720-06-13">13. Junii 1720</date></dateline>
+            </closer>
+            
+            <pb n="148v" facs="#IMG14"/>
+            <metamark>Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-07-19">19. Julii 1720.</date></metamark>
+            <pb n="149r" facs="#IMG15"/>
+            <pb n="149v" facs="#IMG16"/>
+            
+        </body>
+    </text>
+</TEI>

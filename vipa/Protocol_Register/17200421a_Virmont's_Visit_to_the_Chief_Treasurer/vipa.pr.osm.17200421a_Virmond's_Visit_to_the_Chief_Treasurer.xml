@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Besuch von Damian Hugo von Virmont beim Hauptbuchführer,
+                    Istanbul, 21. April 1720</title>
+                <title xml:lang="en">Visit of Damian Hugo von Virmont to the Chief Treasurer,
+                    Istanbul, April 21, 1720</title>
+                <title xml:lang="tr">Damian Hugo von Virmont’un Defterdar’ı Ziyareti,
+                    İstanbul, 21 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Teşrifati Salman Efendi</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.pr.osm.17200421a</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 89</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Besuch von Damian Hugo von Virmont beim Hauptbuchführer, Istanbul, 21. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_}d___00347_00043b.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17200421a">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <hi rend="#red"><lb/><rs type="person" ref="#mpr9435">İlçi-yi mezbūruñ</rs> Defterdār Efendiye geldigini müşʿirdür. </hi>
+                <lb/><date when="1720-04-21">Yevm-i mezbūrda</date> Başdefterdār El-Ḥāc İbrāhīm Efendi ḥażretleri
+                Beşikṭaş Mevlevīḫānesi
+                <lb/>ittiṣālinde vākiʿ <rs type="person">Baş bāḳī Ḳulı Aḥmed Aġ anuñ</rs> yalısında <rs type="person" ref="#mpr9435">Nemçe ilçisine</rs> żiyāfet 
+                <lb/>eylemekle ẕikr olunur.</ab>
+                
+            <ab><date when="1720-04-20">Yevm-i mezbūrdan bir gün muḳaddem</date> bāġ çevān ḳolı ve on beş ḳadar
+                <lb/>ḫānende ve sāzende yalı-yı mezbūra cemʿ olunub ve efendi ḥażretlerinün ketḫüdāsı daḫı bir gece 
+                <lb/>muḳaddem gidüb mühimmāt-ı żiyāfeti görmişdür. Ḥattā begzādegān içün iḳtiżā iden peşgūnlar 
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> vekīl-i ḫarcında mevcūd olan peşgūnlar getürdilmişdür. Bu vechle mühimmāt müheyyā 
+                <lb/>olduḳ dan ṣoñra <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> sāʿat altıya varduḳda ẓuhūrı ḫaber virilmekle</ab>
+                
+            <ab>aġ ayān nezd-i bābıñ 
+                <lb/>bālāsından deryāya nāẓır köşküñ ḳapısına gelince dizilüb ve Enderūn aġ aları daḫı derūn-i
+                <lb/>ḳaṣrda birḳāç ḳat ṣaff-beste olub ve defterdār efendi daḫı köşküñ ḳurbında olan
+                <lb/>oṭ aya gidüb baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> köşke duḫūl eyledigi gibi defterdār efendi daḫı oda-yı
+                <lb/>mezbūrdan beri gelüb sūʾal-i ḥāṭır iderek maḳāmlarına ḳuʿūd eyledi.</ab>
+                
+                <ab><rs type="person" ref="#mpr9435">İlçi beg</rs> mümā ileyhiñ
+                <lb/>ṣol ṭarafında yaṣdıḳ üzerinde oturdılub baʿdehū ṭatlu ve ḳahve virilüb baʿdehū ḫānende 
+                <lb/>ve sāzende faṣla āġ āz eylemişlerdür. Baʿdehū köşk-i mezbūrdan ḥareket ve ḳurbında mevlevīḫāne
+                <lb/>ṭarafında meydāna nāẓır oṭ aya varılub bāġ çe ḳolı muṭrıblarınıñ oyunları seyr olmışdur.
+                <lb/>Baʿdehū maḥall-i mezbūrdan daḫı ḥareket ve üç ṣofalı köşke varılduḳda begzādegān dīvānḫānede 
+                <lb/>peşgūn üzerinde iṭʿām olmışdur.</ab>
+                
+            <ab>Bu es̠nāda ḳaṣr-ı mezbūrda ḫānende ve sāzende faṣl eylemişlerdür.
+                <lb/>Ḥattā muṭrıblarda bir küçük ḳızcaġ ız ḫātime-i faṣlda oynamaġ  ile ilçi beg şevḳe gelüb dāʾirenüñ
+                <lb/>birisini eline alub ber ḳāʿide <choice><corr>uṣūl</corr><sic>ūṣūl</sic></choice> ṭutub
+                ve mezbūr ḳızcaġ ız daḫı ilçinüñ yanında bu ḥālet
+                <lb/>üzerine iken bir miḳdār oynaduḳda ḥaẓẓından cebinden ḳıza bir altun virmişdür. Baʿdehū ṭaʿām
+                <lb/>çıḳub defterdār efendi ve <rs type="person" ref="#mpr14240">ilçi Dürrī Efendi</rs>
+                ve baş bāḳī ḳulu ve māliyye teẕkirecisi 
+                <lb/>ve <rs type="person" ref="#mpr14717">Ḳapucıbaşı Meḥmed Aġ a</rs> oturub baʿdeʾl-ṭaʿām yine faṣl eylemişlerdür.
+                Baʿdehū <rs type="person" ref="#mpr9435">ilçiye</rs>:</ab>
+                
+                <list type="giftlist">
+                <item rend="column1">telli çekme ʿaded 2 yaġ lıḳ ʿaded 2</item> 
+                <item rend="column2">begzādegān ve sāʾire telli çekme ʿaded 30</item> 
+                    <item rend="column3"><rs type="person" ref="#mpr14717">ḳapucıbaşı aġ aya</rs> ṣof kerāke ʿaded 1</item>
+                <item rend="column4">teşrīfātī efendiye çuḳa 1 ḳumāş 1 </item>
+                <item rend="column5">yeñiçeri ḥāṣekisine çuḳa 1 ḳumāş 1</item>
+                    <item rend="column1"><rs type="person" ref="#mpr9435">ilçiye</rs> kemer raḫt ve aġ ır kese ile donanmış kula at ʿaded 1</item>
+                </list>
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17200421a-transl">
+            <pb n="1" facs="#IMG1"/>
+                <ab>The following relates the <rs type="person" ref="#mpr9435">ambassador’s</rs> visit to <rs type="person" ref="#mpr14614">the chief treasurer</rs>.
+                    <date when="1720-04-21">On that day</date>, his excellency <rs type="person" ref="#mpr14614">the Chief Treasurer
+                    El-hac İbrahim Efendi</rs> organized a banquet for <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> at 
+                    the <rs type="person">Tax Inspector, Ahmed Agha</rs>’s waterfront mansion located next to the 
+                    Beşiktaş Mevlevi Lodge. It is reported here.</ab>
+                
+            <ab>The previous day, the gardeners’ branch (<foreign xml:lang="ota">bāġ çevān ḳolı</foreign>)
+                and ten to fifteen vocalists and musicians gathered at the mansion.
+                The steward of his excellency <rs type="person" ref="#mpr14614">the chief treasurer</rs> also went to the mansion 
+                the previous evening and set about the task of overseeing the supplies for the banquet.
+                The benches required for the <rs type="person" ref="#mpr9435">ambassador’s</rs> noblemen to sit were supplied from
+                the inventory of the <rs type="person" ref="#mpr9441">grand vizier’s</rs> major-domo. After the required
+                equipment had been provided in this way, the <rs type="person" ref="#mpr9435">ambassador’s</rs> arrival was
+                reported at six o’clock.</ab>
+                
+            <ab>The aghas set up their ranks starting from the upper side of the gate and extending till the 
+                door of the pavilion facing the see. The aghas of the inner court
+                lined up forming several rows inside the mansion. Before the <rs type="person" ref="#mpr9435">ambassador</rs>
+                arrived, <rs type="person" ref="#mpr14614">the chief treasurer</rs> went to the room near the pavilion. 
+                When the <rs type="person" ref="#mpr9435">ambassador</rs> entered the pavilion, <rs type="person" ref="#mpr14614">the chief treasurer</rs> also came out of
+                the room, inquired after the <rs type="person" ref="#mpr9435">ambassador’s</rs> condition, and sat on his post.</ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> was seated on a cushion on the left-hand side of <rs type="person" ref="#mpr14614">the chief treasurer</rs>. Sweets
+                and coffee were served. Thereafter, the vocalists and musicians began their
+                performance. Then, the party left the pavilion and advanced to the room 
+                that is located near the Mevlevi lodge, overseeing the maidan where they 
+                watched the the dances of the singers of the gardener’s branch. After that, they also left 
+                that spot and went to the three-porched pavilion, where the noblemen of the <rs type="person" ref="#mpr9435">ambassador</rs>
+                was served a meal on benches inside the reception room.</ab>
+                
+            <ab>Meanwhile, the vocalists and musicians performed at the mansion. 
+                When, at the end of the performance a little girl danced among the singers, the <rs type="person" ref="#mpr9435">ambassador</rs>, carried away 
+                by the excitement of the moment, took one of the tambourines in his hand and tapped out 
+                the rhythm as it should be done. The little girl danced in this manner with the <rs type="person" ref="#mpr9435">ambassador</rs>
+                for a while, upon which the <rs type="person" ref="#mpr9435">ambassador</rs>, out of his enjoyment of the moment, gave a gold coin to the girl.
+                Then, a meal was served. <rs type="person" ref="#mpr14614">The chief treasurer</rs>, the <rs type="person" ref="#mpr9435">ambassador</rs>
+                <rs type="person" ref="#mpr14240">Dürrī Efendi</rs>, the chief inspector, the 
+                secretary of the treasury, and <rs type="person" ref="#mpr14717">the Chief Steward Mehmed Agha</rs>, sat together
+                during the meal. After the meal, one more time there was a musical performance.
+                Afterwards, [the following were presented] to the <rs type="person" ref="#mpr9435">ambassador</rs>:</ab>
+                
+                <list type="giftlist">
+                    <item rend="column1">embroidered fabric 2 pieces; handkerchief 2 pieces</item> 
+                    <item rend="column2">embroidered fabric for the <rs type="person" ref="#mpr9435">ambassador</rs>’s
+                        noblemen and the rest of the group, 30 pieces</item> 
+                    <item rend="column3">a fine camlet for the steward agha, 1 piece</item>
+                    <item rend="column4">a broadcloth and a fabric for the protocol registerer, 1 each</item>
+                    <item rend="column5">a broadcloth and a fabric for the janissary captain, 1 each</item>
+                    <item rend="column1">for the <rs type="person" ref="#mpr9435">ambassador</rs> a buckskin horse equipped with a
+                        leather-strap harness and a horse blanket made of heavy cloth, 1 piece</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

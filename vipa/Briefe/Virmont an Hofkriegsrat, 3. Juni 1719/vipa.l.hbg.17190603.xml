@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 3. Juni 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Belgrade, June 3, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> 
+                        Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.l.hbg.17190603</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 3r-8v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 3. Juni 1719, bearb. von Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaft Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/792680/">Belgrad</placeName>
+                    <date when="1719-06-03">3. Juni 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190531.2"> 
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                            <date when="1719-05-31">31. Mai 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190607"> 
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                            <date when="1719-06-07">7. Juni 1719</date>
+                    </ref>
+                </correspContext>
+
+            </correspDesc>
+            <abstract>
+               <list>
+                   <item>negotiations concerning border crossing</item>
+                   <item>delay of troops for Virmont's vanguard</item>
+               </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="4KV_3r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="4KV_3v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="4KV_4r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="4KV_4v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="4KV_5r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="4KV_5v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="4KV_6r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="4KV_6v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="4KV_7r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="4KV_7v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="4KV_8r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="4KV_8v.jpg" xml:id="IMG12"/>
+        </surface>
+    </facsimile>
+
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="3r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 4</ref> d.d. <rs ana="MPRautomatched"
+                    ref="#mpr9425" type="place">Belgrad</rs>
+                <date when="1719-06-03">3. Junii 1719</date></metamark>
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath p.</salute>
+            </opener>
+            <p>Gleich wie eüer hochfürstlichsten durchleüchtigsten excellenzien und meine
+                hochgeehrtiste herren durch lezte ordinaire post gehorsambst und dienstlich
+                berichtet habe, daß zwar damahls ein <rs type="person">aga</rs> allhier angekomben,
+                welchen der <rs type="person" ref="#mpr14242">seraskier</rs> von <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> abgeschickht, umb
+                das caeremoniale zur verwechslung auf der gränize meiner und des <rs type="person"
+                    ref="#mpr14276">ottomannischen pottschaffters</rs>, alß eines und des anderen
+                reception zu vergleichen, man aber damahls noch nichts zuständen gebracht gehabt
+                oder verläßliches davon schreiben können. Also ist sodan anjezo der <rs
+                    type="person" ref="#mpr14241">herr general Oduyer</rs> mit ihme nach villen
+                schwärigkeiten übereinsgekomben und hat sich auf verschidene <pb facs="#IMG2" n="3v"
+                /> zu papier gebrachte puncta einverstanden, welche er, wie zu hoffen, noch mit
+                heünt abgehender post einem hochlöblichsten ksl. hof-kriegs-rath einsendten wirdt
+                können und ich mich auf deren enthalt und was er sonsten dabey ausführlich
+                berichtet, gehorsambst und dienstlich beziehe. Es hat mir wehrend diser abhandlung
+                ermelter <rs type="person" ref="#mpr14241">herr general Oduyer</rs> allzeit das, was
+                dabey vorgekomben, referirt und habe ich zwar jedesmahlen meine mainung ihme darüber
+                eröffnet, das werckh aber auszuführen alle hand gelassen, wie es dan auch ihme
+                aufgetragen ware und er es schon noch vor meiner ankhunfft durch den vormahls hier
+                gewesten <pb facs="#IMG3" n="4r"/>
+                <rs type="person">aga</rs>, in denen vornembsten puncten bey dem <rs type="person"
+                    ref="#mpr14242">seraskier</rs> zu <rs ana="MPRautomatched" ref="#mpr14602"
+                    type="place">Nissa</rs> angebracht, also daß auch der articul wegen der revisite
+                und des vorsitz oder ehrenplaz bey denen besuchungen schon auf dem tapet gelegen und
+                obwollen der zu tractiren anhero geschickhte <rs type="person">aga</rs> sich sehr
+                hartnäckhig dargegen bezaiget, auch ex capite religionis und mit unterschidlichen
+                vorwanden, besonders mit dem, daß ein bassa mit drey roßschwaiffen niemandt besuchen
+                därffte, sich opponiren wolte, so hat man doch geglaubt, daß diser articul noch zu
+                erhalten seyn wirdt und da mir der Türckhen tractirens arth von <rs type="place"
+                    ref="#mpr14611">Posaroviz</rs> her bekhant ist, so bin auch nicht <pb
+                    facs="#IMG4" n="4v"/> zuwider gewest, daß standthafftig darauf getrungen worden,
+                sondern gleichfahls meines orths diejenige rationes und argumenta suggerirt und
+                alles das an die hand gegeben, was mich gedunckhte, des <rs type="person">aga</rs>
+                seine allegirungen zu widerlegen und dise grosse vortheyll zu erlangen. Besonders
+                aber hat nicht wenig darzue gedienet, daß auf mein anhandgebung dem <rs
+                    type="person">aga</rs> remonstrirt und wohl in kopff gebracht worden, daß es
+                gleichfahls umb die mehrere erheb- und beleüchtung seines <rs type="person"
+                    ref="#mpr14244">sultans</rs> hochheit dabey zu thuen seye, weillen ihrer <rs
+                    type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> intention, seinem <rs
+                    type="person" ref="#mpr14276">pottschaffter</rs> darumben <pb facs="#IMG5"
+                    n="5r"/> sovill ehr anthuen zu lassen, damit sie ihre hochachtung gegen einen
+                ottomannischen kayser besser und umb so kentlicher vor der welt an tag geben und
+                durch dergleichen höfflichste tractament disen von anderen potentaten zu
+                distinquiren, wohingegen dieselbe durch sye, Türckhen, selbst davon abgekheret
+                wurden, wan man nicht auch dero pottschaffter auf gleiche arth honoriren solte. Ich
+                mueß sonderlich des herrn general feldwachtmaisters <rs type="person"
+                    ref="#mpr14241">grafens von Oduyer</rs> in diesem ganzen werckh erwisenen und
+                angewendtem beschaidenen eyfer, auch geschickhlichkeit rüehmen und were unter
+                anderen auch auß disem abzunehmen, wie <pb facs="#IMG6" n="5v"/> schwähr es denen
+                Türckhen geschehen seyn müesse, den articulum receptionis auf eine solche weis
+                (davon noch kein exemple) einzugehen, da der <rs type="person">aga</rs>, wie mir mehrgedachter <rs
+                    type="person" ref="#mpr14241">herr general Oduyer</rs> gesagt, fünffzig beütl
+                geld angetragen, wan man desistiret hätte, zuesezend, daß der <rs type="person" ref="#mpr14242">seraskier</rs> dem <rs
+                    type="person" ref="#mpr14244">sultan</rs> selbst, wan er zu ihn nach <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> kombete, nicht
+                mehrer venerirung anzuthuen wuste, alß für mich, alß ihrer <rs type="person"
+                    ref="#mpr9399">ksl. und cathol. Mt.</rs> pottschaffter in disem vergleich
+                bedungen worden, welches ich zwar für eine etwelche exagerirung halte, die dahin
+                muethmassentlich abzihlet, umb zu verstehen zu geben, <pb facs="#IMG7" n="6r"/> wie
+                grosse sachen sie eingestandten hätten. Es seye aber, wie ihm wolle, so ist nicht
+                ohne, daß es zu ihrer <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs>
+                decor vortrefflich geraichet und es einer allerunterthänigsten schuldigkeit zu seyn
+                erachte, sich mit derselben darüber allergehorsambst zu erfreüen.</p>
+            <p>Solchemnach ist zwar <add place="superlinear">dise sach</add> geschlüchtet, ich mues
+                aber beklagen, daß sowohl zu hemmung ihrer <rs type="person" ref="#mpr9399">ksl. und cathol.
+                    Mt.</rs> dienst, alß zu meinen last ville täge schon dahier verlohren und noch
+                mehrers verliehren werde müessen, weillen die zu fortbringung meiner bagage <add
+                    place="superlinear">nöttige wäg</add>, alß eben auch die <pb facs="#IMG8" n="6v"
+                /> zum permutations-actum commandirte trouppen noch nicht an der hande, sonderlich
+                aber die von denen löblichen regimentern Vasquez und Cordova nach der ihnen
+                vorgeschribenen marche-route erst ohngefehr den <date when="1719-06-05">fünfften
+                    dises</date> hier eintreffen sollen, obwollen man noch gar nichts gehört, wo sie
+                zu stund seyn möchten.</p>
+            <p>Es seyndt zwar <date when="1719-06-01">vorgestern</date> die auß dem <rs type="place"
+                    ref="#mpr1970">Bannat</rs> commandirte mannschafft und wägen auf der andern
+                seitten der Donau unweit von hier angelangt, so hatte sich aber wegen transportirung
+                derselben ein differenz eraignet, indeme das wasser starckh <pb facs="#IMG9" n="7r"
+                /> ausgegossen ist und man nicht an die gewöhnliche überfuhr komben kan, welches
+                doch mittels meiner gehoben und ausgemacht worden, daß sie zwischen <date
+                    when="1719-06-04">morgen</date> und <date when="1719-06-05">übermorgen</date>
+                disseiths gebracht sollen werden, dahero auch ich künfftigen <date when="1719-06-05"
+                    >montags</date>, alß den <date when="1719-06-05">fünfften dises</date>, mich
+                moviren und nach <rs ana="MPRautomatched" ref="#mpr14278" type="place"
+                    >Semendria</rs> zu wasser hinabruckhen werde, umb alles meines orths anzukheren,
+                was möglichst meinen weitheren zug und reys beförderen kan.</p>
+            <p>Eben wegen der noch ermangleten commandirten mannschafft und nicht zusamben
+                gebrachten vorspann hat man in denen <pb facs="#IMG10" n="7v"/> caeremonial
+                vergleichen oder reglement den tag der permutation soweit hinauß sezen müessen, umb
+                sicher zu seyn, biß dahin an der stell einzutreffen und allen mißvergnügen und
+                beschwehrden der Türckhen vorzukomben, wan sie etwan alda widerumb wartten müesten.
+                Ich empfehle mich hiemit gehorsambst und verbleibe.</p>
+            <closer>
+                <salute>Euer hochfürstlichsten durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldiger diener <rs ana="MPRautomatched"
+                        ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                </address>
+                <dateline>den <date when="1719-06-03">3. Junii 1719</date></dateline>
+            </closer>
+            <pb facs="#IMG11" n="8r"/>
+            <pb facs="#IMG12" n="8v"/>
+            <metamark><date when="1719-06-03">1719 3. Iunii</date></metamark>
+            <metamark>Exped. <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1719-06-11">11. Junii
+                    1719</date></metamark>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Letter of Grand Vizier İbrahim Pasha to the Ottoman Ambassador Dayezade İbrahim Paşa, Istanbul, September 5, 1719</title>
+                <title xml:lang="de">Großwesir Ibrahim Pasha an dem osmanischen Großbotschafter Dayezade Ibrahim Pasha, Istanbul, 5. September 1719</title>
+                <title xml:lang="tr">Vezir-i Azam İbrahim Paşa’nın Osmanlı elçisi İbrahim Paşa’ya mektubu, İstanbul, 5 Eylül 1719</title>
+                <author><persName>Damad İbrahim Paşa</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <licence>CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:vipa.l.osm.17190905</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Online Edition von Quellen zur habsburgisch-osmanischen Diplomatie
+                    (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Türkische Urkunden und Staatsschreiben</collection>
+                        <idno>Kt. 12, 1719 IX 5</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 Seite</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/1018616411">Damad İbrahim Paşa</persName>
+                    <date when="1719-09-05">20 Şevval 1131</date>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>İbrahim Paşa</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/ https://sws.geonames.org/2761369/">Vienna</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to
+                    reference them here.</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.l" type="context"> Briefe </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Großwesir Ibrahim Pasha an dem osmanischen Großbotschafter Dayezade Ibrahim Pasha, Istanbul, 5. September 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- JS: added here -->
+        <surface start="#IMG1">
+            <graphic url="IMG_20200921_095030.jpg" xml:id="IMG1"/>
+        </surface>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="transcription" xml:id="vipa.l.osm.17190905">
+            <pb n="1" facs="#IMG1"/>
+            <!-- JS: added <pb> -->
+            <cb/>
+            <ab>
+                <lb/>Benüm ʿizzetmendüm <rs type="person" ref="#mpr14276">paşa-yı muḥterem ḥażretleri</rs></ab>
+            <ab>
+                <lb/><rs type="place" ref="#mpr7118">Devlet-i ʿAliyye-yi ebediyyü’l-istimrār</rs>
+                ile ḥürmetlü ḥaşmetlü <rs type="person" ref="#mpr9399">Nemçe Çāsārı</rs>
+                beyninde ṣūret-pezīr-i
+                <lb/>istiḳrār olan muṣālaḥa-ı ḫayr-encāmıñ ̱semere ve muḳteẓāsından olan dostluḳ ve
+                muvālātuñ
+                <lb/>teʾkīd ve teşyīdi ve bünyān-ı muṣāfātuñ istiḥkām ve teʾyīdi içün ḫitām-ı
+                muvādaʿada muʿtād
+                <lb/>oldıġı üzere  ṭaraf-ı <rs type="place" ref="#mpr2229">Devlet-i İmparaṭoriyyeden</rs> mümtāz
+                ve muʿteber büyükilçilik ile baʿ̱s ve irsāl
+                <lb/>olunan ḳıdvetu ümerāʾi’l-milleti’l-mesīḥiyye raġbetlü dostumuz
+                <rs type="person" ref="#mpr9435">Ġruf de Virmond</rs> 
+                    <foreign xml:lang="ar">ḫutimet ʿavāḳıbuhu bi’l-ḫayr</foreign>
+                <lb/>işbu <date calendar="Hijri" when="1719-08-05">biñ yüz otuz bir senesi şeḥr-i Ramażān-ı
+                    Şerīfinün on ikinci Bāzār güni</date> 
+                    <rs type="place" ref="#mpr14055">Dārü’s-salṭanat-ı’l-ʿaliyye
+                <lb/>şehr-i Ḳosṭanṭiniyye</rs>
+                <foreign xml:lang="ar">humiyet ʿani’l-āfāt ve’l-beliyye</foreign>ye sālimen
+                vuṣūl</ab>
+                
+            <ab>ve <rs type="place" ref="#mpr14828">Ġalaṭada</rs> bir miḳdār ḫastelik
+                <lb/>olmaġla maḥall-i mezbūrda öteden beri ilçilerüñ iḳāmetgāhları olan ḳonaḳları
+                ḥāżır ve āmāde
+                <lb/>olunmış iken ḫastelikden nāşī aña nüzūl
+                eylemekden teḥāşī ve şehr-i mezbūrdan ʿillet-i mez̠kūre
+                <lb/>mündefiʿ oluncaya dek ḫāric-i sūrda ḫastelikden maṣūn bir maḥallde meks̠ ve
+                iḳāmet
+                <lb/>eylemegi iḫtiyār ve istidʿā itmekle riʿāyet-i merāsim-i mihmāndārī içün
+                mesʾūline müsāʿade</ab>
+            <ab>
+                <lb/>ve ḫāric-i şehirde <rs type="place" ref="#mpr14973">Davudpaşa</rs>
+                ve <rs type="place" ref="#mpr14980">Vīdoz</rs> baġçeleri eṭrāfında olan çiftliklere baḳdırub ḳanġisi kendülere
+                <lb/>münāsib ise aña nüzūle ruḥṣat virilmek üzere
+                taḫyīr olundıḳda</ab>
+            <ab>ṭarafından mahṣūṣ ādemler taʿyīn
+                <lb/>ve ol ḥavālīde olan çiftliklerden <rs type="person" ref="#mpr14276">cenābıñızuñ</rs>
+                <rs type="place" ref="#mpr14713">Ḫazīnedār Çiftligi</rs> dimekle maʿrūf çiftligiñize raġbet
+                <lb/>itmekle maḥall-i mezbūra nüzūl itdirilüb kendüsi <rs type="place" ref="#mpr14713">çiftlikde</rs> ve etbāʿı çadırlar
+                ile eṭrāfında oturub
+                <lb/>bu ḥāl üzere ārām ve ḳarār</ab>
+                
+          <note resp="#yy" place="paragraph">The Austrian Engineer Captain
+              Otto Friedrich von Öbschelwitz, who was in Grand Ambassador Hugo von
+              Virmont’s delegation in 1719-20, was instructed by Prince Eugene 
+              to prepare a detailed map of the entire journey route from Belgrade to Istanbul.
+              As part of that task, Öbschelwitz drew a detailed map of Istanbul and its
+              surroundings. <ref target="/o:vipa.tr.hbg.map">He also 
+                  provided the exact location of <rs type="place" ref="#mpr14713">Hazinedar Çiftliği</rs>
+                  at <rs type="place" ref="#mpr14973">Davutpaşa</rs>.</ref></note>   
+                
+          <ab>ve şeḥr-i <rs type="place" ref="#mpr14055">İstanbula</rs> vuṣūllerinüñ 
+              beşinci güni ki <date calendar="Hijri" when="1719-08-02">māh-ı Ramażān-ı Şerīfün on
+                  <lb/>altıncı Pençşenbe günidür</date> muʿtād üzere alay ile 
+              <rs type="place" ref="#mpr14982">Edirne ḳapusı</rs>ndan şehre
+              düḫūl ve <rs type="place" ref="#mpr14983">Fenār ḳapusı</rs>ndan
+              <lb/>çıkub <rs type="place" ref="#mpr14975">Ayvansarāydan</rs> yine mekān-ı maḫṣūṣlarına varub istirāḥat</ab>
+            
+                <ab>ve <date calendar="Hijri" when="1719-08-04">māh-ı mezbūruñ on sekizinci
+                <lb/>Cumʿa-irtesi güni</date> gelüb <rs type="person" ref="#mpr9441">bizümle</rs> görişüb ḥürmetlü ḥaşmetlü ulu
+                dostumuz <rs type="person" ref="#mpr9399">Romā İmparatorı Çāsār-ı
+                <lb/>bā-vaḳār ḥażretleri</rs>nden ṭarafumuza olan muḥabbetnāmeleriyle hediyye-i
+                    beḥiyyeleri ve rütbetlü meveddetlü <rs type="person" ref="#mpr10441">başvekīl</rs> dostumuzuñ
+                <lb/>mektūb-u merġūblarını īṣāl ve teslīm</ab>
+            <ab>ve müşārün ileyḥimā dostluġa lāyıḳ ve maḥabbet ve muvālāta müteʿallıḳ
+                <lb/>her ne tavṣīye eylemişler ise kemāl-i ādāb ve tevāżuʿ ile teblīġ ve tefhīm
+                itmekle es̠nāy-ı mülāḳātda olan
+                <lb/>ḥüsn-i ḥareketinden ziyāde ḥaẓẓ olunmaġın <rs type="person" ref="#mpr9441">ṭarafumuzdan</rs> daḫı 
+                <rs type="person" ref="#mpr9435">gendülere</rs> eslāfından ziyāde riʿāyet ve ḥürmet
+                <lb/>ve dostluḳ merāsimi icrā ḳılınduḳdan ṣoñra ḳarārgāhlarına ʿazīmet
+                itdürilüb</ab>
+                
+            <ab>yine <date calendar="Hijri" when="1719-08-07">māh-ı mezbūruñ yigirmi
+                <lb/>birinci Ṣalı güni</date> <rs type="place" ref="#mpr14841">sarāy-ı hümāyūnda</rs>
+                ġalebe dīvānı ve dergāh-ı
+                muʿallā ḳullarına iki ḳısṭ mevācib tertīb ve <rs type="person" ref="#mpr9435">ilçi-yi
+                <lb/>mūmā ileyḥ</rs> yevm-i mezbūrda dīvān-ı hümāyūna daʿvet ve ziyāde riʿāyet ve ḥürmet
+                ile getürdilüb</ab>
+                
+                <ab>ḳubbe altında
+                <lb/>mevācib tevzīʿ ve tekmīl olundıġı gibi
+                muġīs̠u’l-islām
+                    ve’l-müslimīn sulṭānu’l-berreyn ve ḫāḳānu’l-baḥreyn şevketlü
+                    <lb/>kerāmetlü ḳudretlü mehābetlü efendimüz 
+                    <rs type="person" ref="#mpr14244">pādīşāh-ı islam-penāh ve şehinşāh-ı
+                    felek-destgāh</rs> <foreign xml:lang="ar">ebbede llāhu salṭanatehū
+                        <lb/>ve ̣̣kuvvāhu</foreign> ḥażretlerinüñ ḥużūr-ı hümāyūn-ı
+                mehābet-maḳrūn-ı cihāndārīlerine girilüb</ab> 
+                
+                <ab>ve
+                <rs type="person" ref="#mpr9435">ilçi bey</rs> ẕātında rüşd ve sedād
+                <lb/>ve ʿaḳl ve kiyāset ṣāḥibi olmaḳdan nāşī resm ve ādāba kemāl-i riʿāyet ile
+                nāmesini mübārek rikāb-ı hümāyūn-ı
+                <lb/>şehinşāhīye <rs type="person" ref="#mpr9441">vesāṭetümüz</rs>
+                ile teslīm ve hedāyāsını daḫı ʿarż ve teblīġ ve emr-i
+                sefāreti tetmīm eyledükden ṣoñra</ab>
+                
+            <ab><lb/>gerek <rs type="person" ref="#mpr9435">gendüsi</rs> ve gerek
+                dīvān-ı hümāyūna maʿan gelen begzādeler teşrīfāt-ı mülūkāne
+                ile talṭīf ve iktisāb-ı
+                <lb/>mufāḫaretden ṣoñra yine ārāmgāhlarına ʿazīmet ve el-yevm anda ḳarār idüb 
+                pey-der-pey envāʿ-ı ikrām
+                <lb/>ile mihmān-nüvāzlıḳda diḳḳat-i tāmm olunmaḳdadır.</ab>
+            <ab>Ḥattā Pençşenbe ve Bāzār-irteleri binişler olmaḳ nevʿān
+                <lb/>deʾb-i ḳadīm oldıġı maʿlūmuñuzdur. Taḥrīr-i ḳāʾimeden bir gün muḳaddem ki
+                    <date calendar="Hijri" when="1719-09-04">māh-ı Şevvaluñ onṭokuzıncı
+                    <lb/>Bāzār-irtesi güni</date>
+                <rs type="place" ref="#mpr14980">Vidoz bāġçesine</rs> ṭoġrı binmiş
+                idük.</ab>
+                <ab><rs type="person" ref="#mpr9435">İlçi-yi mūmā ileyḥi</rs> daḫı bāġçe-i
+                <lb/>merḳūma daʿvet idüb ʿaẓīm görişilüb ṣoḥbetler olunub vech-i münāsib ile ikrām
+                olundıġından
+                <lb/>māʿadā devleteyn beyninde vuḳūʿ bulan muṣāfāt ve muvālāt muḳteżāsınca <rs type="place" ref="#mpr14815">Buzurofçada</rs>
+                <lb/>temessüke derc olundıġı üzere muḳaddemā es̠nā-yı muḥārebede gendülere
+                müteʿalliḳ aḫz̠ ve tersāne-i
+                <lb/>ʿāmireye vażʿ olunan esīrler daḫı taḫlīṣ ve <rs type="person" ref="#mpr9435">ṭaraflarına</rs> teslīm olunmışdur.</ab>
+            <ab><term>ʿAḫdnāme</term> derūnında
+                <lb/>şarṭ ve derc ḳılındıġından ḳaṭʿ-ı naẓar ilçi-yi mūmā ileyḥiñ ḥarekāt-ı merġūbe
+                ve eṭvār-ı pesendīdesine
+                <lb/>ve getürdigi nāme-i muḫālaṡat-ʿalāmelerinün mażmūn-ı meveddet-nümūnlarından
+                istinbāṭ olundıġına göre
+                <lb/>ol ṭarafda bulunan esārā-yı müslimīn daḫı şimdiye dek 
+                <rs type="person" ref="#mpr14276">ṭarafuñuza</rs> teslīm
+                olundıġında ḳaṭʿan iştibāhımız
+                <lb/>yoḳdur. <rs type="person" ref="#mpr14276">Siz</rs> daḫı aḫz̠ ve istiḫlāṣ eyledügüñüzi iʿlām eyleyesiz.</ab>
+                
+                <ab><rs type="person" ref="#mpr9435">İlçi-yi mūmā ileyh</rs> edīb ve ḳadir-şinās<cb/>
+                <lb/>ve dāʾimā devletlerinüñ rıżāsını taḥṣīle sāʿī bir işbilür kimesne olub ḥarekāt
+                ve sekenātından
+                <lb/>ziyāde maḥẓūẓ olduġımızdan nāşī
+                    <rs type="place" ref="#mpr14828">Ġalaṭada</rs> bir ḳonaġa naḳl
+                eylemeleri münāsib olub ve muḳaddemā
+                <lb/>ilçilere maḫṣūṣ olan ḳonaġun eṭrāfında ẓuhūr iden ḫastelik daḫı egerçi mündefiʿ
+                olmışdur
+                <lb/>lākin ḳonaġ-ı mezbūr <choice><orig style="persian_spelling" ana="römer_recommended_to_use_this" xml:lang="fa">dil-ḫᵛāh</orig>
+                        <reg>dil-ḫāh</reg></choice> üzere müferreḥ olmadıġından yine
+                <rs type="place" ref="#mpr10447">Begoġlında</rs> ilçi beg dostumuzuñ iḫtiyār
+                    <lb/>ve <choice><orig style="persian_spelling" ana="römer_recommended_to_use_this" xml:lang="fa">ḫᵛāhīşleri</orig>
+                        <reg>ḫāhīşleri</reg> </choice> üzere
+                    <rs type="person" ref="#mpr14842">Felemenk ilçisi</rs> reʾy ve
+                maʿrifetiyle fāḫır ve dil-küşā ḳonaḳ tedārük</ab>
+                <ab><lb/>ve konaġ-ı mezbūra mülāṣıḳ etbāʿı içün daḫı müstevfī ḫāneler taḫlīye itdürilüb
+                tārīḫ-i
+                    <lb/>ḳāʾimeden birḳaç gün ṣoñra <rs type="place" ref="#mpr14713">çiftlig-i mezbūrdan</rs>
+                    ḥareket ve konaġ-ı merkūma nạkl
+                ve iḳāmete ḳarār
+                <lb/>eyleye.</ab>
+            <ab><rs type="person" ref="#mpr14276">Siz</rs> daḫı şān-ı
+                <rs type="place" ref="#mpr7118">devlet-i ʿaliyye</rs> ve
+                nāmūs-ı salṭanat-ı seniyyeye muvāfıḳ ḥarekete mübāderet ve meʾmūr
+                <lb/>olduġıñız vechle gerek esārā-yı müslimīnüñ taḫlīsünde ve gerek z̠immet-i
+                ihtimāmuñuza müterettib olan
+                <lb/>ḫuṣūṣlarda vech-i lāyıḳ ile bez̠l-i ḳudret ve ḫidemāt-ı pesendīde vücūda
+                getürmege ṣarf-ı
+                <lb/>miknet eyleyesiz. Fī <date calendar="Hijri" when="1719-09-05">20 <supplied resp="#yy">Şevva</supplied>l 1131</date></ab></div>
+            
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.l.osm.17190905-transl">
+                    <pb n="1" facs="#IMG1"/>
+                
+                <ab>His excellency, my honorable and respectable <rs type="person" ref="#mpr14276">Pasha</rs>:</ab>
+               
+               <ab>Between the <rs type="place" ref="#mpr7118">Ottoman Empire</rs> 
+                   that shall endure forever and the respectable, majestic 
+                   <rs type="person" ref="#mpr9399">Austrian Emperor</rs>, a prosperously concluded
+                   peace came into effect. As per custom, for the
+               strengthening and reinforcement of friendship and mutual confidence that are
+               of the fruits and necessities of the peace, and for the solidification 
+               and confirmation of the edifice of true friendship, at the 
+               conclusion of the reconciliation, our esteemed friend, paragon of the great
+               commanders of the community of the Messiah, <rs type="person" ref="#mpr9435">Graf von Virmont</rs> - may
+               God end his days propitiously - was dispatched  with distinguished and highly regarded
+               grand ambassadorship by the <rs type="place" ref="#mpr2229">imperial state</rs>. 
+                   <rs type="person" ref="#mpr9435">He</rs>
+                   safely arrived on the <date calendar="Hijri" when="1719-08-05">twelfth day of
+               the month of Ramadan in this current year of one thousand thirty-one</date> to 
+               the city of Constantinople, the abode of the sultanate - may God protect it
+               from disasters and calamities. </ab>
+               
+               <ab>Although the mansion that was the residence place of envoys for as long 
+                   as anyone can remember was ready and prepared, as there was a little bit
+                   of disease in <rs type="place" ref="#mpr14828">Galata</rs>,
+                   the <rs type="person" ref="#mpr9435">ambassador</rs> avoided moving in there due to the
+                   disease, and, until the said disease was repelled from the said quarter,
+                   he preferred and requested to reside outside of the city walls at a location that is
+                   protected from the disease. His will was approved to abide by the 
+                   formal procedures of hospitality.</ab>
+                
+                <ab>[The ambassador] was [then] given the choice of being shown the farms
+                    located outside of the city around 
+                    <rs type="place" ref="#mpr14973">Davudpaşa</rs> and 
+                    <rs type="place" ref="#mpr14980">Vidos gardens</rs>, to choose
+                    whichever one was suitable for him, and to move in there. Upon this, 
+                    men were appointed by <rs type="person" ref="#mpr9435">him</rs>
+                    to that purpose and, out of the farmslocated in that vicinity,
+                    he liked the farm of <rs type="person" ref="#mpr14276">yours</rs>
+                    known as <rs type="place" ref="#mpr14713">Hazinedar Farm</rs>.
+                    <rs type="person" ref="#mpr9435">He</rs> was then transferred
+                    to that said location and, while [the ambassador] himself lodged
+                    inside the farm, his attendants sat around the farm in tents.
+                    They settled and rested in this way.</ab>
+                
+                <ab> On the <date calendar="Hijri" when="1719-08-02">fifth day of their
+                    arrival to Istanbul, which was a Thursday and the 
+                    sixteenth day of the holy month of Ramadan</date>, as per custom, they entered
+                    the city with a parade through the <rs type="place" ref="#mpr14982">Gate of Edirne</rs>
+                    and exited from the <rs type="place" ref="#mpr14983">Gate of Fener</rs>
+                    and, over <rs type="place" ref="#mpr14975">Ayvansaray</rs>, arrived
+                    back to their designated location and rested
+                    there.</ab>
+                
+                <ab> On the <date calendar="Hijri" when="1719-08-04">eighteenth day of the said month
+                    [of Ramadan], Saturday</date>, [the ambassador]
+                    came and met with <rs type="person" ref="#mpr9441">me</rs> and delivered the letter of friendship addressed to 
+                    us with the beautiful presents from our venerable,
+                    majestic, and exalted friend <rs type="person" ref="#mpr9399">the Roman emperor</rs>,
+                        his majesty the dignified caesar,
+                    and the desirable letter of our loving friend of high rank,
+                    <rs type="person" ref="#mpr10441">the chief minister</rs> (<foreign xml:id="tur">başvekīl</foreign>).</ab>
+                
+                <ab> Whatever these aforementioned two [<rs type="person" ref="#mpr9399">the emperor</rs>
+                    and <rs type="person" ref="#mpr10441">the chief minister</rs>]
+                    recommended worthy of friendship and regarding the mutual affection and confidence,
+                    [<rs type="person" ref="#mpr9435">the ambassador</rs>] announced and communicated them with perfect decorum.
+                    For we were exceedingly pleased with <rs type="person" ref="#mpr9435">his</rs>
+                    fine conduct during the interview,
+                    a [degree of] friendly ceremoniousness, 
+                    respect, and esteem was displayed to <rs type="person" ref="#mpr9435">him</rs>
+                    by our side that exceeded that had
+                    been shown to his predecessors. Afterward, <rs type="person" ref="#mpr9435">he</rs>
+                    was returned back to his headquarters.</ab>
+                
+                <ab>Again, on the <date calendar="Hijri" when="1719-08-07">twenty-first day of the said month [of Ramadan]</date>,
+                    Tuesday, a festive meeting of the imperial council 
+                    (<foreign xml:lang="tur">ġalebe dīvānı</foreign>) was organized inside the 
+                    <rs type="place" ref="#mpr14841">sultanic palace</rs>,
+                    and the janissaries of the sultanic court were paid two portions of their salaries.
+                    On that day, the <rs type="person" ref="#mpr9435">ambassador</rs> was invited to 
+                    <rs type="place" ref="#mpr14841">the imperial council</rs> where he was
+                    brought with much respectful treatment and reverence. </ab> 
+                
+                <ab>As soon as the salaries were handed out and completed in the domed chamber,
+                    [<rs type="person" ref="#mpr9435">the ambassador</rs> and his inner circle] entered the world-ruling
+                    and awe-inspiring imperial presence of <rs type="person" ref="#mpr14244">his excellency,
+                        who is the helper of Islam,
+                    the sultan of the two continents and the ruler of the two seas, the majestic,
+                    generous, mighty, and magnificent sovereign, the refuge of Islam and the
+                    king of kings whose seat is as high as the heavens</rs> - may God immortalize
+                    his sultanate and power. </ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> is a person of right judgment and proper conduct;
+                    as a man of wisdom and intelligence, abiding fully by the rules of formality
+                    and good manners, he delivered his letter to the blessed imperial stirrup
+                    of <rs type="person" ref="#mpr14244">the king of kings</rs> through 
+                    <rs type="person" ref="#mpr9441">our</rs> mediation, presented and transmitted
+                    his gifts, in this way completing the task of ambassadorship.</ab>
+                
+                <ab>Later on, both <rs type="person" ref="#mpr9435">he</rs> and the 
+                    noblemen who came to <rs type="place" ref="#mpr14841">the imperial council</rs>
+                    along with him were complimented with royal ceremonies and earned pride in this
+                    way. After that, they went back to their place of residence. As of today,
+                    they are still residing there, and, little by little, they are 
+                    shown numerous courtesies and utmost care is paid to hospitality. </ab>
+                
+                <ab>In fact, you know that horseback riding on Thursdays and Mondays are,
+                    in a way, an old tradition. A day before the writing of this paper,
+                    <date calendar="Hijri" when="1719-09-04">the nineteenth day of the month of Şevval, Monday</date>, we rode on 
+                    horseback toward <rs type="place" ref="#mpr14980">Vidos Garten</rs>.</ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs>
+                    was also invited to that garden; we had long conversations
+                    and talks with him and we showed him courtesy in a proper way.
+                    Moreover, in accordance with the true friendship and mutual confidence
+                    that occurred between the two states, as set down in writing in the 
+                    protocol at Passarowitz, the prisoners of war formerly captured
+                    from their side during the war and placed at the imperial shipyard were
+                    released and delivered to <rs type="person" ref="#mpr9435">[the ambassador]</rs>. </ab>
+                
+                <ab>Irrespective that it was stated as a condition and set down in writing
+                    in the treaty (<foreign xml:lang="tur">ʿaḫdnāme</foreign>), [considering]  
+                    the agreeable behavior and pleasing conduct of the <rs type="person" ref="#mpr9435">ambassador</rs> and as
+                    inferred from the friendship-exhibiting content of the letter that 
+                    is a sign of sincerity, we have absolutely no doubt that the Muslim prisoners
+                    located on that side [in Austria] are also handed to <rs type="person" ref="#mpr14276">you</rs> by now.
+                    <rs type="person" ref="#mpr14276">You</rs> shall also report that 
+                    you have received and saved [the Muslim prisoners]. </ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> is a gentlemanly and appreciative person who constantly
+                    struggles for the contentment of his state. As we have been much pleased
+                    by his actions and quiescence, his transfer  
+                    to a residence at <rs type="place" ref="#mpr14828">Galata</rs>
+                    is now suitable and the disease that had erupted around the lodgings
+                    designated for ambassadors is repelled. However, since that lodging [at Galata] is 
+                    not expediently comfortable, a splendid and pleasant residence chosen and desired by 
+                    <rs type="person" ref="#mpr9435">our friend ambassador</rs> 
+                    in <rs type="place" ref="#mpr10447">Beyoğlu</rs> was prepared with the opinion 
+                    and the mediation of the <rs type="person" ref="#mpr14842">Dutch ambassador</rs>.</ab>
+                
+                <note type="footnote" resp="#yy">While Galata historically referred roughly to the area around the Galata Tower
+                    and Karaköy coast, Pera (today Beyoğlu) referred to the areas higher in altitude to the northeast of Galata.
+                    This historical distinction is lost today in public naming of the area.</note>
+                
+                <ab>For <rs type="person" ref="#mpr9435">his</rs> inner circle, a sufficient number of houses adjacent to the
+                    said residence have been emptied; [at the moment, the Austrian ambassador] is waiting to move 
+                    from the said farm (<rs type="place" ref="#mpr14713">Hazinedar Çiftliği</rs>)
+                    and transfer to the said residence (in <rs type="place" ref="#mpr10447">Beyoğlu/Pera</rs>) and reside there.</ab>
+                
+                <ab><rs type="person" ref="#mpr14276">You</rs> shall urgently set about to act in a way that is suitable for 
+                    the reputation of <rs type="person" ref="#mpr7118">the Sublime State</rs> and the honor of the exalted sultanate,
+                    to employ all your power both for the setting free of the Muslim prisoners
+                    in the way <rs type="person" ref="#mpr14276">you</rs> have been commissioned and about the issues entrusted to
+                    your diligent duty, and [in this way] to perform pleasing services.</ab>
+                
+                <ab>On <date calendar="Hijri" when="1719-09-05">20 <supplied resp="#yy">Şevva</supplied>l 1131</date></ab>
+               
+            </div>
+        </body>
+    </text>
+</TEI>

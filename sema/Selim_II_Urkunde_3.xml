@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 3</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15680209</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖstA, HHstA Wien</institution>
+                        <collection>Staatsabteilungen, Türkei </collection>
+                        <idno type="regest_petritsch" n="550">Karton 24/1,fol. 41f.</idno>
+                    </msIdentifier>
+                    <physDesc>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1568-01-31" notAfter="1568-02-09" calendar="#hijri">974 Şaʿbān 1-10 </date>   
+                    <placeName ref="http://sws.geonames.org/747712/">Edirne</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15670430">Urkunde 2</ref>
+                <ref type="next" target="o:sema.rc.osm.15680309">Urkunde 4</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 3: Geschrieben zwischen dem 31.1. und 9.2.
+                1568 in <rs type="place" ref="#mpr14060">Edirne.</rs>
+                Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda,</rs>
+                 <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>
+                auf Grund einer Beschwerde einer Person namens <rs type="person" ref="#mpr14164">Mezīd.</rs>
+                Die Ungläubigen sollen in der Gegend von
+                Östörġon 1.200 Schafe in die Festung <rs type="place" ref="#mpr14080">Tata</rs>
+                verschleppt haben. Er soll die Schafe zurückfordern und der Pforte melden, wenn diesem Wunsch nicht Folge geleistet wird.</p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p></interpretation></editorialDecl>
+            <refsDecl>
+                <p>Urkunde 3: Selim II. an Muṣṭafā Paşa, Edirne, zwischen 31.1. und 9.2. 1568, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.3.1.">
+            <graphic url="03_550-1.jpg" xml:id="IMG.3.1."/>
+            
+        </surface>
+        
+        <surface start="#IMG.3.2.">
+            <graphic url="03_550-2.jpg" xml:id="IMG.3.2."/>
+            
+        </surface>
+        
+    </facsimile>
+    <text type="record"><body>
+            
+                <div n="3">
+                    <div type="transcription" xml:lang="ota">
+                        <pb facs="#IMG.3.1." n="3.1."/>
+                        <ab type="invocatio">hüve</ab>
+                     
+                    
+                            <ab type="inscriptio"><lb n="1"/>Emīrü l-ümerā’i l-kirām kebīrü l-küberā’i l-fiḫam ẕū l-ḳadri
+                            ve-l-iḥtirām ṣāḥibü l-ʿizzi ve-l-iḥtişām el-muḫtaṣṣu bi-mezīdi ʿināyeti
+                            l-meliki l-ʿallām 
+                        <lb n="2"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisi
+                        <rs type="person" ref="#mpr14163">Muṣṭafā</rs></ab>
+                        <ab type="salutatio">dāme iḳbālühū</ab> 
+                        <ab type="notificatio">tevḳīʿ-i refīʿ-i hümāyūn vāṣıl olıcaḳ maʿlūm ola ki</ab> 
+                        <ab type="narratio">dārende-i fermān-i hümāyūn <rs type="person" ref="#mpr14164">Mezīd</rs> nām kimesne       
+                            <lb n="3"/>dergāh-i muʿallāma gelüp biñ iki yüz re’s ḳoyunı Ūstūrġūn
+                        <supplied resp="ht">Gran</supplied> derbendinde yürürken ḥarbī kāfirlerden                                                     
+                        <lb n="4"/>baʿż-ı kāfirler gelüp <rs type="place" ref="#mpr14080">Ṭāṭā</rs>
+                        nām ḥarbī ḳalʿeye sürüp teʿaddī eyledüklerin bildürdi</ab> 
+                        <ab type="dispositio">buyurdum ki şimdi mābeyn ṣulḥ u ṣalāḥ 
+                            <lb n="5"/>üzre iken bunuñ ol miḳdār ḳoyunın sürüp alup gitmişler ise ādem gönderüp ḳoyunın ṭaleb ėdüp alıvėresiz
+                        <lb n="6"/>/vėrdilerse ḫoş vėrmezler ise gėrü ḳapuma ʽarż ėdesiz</ab> <ab type="sanctio">şöyle bilesiz ʽalāmet-i şerīfe iʽtimād
+                        <lb n="7"/>ḳılasız</ab> <ab type="datatio"><date calendar="#hijri" notBefore="1568-01-31" notAfter="1568-02-09">taḥrīren
+                            fī evāyili Şaʿbāni l-muʿaẓẓam senete ḫams ve-sebʿīn ve-tisʿa mi’e</date></ab>
+                        <ab type="locus">bi-maḳāmi <rs type="place" ref="#mpr14060">Edirne</rs> el-maḥrūse</ab>
+                       
+                        <pb facs="#IMG.3.2." n="3.2."/>
+                        <p>Rückseite: Ḥükm-i hümāyūn ṣūretidür</p>                      
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.3.1." n="3.1."/>
+                    <ab type="invocatio">Er</ab>
+                    <ab type="inscriptio">Emir der ehrwürdigen Emire, Großer der geehrten
+                            Großen, Inhaber der Macht und der Ehre, Besitzer von Ruhm und Würde,
+                            Erwählter der reichen Gnade des allwissenden Königs, Beglerbegi von
+                            <rs type="place" ref="#mpr7448">Buda</rs> 
+                        <rs type="person" ref="#mpr14163">Muṣṭafā</rs></ab> 
+                    <ab type="salutatio">währen möge sein Glück.</ab>
+                    <ab type="notificatio">Sobald das erhabene großherrliche Schreiben einlangt, möge bekannt werden:</ab>
+                    <ab type="notificatio">Der Überbringer des großherrlichen Befehls namens <rs type="person" ref="#mpr14164">
+                        Mezīd</rs> ist an meine hohe Pforte gekommen und hat mitgeteilt, dass, als seine 1200 Schafe am Pass von Ūstūrġūn
+                        <supplied resp="ht">Gran</supplied> unterwegs waren, einige feindliche Ungläubige gekommen sind,
+                        <supplied resp="ht">seine Schafe</supplied> in die feindliche Festung namens 
+                    <rs type="place" ref="#mpr14080">Tata</rs>verschleppt
+                    und <supplied resp="ht">ihn</supplied> belästigt haben.</ab>
+                    <ab type="dispositio">Ich befehle, dass, wenn sie nun seine Schafe in der Zeit des Friedens und der Eintracht zwischen
+                        <supplied resp="ht">uns</supplied> verschleppt haben, so schicke einen Mann und verlange seine Schafe zurück.
+                        Wenn sie <supplied resp="ht">diese</supplied> zurückgeben, ist gut, wenn nicht, sollst Du es meiner Pforte berichten.</ab> 
+                    <ab type="sanctio">So sollt Ihr es wissen und dem erhabenen Zeichen Vertrauen schenken.</ab> 
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1568-01-31" notAfter="1568-02-09">ersten
+                        Dekade des Şaʿbān des Geehrten im Jahr 975 (31.1.–9.2.1568).</date></ab>
+                    <ab type="locus">In der Residenz, im beschützten <rs type="place" ref="#mpr14060">Edirne</rs>.</ab>
+                    
+                    <pb facs="#IMG.3.2." n="3.2."/>
+                    <p>Rückseite: Das ist die Abschrift des großherrlichen Befehls.</p></div>
+                        
+                
+            </div>
+        </body></text>
+    </TEI>

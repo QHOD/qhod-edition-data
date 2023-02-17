@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Bericht des Johann Joseph von Oduyer über den
+                    Großbotschafterwechsel 1719 in Paraćin, Belgrad, 21. Juni 1719</title>
+                <title xml:lang="en">The report of Johann Joseph von Oduyer on the exchange of the
+                    grand embassies 1719 in Paraćin, Belgrade, June 21, 1719</title>
+                <author><persName>Johann Joseph von Oduyer</persName></author>
+                <!-- JS: removed @ref from persName here; info in teiHeader should be 'plain' for processing/harvesting reasons -->
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName>
+                        <forename>Simon</forename>
+                        <surname>Königer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Korrektur, Überarbeitung der Edition und Kodierung</resp>
+                    <persName>
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences,
+                        Institute for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.rp.hbg.17190621.oduyer</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="http://gams.uni-graz.at/qhod">Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 45r-54v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-06-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.rp" type="context"> Berichte </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Bericht des Johann Joseph von Oduyer über den Großbotschafterwechsel 1719 in Paraćin, Belgrad, 21. Juni 1719, bearb. von Lisa Brunner und Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz; in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="Bericht_Oduyer_45r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="Bericht_Oduyer_45v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="Bericht_Oduyer_46r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="Bericht_Oduyer_46v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="Bericht_Oduyer_47r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="Bericht_Oduyer_47v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="Bericht_Oduyer_48r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="Bericht_Oduyer_48v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="Bericht_Oduyer_49r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="Bericht_Oduyer_49v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="Bericht_Oduyer_50r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="Bericht_Oduyer_50v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="Bericht_Oduyer_51r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="Bericht_Oduyer_51v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="Bericht_Oduyer_52r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="Bericht_Oduyer_52v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="Bericht_Oduyer_53r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="Bericht_Oduyer_53v.jpg" xml:id="IMG18"/>
+        </surface>
+        <surface start="#IMG19">
+            <graphic url="Bericht_Oduyer_54r.jpg" xml:id="IMG19"/>
+        </surface>
+        <surface start="#IMG20">
+            <graphic url="Bericht_Oduyer_54v.jpg" xml:id="IMG20"/>
+        </surface>
+
+    </facsimile>
+    <text type="report">
+        <body>
+            <pb facs="#IMG1" n="45r"/>
+            <p>Relatio</p>
+            <p>Wie der auswechslungsactus des ksl. großbottschaffters, herrn <rs ana="MPRautomatched" ref="#mpr9435" type="person">grafen von Virmonds</rs> excellenz, mit dem von der ottomanischen Pforten
+                erkisenen auch großbottschafftern, herrn <rs type="person">Ibrahim bascha</rs>, den
+                    <date when="1719-06-15">15. monaths Iunii</date> zwischen 12 und 1 uhr des
+                lauffenden <date when="1719">1719</date> iahrs auf der granitz von statten
+                gangen.</p>
+            <p> Alldieweillen in dem kurzhin den <date when="1719-06-05">5. huius</date> mit beyder,
+                sowohl diss alß ottomanischer seiten verwilligung getroffenen ceremonial tractat
+                beschlossen und der tag der auswechslung beyder hohen bottschafftern, den <date when="1719-06-15">15. gegenwärtigen monaths</date> festgestellet worden, so
+                seynd des ksl. großbottschaffters, herrn <rs ana="MPRautomatched" ref="#mpr9435" type="person">grafen von Virmonds</rs>
+                excellenz, sambt dero beyhabenden suite, nachdeme dero bagage den <date when="1719-06-08">tag vorhero</date> vorauß geschicket worden, </p>
+            <p> den <date when="1719-06-09">9. dises</date> unter meiner begleitung und losbrennung
+                der stucken von hiesiger <rs type="place">vestung</rs> gegen 3 uhr nachmittags
+                aufgebrochen und sich <date when="1719-06-09">selbigen tags</date> bis nacher <rs ana="MPRautomatched" ref="#mpr14911" type="place">Krozka</rs>, allwo sich bereits dero bagage befande, begeben.
+                Weilen nun selbte bey herrannahender nacht <pb facs="#IMG2" n="45v"/> daselbst
+                eintraffen, so haben sie allda übernachtet. Die zu der auswechslungs function aber
+                destinirte 1.500 mann cavallerie und zwey hundert grenadiers <rs type="person">von
+                    Gschwind</rs> und <rs type="person">prinz Alexander</rs> auß hiesiger guarnison
+                unter commando des löblichen alt württembergischen dragoner regiments obrist
+                lieutnand herrn <rs type="person">grafen von Waldeck</rs> befunden, sich allschon
+                vor bemeldten <rs ana="MPRautomatched" ref="#mpr14911" type="place">Krozka</rs> in ihrem ordentlichen laager, von wannen </p>
+            <p> den <date when="1719-06-10">10. dises</date> der <rs type="person">ksl.
+                    großbottschaffter</rs>, nachdeme die bagage und die trouppen vorauß marchiret,
+                gleichfalls mit dem gefolg die reyß weiters bis nacher <rs ana="MPRautomatched" ref="#mpr14920" type="place">Kolar</rs>
+                fortsezte, woselbst alles zeitlich anlangte und um ein wenig auszurasten. Allda des
+                nachts verblibe, wohingegen die weite des anoch vorgehabten weegs und der angesezte
+                termin der auswechslung nicht zuliesse, den marche zu treniren. So ist vor gut
+                befunden worden, solchen den <date when="1719-06-11">11. huius</date> von bedeuten
+                    <rs ana="MPRautomatched" ref="#mpr14920" type="place">Kolar</rs>
+                <pb facs="#IMG3" n="46r"/> in aller fruhe bis nacher <rs type="place">Hassan Bascha
+                    Palanka</rs>, von dar aber noch selbigen tags sambt denen trouppen und bagage
+                bis nacher <rs ana="MPRautomatched" ref="#mpr14617" type="place">Patazina</rs> zu beschleunigen, allwo des <rs type="person">ksl. großbottschaffters excellenz</rs> sambt dero begleitenden
+                gefolg und trouppen bey einfallenden abend arrivirten, hingegen die bagage
+                mehrentheils spatt nachfolgete. </p>
+            <p> Den <date when="1719-06-12">12.</date> wurde, gleichfalls auß obangeführter ursach,
+                der marche von dorten bis nacher <rs ana="MPRautomatched" ref="#mpr14615" type="place">Deve Bargardin</rs> und von dar
+                nacher <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodina</rs>
+                <date when="1719-06-12">selbigen tags</date> fortgesezet und übereylet, allwo mir
+                unterweegs die nachricht durch einen expressen einlieffe, daß die <rs type="place">Morava brucken</rs>, durch die bey dermahligen hoch angeschwollenen wasser
+                angeronnene grosse baumer völlig voneinander und hinwegg gerissen, mithin es eine
+                ohnmöglichkeit seye, solche hinwiderum in einem stand zu bringen, zumahlen da
+                solches der gähe strohm sothanen flusses und die häuffig mit sich führende baumer
+                    <pb facs="#IMG4" n="46v"/> ganz und gar nicht zuliessen, worüber ich sehr
+                bestürzet. Alsogleich bey der ankunfft zu <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodina</rs> mich zu so
+                gedachter <rs type="place">Morava brucken</rs>, um daß werck selbsten in augenschein
+                zu nehmen und so vill imer möglich zu poussiren eylete, auch würcklich die
+                beschwerlichkeit solche hinwiderum aufzurichten in der that befande. Nichts
+                destoweniger in erwegung der grossen angelegenheit hinwiderum zwischen 6 und 7 uhr
+                abends einen anfang machen liesse, die schiff ioch nacheinander aufzuführen, auch
+                solches noch so weit brachte, daß gegen 10 uhr solche bis auf noch einige iöcher
+                ferttig wurde, welche aber theils wegen des eingefallenen finsteren nachts, theils
+                auch wegen ermüdung der darbey sich befundenen brucken leuthen (weillen solche den
+                ganzen tag hindurch grosse strapatzen erlitten) nicht völlig in einem stand gesezet
+                werden könnte, begabe mich also zu des <rs type="person">ksl. <pb facs="#IMG5" n="47r"/> großbottschaffters excellenz</rs> hinwiderum nacher <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodina</rs> zuruck, allwo mir zwischen 11 und 12 uhr in der nacht
+                der abermahlige rapport einlieffe, daß durch die schnell angetribene grosse baumer,
+                solche mit hinwegnehmung einiger ancker, wider völlig voneinander gerissen, auch
+                davon einige schiff gar hinweggeführet, auch einige ruiniret worden, worüber ich
+                herzlich bekümert mit aller eylferttigkeit mich alsogleich widerum dahin verfügete,
+                    allwo mir bey meiner ankunfft von dem dabey gewesenen ksl.
+                feldt brucken schreiber <rs type="person">Hezer</rs>, nebst dem <rs type="person">bruckenmeister</rs> und samentlichen knechten, die ohnmöglichkeit solchem
+                ferers einen widerstand zu thun und selbte zu einem würcklichen bestand zu bringen
+                remonstriret wurde. Deme iedoch ohnerachtet, weilen ihro <rs type="person">ksl.
+                    mt.</rs> allerhöhster dienst daran gelegen, so könnte solches keiner dingen
+                anhören, sondern villmehr</p>
+            <p> den <date when="1719-06-13">13. dises</date> bey anbrechenden tag mit allem eyfer
+                die anstalt vorkehrete, daß die hinweeg genohmene schiff widerum <pb facs="#IMG6" n="47v"/> aufwerths durch die darzu vom land genohmene bauren gezogen, die ioch
+                nach einander aufgeführet und angeanckert worden. Auch solches mit hefftigen antrib
+                so weit brachte, daß gegen mittag solche widerum hergestellet und die baumer, so
+                vill alß es imer thunlich abgewendet wurden. Von dess verlässigkeit, nachdeme des
+                    <rs type="person">ksl. großbottschaffters excellenz</rs> die behörige avise
+                ertheillet, so komen auch selbte mit dero suite sambt dero bagage und trouppen eben
+                zu <date when="1719-06-13">diser zeit</date>
+                <rs type="place">daselbst</rs> an und passirte <date when="1719-06-13">selbigen
+                    tags</date> noch alles. Auch bey guter zeit gegen abend zu <rs ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> anlangte, allwo dan übernachtet und alle anstalten zu der
+                auswechslungs function vorbereitet wurden. Weilen sodann in dem errichteten
+                ceremoniel tractat verglichen, daß bey der ankunfft einer dem andern theil (wie ein
+                solches auß dess übersendeten copia gnädigst und hochgeneigt zuersehen gewesen seyn
+                wird) die behörige nachricht davon ertheillen solte, so schicke <pb facs="#IMG7" n="48r"/> den <date when="1719-06-14">14.</date> meinem <rs type="person">secretarium</rs> unter convoy 4 national husarn zu pferd mit einem schreiben an
+                dem <rs type="person">seraskier von Nissa</rs>, mit der instruction auf die graniz,
+                daß damit ihro <rs type="person">ksl. mt.</rs> allerhöchste authoritaet in allem
+                observiret und der gegentheil in keiner sach einige avantage gewinen möchte. <rs type="person">Diser</rs> so lang auf der gränitz verbleiben und keinen schritt
+                weiters gehen solte, bis nicht gleichfalls dessentwegen iemand von erst angezogenen
+                    <rs type="person">seraskier zu Nissa</rs> herüber gesendet wurde, welches auch
+                gar wohl beobachtet und beyde zu gleicher zeit die graniz passiret. Also daß nach 2
+                stunden ein expresser von bemeldten <rs type="person">seraskier</rs> an mich
+                abgeordneter <rs type="person">aga</rs> mit einem schreiben zu <rs ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> bey mir arrivirte. So mir des <rs type="person">türckischen
+                    großbottschaffters</rs> und seiner suite nebst des <rs type="person">seraskiers
+                    zu Nissa</rs> ankunfft zu <rs ana="MPRautomatched" ref="#mpr14612" type="place">Raschna</rs> zu wissen gemacht,
+                welchen ich nachdeme ihn mit confecturen und caffee bewürthet und beschencket, mit
+                der antwortt remittirete. Einige <pb facs="#IMG8" n="48v"/> stund hiernach langte
+                abermahlen ein anderer <rs type="person">aga</rs> bey mir mit einem schreiben an,
+                welches sich auf daß mündliche hinterbringen besagtem <rs type="person">aga</rs>
+                bezogen, so aber in deme bestanden, daß in der übersezung in daß türckische, des in
+                teutscher sprach eingerichteten ceremonials, vermög deren wörtern signification
+                begriffen, daß die teutsche bey dem permutations actu mit klingenden spill
+                erscheinen wollten, welches ihnen von ihrem <rs type="person">dollmetsch</rs> wäre
+                interpretiret worden, daß unsere trouppen mit blossen degen in der hand anrucken und
+                darauf die sonnen spillen sollte, ob dan deme also oder was dises vor eine bedeutnus
+                haben möchte? Ich habe ein solches mit lachen beantworttet und ihme die beschaffenheit dessen kund gemacht, worauf er gar vergnügter, daß
+                die teutschen nicht mit blossen degen erscheinen wollten. Nach empfangung der
+                ordinari höfflichkeiten und der schrifftlichen antwortt zuruck gekehret, wornechst
+                der von mir abgesendete expresser <pb facs="#IMG9" n="49r"/> um 10 uhr abends mit
+                der antworth von offt erwehnten <rs type="person">seraskier</rs> auch zuruck
+                ankomme, welcher nicht beschreiben könnte, was für höfflichkeiten ihme von demselben
+                wären erwisen. Auch mit einem dolomaliik rothen tuch, einen stuck helalii, 1 stückl
+                pur weissen, dan 1 stückl aleppischen atlas und über dises mit 3 türckischen düchl
+                wäre beschencket worden. Der mehr bemeldte <rs type="person">seraskier</rs> aber
+                ware vermög des innhalts des an mich ergangenen schreibens sehr wohl zufriden, daß
+                die 12 stund vor die dem tag darauf festgestellte auswechslung von mir angegeben
+                worden, also daß den <date when="1719-06-15">15.</date> in aller fruhe alle
+                dispositiones zu diser hochfeyrlichen function gemacht, und also veranstaltet wurde,
+                daß nachdeme die bagage in aller fruhe voraus geschicket worden, so ist der <rs type="person">ksl. herr großbottschaffter</rs>, sambt dero suite und bedienung,
+                in der völligen gala und anderten liberey zwischen 6 und 7 uhr von <rs ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> aufgebrochen. Eingleiches habe meinerseits beobachtet und alles
+                pro decore ihro <rs type="person">ksl. <pb facs="#IMG10" n="49v"/> mt.</rs> bey
+                diser gelegenheit angewendet, wo sodann mit denen völligen trouppen 1 viertl stund
+                ohnweit dem auswechslungsorth angelanget, woselbst auch alsogleich der Türcken
+                anäherung wahrgenohmen. Daselbst angehalten und lauth der ceremonial bedingnus ein
+                zelt vor dem <rs type="person">ksl. großbottschaffter</rs> alsogleich (wie es auch
+                türckischer seits geschehen) aufschlagen lassen und einem <rs type="person">haubtmann</rs> zu dem <rs type="person">seraskier von Nissa</rs>, gleichermass
+                wie derselbe an mich einen <rs type="person">aga</rs> abgeschicket und die ankunfft
+                zu wissen gemacht. Die trouppen aber habe wehrender zeit en ordre de battaille
+                stellen lassen und nach erhaltener nachricht, daß ihrer seits gleichfalls alles in
+                bereitschafft stunde, mit besagten trouppen nebst denen in dem tractat verglichenen
+                12 officier, einen hofmarschalln, 2 pagen, 2 lauffer, 8 heyducken, 20 laqueyen und 8
+                bedienten mit handpferden unter klingenden spill und gewöhnlicher <pb facs="#IMG11" n="50r"/> feldmusic anmarchiret. Die trouppen aber seynd 60 schritt von der
+                aussern saulen in voriger ordnung verbliben. Ich hingegen mit meinem erstbemeldtem
+                gefolg bis 15 schritt von obangeregten ersteren saulen mich in guter ordnung
+                verfügete, allwo die herrn officiers von ihren pferden abstigen. Ich aber zu pferde,
+                mit nicht mehr dann denen 12 officiers, einem hofmarschall, 2 pagen und 2 lauffers,
+                alle zu fuß, mich bis 5 schritt von der mitteren saulen begabe, wie ein gleiches von
+                der ottomanischen seiten beschahe. Woselbst dann der <rs type="person">seraskier von
+                    Nissa</rs> eben so weith von der mitleren saulen ienseits observirte, wie er
+                auch gar wohl beobachtete, wer der erstere von pferd sich herunter lassen möchte,
+                wurde iedoch nach einer kleinen verweilung daß tempo also getroffen, daß wir beyde
+                zu gleicher zeit abgestiegen und bey der mitteren saulen zusamen getretten, einander
+                umfangen und mit allen complimenten, iedoch iederzeit <pb facs="#IMG12" n="50v"/>
+                mit bedecktem haubt (so bis dato niemahlen geschehen) bewillkomet, wo inmittelst
+                beyderseits die sessel herbeygebracht worden, worauf wir unß niderliessen und
+                wehrender zeit, daß wir iemand um die <rs type="person">großbottschaffters</rs> zu
+                beruffen abgeschicket. Habe offt berührten <rs type="person">seraskier</rs>
+                confecturen, caffee und limonada überreichen lassen, wie er dan auch auf ihre arth
+                mir erstlichen eine porcellan schallen mit etwas eingemachtes, sogleich darauf aber
+                durch seine chioadars eine schall cafee praesentiren und demnach riechendes wasser
+                zum waschen übereichen und ihrer gewohnheit nach mich berauchen lassen. Da nun des
+                    <rs type="person">ksl. grosbottschaffters excellenz</rs> ankunfft wahrgenohmen
+                und daß selbter in gleichem tempo mit dem <rs type="person">türckischen
+                    großbottschaffter</rs> bey der aussern saulen von dem pferd abgestigen und zu
+                fuß nebst dero gefolg gegen die mittere saulen hervor getretten, so bin dero selben
+                etwelche <pb facs="#IMG13" n="51r"/> schritt entgegen gangen und mit gebung der
+                rechten hand bis an die mittere saulen geführet und da ein gleiches von türckischer
+                seiten beobachtet wurde. So hat es angefangen dergestalten zu regnen, donner und
+                blizen, daß einer dem anderen fast nicht erkennen können. Deme iedanoch
+                ohnangesehen, so haben sich beyde <rs type="person">großbottschaffter</rs> nach
+                gethaner höflichster bewillkomung auf die zur rechten hand gestellte sessel
+                nidergelassen und der <rs type="person">ksl. großbottschaffter</rs> mit einer sehr
+                schön und mit allen elegantien gezierten lateinischen anrede gegen dem <rs type="person">türckischen</rs> angefangen, welcher auch solche sehr vernünfftig
+                beantworttet und demnach einer den anderen auf obangefügte weiß und manier
+                gleichfalls mit caffee und confecturen bewürthet hat. Iedoch dergestalt, daß
+                niemahlen von dem <rs type="person">ksl. herrn großbottschaffter</rs>, noch von mir,
+                der hueth abgenohmen worden.</p>
+            <p> Alß nun gegen anderthalb stund die complimentirung und unterredung angehalten, so
+                ist beyderseits wehrender zeit der ge <pb facs="#IMG14" n="51v" break="no"/> folg
+                sambt der bedienung und bagage (so sich unserer seits rechter, die türckische aber
+                lincker hand schwenckte) gegen einander permutiret worden. Ich unterdess habe sowohl
+                den <rs type="person">ksl. herrn großbottschafftern</rs> als der <rs type="person">seraskier zu Nissa</rs> dem <rs type="person">seinigen</rs> bey der hand
+                genohmen und hingegen dabey so lang ohnvermerckter treniret, daß ehe und bevor ich
+                den <rs type="person">ksl.</rs> übergeben, erstbedeuter <rs type="person">seraskier</rs> mir den <rs type="person">seinigen</rs> überantworttet. Ich habe
+                dem übernohmen alsogleich vermög des ceremonial schlusses die rechte hand gegeben,
+                wo wehrender diser übernahm beyderseitige trouppen unter continuirenden klingenden
+                spill und feld music auß denen mitgeführten 6 kleinen stückl und dem kleinen gewöhr
+                eine dreymahlige salve gegeben hat. Da nun dises vollzogen, so habe ich <add place="superlinear">mich</add> sowohl von dem <rs type="person">seraskier von
+                    Nissa</rs> als der <rs type="person">ksl.</rs> von dem <rs type="person">türckischen grosbottschaffter</rs> beurlaubet und ist ieder theil an den orth,
+                wo man von denen pferden abgestigen, widerum aufgesessen und da daß wetter sich
+                widerum zu <pb facs="#IMG15" n="52r"/> diser zeit sehr verändert und sich gut
+                angelassen, mit dem übernohmenen <rs type="person">türckischen
+                    großbottschafftern</rs> zugleich neben einander mit gebung der rechten hand zu
+                denen trouppen zuruckgekehret. Wie ein gleiches der <rs type="person">seraskier von
+                    Nissa</rs> mit dem <rs type="person">ksl. großbottschaffter</rs>, bis etwa eine
+                stund von dem auswechslungs orth mit völligen corpo begleitet, woselbst abermahlen
+                in einem alda schon aufgeschlagenem zelt, sothanen <rs type="person">türckischen
+                    grosbottschaffter</rs> und seiner suite caffee, confecturen und andere
+                refraichirungen cum omni splendore praesentiren liesse. Nach einer stündigen
+                verweilung aber, demnach einem hochlöblichsten <rs type="person">ksl.
+                    hofkriegsrath</rs> von dar den unterthenigsten gehorsambsten bericht über die
+                glücklich vollzogene auswechslung in aller eyl abgestattet, habe mich von ihme
+                beurlaubet und nach hinterlassung zu seiner convoy, des löblichsten vasquesischen
+                regiments obrist wachtmeister herrn <rs type="person">marchese Botta</rs> mit 200
+                commandirten mit trompeten und paucken <pb facs="#IMG16" n="52v"/> von denen 400
+                cuirassier reuthern, so auß <rs type="place">Sclavonien</rs> hierzu destiniret
+                worden, habe mich mit denen übrigen trouppen wider nacher <rs ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> in daß vorige laager begeben, allwohin auch der <rs type="person">türckische großbottschaffter</rs> seine bagage voraus geschicket und ein
+                eigenes laager formiret hat und ist selbster nach etlichen stunden auch dahin
+                gefolget und allda des nachts verbliben. Ich hingegen habe mich nicht mehr zu
+                demselben begeben, sondern die weitere anstalten, wegen dessen fereren marche, dem
+                herrn oberkriegscommissario <rs type="person">von Baumgartner</rs> und herrn
+                hofinungscommissario <rs type="person">von Harene</rs> überlassen, auch durch den
+                ersteren so offt berührter <rs type="person">großbottschafftern</rs> zu wissen
+                gethan, daß vermög eingehollter nachricht hinwiderum eine kleine brucken über die
+                    <rs ana="MPRautomatched" ref="#mpr14922" type="place">Morava</rs>, gleich ienseits gegen <rs ana="MPRautomatched" ref="#mpr14607" type="place">Parakin</rs> fliessenden wassers sogenannten <rs type="place">Raveniz</rs>
+                schlagen lassen, durch die höhe des wassers gehoben, ein stuck davon hinweck
+                genohmen und zertrennet <pb facs="#IMG17" n="53r"/> worden seye, mithin zu besorgen
+                stunde, daß nicht etwa noch einmahl die <rs type="place">Morava brucken</rs> durch
+                den gähen strohm und anschwimmende baumer hinweggerissen werden möchte. Falls nicht
+                der <rs type="person">türckische großbottschaffter</rs> sich bey zeiten mit seinem
+                gefolg und angehörigem bagage darüber begeben und dise gefahr witiren wurde und
+                könnte derselbe alsdann disseits so lang verbleiben, bis er die conditiones wegen
+                seines künfftigen tractaments ausgemacht und geschlossen haben möchten. Dise aber,
+                so wenig alß alle andere remonstrationes, haben ihn dahin bewegen wollen, daß er
+                sich von dorten selbigen tags, alß </p>
+            <p> den <date when="1719-06-16">16.</date> in der fruhe hinwegg begeben und die brucken
+                passiren möchte, sondern er sich declariret nicht ehender von dar aufzubrechen, bis
+                man nicht mit ihme daß behörige wegen seiner künfftigen verpfleg- und unterhaltung
+                concludiret haben wurde, es seynd hingegen seine anforderungen so <pb facs="#IMG18" n="53v"/> groß, daß solche nicht leichter dingen zu prostiren seynd. Ich habe
+                hierüber zu tractiren denen obbemeldten herrn oberkriegscommissario <rs type="person">von Baumgartner</rs> und dem spesirungscommissario <rs type="person">Harenne</rs> daß werck überlassen und mich von danen hinweg zu
+                bedeuter kleinen brucken begeben, solche hinwiderum zu seinem stand gebracht und
+                noch <date when="1719-06-16">selbigen tags</date> meine reyß sambt denen übrigen
+                trouppen bis nacher <rs ana="MPRautomatched" ref="#mpr14609" type="place">Iagodina</rs> fortgesezet und ihnen allda den
+                weitern befehl wegen ihres ruckmarche ertheilet. Ich aber habe mich in aller eyl
+                nacher <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> zuruck begeben und daselbst den <date when="1719-06-18">18. huius</date> zwischen 12 und 1 uhr eingetroffen. Die pomp
+                und magnificenz bey disem hochfeyrlichem actu ist beyderseits gros gewesen. Ich kan
+                aber dabey einem hochlöblichsten <rs type="person">ksl. hofkriegsrath</rs>
+                unterthenigst gehorsambst versichern, daß der <rs type="person">ksl.</rs> dem
+                ienseitigem splendorem in allem übertroffen habe und sehr zu bedauren, daß daß
+                plözlich ein <pb facs="#IMG19" n="54r"/> gefallene starke regenwetter vill von dem
+                ansehen verhindert hat. </p>
+            <p> Worüber ich mit allen umständen dem unterthenigst gehorsambsten bericht euer
+                hochfürstliche durchleuchtigste excellenz und meinen hochgebiettenden <rs type="person">herrn</rs> ohngesaumbt abzustatten für gut befunden habe. <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> den <date when="1719-06-21">21. Iunii 1719</date>. </p>
+
+            <pb facs="#IMG20" n="54v"/>
+            <metamark><date when="1719-06-15">1719 15. Iuni</date></metamark>
+            <metamark>Deß general <rs type="person">Oduyr</rs> relation über den außwexlungs actam
+                deren bey den <rs type="person">großbothschafften</rs> de <date when="1719">1719</date>.</metamark>
+
+
+
+
+        </body>
+    </text>
+</TEI>

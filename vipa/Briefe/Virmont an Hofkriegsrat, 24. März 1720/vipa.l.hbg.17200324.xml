@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pera, 24. März 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pera, March 24, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName>
+                        <forename xml:id="mm">Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200324</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 187-2, fol. 39r-40v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Pera, 24. März 1720, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/750640/">Pera</placeName>
+                    <date when="1720-03-24">24. März 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17200311"> Letzter Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-03-11">11. März 1720</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17200403"> Nächster Brief von 
+                        <persName>Damian Hugo von Virmont</persName> an <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-04-03">3. April 1720</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>preparations for Virmont's departure from Constantinople</item>
+                    <item>plague</item>
+                    <item>search for a suitable person to take over Virmont's affairs in Constantinople</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName></change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="37KV_39r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="37KV_39v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="37KV_40r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="37KV_40v.jpg" xml:id="IMG4"/>
+        </surface>
+        
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="39r" facs="#IMG1"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 37</ref> d.do. <rs ana="MPRautomatched"
+                ref="#mpr10447" type="place">Pera</rs><date when="1720-03-24"></date></metamark>
+            
+            
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath p.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. Auf mein hefftigstes anhalten und sollicitiren hat endlich der <rs type="person" ref="#mpr14244">groß sultan</rs> beschlossen, auf den <date when="1720-04-02">oster-erchtag</date> mich zur audienz zu lassen, auf welchen tag die ausschreibung seiner miliz gemacht worden. Sye hätten es noch gern noch ain- und andere wochen weiter hinauß verschoben, weillen der termin zu diser bezallung, wie schon gehorsambst und schuldigst berichtet, disesmahl etwas gar zu fruhe und sye es lieber prolongiren alß vorzaitigen. Dahero so offt ich sye dise zeither wegen meiner abreys und expedirung habe anmahnen lassen, mir allzeit zur antwortt ertheillet worden, daß ich ja nicht forteyllen und also treiben solte, indeme ihr angenehmer gast were, und unter disen höfflichen vorwand, alß wan sye mich gern lang bey ihnen hetten, zeit zu gewinnen, und aufzuhalten gesucht, und umb sye endlichen zu determiniren, täglichen schickhen und antringen müessen.</p>
+            <pb n="39v" facs="#IMG2"/><p>In anderen ist hier alles in tranquilitet und würdt von dem pestilenz übel und kranckheiten, wie schon in verschidenen meinen gehorsambst und schuldigst überschriben, nichts mehr gedacht oder gehöret.</p>
+            <p>Ich getröste mich noch allzeit, daß noch vor meinen aufbruch, welchen biß halben Aprilis vorzunehmen in stand zu seyn nicht zweiffle, der expresse, von deme ihre <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> in ihrem allergnädigsten rescript von <date when="1719-12-09">neünten Decembris</date> allergnädigste meldung gethan, eintreffen würdt, damit ich sonderlich wissen möge, wem die sorge und beobachtung ihrer <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> allerhöchsten interesse zu übergeben und anzutrauen habe.</p>
+            <p>Dises lasse, wegen sich nach der <rs type="place" ref="#mpr1794">Wallachey</rs> sogleich eraignenden gelegenheit über <rs type="place" ref="#mpr9372">Sibenbürgen</rs> lauffen. Nächstens aber werde wegen des fortgang meiner urlaubs audienz und des
+            <pb n="40r" facs="#IMG3"/>zu nahenden abschieds das weithere durch einen expressen über <rs type="place" ref="#mpr14602">Nissa</rs> gehorsambst und schuldigst berichten. Womit mich gehorsambst und dienstschuldigst empfehlend verharre.</p>
+            <closer>
+                <salute>Eüer  durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren.</salute>
+                <signed>Gehorsambst und dienstschuldigster diener<rs ana="MPRautomatched" ref="#mpr9435"
+                    type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                </address>
+                <dateline>den <date when="1720-03-24">24. Martii 1720</date></dateline>
+            </closer>
+            <pb n="40v" facs="#IMG4"/>
+            <metamark><date when="1720-03-24">24. März 1720</date></metamark>
+            <metamark>Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-05-04">4. Maii 1720</date></metamark>
+            
+        </body>
+    </text>
+</TEI>

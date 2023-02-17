@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 8</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15690118</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>                  
+                        <msIdentifier>
+                            <institution>ÖStA, HHstA Wien</institution>
+                            <collection>Staatsabteilungen, Türkei I </collection>                        
+                            <idno type="regest_petritsch" n="585"/>
+                        </msIdentifier>                   
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1569-01-09" notAfter="1569-01-18" calendar="#hijri"> 976 Receb 21-30 </date> 
+                    <placeName ref="https://www.geonames.org/749644/">Çatalca</placeName>
+                    
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>                   
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15681120">Urkunde 7</ref>
+                <ref type="next" target="o:sema.rc.osm.15691209">Urkunde 9</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 8: Geschrieben zwischen dem 9. und 18.1.1569 in <rs type="place" ref="#mpr14225">Çatalca.</rs> Befehl an den Beglerbegi von 
+                <rs type="place" ref="#mpr7448">Buda</rs> <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>
+                 auf Grund von Protesten Maximilians II., 
+                gegen Überfälle von den Sancakbegis von <rs type="place" ref="#mpr14065">Fülek</rs> und <rs type="place" ref="#mpr14067">Szolnok.</rs>
+                Jene Dörfer, die in den osmanischen Steuerregistern nicht eingetragen sind, sollen zu keinen Abgaben gezwungen werden. Alle Gefangenen sollen freigelassen und die Übeltäter bestraft werden.<note place="footnote" n="1"><p rend="footnote text"> Petritsch gibt als Ausstellungsort
+                    <rs type="place" ref="#mpr14225">Çatalca</rs>“ an, obwohl uns die Abschrift keine Information darüber
+                    liefert. Im Staatsarchiv gibt es jedoch eine zeitgenössische
+                    deutsche Übersetzung des diesbezüglichen Schreibens Selīms II. an
+                    Maximilian II. vom 21–30 Receb 976, auf dem als Ausstellungsort
+                    „Tschataldscha“ vermerkt ist. Im Mühimme Defteri Nr. 7 ist auch der
+                    Eintrag dieses Schreibens zu finden; BOA, Mühimme
+                    Defteri 7, Nr. 2766; HHStA, Turcica
+                    25, Konv. 2 (1569 I–IV), fol. 23f; Petritsch, Regesten, 198, Nr. 584.</p></note></p></abstract>
+        <textClass>
+        <keywords>
+            <term>Hükm</term>
+            <term>Osman.-türk. Original</term>
+        </keywords>
+    </textClass>
+        </profileDesc>
+    <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p></interpretation>
+            </editorialDecl>
+        <refsDecl>
+            <p>Urkunde 8: Selim II. an Muṣṭafā Paşa, Çatalca, zwischen 9. und 18.1.1569, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+        </refsDecl>
+        <projectDesc>
+            <ab>
+                <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                <ref target="context:sema.rc" type="context">Urkunden</ref>
+                <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+            </ab>
+            
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.8">
+            <graphic url="06_579.jpg" xml:id="IMG.8"/>
+            
+        </surface>
+        
+    </facsimile>   
+        <text type="record"><body>
+            
+                <div n="8"><div type="transcription" xml:lang="ota">
+                    <pb facs="#IMG.8" n="8"/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <ab>hüve</ab>
+                    
+                    <p>
+                        <lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs>  beglerbegisine ḥükm ki vilāyet-i <rs type="place" ref="#mpr13416">Beç</rs>
+                        ḳırālı <rs type="person" ref="#mpr14157">Maḳsimilyānūş</rs> ḳırāl ʿatebe-i ʿulyāmda olan ėlçilerine mektūb gönderüb <rs type="place" ref="#mpr14065">Fīlek</rs> ve <rs type="place" ref="#mpr14067">Ṣolnoḳ</rs>begleri                                              
+                        <lb n="2"/><rs type="place" ref="#mpr14069">Toḳāy</rs> ḳalʿesine yaḳın <rs type="place" ref="#mpr14074">Ṭorna</rs> ve <rs type="place" ref="#mpr14081">Semendriye</rs> nāḥīyelere ʿaskerlerin gönderüb ḫarāc vėrsünler dėyü teʿaddī ėdüb eger vėrmezseñüz                                                     
+                        <lb n="3"/>evlerüñ yaḳub yıḳaruz dėyü ḫavf vėrüb ve <rs type="place" ref="#mpr14067">Ṣolnoḳ</rs> askeri <rs type="place" ref="#mpr14086">Zābolḳā</rs> nām nāḥīyede <rs type="place" ref="#mpr14111">Ṣant Miḳloş</rs> nām ḳarye reʿāyāsından                         
+                        <lb n="4"/>ve <rs type="place" ref="#mpr14087">Noydorf</rs> nām ḳarye aʿyān Ṣant Miḳloşından ve reʿāyāsından esbāblariyle ḳırḳ nefere yaḳın ādem alub gidüb ve <rs type="place" ref="#mpr14078">Ḳişvār</rs> nām mevżiʿi ġāret 
+                        <lb n="5"/>ėdüb birḳaç nefer kimesne alub içlerinden <rs type="person" ref="#mpr14226">Būtī Yānoş</rs> dėmekle maʿrūf ādemleri ile esīr alub ʿale
+                            l-ḫuṣūṣ ẕikr olunan ḳaryeler şimdiye degin                            
+                        <lb n="6"/>ehl-i islāma tābiʿ olanlardan olmayub ve ḫarāc daḫı
+                        vėregelmiş degüllerdür ve <rs type="place" ref="#mpr14067">Ṣolnoḳ</rs> ve <rs type="place" ref="#mpr14065">Fīlek</rs> ve anlara ḳarīb yėrlerüñ eṭrāfında <rs type="place" ref="#mpr14074">Torna (!)</rs>
+                        ̄<note resp="ht" place="footnote" n="1"><p rend="footnote text">Obwohl „Torna“ hier mit inem „ت“ geschrieben wird, handelt es sich um denselben Ort.Vgl.dazu die zeitgenössische deutsche Übersetzung. HHStA,Türkische Urkunden 2, TUK 123, fol.2f.</p></note>
+                        nām                             
+                        <lb n="7"/>nāḥīye<supplied resp="ht">y</supplied>i ġāret ü ḫarāb eylemek içün iki biñ ʿasker cemʿ oldugın nāhiye-i mezbūre ḫalḳı işidicek firār ėdüb ol nāḥīye ḫālī vü ḫarāb ḳalmışdur dėyü                                                                                                          
+                       <lb n="8"/>iʿlām eylemiş imdi bundan aḳdem ʿahdnāme-i hümāyūnum iḥsān
+                            olunduḳda şol ḳaryeler ki şimdiye degin ehl-i islāma tābiʿ olmayub ve
+                            ḫarāc vėregelmeyüb
+                       <lb n="9"/>ve südde-i seʿādetümden irsāl olunan nişānlu defter-i
+                            ḫāḳānīde muḳayyed olmaya anuñ gibilere berü cānibinden aṣlā daḫl u
+                            taʿarruż olunmayub 
+                           
+<lb n="10"/>rencīde ėtdürülmeye dėyü dostlıḳ içinde ol cānibden esīr olanlar her ḳanda ise emvāl ü esbāblariyle behā’sız ṣaġ ve sālim yėrlerine gönderilüb 
+<lb n="11"/>bu fesādı ėdenlerüñ geregi gibi ḥaḳḳlarından geline dėyü emrüm olmışdur buyurdum ki vuṣūl bulduḳda bu bābda temām baṣīret ü intibāh üzre olub 
+<lb n="12"/>serḥadde olan beglere geregi gibi tenbīh u te’kīd eyleyesin-ki anuñ gibi şimdiye degin berü cānibe ḫarāc vėregelmeyüb ve irsāl olunan defter-i ḫāḳānīde 
+<lb n="13"/>daḫı olmayan ḳaryelere ʿahdnāme-i hümāyūnuma muḫālif berü cānibden kimesne varub ḫarāc ṭaleb ėdüb rencīde ėtmeye dėyü dostlıḳ içinde 
+<lb n="14"/>esīr olan eger reʿāyādur  eger ġayrıdurḳanda ise buldurub emvāl u
+            esbāblariyle behāsız ṣaġ ve sālim memleketlerine gönderüb daḫı anlar cānibinden                                                                                             
+<lb n="15"/>ʿahda muḫālif bir vażʿ ṣādır olmadın berü cānibden ḫilāf-iʿahd iş ėdenlerüñ geregi gibi ḥaḳḳlarından gelesiz ki sāyirlerine
+             mūcib-i ʿibret              
+<lb n="16"/>u naṣīḥat ola</p>
+                    <pb facs="#IMG.8a" n="8a"/> 
+                    <p>Rückseite:
+                       Exemplu mandati transmissi ad
+                           Passam <rs type="place" ref="#mpr7448">Budensem</rs></p>
+               
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.8" n="8"/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <p>Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs></p>
+                    <p>Der König des Landes <rs type="place" ref="#mpr13416">Wien</rs> König <rs type="person" ref="#mpr14157">Maximilian</rs> hat seinen Gesandten, die sich an meiner hohen Pforte befinden einen Brief geschickt und folgendes bekanntgegeben:
+                       Die Bege von <rs type="place" ref="#mpr14065">Fülek</rs> ihre Truppen auf die Nāḥīyes namens <rs type="place" ref="#mpr14074">Torna</rs>
+                        und <rs type="place" ref="#mpr14081">Szendrő</rs>, in der Nähe der Festung <rs type="place" ref="#mpr14069">Tokaj</rs> 
+                        entsandt, sie damit sie Tribut zahlen unterdrückt und ihnen Angst gemacht und gesagt haben: „Wenn ihr nicht zahlt, dann zünden wir eure Häuser an und zerstören sie.“ Und dass die Truppen von <rs type="place" ref="#mpr14067">Szolnok</rs> in der Nāḥīye namens <rs type="place" ref="#mpr14086">Szabolcz</rs>  von den Untertanen des Dorfes namens <rs type="place" ref="#mpr14111">Szent-Miklós</rs>
+                        und von den Angesehenen und Untertanen des Dorfes namens <rs type="place" ref="#mpr14087">Neudorf</rs> nahezu 40 Leute mit ihren Sachen entführt haben. 
+                        Den Ort namens <rs type="place" ref="#mpr14078">Kisvárda</rs> geplündert und ein paar Personen gefasst, von ihnen die Person, die als <rs type="person" ref="#mpr14226">Buty Johann</rs> bekannt ist samt seinen Männern gefangen genommen haben.
+                        Vor allem waren die genannten Dörfer bis jetzt nicht den Muslimen unterworfen und haben auch nicht Tribut gezahlt. Und dass, als sie hörten, dass in <rs type="place" ref="#mpr14067">Szolnok</rs> und <rs type="place" ref="#mpr14065">Fülek</rs> und in der Umgebung der Gebiete in ihrer Nähe sich zwei tausend Soldaten zusammengeschart haben, um die Nāḥīye namens <rs type="place" ref="#mpr14074">Torna</rs> zu plündern und zu verheeren, die
+                            Bewohner der erwähnten Nāḥīye geflüchtet sind. Jene Nāḥīye ist nun
+                            verlassen und verwüstet verblieben.</p>
+                    <p> Nun, als vordem mein großherrliches Vertragsschreiben gewährt wurde, hatte ich befohlen, dass auf jene Dörfer, die bis jetzt nicht den Muslimen unterworfen waren, die keinen Tribut gezahlt haben und nicht im großherrlichen Registerbuch, 
+                        das von meiner hohen Pforte geschickt wurde eingetragen waren von unserer Seite niemals eine Einmischung oder ein Angriff erfolgen soll und man sie sie nicht
+                                verletzen lassen soll.
+                        Und jene von der anderen Seite, die in der Freundschaftszeit gefangen genommen wurden, sollen, wo sie sich auch immer befinden, samt all ihrem Hab und Gut und ihren Sachen ohne Lösegeld gesund und wohlbehalten in ihre Gebiete geschickt und jene, die diesen Aufruhr gestiftet haben, wie es sich gehört bestraft werden.</p>
+                    <p> Ich befehle, dass sobald <supplied resp="ht">der Befehl</supplied> einlangt du in dieser Angelegenheit ganz sorgfältig und wachsam sein
+                                sein mögest und den Begen an der Grenze entsprechend mit Nachdruck mitteilst,
+                             damit niemand von unserer Seite in die Dörfer, die bist jetzt keinen Tribut an unsere Seite gezahlt haben und sich auch nicht im großherrlichen Registerbuch, das geschickt wurde befinden gegen mein großherrliches Vertragsschreiben hingeht, Tribut verlangt und sie verletzt. Und Du sollst jene, die in der Freundschaftszeit gefangen genommen wurden, ob es sich um Untertanen oder um andere handelt, wo auch immer, finden lassen und samt ihrem Hab und Gut und ihren Sachen ohne Lösegeld, gesund und wohlbehalten in ihre Länder zurückschicken. Und sobald von ihrer Seite nicht gegen den Vertrag gehandelt wird, sollt Ihr jene, die von unserer Seite dem Vertrag zuwider handeln entsprechend bestrafen, damit es anderen ein abschreckendes Beispiel und Mahnung sei.</p>
+                    <p>
+                        <pb facs="#IMG.8a" n="8a"/> 
+                        Rückseite: Die Abschrift des Befehls an den Pascha von <rs type="place" ref="#mpr7448">Buda.</rs></p>
+                
+                </div>
+                </div>
+            
+        </body></text>
+    </TEI>

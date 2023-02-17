@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 12.1.</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15720731.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türksiche Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="671"/>
+                    </msIdentifier>
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1572-07-22" notAfter="1572-07-31" calendar="#hijri">980 RebīʿI 11-20</date>      
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15710000">Urkunde 11</ref>
+                <ref type="next" target="o:sema.rc.osm.15720731.2">Urkunde 12/2</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 12: Geschrieben zwischen dem 22. und 31.7.1572
+                in <rs type="place" ref="#mpr14055">Konstantinopel.</rs> Befehl an den Beglerbegi von<rs ana="MPRautomatched" ref="#mpr7448" type="place">
+                    Buda</rs> <rs type="person" ref="#mpr14163">Muṣṭafā Paşa,</rs> auf Grund eines Protest des Botschafters
+                von <rs type="place" ref="#mpr13416">Wien.</rs> Die habsburgischen Dörfer sollen nicht
+                angegriffen und überfallen werden. Er soll osmanischerseits friedenswidrige
+                Handlungen nicht zulassen. In einem zweiten Befehl wird angeordnet, dass der
+                Aufenthaltsort des gefangenen Bruders von 
+               <rs type="person" ref="#mpr14185">Ormándy Johann</rs> festgestellt und er freigelassen wird.
+                </p> </abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>                    
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 12/1: Selim II. an Muṣṭafā Paşa, Konstantinopel, zwischen 22. und 31.7.1572, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.12">
+            <graphic url="12_1-2_671.jpg" xml:id="IMG.12.1."/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+            
+                <div n="12-1"><div type="transcription" xml:lang="ota">
+                    
+                    
+                    <pb facs="#IMG.12" n="12.1."/>
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    <note place="footnote" n="1"><p rend="footnote text">Hierbei handelt es sich um zwei Schreiben an Muṣṭafā Paşa mit
+                        demselben Datum, deren Abschriften untereinander auf einem Urkundenblatt zu finden sind. Petritsch bespricht sie
+                        in den Regesten unter einer Nummer, weshalb ich sie auch auf diese Weise unterteile; Petritsch, Regesten, 225, Nr. 671.</p></note>
+                    
+                        <ab><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine yazılan emr-i şerīfüñ ṣūretidür</ab>
+                    <ab type="inscriptio"><lb n="2"/>Emīrü l-ümerā’i l-kirām kebīrü l-küberā’i l-fiḫām
+                    dū-l-ḳadri(!) ve-l-iḥtirām ṣāhibü l-ʿizz ve-l-iḥtişām
+                        <lb n="3"/> el-maḫṣūṣ bi-ʿināyeti l-meliki l-ʿallām <rs type="place" ref="#mpr7448">Budūn</rs>
+                        beglerbegisi <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs></ab> <ab type="salutatio">dāme iḳbālühū</ab> <ab type="notificatio">tevḳīʿ-i refīʿ-i 
+                    <lb n="4"/>hümāyūn vāṣıl olıcaḳ maʿlūm ola ki</ab> 
+                        
+                        <ab type="narratio">ḥālen āsitāne-i devlet-penāhumda olan ve 
+                        <lb n="5"/>ḫazīne ile gelen <rs type="place" ref="#mpr13416">Beç</rs>
+                        ḳırālınuñ ėlçileri ol cānibe tābiʿolan baʿż-i ḳaryelere ḫilāf-i                                                       
+                    <lb n="6"/>ʿahd u emān bu ṭarafdan daḫl u tecāvüz olundugın iʿlām
+                    eylediler</ab> <ab type="manifestatio">imdi mā dām-ki
+                    <lb n="7"/>ṣulḥ u ṣalāḥa mugāyir ol cānibden bir vażʿ ṣudūr ėtmeyüb
+                    serāyiṭ-i ʿahd u emān
+                    <lb n="8"/>ke-mā kāne riʿāyet u ṣiyānet oluna berü cānibden daḫı ʿahda
+                    mugāyir iş olmaġa emr-i şerīfüm
+                    <lb n="9"/>yoḳdur</ab>
+                        
+                        <ab type="dispositio">buyurdum ki ḥükm-i şerīfüm varduḳda bu ḫuṣūṣa oñat
+                    vech-ile
+                    <lb n="10"/>muḳayyed olub göresin fī l-vāḳiʿ ʿarż olundugı gibi olub berü cānibden ʿahda                                                                                 
+                    <lb n="11"/>mugāyir ol cānibe tābiʿ olan ḳaryelere daḫl u taʿarruż
+                    olunmış ise fermān-i celīlü l-ḳadruma                                                                                            
+                    
+<lb n="12"/>muḫālif iş olmaḳ cāyiz degüldür mā dām-ki ol cānibden ṣulḥ u ṣalāḥa muḫālif vaż                                                  
+<lb n="13"/>ṣādır olmaya berü cānibden daḫı kimseye ḫilāf-i ʿahda iş ėtdürmeyesin serḥadda 
+<lb n="14"/>vāḳiʿ olan begler ḳullaruma mektūb ve ādem gönderüb sancaḳlarına müteʿalliḳ olan 
+<lb n="15"/>zuʿamā vu sipāhī ṭāyifesine geregi gibi tenbīh ve yasaġ ėtdüresin ki emr-i şerīfüme muḫālif 
+<lb n="16"/>iş olmaḳdan iḥtirāz eyleyeler</ab> <ab type="sanctio">şöyle bilesin ʿalāmet-i şerīfe iʿtimād  ḳılasın</ab>
+                    <ab type="datatio"><date calendar="#hijri" notBefore="1572-07-22" notAfter="1572-07-31"> taḥrīren fī evāsiṭi 
+<lb n="17"/>Rebīʿi l-evvel senete 980</date></ab>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.12" n="12.1."/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <ab>Die Abschrift des edlen Befehlsschreibens, das an
+                        den Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs> geschrieben wurde.</ab>
+                    <ab type="inscriptio">Emir der ehrwürdigen Emire, Großer der geehrten Großen, Inhaber der Macht und der Ehre, Besitzer von Ruhm und Würde,
+                        ausgezeichnet mit der Gnade des allwissenden Königs, Beglerbegi von <rs type="place" ref="#mpr7448">Buda,</rs>
+                        <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs></ab> <ab type="salutatio">währen möge sein Glück.</ab>
+                    <ab type="notificatio">Sobald das erhabene großherrliche Schreiben einlangt, möge bekannt werden:</ab> 
+                    <ab type="narratio">Nun haben die Gesandten des Königs von <rs type="place" ref="#mpr13416">Wien</rs>
+                       bekanntgegeben, dass einige Dörfer, die der anderen Seite unterworfen sind,
+                         gegen den Vertrag und Waffenstillstand angegriffen wurden.</ab>
+                    <ab type="manifestatio">Nun, solange von der anderen Seite nichts der
+                            Ordnung und dem Frieden Widersprechendes geschieht und die Bedingungen
+                            des Friedens- und Sicherheitsvertrages wie früher eingehalten und
+                            bewahrt werden, gibt es meinen erhabenen Befehl für Handlungen von
+                            dieser Seite nicht, die gegen den Vertrag gesetzt werden.</ab>
+                     <ab type="dispositio">Ich befehle, dass, sobald mein erhabener Befehl einlangt, Du Dich um diese Angelegenheit ordentlich kümmerst und sie
+                            erledigst.
+                     Wenn es in der Tat so ist, wie dargelegt wurde und von unserer Seite die Dörfer, 
+                        die der anderen Seite unterworfen sind, gegen den Vertrag angegriffen wurden (bzw. 
+                        gegen die Dörfer eine Einmischung und ein Angriff erfolgt ist), so ist es nicht 
+                        erlaubt gegen meinen gewaltigen Befehl zu handeln. 
+                    Solange von der anderen Seite nichts gegen die Ordnung und den Frieden geschieht, 
+                        sollst du es nicht zulassen, dass von dieser Seite jemand gegen den Vertrag handelt. 
+                    Schicke meinen Dienern, den Begen an der Grenze Briefe und Männer und lass den Zaim 
+                        und Sipahi, die ihren Sancaks angehören wie erforderlich verbieten, dass sie sich hüten,
+                        gegen meinen edlen Befehl zu handeln.</ab> <ab type="sanctio">So sollst du es wissen und dem erhabenen Zeichen
+                        Vertrauen schenken.</ab> <ab type="datatio">Geschrieben in der 
+                    <date calendar="#hijri" notBefore="1572-07-22" notAfter="1572-07-31">
+                        mittleren Dekade des Rebīʿu l-evvel des Jahres 980.</date></ab>
+               
+                </div>
+                </div>
+
+        </body></text>
+    </TEI>

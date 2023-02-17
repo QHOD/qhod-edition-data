@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Abschrift des sultanischen Dekrets (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über die Ernennung von Vincenzo
+                    Moroni als Dolmetscher für die Insel Chios; Istanbul, 14. Dezember – 23.
+                    Dezember 1719</title>
+
+                <title xml:lang="en">Copy of the sultan’s imperial charter (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) appointing Vincenzo Moroni as
+                    interpreter to the island of Chios; Istanbul, December 14 – December 23,
+                    1719</title>
+
+
+                <title xml:lang="tr">Sultanın, Sakız adasına Vincenzo Moroni’nin tercüman olarak
+                    atanması hakkında beratı (nīşān-ı hümāyūn); İstanbul, 14 Aralık – 24 Aralık,
+                    1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191214-17191223.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 73, entry 148</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-12-14" notAfter="1719-12-23"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Abschrift des Sultans Dekret (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über die Ernennung von Vincenzo
+                    Moroni als Dolmetscher für die Insel Chios; Istanbul, 14. Dezember – 23.
+                    Dezember 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung:
+                    Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts
+                    und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>imperial charter about the appointment of Vincenzo Moroni as a dragoman
+                        for the Austrian affairs on the island of Chios</item>
+                    <item>nīşān-ı hümāyūn</item>
+                    <item>berat</item>
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>Chios</item>
+                    <item>Sakız</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_73_Entry_148.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191214-17191223.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">148</metamark>
+
+                <ab><lb/>Nīşān-ı hümāyūn oldur ki:</ab>
+
+                <ab>
+                    <lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū
+                    bi-l-ḫayr <lb/>südde-i saʿādetüme mühürlü ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab><rs type="place" ref="#mpr7118">devlet-i ʿaliyye</rs>m ile müşārün ileyh <rs
+                        type="person" ref="#mpr9399">Romā imperāṭorı</rs> beyninde vāḳiʿ olan ṣulḥ
+                    ve ṣalāḥ muḳteżāsınca <lb/>memālik-i maḥrūsemde <rs type="place" ref="#mpr15308"
+                        >Sāḳız</rs> cezīresine <rs type="person" ref="#mpr9399">müşārün ileyh</rs>üñ
+                    bayraġıyla gelüb gidüb reʿāyāsınuñ vāḳiʿ olan umūr ve ḥuṣūṣlarını görmek üzere
+                        <lb/><rs type="place" ref="#mpr15308">cezīre-i mezbūre</rs>ye bir tercümān
+                    naṣbı iḳtiżā eylemekle rāfiʿ-i tevḳīʿi refʿīʿü ş-şān-ı ḫāḳānī <rs type="person"
+                        ref="#mpr15452">Vincāco (Vincenzo) Moroni</rs> veled-i Kurūmī tercümān naṣb
+                    ve taʿyīn <lb/>olunub ʿahdnāme mūcebince olıgeldügi üzere berāt-ı şerīfüm
+                    virilmek bābında ʿināyet ricā eylemegin bu nīşān-ı hümāyūn virdüm.</ab>
+
+                <ab>Ve buyurdum ki mesfūr <lb/><rs type="person" ref="#mpr15452">Vincāo (Vincenzo)
+                        Moroni</rs><note xml:id="ftn1" type="editorial" resp="#yy">The Austrian
+                        ambassador Virmont reported the appointment of Vincenzo Moroni to Vienna
+                            <ref target="/o:vipa.l.hbg.17200129">in his letter dated January 29,
+                            1720</ref>. The purpose of the appointment was to help with the
+                        commercial matters and monitor the implementation of the newly granted
+                        religious privileges to the Catholics.</note> veled-i Kurūmī vech-i meşrūḥ
+                    üzere <rs type="place" ref="#mpr15308">cezīre-i mezbūre</rs>de tercümān olub
+                    tercümānlıḳ ḫidmetinde olanlar ve oġulları ve ḫidmetkārları <lb/>ve cāriyeleri
+                    ḫarāc ve ʿavārıż ve ḳaṣṣāb aḳçası ve resm-i üsārā ve sāʾir tekālīf-i ʿörfiyye
+                    ṭalebiyle rencīde ve remīde olunmayub ve ḳul <lb/>ve cāriye istiḫdām idermişsün
+                    diyü kimesne ḫarāc ve rüsūm ve bāc ṭalebiyle daḫl ve rencīde eylemeye ve
+                    gendünüñ maṣraf ve hedāyāsına <lb/>ve ḳadīmden geydügi melbūsāt ve mefrūşāt ve
+                    meʾkūlāt ve meşrūbātına kimesne daḫl ve rencīde eylemeyüb ḳadīmden olıgeldügi
+                    üzere ʿafv <lb/>olunub ve rüsūm-ı gümrük ve bāc ṭaleb olunmaya ve evlerine
+                    ʿasākir-i ḳonak ḳonulmaġa rencīde olunmaya ve gendü bāġında ḥāṣıl olan şırādan
+                    <lb/>ḫamr emīni ve voyvodaları ve sāʾirlerden olıgeldügi üzere foçi aḳçası ṭaleb
+                    eylemeyüb gendüsi ve evlādı ve taṣarrufında olan <lb/>cāriyeleri ḫarāc ve
+                    ʿavārıżdan ve ve ḳaṣṣāb aḳçası ve resm-i maṣdariyyeden ve tekālīf-i ʿörfiyyenüñ
+                    cümlesinden muʿāf ve müsellem olub</ab>
+
+                <ab><lb/>ve mezbūr ile her kimüñ daʿvāsı olur ise ellerinde olan ʿahdnāme-i hümāyūn
+                    mūcebince āsitāne-i saʿādetüme ḥavāle olunub ġayrı yirde istimāʿ <lb/>olunmaya
+                    baʿżı zamānda bir yire gitmek istedükde gidişde ve gelişde ḳaradan ve deryādan
+                    menāzil ve merāḥilde gendüye ve esvāb <lb/>ve ṭavarlarına ve emvāl ve erzāḳına
+                    ve yanında olan ādamlarına ulaḳ ve ulaḳ aḳçasından ve ġayrı cānibden kimesne
+                    daḫl ve taʿarruż olunmayub <lb/>ve her ḳanda dāḫıl olur ise zād u zevād ve sāʾir
+                    ẕaḫīresi narḫ-ı rūzī üzere aḳçasıyla virilüb bir ferd taʿallül ve nizāʿ
+                    eylemeye</ab>
+
+                <ab><lb/>ve maḫūf ve muḫāṭara olan yirlerde başına aḳ ṣarınub<note xml:id="ftn2"
+                        resp="#yy">Wrapping white or putting a white cap on head was a practice of
+                        janissaries. What is likely meant here was that the dragomans were allowed
+                        to put on a janissary attire when they traveled through places that were
+                        known to be dangerous and insecure for travelers.</note> ve ḳılıç ve oḳ ve
+                    yay ve sāʾir ālāt-ı ḥarb götürdükde ḳāḍīlar <lb/>ve beglerbegiler ve ġayrıden
+                    bir ferd rencīde eylemeyüb olıgeldügi üzere ḥimāyet ve ṣiyānet ve anuñ gibi
+                    teʿaddī ve tecāvüz üzere olanlar menʿ ve defʿ <lb/>olunub dāʾimā işbu nīşān-ı
+                    hümāyūnumuñ mażmūn-ı münīfiyle ʿamel olunub ḫilāfına rıżā ve cevāz gösterilmeye
+                    şöyle bileler.</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-12-14" notAfter="1719-12-23">fī evāil-i
+                            Ṣ<supplied resp="#yy">afer</supplied> sene 1132</date></ab>
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17191214-17191223.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>So is the imperial sign (<foreign xml:lang="tur">nīşān-ı
+                    hümāyūn</foreign>):</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+
+                <ab>In accordance with the peace and reconciliation that occurred between my <rs
+                        type="place" ref="#mpr7118">sublime state</rs> and the aforesaid <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs>, it is required to appoint
+                    to the island of <rs type="place" ref="#mpr15308">Chios</rs> in my
+                    well-protected domains an interpreter who may travel there under the flag of the
+                        <rs type="person" ref="#mpr9399">Roman emperor</rs> in order to take care of
+                    matters and issues that may arise concerning [the Roman emperor’s] subjects.
+                    Thus, the ambassador requested my favor, as it has been the practice in
+                    accordance with the imperial letter of agreement (<foreign xml:lang="ota"
+                        >ʿahdnāme-i ḥumāyūn</foreign>), to issue my most noble charter to appoint
+                    and designate <rs type="person" ref="#mpr15452">Vincenzo Moroni</rs>,<ref
+                        target="#ftn1" type="note_reference"/> son of Kurumi, the bearer of the
+                    imperial sign of exalted fame. </ab>
+
+                <ab>[Upon his request,] I issued this charter and I order that <rs type="person"
+                        ref="#mpr15452">Vincenzo Moroni</rs>, son of Kurumi (?) shall be an
+                    interpreter on the <rs type="place" ref="#mpr15308">aforementioned island</rs>
+                    in the described way. Those who are interpreters, their sons, servants, and
+                    women in their household shall not be injured and disturbed with the claims of
+                    tribute, levies, dues for goods in transit (<foreign xml:lang="ota">ḳaṣṣāb
+                        aḳçasi</foreign>, lit. 'butcher’s fee'), or other extraordinary taxes. No
+                    one shall interfere with or injure – claiming tribute, fees, and toll – under
+                    the pretext that he employs slaves and women. No one shall interfere with and
+                    injure him due to his expenses and gifts, the garments that he wears since a
+                    long time ago, his fabrics, his provisions, and his drinks. He shall be excused
+                    as it has been the practice since a long time ago. No customs duty and toll
+                    shall be claimed. He shall not be injured through the appointment of a military
+                    officer at their house. For the must that is produced from his own vineyard, the
+                    wine superintendent and voivodes shall not claim barrel money as it has been the
+                    practice for others. Himself, his children, and the women under his authority
+                    shall be exempt and delivered from tribute, extraordinary tax, dues for goods in
+                    transit (<foreign xml:lang="ota">ḳaṣṣāb aḳçası</foreign>, lit. 'butcher’s fee'),
+                    export fee (<foreign xml:lang="ota">maṣdariyye</foreign>), wine tax, and all the
+                    extraordinary levies.</ab>
+
+                <ab>When someone has a case against him, the case shall be referred to my threshold
+                    of felicity as per the imperial letter of agreement in his posession and the
+                    case shall not be heard elsewhere. At certain times, when he wishes to go
+                    somewhere, as he comes and goes on land and sea, at stations on the road, and
+                    during stages of the journey, no one from among couriers or [those claiming]
+                    courier fees - or [others] based on other excuses - shall interfere and attack
+                    him, his clothes, his flock of animals, his properties, and his provisions. In
+                    whichever location he enters, his victuals, provisions for the journey, and
+                    cereals shall be given in return for the fixed price. No one shall seek an
+                    excuse to avoid or dispute it.</ab>
+
+                <ab>Neiter judges nor provincial governors nor a single person from among the rest
+                    shall disturb him when he, at dangerous and insecure places, puts on a white cap
+                    on his head (<foreign xml:lang="ota">başına aḳ ṣarınub</foreign>, lit. ‘wraps
+                    white on his head’) and takes with him a sword, an arrow, a bow, and other
+                    equipment; they shall guard and protect as it has been the practice. Those who
+                    do wrong and attack shall be prevented and repelled. At all times, [you] should
+                    act as required by the exalted purview of our imperial charter/sign (<foreign
+                        xml:lang="ota">nīşān-ı hümāyūn</foreign>)<ref target="#ftn2" type="notenote_reference"/>. No consent or
+                    permission shall be shown to the contrary. So shall you know and [have
+                    confidence] in the noble mark!</ab>
+
+                <ab><date type="Hijri" notBefore="1719-12-14" notAfter="1719-12-23">December 14 to
+                        December 23, 1719</date></ab>
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

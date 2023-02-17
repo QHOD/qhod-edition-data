@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Obersten Richter
+                    (monla/molla) von Nikosia und an den Zollpächter von Zypern zur Beilegung des
+                    Falls eines Seekapitäns, eines Untertanen des heiligen römischen Kaisers, dessen
+                    Güter von einem osmanischen Beamten unter Verletzung des kaiserlichen
+                    Vertragsschreibens (ahidname) beschlagnahmt worden waren; Istanbul, 15. Oktober
+                    – 24. Oktober 1719</title>
+                <title xml:lang="en">Sultan’s decree to the chief judge of Nicosia and to the
+                    revenue collector of Cyprus to settle the case of a sea captain, a subject of
+                    the Roman emperor, whose goods were confiscated by an Ottoman official in
+                    violation of the imperial letter of agreement (ahidname); Istanbul, October 15 –
+                    October 24, 1719</title>
+                <title xml:lang="tr">Sultanın, Lefkoşe mollası ve Kıbrıs muhassılına hitaben
+                    yazılan, eşyası ahidname hükümlerine aykırı olarak alıkonulan ve Kutsal Roma
+                    İmparatoru’nun tabaasından olan tüccarın durumunu çözmeleri hakkında hükmü;
+                    İstanbul, 15 Ekim – 24 Ekim, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191015-17191024.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 71, entry 137</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-10-15" notAfter="1719-10-24"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>; Istanbul, 15. Oktober – 24. Oktober 1719, bearb. von Yasir Yılmaz und Merve
+                    Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>treatment of Austrian merchants and travelers according to the conditions
+                        of the imperial letter of agreement (ahidname)</item>
+                    <item>judge of Nicosia</item>
+                    <item>revenue collector of Cyprus</item>
+                    <item>returning of confiscated goods</item>
+                    <item>merchants</item>
+                    <item>Nicosia</item>
+                    <item>Cyprus</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00035_Page_71_Entry_137.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191015-17191024.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">137</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr16041">Lefḳoşa</rs> monlāsına ve <rs type="place"
+                        ref="#mpr15601">cezīre-i Ḳıbrıs</rs> muḥaṣṣılına ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf <lb/>de Virmond</rs> ḫutimet
+                    ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab>devlet-i ʿaliyyem ile ṣulḥ ve ṣalaḥ üzere <lb/>olan müşārün ileyh <rs
+                        type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ tüccarından <gap
+                        unit="char" extent="5"/> nām ḳapūdān bundan aḳdem sefīnesiyle <rs
+                        type="place" ref="#mpr15601">Ḳıbrıs <lb/>cezīresi</rs>ne varduḳda daḫl ve
+                    taʿarruż īcāb itmez iken cezīre-i mezbūrede mütesellim olan <gap unit="char"
+                        extent="5"/> nām kimesne <lb/>mücerred celb-i māl içün <rs type="place"
+                        ref="#mpr6718">Nemçe</rs> sefīnelerinüñ rūy-ı deryāda ẕehāb u iyāblarına
+                    ruḫṣat yoḳdur diyü ḫilāf-ı <lb/>ʿahdnāme-i hümāyūn ḳapūdān-ı merḳūm sefīnesinüñ
+                    dümenin alub ve sefīnesin alıḳoyub ġadr ve teʿaddī <lb/>olunduġın bildürüb</ab>
+
+                <ab>ḳapūdān-ı merḳūmuñ ḫilāf-ı ʿahdnāme-i hümāyūn alıḳonılan sefīnesi dümeniyle girü
+                    redd <lb/>ve teslīm ve fī mā baʿd <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> bayraġıyla varan sefīnelerine teʿaddī ve rencīde olunmamaḳ
+                    bābında <lb/>emr-i şerīfüm ricā eylemegin</ab>
+
+                <ab>ʿahdnāme-i hümāyūnuma mürācaʿat olunduḳda tüccār ṭāʾifesi ṭarefeynüñ memālikinde
+                    selefde virilen <lb/>ʿahdnāmeler mūcebince emnen ve sālimen gendü ḥāllerinde
+                    ticāret ideler müşārün ileyh <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorına</rs>
+                    <lb/>tābiʿ olan vilāyetlerüñ ve bundan ṣoñra millet-i naṣārādan alacaḳları
+                    yirlerüñ tüccār reʿāyāları her ḳanġı <lb/>milletden olur ise olsunlar berren ve
+                    baḥren bu ḫuṣūṣa meʾmūr olan vekīller beyninde ḳarār virildügi <lb/>vech üzere
+                        <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ bayraġı ve
+                    paṭentasıyla memālik-i maḥrūseye gendü ḥāllerinde gelüb <lb/>gidüb ve alış viriş
+                    idüb lāzım gelen gümrükleri virdüklerinden ṣoñra rencīde ve remīde olunmamaḳ
+                    <lb/>ḥimāyet ve ṣiyānet olunalar diyü mesṭūr ve muḳayyed olmaġın</ab>
+
+                <ab>vech-i meşrūḥ üzere ḳapūdān-ı mesfūra bir <lb/>dürlü taʿarruż olunmayub ḫilāf-ı
+                    ʿahdnāme-i hümāyūn alıḳonılan sefīneye ruḫṣat ve fī-mā baʿd <rs type="person"
+                        ref="#mpr9399">Romā imperāṭorı</rs>nuñ <lb/>bayraġı ve paṭentası ile varan
+                    sefīneye bir dürlü rencīde olunmayub ve ḫilāfıyla ḥareket idenleri ḥaḳḳlarından
+                    <lb/>gelinecegini ifhām ve ʿahdnāme-i hümāyūnumuñ mażmūn-ı münīfi üzere ʿamel ve
+                    ḥareket olunmaḳ bābında fermān-ı ʿālī-şānum <lb/>ṣādır olmışdur.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan fermān-ı celīlü l-ḳadrüm mūcebince ʿamel
+                    daḫī vech-i meşrūḥ üzere <lb/>ḳapūdān-ı merḳūmuñ bir dürlü taʿarruż olunmayub ve
+                    ḫilāf-ı ʿahdnāme-i hümāyūn alıḳonılan sefīnesine <lb/>ruḫṣat ve fī mā baʿd <rs
+                        type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ bayraġı ve paṭentasıyla
+                    varan sefīneye bir dürlü rencīde <lb/>olunmayub ḫilāfıyla ḥareket idenlerüñ
+                    ḥaḳḳlarından gelinecegini ifhām ve ʿahdnāme-i hümāyūnumuñ mażmūn-ı <lb/>münīfi
+                    üzere ʿamel ve ḥareket eyleyüb mażmūn-ı emr-i şerīfümle ʿāmil olasın şöyle
+                    bilesin.</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-10-15" notAfter="1719-10-24">fī evāil-i
+                            Ẕ<supplied resp="#yy">Ẕī’l-ḥicce</supplied> sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17191015-17191024.1.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab>Decree to the chief judge (<foreign xml:lang="ota">monlā</foreign>) of <rs type="place"
+                        ref="#mpr16041">Nicosia</rs> and the revenue collector of the <rs
+                        type="place" ref="#mpr15601">Cyprus island</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>
+                    —may God end his days propitiously—who came to my threshold of felicity as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my court (threshold of felicity) and requested my most noble order
+                    about [the following matter]:</ab>
+
+                <ab>Formerly, when a sea captain named <gap unit="char" extent="5"/> from among the
+                    merchants of the aforesaid <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    who is currently on friendly and amicable terms with my <rs type="place" ref="#mpr7118">sublime state</rs>, went on
+                    his ship to the <rs type="place" ref="#mpr15601">island of Cyprus</rs>, although
+                    interfering with him and attacking was not necessary, a person named <gap
+                        unit="char" extent="5"/> who is a deputy governor on the island received in
+                    violation of the imperial letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i
+                        ḥumāyūn</foreign>) the helm of the aforesaid captain’s ship and detained the
+                    ship, claiming—merely with the purpose of confiscating goods—that Austrian ships
+                    have no permission to sail on sea. 
+                    [<rs type="person" ref="#mpr9435">The ambassador</rs>] reported that [the sea captain]
+                    was treated unjustly and oppressed.</ab>
+
+                <ab>The helm and the ship of the aforesaid captain that are detained in violation of
+                    the imperial letter of agreement shall be returned and delivered and, from
+                    now on, ships carrying the flag of the <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs> and arrive to [that location] shall not be oppressed and
+                    injured.</ab>
+
+                <ab>Upon consultation to my imperial letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i
+                    ḥumāyūn</foreign>), it is written and recorded therein that—as per
+                    previously issued letters of agreement—the merchant class shall trade quietly,
+                    safely, and soundly within the territories of both parties. The merchant subjects from the
+                    provinces that are under the suzerainty of the aforesaid <rs type="person"
+                        ref="#mpr9399">Roman emperor</rs> and those who come from the places that
+                    [the emperor] may capture from other Christian nations — regardless of whichever
+                    nation those merchants may belong to — they shall quietly come and go to the
+                    well-protected domains over land and sea and they shall trade under the flag and
+                    patent of the <rs type="person" ref="#mpr9399">Roman emperor</rs> in the way
+                    concluded by the delegations authorized on this matter. Once they pay the
+                    required customs duty, they shall not be injured and disturbed and be guarded
+                    and protected.</ab>
+
+                <ab>My illustrious edict has been issued that, in the way described, the aforesaid
+                    captain shall not be attacked in any means. The ship that has been detained in
+                    violation of the imperial letter of agreement shall be granted permission. From
+                    now on, ships that arrive carrying the flag and patent of the <rs type="person"
+                        ref="#mpr9399">Roman emperor</rs> shall not be injured in any way. It shall
+                    be understood that those who act in opposition to it will be vanquished; [all]
+                    shall act and behave as per the exalted purview of my imperial letter of
+                    agreement.</ab>
+
+                <ab>So have <rs type="person" ref="#mpr14244">I</rs> ordered: As my edict
+                    of glorious worth that was issued about this matter arrives, you shall act
+                    accordingly. In the way described, the aforesaid captain shall not be
+                    attacked in any way. His ship, that has been detained in violation of the
+                    imperial letter of agreement, shall be given permission. From now on, ships that
+                    arrive carrying the flag and patent of the Roman emperor shall not be injured in
+                    any means. [You] shall understand that those who act contrary to it will be
+                    vanquished. You shall act and behave as per the exalted purview of my imperial
+                    letter of agreement and shall act according to the purview of my noble command.
+                    So shall you know!</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-10-15" notAfter="1719-10-24">October 15 to
+                        October 24, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

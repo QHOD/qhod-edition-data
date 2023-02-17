@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an die Gouverneure der
+                    nordafrikanischen Provinzen (Garb Ocakları) und andere osmanische Verwalter in
+                    der Region, Kaufleute, die unter der Flagge des Heiligen Römischer Kaiser
+                    segeln, nicht zu stören; Istanbul, 24. November – 3. Dezember 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the governors of north African provinces
+                    (Garb Ocakları) and other Ottoman administrators in the region not to interfere
+                    with merchants sailing with the flag of the Holy Roman Emperor; Istanbul,
+                    November 24 – December 3, 1719</title>
+
+
+                <title xml:lang="tr">Sultanın, Garb Ocakları valilerine ve bölgedeki diğer Osmanlı
+                    idarecilerine hitaben yazılmış, Kutsal Roma İmparatorluğu’nun bayrağı ile
+                    denizde seyr ü sefer yapan tüccar gemilerine müdahele edilmemesi hakkında hükmü;
+                    İstanbul, 24 Kasım – 3 Aralık, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191124-17191203.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 73, entries 144, 145, and 146</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-11-24" notAfter="1719-12-03"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an die Gouverneure der nordafrikanischen Provinzen
+                    (Garb Ocakları) und andere osmanische Verwalter in der Region, die Kaufleute,
+                    die mit der Flagge des Heiligen Römischer Kaiser segeln, nicht zu stören;
+                    Istanbul, 24. November – 3. Dezember 1719, bearb. von Yasir Yılmaz und Merve
+                    Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>decree to the north African provinces (Garb Ocakları) to treat the
+                        Austrian merchant ships according to the conditions of the imperial letter
+                        of agreement (ahidname) and not to interfere with them</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>Nissa (Niš)</item>
+                    <item>Austrian merchants</item>
+                    <item>North Africa</item>
+                    <item>Garb Ocakları</item>
+                    <item>Cezayir</item>
+                    <item>Trablusgarb</item>
+                    <item>Tunus</item>
+                    <item>Holy Roman Empire</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_73_Entry_144_145_146.jpg" xml:id="IMG1"
+            />
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191124-17191203.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">144</metamark>
+                <ab><lb/><rs type="place" ref="#mpr">Cezāyir-i ġarb</rs> beglerbegine ve <rs
+                        type="place" ref="#mpr">Cezāyir-i ġarb</rs> ocaġı dayısına ve ḳāḍīsına ve
+                    yeñiçeri aġası ve sāʾir iḫtiyārlarına ḥüküm:</ab>
+
+                <ab><lb/><rs type="place" ref="#mpr7118">Devlet-i ʿaliyye-i ebed-peyvend</rs>ümle
+                    iftiḫarü’l-ümerāʾi’l-ʿiẓāmi’l-īseviyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> beyninde ʿaḳd-ı muṣālaḥa ve musāleme ile ṭarafeynden aḫz
+                    <lb/>ve iʿṭā olunan ʿahdnāmelerde tüccār ṭāʾifesi ṭarafeynüñ memālikinde selefde
+                    virilen ʿahdnāmeler mūcebince emnen ve sālimen gendü ḥāllerinde ticāret
+                    <lb/>ideler</ab>
+
+                <ab>müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>na tābiʿ
+                    vilāyetlerüñ tüccār ve reʿāyāları her ḳanġı milletden olur ise olsunlar berren
+                    ve baḥren bu ḫuṣūṣa <lb/>meʾmūr olan vekīller beyninde ḳarār virildügi vech
+                    üzere <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ bayraġı
+                    paṭentasıyla memālik-i maḥrūseye gendü ḥāllerinde <lb/>gidüb gelüb alış viriş
+                    idüb lāzım gelen gümrükleri virdüklerinden ṣoñra rencīde olunmayub ḥimāyet ve
+                    ṣiyānet oluna diyü mesṭūr <lb/>ve muḳayyed olmaġla ʿahdnāme-i hümāyūnumuñ şurūṭ
+                    ve ḳuyūdına mürāāʿat olunmaḳ ehemm ve elzem olmaġın</ab>
+
+                <ab>vech-i meşrūḥ üzere müşārün ileyh <lb/><rs type="person" ref="#mpr9399">Romā
+                        imperāṭorınuñ</rs> bayraġı ve paṭentasıyla gendü ḥāllerinde mürūr-u ʿubūr
+                    iden tüccār ve reʿāyāları ḳanġı milletden olur ise <lb/>olsunlar ḫilāf-ı
+                    ʿahdnāme-i hümāyūn Cezāyirlü ṭaraflarından daḫl ve taʿarruż ve rencīde ve remīde
+                    olunmayub ḥirāset ve ṣiyānetlerine ʿahdnāme-i <lb/>hümāyūnuñ şerāʾiṭine mürāʿāte
+                    teḳayyüd ve ihtimām eylemeñüz bābında fermān-ı ʿālī-şānum ṣādır olmışdur
+                    buyurdum ki.</ab>
+
+                <ab><date type="Hijri" notBefore="1719-11-24" notAfter="1719-12-03">fī evāsıṭ-ı
+                        Muḥarrem sene 1132</date></ab>
+
+                <metamark place="margin">145</metamark>
+                <ab><lb/>Bir ṣūreti <rs type="place" ref="#mpr15612">Ṭrablusġarb</rs> ocağına.</ab>
+                <metamark place="margin">146</metamark>
+                <ab><lb/>Bir ṣūreti <rs type="place" ref="#mpr15616">Tūnus</rs> ocaġı ṭarafına.</ab>
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.1719124-17191203.1.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab>Decree to the provincial governor of the coastal strip of Algeria (Cezāyir-i
+                    ġarb), the dey of the janissary corps of the coastal strip of Algeria, the
+                    judge, the janissary agha and other elderly (of the janissary corps):</ab>
+
+                <ab>In the letters of agreement that have been exchanged as a result of the joint
+                    signing of peace and reconciliation between my eternal <rs type="place"
+                        ref="#mpr7118">sublime state</rs> and the <rs type="person" ref="#mpr9399"
+                        >Roman emperor</rs>, the laudable pride of the great commanders of Christendom,
+                    it is written and recorded that the merchant class of both sides shall trade
+                    safely, soundly, and quietly on the lands of both sides per the letters of
+                    agreement that were previously exchanged between the two sides.</ab>
+
+                <ab>The merchants and subjects of the lands under the suzerainty of the aforesaid
+                        <rs type="person" ref="#mpr9399">Roman emperor</rs>, whichever nation they
+                    come from, shall quietly come and go via land and sea to the well-protected
+                    domains under the flag and patent of the <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs> and trade in accordance with its conclusion among the
+                    delegations charged with this matter. It is very important and a requisite to
+                    obey the conditions and registers of my imperial letter of agreement (<foreign
+                        xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>).</ab>
+
+
+                <ab>In the way described, the merchants and subjects that quietly come and go under
+                    the flag and patent of the aforesaid Roman emperor, regardless of whichever
+                    nation they come from, shall not be interfered with, attacked, injured, or
+                    disturbed by Algerians in violation of the aforesaid imperial letter of
+                    agreement. My illustrious edict has been issued that you shall pay attention to
+                    and take great care of guarding and protecting them and obeying the conditions
+                    of the imperial letter of agreement.</ab>
+
+                <ab><date type="Hijri" notBefore="1719-11-24" notAfter="1719-12-03">November 14 to
+                        November 23, 1719</date></ab>
+
+                <ab>One copy to the janissary garrison at Western <rs type="place" ref="#mpr15612"
+                        >Tripoli</rs> (Libya).</ab>
+                <ab>One copy to the janissary garrison at <rs type="place" ref="#15616"
+                    >Tunusia.</rs></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

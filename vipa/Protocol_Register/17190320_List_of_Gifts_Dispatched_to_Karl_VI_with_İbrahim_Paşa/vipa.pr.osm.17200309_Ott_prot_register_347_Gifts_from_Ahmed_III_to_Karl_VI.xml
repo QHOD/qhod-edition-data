@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Liste von Geschenken Ahmeds III. an Karl VI., Konstantinopel, 20. März 1719</title>
+                <title xml:lang="en">Gift list, Ahmed III to Emperor Karl VI, Istanbul, March 20, 1719</title>
+                <title xml:lang="tr">Hediye listesi, 3. Ahmed’in İmparator 6. Karl’a gönderdiği hediyeler, İstanbul, 20 Mart 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190320</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it's only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 80-81</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-03-20"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Liste von Geschenken Ahmeds III. an Karl VI., Konstantinopel, 20. März 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00039a.jpg" xml:id="IMG01"/>
+        </surface>
+        <surface start="#IMG02">
+            <graphic url="A_}d___00347_00039b.jpg" xml:id="IMG02"/>
+        </surface>
+        
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            
+            <div type="original" xml:id="vipa.pr.osm.17190320">
+                <pb n="1" facs="#IMG01"/>
+                <dateline><lb/><date type="Hijri" when="1719-03-20">Fī 28 R<supplied resp="#yy">ebiülahir</supplied> 
+                    sene 1131</date></dateline>
+                <head><lb/>Devlet-i ʿAliye’den Nemçe Çāsārı’na dostāne tertīb olunan hedāyānıñ defteridir.</head>
+                
+                <list type="giftlist">
+                <item rend="column1">Müşemmaʿı nıṣfına degin girme alacalu, ve pervāzlarınıñ
+                iki yüzü münaḳḳaş, sütūnları ṣedef, kenārı ve ḳovanları 
+                yaldızlı, ve ṭopları sīm sūzenī nuḳūş ile müzeyyen
+                iç pervāzları turuncu İstanbul dībāsı oba
+                ḳıṭʿa 1 ḫazīne 18</item>
+                <item rend="column2">Ạcem keçesi ḳıṭʿa 2</item>
+                <item rend="column3">Māiʾ aṭlas astarlı penbe mendil ḳıṭʿa 2</item>
+                <item rend="column4">Saçaḳları ṣırma ṭoplu ṣarı ve beyāż ṣedef ile işleme ṣarı aṭlas astarlı 
+                turuncu ṣom İstanbul dībāsı maḳʿad ḳıṭʿa 1</item>
+                <item rend="column1">Ṣırma pikeli ṣarı aṭlas astarlı penbe İstanbul dībāsı yaṣdıḳ ḳıṭʿa 4</item>
+                <item rend="column2">Ṣom ṣedefkārī dört ṭoplu trabzan çuḳa 2 </item>
+                <item rend="column3">Yaldızlı pullu <unclear reason="illegible" unit="char" extent="4"/>taḫtasından minder döşemesi çuḳa çift 2</item>
+                <item rend="column1">Kebīr ve vasaṭ ve saġīr ve ḫurda yetmiş bir ḳıṭʿa
+                    elmās ile muraṣṣaʿ ve ḳırmızı ve yeşil mīnā ile
+                    müşebbek zemīni altun üç tabanca balıḳçıl sorġuç ḳıṭʿa 1</item>
+                    
+                <item rend="column2">Altlıḳ ve başlıḳ ve ḳılādesiyle sīnebendi
+                    kebīr ve vasaṭ dört yüz ṭoḳsan dört 
+                    elmās ile muraṣṣaʿ ḳırmızı ve yeşil ve lājuverdī ve beyāż minākārī 
+                    zemīni altun raḫt ḳıṭʿa 1</item>
+                    
+                <item rend="column1">Kebīr ve vasaṭ ve ḫurda yüz elli beş ḳıṭʿa 
+                elmas ve vasaṭ ve ḫurda on dört laʿl ile
+                tarsīʿ olunmuş zemīni lājuverdī 
+                ve beyāż ve yeşil çiçek ile minekārī
+                altun palan maʿraşī ḳıṭʿa 1 ṣom şerit ḳıṭʿa 1</item>
+                
+                <item rend="column2">Yigirmi ḳıṭʿa elmas ve yüz altmış ḳıṭʿa lʿal ile
+                muraṣṣaʿ ṭaş <supplied>y</supplied>uları altūn ile müşebbek 
+                yaldızlı sīm rikāb çift 1</item>
+                
+                <item rend="column3">Ṭoḳa ve ṭopları sīm dizgin ḳıṭʿa 1</item>
+                <item rend="column4">Ḫalḳaları ṣom ṭabhur, ḳıṭʿa 1</item>
+                <item rend="column5">Sīm likām ḳıṭʿa 1</item>
+               
+                <item rend="column1">Kebīr ve vasaṭ seksen sekiz ḳıṭʿa zümrüd
+                ve seksen sekiz ḳıṭʿa laʿl ve yāḳūt ile muraṣṣaʿ 
+                ḫānesi ṣırma ile işlenmişḳaşları 
+                sīm ve taş, <supplied>y</supplied>uları altūn 
+                <choice><corr>eyer</corr><sic>eger</sic></choice> ḳıṭʿa 1 ṣom ḳusḳun ḳıṭʿa 1</item>
+                
+                <item rend="column2">Üç güllü ṣedefli tegelti</item>
+                
+                <item rend="column3">Al sāye çuḳa üzerine ṣarı 
+                ve beyāż ṣırma ile işli ṣarı 
+                aṭlas astarlı yapuḳ ḳıṭʿa 1</item>
+                
+                <item rend="column1">Beyāż İstanbul dībāsı üzerine ṣom
+                ṣarı ṣırma ile işli püskülleri 
+                ḫurda mercānlu ṣom ṣedef ve ḳılābudan 
+                ile müzeyyen üç güllü gülpenbe aṭlas
+                astārlı ẕīnpūş, ḳıṭʿa 1</item>
+                
+                <item rend="column2">Üç yüz yetmiş ḳıṭʿa kebīr ve vasaṭ
+                yāḳūt ile ve üç yüz otuz dört zümrüd ile muraṣṣaʿ zemīni yeşil ve beyāż
+                ve māiʾ minekārī ve başlıḳ ile sīnebendi
+                müşebbek altūn dīvān raḫtı ḳıṭʿa 1</item>
+                
+                <item rend="column1">Elli sekiz ḳıṭʿa vasaṭ ve ṣaġīr yāḳūt
+                ve otuz sekiz ḳıṭʿa zümrüd ile muraṣṣaʿ
+                olunmuş ṭaş ḫāneleri altun ḳaplama
+                döşemesiyle yaldızlı pālān ḳıṭʿa 1, ṣom pālān baġı ʿaded 1</item>
+                
+                <item rend="column2">Kebīr ve vasaṭ on dört ḳıṭʿa yāḳūt
+                ve yigirmi üç ḳıṭʿa zümrüd ile muraṣṣaʿ
+                yeşil ve beyāż ve māiʾ minākāri altun
+                enselik, ṣom baġları çift 1</item>
+                
+                <item rend="column1">Kebīr ve vasaṭ ve ṣaġīr elli iki ḳıṭʿa
+                laʿl yāḳūt ve seksen yedi ḳıṭʿa
+                zümrüd ile muraṣṣaʿ ḳabżası ḳalemkārī
+                altun ṭopus ḳıṭʿa 1</item>
+                
+                <item rend="column2">Dībā üzerine ṣarı ṣom ṣırma ile
+                zerdūs işleme incü ve yigirmi iki
+                ḳıṭʿa zümrüd ile muraṣṣaʿ ḥalḳası 
+                sīm ṭopusluḳ ḳıṭʿa 1</item>
+                
+           <pb n="2" facs="#IMG02"/>
+            
+                <item rend="column1">Sīm yaldızlı ve üçer ṭoplu ve üç ḳollu
+                zincīr ḳıṭʿa 1</item>
+                <item rend="column2">Sīm yaldızlı üçer ṭoplu çifte
+                zincīr çift 1</item>
+                <item rend="column1">Sīm likām ḳıṭʿa 1</item>
+                <item rend="column2">Sīm ḫalḳalı ṭabhūr ṣom, ḳıṭʿa 1</item>
+                <item rend="column3">Ṭoḳa ṭopları yaldızlu sīm ṣom dizgin, ḳıṭʿa 1</item>
+                <item rend="column4">Yeşil ve beyaż minkārī
+                güllü yaldızlı sīm rikāb çift 1</item>
+            
+                <item rend="prose"><lb/>Ortası al ve eṭrāfı siyāh çuḳa üzerine hindkārī elvān renk sebetde şükūfeler
+                <lb/>ile müzeyyen ḳırḳ bir ḳıṭʿa laʿl ve yüz yetmiş iki ḳıṭʿa zümrüd ve dalları incü ile muraṣṣaʿ
+                <lb/>zemīni ḫurda altun pullu ve saçaḳları üçer ṭoplu incü ve mercān ile ṣom işleme
+                <lb/>al aṭlas astarlı ̣abāyī ḳıṭʿa 1</item>
+                
+                <item rend="column1">İki ḳaşları sīm yaldızlu
+                    ve ḫānesi ṣırma ile işlenmiş
+                    <choice><corr>eyer</corr><sic>eger</sic></choice> ḳıṭʿa 1</item>
+                <item rend="column2">Üç ṣırma güllü
+                ḳaṭanī tegelti</item>
+                <item rend="column3">Al sāye ̣çuḳa üzerine dallı 
+                ṣarı ve beyāż ṣırma ile 
+                işleme ṣarı aṭlas astarlı yapuḳ ḳıṭʿa 1</item>
+            
+                <item rend="column1">Zemīni ṣırma ve zimmātları 
+                nuḳūş ile müzeyyen ḳāliçe ḳıṭ ʿa 4</item>
+                <item rend="column2">Kebīr <choice><corr>tamġalu</corr> <sic>tamḳalu</sic></choice> sīm ṣaṭl ʿaded 1</item>
+                <item rend="column3">Sīm <choice><corr>tamġalu</corr> <sic>tamḳalu</sic></choice> <unclear reason="illegible" cert="medium">bār-bend</unclear></item>
+                <item rend="column4">Sīm <choice><corr>tamġalu</corr> <sic>tamḳalu</sic></choice> köstek</item>
+                <item rend="column5">Ḳırmızı ḳuṭnī üzerine 
+                ṣarı ḳılabdanlı sīreng ḳıṭʿa 2</item>
+            
+                <item rend="column1">Ḳılabdanlı elvān çiçekli
+                dīmī İstānbul dībāsı ḳıṭʿa 22</item>
+                <item rend="column2">Altunbaş hünkārī dastār ḳıṭʿa 10</item>
+                <item rend="column3">Münaḳḳaş ʿUşaḳ seccādesi ḳıṭʿa 10</item>
+                <item rend="column4">Bād-zehr-i māddī, ḳıṭʿa 28</item>
+
+                <item rend="column1">Mis̠k nāfe ʿaded 20</item>
+                <item rend="column2">Turuncu Cezāyir iḥrāmı ḳıṭʿa 2</item>
+                <item rend="column3">Elvān çiçekli aġır z̠erbaft</item>
+                <item rend="column4">Aġır İstanbul dīmī dībāsı ṭop 2</item>
+                <item rend="column5">ʿÜnnābī mis̠ḳāl 310</item>
+
+            </list>
+            
+                <ab><lb/>Bālāda taḥrīr olunduġu üzere eşyā-yı mezkūre ilçi İbrāhīm Paşa’ya teslīm olunmaġla maḳbūzunun baş muḥāsebeye
+                <lb/>ḳayd olunmaḳ üzere virildiği cumhūr defterinden işbu mahalle dahi ḳayd olundu. <date type="Hijri" notBefore="1719-04-21" notAfter="1719-05-20">Fī <unclear reason="illegible" cert="high">Cemaziyülahir </unclear>1131</date></ab>
+                
+                <list type="giftlist" ana="continued">
+                <item>Enderūn ḥazīnesinden daḫi gönderilmişdir.</item>
+                    
+                
+                <item rend="column1">Bir mücevher ḫançer</item>
+                <item rend="column2">Ve bir mücevher ḳılınç</item>
+                    
+                               
+            </list>
+
+                 
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190320-transl">
+                <pb n="1" facs="#IMG01"/>
+                <dateline><lb/><date when="1719-03-20">On March 20, 1719.</date></dateline>
+                <head><lb/>The register of friendly prepared gifts from the Sublime State to the Austrian Emperor</head>
+                                
+                <list type="giftlist">
+                    <item rend="column1">A large tent with compartments (<supplied><foreign xml:lang="ota">oba</foreign></supplied>), 
+                        made of waxed, colorful tent canvas with hinges installed up to half-height, 
+                        fringes embroidered on both sides,
+                        columns coated in mother-of-pearl, 
+                        gilded edges and sockets, 
+                        knobs quilted with silver embroideries,
+                        inner fringes made with orange Istanbul brocade, 1 piece, [consists of] 18 panes</item>
+                    
+                    <item rend="column2">Persian felt, 2 pieces</item>
+                    
+                    <item rend="column3">Cotton handkerchief lined with blue satin, 2 pieces</item>
+                    
+                    <item rend="column4">Seat made of fine orange-colored fine Istanbul brocade, 
+                        with silver and gold threaded fringes, embroidered with golden and white mother-of-pearl, 
+                        and lined with golden satin, 1 piece</item>
+                    
+                    <item rend="column1">Cushion made of cotton Istanbul brocade, lined with golden satin
+                        and embroidered with silver and gold threads on piqué, 4 pieces</item>
+                                        
+                    <item rend="column2">Finely-crocheted fine broadcloth with four fringes embroidered with mother-of-pearl, 2 pieces</item>
+                    
+                    <item rend="column3">Cushion upholstery made of gilded and sequined broadcloth (?), 2 pairs</item>
+                    <item rend="column1">Three-tiered aigrette on gold surface, studded with seventy-one pieces
+                        of big, medium, and small diamonds, netted with red and green enamel, 1 piece</item>
+                    
+                    <item rend="column2">Harness, including saddle blanket, headstall, breast collar and breastband
+                    studded with four hundred ninety-four large and medium diamonds and red, green, dark blue, and
+                    white enamel, gold surface, 1 piece</item>
+                    
+                    <item rend="column1">Frameless Maraş-style golden saddle (<supplied><foreign xml:lang="ota">palan</foreign></supplied>)
+                        adorned with one hundred fifty-five large, medium, and small
+                    diamonds, fourteen medium and small rubies, dark blue surface inlaid with white and green enamel of flowers
+                    Maraş style 1 piece; fine strap, 1 piece</item>
+                    
+                    <item rend="column2">Gilded and silver stirrups, adorned with twenty diamonds and 
+                    one-hundred and sixty rubies, halter studded with gold, 1 pair</item>
+                    
+                    <item rend="column3">Reins with silver clips and bits, 1 piece</item>
+                    <item rend="column4">Saddle girth with solid rings, 1 piece</item>
+                    <item rend="column5">Bridle worked with silver 1 piece</item>
+                    
+                    <item rend="column1">Saddle and fine crupper; saddle adorned with eighty-eight pieces of
+                        emerald and eighty eight pieces of precious and normal ruby,
+                    seat worked with silver and gold threads, front and rear 
+                    pommels worked with silver and gems, golden halter, 1 piece of each</item>
+                    
+                    <item rend="column2">Saddle blanket worked with three rose embroideries and inlaid with mother-of-pearl</item>
+                    
+                    <item rend="column3">Horse blanket made of dark red broadcloth, embroidered with gold and white thread,
+                    and lined with golden satin, 1 piece</item>
+                    
+                    <item rend="column1">Caparison embroidered with fine golden threads on white Istanbul brocade,
+                        fringes adorned with small corals, worked with fine mother-of-pearl lined with satin, and
+                        embroidered with three gold and pink roses, 1 piece
+                    </item>
+                    
+                    <item rend="column2">Imperial ceremonial style harness,
+                        adorned with three-hundred-and-seventy large and medium rubies
+                    three-hundred-and-thirty-four emeralds, surface inlaid with green, white,
+                    and blue enamel, headstall and breast collar
+                    netted with gold, 1 piece</item>
+                    
+                    <item rend="column1">Frameless saddle and fine saddle strap: saddle gilded and adorned with fifty-eight medium and small rubies
+                    and thirty-eight emeralds, with a seat upholstered in golden fabric, 1 of each</item>
+                    
+                    <item rend="column2">Neckpiece (for horse) and fine straps: gold, adorned with fourteen large and medium rubies
+                        and twenty-three emeralds, studded with green, white, and blue enamel, 1 pair</item>
+                    
+                    <item rend="column1">Mace adorned with fifty-two large, medium, and small precious rubies and rubies
+                    and eighty-seven emeralds, handcrafted gold grip, 1 piece</item>
+                    
+                    <item rend="column2">Mace holster made of brocade worked with fine gold and silver thread, adorned with pearl and
+                    twenty-two emeralds, silver ring, 1 piece</item>
+                    
+                    
+                    
+                    <pb n="2" facs="#IMG02"/>
+                    
+                    <item rend="column1">Lacquered silver chain with three balls and three arms, 1 piece</item>
+                    <item rend="column2">Lacquered silver chain with three balls each, 1 pair</item>
+                    <item rend="column1">Silver bridle, 1 piece</item>
+                    <item rend="column2">Saddle girth with silver rings, 1 piece</item>
+                    <item rend="column3">Reins with gilded clip balls, fine, 1 piece</item>
+                    <item rend="column4">Lacquered silver stirrups adorned with green and white enamel and rose design, 1 pair</item>
+                    <item rend="prose">
+                        <lb/>Gabardine fabric lined with red satin, red center surrounded by black, embroidered
+                        with colorful Indian-style fruits and inlaid with forty-one precious rubies
+                        one-hundred-and-seventy-two emeralds. The branches [are] adorned with
+                        pearls, the surface is sequined with small pieces of gold, fringes worked with fine
+                        three-knobbed pearls and coral, 1 piece </item>
+                    
+                    <item rend="column1">Saddle: pommel and cantle gilded around with silver, 
+                        the seat [is] embroidered with silver and golden thread, 1 piece</item>
+                    <item rend="column2">Saddle blanket embroidered with three roses for big horses</item>
+                    <item rend="column3">Horse blanket: dark red broadcloth embroidered with branches of gold and white thread,
+                    lined with golden satin, 1 piece</item>
+                    
+                    <item rend="column1">Rug: surface worked with silver and golden thread and edges adorned with embroideries, 4 pieces</item>
+                    <item rend="column2">Sealed (or lacquered?) silver saddle, 1 piece</item>
+                    <item rend="column3">Sealed (or lacquered?) silver calfband (for horses), 1 piece</item>
+                    <item rend="column4">Sealed (or lacquered?) silver tether, 1 piece</item>
+                    <item rend="column5">Multi-colored cloth with yellow gold threads on red cotton, 2 pieces</item>
+                    
+                    <item rend="column1">Fustian made of Istanbul brocade, worked with gold thread and colorful flower designs, 22 pieces</item>
+                    <item rend="column2">Gold-threaded royal turban (<foreign xml:lang="ota">dastār</foreign>), 10 pieces</item>
+                    <item rend="column3">Uşak-style embroidered prayer rug, 10 pieces</item>
+                    <item rend="column4">Bezoar stone, 28 pieces</item>
+                    
+                    <item rend="column1">Musk-pod, 20 pieces</item>
+                    <item rend="column2">Algerian-style orange-colored cloak (<foreign xml:lang="ota">ihram</foreign>), 2 pieces</item>
+                    <item rend="column3">Gold-threaded heavy fabric with colorful flower designs</item>
+                    <item rend="column4">Fustian made of Istanbul brocade, 2 pieces</item>
+                    <item rend="column5">Jujube, 310 <foreign xml:lang="ota">mis̠ḳāl</foreign></item>
+                </list>
+                        <ab><lb/>The aforementioned gifts, as recorded above, were handed to ambassador İbrahim Paşa 
+                            The receipt has been delivered to the office of chief treasurer for registration in the master registry, from where 
+                            [the gifts] have also been copied here.
+                        
+                        <lb/>The following has been sent from the palace inner treasury:</ab>
+                        
+                <list type="giftlist" ana="continued">
+                    <item rend="column1">A jeweled dagger</item>
+                    <item rend="column2">A jeweled sword</item>
+                    
+                    
+                </list>
+                
+                <ab>
+                    
+                </ab> 
+            
+            </div>
+            </body>
+    </text>
+</TEI>

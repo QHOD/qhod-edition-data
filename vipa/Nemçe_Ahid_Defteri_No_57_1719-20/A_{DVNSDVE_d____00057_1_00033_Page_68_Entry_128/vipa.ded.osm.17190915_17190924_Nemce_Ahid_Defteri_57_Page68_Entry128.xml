@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den kommandierenden Vezier von
+                    Nissa (Niš) und viele andere Verwalter zwischen Istanbul und der
+                    österreichischen Grenze, um sicherzustellen, dass österreichische Kaufleute
+                    gemäß dem kaiserlichen Vertragsschreiben (<foreign>ahidname</foreign>) behandelt
+                    werden; Istanbul, 15. September – 24. September 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the commander vizier of Nissa (Niš) and many
+                    other administrators situated between Istanbul and the Austrian border to ensure
+                    that Austrian merchants are treated in accordance with the imperial letter of
+                    agreement (<foreign>ahidname</foreign>); Istanbul, September 15 – September 24,
+                    1719</title>
+
+                <title xml:lang="tr">Sultanın, Niş muhafızı vezire ve İstanbul’dan Avusturya
+                    sınırına varıncaya kadar yol üzerinde görev yapan birçok Osmanlı idarecisine
+                    hitaben yazılmış, Avusturyalı tüccarlara ahidname şartlarına göre muamele
+                    edilmesi hakkında hükmü; İstanbul, 15 Eylül - 24 Eylül, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190915-17190924.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 68, entry 128</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-09-15" notAfter="1719-09-24"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den Kommandanten von Nissa (Niš) und viele andere
+                    Verwalter zwischen Istanbul und der österreichischen Grenze, um sicherzustellen,
+                    dass österreichische Kaufleute gemäß dem kaiserlichen Vertragsschreiben
+                    (ʿahdnāme-i ḥumāyūn) behandelt werden; Istanbul, 15. September – 24. September
+                    1719, bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob
+                    Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und
+                    Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>treatment of Austrian merchants according to the conditions of the
+                        imperial letter of agreement (ahidname)</item>
+                    <item>Asitane-i saadet</item>
+                    <item>Istanbul</item>
+                    <item>Thessaloniki</item>
+                    <item>Selanik</item>
+                    <item>Nissa</item>
+                    <item>Niš</item>
+                    <item>Austrian border</item>
+
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00033_Page_68_Entry_128.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190915-17190924.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">127</metamark>
+                <metamark place="margin">68</metamark>
+
+
+
+                <ab><lb/><rs type="place" ref="#mpr14602">Nīş</rs> muḥāfıẓı vezīre āsitāne-i
+                    saʿādetümden <rs type="place" ref="#mpr15449">Selānik</rs> ve <rs type="place"
+                        ref="#mpr15838">Doyran</rs>’a ve andan Nemçe ḥudūdına varınca yol üzerinde
+                    vāḳiʿ olan <lb/>beglerbegiler ve sancaḳbegleri ve ḳāḍīlar ketḫüdā yirleri ve
+                    yeñiçeri serdārları ve aʿyān-ı vilāyet ve iş irlerine ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından ḥālā der-i devlet-medāruma büyükilçilik ile gelen
+                        <rs type="person" ref="#mpr9435">Cenerāl Ġrūf <lb/>de Virmond</rs> ḫutimet
+                    ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü mektūb gönderüb müşārün ileyh
+                        <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ tüccārından
+                        <lb/><rs type="person">Yorġimen</rs>(?) nām tācir baʿżı emtiʿa ve eşyā almaḳ
+                    içün ticāret ārzūsıyla <rs type="place" ref="#mpr15449">Selānik</rs>e ve <rs
+                        type="place" ref="#mpr15838">Doyrān</rs>a ve andan <lb/><rs type="place"
+                        ref="#mpr9425">Belġrād</rs>a ʿazīmet üzere olduġın bildürüb ẕikr olunan
+                    maḥallere varub aḳçasıyla iştirā itdügi emtiʿanuñ <lb/>ʿahdnāme-i hümāyūn
+                    mūcebince yüzde üç gümrük bir defʿa bir maḥallde edā ve yirine edā teẕkiresi
+                    alduḳdan ṣoñra āḫar maḥallerde <lb/>tekrār gümrük muṭālebesiyle ve sāʾir bahāne
+                    ile rencīde ve remīde olunmayub ḥudūd nihāyetine varınca emīn ve sālim mürūr u
+                    ʿubūrına <lb/>mümānaʿat olunmamaḳ bābında ḥükm-ü hümāyūnum ricā eyledügi
+                    ecilden</ab>
+                <ab>ʿahdnāme-i hümāyūnuma mürācaʿat olunduḳda ṭarafeynüñ tüccārı gerek berren
+                    <lb/>ve gerek baḥren ve nehren getürdükleri emtiʿadan bir defʿa bir maḥallde ve
+                    yine ḥudūd-u islāmiyyeden iştirā idüb vilāyetlerine <lb/>götürdükleri emtiʿadan
+                    bir defʿa bir maḥallde yüzde üç ḥesābı üzere resm-i gümrüklerin edā
+                    eyledüklerinden ṣoñra yüzde <lb/>üçden ziyāde muṭālebe ve sāʾir müsteʾmenlere
+                    müsāʿade olduġı üzere üç yüz aḳça selāmet aḳçasından <lb/>māʿadā maṣdariyye ve
+                    żarar-ı ḳaṣṣābiyye ve rusūmāt-ı sāʾire muṭālebesiyle ḳaṭʿā rencīde olunmaya diyü
+                    mesṭūr ve muḳayyed <lb/>bulunmaġın ʿahdnāme-i ḥümāyūn mūcebince ʿamel olunmaḳ
+                    bābında fermān-ı ʿālī-şānum ṣādır olmışdur.</ab>
+                <ab><rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan fermān-ı celīlü’l-ḳadrüm ve ʿahdnāme-i
+                    hümāyūnum mūcebince ʿamel idüb min baʿd ḫilāfına <lb/>rıżā ve cevāz
+                    göstermeyesiz, şöyle bilesiz! <date type="Hijri" notBefore="1719-09-15"
+                        notAfter="1719-09-24">fī evāʾil-i Ẕā [<supplied resp="#yy"
+                            >Ẕi’l-ḳaʿide</supplied>] sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190915-17190924.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the commander vizier of <rs type="place" ref="#mpr14602">Nissa
+                        (Niš)</rs> and to all provincial governors, district administrators, judges,
+                    aides-de-camp of janissary commanders, janissary commanders, provincial
+                    notables, and functionaries that are located on the road from my threshold of
+                    felicity (Istanbul) to Thessaloniki, <rs type="place" ref="#mpr15838"
+                        >Doyran</rs> (Star Dojran), and from there to the Austrian border:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who is currently at my gate that is the center of state as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity. He requested my imperial decree about the
+                    [following] matter: A merchant named <rs type="person">Yorgimen</rs>(?) from
+                    among the merchants of the aforesaid <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs> declared that he will go to <rs type="place" ref="#mpr15449"
+                        >Salonika</rs>, <rs type="place" ref="#mpr15838">Doyran</rs> (Star Dojran),
+                    and from there to <rs type="place" ref="#mpr9425">Belgrade</rs> to purchase some
+                    commodities and goods and with the desire of commerce. As [the merchant] arrives
+                    at the aforesaid locations, after he purchases commodities with [his own] money,
+                    paying at each location once the three percent customs duty as per the imperial
+                    letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>), and
+                    receiving a receipt of payment, he shall not be oppressed and disturbed at other
+                    locations through recurrent demand of customs duty or other excuses and he shall
+                    not be prevented from passing along safely and soundly when he arrives at the
+                    border.</ab>
+
+                <ab>Upon consultation to my imperial letter of agreement, it is written and recorded
+                    that after the merchants of both sides pay once at a location a three percent of
+                    customs duty for the commodities that they bring along with them over land and
+                    sea and for the commodities they bought from inside the frontiers of Islam to
+                    take to their provinces, they absolutely shall not be oppressed through a claim
+                    of an export fee (<foreign xml:lang="ota">maṣdariyye</foreign>), dues for goods
+                    in transit (<foreign xml:lang="ota">żarar-ı ḳaṣṣābiyye</foreign>, lit. 'butcher’s damage'), or other
+                    duties, in addition to the claim of three percent [customs duty] and a safety
+                    fee of 300 akçes as permitted to a variety of foreign individuals who applied
+                    for safety. [Hence,] my illustrious decree was issued to act as stipulated by
+                    the imperial letter of agreement.</ab>
+
+
+                <ab><rs type="person" ref="#mpr14244">I</rs> order that, when my decree arrives, you
+                    shall act as stipulated by my edict of glorious worth and my imperial letter of
+                    agreement; from now on, you shall not permit or show consent to the opposite. So
+                    shall you know! <date type="Hijri" notBefore="1719-09-15" notAfter="1719-09-24"
+                        >September 15 to September 24, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

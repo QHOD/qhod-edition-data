@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über Damian Hugo von Virmonts Abschiedsbesuch beim Obersten Sekretär,
+                    Istanbul, 19. April 1720</title>
+                <title xml:lang="en">Protocol register of Damian Hugo von Virmont’s farewell visit to the Chief of Scribes,
+                    Istanbul, April 19, 1720</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Reisülküttab’ı Ziyareti,
+                    İstanbul, 19 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Teşrifati Salman Efendi</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.pr.osm.17200419a</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 90</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-19"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über Damian Hugo von Virmonts Abschiedsbesuch beim Obersten Sekretär, Istanbul, 19. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_}d___00347_00044a.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17200419a">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <lb/><date type="Hijri" when="1720-04-19">Fi 10 C<supplied resp="#yy">emaziyülahir</supplied> 1132</date>
+                <hi rend="#red"><rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> <rs type="person" ref="#mpr14722">reʾīsüʾl-küttāb 
+                    efendinüñ</rs> ḫānesine vardıġ ı keyfiyyetidür.</hi> 
+                <lb/>Māh-ı mezbūruñ onuncı Pencşenbe güni <rs type="person" ref="#mpr9435">elçi-i mezbūr</rs> 
+                <rs type="person" ref="#mpr14722">Reʾīsüʾl-küttāb Meḥmed Efendiye</rs> gelmekle sāʾirlerine 
+                <lb/>geldigi sibāḳ üzere atlar gönderilüb baʿdehū <rs type="person" ref="#mpr9435">ilçi-i mezbūr</rs>
+                <rs type="person" ref="#mpr14722">mūmā ileyhüñ</rs> ḫānesine 
+                <lb/>gelüb bāġ çeye nāẓır odada ṣedirüñ ṣaġ  ṭarafına vażʿ olunan yaṣdıḳ üzerine
+                <lb/>oturub ber ḳāʿide ṭatlu ve ḳahveden ṣoñra ḫānendegān defʿa defʿa üç kerre
+                <lb/>faṣl eylemişlerdür. Baʿdehū ikindi vaḳti ṭaʿām tenāvülinden ṣoñra <rs type="person" ref="#mpr14722">mūmā ileyh efendi</rs> 
+                <lb/>ṭarafından <rs type="person" ref="#mpr9435">ilçi bege</rs> <unclear cert="medium">Yanyakārī</unclear> 
+                kemer raḫt ve sīm rikāb ve ṣırma işleme <choice><corr>eyer</corr><sic>eger</sic></choice> ve ṣaçaḳlı dībā 
+                <lb/>kesme ile müzeyyen bir ṭoru at çıḳmışdur.</ab> 
+                
+            <ab>Ve sāʾirlerinüñ itdigi sibāḳ üzere 
+                <lb/><rs type="person" ref="#mpr9435">ilçi bege</rs> telli çekme ve begzādegān ve etbāʿına daḫı otuz ḳadar boyamalar virilüb 
+                <lb/>ve üzerine meʾmūr <rs type="person" ref="#mpr14717">ḳapucıbaşı aġ aya</rs> bir ṣof ferāce ilbās olunub baʿdehū ḳonaġ ına
+                <lb/>gitmişdür. Sāʾir żiyāfetlerde bu ḥaḳīr ve elçinüñ üzerine meʾmūr çorbacıya birer donluḳ 
+                <lb/>çuḳa ve birer donluḳ ḳumāş virilüb lākin <rs type="person" ref="#mpr14722">mūmā ileyh efendi</rs> ḥażretleri ṭarafından virilmedi.
+                <lb/>Ġ ālibā ḫāṭırlarından çıḳmışdur diyü denāʾetüñ ḥüsn-i taʿbīri ile iktifā olundı.</ab>
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17200419a-transl">
+            <pb n="1" facs="#IMG1"/>
+            <ab>The circumstances of <rs type="person" ref="#mpr9435">the Austrian ambassador</rs>’s 
+                visit to the house of <rs type="person" ref="#mpr14722">the chief of the scribes</rs>
+                <date type="Hijri" when="1720-04-19">on 10 C(emaziyülahir) 1131</date>.</ab>
+                
+            <ab>On the tenth day of the month, a Thursday, the <rs type="person" ref="#mpr9435">ambassador</rs> came to the house of
+                <rs type="person" ref="#mpr14722">the Chief of the Scribes, Mehmed Efendi</rs>. 
+                As it had been done during the <rs type="person" ref="#mpr9435">ambassador’s</rs> visits
+                to the other [statesmen], horses were prepared and dispatched for the
+                <rs type="person" ref="#mpr9435">ambassador</rs> and his noblemen. Afterwards, the <rs type="person" ref="#mpr9435">ambassador</rs>
+                came to the house of <rs type="person" ref="#mpr14722">the chief of the scribes</rs>, and sat on the cushion that 
+                was prepared on the right-hand side of the sofa located inside the reception room across the garden.
+                According to the custom, after sweets and coffee were served, vocalists performed three different times.
+                After the eating of the mid-afternoon meal, <rs type="person" ref="#mpr14722">the chief of scribes</rs> presented the
+                <rs type="person" ref="#mpr9435">ambassador</rs> with a chestnut horse, adorned with a leather-strap harness made in Yanya that 
+                had a seat worked with gold and silver threads, and silver stirrups.</ab> 
+                
+                             
+            <ab>And, as others had done previously, the <rs type="person" ref="#mpr9435">ambassador</rs> was presented with a [piece of] embroidered 
+                fabric, while his noblemen and retinue were presented
+                with around thirty colored kerchiefs. <rs type="person" ref="#mpr14717">The gatekeeper agha</rs> who was commissioned 
+                to accompany the <rs type="person" ref="#mpr9435">ambassador</rs> was presented with a fine ceremonial cloak. Thereafter, the
+                <rs type="person" ref="#mpr9435">ambassador</rs> went to his residence. In other visits [of the ambassador], this humble servant
+                and the janissary captain, who was commissioned to accompany the <rs type="person" ref="#mpr9435">ambassador</rs>, had been 
+                presented with a broadcloth fabric and another piece of fabric enough to make clothes.
+                However, <rs type="person" ref="#mpr14722">the chief of the scribes</rs> did not do so. [We] contented ourselves with the euphemism for 
+                (his) meanness that it must have slipped his mind.</ab>
+            </div>
+        </body>
+    </text>
+</TEI>

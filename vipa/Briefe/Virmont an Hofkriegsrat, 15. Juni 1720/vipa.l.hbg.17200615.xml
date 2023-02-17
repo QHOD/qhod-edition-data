@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Ciopalek, 15. Juni 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Ciopalek, June 15, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> 
+                        Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200615</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 158r-159v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl> 
+            <refsDecl><p>Damian Hugo von Virmont an den Hofkriegsrat, Ciopalek, 15. Juni 1720, bearb. von Manuela Mayer, Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+                
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr$$$" ref="https://sws.geonames.org/$$$/">Ciopalek</placeName> <!-- keine Ahnung, was das für ein Ort ist! -->
+                    <date when="1720-06-15">15. Juni 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                    
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev"> 
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-13">13. Juni 1720</date>
+                    </ref>
+                    <ref type="next"> 
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-06-15">15. Juni 1720</date>
+                    </ref>
+                </correspContext>
+                
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>delay of the exchange ceremony</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="50KV_158r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="50KV_158v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="50KV_159r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="50KV_159v.jpg" xml:id="IMG4"/>
+        </surface>
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="158r" facs="#IMG1"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">Nr. 50</ref> d.do. <rs type="place" ref="#mpr15646">Ciopalek</rs> <date when="1720-06-15">15. Junii 1720</date></metamark>
+            <opener>
+                
+                <salute>Hochlöblicher ksl. hof-kriegs-rath. p.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. Umb von dem jenigen, was vorfallet, nicht das geringste gehorsambst und schuldigst unberichtet zu lassen, habe meiner vorgestrig gehorsambst abgelassener relation auch dises beyfüegen sollen, daß, da ich vernohmen, das biß an selbigen datum der <rs type="person" ref="#mpr14276">türckhische herr gros-bottschaffter</rs> ihro <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> <rs type="person" ref="#mpr14241">general feldwachtmeister herrn grafen von Oduyer</rs> die visit zu geben beständig recusiret, und es das ansehen gewuhnen, daß dise beyde alß unfreünd ohne sich zu sehen von niemanden scheiden würden, ich aber solches ohnanständig und ihro <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> intention und dienst nicht allerdings conform zu seyn vermainet, alß habe nicht unrecht zu thuen erachtet, des
+            <pb n="158v" facs="#IMG2"/><rs type="person" ref="#mpr14276">türckhischen herrn gros-bottschaffters</rs> verfahren hiesigen herrn <rs type="person" ref="#mpr14242">seraskier</rs> mit allen umbständen zu remonstriren, mithin denselben dahin zu vermögen, ein zimblich scharffs schreiben an den <rs type="person" ref="#mpr14276">bottschaffter</rs> abgehen zu lassen, worinnen er denselben sein unrecht der recusirten visit verweiset, mithin selbe den <date when="1720-06-14">14.</date> zu <rs type="place" ref="#mpr14607">Paraskin</rs> auf alle weis noch respective zu geben, und widerumb zu empfangen, anweiset, wie dan auch solches, wie mir herr <rs type="person" ref="#mpr14241">general graf von Oduyer</rs> berichtet, mit beyderseitiger vergnüglichkeit geschehen. Und  da nun, wie vöst gestellet war, allerdings glaubte, es würde die auswechslung anheünt erfolgen, so fallet dem herrn <rs type="person" ref="#mpr14276">gros-bottschaffter</rs> ein, er müste zur praecaution seiner gesundheit eben heünt ader lassen, wie dan solches gester abents
+            <pb n="159r" facs="#IMG3"/>spätt mehrgedachter herr <rs type="person" ref="#mpr14276">bottschaffter</rs> an den <rs type="person" ref="#mpr14242">seraskier</rs> mit bitt, ihm solches zu erlauben, herr <rs type="person" ref="#mpr14241">general Oduyer</rs>zugleich an mich berichtet. Der herr <rs type="person" ref="#mpr14242">seraskier</rs> hat zwar hierein mit einem unwillen bewilliget und ich es mit bezeügung eines kleinen mußfallens, jedoch darbey machenden höfflichen compliment und angehängter protestation, das länger nicht aufgehalten werden wolte, geschehen lassen müessen. Ich hoffe demnächst, es würde der auswechslungs-actus morgen ohnfehlbar vor sich gehen, da ich sodan meine weithere gehorsambste relation auf das allerschleünigste per expressum abzuschickhen ohnermanglen werde. Womit zu beharrlichen gnaden mich gehorsambst empfehlend schuldigst ersterbe.</p>
+            <closer>
+                <salute>Euer durchleuchtigste excellenzien und meiner hochgeehrtisten herren</salute>
+                <signed>gehorsambst und dienstschuldigster diener<rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <placeName>Aus dem lagger bey <rs type="place" ref="#mpr15646">Ciopalek</rs> anderthalb stund von der gränitz</placeName>
+                </address>
+                <dateline>den <date when="1720-06-15">15. Junii 1720</date></dateline>
+            </closer>
+            
+            <pb n="159v" facs="#IMG4"/>
+            <metamark>Pro notitia <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-07-19">19. Julii 1720.</date></metamark>
+            
+            
+        </body>
+    </text>
+</TEI>

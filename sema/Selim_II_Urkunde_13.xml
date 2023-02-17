@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 13</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt><resp>Edition</resp><persName key="#ht"><forename>Halit</forename><surname>Temiz</surname></persName></respStmt><respStmt><resp>Übersetzung</resp><persName key="#ht"><forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15740402</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türkische Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="738"/>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Ṭuġra gold</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1574-03-24" notAfter="1574-04-02" calendar="#hijri">981 Ẕīlḥicce 1-10</date> 
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15720731.2">Urkunde 12/2</ref>
+                <ref type="next" target="o:sema.rc.osm.15740422">Urkunde 14</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 13: Geschrieben zwischen dem 24.3. und
+                2.4.1574 in <rs type="place" ref="#mpr14055">Konstantinopel.</rs> Beantwortet das durch <rs type="person" ref="#mpr14186">Karl Rijm</rs> und <rs type="person" ref="#mpr14187">David Ungnad</rs> überbrachte Schreiben mit dem Wunsch, den auslaufenden Frieden um weitere zehn Jahre zu verlängern. </p> </abstract>
+            <textClass>
+                <keywords>
+                    <term>Nāme-i hümāyūn </term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+   
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>
+                    
+                </interpretation>                       
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 13: Selim II. an Maximilian II., Istanbul, zwischen 24.3. und 2.4.1574, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+                <surface start="#IMG.13.1">
+                    <graphic url="13_738-stitched.jpg" xml:id="IMG.13.1"/>
+                    
+                </surface>
+                
+            </facsimile>
+        <text type="record"><body>
+                       
+               
+                
+                
+                <div n="13"><div type="transcription" xml:lang="ota">
+                    
+                    <pb facs="#IMG.13.1." n="13.1."/>   
+                                      
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    <note place="footnote" n="1">The invocatio element is likely there, but it
+                    appears to have remained below the archival note attached to the document
+                    at the top.</note>
+                   
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs> 
+                         Şāh bin <rs type="person" ref="#mpr11015">Süleymān</rs></ab>
+                            
+                       <ab type="inscriptio"> <lb n="1" xml:id="l1"/>İftiḫāru l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtāru l-küberā’i
+                            l-fiḫāmi fī l-milleti l-mesīḥīye muṣliḥu maṣāliḥi cemāhīri ṭ-ṭāyifeti
+                            n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti ve-l-vaḳār ṣāḥibü delāyili l-mecdi
+                            ve-l-iftiḫār vilāyet-i <rs type="place" ref="#mpr13416">Peç</rs>
+                        ve <rs type="place" ref="#mpr9291">Alāmān</rs>
+                        īmperādorı <rs type="person" ref="#mpr14157">Maḳsimilyānūş</rs>
+                            ḳırāl</ab>
+                            <ab type="salutatio"><lb n="2"/>ḫutimet ʿavāḳibühū bi-l-ḫayr</ab>
+                    <ab type="notificatio">tevḳīʿ-i refīʿ-i hümāyūn vāṣıl
+                            olıcaḳ maʿlūm ola ki</ab> 
+                    
+                    <ab type="narratio">ḥālen ʿatebe-i ʿalīye-i ʿālem-penāh ve südde-i
+                            senīye-i seʿādet-destgāhumuzda ki melce’-i selāṭīn-i ʿālī-miḳdār ve
+                            melāẕ-i ḫavāḳīn-i gerdūn-iḳtidārdur risālet
+                            <lb n="3"/>tarīḳiyle āsūde olan muʿteber ve nāmdār ādemlerüñüzden
+                            ḳıdvet aʿyāni ṭ-ṭāyifeti n-naṣrānīye 
+                        <rs type="person" ref="#mpr14186">Ḳārlos Rīm</rs> ve
+                        <rs type="person" ref="#mpr14187">Dāvīd Uġnād</rs> 
+                        sizüñ ṭarafuñuzdan baʿż-ı ḫuṣūṣlar iʿlām ėtmek içün mufaṣṣal kāġıd gönderüb 
+<lb n="4"/>mażmūnında münderic olan bu idi-ki mābeynde müstaḥkem olan sekiz yıllıḳ emn ü emān içinde vāḳiʿ 
+                        olan āhd ü mīs̠āḳuñ şerāyiṭi riʿāyetinde ḳuṣūr üzre olmayub kemāl-i ṣadāḳat u istiḳāmet ile ṭarīḳ-i 
+<lb n="5"/>emn ü emānda s̠ābit-ḳadem olduġuñuzı ve ẕikr olunan ʿahd ü emān itmāma ėrişdükde müceddeden on yıla
+                        degin gėrü ʿahd ü emān muḥaḳḳaḳ u muḳarrer olmaḳ ve sābıḳan vėrilen ʿahdnāme-i
+                        hümāyūnumuzda mesṭūr u muḳayyed olan 
+ <lb n="6"/>şerāyiṭ her ne ise gėrü ke-mā kāne riʿāyet u ṣiyānet olunmaḳ içün memālik-i maḥrūse-i ḫusrevānemüz
+                        beglerine ve <rs type="place" ref="#mpr9372">Erdel</rs>
+      ve <rs type="place" ref="#mpr14097">Boġdān</rs> ve
+                        <rs type="place" ref="#mpr14098">Eflāḳ</rs>
+                        voyvodalarına aḥkām-i şerīfe irsāl olunub tenbīh ü te’kīd olunmaḳ 
+                        <lb n="7"/>ve nizāʿ üzre olan ḳaryeler ve andan ġayrı ol ṭarafdan yazılan
+                        ḫuṣūṣlar ḥaḳḳ üzre oñat vech-ile görilüb ber-ṭaraf olmasıyçün
+                        <rs type="place" ref="#mpr7448">Buda</rs>
+                        beglerbegisine ḥükm-i hümāyūnumuz gönderilmek ve bi-l-cümle ʿahdnāme-i hümāyūnumuzuñ                                                          
+<lb n="8"/>ḫilāfına cevāz gösterilmeyüb mażmūn-i seʿādet-maḳrūnı ile ʿamel olunmaḳ bābında iki 
+                        cānibden iḳdām u ihtimām ẓuhūra getürilmek murāduñuz oldugın iʿlām ėdüb
+                        bu bābda daḫı her ne-ki tafṣīl ü beyān eylemiş ise ʿalā vechi l-kemāl 
+<lb n="9"/>pāye-i serīr-i seʿādet-maṣīrümüze ʿarż u taḳrīr olunub ʿilm-i şerīf-i ʿālem-şümūl-i 
+                        ḫusrevānemüz muḥīṭ u şāmil olmışdur eyle olsa binā’-i ʿahd ü emānuñ istiḥkām 
+                        u istiḳrārı cānibeynüñ ehl-i fesādı ve eşḳiyāsı żabṭ olunub 
+<lb n="10"/>reʿāyā vü berāyā ḥużūr-i ḥāl u ferāġ-ı bāl ile kār u kesblerinde olmaġla müyesserdür
+                        mā-dām-ki ol cānibden mugāyir-i ʿahd ü emān bir vażʿ ṣudūr ėtmeyüb ṣadaḳa
+                        olunan ʿahdnāme-i hümāyūnumuzda mesṭūr u muḳayyed olan 
+<lb n="11"/>ḫuṣūṣlar ke-mā-yenbaġī riʿāyet ü ṣiyānet olunub ḫilāfına cevāz gösterilmeye cenāb-i
+                        celālet-me’ābumuz ṭarafından daḫı ol ʿahda mugāyir on yıl degül yigirmi
+                        yıl daḫı mürūr ėderse ol ʿahda muḫālif bir vażʿ ẓuhūr ėtmek                                                        
+<lb n="12"/>iḥtimāli yoḳdur nizāʿ üzre olan ḳurā vü biḳāʿ ve sāyir ḫuṣūṣlar görilüb refʿ-i nizāʿ
+                        olmaḳ bābında istidʿā’ olundugı üzre beglerbegi ḳuluma ḥükm-i cihān-muṭāʿ-i 
+                        vācibü l-inḳiyādum irsāl olunub 
+<lb n="13"/>tenbīh ü te’kīd olunmışdur feḥvā-yi hümāyūn-i seʿādet-maḳrūniyle ʿamel ėdüb kimesneye
+                        emr-i şerīfümüze mugāyir iş ėtdürmezler ammā sizüñ serḥadde olan beglerüñüz
+                        ve ḳapudānlaruñuz ṣulḥ u ṣalāḥ emrin riʿāyet ėtmeyüb dāyimā memālik-i 
+                        <lb n="14"/>maḥrūsemüze segirdüb ʿahd ü emāna muḫālif iş ėtmekden ḥālī olmazlar
+                        cümleden ol cānibde vāḳiʿ olan ḳilāʿ aġalarından 
+                        <rs type="person" ref="#mpr14228">Ibrāhīm Aġa</rs>
+                        ve <rs type="person" ref="#mpr14195">Süleymān Aġa</rs>
+                        ve <rs type="place" ref="#mpr14067">Ṣolnoḳ</rs> emīni
+                        <rs type="person" ref="#mpr14196">Muṣṭafā Emīn</rs> 
+                        Muṣṭafā ḳarındaşı ve dīger emīn <rs type="person" ref="#mpr14192">Ḥasan</rs> memleket 
+                        <lb n="15"/>u vilāyetümüz dāḫilinde gendü ḥāllerinde iken alınub ve 
+                        Bosna serḥaddinde daḫı baʿż-i esīrler alınub ve 
+                        <rs type="place" ref="#mpr9372">Erdel</rs> beglerinden
+                        <rs type="person" ref="#mpr14188">Bekeş Ġaşpār</rs> 
+                        ve sābıḳan <rs type="person" ref="#mpr14189">Boġdān</rs>
+                        voyvodası olan Boġdān envāʿ-i ʿināyet-i                                                     
+<lb n="16"/>şāhānemüzle mugtenimler iken cibilletlerinde merkūz olan ḫiyānetleri mūcibince 
+                        ḥıyānet ėdüb ol cānibe ilticā ėtmegin ʿahd ü emāna mugāyir memālik-i maḥrūsemüz
+                        dāḫilinde gendü ḥāllerinde iken alınan 
+                        <lb n="17"/>meẕkūr aġalar ve emīnler mābeynde münʿaḳid olan ʿahd ü emān mūcibince
+                        iṭlāḳ olunub ve <rs type="person" ref="#mpr14188">Bekeş
+                            Ġaşpār</rs> ile <rs type="person" ref="#mpr14189">Boġdān</rs>
+                        bu cānibe gönderilmek ḫuṣūṣı içün bundan aḳdem nāme-i hümāyūn-i ʿadālet-ʿunvānumuz irsāl 
+                        <lb n="18"/>olunmışidi ʿahd ü emān üzre mażmūn-i hümāyūn-i seʿādet-maḳrūnına 
+                        imtis̠ālden henūz es̠er ẓāhir olmadugından ġayrı südde-i seʿādetümüzde olan ėlçilerüñüze
+                        gelen kāġıdlarıñuzda ẕikr olunan ṭutsaḳlara bedel                             
+                        <lb n="19"/>ṭutsaḳlar ṣalıvėrilmek ḫuṣūṣı ve Boġdān Voyvoda vilāyetüñüzde olmaduġı 
+                        ve <rs type="person" ref="#mpr14188">Bekeş Ġaşpār</rs>
+                        vilāyetüñüzde mülk-i ḳalʿe ṣatun almaġla firār ėtdükde mülkine varduġı ve gendünüñ 
+                        günāhı olmaduġı işʿār olunduġı daḫı 
+<lb n="20"/>pāye-i serīr-i aʿlāmuza ʿarż olundı </ab>
+                    
+                    <ab type="manifestatio">mezbūrlar memālik-i maḥrūsemüzüñ beglerinden ve ḳullarından 
+                        olub ʿiṣyānlarından ġayrı emrümüz olmadan āḫer vilāyete gitdükleri ve mülk alduḳları
+                        ḳāʿide-i müstaḥsene-i şāhānemüzde maḥż-i günāh 
+<lb n="21"/>ve ʿayn-i ḫaṭādur ve mezbūr voyvoda bi-l-fiʿl vilāyetüñüz begleri yanında mütebeddil olub 
+                        gezdügi ve fesād üzre oldugı memālik-i maḥrūsemüz ġāretine gelüb münhezim olan
+                        dillerden ḫaber alınub ʿale t-tafṣīl
+<lb n="22"/>aḥvāli maʿlūm olmışdur ve memālik-i maḥrūsemüzde böyle gendü ḥāllerinde iken esīr olan 
+                        ḳullar ve aġalarımuzdan bedel-i ṭutsaḳ ṭaleb olunmaḳ ve behāya kesilmek ve 
+                        ẕikr olunan beglerümüz ʿahd ü emān üzre memālik-i maḥrūsemüze
+<lb n="23"/>gönderilmemek mābeynde olan ʿahd ü emāna muḫālifdür</ab> 
+                    
+                    <ab type="dispositio">gerekdür ki nāme-i hümāyūn-i meserret-maḳrūnumuz
+                        vuṣūl bulduḳda sābıḳā irsāl olunan nāme-i hümāyūn-i devlet-nümūnumuz 
+                        muḳteżāsınca memālik-i maḥrūsemüz dāḫilinde    
+                        <lb n="24"/>gendü ḥāllerinde iken alınan aġaları ve emīnleri ve Bosna serḥaddinde
+                        alınan müslimānları iṭlāḳ ėdüb ve bu cānibden ḥiyānetleri sebebi ile firār ėdüb
+                        ol cānibe ilticā ėden                           
+                        <lb n="25"/> mezbūrān <rs type="person" ref="#mpr14188">Bekeş</rs>
+                        ve <rs type="person" ref="#mpr14189">Boġdānı</rs> 
+                        mābeynde vāḳiʿ olan ṣulḥ
+                            u ṣalāḥ mūcibince ʿatebe-i ʿālem-penāhumuza gönderilmek bābında envāʿ-i
+                            mesāʿī-yi cemīleñüz vücūda getürilüb min baʿd ol
+                            <lb n="26"/>cānibde olan beglerüñüze ve ḥākimlerüñüze ʿahd ü emān ve
+                            ṣulḥ u ṣalāḥ bināsınuñ teşyīd ü temhīdi ḫuṣūṣların iʿlām ėdüb ʿahdnāme-i
+                            hümāyūnumuzda mesṭūr u muḳayyed olan
+                            <lb n="27"/>şürūṭuñ riʿāyet ü ṣıyāneti ḫuṣūṣlarında beẕl-i mā-hüve
+                            l-maḳdūr ėdüb ʿahd ü emāna mugāyir iş ėtmemek bābında geregi gibi
+                            iḥtirāz u iḥtiyāṭ üzre olmaları içün
+                            <lb n="28"/>tenbīh ve yasaḳ eyleyüb anuñ gibi ʿahda muḫālif iş ėdenlerüñ
+                            cezā vu sezāları vėrilmek ve sāyir dostlıḳ umūrına müteʿalliḳ ve
+                            müteferriʿ olan ḫuṣūṣlarda envāʿ-i mesāʿī-yi
+                            <lb n="29"/>cemīleñüz ẓuhūra getürile ki sebeb-i izdiyād-i müvālāt ve
+                        mūcib-i imtidād-i muṣāfāt idügine iştibāh yoḳdur</ab>
+                    
+                        <ab type="datatio"><date calendar="#hijri" notBefore="1574-03-24" notAfter="1574-04-02">taḥrīren fī evāyili
+                            <lb n="30"/>şehri Ẕī l-ḥicceti ş-şerīfe senete iḥdā ve-s̠emānīn ve-tisʿa
+                            mi’e</date></ab>
+                    <ab type="locus">Bi-maḳāmi <rs type="place" ref="#mpr14055">Ḳosṭanṭinīye</rs>
+                        el-maḥrūse el-maḥmīye sānehā llāhü ʿani l-belīye</ab>
+                    
+                    
+                    
+                    
+<pb facs="#IMG.13.1.a" n="13.1.a"/>
+                    <p> Rückseite: <rs type="place" ref="#mpr13416">Peç</rs> ḳırālına</p>
+                       
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.13.1." n="13.1."/>
+                     
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    <note place="footnote" n="1">The invocatio element is likely there, but it
+                        appears to have remained below the archival note attached to the document
+                        at the top.</note>
+
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs> 
+                        
+                        Şāh, Sohn <rs type="person" ref="#mpr11015">Süleymāns</rs></ab>
+                    <ab type="inscriptio"><seg corresp="#l1">Ruhmvoller der mächtigen christlichen Fürsten,
+                            Erwählter der geehrten Großen in der christlichen Glaubensgemeinschaft,
+                            Ordner der Angelegenheiten der christlichen Staaten, Träger der Schleppe
+                            von Ruhm und Würde, Inhaber der Zeichen der Majestät und der Ehre,
+                            Kaiser des Landes <rs type="place" ref="#mpr13416">Wien</rs>
+                        und von Deutschland, König <rs type="person" ref="#mpr14157">Maximilian</rs></seg></ab>
+                    <ab type="salutatio">sein Leben möge im Guten enden.</ab>
+                       
+                    <ab type="notificatio">Sobald das erhabene großherrliche Schreiben
+                            einlangt, möge bekannt werden:</ab>
+                    
+                    <ab type="narratio">Nun haben Eure geschätzten und namhaften Männer, Vorbild<supplied resp="#ht">er</supplied>
+                        der Vornehmen der christlichen Gemeinde, 
+                        <rs type="person" ref="#mpr14186">Ḳārlos Rīm</rs>
+                        <supplied resp="#ht">Karl
+                            Rijm</supplied> und <rs type="person" ref="#mpr14187">Dāvīd Uġnād</rs>
+                        <supplied resp="#ht">David
+                            Ungnad</supplied>, die sich als Gesandte an unserer hohen
+                            Pforte, dem Zufluchtsort der Welt und an unserer erhabenen Schwelle, der
+                            Stätte des Glücks, die das Asyl der hochrangigen Sultane und der
+                            Zufluchtsort der schicksalshaft mächtigen Ḫāḳāne ist befinden,
+                            ein ausführliches Schreiben geschickt, um einige Angelegenheiten von Eurer Seite bekanntzugeben.                        
+                         In dessen Inhalt war ausgedrückt (enthalten), dass Ihr bei der Einhaltung der Bedingungen
+                        des Vertrages und der Vereinbarung, die im Rahmen des zwischen <supplied resp="#ht">uns</supplied>
+                        bestehenden achtjährigen Friedens und Waffenstillstandes existierte nicht nachlässig seid
+                        und in vollkommener Treue und Aufrichtigkeit auf dem Weg des Friedens und der Sicherheit standhaft bleibt. 
+
+                        Und Ihr habt bekanntgegeben, dass es Euer Wunsch ist, dass von beiden Seiten
+                                Sorgfalt und Mühe aufgewendet werde,
+                            damit, sobald der erwähnte Vertrag und Waffenstillstand ausläuft, wieder von
+                            neuem ein Vertrag und Waffenstillstand auf zehn Jahre bestimmt und aufrecht sei, und damit alle Bedingungen, die in
+                                unserem früher erlassenen großherrlichen Vertrag niedergeschrieben
+                                und eingetragen sind, wie zuvor beachtet werden, den Begen unserer wohlbehüteten ḫosrowischen
+                         Länder, den Woiwoden von <rs type="place" ref="#mpr9372">Siebenbürgen,</rs>
+                         <rs type="place" ref="#mpr14097">der Moldau</rs> und
+                         <rs type="place" ref="#mpr14098">der Walachei</rs> erhabene Befehle
+                         geschickt und <supplied resp="#ht">diese</supplied> gewarnt <supplied resp="#ht">und aufmerksam gemacht</supplied> werden; 
+                         dem Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>
+                         unser großherrliches Befehlsschreiben geschickt wird, damit die strittigen Dörfer und andere, 
+                         von Eurer Seite niedergeschriebene Angelegenheiten dem Recht gemäß in gehöriger Weise untersucht und erledigt werden; 
+                         dass nichts gegen unser großherrliches Vertragsschreiben zugelassen und von beiden 
+                         Seiten Beharrlichkeit und Sorgfalt bezüglich Einhaltung seines glücklichen Inhalts erwiesen wird.
+                     Was <supplied resp="#ht">er</supplied> außerdem noch in dieser Angelegenheit berichtet 
+                        und dargelegt hat, wurde in vollkommener Weise dem Fuße des Thrones, dem Zufluchtsort des
+                        Glücks unterbreitet und vorgebracht, und wurde von meinem erhabenen, die Welt umfassenden,
+                        ḫosrowischen Wissen erfasst und aufgenommen. 
+                    Wenn es sich so verhält, gelingt die Befestigung
+                            und Stabilisierung des Friedens und Waffenstillstandes, wenn die
+                            Missetäter und Rebellen beider Seiten in Zaum gehalten (bzw.
+                            festgenommen) werden und die Untertanen in Wohlgefühl und mit innerer
+                            Ruhe ihren Arbeiten und Geschäften nachgehen.
+                    Solange von Eurer Seite nicht gegen den Frieden
+                            und Waffenstillstand gehandelt wird und die in unserem, Euch gewährten
+                            großherrlichen Vertragsschreiben niedergeschriebenen und aufgezeichneten Angelegenheiten
+                            wie es sich gehört, eingehalten und beschützt werden und eine Zuwiderhandlung nicht erlaubt wird,
+                            ist es gar nicht möglich, dass von Seiten unserer gewaltigen Majestät gegen den Vertrag,
+                            selbst wenn, nicht <supplied resp="#ht">nur</supplied> zehn Jahre, sondern
+                        <supplied resp="#ht">auch</supplied> 20 Jahre vergingen, eine dem Vertrag widersprechende Handlung auftritt.
+                    Bezüglich der Untersuchung der strittigen Dörfer und Gegenden und sonstiger Angele-genheiten
+                        und der Schlichtung der Streit<supplied resp="ht">fäll</supplied>e wurde gemäß der 
+                        Bitte  meinem Diener, dem Beglerbegi der Befehl, dem die Welt gehorcht, 
+                        <supplied resp="#ht">und</supplied> dem man sich unterwerfen muss geschickt und 
+                        mit allem Nachdruck mitgeteilt.
+                    Er handelt gemäß seinem großherrlichen, glücklichen Inhalt und lässt niemanden 
+                        gegen unseren erhabenen Befehl tätig werden.                                                   
+                                
+                    Aber Eure Bege und Kommandanten an der Grenze
+                            beachten nicht die Angelegenheit von Frieden und Ordnung, fallen dauernd
+                            in unsere wohlbehüteten Länder ein und hören nicht auf gegen den Vertrag und Waffenstillstand zu handeln.                                                   
+                    Unter anderen wurden von den Aġas der Festungen
+                        auf Eurem Gebiet, <rs type="person" ref="#mpr14228">İbrāhīm Aġa</rs> 
+                        und <rs type="person" ref="#mpr14195">Süleymān Aġa,</rs> 
+                        der Bruder des Emīns von <rs type="place" ref="#mpr14067">Szolnok,</rs>
+                        <rs type="person" ref="#mpr14196">Muṣṭafā Emīn</rs> Emīn in Szolnok 
+                        und der andere Emīn <rs type="person" ref="#mpr14192">Ḥasan</rs>
+                        in unserem Land und Gebiet, obwohl sie sich friedlich verhielten, gefangen genommen. 
+                        Und auch an der bosnischen Grenze wurden einige <supplied resp="#ht">Leute</supplied> zu Gefangenen gemacht.
+                    Da der Siebenbürger Beg <rs type="person" ref="#mpr14188">Békés</rs>
+                        <supplied resp="#ht">Kaspar Békés</supplied> 
+                        und der ehemalige Woiwode der <rs type="place" ref="#mpr14097">Moldau</rs>
+                        <rs type="person" ref="#mpr14189">Bogdan</rs> 
+                        <supplied resp="#ht">Bogdan IV. Lăpuşneanu</supplied>, obwohl sie mehrfach mit unserer
+                        großherrlichen Gnade bereichert wurden (oder genossen haben), aufgrund ihrer Untreue, 
+                        die in ihrem Charakter fest eingewurzelt ist Verrat begangen haben und in Euer Gebiet 
+                        geflüchtet sind, war vordem bezüglich Freilassung der genannten Aġas und Emīns
+                        gemäß dem zwischen uns geschlossenen Vertrag und Waffenstillstand, 
+                        die sich innerhalb unserer wohlbehüteten Länder friedlich verhielten und gegen den Vertrag
+                        und Waffenstillstand gefangen genommen wurden und bezüglich der Auslieferung 
+                        von <rs type="person" ref="#mpr14188">Békés Kaspar</rs> 
+                        und <rs type="person" ref="#mpr14189">Bogdan</rs> unser
+                        großherrliches, gerechtes Schreiben abgeschickt worden.
+                    Es wurde dem Fuße unseres erhabenen Thrones berichtet, dass sich sowohl gemäß dem Vertrag
+                        und Waffenstillstand noch keine Spur des Gehorsams gegenüber dem großherrlichen, mit Glück
+                        verbundenen Inhalt gezeigt hat, ebenso, dass die Angelegenheit der Freilassung von Gefangenen
+                            als Ersatz für jene Gefangene, die in den Schreiben, die an Eure
+                            Gesandten, die sich an unserer glückhaften
+                            Schwelle befinden gekommen sind genannt wird; dass sich der Woiwode
+                            Boġdān nicht in Eurem Gebiet befindet; und, dass, da
+                        <rs type="person" ref="#mpr14188">Békés Kaspar</rs>
+                        in Eurem Land eine Burg gekauft hat, er, als er geflüchtet ist auf sein Besitztum gegangen 
+                        ist und bekanntgegeben wurde, dass seinerseits kein Vergehen stattgefunden hat.</ab>
+
+                    <ab type="manifestatio">Die Erwähnten sind Bege und Diener unserer wohlbehüteten Länder. Dass sie, abgesehen
+                        von ihrem Verrat ohne unseren Befehl in ein anderes Land gehen und Besitz erwerben ist
+                        unserem löblichen, großherrlichen Grundsatz zufolge das eigentliche Vergehen und der Fehler selbst. 
+                       
+                    Dass der erwähnte Woiwode tatsächlich bei den Begen Eurer Länder verkleidet herumläuft
+                        und Unheil stiftet, wurde von den Gefangenen, die zur Plünderung unserer wohlbehüteten 
+                        Länder  gekommen waren und besiegt wurden vernommen und sein Zustand ist
+                        in allen Einzelheiten bekannt geworden. 
+                    Es ist gegen den zwischen <supplied resp="#ht">uns</supplied> bestehenden Vertrag
+                        und Waffenstillstand, für unsere Diener und Aġas, die, während sie sich in unseren
+                        wohlbehüteten Ländern friedlich verhielten zu Gefangenen gemacht wurden 
+                        Ersatz<supplied resp="#ht">männer</supplied> zu verlangen, Lösegeld festzusetzen 
+                        und unsere genannten Bege gemäß dem Vertrag und Waffenstillstand nicht 
+                        <supplied resp="#ht">zurück</supplied> zu schicken.</ab>
+                    
+                    <ab type="dispositio">Es ist notwendig, dass Ihr, sobald unser
+                            großherrliches, mit Freude verbundenes (bzw. erfreuliches) Schreiben
+                            einlangt, gemäß unserem, zuvor geschickten großherrlichen,
+                            glückzeigenden (bzw. glücklichen) Schreiben jene Aġas und Emīns, die,
+                            während sie sich in unseren wohlbehüteten Ländern friedlich verhielten
+                            gefangen genommen wurden und die Muslime, die an der bosnischen Grenze
+                            gefangen genommen wurden freilasst,
+                    und bezüglich Auslieferung der erwähnten
+                        <rs type="person" ref="#mpr14188">Békés</rs>
+                        und Boġdān an meine Pforte, dem                                                     
+                        Zufluchtsort der Welt, die aufgrund  ihres Verrats von uns in Euer Gebiet geflüchtet sind,
+                        gemäß dem bestehenden Frieden und der Eintracht  die vielfältigste Bemühungen Eures Wohlwollens erweist.
+                    Von nun an sollt Ihr Euren Begen und Befehlshabern auf Eurem Gebiet die Angelegenheiten der Festigung 
+                        und Befestigung des Vertrages und Waffenstillstandes, und des Friedens und der Eintracht bekanntgeben,
+                        in der Angelegenheit der Einhaltung und Wahrung der in unserem großherrlichen Vertragswerk 
+                        aufgeschriebenen und eingetragenen Bedingungen Euer <hi rend="yellow">b</hi> estes tun 
+                        (bzw. die größtmögliche Anstrengung unternehmen), und sie warnen und ihnen verbieten, 
+                        damit sie sich in gehöriger Weise vorsichtig und umsichtig verhalten, um nicht gegen
+                        den Frieden und Waffenstillstand zu handeln. Genauso soll bei der Bestrafung jener
+                        <supplied resp="#ht">Leute</supplied>, die gegen den Vertrag handeln und sonstigen
+                        Belangen hinsichtlich Friedensangelegenheiten vielfältigste Bemühungen Eures Wohlwollens
+                        erwiesen werden, da dies zweifellos der Grund für Vermehrung der Freundschaft und die Ursache für 
+                        die Fortsetzung (bzw. Verlängerung) der Aufrichtigkeit ist.</ab>
+                        
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1574-03-24" notAfter="1574-04-02">ersten Dekade des Monats Ẕī
+                            l-ḥicce, des Geehrten, des Jahres 981</date>,</ab>
+                    
+                    <ab type="locus">in der Residenz, im
+                            wohlbehüteten, beschützten Ḳosṭantinīye, möge es Gott vor Unglück
+                            bewahren.</ab>
+                    <pb facs="#IMG.13.1.a" n="13.1.a"/>
+                    <p>
+                        Rückseite: An den König von <rs type="place" ref="#mpr13416">Wien.</rs></p>
+                    
+               
+                </div>
+                </div>
+            
+        </body></text>
+    </TEI>

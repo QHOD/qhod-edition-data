@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Schreiben der osmanischen Botschaftsdelegation, in dem bestätigt wird, 
+                    dass sie vom 30. August 1719 bis zum 28. April 1720 keinen Mangel an Lasttieren und Vorräten hatte, Ungarisch Altenburg (Mosonmagyaróvár), 29. April 1720</title>
+                <title xml:lang="en">Missive given by the Ottoman embassy delegation confirming that they had
+                    no shortage of pack animals and supplies from August 30, 1719 to April 28, 1720, Ungarisch Altenburg (Mosonmagyaróvár), April 29, 1720</title>
+                <title xml:lang="tr">Osmanlı elçilik heyeti tarafından verilen,
+                    30 Ağustos 1719'dan 28 Nisan 1720’ye kadar yük hayvanları ve erzaklarında
+                    bir eksikleri olmadığını teyit eden tezkere, Ungarisch Altenburg (Mosonmagyaróvár), 29 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Mustafa Emir</persName>
+                    <persName>Mustafa</persName>
+                    <persName>Mehmed</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17200429</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>HHStA, Wien</institution>
+                        <collection>Turcica I, 186</collection>
+                        <idno>f. 150</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-29"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Schreiben der osmanischen Botschaftsdelegation, in dem bestätigt wird, dass sie vom 30. August 1719 bis zum 28. April 1720 keinen Mangel an Lasttieren und Vorräten hatte, Ungarisch Altenburg (Mosonmagyaróvár), 29. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+            
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="IMG_20200806_134525.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17200429">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                
+                
+                <lb/>Vech-i taḥrīr-i ḥurūf budur ki
+                <lb/>Bāʿis̱-i teẕkīre <date type="Hijri" when="1719-08-30">māh-ı şevvālüñ ondördünci güninden</date>
+                <date type="Hijri" when="1720-04-28">māh-ı Cemāziyyü’l-āḫirüñ
+                <lb/>onṭoḳuzuncı günine</date> gelince gerek kendimüze laḥm-ı ġanem ve gerek nān ve gerek arpa gerek
+                <lb/>odun gerek oṭluḳ kīfāyet miḳdārı alınub ve ḳaṭırlarımuzdan ve bārgīr
+                <lb break="no" rend="#shy"/>lerimizden ve develerimüzden ḳaṭʿā bir XXX yitmez ve zaḫīre ṭarafından XXX XXX  
+                <lb/>XXX olmadıġı ecilden XXX XXX bu teẕkire virilmişdür. 
+                Fī 19 C[<supplied resp="#yy">emaziyülahir</supplied>] 1132 (28 April 1720)
+                
+                XXX XXX XXX
+                
+                
+            </ab>
+                
+                <note type="footnote" resp="#yy">The scribe of this document used the letter چ (ç)
+                    instead of the letter ج (c) in the word <foreign xml:lang="tur">vech</foreign>,
+                    in the suffix of ordinal numbers (-<foreign xml:lang="tur">inçi</foreign>),
+                    and in the gerund/converb in -<foreign xml:lang="tur">inçe</foreign>. Also,
+                    the dots belonging to consonants (known as <foreign xml:lang="ar">iʿcām</foreign> or <foreign xml:lang="ar">nuqāt</foreign>) 
+                    are over-accentuated in many places. I did not mark all of these issues in the transcription.</note>
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17200429-transl">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

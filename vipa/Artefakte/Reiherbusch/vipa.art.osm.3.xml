@@ -1,0 +1,273 @@
+
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.lido-schema.org http://gams.uni-graz.at/lido/1.0/lido.xsd">
+
+  <!-- noch durchdenken/besprechen -->
+  <lido:lidoRecID lido:type="PID">o:vipa.art.osm.3</lido:lidoRecID>
+
+  <lido:category>
+    <lido:conceptID lido:source="CIDOC" lido:type="ID">E22</lido:conceptID>
+    <lido:term xml:lang="en">Man-Made Object</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa">Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa.art">Artefakte</lido:term>
+    <lido:term lido:label="info:fedora/context:qhod">Online Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)</lido:term>
+  </lido:category>
+
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term>Kopfschmuck</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+    </lido:objectClassificationWrap>
+
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue>Reiherbusch</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:objectDescriptionWrap>
+
+        <lido:objectDescriptionSet lido:type="description">
+          <lido:descriptiveNoteValue>In der Mitte wird der große und ovalförmige Smaragd von innen
+            nach außen zuerst mit Rubinen und anschließend von Diamanten umrahmt. Die Oberseite des
+            Smaragds krönt ein Miniaturturban, der sich ebenfalls aus Diamanten, Rubinen und
+            Smaragden zusammensetzt. Die Fassungen für die schwarzen Pfauenfedern sind in Form von
+            Tulpen gestaltet, die aus kleinen Diamanten zusammengesetzt sind. Der Reiherbusch stellt
+            symbolisch den mythischen Huma Vogel dar, der sein ganzes Leben im Flug verbrachte und
+            demjenigen, der ihn erblickte, ewigen Wohlstand versprach. Die überaus prächtige
+            Gestaltung des Reiherbuschs spricht für eine Datierung in das frühe 18. Jahrhundert, da
+            sich in den Museen von Istanbul ähnliche Agraffen befinden (Sotheby’s, Arts of the
+            Islamic World, 144). </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+        <lido:objectDescriptionSet lido:type="provenance">
+          <lido:descriptiveNoteValue>In der Liste der Geschenke für Kaiser Karl VI. (r. 1711–1740),
+            die der Großbotschafter Ibrahim Pasha 1719 übergab, befindet sich ein Reiherbusch mit
+            rot-grünem Email und Diamanten (Österreichisches Staatsarchiv, Haus-, Hof- und
+            Staatsarchiv Wien, Staatenabteilung Türkei I 186, fol. 58r–61r.), den der Kaiser
+            offenbar 1722 dem neugeborenen Prinzen Friedrich August nach Dresden schenkte (Haupt,
+            Kunst und Kultur, 75). Leider sind heute keine Exemplare in den Dresdner Kunstsammlungen
+            mehr erhalten, da sie wegen Schädlingsbefalls in der zweiten Hälfte des 18. Jahrhunderts
+            schrittweise aussortiert wurden (Mitteilung von Holger Schuckelt vom 27.10.2021). Das
+            Bespiel aus dem Auktionshaus Sotheby’s in London kommt wahrscheinlich dem Reiherbusch
+            aus der Geschenkliste stilistisch nahe, da von Ahmed III. Porträts erhalten sind, die
+            ähnliche Agraffen zeigen, wie z.B. das Porträt von Jean-Baptiste Vanmour im Rijksmuseum
+            in Amsterdam (Sint Nicolaas, Jean-Baptiste Vanmour, 146–147).
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+        <lido:objectDescriptionSet lido:type="preservation">
+          <lido:descriptiveNoteValue>Der Reiherbusch ist in einem sehr guten Zustand.
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+        <lido:objectDescriptionSet lido:type="usage">
+          <lido:descriptiveNoteValue>Zeremonien, Kostümfest</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+
+      </lido:objectDescriptionWrap>
+
+      <lido:objectMeasurementsWrap>
+        <lido:objectMeasurementsSet>
+          <lido:objectMeasurements>
+            <lido:measurementsSet>
+              <lido:measurementType>size</lido:measurementType>
+              <lido:measurementUnit>cm</lido:measurementUnit>
+              <lido:measurementValue>15cm (ohne Federn)</lido:measurementValue>
+            </lido:measurementsSet>
+          </lido:objectMeasurements>
+        </lido:objectMeasurementsSet>
+      </lido:objectMeasurementsWrap>
+
+    </lido:objectIdentificationWrap>
+
+    <lido:eventWrap>
+
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <!-- 'Production' -->
+            <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00007</lido:conceptID>
+            <lido:term>Herstellung</lido:term>
+          </lido:eventType>
+          <lido:culture>
+            <lido:term>osmanisch</lido:term>
+          </lido:culture>
+          <lido:eventDate>
+            <lido:displayDate lido:label="dc_date">1710 ~ 1720</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1710</lido:earliestDate>
+              <lido:latestDate>1720</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>wahrscheinlich Istanbul</lido:displayPlace>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="material">
+                <lido:term>Rubine, Diamanten, Smaragde, Gold, Silber, Pfauenfedern </lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+      
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Datenerfassung</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:label="editor">Dandachi, Laila</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+        </lido:event>
+      </lido:eventSet>
+      
+    </lido:eventWrap>
+
+    <lido:objectRelationWrap>
+      <lido:relatedWorksWrap>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Emine BILIRGEN/Süheyla MURAT, Topkapı Palace.
+                The Imperial Treasury, Istanbul 2003. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Gül IREPOGLU, Imperial Ottoman jewellery. A reading history through jewellery, Istanbul 2012. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Herbert HAUPT, Kunst und Kultur in den Kameralzahlamtsbüchern Kaiser Karls VI. Teil I: Die Jahre 1715–1727, Wien 1993, 75, Nr. 811. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Eveline SINT NICOLAAS, Jean Baptiste Vanmour, in: Olga Nefedova, Hg., A journey into the world of the Ottomans. The Catalogue, Mailand 2009, 146–147. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Eveline SINT NICOLAAS, The ambassador, the sultan and the artist: an audience in Istanbul, Amsterdam 2003. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">SOTHEBY’S, Arts of the Islamic world. 20.4.2016, London 2016. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectWebResource>/o:vipa.pr.osm.17190320/sdef:TEI/get?mode=view:facs#IMG01</lido:objectWebResource>
+              <lido:objectID lido:type="PID">o:vipa.pr.osm.17190320</lido:objectID>
+              <lido:objectNote lido:type="reference">Geschenkliste des Sultans für Kaiser Karl VI. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Referenz</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+      </lido:relatedWorksWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:recordWrap>
+      <lido:recordID lido:type="PID">o:vipa.art.osm.3</lido:recordID>
+      <lido:recordType>
+        <lido:term>single object</lido:term>
+      </lido:recordType>
+
+      <!-- Institute for Habsburg and Balkan Studies ? -->
+
+      <lido:recordSource lido:type="distributor">
+        <lido:legalBodyName>
+          <lido:appellationValue>GAMS - Geisteswissenschaftliches Asset Management
+            System</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>https://gams.uni-graz.at</lido:legalBodyWeblink>
+      </lido:recordSource>
+      
+      <lido:recordSource lido:type="photographer">
+        <lido:legalBodyName>
+          <lido:appellationValue>Photo courtesy Sotheby’s 2021</lido:appellationValue>
+        </lido:legalBodyName>
+      </lido:recordSource>
+
+      <lido:recordRights>
+        <lido:rightsHolder>
+          <lido:legalBodyID lido:source="http://d-nb.info/gnd" lido:type="ID">1001454-8</lido:legalBodyID>
+          <lido:legalBodyName>
+            <lido:appellationValue>Österreichische Akademie der Wissenschaften</lido:appellationValue>
+          </lido:legalBodyName>
+          <lido:legalBodyWeblink>https://www.oeaw.ac.at/oesterreichische-akademie-der-wissenschaften</lido:legalBodyWeblink>
+        </lido:rightsHolder>
+        <lido:creditLine lido:label="text">Creative Commons BY 4.0</lido:creditLine>
+        <lido:creditLine lido:label="uri"
+          >https://creativecommons.org/licenses/by/4.0</lido:creditLine>
+      </lido:recordRights>
+    </lido:recordWrap>
+
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="IMAGE">IMG.1</lido:resourceID>
+        <lido:resourceRepresentation>
+          <lido:linkResource lido:formatResource="image/jpeg">IMG1.jpg</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

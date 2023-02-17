@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- 
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> --><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- title of the source -->
+            <title xml:lang="de">Reisebericht von Dayezade Ibrahim Pascha, osmanischer Botschafter
+               in Wien nach dem Frieden von Passarowitz (1718), anonym, geschrieben am 28. Januar 1726</title>
+            <title xml:lang="en">The Travelogue of Dayezade Ibrahim Pasha, Ottoman
+            Ambassador to Vienna After the Peace of Passarowitz (1718), anonymous, Written on January 28, 1726</title>
+            <title xml:lang="tr">Pasarofça Antlaşması (1718) Sonrasında Osmanlı Büyükelçisi Olarak Viyana’ya Gönderilen 
+            Dayezade İbrahim Paşa’nın Seyahatnamesi, anonim, Yazılış Tarihi 28 Ocak 1726/24 Cemaziyelevvel 1138</title>
+           <!-- author of the source -->
+            <author>
+               <persName/>
+            </author>
+            <!-- Responsibilities for the digital source -->
+            <respStmt>
+               <!-- editor -->
+               <resp>Edition</resp>
+               <persName xml:id="yy">
+                  <forename>Yasir</forename>
+                  <surname>Yılmaz</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <!-- data modelling-->
+               <resp>Datenmodellierung</resp>
+               <persName>
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://www.oeaw.ac.at/">
+                  Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies
+               </orgName>
+            </publisher>
+            <distributor>
+               <orgName ref="https://gams.uni-graz.at">
+                  GAMS - Geisteswissenschaftliches Asset Management System
+               </orgName>
+            </distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">
+                  Creative Commons BY 4.0
+               </licence>
+            </availability>
+            <date when="2021">2021</date>
+            <pubPlace>Vienna</pubPlace>
+            <idno type="PID">o:vipa.tr.osm</idno>
+            <!-- PID: o:vipa.[genre].[language].[date-iso](.[nr])
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+            <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+            <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+            <respStmt>
+               <resp>Projektleitung</resp>
+               <persName>
+                  <forename>Arno</forename>
+                  <surname>Strohmeyer</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <!-- Archive, Library,… -->
+                  <institution>Österreichische Nationalbibliothek</institution>
+                  <collection>Sammlung von Handschriften und alten Drucken</collection>
+                  <idno>Mixt 224</idno>
+               </msIdentifier>
+               <physDesc>
+                  <handDesc>
+                     <!--<handNote xml:id=""><!-\- e.g. sultanahmed -\->
+                        <persName><!-\- e.g. Sultan Ahmed -\-></persName>
+                        <desc><!-\- e.g. Written in red ink -\-></desc>
+                     </handNote>-->
+                     <handNote xml:id="scribe1">
+                        <persName type="unknown">N.N.</persName>
+                        <desc>Nesih</desc>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1726-01-28"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData type="zotero-rdf">
+         <rdf:RDF xmlns:bib="http://purl.org/net/biblio#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:z="http://www.zotero.org/namespaces/export#">
+            <bib:Manuscript rdf:about="#item_108665">
+               <z:itemType>manuscript</z:itemType>
+               <dcterms:isReferencedBy rdf:resource="#item_108666"/>
+               <dc:coverage>ÖNB, Handschriften und Alte Drücke, Mixt 224</dc:coverage>
+               <dc:title>Biñ yüz otuz bir senesi māh-ı Ǧemāẕīye l-evvelüñ ikinǧi güni Ėlǧi İbrāhīm Paša Ḥażretleri İstanbuldan 
+                  čıqub Beče revāne olduġını ve qonaqları-ile maʿan beyān ėder fī 2 ǧ-ā sene-i 1131</dc:title>
+               <z:numPages>29 folios</z:numPages>
+            </bib:Manuscript>
+            <bib:Memo rdf:about="#item_108666">
+            </bib:Memo>
+         </rdf:RDF>
+      </xenoData>
+      <encodingDesc>
+         <editorialDecl>
+            <!-- Encoding guidelines -->
+            <p>Editionsregeln und Kodierungsrichtlinien</p>
+            <!-- this may be a pointer to the actual document --> 
+         </editorialDecl>
+         <projectDesc>
+         <ab>
+          <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20) </ref>
+          <ref target="context:vipa.tr" type="context"> Reiseberichte </ref>
+          <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+               </ab>
+               <p>Projektbeschreibung</p>
+            <!-- this may be a pointer to the actual document -->
+         </projectDesc>
+         <refsDecl>
+            <p>
+               Reisebericht von Dayezade Ibrahim Pascha, osmanischer Botschafter in Wien nach dem Frieden von Passarowitz (1718), anonym, geschrieben am 28. Januar 1726, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+            </p>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="Hijri">
+               <p>Islamic or Muslim (hijri) lunar calendar</p>
+            </calendar>
+         </calendarDesc>
+         <langUsage>
+            <!-- http://www.loc.gov/standards/iso639-2/php/code_list.php -->
+            <language ident="ota">Ottoman Turkish</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface start="#IMG01">
+         <graphic url="00000008.jpg" xml:id="IMG01"/>
+      </surface>
+      <surface start="#IMG02">
+         <graphic url="00000009.jpg" xml:id="IMG02"/>
+      </surface>
+      <surface start="#IMG03">
+         <graphic url="00000010.jpg" xml:id="IMG03"/>
+      </surface>
+      <surface start="#IMG04">
+         <graphic url="00000011.jpg" xml:id="IMG04"/>
+      </surface>
+      <surface start="#IMG05">
+         <graphic url="00000012.jpg" xml:id="IMG05"/>
+      </surface>
+      <surface start="#IMG06">
+         <graphic url="00000013.jpg" xml:id="IMG06"/>
+      </surface>
+      <surface start="#IMG07">
+         <graphic url="00000014.jpg" xml:id="IMG07"/>
+      </surface>
+      <surface start="#IMG08">
+         <graphic url="00000015.jpg" xml:id="IMG08"/>
+      </surface>
+      <surface start="#IMG09">
+         <graphic url="00000016.jpg" xml:id="IMG09"/>
+      </surface>
+      <surface start="#IMG10">
+         <graphic url="00000017.jpg" xml:id="IMG10"/>
+      </surface>
+      <surface start="#IMG11">
+         <graphic url="00000018.jpg" xml:id="IMG11"/>
+      </surface>
+      <surface start="#IMG12">
+         <graphic url="00000019.jpg" xml:id="IMG12"/>
+      </surface>
+      <surface start="#IMG13">
+         <graphic url="00000020.jpg" xml:id="IMG13"/>
+      </surface>
+      <surface start="#IMG14">
+         <graphic url="00000021.jpg" xml:id="IMG14"/>
+      </surface>
+      <surface start="#IMG15">
+         <graphic url="00000022.jpg" xml:id="IMG15"/>
+      </surface>
+      <surface start="#IMG16">
+         <graphic url="00000023.jpg" xml:id="IMG16"/>
+      </surface>
+      <surface start="#IMG17">
+         <graphic url="00000024.jpg" xml:id="IMG17"/>
+      </surface>
+      <surface start="#IMG18">
+         <graphic url="00000025.jpg" xml:id="IMG18"/>
+      </surface>
+      <surface start="#IMG19">
+         <graphic url="00000026.jpg" xml:id="IMG19"/>
+      </surface>
+      <surface start="#IMG20">
+         <graphic url="00000027.jpg" xml:id="IMG20"/>
+      </surface>
+      <surface start="#IMG21">
+         <graphic url="00000028.jpg" xml:id="IMG21"/>
+      </surface>
+      <surface start="#IMG22">
+         <graphic url="00000029.jpg" xml:id="IMG22"/>
+      </surface>
+      <surface start="#IMG23">
+         <graphic url="00000030.jpg" xml:id="IMG23"/>
+      </surface>
+      <surface start="#IMG24">
+         <graphic url="00000031.jpg" xml:id="IMG24"/>
+      </surface>
+      <surface start="#IMG25">
+         <graphic url="00000032.jpg" xml:id="IMG25"/>
+      </surface>
+      <surface start="#IMG26">
+         <graphic url="00000033.jpg" xml:id="IMG26"/>
+      </surface>
+      <surface start="#IMG27">
+         <graphic url="00000034.jpg" xml:id="IMG27"/>
+      </surface>
+      <surface start="#IMG28">
+         <graphic url="00000035.jpg" xml:id="IMG28"/>
+      </surface>
+      <surface start="#IMG29">
+         <graphic url="00000036.jpg" xml:id="IMG29"/>
+      </surface>
+      <surface start="#IMG30">
+         <graphic url="00000037.jpg" xml:id="IMG30"/>
+      </surface>
+      <surface start="#IMG31">
+         <graphic url="00000038.jpg" xml:id="IMG31"/>
+      </surface>
+      <surface start="#IMG32">
+         <graphic url="00000039.jpg" xml:id="IMG32"/>
+      </surface>
+      <surface start="#IMG33">
+         <graphic url="00000040.jpg" xml:id="IMG33"/>
+      </surface>
+      <surface start="#IMG34">
+         <graphic url="00000041.jpg" xml:id="IMG34"/>
+      </surface>
+      <surface start="#IMG35">
+         <graphic url="00000042.jpg" xml:id="IMG35"/>
+      </surface>
+      <surface start="#IMG36">
+         <graphic url="00000043.jpg" xml:id="IMG36"/>
+      </surface>
+      <surface start="#IMG37">
+         <graphic url="00000044.jpg" xml:id="IMG37"/>
+      </surface>
+      <surface start="#IMG38">
+         <graphic url="00000045.jpg" xml:id="IMG38"/>
+      </surface>
+      <surface start="#IMG39">
+         <graphic url="00000046.jpg" xml:id="IMG39"/>
+      </surface>
+      <surface start="#IMG40">
+         <graphic url="00000047.jpg" xml:id="IMG40"/>
+      </surface>
+      <surface start="#IMG41">
+         <graphic url="00000048.jpg" xml:id="IMG41"/>
+      </surface>
+      <surface start="#IMG42">
+         <graphic url="00000049.jpg" xml:id="IMG42"/>
+      </surface>
+      <surface start="#IMG43">
+         <graphic url="00000050.jpg" xml:id="IMG43"/>
+      </surface>
+      <surface start="#IMG44">
+         <graphic url="00000051.jpg" xml:id="IMG44"/>
+      </surface>
+      <surface start="#IMG45">
+         <graphic url="00000052.jpg" xml:id="IMG45"/>
+      </surface>
+      <surface start="#IMG46">
+         <graphic url="00000053.jpg" xml:id="IMG46"/>
+      </surface>
+      <surface start="#IMG47">
+         <graphic url="00000054.jpg" xml:id="IMG47"/>
+      </surface>
+      <surface start="#IMG48">
+         <graphic url="00000055.jpg" xml:id="IMG48"/>
+      </surface>
+      <surface start="#IMG49">
+         <graphic url="00000056.jpg" xml:id="IMG49"/>
+      </surface>
+      <surface start="#IMG50">
+         <graphic url="00000057.jpg" xml:id="IMG50"/>
+      </surface>
+      <surface start="#IMG51">
+         <graphic url="00000058.jpg" xml:id="IMG51"/>
+      </surface>
+      <surface start="#IMG52">
+         <graphic url="00000059.jpg" xml:id="IMG52"/>
+      </surface>
+      <surface start="#IMG53">
+         <graphic url="00000060.jpg" xml:id="IMG53"/>
+      </surface>
+      <surface start="#IMG54">
+         <graphic url="00000061.jpg" xml:id="IMG54"/>
+      </surface>
+      <surface start="#IMG55">
+         <graphic url="00000062.jpg" xml:id="IMG55"/>
+      </surface>
+      <surface start="#IMG56">
+         <graphic url="00000063.jpg" xml:id="IMG56"/>
+      </surface>
+   </facsimile>
+   <text type="travelogue">    
+   <body>
+      <div type="original" xml:id="vipa.tr.osm">
+      <ab>
+         <pb n="1" facs="#IMG01"/>
+            <lb/><hi rend="#red"><date calendar="#Hijri" when="1719-03-23">Biñ yüz otuz bir senesi māh-ı Cemāz̠iyüʾl-evveliñ 
+               <lb/>ikinci güni</date> ilçi <rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs> ḥażretleri <rs type="place" ref="#mpr14055">İstanbul</rs>dan
+            <lb/>çıḳub <rs type="place" ref="#mpr13416">Beç</rs>e revāne olduġunı ve ḳonaḳlarıyla maʿan 
+            <lb/>beyān ider. Fi <date calendar="#Hijri" when="1719-03-23">2 <choice><abbr>Cā</abbr>
+               <expan resp="#yy">Cemāz̠iyüʾl-evvel</expan></choice> 1131</date></hi>
+            <list type="itinerary">
+               <item rend="column1"><rs type="place" ref="#mpr14055">İstanbul</rs>dan <rs type="place" ref="#mpr14060">Edirne</rs> sāʿat 44</item>
+               <item rend="column2"><rs type="place" ref="#mpr14578">Muṣṭafa Paşa</rs> ḳonaḳ sāʿat 6</item>
+               <item rend="column1"><rs type="place" ref="#mpr14580">Ḥarmanlı</rs> ḳonaḳ sāʿat 6</item>
+               <item rend="column2"><rs type="place" ref="#mpr14582">Uzuncaova</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column1"><rs type="place" ref="#mpr14584">Semizce</rs> ḳonaḳ sāʿat 22</item>
+               <item rend="column2"><rs type="place" ref="#mpr14586">Ḳayalı</rs> ḳonaḳ sāʿat 22</item>
+               <item rend="column1"><rs type="place" ref="#mpr14576">Babaslı</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column2"><rs type="place" ref="#mpr9442">Filibe</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column1"><rs type="place" ref="#mpr14588">Tatarbāzārcıġı</rs> ḳonaḳ sāʿat 6</item> 
+               <item rend="column2"><rs type="place" ref="#mpr14590">Yeñimaḥalle</rs> ḳonaḳ sāʿat 5</item>
+               
+               <pb n="2" facs="#IMG02"/>
+               <item rend="column1"><rs type="place" ref="#mpr14296">İḥtimān</rs> ḳonaḳ sāʿat 6</item>
+               <item rend="column2"><rs type="place" ref="#mpr14592">Yeñiḫan</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column1"><rs type="place" ref="#mpr10977">Ṣofya</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column2"><rs type="place" ref="#mpr14594">Ḫalḳalı</rs> ḳonaḳ sāʿat 6</item>
+               <item rend="column1"><rs type="place" ref="#mpr14596">Ṣarı Burt</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column2"><rs type="place" ref="#mpr14598">Şarköy [Şehirköy]</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column1"><rs type="place" ref="#mpr14600">Aḳbalanḳa</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column2"><rs type="place">Bāne</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column3"><rs type="place" ref="#mpr14602">Nīş</rs> ḳonaḳ sāʿat 2</item>
+            </list></ab>
+          
+         <ab><lb/><date calendar="#Hijri" when="1719-05-08">Māh-ı Cemāz̠īyüʾl-āḫiriñ on sekizinci güni</date>
+            <rs type="place" ref="#mpr14602">Niş</rs>e dāḫil 
+            <lb/>olub ṭaşrasında çādır ile ḳonılub otuz altı 
+            <lb/>gün oturak ̣ olundı. Ammā sābıḳān yeñiçeri aġası olan 
+            <lb/>vezīr-i mükerrem <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ḥażretleri
+            <rs type="place" ref="#mpr14238">Rūmili</rs> vālīsi 
+            <lb/>olub bütün <rs type="place" ref="#mpr14238">Rūmili</rs>
+            eyāletiyle <rs type="place" ref="#mpr14602">Nīş</rs>de muḥāfıẓ
+            
+            <pb n="3" facs="#IMG03"/> 
+            <lb/>idi. Derūn-i ḳalʿada degil idi. Eyālet ile maʿan
+            <lb/>ṭaşrada otururdı. <rs type="person" ref="#mpr14276">İlçi paşa</rs> ḥażretleriyle görüşürler
+            <lb/>idi. </ab> 
+         
+         <ab>Ammā ilçi paşa <rs type="place" ref="#mpr14602">Niş</rs>e dāḫil olmazdan evvel
+            <lb/>bir miḳdār mübārek ẓuhūr itmiş, andan ṣoñra dāḫl oldu.
+            <lb/>Ammā <rs type="person" ref="#mpr14276">ilçi paşa</rs> ḥażretleri <rs type="place" ref="#mpr14602">Niş</rs>de otuz altı gün oturaḳ  
+            <lb/>itmesine bāʿīs ol idiki Nemçe çāsārı olan <rs type="person" ref="#mpr9399">Ḳarlos</rs>
+            <lb/>nām, <rs type="person" ref="#mpr9435">ilçisi</rs> <rs type="place" ref="#mpr13416">Beç</rs>den berü ṭarafa çıkmaduġından meks̠ olundı.
+            
+            <note type="footnote" resp="#yy" xml:id="ftn1"><ref target="/o:vipa.tr.hbg.1723#page1">The departure
+               audience of the Austrian grand ambassador Virmont</ref> took place on April 26, 1719.
+               However, the departure of the mission from Vienna was delayed 
+               for more than three weeks, <ref target="/o:vipa.tr.hbg.1723#page15">as recorded by the Austrian mission’s
+            secretery C. Driesch.</ref></note>
+            
+            <lb/>Ammā <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ile ilçi paşa <rs type="place" ref="#mpr14238">Rūmili</rs> eyāletiniñ
+            <lb/>çavuşlar <choice><sic>ketḥüdāsı</sic> <corr>ketḫüdāsı</corr></choice><supplied resp="#yy">nı</supplied>
+               <rs type="place" ref="#mpr9425">Belġrād</rs>a gönderdiler <rs type="person" ref="#mpr9435">ilçi-yi mesfūrdan</rs>
+            
+            <pb n="#4" facs="#IMG04"/> 
+            <lb/>ḫaber getürmekligi. <rs type="person" ref="#mpr9435">İlçi</rs> daḫi 
+            <rs type="place" ref="#mpr13416">Beç</rs>den cümle tecemmülātlarıyla ṭoḳsan
+            <lb/>beş pāre sefīne ile on dört günde gelüb <rs type="place" ref="#mpr9425">Belġrād</rs>a 
+            <lb/>dāhil olduġı gün mezbūr çavuşlar <choice><sic>ketḥüdāsı</sic> <corr>ketḫüdāsı</corr></choice>
+            <rs type="place" ref="#mpr14602">Nīş</rs>den 
+            <lb/>paşalara menzil ile ilçiniñ <rs type="place" ref="#mpr9425">Belġrād</rs>a geldügi ḫaberi
+            <lb/>getürdi.</ab> 
+         
+         <ab><date calendar="#Hijri" when="1719-06-12">Māh-ı Receb-i şerīfiñ yigirmi dört güni</date>
+            <rs type="place" ref="#mpr14602">Nīş</rs>den
+            <lb/>revāne olundı. Ammā <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ḥażretlerine fermān-ı
+            <lb/>şerīf olunmış ki <rs type="place" ref="#mpr14238">Rūmili</rs> eyāletiyle ve <rs type="place" ref="#mpr14602">Niş</rs>de olan
+            <lb/>yeñiçeri ortalarından dört orta ve ṭobci ortalarından
+            <lb/>bir orta ve on pāre ṭob alub <rs type="person" ref="#mpr14276">ilçi paşa</rs> ile maʿan
+
+            <pb n="5" facs="#IMG05"/>
+            <lb/>sınura gidüb ilçileri birbirleriyle görüşdürüb mükāleme<lb break="no" rend="#shy"/>lerinde maʿan bulunasız diyü z̠ikr olunan ʿasker ile <rs type="person" ref="#mpr14276">ilçi paşa</rs>yı
+            <lb/>alub sınura revāne olundı.</ab>
+         
+          <ab><list>
+               <item rend="column2"><rs type="place">Ḳanlıḳavaḳ</rs> ḳonaḳ sāʿat 2</item>
+             <item rend="column1"><rs type="place" ref="#mpr1532">ʿAleksinse</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column2"><rs type="place" ref="#mpr14612">Rācne</rs> ḳonaḳ sāʿat 4</item>
+             <item rend="column1"><rs type="place" ref="#mpr14607">Pārekīn</rs> ḳonaḳ sāʿat 6</item>
+          </list> Ammā <rs type="place" ref="#mpr14612">Rācne</rs> ile Pāre<lb break="no" rend="#shy"/>kīniñ mābeyninde üçer sāʿat olmaḳ  üzere sābıḳan 
+            <lb/>defterdār-ı evvel olan <rs type="person" ref="#mpr14614">Ṣarı Muṣṭafā Paşa</rs> ḥażretleri 
+             <lb/>üç ṭ aş dikdi sınur olmaḳ üzere. Ammā <rs type="place" ref="#mpr14612">Rāçne</rs>den 
+            <lb/>ḳalḳ ub sınur ṭaşlarına revāne olundı. Bir sāʿat
+               
+          <pb n="6" facs="#IMG06"/> 
+         <lb/>ḳala yerde <rs type="place">Ḳınalıoġlı Çiftligi</rs> dimekle meşhūr yerde ʿAbdallāh
+             <lb/>Paşa ḥażretleri <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> içün
+             <choice><sic>sāyebān</sic> <corr>sāʾyebān</corr></choice> ve çādırlar
+            <lb/>ḳurdılar. Bir sāʿat miḳdārında tevaḳḳuf olundı.
+             <lb/><rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> sınura gelsün diyü ḫaber içün ādem  
+               <lb/>gönderdiler. Daḫi haber getürdiler geldiler diyü. Ammā paşalarıñ 
+            <lb/>ikisi daḫi mehterhānelerin çalaraḳ sınur ṭaşına
+            <lb/>revāne oldılar. Ammā sınūr ṭaşından berüde ve yaḳın
+             <lb/>yerde <rs type="person" ref="#mpr14276">ilçi paşa</rs> <choice><sic>sāyebān</sic><corr>sāʾyebān</corr></choice>
+             ḳurmış idi. <rs type="person" ref="#mpr14242">ʿAbdallah
+            <lb/>Paşa</rs> ile maʿan indiler ve oturdılar. Ve <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs>
+               
+           <pb n="7" facs="#IMG07"/>
+               <lb/>daḫi gendü ṭaraflarından ṭaşlara yaḳın yerden inmiş
+             <lb/>ve üç kefere göndermiş paşalara geldi. Sāʾyebānda buluşdılar.</ab>
+         
+            <ab><lb/>Geldiñiz mi ilçimiz ḫaber ister diyü bunlar daḫi berüden
+               <lb/>Rūmili çavuşlar <choice><sic>kethüdāsıyla</sic> <corr>ketḫüdāsıyla</corr></choice> 
+               <rs type="person" ref="#mpr14276">ilçi paşa</rs> ḳapucılar 
+               <lb/><choice><sic>ketḥüdāsını</sic> <corr>ketḫüdāsını</corr></choice> <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> 
+               ṭarafına gönderdiler siz daḫi
+            <lb/>geldiñiz mi dimeklige ve gidenler daḫi geldiler, teşrīf
+               <lb/>buyuruñ. İlçi daḫi bindi sınur ṭaşına geliyor didiler.</ab>
+         <ab><lb/><rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ilçi paşa <rs type="person" ref="#mpr14276">İbrāhīm Paşayı</rs> 
+            <choice><sic>sāyebān</sic> <corr>sāʾyebān</corr></choice>da 
+               <lb/>bıraḳdı bindi. Mehterḫānesin çalaraḳ bütün eyālet
+               
+           <pb n="8" facs="#IMG08"/>
+               
+            <lb/>ardınca ortalar ve on pāre ṭobları çekdürerek
+            <lb/>sınura revāne oldı. </ab> 
+         
+         <ab>Hem serʿasker idi. Ammā Nemçe
+               <lb/>ṭarafından Belġrād cenerāli olan <rs type="person" ref="#mpr14241">Uṭvār</rs> nām ilçileriniñ 
+               <lb/>üzerine serʿasker taʿyīn olunmış gelmiş ol daḫi ilçi
+            <lb/>sini indüġi yerde bıraḳmış binüb geldi. Ammā ol serʿasker ile
+            <lb/>on beş biñ ḳadar var idi. Ammā <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> bizim ṭarafıñ
+               <lb/>sınur ṭaşlarına vardı. Nemçe daḫi kendi ṭaraflarında 
+            <lb/>olan ṭaşıñ yanına geldi. </ab> <ab>Ammā sınur ṭaşı üç
+               
+           <pb n="9" facs="#IMG09"/>
+            <lb/>dikili ṭaşdur, mābeynleri ḳırḳar adımdur. Ammā ikisi
+               <lb/>daḫi at üzerindedür. <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> Belġrād cenerāli
+               <lb/>olan <rs type="person" ref="#mpr14241">Uṭvār</rs> nāma baḳar ki atdan aşaġı insün.
+               <lb/><rs type="person" ref="#mpr14241">Cenerāl</rs> de baḳar ki <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs>
+               atdan aşaġı insün.
+               <lb/><rs type="person" ref="#mpr14241">Cenerāl</rs> elhāṣıl taḥammül idemeyüb
+               <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ḥażretlerinden 
+               <lb/>muḳaddem atdan aşaġı inmege ḥareket eyledi. Baʿdehū <rs type="person" ref="#mpr14242">ʿAbdallāh 
+                  <lb/>Paşa</rs>
+               daḫi ḥareket eyledi. Ancak <rs type="person" ref="#mpr14241">cenerāliñ</rs> ḥareketi o ḳadar 
+            <lb/>evvel oldı ki ayaḳ üzengiden çıḳar miḳdārı
+            <lb/>hemān ikisi birden indiler. Bizim ṭarafdaki ṭaşdan
+               
+           <pb n="10" facs="#IMG10"/>
+            <lb/>ortadaki ṭaşa dek <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> yürüyerek 
+            <lb/>vardı. Ve Cenerāl <rs type="person" ref="#mpr14241">Uṭvār</rs> daḫi gendü ṭaraflarında
+            <lb/>olan ṭaşdan yürüyerek geldi. İkisi daḫi ortada<lb break="no" rend="#shy"/>ki ṭaşda ḳavuşdılar. El ele virüb oturdılar.
+               <lb/>İlçi muṣāḥebetlerini itdiler.<note type="footnote" resp="#yy" xml:id="ftn2"><ref target="/o:vipa.tr.hbg.1723#page1">For a detailed 
+                  account of the embassy exchange on June 15, 1719</ref>, see pages 51-56 in Driesch.</note></ab>
+         
+         
+         <ab><hi rend="#red"><date calendar="#Hijri" when="1719-06-15">Māh-ı 
+               Receb-i şerīfiñ yigirmi 
+            <lb/>yedinci Pençşenbe güni</date></hi> idi. Ve ziyāde havā güzel
+            <lb/>ve güneş idi. Ammā muṣāḥebetlerinden ṣoñra <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> 
+            <lb/><rs type="person" ref="#mpr14276">ilçi İbrāhīm Paşa</rs>ya ḫaber irsāl eyledi teşrīf buyursunlar
+            <lb/>diyü. <rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs> daḫi sāʾyebāndan ḳallavī giyüb
+
+            <pb n="11" facs="#IMG11"/>
+            <lb/>ve ṣorġuc ṭaḳınub bindi. Enderūn aġaları daḫi
+            <lb/>ardında alay ile mehterḫānesin çalaraḳ sınur
+            <lb/>ṭaşına revāne oldı. Ve <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> daḫi gendü
+            <lb/>ṭarafından binüb tıranbetesini çalaraḳ sınur
+            <lb/>ṭaşına gelürken bi-emriʾl-lāh-i teʿālā hevā tebdīl oldı.
+            <lb/>Ammā ilçileriñ ikisi daḫi ṭaşlara geldikde cüzʾī
+            <lb/>yaġmur yaġmaġa başladı.</ab> 
+               
+               <ab> Daḫi atdan aşaġı inmediler.
+            <lb/>Birbirlerine baḳarlar evvel inmek içün. Hele Nemçe
+            <lb/>ilçisi bir vechle taḥammül idemeyüb muḳaddem atdan
+                     
+           <pb n="12" facs="#IMG12"/>
+            <lb/>aşaġı inmege ḥareket eyledi. Baʿdehū bizim ilçimiz <rs type="person" ref="#mpr14276">İbrāhīm
+            <lb/>Paşa</rs> daḫi ḥareket eyledi. Nihāyet ikisi birden
+            <lb/>atdan aşaġı indiler. Hemān ceneraliñ ol ḳadar
+            <lb/>evvel idi ki ayaġı üzengiden çıḳar miḳdārı.
+            <lb/>İkisi daḫi yürüyerek ḳırḳar adım ortadaki
+            <lb/>ṭaşa geldiler buluşdılar. El ele virdiler. Ammā bizim
+            <lb/>serʿaskerimiz <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ve Nemçe serʿaskeri olan
+            <lb/>Belġrād Ceneral<supplied resp="#yy">i</supplied> <rs type="person" ref="#mpr14241">Uṭvār</rs> nām daḫi ayaḳ üzerlerinde
+               <lb/>ṭururlar idi. İlçiler ile maʿan <choice><sic>durdı da</sic> <corr>durdılar</corr></choice>. Çārkūşe
+                     
+            <pb n="13" facs="#IMG13"/> 
+            <lb/>oturdılar. </ab> 
+               
+               <ab>Ammā bir mertebe ol vaḳt bir elā gözlü bir koca
+            <lb/>yaġmūr yaġdıki hemān bardaḳdan boşanırcasına.
+            <lb/>Veʾl-ḥāṣıl durdı. Daḫi oturdılar ve ṣulḥ aḥvāli
+            <lb/>söyleşmege başladılar. Cevābları temām olduḳdan
+            <lb/>ṣoñra yaġmūr daḫi diñdi. Ammā ṣulḥ aḥvālini söyleşdikleri
+            <lb/>vaḳt bizim ʿaskerimiziñ daḫi aġırlıḳları bizim ṭarafdan
+            <lb/>olan ṭaşıñ yanında çatıldı ḳaldı. Bir ferd-i
+            <lb/>vāḥid öte ṭarafa geçmedi. Ve Nemçe ʿaskeri cümle tecemmülātlarıyla
+            <lb/>kendü ṭaraflarında olan ṭaşıñ yanında çatıldı ḳaldı.
+            
+            <pb n="14" facs="#IMG14"/>
+            <lb/>Anlardan daḫi biri berü ṭarafa geçmedi. <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs>       
+            <lb/>ilçi <rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs> ve <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> ile Belġrād cenerāli
+            <lb/>olan <rs type="person" ref="#mpr14241">Uṭvār</rs> nām ṣulh müşāverelerini temām eylediklerinden 
+            <lb/>ṣoñra iki ṭarafa iz̠in oldı. Şenlik olunsun
+            <lb/>diyü bizim ṭarafdan ʿaskerimiz birer yaylım tüfeng
+            <lb/>atdılar. On beş biñ miḳdārı var idi. Ve bir yaylım 
+            <lb/>on <sic>bāre</sic> ṭob atdılar. Ve Nemçe ṭarafından daḫi
+            <lb/>bir yaylım tüfeng atılub ve on <sic>bāre</sic> ṭobları 
+            <lb/>daḫi atdılar. Baʿdehū iki ṭarafdan ikişer yaylım
+                     
+            <pb n="15" facs="#IMG15"/>
+            <lb/>tüfengler ile iki yaylım daḫi onar pāre ṭoblar
+         <lb/>atıldı. Baʿdehū <rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ḥażretleri ilçi
+            <lb/><rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs>nıñ elini eline alub āl-i ʿOs̠ mān 
+            <lb/>pādişāhınıñ büyükilçisidür. Ṣulḥ ve ṣalāḥ
+            <lb/>olmaḳ içün irsāl olunmışdur. İnşāʾa-llahu teʿālā
+            <lb/>yine bu maḥallden ve ʿavdetinden  emīn ve sālim senden isterim
+                  <lb/>diyü Belġrād cenerāli olan <rs type="person" ref="#mpr14241">Uṭvār</rs> nām cenerāle
+            <lb/>teslīm eyledi. Ve cenerāl-i mesfūr daḫi gendü ilçileriniñ
+                  <lb/>elini eline alub bu daḫi <rs type="person" ref="#mpr9399">Nemçe ḳayzeriniñ</rs> yaḳını
+                     
+            <pb n="16" facs="#IMG16"/>
+            <lb/>lā-teşbīh Nemçe lisānınca pādişāh dimekdür büyük
+            <lb/>ilçisidür. Biz daḫi bu maḥallde senden isterim diyü
+                  <lb/><rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> ḥażretlerine teslīm eyledi.</ab>
+            
+         <note type="footnote" resp="#yy" xml:id="ftn3">Throughout the travelogue, the anonymous Ottoman author
+               used the words <foreign xml:lang="tr">çāsār</foreign>(caesar) and <foreign xml:lang="tr">ḳral</foreign>(king)
+               interchangeably when referring to the Austrian emperor. In the English
+               translation of the Turkish text, I used the word emperor when translating
+               the word <foreign xml:lang="tr">çāsār</foreign>, instead of the more literal <foreign xml:lang="lat">caesar</foreign>
+            which would have been confusing. When the Turkish text used the word <foreign xml:lang="tr">ḳral</foreign>, I translated 
+            that as <foreign xml:lang="en">king</foreign>.
+               
+               It is notable that in the travelogue this is the only passage where the word
+            <foreign xml:lang="de">ḳayzer</foreign>(kaiser) appears and the author cautiously distinguishes himself from 
+            the Habsburg commander of Belgrade who referred to the Austrian monarch as <foreign xml:lang="de">ḳayzer</foreign>.
+               The anonymous author’s apologetic tone when providing the translation of the word as <foreign xml:lang="tr">pādişāh</foreign>
+               (<q><foreign xml:lang="tr">lā-teşbīh Nemçe lisānınca pādişāh dimekdür</foreign></q>)
+               shows that the Ottoman tradition of rejecting rhetorical
+               parity between the Ottoman and Austrian rulers since the sixteenth century, by using
+               the word <foreign xml:lang="de">ḳayzer</foreign> only as a sultanic title, was still practiced by the mid-1720s
+               when the travelogue was penned. In all other instances where 
+               Emperor Karl VI is mentioned in the travelogue, he is referred to
+               as <foreign xml:lang="tr">ḳral</foreign>, or king.</note>
+                  
+         <ab>Baʿdehū aġırlıḳlara 
+            <lb/>iz̠in olundı. Bizim aġırlıġımız Nemçe ṭarafına ve sınurına
+            <lb/>gecdi. Ve Nemçeniñ tecemmülātları bizim ṭaraf sınura gecdi.
+            <lb/>Nemçe ilçisini <lb/><rs type="person" ref="#mpr14242">ʿAbdallāh Paşa</rs> alub berü getürdi.
+            <lb/>Ve bizim ilçimiz <rs type="person" ref="#mpr14276">İbrāhīm Paşa</rs>
+            ḥażretleri<supplied resp="#yy">ni</supplied> <rs type="person" ref="#mpr14241">Belġrād cenerāli</rs>
+            <lb/>olan bālāda z̠ikr olunan <rs type="place" ref="#mpr14607">Pārakīn</rs>e alub getürdi.
+            <lb/>Ceneral daḫi ol gice <rs type="place" ref="#mpr14607">Pārakīn</rs>de ḳaldı. Ṣabāḥ olunca
+                  
+            <pb n="17" facs="#IMG17"/>
+            <lb/>ṭaraflarından ḳomsār taʿyīn eyledi. Ḳomsār dimek
+            <lb/>z̠aḫīre virici dimekdür. Ve dört yüz miḳdārı atlı
+            <lb/>ʿasker taʿyīn eyledi. Ve cenerāl daḫi binüb ʿaskeriyle
+            <lb/><rs type="place" ref="#mpr9425">Belġrād</rs>a gitdi. Ḳomsār daḫi dört yüz atlı ʿaskeriyle
+            <lb/>olub <rs type="place" ref="#mpr13416">Beç</rs>e revāne olundı.
+               
+            <list><item rend="column2"><rs type="place" ref="#mpr14609">Yaġudine</rs> ḳonaḳ sāʿat 4</item>
+               <item rend="column1"><rs type="place" ref="#mpr14615">Devebaġırdan</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column2"><rs type="place" ref="#mpr14617">Paṭçine [Pātoçina]</rs> ḳonaḳ sāʿat 6</item>
+               <item rend="column1"><rs type="place" ref="#mpr14619">Ḥasanpaşa Palanġası</rs> ḳonaḳ sāʿat 4</item>
+            <item rend="column2"><rs type="place">Ḳular</rs> ḳonaḳ sāʿat 4</item>
+            <item rend="column1"><rs type="place">Ḥiṣārcıḳ</rs> ḳonaḳ sāʿat 4</item>
+            <item rend="column2"><rs type="place" ref="#mpr9425">Belġrād</rs> ḳonaḳ sāʿat 4</item></list>
+            
+            <lb/> <rs type="place" ref="#mpr9425">Belġrād</rs>a daḫıl olduġumuzda
+            cenerāl-i mesfūr <rs type="person" ref="#mpr14241">Uṭvār</rs> nām
+                  
+            <pb n="18" facs="#IMG18"/>
+            <lb/>bir mertebe alay eyledi ki bir vech ile taʿbīri mümkün degildür.
+            <lb/>Atlısı başḳa ve yayası başḳa ve ḳ alʿadan daḫi
+            <lb/>yüz altmış pāre ṭob atub şenlik eyledi. Ve Sava 
+            <lb/>çārşusı semtine gidecek <choice><sic>semte</sic> <corr>semtte</corr></choice> olan mezāristāna
+            <lb/>ḳondurdı.</ab> <ab>Ammā mezāristānıñ cümle ṭaşlarını çıḳarmış
+            <lb/>ḳalʿaya ḳomış ve cengde ḳalʿanıñ Sava semtini dögüb
+            <lb/>vīrān itmiş. Ammā ziyādesiyle ḳavī ve müstaḥkem yabmış
+            <lb/>ve sāʾir vīrān olan yerini daḫi maʿmūr etmiş ve ḳalʿanıñ
+            <lb/>içine cengciden ġayri bir reʿāyā z̠ımmīsini ḳomaz ve hende<lb break="no" rend="#shy"/><pb n="19" facs="#IMG19"/>giniñ ve sāʾir yerlerine daḫi ̣̣karaġolcı ḳomışdur. Aṣlā
+            <lb/>bir kimesne uġratmaz. Ġāyet ile <choice><sic>ḫıfẓ</sic> <corr>ḥıfz</corr></choice> üzredür. 
+            <lb/>Ve yuḳardan sekiz ḳalyon indürmiş ḳalʿa ḳ arşusında 
+            <lb/>Ṭūna üzerinde durur. Ve Ṭūna semtindeki evleri
+            <lb/>ve dükkānları bütün meyḫāne itmişler. Ve Sava çarşusında
+            <lb/>olan dükkānlar evvelki gibi alış viriş ider ve reʿāyā
+            <lb/>fuḳarāları Nemçeleriñ elinden ʿacz ve fürūmānde ḳalmışlar.
+            <lb/>Ve cāmiʿ-i şerīfleri kimini solṭāt odaları yapmışlar.
+            <lb/>Ve kimini mühimmātḫāne etmişler. Ve mināreleri ṭurur.
+               
+            <pb n="20" facs="#IMG20"/>
+            <lb/>Ammā mināreniñ birini kulāḥından yıḳmışlar, sāʿat yapmışlardur.
+            <lb/>Ḥālıyā çalar. Ve ḥammāmlar ṭurur. Ev yapmışlar. Ammā yalıñız
+            <lb/>bir ḥammām alııkomışlardur. Ḥāliyā işledürler. Ve dört
+             <lb/>gün oturaḳ olundı.</ab> <ab> Ḳarşusında 
+                <list>
+            <item rend="column2"><rs type="place" ref="#mpr9422">Zemin</rs> ḳonaḳ sāʿat 12</item>
+                   <item rend="column1"><rs type="place" ref="#mpr14641">Yanofca</rs> ḳonaḳ sāʿat 22</item>
+            <item rend="column2"><rs type="place">Devironse</rs> sāʿat 5</item>
+                   <item rend="column1"><rs type="place" ref="#mpr14647">Şaşansi</rs> ḳonaḳ sāʿat 3</item>
+                   <item rend="column2"><rs type="place" ref="#mpr14649">Laçarḳ</rs> ḳonaḳ sāʿat 3</item>
+                   <item rend="column1"><rs type="place" ref="#mpr14651">Tuvarniḳ</rs> ḳonaḳ sāʿat 7</item>
+                   <item rend="column2"><rs type="place" ref="#mpr14653">Ḳalʿa-i Būlġovār</rs> ḳonaḳ sāʿat 4</item></list>
+            <lb/>Būlġovār ḳalʿası bir vīrān ḳalʿadur. İçinde şenligi
+            <lb/>yoḳdur. Ṭaşrasında varoşı büyükdür. Ve çārşūsı
+                
+            <pb n="21" facs="#IMG21"/>
+            <lb/>vardur. Ve meyve daḫi bulunur. <list><item rend="column2"><rs type="place" ref="#mpr2046">Ḳalʿa-i Örsek</rs> 
+               ḳonaḳ sāʿat 6</item></list>
+            <lb/>Daḫıl olduġumuzda yüz pāre ṭob atub eyü şenlik
+            <lb/>itdiler. Ve ḳalʿanıñ maʿmūrluġı suʾāl olunur ise
+            <lb/>ziyādesiyle ḳavī ve maʿmūrdur ve zīrdedür. Ṭaşra
+            <lb/>sınıñ üç ṭarafından müceddeden ṭābye yapayorlar. ̣Bir ṭarafından
+            <lb/>bir büyük ṣu aḳar. Adı <rs type="place">Ẕrava</rs>dur. Ve üç ḳat ḫendek
+            <lb/>vardur. Ṭaşra ḫendeginiñ eniligi altmış iki adımdur.
+            <lb/>İç ḫendeginiñ eniligi yüz altmış iki adımdur. Ve ḳalʿa
+            <lb/>ḳapusınıñ içerüsi dīvārınıñ ḳalınlıġı yigirmi iki
+                
+            <pb n="22" facs="#IMG22"/>
+            <lb/>adımdur. Ve yapusı ṭuġladur. Ve ziyāde muḥkemdür.
+            <lb/>Ve evleri kārgīrdür. Ve eṭrāf köyleri daḫi maʿmūrdur.</ab>
+           
+         <ab><list>
+            <item rend="column1"><rs type="place">Darde</rs> ḳonaḳ sāʿat 2</item>
+            <item rend="column2"><rs type="place" ref="#mpr14657">Briyevar</rs> sāʿat 6</item>
+            <item rend="column1"><rs type="place" ref="#mpr14655">Mohaç Ovası</rs> sāʿat 6.5 </item></list>
+
+            <date type="#Hijri" when="1719-07-18">ʿAn ġurre-i Ramażān-ı şerīf</date> 
+            <list><item><rs type="place" ref="#mpr14662">Ḳalʿa-i Seçuy</rs> sāʿat 6.5 </item></list>
+            Seçuy Ḳalʿası vīrān ḳalʿadur.
+            <lb/>İçinde şenligi yoḳdur. Hemān bir miḳdār ṭaşrasında
+            <lb/>evler vardur, köydür. 
+            <list><item><rs type="place" ref="#mpr14664">Bātosek</rs> ḳonaḳ sāʿat 3,5</item> 
+            <item><rs type="place" ref="#mpr14666">Ḳalʿa-i Seksār</rs> ḳonaḳ sāʿat 5</item></list>
+            Seksār Ḳalʿası bir miḳdārı 
+                <lb/>ḫarābedür. Ve içinde birḳ aç evleri var. Hemān açub ḳapamaḳ
+                
+            <pb n="23" facs="#IMG23"/>
+            <lb/>içündür. Ammā ṭaşrasında evler çoḳdur, eyüdür.</ab>
+            
+            <ab>
+            <list>
+            <item rend="column1"><rs type="place">Ḳarye-i Mādniyār</rs> sāʿat 5</item>
+            <item rend="column2"><rs type="place" ref="#mpr14668">Şimatorne</rs> ḳonaḳ sāʿat 2</item>
+            <item rend="column1"><rs type="place">Şanise</rs> ḳonaḳ sāʿat 6</item> 
+            <item rend="column2"><rs type="place" ref="#mpr7795">Ḳalʿa-i İstonī Belġrād</rs> sāʿat 4</item></list>
+                <lb/>dāḫıl olanda ziyāde ṭob şenligi itdiler. Ammā bir metīn
+                <lb/>ḳalʿadur. Ve dört eṭrāfınıñ ḫendegi enilidür ve ṣudur
+            <lb/>ve ḳamışlıḳdur ve ziyāde ṣarpdur. Ve ḳapularınıñ öñinde 
+            <lb/>aṣma köprüleri vardur.</ab>
+            
+            <ab><list>
+               <item rend="column2"><rs type="place">Ḳarye-i Mur</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column1"><rs type="place" ref="#mpr14281">Ḳarye-ı As̠ ar</rs> ḳonaḳ sāʿat 5</item>
+               <item rend="column2"><rs type="place" ref="#mpr7798">Ḳalʿa-i Yafeḳ</rs> sāʿat 5</item>
+            </list>
+                <lb/>dāḫıl olundıḳda yüz elli pāre ṭob atub şenligi
+                
+            <pb n="24" facs="#IMG24"/>
+            <lb/>itdiler. Ammā ziyādesiyle metīn ve müstaḥkem ve büyük
+            <lb/>ḳalʿadur. Ve yapuları kārgīrdur. Ve maʿmūrdur. Her bir
+            <lb/>evleri balanġa gibidür. İçinde kelīsāları vardur.
+            <lb/>Ammā bir büyük kilisāsı içinde organon var. Pāpāsları
+            <lb/>çalarlar. Ve ḳalʿanıñ yapusı ziyāde ḳavīdür. Ve üç
+            <lb/>ḳat hendeġi vardur. Üçinde de büyük ṣular aḳar. Biri
+            <lb/>Ṭūnadandur. İkisi daḫi ġayri ṣudur. Anlarda büyük
+            <lb/>ṣulardur. Ammā ḳalʿa dīvārınıñ ḳalınlıġı on sekiz
+            <lb/>adımdur. Ve Belġrā<sic>t</sic>dan ġayri taḥrīr olunan ḳalʿalarıñ
+                
+            <pb n="25" facs="#IMG25"/>
+            <lb/>icine girüb seyr olunmışdur. Ve żābṭları daḫi
+            <lb/>mā niʿ olunmamışdur. <gap quantity="2" unit="char"/> 
+               <list><item><rs type="place" ref="#mpr14674">Ṣad Niḳola</rs> ḳonaḳ sāʿat 3</item>
+                  <item rend="column1"><rs type="place" ref="#mpr9417">Altuḳiurḳ</rs> ḳonaḳ sāʿat 4</item>
+                <gap quantity="2" unit="char"/> 
+                  <item><rs type="place" ref="#mpr14280">Tabçantor<choice><reg>f</reg><sic>ḳ</sic></choice></rs> 
+               <lb/>ḳonaḳ sāʿat 4</item></list> <gap quantity="2" unit="char"/> 
+                  Nemçe lisānınca <foreign xml:lang="tr">tārīç</foreign> Nemçe dimektir.
+               
+               <note type="footnote" resp="#yy" xml:id="ftn4">It appears that the term <foreign xml:lang="tr">tārīç</foreign> is the Turkish rendering of the word
+                  <foreign xml:lang="de">Deutsch</foreign> by the author.</note>
+               
+               <lb/><foreign xml:lang="de">Tor<choice><reg>f</reg><sic>ḳ</sic></choice></foreign>
+               dimek köy dimekdür. <rs type="place" ref="#mpr5045">Ḳalʿa-i Būrḳ</rs> ḳonaḳ 
+            <lb/>sāʿat 4. <gap quantity="2" unit="char"/> Bir kücük ḳalʿadur. Ve ġāyet nāzikdür.
+            <lb/>İki ḳapusı vardur. <rs type="place" ref="#mpr1778">Şiveket</rs> ḳonaḳ sāʿat 6.
+            <lb/>Ḳralıñ avgāhıdur. Ve çoḳ evler vardur. Ve ḳralıñ
+            <lb/>sarāyı vardur. Ancaḳ içinde bir bekçiden ̇gayri kimse
+                
+            <pb n="26" facs="#IMG26"/>
+            <lb/>yoḳdur. Girüb seyr olunmışdur. <gap quantity="2" unit="char"/></ab> 
+               
+               
+               <ab><rs type="place" ref="#mpr13416">Ḳalʿa-i Beç</rs> ḳonaḳ <lb/>sāʿat 2. <gap quantity="2" unit="char"/>
+                  Ammā <rs type="place" ref="#mpr1778">Şiveket</rs>e dāḫıl olundıḳda dört
+            <lb/>gün oturaḳ olundı.</ab> <ab> <hi rend="#red"><date calendar="#Hijri" when="1719-08-14">Māh-ı 
+               Ramażān-ı şerīfiñ yigirmi 
+            <lb/>sekizinci güni Bāzārirtesi</date></hi> Beç ḳalʿasına alay ile 
+               <choice><sic>girileçek</sic> <corr>girecek</corr></choice>
+            <lb/>idük.Ammā dergāh-ı ʿālī yeñiçerilerinden elli tüfenkçi taʿyīn
+            <lb/>olunmışdı. Bir gün muḳaddem Bāzār güni <rs type="person" ref="#mpr9399">Nemçe çāsārı</rs>
+            <lb/>ṭarafından ḫaber geldi ki tüfengciler paşa ḥażretleriniñ 
+            <lb/>ardında yürüsünler ve tüfenglerini yuḳaru ḳaldurmasunlar 
+            <lb/>başaşaġı ṭutsunlar. Ve biz kendü ṭarafımızdan tüfengli
+               
+            <pb n="27" facs="#IMG27"/>
+            <lb/>Nemçe taʿyīn ideriz, paşanıñ ardında yürüsünler
+            <lb/>daḫi ardında tüfengçiler ve tüfenglerini başaşaġı
+            <lb/>ṭutsunlar diyü haber geldi. Tüfengçiler daḫi cevāb eylediler ki
+            <lb/>bizler paşadan ayrılmayuz ve tüfenglerimizi başaşaġı 
+            <lb/>ṭutmayuz diyü cevāb eylediler ve alaydaki gibi giderüz
+            <lb/>didiler. Veʾl-ḥāṣıl ṭaraflarından Nemçeler gönderdiler. Pāzār
+            <lb/>irtesi güni erken geldiler. Ve alay düzildi. <rs type="person" ref="#mpr14276">Paşa
+               <lb/>ḥażretleri</rs> ḳallavīʾi giyüb ve <choice><sic>sorʿūc</sic><corr>sorġūc</corr></choice> ṭaḳınub bindi.
+            <lb/>Tüfengçiler tüfenglerini yuḳaru ṭutub yüridiler. Daḫi
+               
+            <pb n="28" facs="#IMG28"/>
+               <lb/>ardında Enderūn aġaları gitdiler. Ammā küffār-ı ḫāksār
+            <lb/>ve çāsār bir alay ıṣmarlamış ki öyle bir alay olmamış
+               <lb/>olsun dimiş öyle alay ile <rs type="place" ref="#mpr13417">Beç</rs>e dāḫıl ve bālāda
+            <lb/>taḥrīr olunan ḳomsār yediyle taʿyīn daḫi viriliyor.</ab>
+               
+                         
+               
+         <ab><lb/>El-ḥāṣıl <date type="#Hijri" when="1719-08-14">yigirmi sekiznci Bāzārirtesi</date> güni 
+            <rs type="person" ref="#mpr9399">çāsāra</rs> <lb/><rs type="person" ref="#mpr14244">pādişāh-ı ʿālem-penāh</rs> ḥażretlerinden irsāl olunan
+            <del rend="overstriked">m</del><add place="superlinear" hand="unkown">n</add>āme-i
+            <lb/>hümāyūnı virmege gitdi. 
+            
+            <note type="footnote" resp="#yy" xml:id="ftn5">Here, the author did not specify the month,
+               but the given day was also wrong. 
+               Based on the flow of the text, the month must have been either Ramadan or Şevval.
+            However, the 28th of neither Ramadan nor Şevval correspond to the correct date of the
+            audience with the emperor, which took place on September 4, 1719, 
+               <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=17190902&amp;seite=2">
+                  as reported on the 1679th volume of Wienerisches Diarium</ref>. (See the second page.)</note>            
+            
+            
+            Ammā ol gün daḫi ziyāde
+            <lb/>alay oldı. Ve alay ṭaḳımı budur: İbtidā Nemçeniñ
+            <lb/>tüfengli solṭaṭları ardında dīvāngāh ve göñülliyān
+                  
+            <pb n="29" facs="#IMG29"/>
+            <lb/>daḫi ardında ketḫüda beg daḫi ardında şevketlü <rs type="person" ref="#mpr14244">pādişāh-ı
+            <lb/>ʿālem-penāh ḥażretleri</rs> ṭarafından irsāl olunan hedāyā
+            <lb/>ve bişkeş daḫi ardında ḫazīnedār aġa ile miftāḥ
+            <lb/>aġası daḫi ardında ʿakkāmbaşı neferiyle dahi ardında
+            <lb/>dīvān çāvuş aġaları daḫi ardında ṣaḳallu aġalar
+            <lb/>daḫi ardında paşa yedekleri daḫi ardında tercümān ile 
+            <lb/>ḳapucılar ketḫüdāsı daḫi ardında ilçi paşa ḥażretleri.</ab>
+               <lb/><ab>Ammā <rs type="person" ref="#mpr9399">ḳraldan</rs> mahṣūṣ  hinṭoġ geldi. <rs type="person" ref="#mpr14276">Paşa</rs> hinṭoġ ile
+            <lb/>kendi ardında tüfengciler daḫi ardında Enderūn aġaları
+                  
+            <pb n="30" facs="#IMG30"/>
+                  <lb/><rs type="person" ref="#mpr9399">ḳralıñ</rs> yanına gidildi. Ammā 
+                  <rs type="person" ref="#mpr14244">pādişāh-ı ʿalem-penāh ḥażretleri</rs>nden 
+                  <lb/>irsāl olunan nāme-i hümāyūn <rs type="person" ref="#mpr14276">paşa</rs> ḥażretleriniñ öñinde
+            <lb/>dīvān efendisiniñ elinde gitdi. Veʾl-ḥāṣıl çāsār
+            <lb/>sarāyına varıldı. Çavuş aġalara tenbīh olundı ki <rs type="person" ref="#mpr14276">paşa
+            <lb/>ḥażretlerini</rs> alḳışlamasunlar diyü ve alḳışlamadılar. </ab> <ab>Hintoġdan
+               <lb/>indi. <rs type="person" ref="#mpr9399">Çāsār</rs> yanına girdi ve buluşdı. <rs type="person" ref="#mpr14276">Paşa</rs> ile maʿan
+               <lb/>on üç ādem <rs type="person" ref="#mpr9399">çāsār</rs> yanına girdi. <rs type="person" ref="#mpr9399">Çāsār</rs> daḫi ayaḳ
+               <lb/>üzerinde dururdı. <rs type="person" ref="#mpr14276">Paşa</rs> ḥażretleri söyleyecek
+            <lb/>kelāmı söyledi. Ve ḳral vekīli daḫi maʿḳūl ve münāsibdür
+                  
+            <pb n="31" facs="#IMG31"/>
+            <lb/>didi. Ve nāme-i hümāyūnı daḫi virüb ve <choice><sic>b</sic><corr>p</corr></choice>işkeşi
+            <lb/>daḫi söyledi. Ḳral vekīli getürsünler didi. Ve teslīm
+            <lb/>eyledi. Ammā ʿādet degilmiş ḳral ilçileri yanında söylemeklige.
+            <lb/>Cümle cevābları temām olub ve nāme-i hümāyūnı virüb
+            <lb/>ve <choice><sic>b</sic><corr>p</corr></choice>işkeşi teslīm itdikden ṣoñra ṭaşra çıḳub
+            <lb/>hinṭoġa binüb yine alay ile sarāya geldi.</ab>
+               
+               <note type="footnote" resp="#yy" xml:id="ftn6"><ref target="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=17190823">
+                  The Wienerisches Diarium dated August 23, 1719 (no. 1676)</ref> gave a detailed
+                  list of the Ottoman embassy’s parade on the day of the audience.</note> 
+               
+            <ab>Baʿdehū
+            <lb/>mābeyni iki gün geçdikden ṣoñra başvekīli olan
+            <lb/><rs type="person" ref="#mpr10441">prens</rs> nāma gitdi. 
+               <sic><foreign xml:lang="tr">brens</foreign></sic> dimek yaʿnī müḥür ṣāḥibi
+            <lb/>vezīri dimekdür. Mektūblarını ve <choice><orig>b</orig><reg>p</reg></choice>işkeşin daḫi virdi.
+               
+            <pb n="32" facs="#IMG32"/>
+            <lb/>Ve yine alay ile geldi. Ammā <rs type="person" ref="#mpr10441">prens</rs> nām ḳralıñ dīvānına
+            <lb/>gelmedi ve ʿādet deġilmiş. Ammā <rs type="person" ref="#mpr10441">prens</rs>iñ sarāyında paşayı
+            <lb/>çāvuş aġaları alḳışladılar.</ab> 
+               
+            <ab> Bundan ṣoñra <rs type="place" ref="#mpr13416">Beç</rs>iñ içinde <lb/>olan seyrleri beyān. Bir gün ṭob şenligi
+               itdiler. <lb/>Aṣlı nedür be-her sene ṭob şenligi idermiş. Ṭoġduġı 
+               <lb/>gün olduġıyla bir kerre daḫi şenligi itdiler. <rs type="person" ref="#mpr11014">Ḳara
+                  <lb/>Muṣṭafā Paşa</rs>
+               <rs type="place" ref="#mpr13417">Beç</rs>e varub bozulduġı gündür diyü. 
+               
+               <note type="footnote" resp="#yy" xml:id="ftn7">The two preceding sentences should replace one another for narrative coherence.</note></ab>
+        
+               <ab><lb/>Ammā günlerde bir gün <rs type="person" ref="#mpr14283">ḳralıñ anası</rs> mürd oldı. Üç
+            <lb/>gün leşini yaturdılar. Daḫi meşāda götürmediler. On
+               
+            <pb n="33" facs="#IMG33"/>
+            <lb/>iki ḥekīm taʿyīn olunmiş. Ḳarnını yarub baġırṣaḳlarını
+            <lb/>çıḳarub ve ḳarnını beḥ ār ile ṭoldūrub üç
+            <lb/>günden ṣoñra gövdesini Beç ḳalʿasınıñ içinde
+            <lb/>bir büyük <rs type="place" ref="#mpr14285">manastır</rs> var; ol manastırıñ meşādlıġına 
+            <lb/>ḳoydılar. Ve baġırṣaḳlarını daḫi ġayri <rs type="place" ref="#mpr14284">manastır</rs> meşādlıġına
+            <lb/>ḳoydılar. Ammā naḳl iden Nemçeler bu minvāl üzere 
+            <lb/>naḳl itdi. Ancaḳ 
+           <del rend="overstriked">c</del><add place="superlinear" hand="unknown">ḫ</add>ilāf olmamaḳ gerekdür. 
+                  <rs type="person" ref="#mpr9399">Ḳral</rs> ziyāde<lb break="no" rend="#shy"/>siyle yās ve mātem idüb cümle gendüye ḫürmet
+            <lb/>iden Nemçelere ḳaralar ve siyāhlar giydürdiler. Meger ʿādet
+               
+            <pb n="34" facs="#IMG34"/>
+            <lb/>imiş bir sene ḳaralara ġarḳ olmaḳlıġa.</ab> <ab>Ve <rs type="place" ref="#mpr13416">Beç</rs> ḳalʿasınıñ
+            <lb/>vāroşınuñ evleri beyān olunur: Ziyādesiyle
+            <lb/>bināları yüksekdür. Sekiz ṭoku<choice><sic>r</sic><corr>z</corr></choice> ṭabaḳadur ve maḥzendür.
+            <lb/>Ve cümle kārgīrdür. Üç dörder ṭabaḳadur. Ve ḳalʿa 
+         <lb/>ḳapuları beyān ider: <gap quantity="4" unit="char"/> Ḳızıl Ḳapu<gap quantity="3" unit="char"/> Macār Ḳapusı
+         <lb/>Venedik Ḳapusı <gap quantity="2" unit="char"/> Çāsār Ḳapusı <gap quantity="2" unit="char"/> Yeñi Ḳapu
+         <lb/>defaʿe Yeñi Ḳapu <gap quantity="3" unit="char"/> Ṣu Ḳapusı <gap quantity="3" unit="char"/> Eski Ḳapusı
+         <lb/>Ammā bu Eski Ḳapu ḳapalıdur. Sebeb evvelki <rs type="person" ref="#mpr11014">Ḳara Muṣṭ afā 
+         <lb/>Paşa</rs> ol ḳapudan içerü girmiş anuñ içün ḳapalıdur
+               
+         <pb n="35" facs="#IMG35"/>
+         <lb/>işlemez.</ab> <ab>Ve sekiz ḳapusınıñ öñinde birer büyük ṭabyaları
+         <lb/>vardur ve eṭrāfınıñ bir ḳat hendegi vardur. Ġ āyet 
+         <lb/>enilidür. Ve Ṭūna ḳalʿa dibinden aḳar. Yuḳarudan Ṭūnadan
+         <lb/>kesdürüb aḳıtmışdur. Ve tersānesi daḫi ol kesdürdigi
+         <lb/>Ṭūnadadur.</ab> <ab>Ve emīni vardur. Ḳalʿanıñ içi ġāyet
+         <lb/>şenliklidür. Aḫşamdan ṣoñra sāʿat üç buçuġa
+         <lb/>varınca dükkānlar açıḳdur. Ve her dükkān ṣaçaḳlarında
+         <lb/>birer cām fenār yanar. Hemān donanma gibidür. Ve ḳalʿa ḳapuları
+         <lb/>daḫi sāʿat üç buçuġa degin açıḳdur. Baʿdehū ḳaparlar. </ab> 
+         <pb n="36" facs="#IMG36"/>
+      
+      <ab><lb/>Ve ḳalʿanıñ vāroşları beyān olunur: Venedik Varoşu
+         <lb/><rs type="place">Lebolştūt</rs> Varoşu <gap quantity="3" unit="char"/>
+            Macār Varoşu <gap quantity="2" unit="char"/> Mariya Hilf
+         <lb/>Varoşu <gap quantity="3" unit="char"/> Santulir Varoşu <gap quantity="3" unit="char"/> Ḳarabuttorf Varoşu
+         <lb/>Ruṣve Varoşu <gap quantity="4" unit="char"/> Vezin Varoşu <gap quantity="2" unit="char"/> Vidin Varoşu
+         <lb/>Ṭoḳuz varoşdur. Cümlesi mükellefdür ve her bir evleri
+         <lb/><choice><sic>b</sic> <corr>p</corr></choice>alanġa gibidür. Ve ziyāde maʿmūrdur. Ve eṭrāfı köyleri
+         <lb/>daḫi bu minvāl üzeredür. </ab> <ab>Ammā bir buçuk sāʿat berüde 
+         <lb/>bir küçük ḳalʿa vardur. <rs type="person" ref="#mpr11015">Sulṭān Süleymān</rs> köşki taʿbīr 
+         <lb/>iderler. Ġ āyet nāzik ḳalʿadur. Hemān <rs type="place">Yediḳ ule</rs>niñ
+            
+         <pb n="37" facs="#IMG37"/>
+         <lb/><sic>ḳuleleri</sic> gibi yigirmi ḳullesi vardur. 
+            
+            <note type="footnote" resp="#yy" xml:id="ftn8">The reference here is to Schloss Neugebäude, allegedly built on the location
+            where the Ottoman sultan Süleyman the Lawgiver had set up his tent
+            during the first Ottoman siege of Vienna in 1529.</note>
+            
+            <rs type="person" ref="#mpr9399">Çāsār</rs>ıñ arṣlan
+         <lb/>ḫānesidür. Ammā gendüniñ üç arṣlanı var. İkisi
+         <lb/>kücükdür, biri büyükdür. Ammā berüden giden arṣlan
+         <lb/>anıñ arṣlanından büyükdür. İki gitmiş-idi. Ammā biri
+         <lb/>Beçe iki ḳonaḳ ḳala yerde <unclear reason="overstriked">girdi</unclear> ve dört
+         <lb/>ḳa<choice><sic>b</sic><corr>p</corr></choice>lanı var. Yavuz ḳa<sic>b</sic>lanlardur. 
+         Ve ziyāde nāzikdür.
+         <lb/>Ve bir ḳaç ayuları var. Ve bir ḳuş vardur. Büyüklügi dört 
+         <lb/>Hind ṭavuġı ḳadardur ve siyāhdur. Ḳudretden gögsünden
+         <lb/>pençeleri vardur. </ab> <ab>Ve meyve aḥvālinden suʾāl olunur
+            
+         <pb n="38" facs="#IMG38"/>
+         <lb/><sic>iʾse</sic> her dürlü meyve bulunur. Hemān zeytūn yoḳdur.
+         <lb/>Ancak fidānı vardur. Zeytūn virmez ve şükūfeleri
+         <lb/>vardur. Lākin İstanbul gibi degildür. Ve ġāyet ile
+         <lb/>sünbülleri vardur. Beyāż ḳatmer sünbül olur ve güzel
+         <lb/>baġları baġçeleri var.</ab> <ab>ʿAleʾl-tevālī ṭokuz ay beş
+         <lb/>gün yalıñız <rs type="place" ref="#mpr13416">Beç</rs>iñ içinde oturuldı. Ve <rs type="person" ref="#mpr14276">ilçi paşa</rs>
+            <lb/>ḥażretleri <choice><sic>casar</sic><corr><rs type="person" ref="#mpr9399">çāsār</rs></corr></choice>dan nāmeʾi almaġa gitdi.
+            Beyān olunur.</ab> 
+      
+     <ab> <lb/><date calendar="#Hijri" when="1720-04-14">Biñ yüz otuz iki senesinde māh-ı Cemaẕīyüʾl-āhiriñ 
+         <lb/>beşinci Cumʿa-ertesi</date> güni <rs type="person" ref="#mpr9399">çāsār</rs> ṭarafından hinṭoġg
+            
+         <pb n="39" facs="#IMG39"/>
+         <lb/>geldi. Alay ṭaḳımı düzüb hintoġ ile gitdi. Yine 
+         <lb/>ḳallavī giyüb <rs type="person" ref="#mpr9399">çāsār</rs> sarāyına ̣vardı. Ammā çavuşlar
+         <lb/>alḳışlamadılar.</ab> <ab>Ammā <rs type="person" ref="#mpr14276">paşa</rs> ḥażretleri
+            <rs type="person" ref="#mpr9399">çāsār</rs>ıñ yanına on
+         <lb/>altı ādem ile girdi. Ammā <rs type="person" ref="#mpr9399">çāsār</rs> ayak üzere durdi.
+         <lb/>Ammā ḳralıñ vekīli olan cevāb itdi ki ṣulḥumuz ṣulḥdur
+         <lb/>ve ḳanġı ṭarafdan bozġunluḳ olur iʾse menʿ itmek 
+            <lb/>üzere didi. <rs type="person" ref="#mpr14276">İlçi paşa</rs> ḥażretleri daḫi bek maʿḳūl 
+         <lb/>diyü cevāb virdi. Ve nāmeʾi daḫi aldı. Dīvān efendisine 
+            <lb/>virdi. Ve bizden <rs type="person" ref="#mpr9399">ḳralıñ</rs> yanına giren on altı ādem ḳralıñ
+            
+         <pb n="40" facs="#IMG40"/>
+            <lb/>odasından ṭaşra çıḳdılar. Baʿdehū <rs type="person" ref="#mpr14276">ilçi paşa</rs>
+            <lb/>çıḳarken <rs type="person" ref="#mpr9399">ḳral</rs> daḫi başından şabḳaʾı bir miḳdār 
+         <lb/>çıḳardı, temennā eyledi. Baʿdehū alay ileḳonaġa geldi.
+         <lb/>Ammā <choice><orig>b</orig><reg>p</reg></choice>işkeş nāmında bir şey virilmedi.
+            Ve <date type="Hijri" when="1720-04-24">māh-ı mezbūruñ
+         <lb/>on beşinci Ṣalı güni</date> <rs type="person" ref="#mpr10441">bāşvekīl olan prens</rs> nāma
+         <lb/>gitdi. Yine alay ile ilçi <choice><orig>b</orig><reg>p</reg></choice>işkeşini 
+            <choice><orig>b</orig><reg>p</reg></choice>rens 
+            nāmıñ 
+         <lb/><choice><sic>eliyle</sic> <corr>eline</corr></choice> virildi. Ve mektūblarını ve 
+            <choice><orig>b</orig><reg>p</reg></choice>işkeşlerini alub
+            <lb/>alay ile ḳonaġa geldi.</ab> <ab>İkinci güni <rs type="person" ref="#mpr14276">ilçi paşa</rs> ḥażretleri
+            <lb/>mīr-aḫūrını develeriyle ve ḳaṭırlarını ve ḳaraḳulluġcılarını
+            
+         <pb n="41" facs="#IMG41"/>
+         <lb/>ḳaradan <rs type="place" ref="#mpr9425">Belġrād</rs>a gönderdi. Altıncı güni yeñiçerileri
+         <lb/>Ṭūnadan sefīne ile gönderdi. Ammā otuz ādem 
+         <lb/><sic>mürtd</sic> oldı.</ab> <ab>Bin ṭoksan üç senesinde 
+         <lb/>merḥūm <rs type="person" ref="#mpr11014">Ḳara Muṣṭāfa Paşa</rs> <rs type="place" ref="#mpr13416">Beç</rs>e 
+            sefer itdügi zemān
+         <lb/><rs type="place" ref="#mpr13416">Beç</rs> ḳalʿasınıñ içerisine girmişler ve Nemçeyi zebūn 
+         <lb/>itmişler. Ammā Mıṣırlıdan bir yigit ḳalʿa içinde bir mükemmel
+         <lb/>ev żabṭ itmiş-idi. Ve yedi günden ṣoñra
+         <lb/>Nemçeniñ daḫi imdādı gelince ʿasker-i İslām bozulmış.
+            <lb/>Ammā ol Mıṣırlı yigit bi-emr-i ḫüdā şeḥīd düşmiş.
+            
+         <pb n="42" facs="#IMG42"/>
+         <lb/>Ve ol eviñ dīvārınıñ üzerine ṣūretini ṭaşdan
+         <lb/>yapmışlar. Ḥālā ṭurur ve medḥ iderler.</ab> <ab>Ve <rs type="person" ref="#mpr11015">Sulṭān Süleymān</rs>
+         <lb/>Nemçe<supplied reason="illegible" resp="#yy">ye</supplied> sefer idüb bozulduġı zemān Ḳāsım Voyvoda
+         <lb/>nāmında bir nāmdār devletli ḳırḳ biñ ādem ile iki
+         <lb/>sā ʿat ötede şehīd olmış. Ḥālā söylerler ki
+         <lb/>her Cumʿa gicesi ol yerde gülbenk-i Muhammedī ṣadāsı 
+         <lb/>işidilür dürler. Ve ẕikr olunan Mıṣırlı menend
+         <lb/>yigitleriñ ṣūretleri birḳaç yerde yapılmışdur. Ḥālā
+         <lb/>ṭurur.</ab> <ab>Ve Deli Seydī Paşa Būdīm vālisi imiş.
+            
+            <note type="footnote" resp="#yy" xml:id="ftn9">It is not clear which pasha was this, but the author
+            might have referred to Seydi Ahmed Pasha who was the 
+            governor of Buda from 1658 to 1660.</note>
+            
+         <pb n="43" facs="#IMG43"/>
+         <lb/>Ġāyet ile baḥādır devletli ġāzī imiş. Ammā vaḳtinde
+         <lb/>Būdīmden <rs type="place" ref="#mpr13416">Beç</rs>e bir bāzargān giderken Nemçeniñ
+         <lb/>ṭobraġında mālını ġāret itmişler. Ol bāzargān
+            <lb/>girü gelüb merḥ ūm Seydī Paşaya <del rend="overstriked">ġ </del>ʿarżıhāl idüb
+         <lb/>aḥvāli bildürdi. Ol daḫi <rs type="person">Beç Ḳralına</rs> bir buyuruldı
+         <lb/>gönderdi. Ve yazmış ki buradan giden bāzargānıñ 
+         <lb/>mālını seniñ ṭopraġında ġāret itmişler. Buyuruldum
+         <lb/>vuṣūlınde bāzargānıñ mālını buldurub ṭarafa irsāl 
+         <lb/>eyleyesin. Ve bulunmaduġı ḥālde yānıñdan taḥṣīl idüb
+            
+         <pb n="44" facs="#IMG44"/>
+         <lb/>gönderesin. Yoḳ yoḳ derseñ tāc ve taḫtıñ
+         <lb/>eliñden gider dimiş.</ab> <ab>Buyuruldu daḫi ḳrala vüṣūl 
+         <lb/>bulduḳda ḳral daḫi be hāyde didi diyü cevāb
+         <lb/>itmiş. Seydī Paşaya bu ḫaber gelince ḳırk dāne ādemi
+         <lb/>tebdīl-i ṣūret idüb <rs type="place" ref="#mpr13416">Beç</rs>e göndermiş. Ol ḳırḳ
+         <lb/>ādem <rs type="place" ref="#mpr13416">Beç</rs>e daḫıl olub ve ḳalʿanıñ içinde bir kelīsādan
+         <lb/>bir <sic>keşiş</sic> çıḳarub ve çalub Būdime Seydī Paşaya
+         <lb/>getürürler. Ammā eger ḳralıñ ve ġayrisiniñ bu <sic>keşiş</sic> çalınduġından
+         <lb/>ḫaberleri olmadı.</ab> <ab>Gelelim Seydī Paşaya. Ol keşīşiñ
+            
+         <pb n="45" facs="#IMG45"/>
+         <lb/>boynunı urmaḳ istedi. Ricā itdiler boynın urmadı
+         <lb/>ʿafv itdi. Tekrār ḳrala haber gönderdiler. Ḳalʿa içinde 
+         <lb/>filān kelisādan filān keşīş çaldurub getürdi.
+         <lb/>Boynın urmaḳ istedi. Ricā idüb ʿafv itdürdük.
+         <lb/>Bilmiş olun ki tāc <supplied resp="#yy">u</supplied> taḥtıñ elinden gider. Hemān mālı
+         <lb/>göndermege saʿy idesin dimiş. Ḳral daḫi bu aḥvāli
+         <lb/><choice><sic>işidikde</sic> <corr>işiddikde</corr></choice> ḳralıñ şābḳası başına dār olub
+         <lb/>ol keşīşi kelisāda yoḳlatdı yok. Suʾāl 
+         <lb/>ider ki bu aḥvāl ne şekil oldıki bu keşīş żāyiʿ
+            
+         <pb n="46" facs="#IMG46"/>
+         <lb/>oldı. Cevāb virdiler ki ḳırḳ ādem geldi ve keşīş
+         <lb/>ġāyib oldı.</ab> <ab>Hemān teziyye ʿaḳlı başına geldi. Ol ki
+         <lb/><rs type="place" ref="#mpr13416">Beç</rs>iñ içinden ve kelisādan keşīş çıḳardı. <rs type="place" ref="#mpr13416">Beç</rs>
+         <lb/>elimden <sic>gideçegin</sic> ʿaḳ lım kesdi. Hemān bāzargānıñ
+         <lb/>ġāret olan mālını gendü yanından gönderdi. Ḥālā
+         <lb/><rs type="place" ref="#mpr13416">Beç</rs>de <rs type="place">Lebolştūt</rs> vāroşında ol Ġ āzī Seydī
+         <lb/>Paşanıñ ṣūretini <choice><orig>p</orig><reg>y</reg></choice>apmışdur durur. Başında ḳafesī
+         <lb/>ṣārıḳ ve altun ḥāl ṣorguç iledür. Ammā ol 
+         <lb/>keşīşi öñüne çöktürmiş. Ṣaġ  elinde ḳılıc boynun
+            
+         <pb n="47" facs="#IMG47"/>
+         <lb/>uraṭurur.</ab> <ab> <date calendar="#Hijri" when="1720-05-10">Biñ yüz otuz iki senesi māh-ı
+         <lb/>Receb-i şerīfiñ ikinci</date> Pençşenbe güni <rs type="place" ref="#mpr13416">Beç</rs>den bu ṭarafa
+         <lb/>revāne oldıġı beyān olunur. On beş pāre sefīne
+         <lb/>ile Belġrāda ʿazīmet olundı. <rs type="place" ref="#mpr14676">Ḳarye-i Fişa</rs> sāʿat 2,5.
+            <lb/><rs type="place" ref="#mpr2098">Ḳalʿa-i Yucun</rs> Ṭūna kenārındadur. Ġ āyet nāzik vilāyetdür.</ab>
+     <ab><lb/>Ammā kelisālarınıñ biriniñ içinde bir çatal ḳız vār.
+         <lb/>Bi-emr-i ḫüdā yanlarınıñ ḳaba etlerinden bitişikdür. Anadan
+         <lb/>ṭoġmadur. İkisi yan-be-yandur ve gövde ikidür. 
+         <lb/>Elleri ikişerdür. Ve ikisinün de ikişer ayaġı vardur.
+            
+         <pb n="48" facs="#IMG48"/>
+            <lb/><gap reason="irrelevant" resp="#yy"/><!-- "vardur" was present twice -->İkisi 
+        daḫi başḳa başḳa e<choice><orig>s</orig><reg>s̠ </reg></choice>bāb giyerler.
+         <lb/>Ve ikisi de berāber otururlar ve ḳalḳarlar ve yürürler
+         <lb/>ve söyleşürler. Ve giydikleri elvān reng ammā on
+         <lb/>altışar yaşındadur. Ancaḳ biri ġāyet hüsnā ve biri
+         <lb/>çirkin ve mecẕūbdur. İkisiniñ de aşaġıları bir fistān
+         <lb/>içindedür. Naḳl ile yazma degildür, görüb yazmadur.</ab>
+               
+      <note type="footnote" resp="#yy" xml:id="ftn10">It appears that the twins were siamese twins and they were a popular
+         traveller attraction. <ref target="/o:vipa.tr.hbg.1723#page21">The Austrian secretary C. Driesch recorded a more detailed
+      description of the twins and gave more information about them.</ref></note>
+               
+               
+   <ab>  <lb/>Ve ḳalʿanıñ içinde orta yerinde iki büyük şādırvān
+         <lb/>vardur. Her birinde beşer altışar arṣlan aġzı ṣular
+         <lb/>aḳar ve eṭrāfınıñ yalıñız bir hendegi vardur. İçi daḫi
+            
+         <pb n="49" facs="#IMG49"/>
+         <lb/>ṣudur.</ab> <ab><rs type="place" ref="#mpr14678">Ḳarye-i Gönye</rs> sāʿat 16. 
+            <gap quantity="3" unit="char"/> <rs type="place" ref="#mpr14063">Ḳalʿa-i Ḳomrān</rs> 
+            ziyāde
+         <lb/>siyle nāzik ḳalʿadur. Ve ziyāde ṭob şenligi 
+         <lb/>itdi. Ve Ṭūnanıñ orta yerinde adadur ve büyükdür.
+         <lb/>Ve çoḳ vāroşı vardur ve şenlikdür. <rs type="place">Ḳarye-i Olmārş</rs>
+         <lb/>ḳonaḳ sāʿat 8. <gap quantity="3" unit="char"/> Vīrān köydür.</ab>
+              <ab><rs type="place" ref="#mpr1744">Ḳalʿa-i Ūsṭūrġon</rs> sāʿat 8.
+         <lb/>Dāḫıl olduġumuzda ṭob şenligi itdiler. Ve ṭaşra
+         <lb/>̣̣kalʿasınıñ bir ṭarafı Ṭūna içinde ve iç ḳalʿası ṭaġ
+         <lb/>üzerindedür. Ammā vīrāndur. Ve ṭaşrasınıñ vāroşı
+         <lb/>çoḳdur. Ammā köy mis̠ ālidür. Ve ḳalʿanıñ içi şenlikli
+            
+         <pb n="50" facs="#IMG50"/>
+         <lb/>degildür. Ve baġları ve meyvesi çoḳdur. <rs type="place" ref="#mpr1790">Ḳarye-i Vācīn</rs>
+         <lb/>ḳonaḳ sāʿat 6. <gap quantity="3" unit="char"/> 
+              Maʿmūrdur bināları ve kārgīr degildür.
+                 <note type="footnote" resp="#yy" xml:id="ftn11">Should read <q>“Maʿmūrdur ve bināları kārgīr degildür.”</q></note>
+         <lb/>Ḳarşusına ḳonuldı. Ve düz yerdedür. Ḳoca Seydi
+         <lb/>Paşa yarım sāʿat yerde şehīd düşmişdür.</ab>
+               <ab><lb/><rs type="place" ref="#mpr7448">Ḳalʿa-i Budim</rs> 
+              ḳonaḳ sāʿat 6. İki gün oturaḳ
+         <lb/>oldu. Dāḫl olunduḳda ziyāde ṭob şenligi
+         <lb/>itdiler ve büyük ḳalʿadur. <sic>Çenglerde</sic> vīrān olmışdur.
+         <lb/>İçerüsiniñ evleri daḫi vīrāndur. Nemçe iʿtibār idüb
+         <lb/>taʿmīr itmemişdür ve yüksek yere yapılmışdur. Ammā Ṭūna
+            
+         <pb n="51" facs="#IMG51"/>
+         <lb/>semtine ḳalʿadan başḳa dīvār çeküb Ṭūnaya indürüb
+         <lb/>ve Ṭūna içinde ḳulle yapılmışdur. Ammā virān olmışdur.
+         <lb/>Varoşı büyükdür. Ve maʿmūrdur. Ve yedi <sic>ılıçası</sic> 
+         <lb/>vardur. Ve büyükdür. İkisiniñ ḥavżınıñ büyüklügi
+         <lb/>ḳırḳ adımdur. Ve biriniñ dört ḫalveti var. Dördünde
+         <lb/>de birer ḥavuż vardur. Ve baġları ve meyvesi ziyādedür.
+         <lb/>Ve ḳarşusında bir ḳalʿa vardur. Peşte derler. Büyük ḳaṣ abadur.
+         <lb/>İki cāmiʿ-i şerīfi var. Mināreleriñ külāhından yıḳmışlardur.
+         <lb/>Ve iki gün daḫi oturaḳ olundı.</ab> <ab><rs type="place" ref="#mpr14605">Ḳarye-i Aṭon</rs> Türkce
+
+         <pb n="52" facs="#IMG52"/>
+            <lb/><rs type="place">Cānḳurtaran</rs> sāʿat 12. Bir küçük ḳaryedür. Düz yerde<lb break="no" rend="#shy"/>dür. Merḥūm <rs type="person" ref="#mpr11015">Sulṭān Süleymān</rs> <rs type="place" ref="#mpr13416">Beç</rs>den bozulub gelürken
+         <lb/>ḳonmış sūʾal buyurmışlar ki ardımızdan Nemçe ʿaskeri
+         <lb/>geliyor mu. Cevāb virmişler ki gelmiyor. El-ḥamdü li-llāhi teʿālā
+         <lb/>cānımız ḳurtuldı dimişler. Andan Cānḳurtaran 
+         <lb/>ḳalmış.</ab> <ab><rs type="place">Ḳarye-i Ḳudvār</rs> sāʿat 7,5. Büyük ḳaryedür. <rs type="place" ref="#mpr14697">Ḳarye-i
+         <lb/>Yāfes</rs> sāʿat 6. Küçük ḳaryedür ve bāġları çoḳdur.
+         <lb/><rs type="place">Ḳarye-i Ṭolnā</rs> sāʿat 7,5. Büyük ḳaryedür.
+            <rs type="place" ref="#mpr2062">Ḳaṣaba-i Bāya</rs>
+         <lb/>sāʿat 8,5. Güzel ḳaṣabadur. 
+            <rs type="place" ref="#mpr14695">Ḳarye-i Vörīşmārtirīn</rs>
+            
+         <pb n="53" facs="#IMG53"/>
+         <lb/>sāʿat 8,5. 
+            <rs type="place" ref="#mpr14685">Ḳarye-i Erteti</rs> sāʿat 12,5. Vīrān ḳalʿadur.
+         <lb/>Ve yüksek yerdedür. 
+            <rs type="place" ref="#mpr14653">Ḳalʿa-i Bulġovār</rs> sāʿat 4. 
+            <rs type="place" ref="#mpr14701">Ḳalʿa-i <lb/>Īloḳ</rs> sāʿat 5. Vīrān ḳalʿadur. Ammā ṭaşrası
+         <lb/>büyükḳaryedür. Ḳarşusında bir büyük köy vardur.
+            <lb/>Ol vāroşıdur.</ab> <ab><rs type="place" ref="#mpr1775">Ḳalʿa-i Vardin</rs> [Petrovaradin] sāʿat 6.
+         <lb/>Dāḫıl olunduḳda ziyāde ṭob şenligi itdiler.
+         <lb/>Büyük ḳalʿadur. Ve yüksek yere yapılmışdur. Ve bir ṭarafı
+            <lb/>Ṭūna kenārındadur. Ve ḳara semtinde üç ḳat ḫendegi
+            <lb/>vardur. Ṭaşra ḫendeginiñ enligi on üç adımdur.
+            
+         <pb n="54" facs="#IMG54"/>
+            <lb/>Orta ḫendeginiñ enligi on ṭokuz adımdur. Ḳalʿa
+            <lb/>dīvārınıñ dibindeki ḫendegi yigirmi üç adımdur.
+         <lb/>Ve ḳapudan içeri girdikde ḍ īvārıñ ḳalınlıġı elli
+         <lb/>ṭoḳuz adımdur. Ve zīyāde metīn ḳalʿadur. Ve hendekleri
+         <lb/>içinde müceddeden ṭābyaları yapılmışlardur. Ve çoḳ laġımları
+         <lb/>vardur. Ve ḳalʿanıñ içinde bir dükkān yoḳdur. Ve şenlik
+         <lb/>degildür. Hemān gendü ʿaskerinden bir miḳdār solṭat
+         <lb/>vardur. Ḳumandānıyla oturur. Ve ʿasker-i İslām
+         <lb/>ḳonduġu semti ḥālā taʿmīr ideyor ve Türk(?) Aḥmed Paşanıñ
+            
+         <pb n="55" facs="#IMG55"/>
+         <lb/>şehīd düşdügi semte müceddeden bir büyük ṭābya
+         <lb/>yabub taʿmīr iderdi. Ve ṭaşra ḳalʿası Ṭūna dibinde<lb break="no" rend="#shy"/>dür. Ve Ṭūna içinden iki ṭābyası vardur. Vāroşı
+         <lb/>Ṭūnanıñ ḳarşu ṭarafındadur. Çarşusı vardur. 
+         <lb/>Ve şenlikdür. Ve ʿasker-i İslām ḳonduġi yerde bir tekye
+         <lb/>vardur. Gül Baba tekyesi derler. Bāġları ve meyvesi
+         <lb/>çoḳdur.</ab> <ab><rs type="place" ref="#mpr14706">Ḳalʿa-i İslānḳamene</rs> sāʿat 6. Ġ āyet ile vīrān
+         <lb/>ḳalʿadur. Ve köy olmışdur. Ve bir mināresi var ve ḳarşusında
+         <lb/><unclear reason="illegible">Titele</unclear> Ḳalʿası vardur. Ol daḫi vīrān olmışdur.
+            
+         <pb n="56" facs="#IMG56"/>
+            <lb/>Ve öñünden Tīsa ṣuyı aḳar <rs type="place" ref="#mpr14706">İslānḳamene</rs> öñünde 
+            <lb/>karışur. Andan <rs type="place" ref="#mpr9425">Belġrad</rs>a gelindi. Tekrār <rs type="place" ref="#mpr9425">Belġrad</rs>
+         <lb/>ḳalʿasından ziyāde ṭob şenligi itdiler. Baʿdehū
+         <lb/>ḳaradan bu ṭarafa ʿazīmet olındı. Veʾs-selām.
+         <lb/>Taḥrīren fī sene <date calendar="#Hijri" when="1726-01-28">24 <choice><abbr>Cā</abbr> <expan resp="#yy">Cemaziyülevvel</expan></choice> 
+            1138</date></ab>
+         
+         
+         </div>
+      
+      <div type="translation" xml:lang="en" xml:id="vipa.tr.osm-transl">
+            <ab>Report on the departure of his excellency ambassador <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> from Istanbul
+               on March 23, 1719 and his journey to <rs type="place" ref="#mpr13416">Vienna</rs> with the details of the individual
+               stations on the road. <list type="itinerary">
+                  <item rend="column1"><rs type="place" ref="#mpr14055">Istanbul</rs> to <rs type="place" ref="#mpr14060">Adrianople</rs> 44 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14578">Mustafa Paşa (The Mustafa Pasha Bridge/Старият мост, Bulgaria)</rs>  station, 6
+                     hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14580">Harmanlı (Харманли, Bulgaria)</rs> station,
+                     6 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14582">Uzuncaova (Узунджово, Bulgaria) </rs>
+                     station, 4 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14584">Semizce (?, Bulgaria)</rs> station, 2,5 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14586">Ḳayalı (Varbitsa/Върбица, Bulgaria)</rs> station,
+                     2,5 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14576">Babaslı (Popovitsa/Поповица, Bulgaria)</rs> station,
+                     5 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr9442">Filibe (Plovdiv/Пловдив, Bulgaria)</rs> station, 5
+                     hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14588">Tatarpazarcığı/Tatar Pazarcık (Pazardzhik/Пазарджик, Bulgaria)</rs>
+                     station, 6 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14590">Yenimahalle (?, Bulgaria)</rs> station, 5 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14296">İhtiman (Ihtiman/Ихтиман, Bulgaria)</rs> station, 6
+                     hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14592">Yenihan/Yenikhan (Novi Han/Новихан, Bulgaria)</rs> station, 5
+                     hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr10977">Sofya (Sofia/София, Bulgaria)</rs> station, 5
+                     hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14594">Halkalı (Slivnitsa/Сливница, Bulgaria)</rs> station,
+                     6 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14596">Sarı Burt/(Tsaribrod/Цариброд; present-day
+                        Dimitrovgrad/Димитровград, Serbia)</rs> station, 4 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14598">Şarköy [Şehirköy] (Pirot/Пирот, Serbia)</rs> station, 4
+                     hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14600">Akbalanka/Akpalanka (Bela Palanka/Бела Паланка, Serbia )</rs>
+                     station, 4 hours</item>
+                  <item rend="column2"><rs type="place">Bane (?, Serbia)</rs> station, 4 hours</item>
+                  <item rend="column3"><rs type="place" ref="#mpr14602">Niş (Niš/Ниш, Serbia)</rs> station, 2
+                     hours</item>
+               </list></ab>
+            <ab><date calendar="#Hijri" when="1719-05-08">On the eight day of
+               Cemāz̠īyüʾl-āḫir</date>, [we] entered <rs type="place" ref="#mpr14602">Niš</rs>. We camped outside of the town in tents
+               and stayed there for 36 days. [At that time,] the former agha of the janissaries, his
+               excellency the illustrious Vizier <rs type="person" ref="#mpr10441">Abdallah Pasha</rs> 
+               – who was the governor of <rs type="place" ref="#mpr14238">Rūmili</rs>
+               – was located in <rs type="place" ref="#mpr14602">Niš</rs>
+               with all of his provincial troops.
+               However, he was not residing inside the fortress. [He] camped with his provincial 
+               troops outside of the fortress. He and <rs type="person" ref="#mpr14276">the ambassador pasha</rs> were in contact with each other.</ab>
+         
+         <ab>Before <rs type="person" ref="#mpr14276">the ambassador pasha</rs> entered <rs type="place" ref="#mpr14602">Niš</rs>,
+               a few cases of plague had occurred
+               there; he entered the town after that. The reason why his excellency <rs type="person" ref="#mpr14276">the ambassador
+                  pasha</rs> resided in <rs type="place" ref="#mpr14602">Niš</rs> for thirty-six days was that the ambassador of the Austrian
+               Emperor <rs type="person" ref="#mpr9399">Charles</rs> had not yet set out from <rs type="place" ref="#mpr13416">Vienna</rs>
+               - that’s why we lodged there.<ref target="#ftn1" type="note_reference"/>
+            <!--<note type="footnote" resp="#yy"><ref target="/o:vipa.tr.hbg.1723#page1">The departure
+               audience of the Austrian grand ambassador Virmont</ref> took place on April 26, 1719.
+               However, the departure of the mission from Vienna was delayed 
+               for more than three weeks, <ref target="/o:vipa.tr.hbg.1723#page15">as recorded by the Austrian mission’s
+                  secretery C. Driesch.</ref></note>-->
+               
+               <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> and <rs type="person" ref="#mpr14276">the ambassador pasha</rs>
+               dispatched the steward of the Rumelian provincial
+               ushers to <rs type="place" ref="#mpr9425">Belgrade</rs> to bring news of the <rs type="person" ref="#mpr9435">aforementioned [Austrian]
+                  ambassador</rs>. On the
+            day <rs type="person" ref="#mpr9435">the ambassador</rs> arrived in <rs type="place" ref="#mpr9425">Belgrade</rs> from
+            <rs type="place" ref="#mpr13416">Vienna</rs> in fourteen days with
+               his equipments on eighty-five ships, the aforementioned steward brought the
+               news to the pashas in <rs type="place" ref="#mpr14602">Niš</rs> through a courier that the ambassador had arrived in
+            <rs type="place" ref="#mpr9425">Belgrade</rs>.</ab>
+         
+            <ab><date calendar="#Hijri" when="1719-06-12">On the twenty-fourth day of the great
+                  month of Receb</date> [we] set out from <rs type="place" ref="#mpr14602">Niš</rs>. 
+               His excellency <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> was
+               instructed with an imperial order to take his provincial troops situated at
+               <rs type="place" ref="#mpr14602">Niş</rs> - four of the
+               janissary companies, an artillery company, and ten cannons - and to go to the border
+               together with <rs type="person" ref="#mpr14276">the ambassador pasha</rs>, and have the ambassadors meet each other and to
+               be present at their meetings. He took the aforementioned soldiers and <rs type="person" ref="#mpr14276">the ambassador</rs>
+               with him and moved to the border.</ab>
+         
+            <ab><list>
+                  <item rend="column2"><rs type="place">Kanlıḳavak (?, Serbia)</rs> station, 2 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr1532">Aleksinse (Aleksinac/Алексинац, Serbia)</rs> station,
+                     4 hours</item>
+               <item rend="column2"><rs type="place" ref="#mpr14612">Racne/Raçne (Ražanj/Ражањ, Serbia)</rs> station, 4
+                     hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14607">Parakin/Parekin (Paraćin/Параћин, Serbia)</rs> station, 6
+                     hours</item>
+            </list> At a location in between and three hours from both of <rs type="place" ref="#mpr14612">Ražanj</rs>
+               and <rs type="place" ref="#mpr14607">Paraćin</rs>, his
+               excellency the former chief treasurer, <rs type="person" ref="#mpr14614">Sarı Mustafa Pasha</rs>, erected three stones
+               representing the border between the two states. [We] set out from <rs type="place" ref="#mpr14612">Ražanj</rs> and advanced
+               to the border stones. 
+               
+               One hour before from the meeting point, at the location known
+               as the <rs type="place">Kınalıoğlu Farm</rs>, his excellency
+               <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> had canopies and tents set up
+               for <rs type="person" ref="#mpr9435">the Austrian ambassador</rs>. [We] stopped here for an hour. A man was dispatched to
+               report to <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> that he should come to the border. It was reported
+               that <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> had arrived. As the musical band played, the two pashas
+               advanced to the border stone. <rs type="person" ref="#mpr14276">The ambassador pasha</rs> had a tent set up on this side of
+               the border stone and near it. The two pashas dismounted at the same time and they sat
+               down. The Austrian ambassador also dismounted on their side of the border at a spot
+               close to the border stones and he dispatched three unbelievers to the pashas. They
+               came and met [the pashas] at the canopy, saying:</ab>
+         
+            <ab><q>“Our ambassador asks for news that you have come.”</q> For their part, [the two pashas]
+               sent the chief steward of Rumelia along with the chief steward of the ambassador
+               pasha to the the Austrian ambassador to ask if he had already come. The departed men
+               returned and said: <q>“Please come; the ambassador mounted and is coming to the border
+               stone.”</q> <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> left the ambassador
+               <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> at the canopy and mounted on
+               his horse. He marched to the border as his band played and pulling behind
+               him all of his provincial retinue, and [further behind] the janissary companies and
+               ten pieces of artillery.</ab>
+         
+            <ab><rs type="person" ref="#mpr14242">Abdallah Pasha</rs> was the commander-in-chief [on the Ottoman side]. On the Austrian
+               side, the Belgrade General <rs type="person" ref="#mpr14241">O’Dwyer</rs> [Count John
+               O’dwyer/ Oduyer] was appointed the Austrian commander-in-chief over <rs type="person" ref="#mpr9435">the Austrian
+               ambassador</rs>. He also came by mounted, leaving his ambassador behind where they settled
+               (on their side of the border). The commander-in-chief[s] had nearly 15,000 troops.<ref target="#ftn2" type="note_reference"/>
+                  
+               <!--<note type="footnote" resp="#yy">Based on this sentence, it is not clear if there were 15,000 troops on each side or if
+                  that was the total number of troops. In another passage below,
+                  the author states that there were 15,000 troops on the Ottoman side.</note>-->
+               
+                  <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> came by the
+               border stones on our side, while the Austrian came by the border stone on their
+               side.</ab>
+         
+            <ab>The border stones are three erected stones which are forty paces apart. Both men
+               were still mounted on horses. <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> looks at the Belgrade General <rs type="person" ref="#mpr14241">O’Dwyer/Oduyer</rs> for him to get off his horse, while <rs type="person" ref="#mpr14241">O’Dwyer/Oduyer</rs> looks at <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> for him to get off
+               his horse. The Belgrade general finally grew impatient and prepared to get off his
+               horse before his excellency <rs type="person" ref="#mpr14242">Abdallah Pasha</rs>. 
+               Afterwards <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> too got ready
+               to do the same. However, the general moved so quickly to pull
+               [his] foot out of the stirrup [that] both of them dismounted at the same time.
+               <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> walked from the stone on our side
+               to the one in the middle and General <rs type="person" ref="#mpr14241">O’Dwyer/Oduyer</rs>
+               also walked [to the same point] from the stone on his side. Both met at the center stone,
+               shook hands, sat down, and held their ambassadorial meetings.<ref target="#ftn3" type="note_reference"/><!--<note type="footnote" resp="#yy"><ref target="/o:vipa.tr.hbg.1723#page48">For a detailed 
+                  account of the embassy exchange on June 15, 1719</ref>, see pages 51-56 in Driesch.</note>--></ab>
+         
+         
+         
+            <ab><date calendar="Hijri" when="1719-06-15">It was Thursday, the 27th day of the
+                  sublime month of Rajab</date>. The weather was exceedingly nice and sunny. After
+               their friendly conversation, <rs type="person" ref="#mpr14242">Abdallah Pasha</rs>
+               sent a message to the ambassador <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> 
+               to honor the [exchange location]. <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> put on a ceremonial turban,
+               attached an aigrette to it and mounted on horseback from the canopy. As his band
+               played and the aghas of the inner court followed behind him in a procession, he
+               advanced to the border stone. As <rs type="person" ref="#mpr9435">the Austrian ambassador</rs>, too, mounted on horseback
+               from his side of the border and approached to the border stone while drums were
+               being played, the weather changed by the will of the Almighty God. When the two
+               ambassadors came to the stones, it started drizzle.</ab>
+         
+            <ab>They did not yet get off their horses and looked at each other to see who should get
+               off first. At last, the Austrian ambassador grew impatient and prepared to get off
+               his horse first. Then, our ambassador <rs type="person" ref="#mpr14276">Ibrahim</rs> 
+               got ready to do the same. Finally, both [of them]
+               dismounted from [their] horse[s], but the Austrian ambassador was so much
+               quicker than to pull [his] foot out of the stirrup. Both came forty steps
+               forward, met at the stone in the middle and shook hands. Our commander-in-chief,
+               <rs type="person" ref="#mpr14242">Abdallah Pasha</rs>, and the Austrian commander-in-chief,
+               the Belgrade <rs type="person" ref="#mpr14241">General O’Dwyer</rs>
+               were standing on their feet. They stood still along with the ambassadors and they all sat down
+               forming a square.</ab>
+
+         <ab>Suddenly a heavy downpour of rain fell, as if it were being emptied from a cup. It
+               eventually stopped. The four of them sat down and began to discuss peace issues.
+               After both parties gave their answers, the rain also let up. While they were
+               discussing the peace issues, the luggage of our soldiers was piled up next to the
+               [border] stone on our side so that they could stay there. Not a single man crossed
+               over to the other side. The Austrian soldiers with all their equipments gathered
+               by the border stone and stayed there. None of them crossed over to this side either.
+               After <rs type="person" ref="#mpr14242">Abdallah Pasha</rs>, 
+               the ambassador <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs>,
+               <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> and the
+               Belgrade General <rs type="person" ref="#mpr14241">O’Dwyer</rs> had finished the peace
+               deliberations, permission was given to both parties.</ab>
+         
+            <ab>As a sign of joy, our troops fired a volley of rifle shots. There were about 15,000
+               troops. A volley of ten cannon shots was fired. A volley of rifle shots was
+               fired also from the Austrian side as well as a volley of ten cannon shots.
+               Thereafter, on both sides, a volley of two rifle shots and a volley of cannon shots
+               were fired. Next, his excellency <rs type="person" ref="#mpr14242">Abdallah Pasha</rs> held in his hand the hand of
+               ambassador <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs> and said
+               to the Belgrade General <rs type="person" ref="#mpr14241">Uṭvār</rs>: <q>“This is the grand ambassador of the emperor of
+               the House of Osman [Ottomans]. He is sent so that there may be peace and righteusness. If God,
+               may his name be exalted, wills it, I want him back from you safe and sound at his return
+               at this point.”</q> And the aforementioned <rs type="person" ref="#mpr14241">general</rs> took in his hand the hand of his
+               <rs type="person" ref="#mpr9435">ambassador</rs> [and said]: "This is an intimate friend of the
+               <rs type="person" ref="#mpr9399">Austrian emperor</rs>
+               - which, not to make a comparison, means <supplied resp="#yy"><foreign xml:lang="ota">padişah</foreign></supplied>
+               in the Austrian (German) language - and I too demand him from you again at this point." Then he handed over the
+               ambassador to his excellency <rs type="person" ref="#mpr14242">ʿAbdallah Pasha</rs>.<ref target="#ftn4" type="note_reference"/></ab>
+               
+               <!--<note type="footnote" resp="#yy">Throughout the travelogue, the anonymous Ottoman author
+                  used the words <foreign xml:lang="tr">çāsār</foreign>(caesar) and <foreign xml:lang="tr">ḳral</foreign>(king)
+                  interchangeably when referring to the Austrian emperor. In the English
+                  translation of the Turkish text, I used the word emperor when translating
+                  the word <foreign xml:lang="tr">çāsār</foreign>, instead of the more literal <foreign xml:lang="lat">caesar</foreign>
+                  which would have been confusing. When the Turkish text used the word <foreign xml:lang="tr">ḳral</foreign>, I translated 
+                  that as <foreign xml:lang="en">king</foreign>.
+                  
+                  It is notable that in the travelogue this is the only passage where the word
+                  <foreign xml:lang="de">ḳayzer</foreign>(kaiser) appears and the author cautiously distinguishes himself from 
+                  the Habsburg commander of Belgrade who referred to the Austrian monarch as <foreign xml:lang="de">ḳayzer</foreign>.
+                  The anonymous author’s apologetic tone when providing the translation of the word as <foreign xml:lang="tr">pādişāh</foreign>
+                  (<q><foreign xml:lang="tr">lā-teşbīh Nemçe lisānınca pādişāh dimekdür</foreign></q>)
+                  shows that the Ottoman tradition of rejecting rhetorical
+                  parity between the Ottoman and Austrian rulers since the sixteenth century, by using
+                  the word <foreign xml:lang="de">ḳayzer</foreign> only as a sultanic title, was still practiced by the mid-1720s
+                  when the travelogue was penned. In all other instances where 
+                  Emperor Karl VI is mentioned in the travelogue, he is referred to
+                  as <foreign xml:lang="tr">ḳral</foreign>, or king.</note>-->
+         
+            <ab>Thereafter, permissions were given for the transfer of luggages. Our luggage
+               crossed to the Austrian side and territory while the equipments of the Austrians
+               crossed to our side of the border. <rs type="person" ref="#mpr14242">Abdallah Pasha</rs>
+               took the <rs type="person" ref="#mpr9435">Austrian ambassador</rs> and
+               brought him over and the <rs type="person" ref="#mpr14241">Belgrade General</rs> 
+               took our ambassador, <rs type="person" ref="#mpr14276">Ibrahim Pasha</rs>, to the
+               aforementioned town of <rs type="place" ref="#mpr14612">Paraćin</rs> where the general also spent the night. In the
+               morning, the general appointed a comissary. The word comissary (<supplied resp="#yy"><foreign xml:lang="tr">ḳomsār</foreign></supplied>) means
+               provisions supervisor. The <rs type="person" ref="#mpr14241">Belgrade General</rs> also appointed four hundred cavalrymen
+               [to escort us]. He then went to Belgrade on horseback with his troops. The comissary
+               took the four-hundred cavalrymen and [we] set out for Vienna.</ab>
+            <ab><list>
+               <item rend="column2"><rs type="place" ref="#mpr14609">Yagudine/Yagudina (Jagodina/Јагодина, Serbia)</rs> station, 4 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14615">Devebağırdan/Deve Bağırdan (Bagrdan/Багрдан, Serbia)</rs> station, 5 hours</item>
+               <item rend="column2"><rs type="place" ref="#mpr14617">Paṭçine (Batočina/Баточина, Serbia)</rs> station, 6 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14619">Hasanpaşa Palankası (Smederevska Palanka/Смедеревска Паланка, Serbia)</rs> station, 4
+                     hours</item>
+               <item rend="column2"><rs type="place">Kular (Kolari/Колари, Serbia)</rs> station, 4
+                     hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14634">Hisarcık (Grocka/Гроцка, Serbia)</rs> station, 4 hours</item>
+               <item rend="column2"><rs type="place" ref="#mpr9425">Belgrad (Belgrad/Београд, Serbia)</rs> station, 4 hours</item></list>
+               
+               As we entered <rs type="place" ref="#mpr9425">Belgrade</rs>, the aforementioned <rs type="person" ref="#mpr14241">General O’Dwyar</rs> organized such a
+               progression that it is impossible to describe it: Cavalarymen were seperate and foot
+               soldiers were seperate [and impressive] and he also had a [welcome] rejoicing
+               displayed via a volley of one-hundred and sixty cannon shots fired from the fortress.
+               And he had the [embassy convoy] encamped in the cemetery in the direction of the
+               market on the Sava [River].</ab>
+         
+            <ab>He had all the cemetery stones removed and brought to the fortress. The Sava River
+               side of the fortress had been bombed and destroyed in the war. Yet he made it highly
+               resistant and fortified again, and repaired the rest of the destroyed parts. However,
+               he does not allow a single subject to enter the fortress but warriors; he also
+               placed guards in the fortress trenches and other places who would not let anyone pass
+               and were very vigilant. From above, he had eight galleons brought down which
+               stood opposite the fortress on the Danube. The houses and shops on the Danube
+               side have all been turned into wine taverns. The shops on the Sava market conduct the
+               same trade as before while the poor peasants are weakened and oppressed by the hands
+               of the Austrians. Some mosques in the fortress were turned into barracks and some
+               into ammunition depots. Their minarets are still standing, but they knocked off the
+               spire of a minaret and turned it into a clock tower. The clock still rings. The
+               hammams are still there, too, but they have been turned into residential buildings.
+               Only one hammam has been preserved and it is still in operation. We stayed 
+               for four days.</ab>
+         
+            <ab>Opposite from Belgrade is <list>
+               <item rend="column2"><rs type="place" ref="#mpr9422">Zemin (Zemun/Земун, Serbia)</rs> station, 12 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14641">Yanofca (Stari Banovci/Стари Бановци(?), Serbia)</rs> station, 22 hours</item>
+               <item rend="column2"><rs type="place">Devironse (Dobrinci/Добринци, Serbia)</rs> station, 5 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14647">Şaşansi (Šašinci/Шашинци, Serbia)</rs> station, 3 hours</item>
+               <item rend="column2"><rs type="place" ref="#mpr14649">Laçark (Laćarak/Лаћарак, Serbia)</rs> station, 3 hours</item>
+               <item rend="column1"><rs type="place" ref="#mpr14651">Tuvarnik (Tovarnik, Croatia)</rs> station, 7 hours</item>
+               <item rend="column2"><rs type="place" ref="#mpr14653">Kale-i Bulgovar/Bulgovar Kalesi (Vukovar, Croatia)</rs> 
+                  station, 4 hours</item></list>
+               
+               Vukovar is a desolate fortress with no life inside. The suburb outside of it
+               is large, has a market, and there is also fruit. <list>
+                  <item rend="column2"><rs type="place" ref="#mpr2046">Fortress Osijek</rs> station, 6 hours</item>
+               </list> When we entered the fortress, they displayed a [welcome] rejoicing via firing
+               a volley of one-hundred cannon shots. If one asks about the state of construction of the
+               fortress, it is very strong and well-maintained and is situated on a high ground.
+               Outside on three sides, they are building new entrenchments. A large river flows by
+               on one side, it is called Drava. There is a triple ditch there. The width of the outer
+               trench is sixty-two paces and that of the inner ditch is one-hundred sixty-two paces.
+               The inner wall of the fortress gate is twenty-two paces thick. It is made of brick
+               and is very strong. Its houses are made of stone and the villages around them are
+               flourishing.</ab>
+            <ab>
+               <list>
+                  <item rend="column1"><rs type="place">Darde (Dárda, Croatia)</rs> station, 2 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14657">Briyevar (Branjin Vrh, Croatia; Hungarian: Baranyavár)</rs> station, 6 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14655">Mohaç Ovası (Mohács, Mohács Plain, Hungary)</rs> station, 6,5 hours</item></list>
+               
+               With <date type="#Hijri" when="1719-07-18">the beginning of the holy month of Ramadan</date> [we came to the] 
+               <list><item><rs type="place" ref="#mpr14662">Kala-i Seçuy, Seçuy Kalesi (Dunaszekcső (Szekcsö Fortress), Hungary)</rs>
+                  station, 6,5 hours</item></list> 
+               Szekcsö Fortress is a destroyed and uninhabited fortress.
+               At a short distance outside of it, however, there
+               are houses which form a village.
+               
+               <list><item><rs type="place" ref="#mpr14664">Batosek (Bátaszék, Hungary)</rs> station, 3,5 hours</item>
+                  <item><rs type="place" ref="#mpr14666">Kala-i Seksar / Seksar Kalesi (Szekszárd Fortress, Hungary)</rs> station, 5 hours</item></list>
+               Szekszárd Fortress is partially ruined and it has a few houses inside it which are there to be opened
+               and closed. But there are many houses in good condition outside the fortress.</ab>
+            <ab>
+               <list>
+                  <item rend="column1"><rs type="place">Medina (Hungary)</rs> 5 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr14668">Şimatorne (Simontornya, Hungary)</rs> station, 2 hours</item>
+                  <item rend="column1"><rs type="place">Şanise (Šanisa, Hungary)</rs> station, 6 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr7795">Kala-i İstolnibelgrad (Székesfehérvár, Hungary)</rs> 4
+                     hours</item>
+               </list> When we entered inside the fortress, many cannon volleys were fired. It is a
+               strong fortress. The moat on the four sides is wide and filled with water and
+               contains reeds. It is extremely steep. There are drawbridges in front of their
+               gates.</ab>
+            <ab>
+               <list>
+                  <item rend="column2"><rs type="place">Mór village (Hungary)</rs> station, 5 hours</item>
+                  <item rend="column1"><rs type="place" ref="#mpr14281">Karye-i Asar (Ászár Village, Hungary)</rs> station, 5 hours</item>
+                  <item rend="column2"><rs type="place" ref="#mpr7798">Kale-i Yafek (Győr, Hungary; German: Raab; in Turkish also Yanıkkale)</rs>
+                     5 hours</item>
+               </list> As we entered inside the fortress, a [welcome] rejoicing was displayed via a
+               volley of hundred and fifty cannon shots. It is an extremely strong, well-fortified,
+               and large fortress. Its buildings are made of stone and in good condition. Each of
+               the houses is like an entrenchment (or pallisade). It has churches inside. In a large
+               church there is an organ which the priests play. The construction of the fortress is
+               quite strong. It has a triple moat. Large amount of water flow in all three. One of
+               them is connected with the Danube, while the other two are connected with different
+               waterways both of which are equally large rivers. The thickness of the fortress wall
+               is 18 paces. With the exception of Belgrade, we entered inside aforementioned
+               fortresses and inspected them, and the officers did not prevent it.</ab>
+         
+               <ab><list><item><rs type="place" ref="#mpr14674">Sad Nikola (Mosonszentmiklós, Hungary; in German: Sankt Niklas bei Leiden)</rs>,
+                  3 hours</item> 
+                  <item><rs type="place" ref="#mpr9417">Altikörk (Mosonmagyaróvár, Hungary; German: Ungarisch-Altenburg)</rs> station, 4 hours</item>
+                  <item><rs type="place" ref="#mpr14280">Tabçantor (Deutsch Jahrndorf, Austria; Hungarian: Németjárfalu)</rs> station, 4 hours</item></list>
+                  In the Austrian (German) language, <foreign xml:lang="de">Deutsch</foreign> means <foreign xml:lang="tr">Nemçe</foreign>
+                  (Austria) and <supplied resp="#yy"><foreign xml:lang="de">Tor<choice><reg>f</reg><sic>ḳ</sic></choice></foreign></supplied>
+                  means <foreign xml:lang="en">village</foreign>. 
+            <list><item><rs type="place" ref="#mpr5045">Kala-i Burk/Burk Kalesi (Bruck an der Leitha, Austria)</rs></item></list> station, 4 hours. 
+            It is a small and weak fortress with two gates.
+            <list><item><rs type="place" ref="#mpr1778">Şiveket (Schwechat, Austria)</rs> station, 6 hours</item></list>.
+            It is a residence of the king and has a lot of houses. There is also a royal palace, but
+            no one lives inside of it except a guard. We went inside and took a tour. 
+                  <rs type="place" ref="#mpr13417">Vienna Fortress (Austria)</rs> station, 2 hours. After we entered
+                  <rs type="place" ref="#mpr1778">Schwechat</rs>, we stayed there for four days.</ab>
+         
+         <ab>On Monday, <date type="Hijri" when="1720-08-14">the twenty-eight day of the holy month of Ramadan</date>,
+            we were scheduled to enter the fortress of <rs type="place" ref="#mpr13416">Vienna</rs> with a parade. [For the entrance ceremony] fifty
+               musketeers were appointed from among the janissaries of the imperial court. One day
+               before, on Sunday, the following message came from the <rs type="person" ref="#mpr9399">Austrian emperor</rs>:
+            <q>“The musketeers shall march behind his excellency pasha and they shall not point [the
+               muzzle of] their muskets upwards and point [the muzzle] downwards. We will appoint
+               Austrian musketeers to march behind the pasha. Further behind them shall march the
+               [Ottoman] musketeers pointing [the muzzle of] their muskets downwards.”</q> That was the
+               message that came. The musketeers replied as follows: <q>We will not part with the
+               Pasha and we will not hold the (muzzle of) our rifles downwards.</q> They also said: <q>We
+               will march like the others in the train.</q> Finally, from their side, Austrian
+               [musketeers] were sent. They came early on Monday morning and the ceremonial train
+               was prepared. His excellency <rs type="person" ref="#mpr14276">pasha</rs> put on a ceremonial turban, pinned on it an
+               aigrette, and mounted [on his horse]. The musketeers marched pointing their rifles up.
+               The aghas of the inner court marched behind them. After all, the miserable infidels
+               and the emperor had organized such [s]parade that they wanted it to be unprecedented;
+               with such parade we entered <rs type="place" ref="#mpr13417">Vienna</rs>. Our provisions were (regularly delivered) by the
+               aforementioned comissary.</ab>
+               
+               
+         
+            <ab>Finally, on Monday, the twenty-eight [the Ottoman ambassador] went to give the
+               <rs type="person" ref="#mpr9399">emperor</rs> the sultanic letter dispatched by the
+               <rs type="person" ref="#mpr14244">Ottoman emperor</rs>, the refuge of the
+               world.<ref target="#ftn5" type="note_reference"/>
+               
+               <!--<note type="footnote" resp="#yy">Here, the author did not specify the month,
+                  but the given day was also wrong. 
+                  Based on the flow of the text, the month must have been either Ramadan or Şevval.
+                  However, the 28th of neither Ramadan nor Şevval correspond to the correct date of the
+                  audience with the emperor, which took place on September 4, 1719, 
+                  <ref target="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=17190902&amp;seite=2">
+                     as reported on the 1679th volume of Wienerisches Diarium</ref>. (See the second page.)</note>  
+-->               
+               On that day, too, there was a very solemn procession and the order of train
+               was as follows: At the front [marched] the Austrian musketeers and behind them the
+               members of the court and the volunteers, followed by the chief steward and further
+               behind the gifts and presents of the glorious [Ottoman] emperor, the refuge of the
+               world, then the treasurer agha and the key keeper agha, behind them the head of the
+               tent pitchers with his people, then the aghas of the the imperial court ushers, then
+               the bearded aghas, then the reserve horses of <rs type="person" ref="#mpr14276">the [ambassador] pasha</rs>, then the
+               [legation] interpreter and the chief of gatekeepers, and behind his excellency the
+               ambassador pasha.</ab>
+         
+            <ab>A special carriage had come from the <rs type="person" ref="#mpr9399">king</rs> and the pasha rode in this carriage,
+               [followed] behind by the musketeers and further behind by the aghas of the inner
+               court; [the train] went to the <rs type="person" ref="#mpr9399">king</rs> in this fashion. The sultanic letter dispatched
+               by the <rs type="person" ref="#mpr14244">[Ottoman] emperor</rs>, the refuge of the world, was carried in front of his
+               excellency the <rs type="person" ref="#mpr14276">ambassador pasha</rs>, in the hands of the legation secretary.
+               Finally, they arrived at the imperial palace. The [Ottoman] ushers were instructed
+               not to applaud his excellency, [the ambassador] <rs type="person" ref="#mpr14276">pasha</rs>, and they they did not
+               applaud.</ab>
+         
+               <ab>The <rs type="person" ref="#mpr14276">pasha</rs> got out of the carriage, 
+                  entered [the room] where the <rs type="person" ref="#mpr9399">emperor</rs> was, and the
+                  meeting took place. Along with the <rs type="person" ref="#mpr14276">pasha</rs>, thirteen persons entered [the room where]
+                  the emperor was. The emperor was standing on his feet. His excellency [the] <rs type="person" ref="#mpr14276">pasha</rs> spoke the
+               words that he was to utter, and the emperor’s deputy said: <q>“Agreeble and suitable.”</q>
+               The <rs type="person" ref="#mpr14276">ambassador</rs> handed over the sultanic letter and also mentioned the gifts. The
+               emperor’s deputy responded that [the gifts] should be brought and [the pasha] handed
+               them over. [The emperor did not speak] for it was not customary for the emperor to
+               speak in the presence of the ambassadors. After [the pasha] gave all the answers,
+               handed over the sultanic letter, and delivered the presents, <rs type="person" ref="#mpr14276">he</rs> went outside, got on
+                  the carriage, and in a solemn procession returned to his lodging quarters.<ref target="#ftn6" type="note_reference"/></ab>
+               
+               <!--<note type="footnote" resp="#yy"><ref target="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=17190823">
+                  The Wienerisches Diarium dated August 23, 1719 (no. 1676)</ref> gave a detailed
+                  list of the Ottoman embassy’s parade on the day of the audience.</note>-->
+         
+            <ab>Afterwards, after two days passed, [the ambassador] went to the chief minister,
+               named <rs type="person" ref="#mpr10441">prens</rs> (prince). <foreign xml:lang="tr">Prens</foreign> means <q>“vizier, the owner of the seal.”</q>
+               The ambassador handed over his letters and presents and he came back in a solemn procession. But the
+               so-called <foreign xml:lang="tr">prens</foreign> did not attend the audience with the king; that was not the custom.
+               However, at the palace of <foreign xml:lang="tr">prens</foreign>, the ushers applauded the pasha.</ab>
+               
+               <ab>Now [we] mention the sightseeing inside <rs type="place" ref="#mpr13416">Vienna</rs>. One day, there was festive firing of
+               cannon shots. For what reason do they have festive firing of cannon shots? They
+               organized festivities again on [the emperor’s] birthday. [It was said] that it was
+               the day on which <rs type="person" ref="#mpr11014">Kara Mustapha Pasha</rs> was defeated [following] his arrival to [and
+                  siege of] Vienna.<ref target="#ftn7" type="note_reference"/><!--<note type="footnote"  resp="#yy">The two preceding sentences should replace one
+                  another for narrative coherence.</note>--></ab>
+         
+            <ab>One day the <rs type="person" ref="#mpr14283">emperor’s mother</rs> died. Her body was left for three days without being
+               taken to the tomb. Twelve doctors were appointed who cut and opened her stomach,
+               removed her entrails and filled her stomach with spices. After three days her body
+               was buried <rs type="place" ref="#mpr14285">in the cemetery of a large monastery</rs> located within the Vienna Fortress.
+               Her entrails were also buried <rs type="place" ref="#mpr14284">in the cemetery of another monastery</rs>. The Austrians who
+               talked about it reported it this way, but it is not necessarily a lie. The <rs type="person" ref="#mpr9399">king</rs>
+               mourned deeply and had all of his Austrian inner circle put on black and dark
+               clothes because it was the custom to wrap oneself in black clothes for a year.</ab>
+         
+         <ab>Now the houses of the city of the <rs type="place" ref="#mpr13417">Vienna</rs> fortress are reported: Its buildings are
+               extremely high. They are eight and nine story high and they have basements. They are
+               made of stone, each three and four stories. Now the gates of the fortress are reported.
+               The Red Gate (<foreign xml:lang="de">Rotenturmtor</foreign>), Ungartor
+               (<foreign xml:lang="de">Stubentor</foreign>), Venice Gate (<foreign xml:lang="de">Kärntnertor</foreign>), 
+               Kaiser Gate (<foreign xml:lang="tr">Äußere Burgtor</foreign>?),
+               New Gate (<foreign xml:lang="de">Neutor</foreign>), the Second New Gate (<foreign xml:lang="de">Neue Rotenturmtor</foreign>),
+               the Water Gate (previously located in front of the <foreign xml:lang="de">Neue Rotenturmtor</foreign>),
+               [and] the Old Gate (<foreign xml:lang="de">Schottentor</foreign>?).
+               Only this old gate is closed. The reason for this is that <rs type="person" ref="#mpr11014">Kara Mustapha Pasha</rs>
+               entered through this gate into the city. That’s why it’s closed and fallen into disuse.</ab>
+         
+            <ab>In front of each of the eight gates there are large bastions enclosed by
+               extremely wide, single story entrenchments. The Danube flows at the foot of the fortress. From
+               [a point further upstream] on the Danube, a branch was diverted. The shipyard is also
+               situated on this diverted branch of the Danube.</ab>
+         
+            <ab>The city has a superintendant. The interior of the fortress is extremely busy. The
+               shops are still open 3.5 hours after nightfall. A glass lantern burns on the eaves of
+               each shop, which [make them] look like [the portholes of] a fleet. The gates of
+               the fortress are also open until 3:30. Then they are closed.</ab>
+         
+            <ab>Now the districts of the fortress should be mentioned: the Venetian suburb(?),
+               Leopoldstadt suburb, Hungary suburb (Landstraße?), Mariahilfer suburb,
+               St. Ulrich suburb(?), Kroatendörfel (Kravattendörfel),<ref target="#ftn8" type="note_reference"/> <!--<note type="footnote" resp="#sk"><term>St. Ulrich</term> used to be a separate suburb, now part of the Neubau Bezirk. <term>Kroatendörfel</term> is an older name for the <rs type="place">Spittelberg</rs> area of the same district. For an 1830 map series cf. <ref target="https://commons.wikimedia.org/wiki/Category:Details_of_1830_Vienna_map_series_by_Carl_Graf_Vasquez">Vasquez</ref>. Moreover cf. <ref target="https://www.geschichtewiki.wien.gv.at/Vorst%C3%A4dte">https://www.geschichtewiki.wien.gv.at/Vorst%C3%A4dte</ref>.</note>-->
+               Rossau, Wiesen (Wizin) suburb, [and] Wieden suburb. There are nine suburbs. All of
+               them are magnificent. Every single house resembles a pallisade and is in very good
+               condition. The surrounding villages are in a similar condition.</ab>
+         
+            <ab>One and a half hour on this side [to the east of the city] there is a small fortress
+               called <q>“the pavilion of Sultan Suleiman.”</q> It is an extremely beautiful fortress. It
+               has twenty towers like those of Yedikule (Seven Towers, Istanbul). <ref target="#ftn9" type="note_reference"/>
+               
+               <!--<note type="footnote" resp="#yy">This reference here is to <rs type="place" ref="#mpr14708">Schloss Neugebäude</rs>, allegedly built on the location
+                  where the Ottoman sultan Süleyman the Lawgiver had set up his tent
+                  during the first Ottoman siege of Vienna in <date when="1529">1529</date>.</note>-->
+               
+               It is the
+               emperor’s lion house. He has three lions; two are small and one is large. But the
+               lion that came with us [as a gift] is bigger than the [emperor’s big] lion. Two lions
+               had come with us, but one of them died(?) two stations before [we arrived
+               in] Vienna. [The emperor] also has four tigers; they are ferocious tigers, but they
+               are also very elegant. He also has a few bears, and there is also a bird four times
+               the size of a turkey; it is black and, through God’s omnipotence, his claws grow out
+               of his chest.</ab>
+         
+            <ab> If one asks of the fruits, every kind of fruit can be found except olives. There
+               are young olive trees; they do not bear olives but they bloom. However, they are not
+               like [the olive trees] in Istanbul. And there are many hyacinths – white and double-flowered. There are
+               also beautiful vineyards and gardens.</ab>
+         
+               <ab>We stayed inside the city of <rs type="place" ref="#mpr13416">Vienna</rs> for nine months and five days without a break.
+               [As the end of our stay approached] his excellency the ambassador pasha went [to
+               an audience] to receive the emperor’s letter [to the sultan]. It is reported here: On
+                  <date type="Hijri" when="1720-04-14">Saturday, Cemaziyülahir 5, 1132</date> a
+               carriage came from the emperor. The [pasha] organized his train and rode in the
+               carriage. He again put on a ceremonial turban and went to the imperial palace. The
+               ushers did not applaud him.</ab>
+         
+            <ab>His excellency the pasha entered in [the room where] the emperor was located,
+               accompanied by sixteent attendants. The emperor stood on his feet. The emperor’s
+               deputy responded: <q>“Our peace is true peace with the condition to prevent any breach
+               of it, from whichever side.”</q> His excellency the Ambassador pasha replied: <q>“Agreed!”</q>
+               He then took the letter of the emperor [addressed to the sultan] and handed it over
+               to the legation secretary. The sixteen men from us who had entered [the room where]
+               the king was located, came out of the king’s room. As the ambassador pasha was
+               leaving, the king took off his hat slightly and saluted. Then, [the pasha] came to
+               his residence in a solemn procession. [This time] nothing was given as a gift. <date type="Hijri" when="1720-04-24">On Tuesday, the fifteenth of the aforementioned
+                  month</date> (Cemaziyülahir), [the ambassador] went again in a festive procession
+               to the chief minister, named <rs type="person" ref="#mpr10441"><foreign xml:lang="tr">prens</foreign></rs> (prince). 
+               [The pasha] gave <rs type="person" ref="#mpr10441"><foreign xml:lang="tr">prens</foreign></rs>
+               his gifts and received from him his letters [adressed to the sultan and grand vizier] and his
+               presents and came back in a solemn procession to his residence.</ab>
+         
+            <ab>On the second day [following the meeting] his excellency the ambassador pasha
+               dispatched his master of stables with his camels, his mules, and his servants to
+               Belgrade by land. On the sixth day, he sent his janissaries on ships via the Danube.
+               However, forty men died.</ab>
+
+            <ab>When the deceased Kara Mustapha Pasha undertook a campaign to <rs type="place" ref="#mpr13416">Vienna</rs> in <date type="Hijri" when="1683">1093</date>, [the troops] entered the <rs type="place" ref="#mpr13416">Vienna</rs> Fortress
+               and they incapacitated Austria. A brave Egyptian man captured an entire house
+               in the fortress. When the reinforcement forces of Austria arrived seven days later,
+               the troops of Islam were routed. The brave Egyptian fell a martyr with the will
+               of God. On the wall of that house, they erected a stone image of him. It is still
+               there and they still praise him.</ab>
+         
+            <ab>When Sultan Suleiman carried out a campaign to <rs type="place" ref="#mpr13416">Vienna</rs> and his army was routed there,
+               a reputable man named Kasım Woiwode fell a martyr with 40,000 other man in a place
+               two hours further away. Even now it is said that one hears the echo of the litany of
+               praise of Muhammad every Friday night. Statues of brave men like the aforementioned
+               Egyptian have been erected in some places; they are still standing now.</ab>
+         
+         <ab>And [there was a time] when Deli Seydi Pasha was the governor of Buda.<ref target="#ftn10" type="note_reference"/> 
+               
+               <!--<note type="footnote" resp="#yy">It is not clear which pasha was this, but the author
+                  might have referred to Seydi Ahmed Pasha who was the 
+                  governor of Buda from 1658 to 1660.</note>-->
+               
+               He was a very
+               valiant and powerful frontier raider in non-Muslims lands (<foreign xml:lang="tr">ġāzī</foreign>). During his
+               times, as a merchant from Buda was travelling to <rs type="place" ref="#mpr13416">Vienna</rs>, his merchandise was looted
+               on Austrian soil. The merchant came back, submitted a petition about the matter to
+               the deceased Seydi Pasha, and let him know what had happened. Seydi Pasha sent a
+               written command (<foreign xml:lang="tr">buyuruldu</foreign>) to the king of <rs type="place" ref="#mpr13416">Vienna</rs> in which he said: "The merchandise
+               of a merchant who travelled from here [to <rs type="place" ref="#mpr13416">Vienna</rs>] was looted on your soil. When my
+               command arrives, you should have the merchant’s money found and send it to this
+               direction (to Buda). If it is not found, you should pay for the damage from your own
+               [coffer] and send it in. If you say 'no, no', you will lose your crown and
+               throne."</ab>
+         
+            <ab>When the command reached the king, he replied: <q>“in your dreams!”</q>
+               As soon as this news reached Seydi Pasha, he sent forty disguised men to <rs type="place" ref="#mpr13416">Vienna</rs>.
+               These forty men entered <rs type="place" ref="#mpr13416">Vienna</rs> [fortress], kidnapped a monk from a church inside
+               the fortress and brought him to Buda to Seydi Pasha. Neither the king nor anyone else
+               had any news of the monk’s kidnapping.</ab>
+         
+            <ab>Let’s get back to Seydi Pasha. He wanted to chop off the monk’s [head]; yet [those
+               around him] asked him not to do so and he pardoned him. Again, news was sent to the
+               king: <q>“[Seydi Pasha] has so-and-so monk kidnapped from so-and-so church inside the
+               fortress and has the monk brought to him. He wanted to have his neck chopped off but
+               we asked and have him pardoned. You should know that you may lose the crown and
+               throne; you should endeavor to send the money as soon as possible.”</q> When the king
+               heard this, he felt as if his crown became too tight for his head, and he had the monk’s
+               whereabouts investigated at the church. The monk was not there. He asked how come
+               the monk was lost? They replied: <q>“Forty men came and the monk disappeared.”</q></ab>
+
+         <ab>Thereupon he was instantly terrified. [He thought to himself:] "[The Pasha]
+               kidnapped a monk from inside <rs type="place" ref="#mpr13416">Vienna</rs> and from a church. It is possible that I could
+               also lose <rs type="place" ref="#mpr13416">Vienna</rs>." He immediately sent [the value of] the merchant’s stolen
+               merchandise from his own purse. He erected the statue of that victorious Seydi Pasha
+               in <rs type="place" ref="#mpr13416">Vienna</rs> in the Leopoldstadt suburb, which still stands with a turban on his head
+               and a golden aigrette; [in the statue] he made that monk kneel before him and he is choping off
+               the monk’s head with a sword in his right hand.</ab>
+         
+            <ab>[The following] relates the setting out from <rs type="place" ref="#mpr13416">Vienna</rs> to this direction (to the Sublime Porte)
+               on <date type="Hijri" when="1720-05-10">Thursday, the second of the sublime month of
+                  Rajab 1132</date>. We left for Belgrade with fifteen ships.
+               <rs type="place" ref="#mpr14676">Ḳarye-i Fişa / Fişa köyü (Fischament Dorf, Austria)</rs>, 2.5 hours.
+               <rs type="place" ref="#mpr2098">Ḳala-i Yucun / Yucun Kalesi
+                  (Pozsony/Bratislava, Slovakia)</rs> on the
+               banks of the Danube. It is an extremely elegant district.</ab>
+         
+            <ab>In one of their monasteries there are twin sisters, who, by the decree of God, are
+               conjoined on the sides of their buttocks. They are congenitally so. They are side by
+               side and have two bodies and two hands. And each have two feet. Both put on different
+               clothes and both sith down, get up, walk, and talk together. They wear clothes of
+               many colors and they are sixteen years old. One of them is very beautiful and the
+               other one is ugly and deranged. Their lower bodies are inside a single dress. This is
+               not a description based on a narrative [from someone else], but a description based
+               on [personal] visual testimony.<ref target="#ftn11" type="note_reference"/> 
+               
+               <!--<note type="footnote" resp="#yy">It appears that the twins were siamese twins and they were a popular
+                  traveller attraction. <ref target="/o:vipa.tr.hbg.1723#page21">The Austrian secretary C. Driesch recorded a more detailed
+                     description of the twins and gave more information about them.</ref></note>-->
+               
+               Inside the fortress, there are two large fountains in
+               the middle: each have five to six lions and water flows from their mouths. Around
+               [the fortress] there is only one ditch filled with water.</ab>
+         
+               <ab><rs type="place" ref="#mpr14678">Gönyö köyü (Gönyű village, Hungary)</rs>, 16 hours.
+                  <rs type="place" ref="#mpr14063">Komran/Komoron Kalesi (Komárom, Hungary</rs>
+               is a particularly beautiful fortress. [They] fired many cannoball shots. It is
+               an island in the middle of the Danube and it is a large one. It has many quarters and
+               they are lively. <rs type="place">Almás village</rs>, station, 8 hours. It is a
+               ruined village.</ab>
+         
+               <ab><rs type="place" ref="#mpr1744">Usturgon/Estergon (Esztergom, Hungary; in German: Gran)</rs>,
+                  8 hours. When we entered the fortress, cannons
+               were fired. Part of the outer fortress lies in the Danube, while the inner fortress
+               is situated on a mountain, but the latter is deserted. There are many many suburbs
+               outside, but they are like villages. The interior of the fortress is uninhabited. It
+               has many vineyards and plenty of fruit. <rs type="place" ref="#mpr1790">Karye-i Vacin/Vacin köyü (Vác, Hungary) </rs>,
+               station, 6 hours. It is inhabited [but] its buildings are not made of stone. [We]
+               camped accross the village. It is located on a flat area. Koca Seydi Pasha fell a
+               martyr at a location half an hour distance.</ab>
+         
+               <ab><rs type="place" ref="#mpr7448">Buda</rs> Fortress, station, 6 hours. [We] stayed here for two days. When we entered the
+               fortress, many cannon shots were fired. It is a large fortress, but it was ruined in
+               [previous] wars; even the houses inside are in ruins. The Austrians did not consider it
+               important and did not restore it. It is laid out on a hill. In addition to the walls
+               of the fortress, [they] built another wall stretching down to the Danube, and a tower
+               was built in the Danube, but it is in ruins. The suburb [of the fortress] is large
+               and inhabited. It has seven thermal baths and they are large. The size of the basins
+               of two of them is forty paces each; one has four special compartments and four of
+               them has a basin. It also has many vineyards and orchards. Opposite is a fortress
+               called Pest. It is a large village. It has two mosques, but they have knocked off the
+               spires of their minarets. [We] stayed here two days.</ab>
+         
+               <ab><rs type="place" ref="#mpr14605">Adony village (Hungary)</rs>, in Turkish <foreign xml:lang="tr">Cankurtaran</foreign>, 12 hours. It is a
+               small village on flat terrain. When the [army of] deceased Sultan Suleiman was routed
+               and returning from <rs type="place" ref="#mpr13416">Vienna</rs>, he camped here and asked: <q>“Are Austrian soldiers coming
+               after us?”</q> The answer was: <q>“No, they are not coming.”</q> He said: <q>“Thank God our lives
+               are saved.”</q> Named after that [response], [the name] remained Cankurtaran (lit:
+               lifesaver.)</ab>
+         
+            <ab><rs type="place">Födvá village</rs>, 7,5 hours. It’s a big village.
+               <rs type="place" ref="#mpr14697">Yafes köyü (Paks, Hungary)</rs>, 6 hours. It is a small village with many vineyards.
+               <rs type="place">Tolna village</rs>, 7,5 hours. It is a big village.
+               <rs type="place" ref="#mpr2062">Baya (Bajaö Hungary)</rs>, a small town. It is a beautiful small town.
+               <rs type="place" ref="#mpr14695">Vörişmartirin (Zmajevac, Croatia; in Hungarian: Vörösmart)</rs> 
+               village, 8,5 hours. <rs type="place" ref="#mpr14685">Ertet köyü (Erdut, Croatia)</rs> village, 12,5
+               hours. It is a ruined fortress and it is situated on high ground.
+               <rs type="place" ref="#mpr14653">Bulgovar Kalesi (Vukovar, Croatia)</rs>, 4 hours. 
+               <rs type="place" ref="#mpr14701">Illok Kalesi (Ilok, Croatia)</rs>, 5 hours. It
+               is a fortress in ruins, but the outer quarter is a large village. Opposite from it is
+               a large village, a suburb of the former.</ab>
+         
+               <ab><rs type="place" ref="#mpr1775">Vardin Kalesi (Petrovaradin/Петроварадин, Serbia)</rs>, 6 hours. 
+                  When we entered the fortress, many
+               cannon shots were fired. It is a large fortress and it is built on a high ground. One
+               side of the fortress lies on the bank of the Danube. On the land side, it has a
+               triple ditch. The outer ditch is thirteen paces wide and the middle ditch is nineteen
+               paces wide. The ditch at the foot of the fortress wall is twenty-three paces wide.
+               When one enters inside the fortress through the gate, the thickness of the wall is
+               fifty-nine paces. It is a very robust fortress. There are additional entrenchments
+               built inside the ditch and it has many [counter]mines. Inside the fortress there isn’t
+               a single shop, nor is it inhabited. There are only a few soldiers from their own
+               forces and they reside with their commander. They are still repairing the area where
+               the troops of Islam once camped. They were still building up a new large entrenchment
+               where the Turk(?) Ahmed Pasha had fallen a martyr and they were doing reparation works.
+               The outer fortification is on the banks of the Danube and it has two entrenchments
+               rising on the riverbed. The suburb of the fortress is on the opposite side of the
+               Danube. It has a market and it is inhabited. At the place where the troops of Islam
+               camped there is a dervish lodge. It is called <q>“Gül Baba Lodge.”</q> It has many vineyards
+               and orchards.</ab>
+
+               <ab><rs type="place" ref="#mpr14706">İslankamen Kalesi (Slankamen/Сланкамен, Serbia)</rs>, 6 hours. The fortress is very much in
+               ruins. It has now become a village. It has a minaret and accross from it is the 
+                  <rs type="place">Titel Kalesi (Titel/Тител, Serbia)</rs>. That fortress too is in ruins. The Tisza flows in front of it and merges
+                  with the Danube before Slankamen. From there [we] came to <rs type="place" ref="#mpr9425">Belgrade</rs>. Again numerous
+                  cannon volleys were fired from the <rs type="place" ref="#mpr9425">Belgrade Fortress</rs>. Then, [we] traveled by land to
+               this direction (to Istanbul). And that’s that! Written on <date type="Hijri" when="1726-01-28">24th Cemaziyülevvel 1138</date>.</ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pera, 04. April 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pera, April 4, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                
+                <idno type="PID">o:vipa.l.hbg.17200404</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 187-1, fol. 99r-103v, 109r-v, 114r-116v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Pera, 4. April 1720, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/750640/">Pera</placeName>
+                    <date when="1719-12-03">3. Dezember 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17200403">
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1720-04-03">3. April 1720</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17200414">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an
+                        <persName ref="https://d-nb.info/gnd/118560107">Karl VI.</persName>
+                        :
+                        <date when="1720-04-04">4. April 1720</date>
+                    </ref>
+                </correspContext>
+                <note>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17200404.b1"/>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17200404.b4"/>
+                </note>
+            </correspDesc>
+            <abstract>
+                <list>
+                <item>audience with the sultan</item>
+                <item>exilation of Hungarian rebels</item>
+                <item>complaints by the Ottomany that none of the Ottoman prisoners have been released</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="39KV_99r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="39KV_99v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="39KV_100r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="39KV_100v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="39KV_101r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="39KV_101v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="39KV_102r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="39KV_102v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="39KV_103r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="39KV_103v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="39KV_109r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="39KV_109v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="39KV_114r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="39KV_114v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="39KV_115r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="39KV_115v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="39KV_116r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="39KV_116v.jpg" xml:id="IMG18"/>
+        </surface>
+        <surface start="#IMG19">
+            <graphic url="39KV_117r.jpg" xml:id="IMG19"/>
+        </surface>
+        <surface start="#IMG20">
+            <graphic url="39KV_117v.jpg" xml:id="IMG20"/>
+        </surface>
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="99r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 39.</ref> d.do. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                <date when="1720-04-04">4. Aprilis 1720</date> nebst 3 beylagen.</metamark>
+            <metamark>P.S. de eodem ohne beylag.</metamark>
+            <metamark><date when="1720-04-04">4. Aprilis 1720</date></metamark>
+            <pb n="99v" facs="#IMG2"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 39.</ref> d.do. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                <date when="1720-04-04">4. Aprilis 1720</date></metamark>
+            <metamark>P.S. de eodem</metamark>
+            <pb n="100r" facs="#IMG3"/>
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath p.</salute></opener> 
+            <p>Durchleüchtigster fürst, excellenzien und meine hochgeehrtiste herren. Wie schon den
+                    <date when="1720-03-24">24. Merzen</date> an eüer durchleuchtigste excellenzien
+                und meine hochgeehrtiste herren gehorsambst und schuldigst über <rs type="place"
+                    ref="#mpr9372">Sibenbürgen</rs> berichtet, ist der tag zur urlaubs-audienz beym
+                    <rs type="person" ref="#mpr14244">groß sultan</rs> auf den <date
+                    when="1720-04-02">2. dises</date> vestgestellt gebliben, und seinen fortgang
+                gehabt. Ich liesse mich noch vor tags, indeme alle functionen bey disem hof auf das
+                fruhiste anfangen, auß meiner wohnung an die nächst gelegene scalam des meerhavens,
+                weillen es zum reitten gar zu unbequemb, in meinem sessel tragen, und alda mit
+                meinem gefolge in denen bestelten schüfflein nach <rs type="place" ref="#mpr14055"
+                    >Constantinople</rs> überführen, allwo man sich auf die auß dem ksl. stall
+                geschickhte pferde gesezt, und in der bey dergleichen <pb n="100v" facs="#IMG4"/>
+                aufzügen gewöhnlichen ordnung und aufpuz oder galla nach den serail geritten. Auch
+                auf die weiß und arth und mit denen ehren, wie allzeit gepflogen würdt, empfangen
+                worden, ausser daß disesmahl die bezahlung der miliz nicht, wie bey meiner ersten
+                audienz, geschehen, und selbe der <rs type="person" ref="#mpr9441">groß vezier</rs>
+                <seg rend="encrypted"><choice>
+                        <orig>210 167 66 10 74 8 43 22 127 21 120 153 106 51 131 46 97 67 124 175 25
+                            106 33 53 48 133 151 48 40 66 10 143 130 153 145 130 75 493 52 294 95
+                            168 359 190 358 74 185 32 121 26 54 97</orig>
+                        <reg type="decoding">auf die ihme beschehene remonstrationes, daß da die
+                            gehörige zeith hierzue noch nicht vorhanden</reg>
+                    </choice></seg>, und also besonders <seg rend="encrypted"><choice>
+                        <orig>66 10 188 306 51 85 32 74 60 97 33 320 169 61 8 106 570 108 26 154 119
+                            97 80 48 32 209 75 344 97 40 468</orig>
+                        <reg type="decoding">die janitscharen nur ins künfftig eine consequenz
+                            darauß machen und</reg>
+                    </choice></seg> bey allen audienzien der bottschafftern <seg rend="encrypted"><choice>
+                        <orig>21 50 7 178 70 53 95 482 97 197 179 32</orig>
+                        <reg type="decoding">bezahlet zu werden</reg>
+                    </choice></seg>
+                <pb n="101r" facs="#IMG5"/>
+                <seg rend="encrypted"><choice>
+                        <orig>335 74 30 32 54 97 167 471 143 171 99 10 6 186 77 10 32 40 14 26 311
+                            39 95 467 329 97 189 179 32 16 8 106 70 75 121 134 510 34 19 33</orig>
+                        <reg type="decoding">verlangen wurden, umb so füeglicher anjetzo zu
+                            unterlassen vermaint hat, alß</reg>
+                    </choice></seg> sye auch bey des <rs type="person" ref="#mpr10486">grafen von
+                    Ötting</rs> seinen abschied nicht erfolget ist. Andere aber wollen <seg
+                    rend="encrypted"><choice>
+                        <orig>37 32 168 8 97 179 32 70 124 73 153 26 74 229 230 97 128 48 33 54 32
+                            51 351 143 54 33 53 130 19 11 133 196 23 19 77 10 33 39 345 169 357 77
+                            51 61 32 160 113 54 32 186 77 10 113 159 50 7 19 74 358 167 171 281 151
+                            296 51 95 122 27 21 26 128 230 97 188</orig>
+                        <reg type="decoding">mir in vertrauen beybringen, daß der mangel deß geldts,
+                            welches man nach erforderlicher zahl nicht so gleich hätte zusamben
+                            bringen</reg>
+                    </choice></seg> können, <seg rend="encrypted"><choice>
+                        <orig>66 10 40 349 8 132 167 101 19 11 129 295 75 143</orig>
+                        <reg type="decoding">die mehriste schuld habe</reg>
+                    </choice></seg>. Hingegen hat man nicht unterlasen, mich und mein gefolg mit
+                essen zu tractiren, welches bey der ersten audienz wegen der damahligen türckhi <pb
+                    break="no" n="101v" facs="#IMG6"/>schen fasten oder monath ramezan nicht seyn
+                können. Und habe ich mit dem <rs type="person" ref="#mpr9441">groß vezier</rs> auf
+                einer kleinen taffel allein, die cavaliers aber vom ersten rang mit denen anderen
+                zweyen vezieren und dreyen tefterdaren auf verschidenen anderen in dem divans-saal
+                gespeiset. Vor ich in das audienz-zimmer gegangen, ist mir der zobel-pöltz und
+                meinem gefolg die caftans nach den alten brauch angelegt worden, und ehe ich auß dem
+                serail weckh geritten, und gleich nachdem auß der audienz herauß gegangen, hat der
+                    <rs type="person" ref="#mpr14244">groß sultan</rs> dasjenige pferd, worauf ich
+                gesessen, mir verehren und dises dabey sagen lassen, daß er es selbst geritten, also
+                hoffe, es wurde auch mich contentiren, welches ein extraordinaire und vor <pb
+                    break="no" n="102r" facs="#IMG7"/>mahls in diser occasion nieh gegebenes regal
+                ist. Im ruckweeg hat der starckhe wind und wasser die schüff auf verschidenen orthen
+                zu <rs type="place" ref="#mpr14828">Galata</rs> und andere unterschidliche scalas
+                anfahren gemacht, also daß die leüth nicht völlig bey mir zusamben zu bringen waren,
+                und nur ein theill des gefolgs mich zuruckh in mein quartier beglaitet, jedoch ist
+                man auß dem serail biß an das wasser in gehöriger ordnung geritten.</p>
+            <p>Nächster tagen würdt auch das solenno tractament, wie jederzeit bey der beurlaubung
+                der großbottschaffters gepflogen, unter gegenwartt des <rs type="person"
+                    ref="#mpr9441">groß veziers</rs> gehalten werden, und umb mir umb so vill mehrer
+                ehr, alß anderen geschehen, zu erweisen, ist dem rees effendi und chehaya befohlen,
+                daß auch sye mich tractiren <pb n="102v" facs="#IMG8"/>sollen, doch hoffe, dise
+                caeremonien, wie auch die lezte besuchungen des <rs type="person" ref="#mpr9441"
+                    >groß veziers</rs>, der außländischen ministren und ihre gegen visiten noch biß
+                helffte dises monaths zu hinterlegen und also umb selbe zeit von hier aufzubrechen
+                instand zu seyn, welches meines orths möglichst zu beschleünigen suchen werde. Ich
+                getröste mich aber, daß ein courrier mit ihrer <rs type="person" ref="#mpr9399">ksl.
+                    und cathol. Mt.</rs> und eines hochlöblichen hof-kriegs-raths befehlen, wan
+                deren noch eine vor mich seynd, und wie mir in dero allergnädigsten rescript vom
+                    <date when="1719-12-09">9. December</date> ausgedeütet worden, noch vorhero
+                eintreffen würdt.</p>
+            <p>Der <rs type="person" ref="#mpr15310">Ragozy</rs>, <rs type="person" ref="#mpr14964">Berczeni</rs> und andere hier befindliche hungarische rebellen sollen täglich, und zwar ohnfehlbar nach allen versprechen, wie auch schon
+                <pb n="103r" facs="#IMG9"/>destwegen die würckhliche beraitschafft gemacht ist, eingeschüfft und nach <rs type="place" ref="#mpr15345">Rhodoste</rs> transportirt werden, welcher orth an weissen meer zwar noch in Europa gelegen, vor dise leüth aber mehrer convenient alß ein anderer in Asien ist, wie sye dan auch sehr ungern dahin gehen, und bey der Pforten mit verschidenen praetexten darwider eingewendet haben, von dem chehaya aber zur antwortt bekomben, daß sye sich schon bequemben müesten, und es also von dem <rs type="person" ref="#mpr14244">groß sultan</rs> selbst determinirt seye.</p>
+            <p>Gestern hat der <rs type="person" ref="#mpr9441">groß vezier</rs> der Pforten
+                dollmetsch auf befehl des <rs type="person" ref="#mpr14244">groß sultans</rs> zu mir
+                gesendet, und sagen auch gleichsamb klagen lassen, daß sye nicht das geringste weder
+                von ihrem bottschaffter, dem <rs type="person" ref="#mpr14276">Ibrahim bahsa</rs>,
+                noch sonsten ver <pb break="no" n="103v" facs="#IMG10"/> nehmen, daß ein einziger
+                gefangener Türckh were loß gegeben, oder loß gemacht worden, und schier zu zweifflen
+                ursach zu haben glauben wolten, man trachte unser seyts dem article des Posarovizer
+                tractats die gefangene betreffend nicht nach zu komben. Begehrte dahero, daß an eüer
+                durchleucht den herrn hof-kriegs-raths praesidenten hierüber schreibe, mit dero
+                auctorität zu unterkomben, daß gleichwie in anderen erstermelten Posarovizer
+                tractats betreffenden sachen, also auch dißfahls ein vollzug und genüege geschehe,
+                    <metamark place="margin">1.</metamark><note>Die <ref
+                        target="/o:vipa.l.hbg.172004040.b1">Beilage</ref> ist erhalten.</note><seg
+                    rend="encrypted"><choice>
+                        <orig>281 38 10 75 61 33 51 229 130 153 26 54 159 14 35 69 145 68 167 54 33
+                            243 37 32 198 60 97 53 179 32 70 124 73 153 26 127 108 27 29 88 87 32
+                            166 113 143 8 97 67 148 12 175 25 26 190 54 33 349 10 131 97</orig>
+                        <reg type="decoding">gleichwie er beygehende abschrifft de<subst>
+                                <del>s</del>
+                                <add>r</add>
+                            </subst> dolmetsch mir in vertrauen communicirter instruction deß
+                            mehrern</reg>
+                    </choice></seg>
+                <pb n="109r" facs="#IMG11"/><seg rend="encrypted"><choice>
+                        <orig>40 23 60 154 70 129</orig>
+                        <reg type="decoding">weiset</reg>
+                    </choice></seg>. Ich habe solchemnach mich nicht davon entziehen können,
+                umbsovill weniger, alß der Pforten dollmetsch nach aufhabenden befehl mir anlage,
+                den begehrten brieff an eüer durchlaucht sogleich ausferttigen zu lassen, damit ihn
+                der eben noch gestern an den <rs type="person" ref="#mpr14276">Ibrahim bassa</rs>
+                von der Pforten expedirt seyn sollende expresse mitnehmen könne, sondern nach inhalt
+                    <metamark place="margin">2.</metamark><note>Die Beilage ist nicht
+                    erhalten.</note> beygehender abschrifft geschriben, wie er es verlangt, ihme
+                auch auf begehren eine translation, umb sie dem <rs type="person" ref="#mpr9441"
+                    >groß vezier</rs> zu zaigen, mitgegeben, mich getröstend, eüer durchleuchtigste
+                excellenzien und meine hochgeehrtiste heren werden es nicht desapprobiren, sondern
+                villmehr die Pforten, sovill sich thuen lasset, contentiren wollen. Indem auch
+                sonsten <seg rend="encrypted"><choice>
+                        <orig>37 70 52 54 106 97 75</orig>
+                        <reg type="decoding">mit denen</reg>
+                    </choice></seg>
+                <pb n="109v" facs="#IMG12"/><seg rend="encrypted"><choice>
+                        <orig>82 91 186 142 88 120 26 189 421 10 97 53 359 335 10 131 167 66 9 118
+                            84 19 166 70 126 296 130 353</orig>
+                        <reg type="decoding">napolitanischen sclaven nich längere difficultet hätte
+                            gemacht</reg>
+                    </choice></seg> werden mögen. <seg rend="encrypted"><choice>
+                        <orig>54 32 394 75 243 213 52 179 32 72 124 73 166 37 32 128 48 33 54 32 151
+                            442 8 120 205 74 60 7 106 97 189 38 113 12 18 186 77 159 130 69 145 21
+                            97 127 48 33 345 167 8 7 27 190 60 26 66 154 27 74 93 97 12 181 168 358
+                            489 102 7 131 468 210 168 154 8 97 51 21 130 7 131 26 129 66 10 130 102
+                            26 130 106 74 358 53 153 124 73 33 130 21 198</orig>
+                        <reg type="decoding">Der Pfortem dolmetsch aber vertraute mir, daß der <rs
+                                type="person" ref="#mpr14276">türkische botschaffter</rs> ihnen
+                            würklich geschriben, daß man ihm in disem puncto nicht willfahre, und
+                            auf sein begehren die gefangene nicht herausgebe.</reg>
+                    </choice></seg></p>
+            <p>Der capitaeine pascia würdt nächstens mit denen galeren nach <rs type="place" ref="#mpr14929">Widin</rs> abfahren, umb selber fortificirung gegenwärttig zu seyn und fortzutreiben.</p>
+            <pb n="114r" facs="#IMG13"/><p>Mit der pest ist man noch allzeit allhier in ruhe, würdt auch von nirgends anderweths her von disem übel etwas gehöret.</p>
+            <metamark place="margin">3.</metamark><note>Die Beilage ist nicht erhalten.</note><p>Die anschlüß an den <rs type="person" ref="#mpr14276">Ibrahim bassa</rs> <subst><add>seyndt</add><del>ist</del></subst> mir von der Pforten recommendirt worden, und haben ersuchen lassen, daß sye wider wissen mögen, daß <subst><del>er</del><add>sye</add></subst> demselben richtig zukomben seyen.</p>
+            <metamark place="margin">4.</metamark><note>Die <ref target="/o:vipa.l.hbg.17200404.b4">Beilage</ref> ist erhalten.</note> <p>Was ich den <date when="1720-03-11">11. Martii</date> an eüer durchleuchtigste excellenzien und meine hochgeehrtiste herren gehorsambst und schuldigst berichtet, lege ich in duplicato auch gehorsambst und schuldigst hierbey. Was aber über <rs type="place" ref="#mpr9372">Sibenbürgen</rs>, wie anfangs gedacht, geschriben habe, hat nichts anders von consequenz und allein, daß die audienz den <date when="1720-04-02">2. dises</date> angesezt worden, in sich gehalten. Womit mich gehorsambst und dienstschuldigst empfehlendt verharre.</p>
+                
+            <closer>
+                <salute>Eüer durchleuchtigsten excellenzien und meinen hochgeehrtisten herren</salute>
+                <signed>Gehorsambst- und dienstschuldigster diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+                <dateline><rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> den <date when="1720-04-04">4. Aprilis 1720</date>.</dateline>    
+            </closer>
+            <pb n="114v" facs="#IMG14"/>
+            <pb n="115r" facs="#IMG15"/>
+            <postscript>
+                <label>P.S.</label>
+                <p>Auch durchleüchtigster fürst, excellenzien und meine hochgeehrtiste herren.
+                    Erhalte ich, alß eben beygehende gehorsambst- und schuldigste relation in
+                    schlüessen ware, den courrier <rs type="person" ref="#mpr15672">Arakiel</rs> mit
+                    dem allergnädigsten ksl. und zugleich euer durchleuchtigster excellenzien und
+                    meiner hochgeehrtisten herren rescript, das erstere vom <date when="1720-03-06"
+                        >sechsten</date> und das andere vom <date when="1720-03-12">zwölfften
+                        Martii</date> datirt. Gleichwie ich nun alles mit allergehorsambst-,
+                    gehorsambst- und schuldigster aufmerckhsambkeit durchgelesen, also thue bey dem
+                        <rs type="person" ref="#mpr9441">groß vezier</rs> tag und stund begehren und
+                    erwartte augenblickhlich antwortt, umb zu ihn komben zu können und mit demselben
+                    von ain- und anderen auf die anbefohlene weiß zu sprechen und das ende von allen
+                    mir aufgegebenen sachen zu pressiren, an welches, wie eüer durchleuchtigste
+                    excellenzien und meine hochgeehrtiste herren auß meinen lezteren gehorsambst-
+                    und schuldigsten berichten gnädigste und beliebig zu ersehen gehabt, ganz <pb
+                        n="115v" facs="#IMG16"/> nahe mit der hülff Gottes gekomben, auch nicht
+                    ermanglen werde, auf den aüssersten zweckh noch zu treiben, so vill mir meine
+                    kräfften zu geben und der zu ihrer <rs type="person" ref="#mpr9399">ksl. und
+                        cathol. Mt.</rs>
+                    <add place="superlinear">dienst</add> hegende unabläßliche eyffer forthelffen
+                    würdt, und mit dem courrier <rs type="person" ref="#mpr15672">Arakiel</rs> das
+                    gehorsambst- und schuldigste darüber mit nächsten berichten, wiewohl ich sorge,
+                    daß er ein acht oder zehen tag noch aufgehalten dörffte werden. Womit p. Datum
+                    ut in litteris.</p>
+                <signed><rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+            </postscript>
+            <pb n="116r" facs="#IMG17"/>
+            <pb n="116v" facs="#IMG18"/>
+            <metamark>Exped. <rs type="place" ref="#mpr13416">Wienn</rs> den <date when="1720-04-28">28. April 1720</date></metamark>
+            <pb n="117r" facs="#IMG19"/>
+            <pb n="117v" facs="#IMG20"/>
+            <metamark><date when="1720-04-04">4. April 1720</date></metamark>
+        </body>
+    </text>
+</TEI>

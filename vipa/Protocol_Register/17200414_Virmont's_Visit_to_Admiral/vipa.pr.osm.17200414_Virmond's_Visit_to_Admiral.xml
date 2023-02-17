@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über Damian Hugo von Virmonts Abschiedsbesuch beim Admiral vor seiner
+                    Abfahrt, Istanbul, 14. April 1720</title>
+                <title xml:lang="en">Protocoll register of Damian Hugo von Virmont’s farewell visit to the Admiral before
+                    departure, Istanbul, April 14, 1720</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Kapudan Paşa’ya veda
+                    ziyareti, İstanbul, 14 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Teşrifati Salman Efendi</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.pr.osm.17200414</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 86-87</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-14"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über Damian Hugo von Virmonts Abschiedsbesuch beim Admiral vor seiner Abfahrt, Istanbul, 14. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_}d___00347_00042a3.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="A_}d___00347_00042b1.jpg" xml:id="IMG2"/>
+        </surface>
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+
+            <div type="original" xml:id="vipa.pr.osm.17200414">
+            <pb n="1" facs="#IMG01"/>
+            <ab> 
+                <hi rend="#red"><rs type="person" ref="#mpr9435">ilçi -yi mezbūruñ</rs> <rs type="peron" ref="#mpr14728">ḳ apūdān paşaya</rs> vardıġ ını müşʿirdür.</hi>
+                
+                <lb/><date type="Hijri" when="1720-04-14">Māh-ı mezbūruñ beşinci sebt güni</date>
+                <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> <rs type="person" ref="#mpr14728">ḳapūdān paşa</rs> 
+                ḥaż retlerine gelmekle <rs type="person" ref="#mpr14728">vezīr-i müşārün ileyh</rs> 
+                <lb/>yedi çifte ḳayıġ ını ġ arb ḳapusı iskelesine irsāl itmekle <rs type="person" ref="#mpr9435">ilçi-yi meẕkūr</rs> süvār olub sāʿat 
+                <lb/>dörde ḳarīb tersāne köşki öñine yanaşub çıḳduḳda deryā kürklü züʿemā ve müteferriḳagānı ve paşa
+                <lb/>aġ aları biʾl-cümle ferāce semūr kürkleriyle kenār-ı iskeleden dīvān odasınuñ ṣadrına varınca
+                <lb/>dizilüb ve Enderūn aġ aları daḫı <unclear>müheyyā</unclear> ard ḳapu ṭarafından dizilüb</ab>
+                
+            <ab><rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> gelüb ṣadruñ
+                <lb/>öñine vażʿ olunan iskemleye oturduḳdan ṣoñra saʿādetlü <rs type="person" ref="#mpr14728">ḳapūdān paşa</rs> ḥażretleri daḫı
+                <lb/>yeşil ferāce semūr kürk ile içerü girdükde <rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām idüb ḳuʿūd eyledükde ṭatlu ve ḳahve virilüb
+                <lb/>baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> iskemleden ḳaldırılub ḫānende ve sāzende faṣl eylemişlerdür. Baʿdehū sāʿat altı buçuġa 
+                <lb/>varduḳ da ṭaʿām çıḳub <rs type="person" ref="#mpr14728">ḳapūdān paşa</rs> ve ḳapucıbaşı ve tersāne reʾīsi oturub baʿdeʾl-ṭaʿām 
+                <lb/>yine ḫānende ve sāzende faṣl eylemişlerdür. Baʿdehū <rs type="person" ref="#mpr9435">ilçi</rs> beg tersāne ve ḳalyonları seyr eylemek üzere
+                <lb/>ḳapucıbaşı ile maʿan gidüb baʿdeʾl-seyr yine ḳayıḳ ile gelüb oturduḳda ḫānende bir faṣl daḫı 
+             <pb n="2" facs="#IMG02"/>
+                
+                <lb/>eyledükden ṣoñra şerbet ve buḥūr virilüb zīrde defter olunduġ ı üzere hedāyāsı
+n                <lb/>virmişdür.
+                
+                <note type="footnote" resp="#yy" xml:id="ftn1"><ref target="/o:vipa.tr.hbg.1723#facs_414">C. Driesch described the meeting with
+                    the Ottoman admiral in great detail</ref>. He remarked that the orderliness and cleanliness during 
+                    the visit was like nowhere else.</note></ab>
+                
+                <list type="giftlist">
+                <item rend="column1">Cezāyir iḥrāmı nefer 3</item>
+                <item rend="column2">ḳıymetlü Cezayir tüfengi nefer 2</item>
+                <item rend="column3">esir nefer 2<note type="footnote" resp="#yy" xml:id="ftn2"><ref target="/o:vipa.tr.hbg.1723#facs_417">
+                        We learn from C. Driesch that one of these slaves was from Danzig, while 
+                        the other one was from Saint-Omer in Artois province in France.</ref></note></item>
+                    
+                    
+                    
+                <item rend="column4">Sāḳīzuñ telli peşkūn pūşīdesi nefer 2</item> 
+                <item rend="column1"><rs type="person" ref="#mpr9435">ilçiye</rs> fireng-pend telli boyama nefer 2</item>
+                <item rend="column2">begzādegān ve tercümān ve ḳrala ve sāʾire telli boyama nefer 28</item>
+                <item rend="column3">ḳapucıbaşı Meḥmed Aġ aya ḳırmızı ṣof kerāke nefer 1</item>
+                <item rend="column4">teşrīfātī efendiye çuḳa 1 ḳumāş 1</item>
+                <item rend="column1">yeñiçeri <corr>ḫ</corr><sic>ḥ</sic>āṣekisine çuḳa 1 ḳumāş 1</item>
+                <item rend="column2">çorbacıya çuḳa 1 ḳumāş 1</item>  
+                </list><!-- 'l -->
+                
+            
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17200414-transl">
+            <pb n="1" facs="#IMG01"/>
+            <ab><hi rend="#red">The following relates the <rs type="person" ref="#mpr9435">Austrian ambassador’s</rs> [farewell]
+                visit to the <rs type="person" ref="#mpr14728">admiral</rs>.</hi>
+                On the fifth day of the month, a Saturday, the <rs type="person" ref="#mpr9435">ambassador</rs> visited his excellency the 
+                <rs type="person" ref="#mpr14728">admiral pasha</rs>. The <rs type="person" ref="#mpr14728">admiral</rs> dispatched his caique powered with seven pairs of oars to the western gate pier. 
+                The <rs type="person" ref="#mpr9435">ambassador</rs> embarked on the caique and around four o’clock, the caique docked at the navy yard pavilion.
+                As the <rs type="person" ref="#mpr9435">ambassador</rs> disembarked, holders of large fiefs wearing sea-colored furs, their attendants, and the aghas of the kapudan pasha,
+                all wearing sable fur ceremonial cloaks, were disposed in order from the pier to the 
+                entry of the reception room. The aghas of the inner court also stood in order starting from the rear gate.</ab>
+                
+            <ab>After the <rs type="person" ref="#mpr9435">ambassador</rs> came and sat down on the stool arranged for him in front of the pavilion door, his highness, the
+                prosperous <rs type="person" ref="#mpr14728">admiral pasha</rs>, came inside wearing a sable fur on a green ceremonial cloak, upon 
+                which the <rs type="person" ref="#mpr9435">ambassador</rs> rose to his feet and they all sat down. Sweets and coffee were 
+                served. Afterwards, the <rs type="person" ref="#mpr9435">ambassador</rs> was raised from the stool (and offered another seat), followed by the performance 
+                of vocalists and musicians. Thereafter, at half past six, a meal was served. The <rs type="person" ref="#mpr14728">admiral</rs>, 
+                the chief of the gatekeepers, and the warden of the navy yards sat down [together]. After the meal,
+                the vocalists and musicians performed again. Next, the <rs type="person" ref="#mpr9435">ambassador</rs>, accompanied by the 
+                chief of the gatekeepers, went to take a look at the navy yards and galleons. Then, he came back
+                by caique and sat down. Following yet another <pb n="1" facs="#IMG02"/> performance of the vocalists, sorbet and
+                frankincense were served and the <rs type="person" ref="#mpr9435">ambassador</rs>’s gifts were presented as recorded below.
+                <ref target="#ftn1" type="note_reference"/><!--<note type="footnote" resp="#yy"><ref target="/o:vipa.tr.hbg.1723#facs_414">C. Driesch described the meeting with
+                    the Ottoman admiral in great detail</ref>. He remarked that the orderliness and cleanliness during 
+                    the visit was like nowhere else.</note>--></ab>
+                
+                <list type="giftlist">
+                    <item rend="column1">Algerian cloak, 3 persons</item>
+                    <item rend="column2">precious Algerian musket, 2 pieces</item>
+                    <item rend="column3">slaves, 2 persons<ref target="#ftn2" type="note_reference"/><!--<note type="footnote" resp="#yy"><ref target="/o:vipa.tr.hbg.1723#facs_417">
+                        We learn from C. Driesch that one of these slaves was from Danzig, while 
+                        the other one was from Saint-Omer in Artois province (France).</ref></note>--></item>
+                    
+                    
+                    
+                    <item rend="column4">embroidered tray cover, Chios style, 2 persons</item>
+                    <item rend="column1">an embroidered Western-style kerchief for the <rs type="person" ref="#mpr9435">ambassador</rs>, 2 persons</item>
+                    <item rend="column2">embroidered kerchief for the ambassador’s noblemen, interpreter, king, and others, 28 persons</item>
+                    <item rend="column3">a fine camlet cloak for the Chief of Gatekeepers Mehmed Agha, 1 person</item>
+                    <item rend="column4">broadcloth and fabric for the protocol registerer, 1 person</item>
+                    <item rend="column1">broadcloath for the janissary lieutenant, 1 piece</item>
+                    <item rend="column2">broadcloath for the janissary captain, 1 piece</item> 
+                </list>
+            
+            
+            </div>
+        </body>
+    </text>
+</TEI>

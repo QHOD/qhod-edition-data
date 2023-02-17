@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Befehl an den Richter, Adjutanten der Janitscharenkommandanten, 
+                    Janitscharenchefs, Woiwoden, Obersten der Stadtwache, Würdenträger der Provinz und Funktionäre,
+                    die auf der Straße von Ruse und Rodoscuk (Tekirdağ) bis Istanbul stationiert sind, 
+                    um die sichere Reise des Großbotschafters des österreichischen Kaisers zu gewährleisten,
+                    Istanbul, 28. Juni 1719</title>
+                
+                <title xml:lang="en">Command to the judges, aides-de-camp of janissary commanders,
+                    janissary chiefs, voivodes, officials in charge of security, notables of the province, and 
+                    functionaries that are stationed on the road from Ruse and Rodoscuk (Tekirdağ) to Istanbul, to ensure 
+                    the safe journey of the grand ambassador of the Austrian emperor, İstanbul, June 28, 1719</title>
+                
+                <title xml:lang="tr">Ruscuk ve Rodoscuk'tan İstanbul'a gelinceye yol üzerindeki kadılara, 
+                    kethüdayerlerine, yeniçeri serdarlarına, voyvodolara, subaşılarına, ayan-ı vilayet
+                    ve iş erlerine, Nemçe çasarının büyükelçisinin emniyet içinde yolculuğunun temin
+                    edilmesi emri, İstanbul, 28 Haziran 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.mh.osm.17190628.3</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Mühimme defteri 129</collection>
+                        <idno>170</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-06-28"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehl an den Richter, Adjutanten der Janitscharenkommandanten, 
+                    Janitscharenchefs, Woiwoden, Obersten der Stadtwache, Würdenträger der Provinz und Funktionäre,
+                    die auf der Straße von Ruse und Rodoscuk (Tekirdağ) bis Istanbul stationiert sind, 
+                    um die sichere Reise des Großbotschafters des österreichischen Kaisers zu gewährleisten,
+                    Istanbul, 28. Juni 1719, 
+                    bearb. von Yasir Yılmaz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), 
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.mh" type="context"> Mühimme </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="Muhimme_129_170.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.mh.osm.17190628.3">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <lb/>Rūscuḳdan ve Rodoscuḳdan āsitāne-i saʿādetüme gelince yol üzerinde vāḳiʿ olan
+                ḳāżīlara ve ketḫüdā yerleri ve yeñiçeri serdārları ve voyvodalar ve subaşılar ve
+                aʿyān-ı vilāyet, iş erleri zīde ḳadruhūma ḥüküm ki:
+                
+                <lb/>Ḥālā Nemçe çāsārı cānibinden der-i devlet-medāruma XXX olan büyük ilçinüñ sefīneler
+                ile aġırlıġı Ruscuġa gelüb dāḫıl olduḳda āsitāne-i saʿādetüme gelince her menzilde
+                kifāyet miḳdārı bārgīr ve at ʿarabaları tedārük
+                
+                <lb/>ve ḥāżır ve āmāde itdirilmesi muḳteżā olmaġın imdi ilçi-yi mūmā ileyhüñ aġırlıġı
+                Rūscūḳdan āsitāne-i saʿādetüme gelince muʿtād olan icrāları eger ḳażā ahālīsinüñ
+                teḳāliflerine taḳaṣṣ olmaḳ şarṭıyla yol üzerinde eger ḳanġiñüzüñ
+                
+                <lb/>taht-ı ḳażāsına dāḫıl olur ise mübāşir taʿyīn olunan <gap extent="15" unit="char"/> zīde ḳadruhū
+                maʿrifetiyle iḳtiżāsı miḳdārı bārgīr ve at ʿarabaları tedārük ve ḥāżır ve iḥāle
+                ve taht-ı ḳażāñuzda vāḳiʿ
+                
+                <lb/>menzillere nüzūlinde mübāşir-i mūmā ileyh maʿrifetiyle teslīm ve ne miḳdār
+                bārgīr ve ʿaraba teslīm olunur ise mübāşir-i meẕkūr yedinden temessük 
+                aldurılub muʿtād üzere ücreti teḳāliflerine taḳāṣṣ olmaḳ içün eger ḳażā ahālīsi 
+                
+                <lb/>yerlerinde ḥıfẓ ve edā-yı ḫidmet itdürilmekde ihtimām idüb ḥīn-i nüzūlde
+                ẕikr olunan bārgīr ve ʿarabalar ḥāżır ve mevcūd bulunmaḳla aḥẕ ve meks̱lerinde
+                bāʿis̱-i vebālleri olacak vażʿ ve ḥālātdan iḫtirāz 
+                
+                <lb/>eylemeñüz içün mālīye ṭarafından emr-i şerīfüm ṣādır olmaġla siz ki mūmā
+                ileyhimsiz mālīye ṭarafından ṣādır olan emr-i şerīfüm mūcebince ʿamel ve ḥareket
+                ve vech-i meşrūḥ üzere Ruscuḳdan ve Rodoscuḳdan āsitāne-i saʿādetime gelince her menzilde
+                
+                <lb/>kifāyet miḳdārı bārgīr ve at ʿarabaları tedārük ve ḥāżır ve āmāde ve ilçi-yi
+                mūmā ileyhüñ aġırlıġı ile ādemleri biriñizüñ taht-ı ḳażāsına gelüb dāḫıl
+                olduḳda muʿtād üzere ücretleri eger ḳażā ahālīsüñden 
+                
+                <lb/>tekālifine taḳaṣṣ olunmaḳ şarṭıyla mübāşir-i mūmā ileyh maʿrifetiyle teslīm
+                ve mübāşir-i mūmā ileyhün yedinden temessük aldurub sürʿat üzere birbirinüze irsāl
+                ve bir daḫı taʿcīlen āsitāne-i saʿādetüme īṣālde eger birbiriñüzden
+                
+                <lb/>taḳayyüd ve ihtimām eyleyüb ḫilāf-ı emr-i şerīf vażʿ ve ḥareketden 
+                bi-ġāyet-i iḥtirāz eyleyesiz. Şöyle ki eger ḳanġiñüzün taḥt-ı ḳażāsında kifāyet
+                miḳdārı bārgīr ve at ʿarabaları ḥāżır ve āmāde olunub mezbūrlarıñ teʾḫīr ve tevaḳḳufına 
+                
+                <lb/>bāʿis̱ olacaḳ olursañız ḳatʿan bir dürlü ʿöẕr ve cevābuñuz iṣgā olunmayub
+                eşedd ʿuḳūbet ile muʿāḳabe ve muʾāḫeẕe olacaġıñuzı yaḳīnen bilüb aña göre 
+                bu emr-i lāzımu’l-ihtimāmda diḳḳat-i tāmm ve her biriñüz kifāyet
+                
+                <lb/>miḳdārı bārgīr ve at ʿarabaları ḥāżırlayub mezbūrlar geldigi gibi vech-i
+                meşrūḥ üzere teslīm ve irsāl ve icrālarında küllī mertebe taḳayyüd ve ihtimām
+                eylemeñüz bābında fermān-ı ʿālīşānum ṣādır olmışdur. Buyurudum ki
+                
+                Fī evāyīl-i Ş<supplied resp="#yy">aban</supplied> 1131
+                
+                
+                
+                
+            </ab>
+               
+            </div> 
+            
+<!--            <div type="translation" xml:lang="en" xml:id="vipa.mh.osm.17190628.3.translation">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

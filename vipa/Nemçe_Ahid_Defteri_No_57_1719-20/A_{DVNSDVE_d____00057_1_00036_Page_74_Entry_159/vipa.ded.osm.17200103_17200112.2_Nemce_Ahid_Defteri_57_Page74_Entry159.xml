@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Verwalter von Bihać, den in
+                    seiner Hand befindlichen kroatischen Gefangenen namens Plasnić (Jellachich)
+                    gegen einen angemessenen Preis, wie im kaiserlichen Vertragsschreiben (ahidname)
+                    vorgeschrieben, freizulassen; Istanbul, 3. Januar – 12. Januar 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the district commander of Bihać to
+                    release the Croatian captive in his possession named Plasnić (Jellachich) in
+                    return for a reasonable price as prescribed in the imperial letter of agreement
+                    (ahidname); Istanbul, January 3 – January 12, 1720</title>
+
+
+
+                <title xml:lang="tr">Sultanın, Bihke (Bihać) sancak beyine hitaben yazılmış,
+                    elindeki Plasniç isimli Hırvat esiri, ahidname şartlarına uygun bir şekilde
+                    makul bir ücret karşılığında serbest bırakması hakkında hükmü; İstanbul, 3 Ocak
+                    – 12 Ocak, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200103-17200112.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 74, entry 159</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-01-03" notAfter="1720-01-12"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Verwalter von Bihać, den in seinem Besitz
+                    befindlichen kroatischen Gefangenen namens Plasnič (Jellachich) gegen einen
+                    angemessenen Preis, wie im kaiserlichen Vertragsschreiben (ahidname)
+                    vorgeschrieben, freizulassen; Istanbul, 3. Januar – 12. Januar 1720; Istanbul,
+                    3. Januar – 12. Januar 1720, bearb. von Yasir Yılmaz und Merve Kurkutlu,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Decree to the judge of Bihać about the release of the Croatian captive
+                        named Plasnić (Jellachich) according to the conditions of the imperial
+                        letter of agreement</item>
+                    <item>Bihać</item>
+                    <item>Bihke</item>
+                    <item>captive</item>
+                    <item>esir</item>
+                    <item>Plasnić</item>
+                    <item>Jellachich</item>
+                    <item>Croatian</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_74_Entry_159.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200103-17200112.2">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">159</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr15461">Bihke</rs> sancaġı begine ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+                <ab>nās yedinde bulunan esīrler daḫī münāsib vecihle mümkin olan maʿḳūl <lb/>ve
+                    muʿtedil bahā ile ıṭlāḳları cāʾiz ola esīr ṣāḥibi ile uzlaşılmayub nizāʿ vāḳiʿ
+                    olduḳda ḥākimü’l-vaḳt olanlar <lb/>mābeynlerin tevfīk eyleye diyü ʿahdnāme-i
+                    hümāyūnda mesṭūr ve muḳayyed olmaḳla</ab>
+
+                <ab>müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> reʿāyāsında
+                        <rs type="place" ref="#mpr1690">Ḫırvāt</rs>
+                    <lb/>memleketi sākininden <rs type="person" ref="#mpr15669">Plāsnīç</rs><note
+                        xml:id="ftn1" type="editorial" resp="#yy">The Austrian ambassador Hugo von
+                        Virmond reported to Vienna in two different letters, dated <ref
+                            target="/o:vipa.l.hbg.17200103">Januar 3, 1720</ref> and <ref
+                            target="/o:vipa.l.hbg.17200121">January 21, 1720</ref>, his initiatives
+                        to free this Croatian captive whom he referred to as a nobleman
+                            (<foreign>Edelmann</foreign>). As an attachment to the second letter
+                        dated January 21, Virmond also dispatched to Vienna the Latin copies of the
+                        orders issued by the Ottoman court and sent to <rs type="person"
+                            ref="#mpr16088">Osman Pasha</rs> of Bosnia and the district
+                        administrator of Bihać.</note> nām kimesne esnā-yı cengde esīr düşüb ve sen
+                    ki mīr-i mūmā ileyhsin ḥālā senüñ yanuñda esīrüñ <lb/>olub ʿahdnāme-i hümāyūn
+                    muḳteżāsınca maʿḳūl bahā ile ḫalāṣ olmaḳ lāzım iken müşārün ileyhimüñ
+                    serḥaddinde(?) olan <lb/>cenerāl <rs type="person" ref="#mpr15669">esīr-i
+                        mesfūr</rs>ı mübādele içün ṭarafıña bir müselmān esīri ile yüz altmış altun
+                    gönderüb alıḳodıġuñdan ṣoñra <lb/>ḥadden birūn aḳça muṭālebesiyle <rs
+                        type="person" ref="#mpr15669">esīr-i mesfūr</rs>ı ṣalıvirmeyüb ḫilāf-ı
+                    ʿahdnāme-i hümāyūn teʿaddī eyledügiñ bildürüb</ab>
+
+                <ab>vech-i meşrūḥ <lb/>üzere muḳaddemā ṭarafıña gönderilen müselmān esīri ve ol
+                    miḳdār altun ile esīr-i mezbūr mübādele ve vilāyetine irsāl <lb/>olunmaḳ bābında
+                    ḥükm-i hümāyūnum ricā eyledügi ecilden</ab>
+
+                <ab>sen ki mīr-i mūmā ileyhsin nās yedinde bulunan esīrlerüñ muʿtedil <lb/>bahā ile
+                    ıṭlāḳları cāʾiz olmaḳ ʿahdnāme-i hümāyūnda mesṭūr ve esīr-i mesfūruñ
+                    muḳābelesinde bir müselmān esīri ile <lb/>meblaġ-ı mezbūr virilmişken ḳanāʿat
+                    olunmayub daḫī ziyāde aḳça muṭālebesiyle ʿahdnāme-i hümāyūn şürūṭına muġāyir
+                    <lb/>ḥareket ile ḥadd-i iʿtidāl tecāvüz olunmaġın iʿlām olundıġı üzere meblaġ-ı
+                    meẕḳūrı ve esīri aldıḳdan ṣoñra <lb/>ziyāde ṭalebiyle taʿcīz olunmayub teslīm
+                    eylemek bābında fermān-ı ʿālī-şānum ṣādır olmışdur <rs type="person"
+                        ref="#mpr14244">buyurdum ki</rs>.</ab>
+
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">fī evāḫir-i
+                            Ṣ<supplied resp="#yy">afer</supplied> sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200103-17200112.2.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the district administrator of <rs type="place" ref="#mpr15461"
+                        >Bihać</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>It is written and recorded in the imperial letter of agreement
+                        (<foreign>ʿahdnāme-i hümāyūn</foreign>) that it shall be lawful to free the
+                    captives who are found in possession of people in an appropriate way with the
+                    payment of a potential price that is acceptable and reasonable; in case no
+                    agreement is reached with the owner of a captive and a disagreement occurs, the
+                    notables shall intermediate between the two parties.</ab>
+
+                <ab>[<rs type="person" ref="#mpr9435">The ambassador</rs>] reported that a person
+                    named <rs type="person" ref="#mpr15669">Plasnič</rs><ref type="note_reference"
+                        target="#ftn1"/>, a resident of the <rs type="place" ref="#mpr1690"
+                        >Croatian</rs> land from among the subjects of the aforesaid <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs>, fell prisoner during the
+                    war. You are the aforesaid [administrator]: <rs type="person"
+                        ref="#mpr15669">Plasnič</rs> is by you and your captive. Although his
+                    liberation was required in return for a reasonable price according to the
+                    imperial letter of agreement, you not only withheld the Muslim prisoner and
+                    one-hundred sixty golden pieces that were sent to you in exchange for the
+                    aforesaid prisoner, but you also demanded an excessive amount of money and did
+                    not release the captive. You transgressed in this way in violation of the
+                    imperial letter of agreement.</ab>
+
+                <ab>[<rs type="person" ref="#mpr9435">The ambassador</rs>] requested my imperial
+                    decree for you to exchange, in the described way, the Muslim prisoner and the
+                    gold previously sent to you for the <rs type="person"
+                        ref="#mpr15669">aforesaid captive</rs> and dispatch the captive to his land.</ab>
+
+                <ab>You are the aforementioned commander! It is written in the imperial letter of
+                    agreement that the release of the captives in possession of the people in return
+                    for a moderate price is lawful. The limit of moderation was breached by not
+                    being content when a Muslim prisoner and the aforesaid amount [of gold] were delivered [to you] in
+                    exchange and by demanding additional money. In this way, the conditions of the
+                    imperial letter of agreement have been breached. My illustrious
+                    edict has been issued that, as declared, after receiving the aforesaid amount of
+                    money and the [Muslim] prisoner, no violation shall be committed by demanding
+                    more, and [the captive] shall be delivered. So have <rs type="person"
+                        ref="#mpr14244">I</rs> commanded! </ab>
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">January 3 to
+                        January 12, 1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

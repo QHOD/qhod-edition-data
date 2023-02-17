@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Abschrift des sultanischen Dekrets (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über den Schutz katholischer
+                    Priester und Jesuiten und die freie Ausübung ihrer Rituale in der Grabeskirche
+                    in Jerusalem und Berg Zion (zweite Version); Istanbul, 12. Januar – 21. Januar
+                    1720</title>
+
+                <title xml:lang="en">Copy of the sultan’s imperial charter (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) about the protection of Catholic
+                    priests and Jesuits and the free practice of their rituals at the Church of the
+                    Holy Sepulchre in Jerusalem and Mount Zion (second version); Istanbul, January
+                    12 – January 21, 1720</title>
+
+                <title xml:lang="tr">Sultanın, Katolik rahiplerin ve Cizvitler’in korunması ve
+                    Kudüs’de Kamame Kilisesi’nde ve Cebel-i Suhyun’da (Zion Dağı) ayinlerini
+                    serbesçe eda edebilmeleri hakkında beratı (nīşān-ı hümāyūn) (ikinci versiyon);
+                    İstanbul, 12 Ocak – 21 Ocak, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200112-17200121.3</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <!-- YY: @Stephan / @Jacob: Please check this part. It may need corrections.
+            <notesStmt>
+                <note type="editorial"> This document has been published in conjunction with another
+                    item </note>
+                <relatedItem type="editorial">
+                    <listRef>
+                        <ref target="/o:vipa.ded.osm.17200112_17200121.2">Abschrift des Sultans Dekret (<foreign>nīşān-ı
+                            hümāyūn</foreign>/<foreign>berat</foreign>) über den Schutz katholischer
+                            Priester und die freie Ausübung ihrer Rituale in der Grabeskirche in Jerusalem
+                            (erste Version); Istanbul, 12. Januar – 21. Januar 1720</ref>
+                    </listRef>
+                </relatedItem>
+            </notesStmt>-->
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 76, entry 165</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-01-12" notAfter="1720-01-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Abschrift des Sultans Dekret (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über den Schutz katholischer
+                    Priester und Jesuiten und die freie Ausübung ihrer Rituale in der Grabeskirche
+                    in Jerusalem (zweite Version); Istanbul, 12. Januar – 21. Januar 1720; bearb.
+                    von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger,
+                    Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim
+                    Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von
+                    Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno
+                    Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Imperial charter concerning the protection of Catholics in the Ottoman
+                        Empire and freedom of worship at the Church of the Holy Sepulchre and Mount
+                        Zion in Jerusalem</item>
+
+                    <item>Holy Roman emperor</item>
+                    <item>Charles</item>
+                    <item>Karolus</item>
+                    <item>Church of the Holy Sepulchre</item>
+                    <item>Kamame Kilisesi</item>
+                    <item>Jerusalem</item>
+                    <item>Kudüs</item>
+                    <item>Al-Quds</item>
+                    <item>Cebel-i Suhyun</item>
+                    <item>Mount Zion</item>
+                    <item>Catholics</item>
+                    <item>Katolik</item>
+                    <item>protection</item>
+                    <item>freedom of worship</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00037_Page_76_Entry_165.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200112-17200121.3">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">165</metamark>
+
+
+                <ab><lb/>Nīşān-ı hümāyūn oldur ki:</ab>
+
+                <ab><lb/><rs type="place" ref="#mpr7118">Devlet-i ʿaliyye-i ebed-peyvend</rs>ümle
+                    iftiḫārü’l-ümerāʾi’l-ʿiżāmi’l-ʿĪseviyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı Ḳarolus</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr beyninde ḳadīmī dostluḳ
+                    ve müsāleme temhīd <lb/>ve tecdīd ve bünyān-ı müvālāt tarṣīn ve teşyīd olunmaġla
+                    ḥażret-i <rs type="person">ʿĪsā</rs> ʿaleyhi’s-selām milletinden olub Rīm pāpāya
+                    mensūb olan rāhibler ḥaḳḳında <lb/>ecdād-ı emcād ve ebā-yi kirām-ı ʿālī-nijād
+                    bihişt-ruḳādım zamān-ı saʿādet-iḳtirānlarında ve eyyām-ı devlet ve hengām-ı
+                    salṭanat-i ebed-müddetümde <lb/>virilen ʿahdnāmelerde mesṭūr ve muḳayyed olan
+                    mevādd ve maḫṣūṣen ʿināyet ve iḥsānum olunan nişān-ı ʿālī-şān ve evāmir-i
+                    ʿāliyye <lb/>meżāmin-i şerīfesi fī mā baʿd merʿī ṭutılub dostluḳ ve muṣāfāt
+                    muḳteżāsınca tüccār ve züvvārı ḥimāyet ve ṣiyānet lāzım ve lā-budd <lb/>olmaġla
+                    işbu nişān-ı hümayun saʿādet-maḳrūnı virdüm</ab>
+
+                <ab>ve buyurdum ki Rīm <rs type="person">pāpā</rs>ya mensūb olan rāhibler ve
+                    zevādīler <rs type="place" ref="#mpr14155">Ḳuds-i şerīf</rs>de <lb/><rs
+                        type="place" ref="#mpr16124">Ḳamāme</rs> taʿbīr olunur kelīsāda ḳadīmī
+                    āyīnleri üzere ne gūne ziyāretgāhı ziyāret idegelmişler ise ve ʿale l-ḫuṣūs <rs
+                        type="place" ref="#mpr16131">Cebel-i Ṣuhyūn</rs>ı <lb/>ziyāret idegelmişler
+                    ise āyīn-i ḳadīmleri üzere ke-mā fī l-evvel ziyāretlerine bī-vech ve ḳadīmden
+                    olugelmişe muġāyir devlet-i ʿāliyyem reʿāyāsı <lb/>ve sāʾir ehl-i ʿörf ṭāʾifesi
+                    ṭaraflarından aḳça muṭālebesiyle ve sāʾir bahāne ile daḫl ve taʿarruż
+                    olunmayalar ve <rs type="place" ref="#mpr16124">Ḳamāme</rs> taʿmīri içün
+                    <lb/>bundan aḳdem ḫaṭṭ-ı hümāyūn-ı şevket-maḳrūnum ile muʿanven ṣādır olan
+                    evāmir-i şerīfemi bahāne idüb Rūm ṭāʾifesi ṭaraflarından <lb/>Rūm <rs
+                        type="person">pāpā</rs>ya mensūb olanlar selāṭīn-i pīşīnüñ eyyām-ı
+                    saʿādetlerinde virilen evāmir-i şerīfe ve ḫuṭūṭ-ı hümāyūn ve nişān-ı ʿālī-şāna
+                    <lb/>muġāyir bir dürlü daʿvā ve nizāʿ itdürilmeyüb ḥimāyet ve ṣiyānet ve saye-i
+                    ḥimāye-i pādişāhānede āsūde-ḥāl olmalarına iḥtimām <lb/>ve diḳḳat oluna şöyle
+                    bileler ʿalāmet-i şerīfe iʿtimād ḳılalar.</ab>
+
+                <ab><date type="Hijri" notBefore="1720-01-12" notAfter="1720-01-21">fī evāḫir-i
+                            Rā<supplied resp="#yy">Rebīʿi’l-evvel</supplied> sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200112-17200121.3.translation">
+                <pb n="1" facs="IMG01"/>
+
+
+                <ab>So is the imperial sign (<foreign>nīşān-ı hümāyūn</foreign>):</ab>
+
+                <ab>The ancient friendship and the state of peace between my eternal <rs
+                        type="place" ref="#mpr7118">sublime state</rs> and the <rs type="person"
+                        ref="#mpr9399">Roman Emperor Charles</rs>, the laudable pride of the
+                    magnates of Christendom, was improved and the edifice of mutual confidence and
+                    reliance were consolidated and made firmer. Accordingly, it is indispensably
+                    necessary and required henceforward to enforce about the priests who belong to
+                    the nation of Jesus — peace be upon him — and owe allegiance to the Roman pope
+                    the conditions written and recorded in the imperial letters of agreement that
+                    were issued during the felicitous times of my illustrious predecessors and noble
+                    forefathers of exalted pedigree who sleep in heaven and during my reign and
+                    times of eternal sultanate; in particular, [it is indispensably necessary and
+                    required to enforce] the noblest purview of the illustrious imperial sign and
+                    exalted orders granted and given as my favor and to protect and guard the
+                    merchants and guests as a requirement of friendship and sincerity. Therefore, I
+                    have issued this imperial, felicitous charter (<foreign xml:lang="ota"
+                        >nişān</foreign>).</ab>
+
+                <ab>I command that, in whatever way the priests who owe allegiance to the Roman <rs
+                        type="person">pope</rs> and Jesuits have been visiting the church called the
+                        <rs type="place" ref="#mpr16124">Church of the Holy Sepulchre</rs> since the
+                    old days as per their old rituals and, in particular, in whatever way they have
+                    been visiting <rs type="place" ref="#mpr16131">Mount Zion</rs>, they shall
+                    [continue] their visits as before in the same way according to their rituals.
+                    Contrary to the old practices that have continued to this day, they shall not be
+                    interfered with or attacked by the subjects of my <rs type="place"
+                        ref="#mpr7118">sublime state</rs> or by the community of customary law
+                        (<foreign xml:lang="ota">ehl-i ʿörf ṭāʾifesi</foreign>) with claims of money
+                    or under other pretexts. Using my previously issued noble
+                    order—inscribed with my royal imperial rescript—concerning the reparation of the <rs
+                        type="place" ref="#mpr16124">Church of the Holy Sepulchre</rs> as an excuse, the Greek
+                    community, in opposition to the noble orders, imperial rescripts, and glorious
+                    imperial signs issued during the felicitous times of former sultans, shall not
+                    make any claims or dispute against those who follow the Roman <rs type="person"
+                        >pope</rs>. Great care shall be taken and attention shall be paid to protect
+                    and guard them and for them to be tranquil thanks to imperial protection. Thus
+                    shall they know and [have confidence] in the noble mark.</ab>
+
+                <ab><date type="Hijri" notBefore="1720-01-12" notAfter="1720-01-21">January 12 to
+                        January 21, 1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

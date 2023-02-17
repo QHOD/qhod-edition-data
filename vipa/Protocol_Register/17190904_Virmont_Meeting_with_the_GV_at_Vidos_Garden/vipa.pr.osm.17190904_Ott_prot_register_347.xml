@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über das Treffen von Damian Hugo von Virmont mit Großwesir Ibrahim Pascha 
+                    im Vidos Garten, Istanbul, 4. August 1719</title>
+                <title xml:lang="en">Protocol register of the meeting of Damian Hugo von Virmont with Grand Vizier Ibrahim Pasha at
+                    Vidos Garden, Istanbul, August 4, 1719</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Veziriazam İbrahim Paşa ile Vidos Bahçesi’nde
+                    buluşması, İstanbul, 4 Aġustos 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190904</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it's only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 59-60</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-09-04"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über das Treffen von Damian Hugo von Virmont mit Großwesir Ibrahim Pascha im Vidos Garten, Istanbul, 4. August 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00028b.jpg" xml:id="IMG01"/>
+        </surface>
+        <surface start="#IMG02">
+            <graphic url="A_}d___00347_00029a1.jpg" xml:id="IMG02"/>
+        </surface>
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            
+            <div type="original" xml:id="vipa.pr.osm.17190904">
+            <pb n="1" facs="#IMG01"/>
+            <ab>
+                <lb/><hi rend="#red">Vidoş Bāġ çesinde <rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs>
+                    <rs type="person" ref="#mpr9441">ṣāḥib devlete</rs> geldigini
+                müşʿirdür. Fī <date type="Hijri" when="1719-09-04">19 <supplied resp="#yy">Şevva</supplied>l sene 1131</date>.</hi></ab>
+            <ab><lb/>Yevm-i mezbūrdan bir gün evvel Vidoş Bāġ çesi ḳurbında vāḳiʿ baġ lar kenārına
+                <lb/>mehterḫāne-yi ḫāṣṣadan <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> içün iki direklü oṭaḳ ve bir ʿaraba
+                <lb/>ve oṭaġ ıñ ṣol ṭarafına bir sāyebān ḳurılub irtesi yevm-i mezbūrda 
+                <lb/>ṣāḥib devlet biniş ṭarīḳiyle maḥall-i mezbūra gitmişdür ki ẕikr olunur.</ab>
+                
+            <ab>Yevm-i mezbūrda
+                <lb/>aġ ayān-ı ṣadr-ı ʿālī ve müteferri̇ ḳagān ve çavuşbaşı aġ a ve çavuşlar emīni ve kātibi
+                <lb/>ve çavuşān-ı dergāh-ı ʿālī ve binişe meʾmūr olan ricāl biʾl-cümle
+                <lb/>ʿaleʾl-seḥer Yedikuleniñ ṭaşrasında deryā kenārında Ḳumluḳ taʿbīr olunan
+                <lb/>maḥallde müctemiʿ olmalarıyla <rs type="person" ref="#mpr9441">vezīr-i aʿẓ am</rs>ṣandal
+                ile ve <rs type="person">nişāncı paşa</rs> daḫı
+                <lb/>ardınca ḳayıḳ ile gelüb maḥall-i mezbūra çıḳduḳda </ab>
+                
+             <ab>herkes süvār olub
+                <lb/>tertībleri üzere yürüdükde ṣāhib devletüñ öñince yigirmi bir ʿaded
+                <lb/>müzeyyen yedekler yürüyüb alay ile <rs type="person" ref="#mpr9435">ilçi</rs>nüñ olduġ ı Ḥazīnedār Çiftliġ iniñ
+                <lb/>derūnından mürūr olunub oṭaḳ olan maḥalle nüzūl olunduḳda 
+                <lb/><rs type="person">nişāncı paşa</rs> oṭaġ a bile inüb ḳahveler içildükden ṣoñra muḥżır aġ a
+                <lb/>ṭāʾifesinden yüz nefer ādem başlarında elvān reng şāl ve dīvān 
+                <lb/>dolam<supplied resp="#yy">a</supplied>larıyla müsellaḥ mevcūd olanlarıyla bir defʿa ṭaḳ ımları tamām olunca nişāna
+                <lb/>tüfeng atub baʿdehū iç aġ aları süvāren cirīd oynayub ve mehterḫāne <lb/>çalınur idi.</ab> 
+                 
+                <ab>Bu es̠ nāda  <rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> sākin olduġ ı maḥall cāy-ı mez̠ kūra
+                <lb/>ḳarīb oldıġ ından "<choice resp="#yy"><corr>māniʿleri</corr><sic>maʿnīleri</sic></choice> 
+                    yoġ sa gelsin bir miḳdār ṣoḥbet idelim" diyü
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs>  ṭarafından bir aġ a irsāl olunub baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> daḫı
+                <lb/>on beş yigirmi ḳadar atlu ādemleriyle geldükde 
+                    
+                    <note xml:id="ftn1" type="editorial" resp="#yy">
+                        The difference between the accounts of this meeting here in the Ottoman 
+                        protocol register and in the travelogue of the Austrian secretary C. Driesch 
+                        is remarkable. According to the Ottoman version, the organization of a festive
+                        event nearby the location where the Austrian ambassador was residing was just a coincidence.
+                        According to C. Driesch's account, however,  
+                        the festive gathering was intentionally organized at a location approximately one-thousand steps
+                        away from the Austrian ambassador's residence, that is, at a location extremely close to 
+                        where Virmont resided with his entourage. Driesch claimed that the Grand Vizier Nevşehirli Ibrahim Pasha's
+                        intention was to meet the Austrian ambassador, but since an Ottoman grand vizier's visit
+                        to a European ambassador was unheard of, the grand vizier pretended the occasion to be
+                        a coincidence. Based on this assumption, Driesch noted in his travelogue that
+                        such a compliment by the grand vizier to Virmont was "quite an extraordinary honor."
+                        For a detailed description of this gathering by
+                        <ref target="/o:vipa.tr.hbg.1723#facs_234">C. Driesch, see pages 234-243.</ref></note>
+                        
+                    
+                    
+                    muhżır aġ a ṭāyifesi oṭaḳ zuḳāḳınuñ 
+                <lb/>ṭaşrasında dizilüb ve çavuşān ve müteferriḳagān ve aġ ayān oṭaġ uñ
+                <lb/>iç ṭarafında ṣaff-beste olduḳları ḥālde zuḳāk ḳapusınuñ iç ṭarafında
+                <lb/>oṭaġ a ḳarīb <rs type="person" ref="#mpr9435">ilçi</rs>nüñ nüzūli içün bir iskemle vażʿ olunmaġ la nüzūl itdürildikden-ṣoñra
+                <lb/>çavuşlar kātibi ve emīni öñine düşüb oṭāġ uñ içerüsine götürüb
+                <lb/>muk̇ ābele-i ṣadr-ı ʿālīde ḥāżır olan iskemleye oturdılub</ab>
+                
+            <ab>baʿdehū ṣ adr-ı aʿżam <pb n="2" facs="#IMG02"/>
+                <lb/>çavuşbaşı aġ a öñince içerü obadan çıḳub ḥāżirūna selām-dāde olduḳda
+                <lb/>selām aġ ası ṣavt-ı bülend ile selām olub ṣadra ḳuʿūd eyledüklerinde çavuşān 
+                <lb/>alḳış idüb</ab> 
+                
+            <ab>baʿdehū ḳahveler içildikden ṣoñra ḳışḳış olub bir sāʿat
+                <lb/>miḳdārı maḥfīce ol ḥāl üzere müṣāḥabet eylemişlerdür. Bu es̠snāda <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> 
+                <lb/>ḳırmıżı ṣof ferāceye ḳaplu semūr kürk giymiş ve yed-i şerīflerinde bir incü tesbīḥ 
+                <lb/>var idi. Baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> ḳalḳub <rs type="person" ref="#mpr9435">ilçi</rs> daḫı ārdınca sāyebāna
+                <lb/>çıḳduḳlarında <rs type="person" ref="#mpr9435">ilçi</rs> yaṣdıḳ üzerine oturdub iç aġ aları cirīd
+                <lb/>oynadılar. Ve bu aralıḳda sāde naḳḳāre faṣlı oldu. Cerīdden ṣoñra
+                <lb/>nişancı paşa daḫı sāyebāna daʿvet olundı. Baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devletiñ</rs> yedek
+                <lb/>atlarına birer aġ a binüb aşaġ ı ve yuḳaru gezdürdiler. İçlerinden zülfü siyāh
+                <lb/>bir ḳula atı <rs type="person" ref="#mpr9435">ilçi</rs>ye irkāb içün ihdā olundı.</ab>
+                
+                <note xml:id="ftn2" type="editorial" resp="#yy">
+                    The horse that the grand vizier presented to Virmont as a gift was fully equipped
+                    with a horse tack, including a bridle, saddle, stirrups, and an armor gilded with 
+                    siver. Driesch noted that <ref target="/o:vipa.tr.hbg.1723#facs_240">
+                    "the gear was so heavy that the horse had enough weight to carry on it."</ref>
+                    As mentioned in the next passage of this protocol entry, Virmont mounted on this horse when
+                    leaving.</note>
+                
+            <ab>Baʿdehū vezīr-i aʿżam ābdest 
+                <lb/>içün içerü obaya girüb baʿdehū oṭaġ ıñ içine sofra döşenmekle <rs type="person" ref="#mpr9435">ilçi</rs> ve nişāncı 
+                <lb/>paşa varub oturduḳlarından ṣoñra saʿādetlü <rs type="person" ref="#mpr9441">vezir-i aʿżam</rs> ḳırmıżı ṣof ferāce ile 
+                <lb/>içerüden geldükde <rs type="person" ref="#mpr9435">ilçi</rs>
+                ve <rs type="person">nişāncı paşa</rs> ḳıyām eylediler. Ṭāʿām tenāvülinden ṣoñra 
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> ikindi nemāzı içün ḳalḳub içerü gidüb baʿdehū çıḳduḳda 
+                <lb/>ḳırmızı ṣofa ḳaplu ḳāḳūm kürk ile gelüb oturdı. ̣Baʿdehū <rs type="person" ref="#mpr9435">ilçi</rs>ye gidecek 
+                <lb/>zamān ḳırmızı ṣofa ḳaplu bir ḳāḳūm kürk ilbās olunub ve ihdāʾ-i ṣadr-ı ʿālī 
+                <lb/>olan ḳula āta süvār olub gitdi. Derʿaḳab ṣāhib devlet daḫī süvār 
+                <lb/>olmaġ la <rs type="person" ref="#mpr9435">ilçi beg</rs> <rs type="person" ref="#mpr9441">ṣāḥib devleti</rs> selāmlayub baʿdehū vezīr-i aʿżam ḥażretleri yine 
+                <lb/>Yedikullede çıḳduḳları maḥallden ḳayıġ a binüb ʿavdet eylemişlerdür. Ṭaḳıma Dāvud
+                <lb/>Paşa’ya gelindükde iz̠ in virilmişdür.</ab>
+                
+                </div>
+                
+                <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190808-transl">
+                    <pb n="1" facs="#IMG01"/>     
+              <ab>Report indicating the arrival of the Austrian <rs type="person" ref="#mpr9435">ambassador</rs> for a meeting with the 
+                  <rs type="person" ref="#mpr9441">grand vizier</rs> at Vidos Garden on August 4, 1719</ab>
+                    
+              <ab>A day before the meeting day, a large two-poled tent was supplied from the inventory of the sultan’s tent pitchers 
+                  (<foreign xml:lang="tr">mehterḫāne-yi ḫāṣṣa</foreign>) and was erected next to the vineyards in the vicinity of Vidos Garden.
+                  A carriage was prepared at the same location and a canopy was set up on the
+                  left-hand side of the tent. On the day of the meeting, the <rs type="person" ref="#mpr9441">grand vizier</rs> rode to the said location 
+                  as will be described here.</ab>
+
+                    <ab>On that day, the aghas of the office of the <rs type="person" ref="#mpr9441">grand vizier</rs>, court officals (<foreign xml:lang="tr">müteferri̇ḳagān</foreign>), 
+                  the agha, the secretary, and the intendant of the palace ushers along with court ushers
+                  and others, who had been commissioned to join the convoy, gathered together at dawn
+                  next to the sea in the environs of <rs type="place">Yedikule</rs> (Seven Towers) at the location called Ḳumluk. The <rs type="person" ref="#mpr9441">grand vizier</rs>
+                        came by a <foreign xml:lang="tr">sandal</foreign> (a European style row-boat) and the <rs type="person">chancellor</rs> followed him with a caique
+                  and landed at the aforesaid location.</ab>
+                    
+              <ab>Everyone mounted their horses and advanced in accordance with their customary order.
+                  Twenty-one uniformed reserve militiamen preceded the <rs type="person" ref="#mpr9441">grand vizier</rs> and [they] paraded through 
+                  the interior precincts of the Hazinedar Farm where the <rs type="person" ref="#mpr9435">ambassador</rs> was stationed – and, 
+                  when they arrived [to the] place where the <rs type="person" ref="#mpr9435">ambassador</rs>’s tent was situated, the
+                  Ottoman <rs type="person">chancellor</rs> [dismounted and] entered the tent as well and coffee was served.
+                  Next, one-hundred men from among the <rs type="person" ref="#mpr9441">grand vizier</rs>’s guard (<foreign xml:lang="tr">muḥżır aġ a ṭāʾifesi</foreign>),
+                  who were present [at that location] equipped with their weapons and adorned with multi-colored scarfs
+                  and long robes they wear when attending the imperial council, 
+                  they performed the target practice exercise with 
+                  their muskets. Thereafter, the aghas of the inner court pages 
+                  performed javelin exercises on their horses while the military band played.</ab> 
+                  
+              <ab>At this moment, since [the <rs type="person" ref="#mpr9441">grand vizier</rs>] had arrived close by
+                  the location where the Austrian <rs type="person" ref="#mpr9435">ambassador</rs> was located, the <rs type="person" ref="#mpr9441">grand vizier</rs> 
+                  sent an agha to the <rs type="person" ref="#mpr9435">ambassador</rs> asking him to join the <rs type="person" ref="#mpr9441">grand vizier</rs> 
+                  for a brief friendly conversation if the <rs type="person" ref="#mpr9435">ambassador</rs> saw no obstacle to doing so.
+                  Next, when the <rs type="person" ref="#mpr9435">ambassador</rs> came along with his fifteen to twenty mounted attendants,<ref target="#ftn1" type="note_reference"/> 
+                  
+                  <!--<note type="footnote" resp="#yy">
+                      The difference between the accounts of this meeting here in the Ottoman 
+                      protocol register and in the travelogue of the Austrian secretary C. Driesch 
+                      is remarkable. According to the Ottoman version, the organization of a festive
+                      event nearby where the Austrian ambassador was residing was just a coincidence.
+                      <ref target="/o:vipa.tr.hbg.1723#facs_234">According to C. Driesch's account</ref>, 
+                      the festive gathering was intentionally organized at a location one-thousand steps
+                      away from the Austrian ambassador's residence. Driesch claimed that Nevşehirli Ibrahim Pasha's
+                      intention was to visit the Austrian ambassador, but since an Ottoman grand vizier's visit
+                      to a European ambassador was unheard of, Ibrahim Pasha pretended the occasion to be
+                      a coincidence. Based on this assumption, Driesch noted in his travelogue that
+                      such a compliment by the grand vizier to Virmont was a "quite an extraordinary honor."
+                      For a detailed description of this gathering, see C. Driesch, pages 234-243.</note>-->
+                  
+                  the <rs type="person" ref="#mpr9441">grand vizier</rs>’s guard set up ranks outside the passageway to the tent, while the palace ushers,
+                  court officials (<foreign xml:lang="tr">müteferri̇ ḳagān</foreign>), and aghas stood in line inside the passageway.
+                  In addition, inside the gate of the passageway, a stool was positioned close to the entrance 
+                  to the tent for the <rs type="person" ref="#mpr9435">ambassador</rs> to sit down. After the <rs type="person" ref="#mpr9435">ambassador</rs> arrived [and dismounted from his horse], 
+                  the secretary and the intendant of the palace ushers went ahead of him and brought him into the tent, 
+                  and made him sit down on the stool that was ready opposite the <rs type="person" ref="#mpr9441">grand vizier</rs>.</ab>
+              
+              
+             <ab>Next, the <rs type="person" ref="#mpr9441">grand vizier</rs> <pb n="2" facs="#IMG02"/>
+                  came out of the inner room ahead of the agha of the palace ushers and saluted
+                  those who were present, upon which the master of ceremonies saluted with a loud voice.
+                  When the <rs type="person" ref="#mpr9441">grand vizier</rs> took his place on the prime ministerial seat, the palace ushers applauded.</ab>
+                    
+             <ab>After coffee was drunk, a confidential conversation continued for the better part of about 
+                 an hour. During this time, the <rs type="person" ref="#mpr9441">grand vizier</rs> was wearing
+                 a sable fur on a fine red cloak, and in his honorable hand, he had a pearl rosary.
+                 Then, the <rs type="person" ref="#mpr9441">grand vizier</rs> stood up and went outside to the canopy, followed by the <rs type="person" ref="#mpr9435">ambassador</rs>.
+                 The <rs type="person" ref="#mpr9435">ambassador</rs> sat on a pillow and the pages of the inner court played javelins.
+                 Meanwhile, a single kettle-drum performance took place. After the javelin game was over,
+                 the <rs type="person">chancellor</rs> was invited to join them. Next, each of the aghas mounted on
+                 one of the <rs type="person" ref="#mpr9441">grand vizier</rs>’s reserve horses and rode them back and forth. From among these horses,
+                 a buckskin colored horse with black locks was presented as a gift to the <rs type="person" ref="#mpr9435">ambassador</rs> 
+                 for him to ride.<ref target="#ftn2" type="note_reference"/></ab>
+                    
+                    <!--<note type="footnote" resp="#yy">
+                        The horse that the grand vizier presented to Virmont as a gift was fully equipped
+                        with a horse tack, including a bridle, saddle, stirrups, and an armor gilded with 
+                        siver. Driesch noted that <ref target="/o:vipa.tr.hbg.1723#facs_240">
+                            "the gear was so heavy that the horse had enough weight to carry on it."</ref>
+                        As mentioned in the next passage of the current protocol entry, Virmont mounted on this horse when
+                        leaving.</note>-->
+                 
+             <ab>Then, the <rs type="person" ref="#mpr9441">grand vizier</rs> entered the inner room for ablution. Afterwards, a meal was spread out
+                 inside the tent. After the <rs type="person">chancellor</rs> had come in and sat down, his excellency, the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                 came inside with a red camlet cloak, upon which the <rs type="person" ref="#mpr9435">ambassador</rs>
+                 and the <rs type="person">chancellor</rs> stood up
+                 to salute him. After eating the meal, the <rs type="person" ref="#mpr9441">grand vizier</rs> stood up to perform the afternoon prayer
+                 and went inside. Then, the <rs type="person" ref="#mpr9441">grand vizier</rs> came out wearing an ermine fur on
+                 red mohair and sat down. As the <rs type="person" ref="#mpr9435">ambassador</rs> was about to leave,
+                 the <rs type="person" ref="#mpr9441">grand vizier</rs> had [the <rs type="person" ref="#mpr9435">ambassador</rs>] 
+                 dressed with an ermine fur on red mohair. The ambassador then mounted the buckskin horse
+                 presented to him by the <rs type="person" ref="#mpr9441">grand vizier</rs> and departed.
+                 After that, the <rs type="person" ref="#mpr9441">grand vizier</rs> himself also
+                 mounted [a horse]. The <rs type="person" ref="#mpr9435">ambassador</rs> saluted the <rs type="person" ref="#mpr9441">grand vizier</rs> and thereafter the grand
+                 vizier again embarked on a caique at Yedikule (Seven Towers) from the same location where he had landed
+                 and [he] returned. The commissioned officials were given leave to return to their
+                 posts when the vizier’s retinue arrived at Davud Paşa.</ab> 
+       
+        </div>
+        </body>
+    </text>
+</TEI>

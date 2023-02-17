@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Gouverneur des Sanjak von
+                    Elbasan und an den Richter von Durrës (Drač), Kaufleute zu befreien, die
+                    Untertanen des Heiligen Römischen Kaisers sind und von tunesischen Piraten
+                    während einer Reise von Ναύπλιον/Náfplio nach Sizilien unter Verletzung des
+                    kaiserlichen Vertragsschreibens (ahidname) gefangen genommen worden waren;
+                    Istanbul, 24. November – 3. Dezember 1719</title>
+
+                <title xml:lang="en">Sultan’s decree to the governor of the Sanjak of Elbasan and to
+                    the judge of Durrës (Drač) to free the merchants who are subjects of the Holy
+                    Roman Emperor and have been captured during a journey from Ναύπλιον/Náfplio to
+                    Sicily by Tunisian pirates in violation of the imperial letter of agreement
+                    (ahidname); Istanbul, November 24 – December 3, 1719</title>
+
+
+                <title xml:lang="tr">Sultanın, Elbasan sancağı beyine ve Drac kadısına hitaben
+                    yazılmış olan, Kutsal Roma İmparatorluğu tebaasından olan ve Anabolı’dan
+                    Sicilya’ya yaptıkları seyahat esnasında ahidname şartlarına aykırı olarak
+                    Tunuslu korsanlarca tutsak edilen tüccarların serbest bırakılması hakkında
+                    hükmü; İstanbul, 24 Kasım – 3 Aralık, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191124-17191203.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 73, entry 147</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-11-24" notAfter="1719-12-03"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Gouverneur des Sanjak von Elbasan und an den
+                    Richter von Durrës (Drač), die Kaufleute zu befreien, die Untertanen des
+                    Heiligen Römischen Kaisers sind und von tunesischen Piraten während einer Reise
+                    von Ναύπλιον/Náfplio nach Sizilien unter Verletzung des kaiserlichen
+                    Vertragsschreibens (ahidname) gefangen genommen wurden; Istanbul, 24. November –
+                    3. Dezember 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung:
+                    Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts
+                    und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>decree to the governor of Elbasan and to the judge of Durrës (Drač) to
+                        free, according to the conditions of the imperial letter of agreement
+                        (ahidname), the captives who are subjects of the Holy Roman Emperor</item>
+                    <item>Elbasan</item>
+                    <item>Durrës (Drač)</item>
+                    <item>Náfplio</item>
+                    <item>Sicily</item>
+                    <item>captive</item>
+                    <item>esir</item>
+                    <item>Holy Roman Emperor</item>
+
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_73_Entry_147.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191124-17191203.2">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">147</metamark>
+                <ab><lb/>Ber-vech-i arpalıḳ <rs type="place" ref="#mpr16055">İlbaṣan</rs> (Elbasan)
+                    sancaġı mutaṣarrıfına ve <rs type="place" ref="#mpr15610">Drāc</rs> ḳāḍīsına
+                    ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile gelen <rs type="person"
+                        ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr
+                    <lb/>südde-i saʿādetüme ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab><rs type="place" ref="#mpr7118">devlet-i ʿaliyyem</rs> ile <rs type="person"
+                        ref="#mpr9399">Romā imperāṭorı</rs> beyninde ʿaḳd-ı musālaḥa ve musāleme ile
+                    ṭarafeynden aḫẕ ve iʿṭā <lb/>olunan ʿahdnāmelerde tüccār ṭāʾifesi ṭarafeynüñ
+                    memālikinde selefde virilen ʿahdnāmeler mūcebince emnen ve sālimen gendü
+                    ḥāllerinde ticāret <lb/>ideler müşārün ileyh <rs type="person" ref="#mpr9399"
+                        >Romā imperāṭorına</rs> tābiʿ vilāyetlerüñ tüccār ve reʿāyāları ḳanġı
+                    milletden olursa olsunlar berren ve baḥren <lb/>bu ḫuṣūṣa meʾmūr olan vekīller
+                    beyninde ḳarār virildügi vech üzere <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs>nuñ bayraġı ve paṭentasıyla <lb/>memālik-i maḥrūseye gendü
+                    ḥāllerinde gidüb gelüb alış viriş idüb lāzım gelen gümrükleri virdüklerinden
+                    ṣoñra rencīde <lb/>olunmayub ḥimāyet ve ṣiyānet olunalar diyü mesṭūr ve muḳayyed
+                    olmaġla</ab>
+
+                <ab>daḫl olunmaḳ īcāb itmez iken ḥālā müşārün ileyh <rs type="person" ref="#mpr9399"
+                        >Romā <lb/>imperāṭorı</rs>nuñ bayraġıyla tüccār ve reʿāyālarından baʿżıları
+                    ticāret ile iki ḳıṭʿā sefīneleriyle <rs type="place" ref="#mpr15727"
+                        >Anabolı</rs>dan (Ναύπλιον/Náfplio) <rs type="place" ref="#mpr1912"
+                        >Çeçeliye</rs> (Sicily) giderler iken <lb/>esnā-yı rāhde <rs type="place"
+                        ref="#mpr15616">Tūnus</rs> sefīnesine müṣādif olduḳlarında ẕikr olunan <rs
+                        type="place" ref="#mpr15616">Tūnus</rs> ricāli sālifü’ẕ-ẕikr iki ḳıṭʿā
+                    <lb/>sefīneyi ḫilāf-ı ʿahdnāme-i hümāyūn aḫẕ ve içinde olan emvāl ve eşyāsını
+                    alub ve tüccār ve reʿāyāların daḫī istirḳāḳ <lb/>idüb ẕikri mürūr iden <rs
+                        type="place" ref="#mpr15616">Tūnus</rs> sefīnesi <rs type="place"
+                        ref="#mpr15610">Drāc</rs> limanında olduḳların bildürüb ẕikr olunan iki
+                    ḳıṭʿā sefīneleri <lb/>ve derūnında aḫẕ olunan emvāl ve eşyā ve istirḳāḳ olunan
+                    tüccār ve reʿāyāları ʿahdnāme-i hümāyūn şürūṭı mūcebince <lb/>müşārün ileyh <rs
+                        type="person" ref="#mpr9399">Romā imparaṭorı</rs>nuñ <rs type="place"
+                        ref="#mpr15610">Drāc</rs>da olan ādamlarına bi-t-temām redd ve teslīm
+                    itdürilmek bābında emr-i şerīfüm ricā itmeġin <lb/>vech-i meşrūḥ üzere ʿamel
+                    olunmaḳ bābında fermān-ı ʿālī-şānum ṣādır olmışdur.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan fermān-ı celīlü’l-ḳadrüm mūcebince ʿamel
+                    idüb daḫī vech-i meşrūḥ üzere müşārün ileyh <rs type="person" ref="#mpr9399"
+                        >Romā <lb/>imperāṭorı</rs>nuñ tüccār ve reʿāyālarından ḫilāf-ı ʿahdnāme-i
+                    hümāyūn aḫz olunan sālifü’ẕ-ẕikr iki ḳıṭʿā sefīnesini derūnında <lb/>olan emvāl
+                    ve eşyā ve istirḳāḳ olunan tüccār ve reʿāyālarıyla girü ve <rs type="person"
+                        ref="#mpr9399">müşārün ileyh</rs>üñ <rs type="place" ref="#mpr15610"
+                        >Drāc</rs>da olan ādamlarına <lb/>redd ve teslīm idüb min baʿd ʿahdnāme-i
+                    hümāyūn ve emr-i hümāyūnuma muḫālif taʿallül ve tereddüd itdürmeyesin şöyle
+                    bilesin.</ab>
+
+
+                <ab><date type="Hijri" notBefore="1719-11-24" notAfter="1719-12-03">fī evāsıṭ-ı
+                        Muḥarrem sene 1132</date></ab>
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.1719124-17191203.2.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the person who is the governor of the <rs type="place" ref="#mpr16055"
+                        >Elbasan</rs> district as a sinecure (<foreign xml:lang="ota"
+                        >arpalıḳ</foreign>) and to the judge of <rs type="place" ref="#mpr15610"
+                        >Durrës</rs> (Drač):</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>
+                    —may God end his days propitiously—who came as grand ambassador from the <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs>, the paragon of the great
+                    commanders of the community of Messiah, sent a petition to my threshold of
+                    felicity [about the following matter]:</ab>
+
+                <ab>In the letters of agreement that have been exchanged as a result of the mutual
+                    signing of peace and reconciliation between my eternal <rs type="place"
+                        ref="#mpr7118">sublime state</rs> and the <rs type="person" ref="#mpr9399"
+                        >Roman emperor</rs>, it is written and recorded that the merchant class
+                    shall quietly, safely, and soundly trade on the lands of both sides as per the
+                    letters of agreement previously exchanged; that the merchants and subjects of
+                    the lands under the suzerainty of the aforesaid <rs type="person" ref="#mpr9399"
+                        >Roman emperor</rs>, regardless of whichever nation they come from, shall
+                    quietly come and go over land and sea to the well-protected domains under the
+                    flag and patent of the <rs type="person" ref="#mpr9399">Roman emperor</rs> and
+                    trade in accordance with how it was concluded among the delegations charged with
+                    this matter. Once they pay the required customs duty, they shall be guarded and
+                    protected and not be injured.</ab>
+
+                <ab>Thus, interfering with [them] was not necessary. However, as some of the
+                    merchants and subjects of the <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs> were on their way from <rs type="place" ref="#mpr15727"
+                        >Ναύπλιον/Náfplio (Anabolu)</rs> to <rs type="place" ref="#mpr1912">Sicily
+                        (Çeçele)</rs> with their two ships, during the journey they came across a
+                        <rs type="place" ref="#mpr15616">Tunisian</rs> ship. The <rs type="place"
+                        ref="#mpr15616">Tunisians</rs>, in violation of the imperial letter of
+                    agreement (<foreign xml:lang="ota">ʿahdnāme-i hümayun</foreign>), have captured
+                    the two ships mentioned earlier and have taken the properties and goods on the
+                    ship. They enslaved the merchants and subjects. The ambassador reported that the
+                    aforesaid <rs type="place" ref="#mpr15616">Tunisian</rs> ship is at the <rs
+                        type="place" ref="#mpr15610">Durrës</rs> port. (<rs type="person"
+                        ref="#mpr9435">The ambassador</rs>) requested my imperial decree that the
+                    aforesaid two ships, all of the captured properties and goods, and the enslaved
+                    merchants and subjects shall be returned and delivered, as per the conditions of
+                    the imperial letter of agreement, to the men of the aforementioned <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs> located at <rs type="place"
+                        ref="#mpr15610">Durrës</rs>. My illustrious decree has been issued for [all]
+                    to act in the described way.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">I</rs> order that, when [my decree] arrives,
+                    you shall act in accordance with my edict of glorious worth that has been issued
+                    about this matter. In the described way, you shall return and deliver the
+                    aforesaid ships, the properties and goods on them that have been captured from
+                    the merchants and subjects of the aforesaid <rs type="person" ref="#mpr9399"
+                        >Roman emperor</rs> in violation of the imperial letter of agreement, the
+                    enslaved merchants themselves, and their subjects back to the men [of the <rs
+                        type="person" ref="#mpr9399">Roman emperor</rs>] who are located in <rs
+                        type="place" ref="#mpr15610">Durrës</rs>. From now on, you shall [allow no
+                    one] to make excuses in violation of my imperial letter of agreement and my
+                    imperial edict, nor [shall you allow anyone] hesitate my orders. So shall you know!</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1719-11-24" notAfter="1719-12-03">November 14 to
+                        November 23, 1719</date></ab>
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

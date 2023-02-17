@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pera, 07. Dezember 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pera, December 7, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                
+                <idno type="PID">o:vipa.l.hbg.17191207.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 185-1, fol. 144r-145v.</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Pera, 7. Dezember 1719, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/750640/">Pera</placeName>
+                    <date when="1719-12-07">7. Dezember 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="next" target="/o:vipa.l.hbg.17190528">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-12-11">11. Dezember 1719</date>
+                    </ref>
+                </correspContext>
+               
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>libertion of Ottoman captives</item>
+                    <item>liberation of Christian captives</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="24KV_144r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="24KV_144v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="24KV_145r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="24KV_145v.jpg" xml:id="IMG4"/>
+        </surface>
+        
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="144r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 24.</ref> d.do. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                <date when="1719-12-07">7. Dezembris 1719</date>.</metamark>
+            
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath p. p.</salute></opener> 
+            <p>Durchleüchtigster fürst, excellenzien und meine hochgeehrtiste herren. Nachdeme ich unterainstens <seg rend="encrypted"><choice><orig>210 40 179 32 172 26 130 97 151 54 32 39 394 158 10 8 97 51 14 97 54 131 33 126 69 131 8 21 26 167</orig><reg type="decoding" resp="#contemp">auf verlangen der Porten ein anderes schreiben</reg></choice></seg> an einen hochlöblichen hof-kriegs-rath <seg rend="encrypted"><choice><orig>487 190 178 66 6 16 77 73 97 6 159 10 8 106 33 40 130 102 26 130 97 197 154 72 26 52 171 19 178 26 54 97 168 87 25 32 15 144 188 82 7 22 26 33 143 165 70 77 73 48 50 54 51 340</orig><reg type="decoding" resp="#contemp">wegen ledig machung eines gefangen seyn sollenden cibarbagi nahmens <rs type="person" ref="#mpr15751">Ketchudazade Mehmed</rs></reg></choice></seg>, damit es <seg rend="encrypted"><choice><orig>54 27 40 297 218 127 10 8 26 130 140 12 18 70 519 482</orig><reg type="decoding" resp="#contemp">dem <rs type="person">Ibrahim bassa</rs> eingeschickhet werde</reg></choice></seg>, hinauß <seg rend="encrypted"><choice><orig>95 130 21 97 158 48 148 27 21 26 128 358 74 23 8 130 131 26 198 484 26</orig><reg type="decoding" resp="#contemp">geben, darumben nicht waigeren wollen</reg></choice></seg>, umb damit es <seg rend="encrypted"><choice><orig>95 75 349 10 32 40 192 87 186 166 70 39 66 10 106 97 74 46 77 166</orig><reg type="decoding" resp="#contemp">zu mehrer facilitet dienen möchte</reg></choice></seg>, die von mir <seg rend="encrypted"><choice><orig>209 143 54 32 15 26 88 14 127 359 167 23 8 166 32 33 198 179 32 172 97 130 26 54 129 468</orig><reg type="decoding" resp="#contemp">auß der bannia noch weithers verlangende und</reg></choice></seg> unter denen in meinen vorigen schon gedachten <seg rend="encrypted"><choice><orig>24 131 166 71 166 97 143 500 130 121 19 166 106 74 421 10 26</orig><reg type="decoding" resp="#contemp">praetexten zuruckh gehaltene sclaven</reg></choice></seg> auch <seg rend="encrypted"><choice><orig>184 33 52 95 329 26 190 14 19 33 127 295 168 294 185 97 39</orig><reg type="decoding" resp="#contemp">loß zu lassen, alß habe hiervon</reg></choice></seg>
+            <pb n="144v" facs="#IMG2"/>durch gegenwärttiges gehorsambe und schuldigstes <seg rend="encrypted"><choice><orig>185 32 172 73 9 138 130 129 357 145 77 70 188 95 130 21 26 40 358 51 10 32 16 97 6 178 26 127</orig><reg type="decoding" resp="#contemp">vorläuffige nachricht zu geben nicht ermanglen</reg></choice></seg> und meine <seg rend="encrypted"><choice><orig>73 97 185 32 6 131 8 9 186 77 10 74 22 8 85 26 6 75 229 148 12 165 26 52 484 26</orig><reg type="decoding" resp="#contemp">unvorgreifliche mainung beyrucken wollen</reg></choice></seg>, daß wan eüer durchleuchtigste excellenzien und meine hochgeehrtiste herren <seg rend="encrypted"><choice><orig>66 154 97 197 87 25 32 15 144 167 (171 40 10 32 128 10 32 9 124 6 70 143 30 32 54 51)</orig><reg type="decoding" resp="#contemp">disen <rs type="person" ref="#mpr15751">ciorbagi</rs> (so er erfragt wurde)</reg></choice></seg> gleichwie ihnen auch sagen lassen, <seg rend="encrypted"><choice><orig>48 33 40 164 10 190 471 437 8 6 77 10 131 53 8 97 160 32 16 175 25 26 126 185 26 143 8 7 27 74 95 130 21 97 188 152 77 10 26 199 171 19 178 26 190 358 54 27 74 297 218 167 209 186 9 118 131 97</orig><reg type="decoding" resp="#contemp">daß sie umbständlichere information von ihn zu geben suchen sollen, nicht dem <rs type="person" ref="#mpr14276">Ibrahim bassa</rs> außliferen</reg></choice></seg>, sondern mit etwas <seg rend="encrypted"><choice><orig>210 95 6 128 357 74 222 168 14 13 140 12 165 97 198 468 75 37 77 40 281 151 48 185 97 151 95 14 11 179 32 175 131 26 74</orig><reg type="decoding" resp="#contemp">aufzug nach <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> abzuschicken und mich gleich davon zu advertiren</reg></choice></seg> für gut befinden möchten, ich vielleicht <seg rend="encrypted"><choice><orig>294 37 70 74 130 178 130 97 153 8 70 51</orig><reg type="decoding" resp="#contemp">hiermit gelegenheit</reg></choice></seg>
+            <pb n="145r" facs="#IMG3"/><seg rend="encrypted"><choice><orig>10 32 170 19 178 26 74</orig><reg type="decoding" resp="#contemp">erhalten</reg></choice></seg> kunte, <seg rend="encrypted"><choice><orig>10 8 26 127 380 40 14 26 54 131 97 53 14 32 22 97 167 245 186 77 10 26 190 130 102 26 130 106 26 168 14 73 77 151 95 153 19 5 10 97 190</orig><reg type="decoding" resp="#contemp">ein oder anderen armen christlichen gefangenen auch zu helffen</reg></choice></seg>. Womit mich gehorsambst und schuldigst empfehle und ersterbe.</p>
+            <closer>
+                <salute>Euer durchleuchtigsten excellenzien und meiner hochgeehrtisten herren</salute>
+                
+                <dateline><rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> den <date when="1719-12-07">7. Dezember 1719</date>.</dateline>
+                <signed>Gehorsambst- und dienstschuldigster diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+                
+            </closer>
+            
+            <pb n="145v" facs="#IMG4"/><metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1720-03-06">6. Merzen 1720</date>.</metamark>
+        </body>
+    </text>
+</TEI>

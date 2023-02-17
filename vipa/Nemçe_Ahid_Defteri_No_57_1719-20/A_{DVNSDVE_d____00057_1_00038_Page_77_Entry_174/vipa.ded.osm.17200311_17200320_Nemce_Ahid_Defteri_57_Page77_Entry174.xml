@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Woiwoden der Walachei
+                    Nicolaos Mavrocordato über die ausschließliche Zuteilung des Pottaschehandels im
+                    Fürstentum an die Kaufleute unter den Untertanen des habsburgischen Kaisers
+                    gemäß dem Vertrag von Passarowitz; Istanbul, 11. März – 20. März 1720</title>
+
+                <title xml:lang="en">Sultan’s decree to the Voivode of Wallachia Nicholas
+                    Mavrocordato about the allocation of potash trade in the principality
+                    exclusively to the merchants from among the Habsburg emperor’s subjects as per
+                    the Passarowitz Treaty; Istanbul, March 11 – March 20, 1720</title>
+
+
+
+                <title xml:lang="tr">Sultan’ın, Eflak Voyvodası Nikolas Mavrokordato’ya hitaben,
+                    Pasarofça Antlaşması gereğince Eflak’taki meşe külü ticaretini Habsburg
+                    imparatorunun tebaası olan tüccarlara has kılması hakkında hükmü; İstanbul, 11
+                    Mart - 20 Mart, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200311-17200320.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 77, entry 174</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-03-11" notAfter="1720-03-20"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den Woiwoden der Walachei Nicolaos Mavrocordato
+                    über die ausschließliche Zuteilung des Pottaschehandels im Fürstentum an die
+                    Kaufleute aus den Untertanen des habsburgischen Kaisers gemäß
+                    Passarowitz-Vertrag; Istanbul, 11. March – 20. March 1720, bearb. von Yasir
+                    Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz,
+                    in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20),
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>allocation of potash trade according in Wallachia to Austrian merchants
+                        according to the conditions of the imperial letter of agreement
+                        (ahidname)</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>Wallachia</item>
+                    <item>Eflak</item>
+                    <item>Nicholas Mavrocordato</item>
+                    <item>Niš</item>
+                    <item>Austrian merchant</item>
+                    <item>Holy Roman emperor</item>
+                    <item>protection</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00038_Page_77_Entry_174.jpg" xml:id="IMG1"/>
+        </surface>
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200311-17200320.1">
+                <pb n="1" facs="#IMG1"/>
+
+                <ab><lb/><rs type="place" ref="#mpr1794">Eflāḳ</rs> voyvodası <rs type="person"
+                        ref="#mpr15442">Niḳolay voyvoda</rs>ya ḥüküm ki:</ab>
+
+                <ab><lb/><rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafından āsitāne-i
+                    saʿādet-medāruma gelen büyükelçisi <rs type="person" ref="#mpr9435">Cenerāl Ġrūf
+                        de Virmond</rs> ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+                <ab><lb/><rs type="place" ref="#mpr1794">Memleket-i Eflāḳ</rs>da potāz taʿbīr olunur
+                    bir nevʿi mīşe aġacı iḫrāḳından ḥāṣıl olan küli <rs type="person" ref="#mpr9399"
+                        >imperāṭor-ı müşārün ileyh</rs>üñ memleketinde çuḳa işleyenler <lb/>istiʿmāl
+                    idegelmelerinden nāşı ḳadīmden tüccār vesāṭetiyle iştirā ve lüzūmı olan
+                    maḥallere naḳl ve īṣāl ve beyʿ ü şerā iderler iken biraz müddetden berü
+                    <lb/>baʿżı ʿavārıż ve ʿillet ḥasebiyle ʿameli terk olunmaġın ṭarafeynüñ
+                    intifāsıyçün ke-mā fī’l-evvel ʿamel ve mābeynde temhīd ve teşyīd olunan dostluḳ
+                    ve muṣāfāta <lb/>bināʾen ticāreti <rs type="person" ref="#mpr9399">imperāṭor-ı
+                        müşārün ileyh</rs>üñ reʿāyāsına taḫṣīṣ olunmaḳ bābında istidʿā-yı ʿināyet
+                    itmegin</ab>
+
+                <ab>ḫuṣūṣ-ı mezbūr müsāʿade-i hümāyūnum erzānī <lb/>ḳılınmışdur</ab>
+
+                <ab>imdi sen ki <rs type="person" ref="#mpr15442">voyvoda-i mūmā ileyhsin</rs>
+                    <rs type="place" ref="#mpr1794">vilāyet-i Eflaḳ</rs>da her ne gūne mīşeden ne
+                    maḥallde iḥrāḳ ile kül ḥāṣıl olur ise <lb/>rıżāsıyla işleyen <rs type="place"
+                        ref="#mpr1794">Eflāḳ</rs> reʿāyāsı bu bahāne ile cizye ve tekālīfden muʿāf
+                    olmayub <rs type="person" ref="#mpr15442">senüñ</rs> maʿrifetüñ ve neẓāretüñ ile
+                    işletdirilüb ve kül <lb/>kārḫānesi taʿyīn eyledügüñ maḥall olub ve devlet-i
+                    ʿaliyyemüñ umūr-ı mühimmesiyçün lāzım olan eşcār vechen mine’l-vücūh ḳaṭʿ
+                    olunmayub <lb/>ḥāṣıl olacaḳ kül içün lāzım gelen gümrük daḫī ʿahdnāme-i hümāyūn
+                    mūcebince alınmaḳ üzere münāsib olan maḥallde müceddeden kārḫāne vażʿ ve taʿyīn
+                    ve ḥāṣıl <lb/>olan küli der-maḥzen ve iştirā ve ticāretin <rs type="person"
+                        ref="#mpr9399">imperāṭor-ı müşārün ileyh</rs>üñ reʿāyāsına taḫṣīṣ eyleyüb
+                    āḫar vilāyete naḳl idecek kimesneye <rs type="person" ref="#mpr9399">imperāṭor-ı
+                        müşārün ileyh</rs>üñ <lb/>reʿāyāsından ġayrı bir ferde beyʿ itdürmeyüb ẕikr
+                    olunan şürūṭ üzere niẓām virüb</ab>
+
+                <ab>ve bu niẓāmuñ ʿale d-devām ṣiyānetinde işbu emr-i şerīf-i
+                    <lb/>celīlü’l-ʿunvānuma düstūru’l-ʿamel ve dāʾimā mażmūn-ı münīfī ile ḥareket ve
+                    ʿamel olunmaḳ bābında fermān-ı ʿālī-şānum ṣādır olmışdur <rs type="person"
+                        ref="#mpr14244">buyurdum ki.</rs>
+                    <note type="editorial" resp="#yy">There is also a <ref
+                            target="/o:vipa.rc.osm.17200211-17200220">Vienna copy</ref> of this
+                        decree.</note></ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1720-03-11" notAfter="1720-03-20">fī evāil-i
+                            Cā[<supplied resp="#yy">Cemāẕiyye’l-evvel </supplied>] sene
+                    1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200311-17200320.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the Voivode of <rs type="place" ref="#mpr1794">Wallachia</rs>
+                    <rs type="person" ref="#mpr15442">Nicolai</rs>
+                    <!-- [Nicolae Mavrocordato] --></ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my threshold of felicity as grand
+                    ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs> sent a
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>Ashes called potash [Turkish: <foreign xml:lang="ota">potāz</foreign>; German:
+                        <foreign xml:lang="ger">pottasche</foreign>], which is produced by burning a
+                    sort of oak tree in the lands of <rs type="place" ref="#mpr1794">Wallachia</rs>,
+                    is used in the lands of the aforementioned <rs type="person" ref="#mpr9399"
+                        >emperor</rs> by broadcloth producers. Accordingly, since the old days, they
+                    have been purchasing it through merchants, transporting and delivering to the
+                    required locations, and buying and selling it. However, recently, due to
+                    extraordinary levies and misfortunes (<foreign>ʿillet</foreign>), they gave up
+                    the practice. The ambassador requested my favors for the practice to continue as
+                    before for the benefit of both sides and to assign the trade [of potash] to the
+                    subjects of the aforesaid <rs type="person" ref="#mpr9399">emperor</rs> based on
+                    the friendship and sincerity that has been arranged and reinforced between the
+                    two sides.</ab>
+
+                <ab>On this issue, my imperial consent has been granted.</ab>
+
+                <ab>Now, you are <rs type="person" ref="#mpr15442">the aforementioned voivode</rs>!
+                    From whichever sort of oak and in whichever quarters of <rs type="place"
+                        ref="#mpr1794">Wallachia</rs> ashes are produced by burning, the subjects of
+                        <rs type="place" ref="#mpr1794">Wallachia</rs> who voluntarily carry out
+                    that work shall not be exempt under that pretext from jizya or taxes; it shall
+                    be carried out through you and under <rs type="person" ref="#mpr15442">your</rs>
+                    supervision. There shall be locations that you designated as ash workshops. The
+                    trees that are required for the important affairs of my <rs type="place"
+                        ref="#mpr7118">sublime state</rs> shall not be cut under any circumstances.
+                    On the condition that the required custom duty for the produced ash will be
+                    collected in accordance with the imperial letter of agreement (<foreign
+                        xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>), <rs type="person"
+                        ref="#mpr15442">you</rs> shall establish and designate workshops at suitable
+                    locations, store the produced ash, and assign the purchase and trade of the
+                    produced ash to the subjects of the aforesaid <rs type="person" ref="#mpr9399"
+                        >emperor</rs>. <rs type="person" ref="#mpr15442">You</rs> shall not allow
+                    the person who will transport the ash to other lands to sell it to any
+                    individual other than the subjects of the aforesaid <rs type="person"
+                        ref="#mpr9399">emperor</rs>. <rs type="person" ref="#mpr15442">You</rs>
+                    shall put [this matter] in order in accordance with the specified
+                    conditions.</ab>
+
+                <ab>And, in the unceasing protection of that order, <rs type="person"
+                        ref="#mpr15442">you</rs> shall act as per the pillars of my noble order of
+                    exalted rank and <rs type="person" ref="#mpr15442">you</rs> shall always operate
+                    and act as per its exalted purview. My illustrious edict has been issued in this
+                    regard. So have <rs type="person" ref="#mpr14244">I</rs> commanded!</ab>
+
+
+
+                <ab><date type="Hijri" notBefore="1720-03-11" notAfter="1720-03-20">March 11 to 20,
+                        1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

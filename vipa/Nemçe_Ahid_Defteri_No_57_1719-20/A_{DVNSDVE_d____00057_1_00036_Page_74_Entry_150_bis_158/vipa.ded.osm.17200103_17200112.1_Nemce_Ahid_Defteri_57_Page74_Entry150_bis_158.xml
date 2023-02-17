@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Kommandanten von Chios, an
+                    die Obersten Richter von Chios und Izmir und den Richter von Lesbos, um
+                    sicherzustellen, dass die Kaufleute, die Untertanen des Heiligen Römischen
+                    Kaisers sind, nur die in der kaiserlichen Vereinbarung (ahidname)
+                    vorgeschriebenen Gebühren zahlen; Istanbul, 3. Januar – 12. Januar 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the commander of Chios, to the
+                    chief judges of Chios and Izmir, and the judge of Lesbos to make sure that the
+                    merchants who are subjects of the Holy Roman Emperor pay only the fees
+                    prescribed in the imperial letter of agreement (ahidname); Istanbul, January 3 –
+                    January 12, 1720</title>
+
+
+                <title xml:lang="tr">Sultanın, Sakız adası muhafızına, Sakız ve İzmir mollalarına ve
+                    Midilli kadısına hitaben yazılmış, Kutsal Roma İmparatoru tebaası olan
+                    tüccarların sadece ahidnamede şartları belirlenmiş olan vergileri ödemeleri
+                    hakkında hükmü; İstanbul, 3 Ocak – 12 Ocak, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200103-17200112.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 74, entry 150–158</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-01-03" notAfter="1720-01-12"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Kommandanten von Chios, an die Obersten
+                    Richter von Chios und Izmir und den Richter von Lesbos, um sicherzustellen, dass
+                    die Kaufleute, die Untertanen des Heiligen Römischen Kaisers sind, nur die in
+                    der kaiserlichen Vereinbarung (ahidname) vorgeschriebenen Gebühren zahlen;
+                    Istanbul, 3. Januar – 12. Januar 1720, bearb. von Yasir Yılmaz und Merve
+                    Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Decree to the commander of Chios (Sakız) and to the judges of Chios,
+                        Izmir, and Lesbos that the merchants that are subjects of the Holy Roman
+                        Emperor should only pay the fees prescribed in the imperial letter of
+                        agreement (ahidname)</item>
+                    <item>Holy Roman Emperor</item>
+                    <item>Chios</item>
+                    <item>Sakız</item>
+                    <item>Izmir</item>
+                    <item>Lesbos</item>
+                    <item>Austrian merchants</item>
+                    <item>ahidname</item>
+                    <item>Mısır</item>
+                    <item>Egypy</item>
+                    <item>İskenderiyye</item>
+                    <item>Alexandria</item>
+                    <item>Dimyat</item>
+                    <item>Damietta</item>
+                    <item>Halep</item>
+                    <item>Aleppo</item>
+                    <item>İskenderun</item>
+                    <item>Alexandretta</item>
+                    <item>Yanya</item>
+                    <item>Ioannina</item>
+                    <item>Avlonya</item>
+                    <item>Vlorë</item>
+                    <item>Kandiye</item>
+                    <item>Heraklion</item>
+                    <item>Hanya</item>
+                    <item>Chania</item>
+                    <item>Resmo</item>
+                    <item>Rethymno</item>
+                    <item>Lefkoşa</item>
+                    <item>Nicoasia</item>
+                    <item>Kıbrıs</item>
+                    <item>Cyprus</item>
+                    <item>İskenderiyye (Shkodër)</item>
+                    <item>Ülgün</item>
+                    <item>Ulcinj</item>
+                    <item>Trablusşam</item>
+                    <item>Tripoli (Lebanon)</item>
+                    <item>Sayda</item>
+                    <item>Sidon</item>
+                    <item>Beyrut</item>
+                    <item>Beirut</item>
+                    <item>Kudüs</item>
+                    <item>Jerusalem</item>
+                    <item>Al-Quds</item>
+                    <item>Yafa</item>
+                    <item>Jaffa</item>
+                    <item>Mora</item>
+                    <item>Peloponnese</item>
+                    <item>Kayserili Osman Pasha</item>
+                    <item>Tevkii Nişancı Mehmed Paşa</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_73_Entry_150_bis_158.jpg" xml:id="IMG1"/>
+
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200103-17200112.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="right">150</metamark>
+                <metamark place="left">74</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr15308">Sāḳız</rs> muḥāfaẓasından olan <gap
+                        unit="char" extent="3"/> dāme iḳbālühūya ve <rs type="place" ref="#mpr15599"
+                        >İzmir</rs> ve <rs type="place" ref="#mpr15308">Sāḳız</rs> monlālarına ve
+                        <rs type="place" ref="#mpr16066">Midilli</rs> ḳāḍīsına ve ẕikr olunan
+                    ḳażālarda <lb/>vāḳīʿ gümrük emīnlerine ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl
+                    gönderüb</ab>
+
+                <ab>ṭarafeynüñ tüccārı gerek berren ve gerek baḥren ve nehren getürdükleri emtiʿadan
+                    bir defʿa <lb/>bir maḥallde ve yine ḥudūd-ı islāmiyyeden iştirā idüb
+                    vilāyetlerine götürdükleri emtiʿadan bir defʿa bir maḥallde yüzde üç ḥesābı
+                    üzere <lb/>resm-i gümrüklerin edā eyledüklerinden ṣoñra yüzde üçden ziyāde
+                    muṭālebe ve sāʾir müsteʾminlere müsāʿade olunduġı üzere üçyüz aḳça <lb/>selāmet
+                    aḳçasından māʿadā maṣdariyye ve żarar-ı ḳaṣṣābiyye ve rüsūmāt-ı sāʾire
+                    muṭālebesiyle ḳaṭʿā rencīde olunmaya diyü ʿahdnāme-i <lb/>hümāyūnda mesṭūr ve
+                    muḳayyed olduġına bināʾen</ab>
+
+                <ab>müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> bayraġı ve
+                    paṭentasıyla kendi reʿāyāları ve tüccār <lb/>sefīneleri ḳapūdānları memālik-i
+                    maḥrūsetü’l-mesāliküme getürdükleri ve alub götürdükleri emtiʿalardan bir defʿa
+                    bir maḥallde ʿahdnāme-i <lb/>hümāyūn mūcebince yüzde üç ḥesābı üzere gümrüklerin
+                    virüb yedlerine edā teẕkireleri alduḳlarından ṣoñra ziyāde muṭālebe olunmayub
+                    <lb/>ve üçyüz aḳça selāmet aḳçasından māʿadā maṣdariyye ve żarar-ı ḳaṣṣābiyye ve
+                    rüsūmāt-ı sāʾire muṭālebesiyle ḳaṭʿā rencīde ve remīde <lb/>olunmayub ḥimāyet ve
+                    ṣiyānet olunmaları bābında emr-i şerīfüm ricā eyledügi ecilden vech-i meşrūḥ
+                    üzere ʿamel olunmaḳ bābında fermān-ı <lb/>ʿālī-şānum ṣādır olmışdur.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                    <lb/>vuṣūl bulduḳda bu bābda ṣādır olan fermān-ı celīlü l-ḳadrüm mūcebince ʿamel
+                    idüb daḫī siz ki mūmā ileyhümsiz müşārün ileyh <rs type="person" ref="#mpr9399"
+                        >Romā <lb/>imperāṭorı</rs> bayraġı ve paṭentasıyla gendü reʿāyāları ve
+                    tüccār sefīneleri ḳapūdānları memalik-i maḥrūsetü’l-mesāliküme getürdükleri
+                    <lb/>ve alub götürdükleri emtiʿalardan bir defʿa bir maḥallde ʿahdnāme-i hümāyūn
+                    mūcebince yüzde üç ḥesābı üzere gümrüklerin virüb <lb/>yedlerine edā teẕkireler
+                    alduḳlarından ṣoñra ziyāde muṭālebe olunmayub ve üçyüz aḳça selāmet aḳçasından
+                    māʿadā maṣdariyye <lb/>ve żarar-ı ḳaṣṣābiyye ve rüsūmāt-ı sāʾire muṭālebesiyle
+                    ḳaṭʿā rencīde ve remīde olunmayub ḥimāyet ve ṣiyānet eyleyüb emr-i şerīfümüñ
+                    <lb/>mażmūn-ı münīfiyle ʿāmil olasız şöyle bilesiz. <note type="editorial"
+                        xml:id="ftn1" resp="#yy">The ambassador Virmont reported every such order
+                        issue by the Ottoman court to Vienna. For example, <ref
+                            target="/o:vipa.l.hbg.17200129">see his report dated January 29,
+                            1720</ref>.</note></ab>
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">fī evāḫir-i
+                            Ṣ<supplied resp="#yy">afer</supplied> sene 1132</date></ab>
+
+
+
+                <ab><metamark place="margin">151</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr9852">Mıṣır</rs> vālīsine, <rs
+                        type="place" ref="#mpr3016">İskenderiyye</rs> ve <rs type="place"
+                        ref="#mpr16068">Dimyāṭ</rs>
+                    <lb/>ḳāḍīlarına ve gümrük eminlerine</ab>
+
+                <ab><metamark place="margin">152</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr1536">Ḥaleb</rs> vālīsine ve
+                    monlāsına ve <rs type="place" ref="#mpr16070">İskenderūn</rs>
+                    <lb/>ḳāḍīsına ve gümrük emīnlerine</ab>
+
+                <ab><metamark place="margin">153</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr16072">Yānya</rs> ve <rs
+                        type="place" ref="#mpr16076">Avlonya</rs> mutaṣarrıfı vezīr <lb/><rs
+                        type="person" ref="#mpr16088">ʿOsmān Paşa</rs>ya ve <rs type="place"
+                        ref="#mpr16055">Ilbaṣan</rs> paşasına <lb/>ve ẕikr olunan sancaḳlaruñ
+                    ḳāḍīsına <lb/>ve iskeleler emīnlerine</ab>
+
+
+                <ab><metamark place="margin">154</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr16078">Ḳandiye</rs> muḥāfıẓı
+                    Vezīr <rs type="person" ref="#mpr16099">Meḥmed Paşa</rs>ya ve <rs type="place"
+                        ref="#mpr16080">Ḫānya</rs>
+                    <lb/>muḥāfıẓı vezīr <rs type="person">Esʿad Paşa</rs>ya ve <rs type="place"
+                        ref="#mpr16082">Resmo</rs>
+                    <lb/>sancaġı begine ve ḳāḍīlara ve gümrük emīnlerine</ab>
+
+                <ab><metamark place="margin">155</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr16041">Lefḳoşa</rs> monlāsına ve
+                        <rs type="place" ref="#mpr15601">Ḳıbrıs</rs> cezīresi <lb/>muḥāṣṣılına ve
+                    iskele emīnlerine</ab>
+
+                <ab><metamark place="margin">156</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr15845">İskenderiyye</rs> paşasına
+                    ve <rs type="place" ref="#mpr15845">İskenderiyye</rs>
+                    <lb/>ve <rs type="place" ref="#mpr15331">Ülgün</rs> ḳāḍīlarına ve iskele
+                    <lb/>emīnlerine</ab>
+
+                <ab><metamark place="margin">157</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr16084">Ṭrāblus Şām</rs> vālīsine
+                    ve <rs type="place" ref="#mpr16085">Ṣaydā</rs> ve <rs type="place"
+                        ref="#mpr16089">Beyrūt</rs>
+                    <lb/>beglerbegisine ve <rs type="place" ref="#mpr14155">Ḳuds-i şerīf</rs>
+                    sancaġı mutaṣṣarrıfına <lb/>ve <rs type="place" ref="#mpr16084">Ṭrāblus Şām</rs>
+                    monlāsına ve <rs type="place" ref="#mpr16085">Ṣaydā</rs> ve <rs type="place"
+                        ref="#mpr16095">Yāfa</rs>
+                    <lb/>ve ve ḳāḍīlarına ve iskele emīnlerine</ab>
+
+                <ab><metamark place="margin">158</metamark>
+                    <lb/>bir ṣūreti <lb/><rs type="place" ref="#mpr15723">Mora</rs> muhāfaẓasında
+                    olan beglerbegine ve <rs type="place" ref="#mpr15723">Mora</rs> cezīresinde
+                    <lb/>olan ḳāḍīlara ve ẕikr olunan ḳāżālarda vāḳiʿ gümrük emīnlerine</ab>
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200103-17200112.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the commander of <rs type="place" ref="#mpr15308">Chios</rs>, <gap
+                        unit="char" extent="4"/> — may his felicity endure, to the chief judges of
+                        <rs type="person" ref="#mpr15599">İzmir</rs> and <rs type="place"
+                        ref="#mpr15308">Chios</rs>, to the judge of <rs type="place" ref="#mpr16066"
+                        >Lesbos</rs>, and to the customs superintendent situated on those
+                    islands:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a sealed
+                    petition to my threshold of felicity [about the following matter]:</ab>
+
+                <ab>It is written and recorded in the imperial letter of agreement (<foreign
+                        xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>) that once the merchants of both
+                    parties paid at a given location for a single time a three percent customs duty
+                    for the commodities they brought over land, sea, and rivers, and [likewise] paid
+                    at a given location for a single time a three percent customs duty for the
+                    commodities they purchased from inside the frontiers of Islam, no more than
+                    three percent shall be demanded from them and they shall absolutely not be
+                    injured with claims of more than the three percent or with the claims of an
+                    export fee (<foreign xml:lang="ota">maṣdariyye</foreign>), dues for goods in
+                    transit (<foreign xml:lang="ota">żarar-ı ḳaṣṣābiyye</foreign>, lit. 'butcher’s
+                    damage'), and other kinds of taxes, except for a fee of 300 akçes for safety,
+                    collection of which is allowed to a variety of custodians.</ab>
+
+                <ab>Accordingly, [the ambassador] requested my most noble order that once their own
+                    subjects and the captains of merchant ships who came under the flag and patent
+                    of the aforementioned <rs type="person" ref="#mpr9399">Roman emperor</rs> paid
+                    for a single time at one location a three percent customs duty as per the
+                    imperial letter of agreement for the commodities they brought to my
+                    'well-protected dominions of professional paths' (<foreign xml:lang="ota">memālik-i
+                    maḥrūsetü’l-mesāliküm</foreign>) and they purchased here and took away
+                    and received in their hands a receipt of payment, no additional claims [of
+                    payment] shall be made and they shall not be injured and disturbed with claims
+                    of an export fee (<foreign xml:lang="ota">maṣdariyye</foreign>), dues for goods
+                    in transit (<foreign xml:lang="ota">żarar-ı ḳaṣṣābiyye</foreign>, lit.
+                    'butcher’s damage'), and other kinds of taxes, except for a fee of 300
+                    akçes for safety; they shall be guarded and protected. For that reason, my illustrious
+                    edict has been issued for [all] to act in the described way.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">I</rs> command that, when my edict arrives,
+                    you shall act as required by my edict of glorious worth that has been issued
+                    about this matter. You are the aforementioned ones; once their own subjects and
+                    the captains of the merchant ships who came under the flag and patent of the
+                    aforementioned <rs type="person" ref="#mpr9399">Roman emperor</rs> paid for a
+                    single time at one location a three percent customs duty as per the imperial
+                    letter of agreement for the commodities they brought to my well-protected
+                    dominions <!--of MESALİK--> and for those that they purchased here and took away
+                    and received in their hands a receipt of payment, no additional claims [of
+                    payment] shall be made and they shall not be injured and disturbed with claims
+                    of an export fee (<foreign xml:lang="ota">maṣdariyye</foreign>), dues for goods
+                    in transit (<foreign xml:lang="ota">żarar-ı ḳaṣṣābiyye</foreign>, lit.
+                    'butcher’s damage'), and other kinds of taxes, except for a safety fee of 300
+                    akçes; they shall be guarded and protected. You shall all act as per the exalted
+                    purview of my most noble order. So shall you know! <ref type="note_reference"
+                        target="ftn1"/></ab>
+
+
+                <ab><date type="Hijri" notBefore="1720-01-03" notAfter="1720-01-12">January 3 to
+                        January 12, 1720</date></ab>
+
+
+
+                <ab><metamark place="margin">151</metamark> A copy to the governor of <rs
+                        type="place" ref="#mpr9852">Egypy</rs>, the judges of <rs type="place"
+                        ref="#mpr3016">Alexandria</rs> and <rs type="place" ref="#mpr16068"
+                        >Damietta</rs>, and to the customs superintendents.</ab>
+
+                <ab><metamark place="margin">152</metamark> A copy to the governor and to the chief
+                    judge of <rs type="place" ref="#mpr1536">Aleppo</rs>, to the judge of <rs
+                        type="place" ref="#mpr16070">Alexandretta (İskenderun)</rs> and to the
+                    customs superintendents.</ab>
+
+                <ab><metamark place="margin">153</metamark> A copy to the administrator of <rs
+                        type="place" ref="#mpr16072">Ioánnina</rs> and <rs type="place"
+                        ref="#mpr16076">Vlorë</rs> Vizier <rs type="person" ref="#mpr16088">Osman
+                        Pasha</rs>, to the pasha of <rs type="place" ref="#mpr16055">Elbasan</rs>,
+                    and to the judges and superintendents of piers at the aforesaid districts.</ab>
+
+                <ab><metamark place="margin">154</metamark> A copy to the commander of <rs
+                        type="place" ref="#mpr16078">Heraklion</rs> Vizier <rs type="person"
+                        ref="#mpr16099">Mehmed Pasha</rs>, to the commander of <rs type="place"
+                        ref="#mpr16080">Chania</rs> Vizier Esad Pasha, to the administrator of <rs
+                        type="place" ref="#mpr16082">Rethymno</rs>, and to judges and customs
+                    superintendents.</ab>
+
+                <ab><metamark place="margin">155</metamark> A copy to the chief judge of <rs
+                        type="place" ref="#mpr16041">Nicosia</rs>, to the tax collector of the <rs
+                        type="place" ref="#mpr15601">Cyprus</rs> island, and to the superintendents
+                    of piers.</ab>
+
+                <ab><metamark place="margin">156</metamark> A copy to the pasha of <rs type="place"
+                        ref="#mpr15845">Alexandria</rs>, to the judges of <rs type="place"
+                        ref="#mpr15845">Alexandria</rs> and <rs type="place" ref="#mpr15331"
+                        >Ulcinj</rs>, and to the superintendents of piers.</ab>
+
+                <ab><metamark place="margin">157</metamark> A copy to the governor of <rs
+                        type="place" ref="#mpr16084">Tripoli (Lebanon)</rs>, to the governors of <rs
+                        type="place" ref="#mpr16085">Sidon</rs> and <rs type="place" ref="#mpr16089"
+                        >Beirut</rs>, to the administrator of the district of <rs type="place"
+                        ref="#mpr14155">Jerusalem</rs>, to the chief judge of <rs type="place"
+                        ref="#mpr16084">Tripoli</rs>, to the judges of <rs type="place"
+                        ref="#mpr16085">Sidon</rs> and <rs type="place" ref="#mpr16095">Jaffa</rs>
+                    and <gap unit="char" extent="3"/> and <gap unit="char" extent="3"/> and to the
+                    superintendents of piers.</ab>
+
+                <ab><metamark place="margin">158</metamark> A copy to the provincial governor who is
+                    currently the commander of <rs type="place" ref="#mpr15723">Morea
+                        (Peloponnese)</rs>, to the judges on the <rs type="place" ref="#mpr15723"
+                        >Morea (Peloponnese)</rs> Island, and to the customs superintendents
+                    situated at the aforesaid towns.</ab>
+
+
+
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

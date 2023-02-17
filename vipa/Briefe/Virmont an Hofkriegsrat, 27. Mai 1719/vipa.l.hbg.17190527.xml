@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Erdut, 27. Mai 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Erdut, May 27, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <!-- JS: removed @ref from /rs here; info in teiHeader should be 'plain' for processing/harvesting reasons -->
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb"><!-- JS: xml:id added for further referencing -->
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <!-- JS: added publisher, distributor, pubPlace, date and availability from Yasir/Stephan -->
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17190527</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-1, fol. 130r-131v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Erdut, 27. Mai 1719, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/3200884/">Erdut</placeName>
+                    <date when="1719-05-27">27. Mai 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="next" target="/o:vipa.l.hbg.17190528">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                    :
+                    <date when="1719-05-28">28. Mai 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract> 
+            <list>
+                <item>arrival at Belgrade</item>
+                <item>invitation by Imre Csáky, archbishop of Kalocsa</item>
+                <item>death of a servant</item>
+            </list></abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="1KV_130r.jpg" xml:id="IMG1"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="1KV_130v.jpg" xml:id="IMG2"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="1KV_131r.jpg" xml:id="IMG3"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="1KV_131v.jpg" xml:id="IMG4"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="130r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 1.</ref> d.d. <rs ana="MPRautomatched" ref="#mpr9458" type="place">Erdöd</rs>
+                <date when="1719-05-27">27. Maii 1719</date></metamark>
+            <opener>
+            <salute>Hochlöblichster ksl. hof-kriegs-rath p.p.</salute></opener> 
+            <p>Eüer durchleuchtigsten excellenzien und
+                    meine hochgeehrtiste herren. Wie wohlen zum
+                öfftern auf meiner reys gegenwindt gehabt, auch etlichmahlen dessenthwegen ausser
+                der zeit anzuhalten bemüessiget worden, so habe selbe doch mit solcher befürderung
+                fortgesezet, daß heünt alhier
+                    angelang<supplied reason="damage" resp="#mm">et</supplied> bin, von wannen mich allermassen biß
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                <supplied reason="damage" resp="#mm">be</supplied>schleünigen werde. </p>
+            <p> Hiebey habe nicht übergehen wollen, eüer durchleuchtigste excellenzien und meinen
+                hochgeehrtisten herren gehorsambst und dienstlich zu referiren, was zu <rs
+                    ana="MPRautomatched" ref="#mpr14903" type="place">Colocza</rs> bey meiner suite
+                für ein casus zuegefallen. Es hat mich der dortige herr ertzbischoff und cardinal,
+                    <rs type="person" ref="#mpr16165">graf von Czaki</rs>, durch abschickhung des
+                    <rs type="person" ref="#mpr16046">baron Rivai</rs> in <rs ana="MPRautomatched"
+                    ref="#mpr7448" type="place">Ofen</rs> einge<pb facs="#IMG2" n="130v" break="no"
+                />laden gehabt, umb bey ihn, wan ich allda passiren werde, zuezusprechen und ich
+                mich fahls zu einer zeit, da noch weither zu komben wäre, solcher invitirung
+                excusiret, fahls sich aber schickhte, daß eben gegen abend alda unweith anlangte und
+                also keine zeit verliehrte, mich darzu resolviren kunte, wie ich nun den <date
+                    when="1719-05-24">24.</date> eben gegen abendszeit an dorthiges uefer
+                eingetroffen. Aldort auch des herrn cardinalens officier und wägen gefunden, so aufs
+                neüe mich gebetten, habe ich auch dise höfflichkeit angenomben und mich mit denen
+                bey mir habenden cavallieren zu ihn in seine behausung hinein begeben. Alß wür sodan
+                in der nacht wiederumb nach denen schüffen khereten, hat sich zuegetragen, daß auf
+                einem hinter meiner fahrenden wagen des <rs type="person" ref="#mpr15403">grafen
+                    Badiani</rs> page und <rs type="person" ref="#mpr15405">grafen <pb facs="#IMG3"
+                        n="131r"/> von Türheimb</rs> laquey streittig worden und der erstere den
+                andern fast in einem augenblickh erstochen, ein meiner geistlichen, so in einem
+                andern wagen nachgefahren, ist eylends zuegeloffen und ihme die absolution sub
+                conditione geben. Die dunckhle hat verhindert, daß un<supplied reason="damage"
+                    resp="#mm">s</supplied> keine andere umbstände, wie es aigentlich in dem actu
+                zuegegangen, erfahren können und habe ich es nicht ehender innen worden, alß wie ich
+                schon zuruckh in meinem schüff ware. Der page aber hat sich in das asylum zu den <rs
+                    type="person" ref="#mpr15852">herrn cardinal</rs> geflehet, auß welchen ich ihn
+                zwar reclamiren, der <rs type="person" ref="#mpr15852">herr cardinal</rs> aber sich
+                entschuldigen lassen, also daß ich meines orths der gerechtigkeit hierinfahls ein
+                gnüge zu thuen <pb facs="#IMG4" n="131v"/>
+                <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs>
+                    den <date when="1719-06-10">10 Junii 1719</date></metamark> gehemmet worden und
+                es einem hochlöblichsten ksl. hofkriegsrath hiemit remittire mit gehorsamber und
+                dienstlicher empfehlung verbleibend.</p>
+
+            <closer>
+                <salute>Eüer durchleuchtigsten excellenzien und meiner hochgeehrtisten herren</salute>
+            </closer>
+
+            <postscript>
+                <p>P.S. Ich schickhe gleich von hier einen expressen nach
+                        <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>, umb den <rs type="person" ref="#mpr14241">herrn graf
+                        Oduyer</rs> von meiner annäherung zu informiren, womit dan
+                    gegenwärttiges schreiben aufgebe, damit es zu <rs type="place" ref="#mpr14653">Bucovar</rs> der
+                    alda passirenden ordinarie poste aufgelegt werde.</p>
+            </postscript>
+            
+            <closer>
+                <dateline><address><rs type="place" ref="#mpr9458">Erdöd</rs></address> den <date when="1719-05-27">27. Maii 1719</date>.</dateline>
+                <signed>Gehorsambster und schuldiger diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+                
+            </closer>
+
+        </body>
+    </text>
+</TEI>

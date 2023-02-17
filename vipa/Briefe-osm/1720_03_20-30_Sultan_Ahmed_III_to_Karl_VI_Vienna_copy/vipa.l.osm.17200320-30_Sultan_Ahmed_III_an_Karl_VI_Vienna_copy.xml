@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Letter of Ahmed III to the Austrian Emperor Charles VI, Istanbul, March 20 to 30, 1720 (Vienna copy)</title>
+                <title xml:lang="de">Ahmed III. an Karl VI., Istanbul, 20. bis 30. März (Kopie aus Wien)</title>
+                <title xml:lang="tr">3. Ahmed’in Avusturya İmparatoru 6. Karl’a mektubu, 20 ila 30 Mart 1720, (Viyana kopyası)</title>
+                <author><persName>Sultan Ahmed III</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <licence>CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:vipa.l.osm.17200320.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Online Edition von Quellen zur habsburgisch-osmanischen Diplomatie
+                    (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Türkische Urkunden und Staatsschreiben</collection>
+                        <idno>Kt. 12, 1720 03 21</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 Seite</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/101094108">Sultan Ahmed III</persName>
+                    <date when="1720-03-20">Fī evāsıṭ-ı Cemaziyyülevvel sene 1132</date>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/118560107">Karl VI</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/ https://sws.geonames.org/2761369/">Vienna</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to
+                    reference them here.</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:qhod" type="context">Quellen zur habsburgisch-osmanischen
+                        Diplomatie</ref>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Ahmed III. an Karl VI., Istanbul, 20. bis 30. März (Kopie aus Wien), bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="IMG_20200921_113846.jpg" xml:id="IMG1"/>
+        </surface>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="transcription" xml:id="vipa.l.osm.17200320.2">
+            <pb n="1" facs="#IMG1"/>
+            <!-- JS: added the '#' before 'IMG1' -->
+            <cb/>
+            
+                <ab type="Inscriptio/Unvân"><lb/>İftiḫārü’l-ümerāʾi’l-ʿiẓāmi’l-ʿĪseviyye, 
+                    muḫtārü’l-küberāʾi’l-fiḫāmi’l-mesīḥiyye,
+                    muṣliḥu maṣāliḥi cemāḥīri’ṭ-ṭāʾifeti’n-Naṣrāniyye, 
+                    <lb/>sāḥibu eẕyāli’l-ḥaşmet ve’l-veḳār, ṣāḥibu
+                    delāʾili’l-mecd ve’l-ịʿtibār
+                    ḥālā Roma İmparaṭorı ulu dostumuz
+                    <lb/><rs type="person" ref="#mpr9399">Ḳārūlūs</rs></ab>
+
+                <ab type="Salutatio/Duâ"><foreign xml:lang="ar">ḫatem allahu ʿavāḳıbehū bi’l-ḫayr ve’r-reşād
+                    ve elheme ileyhi sebīle’ṣ-ṣavāb ve’s-sedād</foreign></ab> 
+                    
+                <ab type="Notificatio">tevḳīʿ-i refīʿ-i hümāyūn
+                    <lb/>vāṣıl olıcaḳ maʿlūm ola ki:</ab>
+                
+                <ab type="Narratio/Nakil"><foreign xml:lang="ar">Cenāb-ı
+                    vācibü’l-vücūd ve müfīż-i vücūd-i her mevcūd tenezzehe ẕātuhu ʿani’t-tenāhī
+                    <lb/>ve’l-ḥudūd</foreign> ḥażretlerinüñ
+                    ʿināyet-i bī-gāyeti ve iki cihān sürūrı ḥabīb-i ḫüdā şefīʿ-i rūz-i cezā
+                        <lb/><rs type="person" ref="#mpr14853">Muḥammedü’l-Muṣṭafā</rs> <foreign xml:lang="ar">ṣallā llāhu
+                    ʿaleyhi ve sellem</foreign> ḥażretlerinüñ muʿcizāt-ı
+                        kes̠īretü’l-berekātiyle melceʾ-i şāhān-ı cihān ve melāẕ-ı
+                   <lb/>ḫüsrevān-ı ʿālīşān olan dergāh-ı maʿdelet-bünyān ve bārgāh-ı raṣīnü’l-erkānumuza mābeynde
+                        ʿaḳd olunan
+                   <lb/>ṣulḥ ve ṣalāḥı teʾkīd ve bünyān-ı muṣāfāt ve müsālemeti tarṣīn ü teşyīd içün
+                        ṭarafuñuzdan baʿs̠ ve irsāl
+                   <lb/>olunan muʿteber ve müsteşāruñuz ve munteḫab ve mümtāz
+                        büyük ilçiñiz ḳıdvetu ümerāʾi’l-milleti’l-mesīḥiyye Cenerāl
+                        <lb/><rs type="person" ref="#mpr9435">Ġrūf de Virmond</rs> ḫutimet ʿavāḳıbuhu bi’l-ḫayr</ab>
+                
+                <ab type="Narratio/Nakil">maḳarr-ı serīr-i
+                   salṭanat-ı ʿos̠mānī ve taḫtgāh-ı saʿādet-destgāh-ı
+                        <lb/>ciḥānbānī olan maḥmiyye-i <rs type="place" ref="#mpr14055">Ḳosṭanṭıniyyeye</rs>
+                   vuṣūl buldukda muʿtād-ı ḳadīm-i ebā-i bülend-evṣāf ve deʾb-i müstedīm-i
+                        <lb/>eslāf-ı saʿādet-ittiṣāfumuz üzere ṣudūr-i iz̠n-i hümāyūn-i şāhāne ve ẓuhūr-ı ruḫṣat-ı
+                        ʿināyet maḳrūn-i
+                   <lb/>padişāhānemüz ile pīşgāh-ı serīr-i aʿlāmuza cebīn-sā ve rikāb-ı kāmyāb-ı
+                        mülūkānemüze teblīġine meʾmūr 
+                        <lb/>olduġı pīşkeş ve hedāyā ile nāme-i muṣādefet-nümā ve
+                        muṣālahat-intimāñuzı iblāġ ve teslīm 
+                        <lb/>ve şol ki mā-beynde teʾkīd ve teʾsīs olan dostluḳ ve ḳoñşuluḳ
+                        muḳteżāsıdır</ab>
+                
+                <ab type="Narratio/Nakil">resm-i ḳadīm üzere
+                   <lb/>ke-mā yenbaġī tatmīm eyledükden ṣoñra ayīn-i güzīn-i dūdmān-ı
+                    şevket-āşiyān-ı ḫāḳānī ve ̣̣kānūn-ı dīrīn-i 
+                   <lb/>ḫāndān-ı saʿādet-nişān-ı ʿos̠mānī üzere düstūr-i ekrem,
+                    müşīr-i efḫam niẓāmü’l-ʿālem, nāẓımu menāẓımi’l-ümem,
+                    <lb/>müdebbirü umūri’l-cumhūr bi’l-fikri’s̠-s̠āḳıb, mütemmimu mehāmmi’l-enām
+                            bi’r-reʾyi’ṣ-ṣāʾib, mümehhidu bünyān-ı devlet ve’l-iḳbāl,
+                   <lb/>müşeyyidü’l-erkān-ı saʾādet ve’l-iclāl, mükemmilu nāmūsi
+                    ’s-saltaneti’l-ʿuẓmā, mürettibu merātibi’l-ḫilāfeti’l-kübrā,
+                   <lb/>el-maḥfūfu bi-sunūfi ʿavāṭıfi’l-meliki’l-aʿlā, 
+                   vezir-i aʿẓam-ı sütūde-şiyem ve vekīl-i muṭlaḳ-ı ̣̣kaviyyü’l-himem ve dāmād-ı 
+                    <lb/>muḥteremim <rs type="person" ref="#mpr9441">İbrāhīm Paşa</rs> <foreign xml:lang="ar">edāma
+                        llahu teʿālā iclālehū ve żāʿafa bi’t-teʾyīd
+                        iḳtidārehu</foreign> vesāṭetiyle gerek 
+                            <lb/>nāme-i muḫālaṣat-ʿalāmeñüz terceme-i mef̣hūm-i
+                            meveddet-mersūmı ve gerek ilçiñüz-i mūmā ileyhiñ 
+                            <lb/>dostluḳ teʾyīdine müteʿallıḳ taḳrīrāt-ı ṣadāḳat-mevsūmı
+                            bārgāh-ı şevket-penāh-ı ḫüsrevānemüze
+                            <lb/>ʿarẓ ve telḫīṣ olunub</ab>
+                
+                <ab type="Manifestatio"> ḫulūṣ ve meveddetüñüze ʿilm-i cihān-ārāy-ı mülūkānemiz şāmil ve ṭaraf-ı
+                    salṭanat-ı <lb/>seniyyemüzden
+                    daḫi muvālāt ve müṣādaḳatuñuza muvāfaḳat olunmaġla dostluḳ ve müsālemet ve
+                    <lb/>ḳoñşuluḳ
+                    ḥuḳūḳına ṭarafeynden riʿāyet ve ḥürmetüñ ās̠ārı ḥāṣıl olmaġın
+                    <lb/>eyyām-ı muṣālaḥa ve hengām-ı
+                    müsālemede ebāʾ-ı kirām ve ecdād-ı ʿiẓām-ı ʿālī-maḳāmımızıñ ʿādet-i müstemirre
+                    ve <lb/>ḫaṣlet-i müsteḳarreleri
+                    olan üslūb-ı merġūb üzere ṭaraf-ı eşref-i ḫüsrevānemizden <lb/>merāsim-i vedād ve
+                    vifāḳ ve maʿāḳıd-ı
+                    ʿaḥd ve mīs̠āḳ-ı ḳaviyyu’l-vis̠āḳa ke-mā yenbagī mürāʿāt ve żevābıṭ ve <lb/>revābıṭ-ı
+                    muṣālaḥāt ḥıfẓ
+                    u ṣıyānet olunmaḳ muḳarrer ve muḥaḳḳaḳdur.</ab>
+                
+                <ab type="Dispositio/Hüküm">Ve <rs type="person" ref="#mpr9435">ilçiñiz</rs> mūmā ileyh merāsim-i risālet <lb/>ve levāzım-ı sefāreti
+                    ḥüsn-i ādāb ile tekmīl ve edā ve ʿavdet ve inṣirāfa iẕn-i hümāyūn-ı
+                    pādişāhānemüzi <lb/>istidʿā
+                    itmekle tekrār <rs type="place" ref="#mpr14841">dīvān-ı</rs> şāmihü’l-bünyān-ı ḫüsrevāne ve ḥużūr-ı lāmiʿu’n-nūr-ı mülūkānemüzde
+                    <lb/>teşrīfāt-ı muʿtebere-i şāhānemüz ile şeref-yāb ve iḥrāz-ı mufāḫaret ve mübāhāt
+                    eyledükden ṣoñra 
+                    <lb/>ʿaḳd ve teşyīd olunan musāleme ve muvādeʿanun kemāl-i istiḥkām ve istiḳrārını müşʿir
+                    <lb/>nāme-i humāyūn-i şevket-maḳrūnumuz ile ṭarafuñuza munṣarıf ve müteveccih
+                    olmışdur.</ab>
+                
+                <ab type="Sanctio/Teʾyid">Lede’l-vüṣūl 
+               <cb/><lb/>nāme-i hümāyunumuzuñ mażmūn-ı meveddet-nişān ve mefḥūm-ı muṣālaḥat-ʿünvānına ʿilmüñüz
+                    lāḥıḳ 
+                    <lb/>olduḳda merāsim-i dostī ve vifāḳ ve revābıṭ-ı ʿahd ve mīs̠āḳ ṭarafuñuzdan daḫi ʿalā
+                    vechi’l-etemm
+                    <lb/>ve’l-ekmel mürāʿāt olunmaḳ melḥūẓ-ı hümāyūnumuzdur. <foreign xml:lang="ar">Ve’s̠-s̠elāmu ʿalā
+                        men ittebeʿa’l-<choice><sic>h</sic><corr>ḫ</corr></choice>üdā</foreign>.</ab>
+                    
+                <ab type="Datatio/Tarih"><lb/><date type="Hijri" when="1720-03-20">Fī evāsıṭı C<supplied resp="#yy">emaziyyülevvel</supplied> sene <supplied resp="#yy">1</supplied>132</date></ab>
+            </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.l.osm.17200320.2-transl">
+                <pb n="1" facs="#IMG1"/>
+                
+                <ab>The sultanic letter dispatched by the <rs type="person" ref="#mpr14244">sultan</rs>
+                    to the Austrian <rs type="person" ref="#mpr9399">caesar</rs>: </ab>
+                
+                <ab type="Inscriptio/Unvân">Laudable pride of the great commanders of Christendom, the elite of
+                    illustrious magnates in the community of the Messiah, arbiter of
+                    the universal affairs of the community of Nazarene, possessor of the lineage of
+                    majesty and glory, possessor of manifestation of splendor and reverence, currently
+                    the Roman emperor, our exalted friend <rs type="person" ref="#mpr9399">Karl</rs></ab>
+                
+                <ab type="Salutatio/Duâ"> — may God end his days propitiously
+                    on the right path and inspire him to the path of righteousness and good deed.</ab>
+                
+                <ab type="Notificatio"> May it be known as my sublime sultanic signature arrives: </ab>
+                
+                <ab type="Narratio/Nakil">Your esteemed councilor and chosen and distinguished grand ambassador,
+                    paragon of the great commanders of the community of the Messiah,
+                    <rs type="person" ref="#mpr9435">Graf von Virmont</rs> —
+                    may God end his days propitiously — who, in order to reinforce the peace
+                    and amity that was concluded between the two sides and to consolidate
+                    and make firmer the structure of true friendship and reconciliation, is sent
+                    and dispatched from you to my court - which is the shelter of the kings of
+                    the world and the refuge of the illustrious monarchs, the edifice of equity
+                    and a chamber for the firm pillars of state by virtue of the endless grace
+                    of his majesties the necessity being whose being showers down abundantly
+                    on everything that exists and whose essence surpasses limits
+                    and boundaries and [by virtue of] the abundant and bountiful miracles
+                    of <rs type="person" ref="#mpr14853">Muhammad Mustafa</rs>, the joy of the two worlds, the beloved of God,
+                    the intercessor on the day of judgment, may Allah's peace and blessings be upon him. </ab>
+                
+                
+                <ab type="Narratio/Nakil">As [<rs type="person" ref="#mpr9435">the ambassador</rs>] 
+                    arrived in the protected [city of] <rs type="place" ref="#mpr14055">Constantinople</rs> - the seat
+                    of the sultanic throne of the Ottomans and the capital of the felicitous
+                    court of the keeper of the world - he rubbed his forehead in prostration in the presence of
+                    our exalted throne as per the ancient habit of [our] fathers
+                    of exalted ranks and the continuous custom of fortunate predecessors, upon the
+                    issuance of a splendid imperial allowance and the occurrence of our favorable 
+                    sultanic permission, and he, as a requirement of the friendship and
+                    neighborliness strengthened and established between the two sides, 
+                    conveyed and delivered the offerings, gifts, and the letter of sincere
+                    friendship and reconciliation that <rs type="person" ref="#mpr9435">he</rs>
+                    was charged with communicating to our prosperous royal stirrup. </ab>
+                
+                <ab type="Narratio/Nakil">After that has been accomplished, as before according to the time-honored practice, 
+                    both the translation of the affectionate content of 
+                    <rs type="person" ref="#mpr9399">your</rs> letter of sincere friendship
+                    and <rs type="person" ref="#mpr9399">your</rs> 
+                    <rs type="person" ref="#mpr9435">aforementioned envoy</rs>’s written notification of faithfulness for
+                    the affirmation of friendship are submitted and summarized to our majestic, royal court
+                    as per the majestic, imperial, distinguished ceremonies of [our] household and
+                    the felicitous, cheerful, old Ottoman custom, through the intermediation of the 
+                    most noble vizier, illustrious field marshal, order of the world, 
+                    arranger of order of mankind, prudent manager of the affairs of the community with decisive reasoning,
+                    consummator of the important affairs of the mankind with proper judgement,
+                    arranger of the pillars of prosperity and felicity, edifice of the pillars of felicity and glory,                    
+                    completer of the honor of the great sultanate, orderer of the ranks of the greatest caliphate,
+                    invested by arrays of favors of the supreme Lord, my laudable grand vizier,
+                    my absolute deputy and firm helper, my respected son-in-law, <rs type="person" ref="#mpr9441">İbrahim Pasha</rs>
+                    - my God almighty make his glory lasting and may strengthen his government with his help.
+                </ab>
+                
+                <ab type="Manifestatio"><rs type="person" ref="#mpr9399">Your</rs> sincerity and friendship
+                    are thus grasped by <rs type="person" ref="#mpr14244">our</rs> world-adorning royal
+                    knowledge and from our lofty sultanate consent is given to
+                    <rs type="person" ref="#mpr9399">your</rs> friendship and mutual
+                    confidence. Thus, as signs of observance of and respect for the law of friendship,
+                    reconciliation, and neighborliness have been achieved, as per the continuous
+                    custom and consistent habit that became the agreeable practice of our high-ranked,
+                    great ancestors and noble forefathers during the days of peace and times of reconciliation,                     
+                    as before, from <rs type="person" ref="#mpr14244">our noblest royal side</rs>,
+                    the observation of friendly ceremonies and concord 
+                    and [the observation of] being a party to an agreement and abidance by that
+                    firm treaty is definite and certain, as well as the protection and guarding
+                    of the propriety and regulations of reconciliation.
+                </ab>
+                
+                <ab type="Dispositio/Hüküm">And <rs type="person" ref="#mpr9435">your aforementioned ambassador</rs>
+                    accomplished and performed the ceremonies of messengership and 
+                    the necessities of an ambassadorship with good manners and appealed for our imperial sultanic 
+                    permission. Thereupon, he was again dignified and attained honor and a reason for just pride
+                    through our majestic, solid ceremonial at 
+                    <rs type="place" ref="#mpr14984"> our royal, lofty edifice of the imperial council</rs>
+                    and <rs type="place" ref="#mpr14841">kingly, brilliant presence</rs>. 
+                    Thereafter, <rs type="person" ref="#mpr9435">he</rs> departed and set out
+                    on the road in <rs type="person" ref="#mpr9399">your</rs> direction
+                    with <rs type="person" ref="#mpr14244">our</rs> royal sultanic letter that reports the perfect firmness and permanence 
+                    of the peace and reconciliation that was concluded and reinforced.
+                </ab>
+                
+                <ab type="Sanctio/Teʾyid">When <rs type="person" ref="#mpr9435">he</rs> arrives and as the affectionate purview of 
+                    <rs type="person" ref="#mpr14244">our</rs> sultanic letter and its
+                    reconciliatory conception becomes known to <rs type="person" ref="#mpr9399">you</rs>, it is our imperial expectation that
+                    on your side too, the friendly ceremonies, harmony, regulations of agreement, and the treaty
+                    will be observed in a complete and perfect manner.Peace be unto whomever obeys God.</ab>
+                <ab type="Datatio/Tarih"> <date when="1720-03-20">March 20, 1720</date>.</ab>  
+                
+            </div>
+          </body>
+    </text>
+</TEI>

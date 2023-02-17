@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Sofia,
+                    30. Juni 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council,
+                    Sofia, June 30, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences,
+                        Institute for Habsburg and Balkan Studies</orgName></publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17190630</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 124r-127v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+              <p>Editionsregeln und Kodierungsrichtlinien</p>
+               
+            </editorialDecl>
+            <refsDecl>
+                <p>&gt;Damian Hugo von Virmont an den Hofkriegsrat, Sofia,
+                    30. Juni 1719, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damien Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.l" type="context"> Briefe </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918 </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/727011/">Sofia</placeName>
+                    <date when="1719-06-30">30. Juni 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190622.2">
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den
+                            <orgName>Hofkriegsrat</orgName> : <date when="1719-06-22">22. Juni
+                            1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190709">
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den
+                            <orgName>Hofkriegsrat</orgName> : <date when="1719-07-09">9. Juli
+                            1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>letter to the emperor on border crossing and exchange ceremony</item>
+                    <item>emplyment of Nicola Theyls</item>
+                    <item>restitution of Christian churches in Chios</item>
+                    <item>arivval and offical entry at Sophia</item>
+                    <item>liberation of a slave</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="10KV_124r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="10KV_124v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="10KV_125r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="10KV_125v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="10KV_126r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="10KV_126v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="10KV_127r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="10KV_127v.jpg" xml:id="IMG8"/>
+        </surface>
+    </facsimile>
+
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="124r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 10</ref> de dato <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>
+                <date when="1719-06-30">30. Junii 17<subst><add place="across">1</add><del rend="cancelled">2</del></subst>9</date></metamark>
+            <opener><salute>Hochlöblichster ksl. hof-kriegs-rath p. </salute></opener> 
+            <p>Durchleüchtigster fürst, excellenzien und meine hochgeehrtiste herren.
+            An ihro <rs type="person" ref="#mpr9399">ksl. und cathollische Mt.</rs> habe ich unter einschluß
+                eures hochlöblichsten hof-kriegs-raths von deme, was bey dem permutations-actu auf der
+                gränitz, und sodann zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> vorgegangen, unter den <date when="1719-06-22">22.</date> dises auß dem ersten lager
+                über gemelte statt den allerunterthänigsten bericht
+                abgestattet und hoffe, der courrier <rs type="person" ref="#mpr16030">Jerkoviz</rs> wirdt selben
+                richtig überbracht haben. Nach disen habe meine reys über das gebürg weithers fortgesezet und bin <date when="1719-06-29">gestern</date>
+                allhier angekomben, unter weegs aber von eüer
+                durchleüchtigsten excellenzien und meinen hochgeehrtisten herren das rescript von
+                    <date when="1719-06-14">14.</date> dises durch einen von dem herrn general
+                feldwachtmeister <rs ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs> nach <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> und aldort von dem <rs type="person" ref="#mpr14242">seraskier</rs> an nach abgeschickhten expressen richtig erhalten, auch den
+                empfang davon <pb facs="#IMG2" n="124v"/> sogleich accusirt und durch die selbstige
+                gelegenheit den <date when="1719-06-23">23.</date> zuruckh geschickht, in den
+                übrigen aber des selbigen enthalts auf das nächste bezohen, so ich auch allhier gehorsambst und gebührend beobachte und darauf
+                widerholtermassen erindere, daß wegen des <seg rend="encrypted"><choice><orig>88 108 172 8 158 70 153 72 14 33</orig><reg type="decoding" resp="#contemp"><rs type="person" ref="#mpr10485">Nicolai Theyls</rs></reg></choice></seg>
+                alles das anbefohlene in dem gebrauch seiner persone und dienstlaistung thuen werde,
+                was eüer durchleuchtigste excellenzien und meine hochgeehrtiste herren dessentwegen
+                in erwehntem rescripto anlaithen, gleichwie ich ihn <seg rend="encrypted"><choice><orig>162 23 53 76 32 18 186 77</orig><reg type="decoding" resp="#contemp">schon wircklich</reg></choice></seg>dienen lasse und
+                <seg rend="encrypted"><choice><orig>154 8 106 147 70 166 126 130 69 8 18 186 77 165 193 70</orig><reg type="decoding" resp="#contemp">seine gutte geschicklichkeit</reg></choice></seg>in denen sachen, wo ihn applicire (wie wohlen es nicht
+                in denen <seg rend="encrypted"><choice><orig>154 12 131 175 33 128 8 67</orig><reg type="decoding" resp="#contemp">secretis ist</reg></choice></seg>) beständig <seg rend="encrypted"><choice><orig>17 7 32 106 7 22</orig><reg type="decoding" resp="#contemp">wahrnehme</reg></choice></seg>, ihme auch also <seg rend="encrypted"><choice><orig>60 26 38 148 60 131 40 48 33 75 193 76 168 170 5 10</orig><reg type="decoding" resp="#contemp">instruire, das ich hoffe</reg></choice></seg>
+                einen <seg rend="encrypted"><choice><orig>123 32 51 47 7 19 158 95</orig><reg type="decoding" resp="#contemp">gar wohl zu</reg></choice></seg> ihrer <rs type="person" ref="#mpr9399">ksl. und <pb facs="#IMG3" n="125r"/>
+                <metamark place="above">solle ihn nur brauchen, wie geschehen, retinens facit</metamark>
+                    catholischen Mt.</rs> <seg rend="encrypted"><choice><orig>60 192 26 67 192 97 190 13 124 73 77 15 131 97 167 22 97 69 10 26 158 14 73 133 51 8 7 97 95 40 160 32 37 131 97</orig><reg resp="#contemp" type="decoding">diensten brauchbaren menschen aus ihn zu formiren.</reg></choice></seg> Er hat mich angefragt wegen ablegung <seg rend="encrypted"><choice><orig>134 60 106 133 127 8 73 124 37 26 70 33</orig><reg resp="#contemp" type="decoding">seines juraments</reg></choice></seg>
+                , worüber eüer hochfürstlichsten durchleüchtigsten excellenzien und meiner
+                hochgeehrtisten herren verordnung zu erwartten, und mich gehorsambst und gebührendt
+                zu erkundigen habe, wan ich darüber befelcht solte werden, auf was weis und <seg rend="encrypted"><choice><orig>357 74 17 33 53 185 32 40 10 8 106 26 159 160 32 29 172 167 154 19 21 33 188 14 13 106 27 22 97 190 171 20 10 52 172 33 154 97</orig><reg resp="#contemp" type="decoding">nach was vor einen formula selbes abnehmen solle lassen</reg></choice></seg>.
+                </p>
+            <p>Wegen der angelegenheit <seg rend="encrypted"><choice><orig>54 32 40 245 10 26 74 60 26 167 54 32 167 302 33 87 25</orig><reg resp="#contemp" type="decoding">der <del rend="cancelled">dorf</del> Christen in der insul <rs type="place" ref="#mpr15308">Scio</rs></reg></choice></seg>
+                     waiß dermahlen nichts anders zu antwortten, alß daß
+                mir dieselbe mit allem eyfer werde anbefohlen seyn lassen und in dem
+                <seg rend="encrypted"><choice><orig>131 67 193 177 175 25 97 33 188 23 154 26 169 54 32 189 174 32</orig><reg resp="#contemp" type="decoding">restitutionswesen der</reg></choice></seg> <pb facs="#IMG4" n="125v"/> <seg rend="encrypted"><choice><orig>77 10 97 40 154 19 21 159 8 26 97 47 7 106 32 26 198 129</orig><reg resp="#contemp" type="decoding">kirchen selben inwohnern</reg></choice></seg>, wan es
+                möglich zu helffen, trachten werden.</p>
+            <p>Ich bin in hiesige statt, welche ganz offen, mittelmäßig groß,
+                von schlechten häuseren und gebäuen ausser einer und anderer zierlichen mochee, in
+                meiner gewöhnlichen ordnung und sauberen kleydung meines gefolge eingeritten. Eine
+                stund weith davon von dem <rs type="person">Serdar aga</rs> (welcher die wenige hier
+                befindliche miliz commandirt) und bald nach ihn durch den <rs type="person">muschulin</rs> oder angesezten commendanten (indeme das ober gouvernement dem
+                    <rs type="person" ref="#mpr14242">seraskier</rs> zu <rs ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> alß general gubernatorn von <rs type="place" ref="#mpr14238">Romelie</rs> zugehört) und denen vornembsten auß der statt empfangen worden. Man hat mich in den ksl. pallast logiret, <seg rend="encrypted"><choice><orig>66 10 251 8 69 61 143 468 293 61 45 70 134 69 14 5 166 32 129 88 10 16 19 33 129 10 32 121 19 166 26 199 180 26 106 97 129 151</orig><reg type="decoding" resp="#contemp">welches die engelländische undt holländische botschaffter niemahls erhalten können.</reg></choice></seg>
+                             Der <pb facs="#IMG5" n="126r"/>
+                <rs type="person">muschulin</rs> hat mich mit früchten und türckhischen confecten
+                regaliret, der <rs type="person">oberrichter</rs> auch mit einen pferde
+                beschenckhet. </p>
+            <p>In meinem allerunterthänigsten bericht an ihre <rs type="person" ref="#mpr9399">ksl. und cathol.
+                    Mt.</rs> habe ich allergehorsambste meldung gethan, daß der <rs type="person"
+                    >janizaren aga</rs> zu <rs ana="MPRautomatched" ref="#mpr14602" type="place"
+                    >Nissa</rs> einen bey ihn gefangen gewesten jungen menschen nahmens <rs
+                    type="person" ref="#mpr16048">Stephano Ottone</rs> zu <rs type="place" ref="#mpr6977">Spalatro</rs> von
+                italianischen elteren gebürtig, frey gelassen und mir ihne recommendirt, davon aber
+                damahls nichts mehrers umbständlichen berichten können, weillen in dem
+                caeremonial-weesen vill zuthuen ware, erinnere also hiemit, daß derselbe zu <rs
+                    type="place" ref="#mpr1523">Corfou</rs> bey dem Abrahamsberg alß capitain
+                unter den <rs type="person" ref="#mpr16049">colonel Gioanne Mayna</rs> mit drey blessuren gefangen
+                worden und erstlich ermeltem <del rend="overstriked"/><rs type="person"><add
+                        place="across">janizaren</add> aga zu <rs ana="MPRautomatched"
+                        ref="#mpr14602" type="place">Nissa</rs></rs> von ihme dem jezigen <rs
+                    type="person" ref="#mpr9441">großvezir</rs> und sodan widerumb seinem ersten herrn in die hände
+                gekomben, bey welchem er nach seiner aus <pb facs="#IMG6" n="126v" break="no"/>sag
+                sehr hart gehalten worden, indeme er alle schärffe angewendt hätte, ihn zu den
+                türckhischen glauben zu bringen. Nachdeme aber jüngsten die janizaren aufgestanden
+                und mehr ermeltem <rs type="person">aga</rs> auf das leben gangen, er aber ihm
+                treülich beygestanden, daß selber sich salviren können, habe er zu belohnung dises
+                so trefflichen dienstes ihme die freyheit geschenckht, und wie berichtet,
+                abgeferttiget. Womit mich gehorsambst und dienstlich empfehle und verharre. </p>
+            <closer>
+                <salute>Eüer hochfürstlichste druchleüchtigste excellenzien und meiner
+                    hochgeehrtisten herren</salute>
+                <signed>Gehorsambsten und dienstschuldiger diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                        graff von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr10977" type="place">Sophia</rs>
+                </address>
+                <dateline><date when="1719-06-30">den 30. Junii 1719</date></dateline>
+            </closer>
+
+            <pb facs="#IMG7" n="127r"/>
+
+            <pb facs="#IMG8" n="127v"/>
+            <metamark><date when="1719-06-30">1719 30. Junii</date></metamark>
+            <metamark>Exped.: <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1719-08-04">4. Augustii
+                    1719</date></metamark>
+            <metamark><date when="1719-06-30">30. Junii 1719</date></metamark>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehl über die Beschaffung von Leine, Sack usw. aus dem Arsenal,
+                    zum Anbinden der Proviantwagen, die für den österreichischen Großbotschafter geschickt werden,
+                    Istanbul, 5. April 1719</title>
+                <title xml:lang="en">Decree for the procurement of tether, sack, etc. from the Arsenal
+                to tie the provision wagons that will be sent for the Austrian grand ambassador, Istanbul, April 5, 1719</title>
+                <title xml:lang="tr">Nemçe elçisi için gönderilecek zahire arabalarını bağlamak için gerekli urgan,
+                    torba ve sairenin Cebehane’den temini hakkında buyuruldu, Istanbul, 5 Nisan 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17190405</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>AE.SAMD.III</collection>
+                        <idno>159-15648-001</idno>
+                    </msIdentifier>
+
+                    <physDesc>
+                        <sealDesc><seal xml:id="vipa.misc.osm.17190405-seal"><decoNote><gap reason="illegible"><desc>illegible seal</desc></gap></decoNote></seal></sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-04-05"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Befehl über die Beschaffung von Leine, Sack usw. aus dem Arsenal, zum Anbinden der Proviantwagen, die für den österreichischen Großbotschafter geschickt werden, Istanbul, 5. April 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="AE_SAMD_III_00159_15648_001_001.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17190405">
+            <pb n="1" facs="#IMG1"/>
+            
+                <ab>Hüve</ab>                
+                <ab>
+                <list type="gearlist">
+                    
+               <item rend="column1">urġan, ʿaded 20, yalñız yigirmidür</item>
+               <item rend="column2">seklem, çift 8, yalñız sekizdür</item>
+               <item rend="column2">ṭopra, deste 2, yalñız ikidür</item>
+               <item rend="column2">taḫmīnen ḳırḳ vuḳiyye ṣu alur baḳır gügüm, 1
+                                    yalñız birdür</item>
+                </list>
+                
+            </ab>
+                
+            <ab>
+            <lb/>ʿİzzetlü refʿetlü cebecibaşı aġa ḥażretleri <gap unit="char" extent="4"/> Nemçe ṭarafından
+                devlet-i ʿaliyyeye gelecek ilçinüñ
+            <lb/>muʿāvenet ve meṣārıfını görmege meʾmūr ʿizzetlü Meḥmed Aġaya <gap reason="illegible"></gap> taḥrīr olunan mühimmātı mevcūd-ı 
+            <lb/>cebeḫāneden viresüz. <date type="Hijri" when="1719-04-05">Fī 15 Cā[<supplied resp="#yy">Cemaziyülevvel</supplied>] sene 1131</date>               
+            </ab>
+            
+            <ab>el-faḳīr ʿAlī el-ḥaḳīr(?)</ab>
+            
+            <ab>
+            <lb/>Vech-i meşrūḥ üzere fermān buyurılan yalñız yigirmi
+            <lb/>urġan ve sekiz çift seklem ve iki deste ṭopra
+            <lb/>ve bir ocaḳ gügümi mevcūd-i cebeḫāneden mȧkbużı?
+            <lb/>olmaġın temessük olmaḳ üzere işbu maḥalle şerḥ virildi.
+                <lb/><date type="Hijri" when="1719-04-05">Fī 15 Cā[<supplied resp="#yy">Cemaziyülevvel</supplied>] sene [1]131</date> 
+            <lb/>El-faḳīr Meḥmed
+            
+            <lb/>
+            </ab>
+                <ab type="seal" corresp="#vipa.misc.osm.17190405-seal"><gap reason="illegible"><desc>illegible seal</desc></gap></ab>
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17190405-transl">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

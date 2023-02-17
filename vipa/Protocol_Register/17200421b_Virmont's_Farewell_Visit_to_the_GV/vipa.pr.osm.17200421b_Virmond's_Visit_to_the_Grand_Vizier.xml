@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über Damian Hugo von Virmonts Abschiedsaudienz beim Großwesir İbrahim
+                    Pascha, Istanbul, 21. April 1720</title>
+                <title xml:lang="en">Protocol register of Damian Hugo von Virmont’s farewell audience with the Grand Vizier
+                    İbrahim Pasha, Istanbul, April 21, 1720</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Veziriazam İbrahim Paşa’ya veda
+                    ziyareti, İstanbul, 21 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Teşrifati Salman Efendi</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.pr.osm.17200421b</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 91</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über Damian Hugo von Virmonts Abschiedsaudienz beim Großwesir İbrahim Pascha, Istanbul, 21. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_}d___00347_00044b.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17200421b">
+            <pb n="1" facs="#IMG1"/>
+            <ab>
+                <lb/><rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> <rs type="person" ref="#mpr9441">ṣāḥib devlete</rs> vedāʿ içün geldigini müşʿirdür.
+                <lb/><date type="Hijri" when="1720-04-21">Fī 12 C<supplied resp="#yy">emaziyülahir</supplied> 1132</date>
+                <lb/>Yevm-i mezbūrda <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs> <rs type="person" ref="#mpr9441">ṣāḥib devlete</rs> vedāʿ içün gelmekle ẕikr olunur.</ab>
+                
+                <note type="footnote" resp="#yy" xml:id="ftn1">
+                    See C. Driesch <ref target="/o:vipa.tr.hbg.1723#facs_421">page 421 and beyond for a description of the meeting.</ref></note>
+                
+                
+                <ab>
+                    <lb/><rs type="person" ref="#mpr9435">İlçi-yi mezbūruñ</rs> rükūbı içün kemer raḫtlı bir at ve begzādegān <supplied resp="#yy">ve</supplied> etbāʿı içün daḥı seksen 
+                <lb/>reʾs atlar bāġ çe ḳapusına irsāl ve çavuşlar kātibi ve emīni ve ilçinüñ üzerinde olan 
+                <lb/>çavuşlardan ġ ayrı on ḳadar telli çavuş daḥı irsāl ve sāʿat ikiye bāliġ  olduġ ı
+                <lb/>es̠nāda ṣadr-ı ʿālīye gelüb vācibüʾl-riʿāya aġ aları dīvānḫānede rūz-merre
+                <lb/>es̠ vāblarıyla dizilüb vezīr ḳapucıbaşı aġ aları erkān kürk ve ṣarıḳlarıyla ʿarż 
+                    <lb/>odası ḳapusına dizilüb ve <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ve teẕkireci efendiler ve mektūbī efendi ve bu ḥaḳīr 
+                <lb/>daḥı erkān ferāce ve ṣarıḳlar ile ṣadruñ ṣaġ  ṭarafında durub ḥāżır olduḳ ları
+                <lb/>ḥālde</ab>
+                
+                <ab><rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> gelüb ṣadruñ öñine vażʿ olunmış iskemleye oturub baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs>
+                <lb/>süd māvīsi çuḳa ferāce semūr kürk ve rūz-merre giydükleri destār ile ketḫüdā beg 
+                    <lb/>koltuġ ında teşrīf eyledüklerinde <rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām idüb <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> çavuşbaşı ṭarafına
+                <lb/>selām-dāde olduḳ da selām aġ ası ṣavt-ı bülend ile selām alub maḳāmlarına kuʿūd
+                <lb/>eyledikde çāvuşān-ı dergāh-ı ʿālī alḳış eylediler.</ab>
+                
+                <ab>Baʿdehū <rs type="person" ref="#mpr9435">ilçiye</rs> <rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> sīm <unclear reason="illegible" extent="5" unit="char"/> ile
+                <lb/>maʿcūn virilüb ḳahveler içildükden ṣoñra ḳışḳış olub çār-yek sāʿat miḳdārı
+                    <lb/>mürūrdan ṣoñra <rs type="person" ref="#mpr9435">ilçi bege</rs> serāser ferāce semūr ve ḳapıcubaşıya ve yeñiçeri ḥāṣekisine
+                <lb/>ve çorbacıya ve üzerine meʾmūr çavuşlara ve dīvān tercümānına ve ser-kātibine ve begzādegāna
+                <lb/>ve sāʾire yetmiş dört ṭob ḫilʿat ilbās olunmışdur. Ḫattā ser-kātibine ḳapu ketḥüdālıġ ı içün
+                    <lb/>bir ḫilʿat daḥı elbās olunmışdur. Baʿdehū şerbet ve buḥūr virilüb <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> gitmişdür.</ab>
+                
+            <ab>
+                <lb/>Ve bugünde <rs type="person" ref="#mpr9435">ilçi bege</rs> kemer raḫt ve sīm rikāb ve Şām kesmesiyle ve ṣırma işleme 
+                <choice><sic>egerlü</sic> <corr>eyerlü</corr></choice> bir ḳır at
+                <lb/>virilmişdür. Meẕkūr atuñ ̇gırrāresi var idi lakin debbūsı
+                ʾādet olunmamaġ la vażʿ
+                <lb/>olunmamışdı. ʿAvdetinde daḥı çavuşlar kātibi ile emīn aġ a gitmişdür.</ab>
+                
+                <note type="footnote" resp="#yy" xml:id="ftn2">
+                    Following this official farewell ceremony, the grand vizier wanted to see Graf Virmont one more time.
+                    However, this time the grand vizier wanted to avoid the official solemnities and only
+                    wanted to spend friendly time together with Virmont. <ref target="/o:vipa.tr.hbg.1723#facs_423">Eventually, Virmont came along with his band of musicians
+                    whom the grand vizier tipped generously.</ref></note>
+                
+                
+        </div> 
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17200421b-transl">
+            <pb n="1" facs="#IMG1"/>
+            <ab>The following relates <rs type="person" ref="#mpr9435">the Austrian ambassador’s</rs> farewell visit to <rs type="person" ref="#mpr9441">the grand vizier</rs> on April 21, 1720.
+                On that day, <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> visited <rs type="person" ref="#mpr9441">the grand vizier</rs> to bid farewell. It is
+                reported here.<ref target="#ftn1" type="note_reference"/></ab>
+                
+               <!-- <note type="footnote" resp="#yy">
+                    See C. Driesch <ref target="/o:vipa.tr.hbg.1723#facs_421">page 421 and beyond for a description of the meeting.</ref></note>
+-->                
+                <ab>For <rs type="person" ref="#mpr9435">the ambassador’s</rs> ride a horse equipped with a leather-strap harness was dispatched 
+                to the garden gate, while for his noblemen eighty horses were dispatched. 
+                In addition to palace ushers, the secretary and the intendant of the ushers – who were 
+                commissioned to escort the ambassador – ten other ushers, wearing aigrettes, were dispatched. 
+                As the clock hit two o’clock, <rs type="person" ref="#mpr9435">the ambassador</rs> arrived at <rs type="person" ref="#mpr9441">the grand vizier’s</rs> palace.
+                The aghas of the palace guardsmen (<foreign xml:lang="tr">vācibü’r-riʿāya aġ aları</foreign>), wearing their daily garments,
+                set up their ranks at the reception room. The aghas of the vizier’s chief steward,
+                wearing their ceremonial furs and turbans, were disposed in order in front of the audience room. 
+                The chief of the scribes, the secretary of <rs type="person" ref="#mpr9441">the grand vizier</rs> (<foreign xml:lang="tr">teẕkireci efendi</foreign>),
+                the scribe of <rs type="person" ref="#mpr9441">the grand vizier</rs> (<foreign xml:lang="tr">mektūbī efendī</foreign>), and this humble servant, wearing
+                ceremonial cloaks and turbans, were disposed in order on the right side of the gate.</ab>
+                
+                <ab><rs type="person" ref="#mpr9435">The ambassador</rs> came and sit down on the stool arranged in front of the gate.
+                When <rs type="person" ref="#mpr9441">the grand vizier</rs> entered the room wearing a sable fur on a milk-blue broadcloth ceremonial
+                cloak and the <foreign xml:lang="tr">dastar</foreign> that he daily puts on [his head], accompanied arm-in-arm by the
+                chief steward, the ambassador rose to his feet. When <rs type="person" ref="#mpr9441">the grand vizier</rs> made a salutation
+                in the direction of the agha of the palace ushers, the master of ceremonies received the salutation 
+                and responded with a loud voice. <rs type="person" ref="#mpr9441">the grand vizier</rs> then sat on his post and all of the palace ushers applauded.</ab>
+                
+                <ab>Thereafter, <rs type="person" ref="#mpr9435">the ambassador</rs> was presented with taffy which was served on silver <foreign xml:lang="tr">?</foreign>                
+                and, after coffee was drunk, a conversation session took place. After a hiatus for quarter of an hour,
+                    <rs type="person" ref="#mpr9435">the ambassador</rs> was presented with a sable fur on an embroidered ceremonial cloak. 
+                A total of seventy-four robes of honor were presented to the chief steward, the janissary lieutenant,
+                the janissary captain, the ushers commissioned to escort the ambassador, the imperial council
+                interpreter, the chief secretary of the ambassador as well as his noblemen and others.
+                His chief secretary was presented with a second robe of honor for his function as <rs type="person" ref="#mpr9435">the ambassador’s</rs>
+                chief steward. Afterwards, sorbet and frankincense were served and the ambassador left.</ab>
+                
+            <ab>
+                On this day, <rs type="person" ref="#mpr9435">the ambassador</rs> was presented a gray horse equipped with a leather-strap harness,
+                silver stirrups, a Damascene-work horse blanket. The saddle seat was worked with gold and silver threads.
+                The horse had a haircloth sack but its mace (<foreign xml:lang="tr">debbūs</foreign>?) was not provided, since that was not the custom.
+                During <rs type="person" ref="#mpr9435">the ambassador’s</rs> return to his residence, the secretary and the intendant of the ushers escorted him.<ref target="#ftn2" type="note_reference"/>
+                
+                <!--<note type="footnote" resp="#yy">
+                    Following this official farewell ceremony, the grand vizier wanted to see Graf Virmont one more time.
+                    However, this time the grand vizier wanted to avoid the official solemnities and only
+                    wanted to spend friendly time together with Virmont. <ref target="/o:vipa.tr.hbg.1723#facs_423">Eventually, Virmont came along with his band of musicians
+                        whom the grand vizier tipped generously.</ref></note>
+                -->
+            
+        
+        </ab>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Beyoğlu, Konstantinopel, 5. Oktober 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Beyoğlu, Constantinople, October 5, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.l.hbg.17191005</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-3, fol. 83r-87v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Beyoğlu, Konstantinopel, 5. Oktober 1719, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer), Wien 2022.</p>
+        </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918
+                    </ref>
+                    
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr10447" ref="https://sws.geonames.org/750640/">Beyoğlu/Istanbul</placeName>
+                    <date when="1719-10-05">5. Oktober 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190906">
+                    Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                    an den 
+                    <orgName>Hofkriegsrat</orgName>
+                    :
+                    <date when="1719-09-06">6. September 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17191018">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-10-18">18. Oktober 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>slowliness of affairs</item>
+                    <item>exilation of Hungarian rebels</item>
+                    <item>succession to the Polish throne</item>
+                    <item>Russian position concerning Poland</item>
+                    <item>liberation of Christian slaves</item>
+                </list>
+            </abstract>
+               
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="16KV_83r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="16KV_83v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="16KV_84r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="16KV_84v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="16KV_85r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="16KV_85v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="16KV_86r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="16KV_86v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="16KV_87r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="16KV_87v.jpg" xml:id="IMG10"/>
+        </surface>
+ 
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+    <pb facs="#IMG1" n="83r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 16</ref> d.d. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinople</rs> <date when="1719-10-05">5. Octobris 1719</date></metamark>
+            
+            <opener><salute>Hochlöblichster ksl. hof-kriegs-rath p. p.</salute></opener>
+            
+            <p> Zu meiner besonderen mortification mueß ich solang anstehen, eüer durchleuchtigsten
+                excellenzien und meinen hochgeehrtisten herren eine ausführliche relation zu senden.
+                Nachdeme den <date when="1719-09-06">sechsten des verwichenen monaths</date> die
+                lezte abgestattet habe, von welcher zeit biß anhero zwar nichts durch mich
+                unterlassen worden, welches mir gedunckhte, denen vor ihrer <rs type="person" ref="#mpr9399">ksl.
+                    und cathol. Mt.</rs> dienst auf das tapet gebrachten geschäfften fürderlich zu
+                seyn und vorschub zu geben. Es gehet aber allhier alles so langsamb und ist
+                augenblickhlich, wan man auch schon mit etwas richtig zu seyn vermeynet, neüen
+                difficultäten unterworffen, daß noch <seg rend="encrypted"><choice>
+                        <orig>95 48 181 190 318 10 74 122 77 52 283 75 209 130 353</orig>
+                        <reg type="decoding" resp="#contemp">zu dato kheine sache ganzt ausgemacht
+                            oder davon verläßlich berichtet hat khönnen.</reg>
+                    </choice></seg> Da sich aber bey dem <rs type="person" ref="#mpr15352">franzößischen herrn
+                    bottschaffter</rs> (welcher jemand mit brieffen <pb facs="#IMG2" n="83v"/> nach
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> abschickhet)
+                eine gelegenheit herfür thuet, alß habe auch dabey in kürze und biß etwas ganzes
+                berichten kan, sovill eüer durchleuchtigsten excellenzien und meine hochgeehrtiste
+                herren informiren wollen, daß erstlich <seg rend="encrypted"><choice>
+                        <orig>487 74 54 32 51 287 8 69 61 26 128 406</orig>
+                        <reg type="decoding" resp="#contemp">wegen deren hungarischen rebellen</reg>
+                    </choice></seg> von mir starckh <seg rend="encrypted"><choice>
+                        <orig>130 14 113 21 60 166 70 53 485</orig>
+                        <reg type="decoding" resp="#contemp">gearbeithet worden</reg>
+                    </choice></seg> und ville <seg rend="encrypted"><choice>
+                        <orig>49 33 152 133 40 <del>108</del> 130 69 10 153 97 151 60 77 197 34 73
+                            115</orig>
+                        <reg type="decoding" resp="#contemp"> passus geschehen. Ich auch</reg>
+                    </choice></seg> noch <seg rend="encrypted"><choice>
+                        <orig>357 127 347 165 60 70 143 24 131 133 164 131</orig>
+                        <reg type="decoding" resp="#contemp">nach möglichkheit pressiere</reg>
+                    </choice></seg>, dise <seg rend="encrypted"><choice>
+                        <orig>45 154 51 327</orig>
+                        <reg resp="#contemp" type="decoding">böse leüth</reg>
+                    </choice></seg>von <seg rend="encrypted"><choice>
+                        <orig>294 506 23 12 18</orig>
+                        <reg resp="#contemp" type="decoding">hier weckh</reg>
+                    </choice></seg> und <seg rend="encrypted"><choice>
+                        <orig>14 26 129 61 97 70 118 113 26 166 197 96 32 70 7 40 95 179 32 154 56
+                            97</orig>
+                        <reg resp="#contemp" type="decoding">an entfehrnte orth versezen zu</reg>
+                    </choice></seg> machen, auf daß <seg rend="encrypted"><choice>
+                        <orig>60 7 106 26 190 171 74 23 88 130 32 143 130 178 130 26 153 60 70 198
+                            95 16 77 60 88 131 26</orig>
+                        <reg resp="#contemp" type="decoding">ihnen so weniger gelegenheit zu
+                            machinieren</reg>
+                    </choice></seg> seye, waiß aber noch nichts sicheres, wie sich <seg
+                    rend="encrypted"><choice>
+                        <orig>66 61 151 394 75 54 33 154 26 70 487 556 54 166 113 37 88 131 26 196
+                            246</orig>
+                        <reg type="decoding" resp="#contemp">die Porten deßentwegen determinieren
+                            dörffte.</reg>
+                    </choice></seg> Dan obschon der <rs type="person" ref="#mpr9441">groß vezir</rs> mir <seg
+                    rend="encrypted"><choice>
+                        <orig>162 97 51 10 8 26 352 74 102 78 52 189 179</orig>
+                        <reg type="decoding" resp="#contemp">schon einmahl fast</reg>
+                    </choice></seg>
+                <pb facs="#IMG3" n="84r"/>
+                <seg rend="encrypted"><choice>
+                        <orig>32 33 13 156 77 61 26</orig>
+                        <reg resp="#contemp" type="decoding">versprochen</reg>
+                    </choice></seg> hat, dise <seg rend="encrypted"><choice>
+                        <orig>210 38 12 18 178 32 169</orig>
+                        <reg resp="#contemp" type="decoding">aufwickhler</reg>
+                    </choice></seg> in <seg rend="encrypted"><choice>
+                        <orig>200 505 95 140 41 165 26</orig>
+                        <reg resp="#contemp" type="decoding">Asia zu schickhen</reg>
+                    </choice></seg>, so <seg rend="encrypted"><choice>
+                        <orig>454 70 158 10 113 199 90 115 53 38 54 148 27 13 53 17 26 41 165
+                            97</orig>
+                        <reg resp="#contemp" type="decoding">thuet er doch widerumben
+                            wanckhen.</reg>
+                    </choice></seg> Er will nur jedoch nächsten <seg rend="encrypted"><choice>
+                        <orig>192 192 106 197 69 145 5 70 186 77 61 507 131 171 182 175 96 97 40 130
+                            21 26 167 210 75 23 19 115 61</orig>
+                        <reg resp="#contemp" type="decoding">eine schrifftliche resolution geben,
+                            auf welche</reg>
+                    </choice></seg> wartten mueß, umb eine weithere, aber ausführliche relation
+                abgeben zu können.</p>
+            <p>
+                Der <seg rend="encrypted"><choice><orig>337 8 120 52 10 26 185 72 61</orig><reg type="decoding" resp="#contemp"><rs type="person" ref="#mpr15779">moscovitische envoyé</rs></reg></choice></seg> ist kürzlich <seg rend="encrypted"><choice><orig>229 74 54 97 151 284 463 198 130 23 154 26</orig><reg resp="#contemp" type="decoding">bey den <rs type="person" ref="#mpr9441">gros vezier</rs> gewesen </reg></choice></seg>und wie verlauttet,
+                    <seg rend="encrypted"><choice><orig>171 19 178 188 10 32 502 54 113 74 394 167 49 32 166 53 130 130 21 26 197 121 21 97 75 48 33 143 54 32 126 233 198 131 171 19 187 32 70 129 387 40 14 26 95 6 131 8 9 138 26</orig><reg resp="#contemp" type="decoding">solle er der Porten parte gegeben haben, das der <rs type="person" ref="#mpr15433">czaar</rs> resolviert, <rs type="place" ref="#mpr1547">Pohlen</rs> anzugreiffen</reg></choice></seg>, umb zu verhinderen, 
+                    <seg rend="encrypted"><choice><orig>48 33 198 77 73 32 326</orig><reg resp="#contemp" type="decoding">das <rs type="place" ref="#mpr1933">Churlandt</rs></reg></choice></seg>
+                    nicht <seg rend="encrypted"><choice><orig>37 70 74 66 154 26 197 316 151 73 88 113 70</orig><reg resp="#contemp" type="decoding">mit disem königreich unieret</reg></choice></seg> und <seg rend="encrypted"><choice><orig>171 48 97 39</orig><reg resp="#contemp" type="decoding">so dann</reg></choice></seg> die <seg rend="encrypted"><choice><orig>12 156 26 199 385 509 61 113 13</orig><reg resp="#contemp" type="decoding">cron <rs ref="#mpr1547" type="place">Pohlen</rs> erblich </reg></choice></seg>
+            <pb facs="#IMG4" n="84v"/>    
+                    <seg rend="encrypted"><choice><orig>186 77 53 130 353</orig></choice><reg resp="#contemp" type="decoding">gemacht werde</reg></seg>, worauf indifferenter solle geantworttet seyn worden.</p>
+            <p> Auß der bagno werde<subst>
+                    <del>m</del>
+                    <add>n</add>
+                </subst> diser tägen etlich und achtzig sclaven übernehmen, so mehrist Teütsche,
+                wegen der Neapolitaner aber werden mir schwehre difficultäten gemacht, theills, daß
+                sie noch <seg rend="encrypted"><choice>
+                        <orig>185 113 151 298 128 313 190 60 26 198 91 33 154 133 164 25 26 40 54 33
+                            143 316 33 15 480 97 190 30 102 26 130 97</orig>
+                        <reg type="decoding" resp="#contemp">vor ihro <rs type="person" ref="#mpr9399">ksl.
+                                Mt.</rs> in possession des <rs type="place" ref="#mpr6814">königreichs</rs> waren
+                            gefangen</reg>
+                    </choice></seg>, theills weillen sye mit Maltheser und praetendirten corsaren
+                schüssen genohmen weren worden, dahero erst sehen mueß, ob ich solche heben werde
+                können.</p>
+            <p>Für die <seg rend="encrypted"><choice><orig>49 70 131 133 75 134 145 88 142 145 25 33 197 121 21 74 66 10 126 125 36 186 148 26 6 52 61 32 121 19 166 26</orig><reg type="decoding" resp="#contemp">patres Trinitarios habe die stabilierung erhalten</reg></choice></seg>
+            und ist das patent unter der ausfertigung,
+            wie ingleichen wegen der Dulcignoten,
+            daß sye völlig desarmiren und nicht mehr auslauffen,
+            nächstens ein scharffes decret herauszugeben versprochen wirdt.
+            Von welchen allen und auch was man 
+            <pb facs="#IMG5" n="85r"/>   
+                <seg rend="encrypted"><choice><orig>23 130 26 126 164 77 10 32 153 8 70 198</orig><reg type="decoding" resp="#contemp">wegen sicherheit <del>desj</del></reg></choice></seg> des <seg rend="encrypted"><choice><orig>248 40 131 33 55 12 177 197 217 177 88 133</orig><reg resp="#contemp" type="decoding">commercii respectu <rs ana="MPRautomatched" ref="#mpr1546" type="place">Algier</rs>, <rs type="place" ref="#mpr15615">Tunis</rs> </reg></choice></seg>
+                und <seg rend="encrypted"><choice><orig>459 33 143 179 32 14 26 329 97 74 246 158 180 26 106 26</orig><reg resp="#contemp" type="decoding"><rs type="place" ref="#mpr15612">Tripolis</rs> veranlaßen dörffte khönnen,</reg></choice></seg>
+            mit nächsten und umbständen zu schreiben,
+            in stand zu seyn hoffe. Wobey nicht übergehen solle,
+            daß seit den <date when="1719-08-04">vierten Augustii</date> mir kein weithers rescript,
+            noch particular brieffe zugekomben seyndt, mich gehorsambst und schuldigst empfehlendt ersterbe.</p>
+                
+            <closer><salute>Eüer durchleuchtigsten excellenzien und meiner hochgeehrtisten herren.</salute>
+                
+            <signed>Gehorsambster und dienstschuldiger diener
+            <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                
+            <address><rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs></address> von <address><rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs></address>
+            <dateline>den <date when="1719-10-05">5. Octobris 1719</date></dateline>
+            </closer>
+            
+         <pb facs="#IMG6" n="85v"/>
+            
+         <pb facs="#IMG7" n="86r"/>
+            
+         <pb facs="#IMG8" n="86v"/>
+            <metamark>Accusirt <del>den</del> <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1719-12-13">13. December 1719</date></metamark>
+            <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1720-03-06">6. Merzen 1720</date></metamark>
+            
+        <pb facs="#IMG9" n="87r"/>
+            
+        <pb facs="#IMG10" n="87v"/>
+            
+            <metamark><date when="1719-10-05">1719 5. October</date></metamark>
+            
+                   
+                  
+        </body>
+    </text>
+</TEI>

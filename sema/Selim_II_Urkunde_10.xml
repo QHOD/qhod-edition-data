@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 10</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15700922</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Staatsabteilungen, Türkei I</collection>                        
+                        <idno type="regest_petritsch" n="623">Turcica 27/1, fol.78</idno>          
+                    </msIdentifier>
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1569-01-09" notAfter="1569-01-18" calendar="#hijri"> 976, Receb 21-30 </date>  
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa </persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15691209">Urkunde 9</ref>
+                <ref type="next" target="o:sema.rc.osm.15710000">Urkunde 11</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 10: Geschrieben zwischen dem 22. und 30.9.1570
+                in <rs type="place" ref="#mpr14055">Konstantinopel</rs>. Befehl an den Beglerbegi von
+                <rs type="place" ref="#mpr7448">Buda</rs>, <rs type="person" ref="#mpr14163">Muṣṭafā Paşa</rs>
+                 dass er beim König von <rs ana="MPRautomatched" ref="#mpr13416" type="place"> Wien</rs> der bei Ġrof (Eck von Salm) Beschwerde gegen die Misshandlung von Ḥasan Çavuş, der die Diener des Königs begleitet hatte, einzulegen.</p> </abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>                    
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 10: Selim II. an Muṣṭafā Paşa, Konstantinopel, zwischen 22. und 30.9.1570, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.10">
+            <graphic url="10_623-1.jpg" xml:id="IMG.10"/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+                
+                <div n="10"><div type="transcription" xml:lang="ota">
+                    <pb facs="#IMG.10" n="10"/> 
+                     <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    
+                                          
+                <ab type="inscriptio"><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine ḥükm ki</ab> <ab type="narratio">südde-i seʿādetümden icāzet-i hümāyūnum ile ol cānibe 
+                        <lb n="2"/>giden <rs type="place" ref="#mpr13416">Peç</rs> ḳırālı ādemleri ile bile giden <rs type="person" ref="#mpr14184">Ḥüseyin Çavuşı</rs> ėlçi ādemleri dögüb                       
+                <lb n="3"/>teʿaddī eyledükleri iʿlām olunub mezbūr çavuşa ol maḳūle teʿaddī ėden 
+                        <lb n="4"/>ne-maḳūle kāfirdür fī l-vāḳiʿ çavuş dögülüb teʿaddī olundı ise <rs type="place" ref="#mpr13416">Peç</rs> ḳırālına                        
+                <lb n="5"/>veyāḫūd ġrofa bildürüb ol şenāʿat ėdenüñ ḥaḳḳından geldürsünler daḫı 
+                <lb n="6"/>ol cānibe vāṣıl olmadılar ise ādemler ḳoşub serḥaddlarına ulaşdurasın</ab>                                  
+                <ab type="datatio"><lb n="7"/><date calendar="#hijri" notBefore="1569-01-09" notAfter="1569-01-18"> taḥrīren  fī evāḫiri Rebīʿi l-āḫir senete s̠emān ve-sebʿīn ve-tisʿa mi’e</date></ab>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.10" n="10"/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+
+                    <ab type="inscriptio">Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs></ab>
+                    <ab type="narratio">Es wurde bekanntgegeben, dass die Männer des
+                        Gesandten, <rs type="person" ref="#mpr14184">Ḥüseyin Çavuş</rs> der zusammen mit den Männern des Königs
+                        von <rs type="place" ref="#mpr13416">Wien,</rs> die mit meiner großherrlichen Erlaubnis von meiner glückhaften Schwelle auf die andere Seite gingen unterwegs  war, ihn verprügelt 
+                        und belästigt haben. Wenn der Çavuş wirklich
+                        verprügelt und belästigt wurde, teile dem König von <rs type="place" ref="#mpr13416">Wien</rs> oder dem
+                                Grafen mit, welcher Ungläubige dem erwähnten Çavuşen solche Gewalt
+                                angetan hat.
+                       Sie sollen denjenigen, der diese Niedertracht begangen hat bestrafen lassen und wenn sie die andere Seite nicht erreicht haben, sollst du eine Eskorte beistellen und sie an ihre Grenze gelangen lassen.</ab>
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1569-01-09" notAfter="1569-01-18"> letzten Dekade des Rebīʿu l-āḫir des Jahres 978.</date></ab>
+                            
+                </div>
+                </div>          
+        </body></text>
+    </TEI>

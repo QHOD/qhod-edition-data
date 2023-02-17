@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Oberst der Palast-Gärtner,
+                    dem österreichischen Botschafter Graf Damian Hugo von Virmont den Ankauf und
+                    Transport von Wein in seine Quartiere zu gestatten, Istanbul, 7. August - 16.
+                    August, 1719</title>
+
+                <title xml:lang="en">Sultan’s decree from the Ottoman court to the agha of the
+                    imperial court janissaries and the chief gardener of the imperial court to allow
+                    the Austrian ambassador Count Damian Hugo von Virmont to purchase and transport
+                    wine to his quarters, Istanbul, August 7 - August 16, 1719</title>
+
+                <title xml:lang="tr">Sultanın, dergah-ı ali yeniçerileri ağasına ve hassa bostancı
+                    başıya hitaben yazılmış, Avusturya elçisinin şarap satın almasına ve şarabı
+                    konağına nakletmesine izin verilmesi hakkında hükmü, İstanbul, 7 Ağustos - 16
+                    Ağustos, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190807-17190816</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 67, entry 126</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-08-07" notAfter="1719-08-16"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an Oberst der Palast-Gärtner dem österreichischen
+                    Botschafter Graf Damian Hugo von Virmont den Ankauf und Transport von Wein in
+                    seine Quartiere zu gestatten, Istanbul, 7. August - 16. August, 1719, bearb. von
+                    Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan
+                    Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas
+                    (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von
+                    Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno
+                    Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>sultan’s edict permitting wine purchase, transportation, and consumption
+                        by Austrian diplomats</item>
+                    <item>prevention of interventions on the wine transportation by Austrian
+                        diplomats</item>
+                    <item>agha of the court janissaries</item>
+                    <item>dergah-ı ali yeniçerileri ağası</item>
+                    <item>chief gardener</item>
+                    <item>bostancıbaşı</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00033_Page_67_Entry_126.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190806-17190816">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">126</metamark>
+
+                <ab>
+                    <lb/><rs type="person">Ḫāṣṣa bostāncıbaşı</rs>ya <lb/>Ḳıdvetü
+                    ümerāʾi’l-milleti’l-mesīḥiyye <supplied resp="#yy">Romā imperāṭorı
+                        ṭarafından</supplied> ḥālā der-i devlet-medārūma büyük ilçilik ile gelen
+                    Cenerāl <rs type="person" ref="#mpr9435">Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū
+                    <lb/>bi-l-ḫayr südde-i saʿādetüme mühürlü ʿarż-ı ḥāl gönderüb kifāf-ı nefsi içün
+                        <rs type="place">Bugādos</rs> (Burgas? Burgazada?) nām maḥallden aḳçasıyla
+                    iştirā eyledügi üçyüz <lb/>altmış medre ḫamrı ḥālā olduġı maḥalle naḳl itdürmek
+                    murād eyledükde Ayastāfenoz nām maḥallde olan żābiṭler <lb/>ṭarafından mümānaʿat
+                    olunduġın bildürüb</ab>
+                <ab>sen ki <rs type="person">bostāncı-yı mūmā ileyh</rs>sin maʿrifetüñle ẕikr olunan
+                    ḫamruñ sākin olduġı maḥalle <lb/>naḳline meẕkūr żābiṭler ṭarafından ve āḫardan
+                    mümānaʿat ve müdāḫale olmamaḳ bābında emr-i şerīfüm ricā itmegin ancaḳ bir defʿa
+                    naḳline mümānaʿat <lb/>olmamaḳ bābında fermān-ı ʿālī-şānum ṣādır olmışdur
+                    buyurdum ki <date type="Hijri" notBefore="1719-08-07" notAfter="1719-08-16">fī
+                        evāḫir-i <supplied resp="#yy">Ramażā</supplied>n sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190806-17190816.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab> [Decree] to <rs type="person">the chief gardener of the imperial court</rs>:
+                    
+                    General <rs type="person" ref="#mpr9435">Graf von Virmont</rs>—may God end his
+                    days propitiously—who came to my gate that is the center of state, as grand ambassador
+                    from the <supplied resp="#yy">Roman emperor</supplied>, the paragon of the
+                    great commanders of the community of Messiah, sent a sealed petition to my
+                    threshold of felicity, and reported that as he wished to transport the three
+                    hundred <foreign xml:lang="ota">medre</foreign>s of wine that he purchased with
+                    [his own] money from the quarter called <rs type="place">Bugados</rs> (Burgas?
+                    Burgazada?) to the location where he currently resides, <rs type="person"
+                        ref="#mpr9435">he</rs> was obstructed by the officers located at the quarter
+                    called Ayastefanos.</ab>
+
+                <note xml:id="ftn1" type="editorial" resp="#yy"> About the value of <foreign
+                        xml:lang="ota">medre</foreign>, see the <ref
+                        target="/o:vipa.ded.osm.17190727-17190806.1">footnote</ref> in the first
+                    order issued about the same topic.</note>
+
+                <ab>You are the aforesaid <rs type="person">gardener</rs>: As the [<rs type="person"
+                        ref="#mpr9435">ambassador</rs>] requested my noble decree for the aforesaid
+                    officers or others not to obstruct or interrupt [the transportation of wine],
+                        <rs type="person" ref="#mpr14244">my</rs> illustrious edict has been
+                    issued—and I decree that—you use your skills to transport the aforesaid wine to
+                    the location where [<rs type="person" ref="#mpr9435">the ambassador</rs>]
+                    resides and not prevent its transportation this one time. <date type="Hijri"
+                        notBefore="1719-08-07" notAfter="1719-08-16">August 7 to August 16,
+                        1719</date>
+                </ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

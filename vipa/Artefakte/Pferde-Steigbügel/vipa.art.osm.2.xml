@@ -1,0 +1,235 @@
+
+<lido:lido xmlns:lido="http://www.lido-schema.org" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.lido-schema.org http://gams.uni-graz.at/lido/1.0/lido.xsd">
+
+  <!-- noch durchdenken/besprechen -->
+  <lido:lidoRecID lido:type="PID">o:vipa.art.osm.2</lido:lidoRecID>
+
+  <lido:category>
+    <lido:conceptID lido:source="CIDOC" lido:type="ID">E22</lido:conceptID>
+    <lido:term xml:lang="en">Man-Made Object</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa">Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)</lido:term>
+    <lido:term lido:label="info:fedora/context:vipa.art">Artefakte</lido:term>
+    <lido:term lido:label="info:fedora/context:qhod">Online Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)</lido:term>
+  </lido:category>
+
+  <lido:descriptiveMetadata xml:lang="de">
+    <lido:objectClassificationWrap>
+      <lido:objectWorkTypeWrap>
+        <lido:objectWorkType>
+          <lido:term>Pferdegeschirr</lido:term>
+        </lido:objectWorkType>
+      </lido:objectWorkTypeWrap>
+    </lido:objectClassificationWrap>
+
+    <lido:objectIdentificationWrap>
+      <lido:titleWrap>
+        <lido:titleSet>
+          <lido:appellationValue>Pferde-Steigbügel</lido:appellationValue>
+        </lido:titleSet>
+      </lido:titleWrap>
+      <lido:repositoryWrap>
+        <lido:repositorySet>
+          <!-- KHM extra anführen? -->
+          <lido:repositoryName>
+            <lido:legalBodyName>
+              <lido:appellationValue>Kaiserliche Wagenburg Wien</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>https://www.kaiserliche-wagenburg.at/</lido:legalBodyWeblink>
+          </lido:repositoryName>
+          <lido:workID lido:type="idno">G 257</lido:workID>
+        </lido:repositorySet>
+      </lido:repositoryWrap>
+
+      <lido:objectDescriptionWrap>
+        
+        <lido:objectDescriptionSet lido:type="description">
+          <lido:descriptiveNoteValue>Der vergoldete Kastensteigbügel mit konkaver Standfläche und
+            trapezförmig geschwungenen Seitenflächen trägt einen Blumendekor mit Email und
+            Edelsteinen. Einen ähnlichen Blumendekor findet man auch auf dem Pferdebrustriemen G
+            259, der dem Stil Ahmeds III. (r. 1703–1730) entspricht. In seiner Form lässt er sich
+            mit einem Exemplar aus der „Türkischen Kammer“ in Dresden vergleichen, der die Tughra
+            Ahmeds III. trägt und als Geschenk des Khans der Krimtartaren Qaplan Girai (r. 1707–1708
+            und 1713–1715) an den Dresdner Hof gelangte (Schuckelt, Die Türckische Cammer, 296). In
+            der Sammlung des Topkapi Saray Museums befindet sich ein weiteres Steigbügelpaar, das in
+            Form und Dekor zwar sehr ähnlich ist, aber dessen Entstehung aufgrund der überaus
+            reichhaltigen Verzierung nach 1750 anzusetzen ist (Bilirgen/Murat, Topkapi, 170–171).
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        
+        <lido:objectDescriptionSet lido:type="provenance">
+          <lido:descriptiveNoteValue>Der Steigbügel stammt wahrscheinlich von jenem
+            Prunkpferdegeschirr, das in der Liste der Geschenke Sultan Ahmeds III. (r. 1703–1730)
+            für Kaiser Karl VI. (r. 1711–1740) aufscheint (Österreichisches Staatsarchiv, Haus-,
+            Hof- und Staatsarchiv Wien, Staatenabteilung, Türkei I 186, fol. 58r–61r). Dieser wurde
+            wie der Pferdebrustriemen G 259 laut Wienerischem Diarium am 7. September 1719 in Wien
+            bei der Audienz vom osmanischen Großbotschafter Ibrahim Pascha an Kaiser Karl VI.
+            übergeben. </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        
+        <lido:objectDescriptionSet lido:type="preservation">
+          <lido:descriptiveNoteValue>Der Steigbügel ist gut erhalten. Die Silberfassung weist kleine
+            Fehlstellen auf. Die Vergoldung ist an manchen Stellen abgeschürft.
+          </lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        
+        <lido:objectDescriptionSet lido:type="usage">
+          <lido:descriptiveNoteValue>Zeremonien, Kostümfest</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        
+      </lido:objectDescriptionWrap>
+    </lido:objectIdentificationWrap>
+
+    <lido:eventWrap>
+
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <!-- 'Production' -->
+            <lido:conceptID lido:source="http://terminology.lido-schema.org" lido:type="ID">lido00007</lido:conceptID>
+            <lido:term>Herstellung</lido:term>
+          </lido:eventType>
+          <lido:culture>
+            <lido:term>osmanisch</lido:term>
+          </lido:culture>
+          <lido:eventDate>
+            <lido:displayDate lido:label="dc_date">1710 ~ 1720</lido:displayDate>
+            <lido:date>
+              <lido:earliestDate>1710</lido:earliestDate>
+              <lido:latestDate>1720</lido:latestDate>
+            </lido:date>
+          </lido:eventDate>
+          <lido:eventPlace>
+            <lido:displayPlace>wahrscheinlich Istanbul</lido:displayPlace>
+          </lido:eventPlace>
+          <lido:eventMaterialsTech>
+            <lido:materialsTech>
+              <lido:termMaterialsTech lido:type="material">
+                <lido:term>Eisen, Silber, Gold, Email, Bergkristalle, Rubine </lido:term>
+              </lido:termMaterialsTech>
+            </lido:materialsTech>
+          </lido:eventMaterialsTech>
+        </lido:event>
+      </lido:eventSet>
+      
+      <lido:eventSet>
+        <lido:event>
+          <lido:eventType>
+            <lido:term>Datenerfassung</lido:term>
+          </lido:eventType>
+          <lido:eventActor>
+            <lido:actorInRole>
+              <lido:actor>
+                <lido:nameActorSet>
+                  <lido:appellationValue lido:label="editor">Dandachi, Laila</lido:appellationValue>
+                </lido:nameActorSet>
+              </lido:actor>
+            </lido:actorInRole>
+          </lido:eventActor>
+        </lido:event>
+      </lido:eventSet>
+      
+    </lido:eventWrap>
+
+    <lido:objectRelationWrap>
+      <lido:relatedWorksWrap>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Emine BILIRGEN/Süheyla MURAT, Topkapı Palace. The Imperial Treasury, Istanbul 2003. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Holger SCHUCKELT, Die Türckische Cammer, Dresden 2010. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectNote lido:type="literature">Wienerisches Diarium 1719 (6.–8. September 1719), unpag. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Sekundärliteratur</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+        
+        <lido:relatedWorkSet>
+          <lido:relatedWork>
+            <lido:object>
+              <lido:objectWebResource>/o:vipa.pr.osm.17190320/sdef:TEI/get?mode=view:facs#IMG01</lido:objectWebResource>
+              <lido:objectID lido:type="PID">o:vipa.pr.osm.17190320</lido:objectID>
+              <lido:objectNote lido:type="reference">Geschenkliste des Sultans für Kaiser Karl VI. </lido:objectNote>
+            </lido:object>
+          </lido:relatedWork>
+          <lido:relatedWorkRelType>
+            <lido:term>Referenz</lido:term>
+          </lido:relatedWorkRelType>
+        </lido:relatedWorkSet>
+
+      </lido:relatedWorksWrap>
+    </lido:objectRelationWrap>
+  </lido:descriptiveMetadata>
+
+  <lido:administrativeMetadata xml:lang="de">
+    <lido:recordWrap>
+      <lido:recordID lido:type="PID">o:vipa.art.osm.2</lido:recordID>
+      <lido:recordType>
+        <lido:term>single object</lido:term>
+      </lido:recordType>
+
+      <!-- Institute for Habsburg and Balkan Studies ? -->
+
+      <lido:recordSource lido:type="distributor">
+        <lido:legalBodyName>
+          <lido:appellationValue>GAMS - Geisteswissenschaftliches Asset Management
+            System</lido:appellationValue>
+        </lido:legalBodyName>
+        <lido:legalBodyWeblink>https://gams.uni-graz.at</lido:legalBodyWeblink>
+      </lido:recordSource>
+      
+      <lido:recordSource lido:type="photographer">
+        <lido:legalBodyName>
+          <lido:appellationValue>Laila Dandachi 2021</lido:appellationValue>
+        </lido:legalBodyName>
+      </lido:recordSource>
+
+      <lido:recordRights>
+        <lido:rightsHolder>
+          <lido:legalBodyID lido:source="http://d-nb.info/gnd" lido:type="ID">1001454-8</lido:legalBodyID>
+          <lido:legalBodyName>
+            <lido:appellationValue>Österreichische Akademie der Wissenschaften</lido:appellationValue>
+          </lido:legalBodyName>
+          <lido:legalBodyWeblink>https://www.oeaw.ac.at/oesterreichische-akademie-der-wissenschaften</lido:legalBodyWeblink>
+        </lido:rightsHolder>
+        <lido:creditLine lido:label="text">Creative Commons BY 4.0</lido:creditLine>
+        <lido:creditLine lido:label="uri"
+          >https://creativecommons.org/licenses/by/4.0</lido:creditLine>
+      </lido:recordRights>
+    </lido:recordWrap>
+
+    <lido:resourceWrap>
+      <lido:resourceSet lido:sortorder="1">
+        <lido:resourceID lido:type="IMAGE">IMG.1</lido:resourceID>
+        <lido:resourceRepresentation>
+          <lido:linkResource lido:formatResource="image/jpeg">IMG1.jpg</lido:linkResource>
+        </lido:resourceRepresentation>
+      </lido:resourceSet>
+
+    </lido:resourceWrap>
+  </lido:administrativeMetadata>
+</lido:lido>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Der Bericht von Receb Agha, einem Agenten des rumelischen
+                    Gouverneurs Abdullah Pasha, über sein Treffen mit Graf Oduyer, um die Einzelheiten
+                    der Austauschzeremonie für die Rückreise der beiden Botschafter zu besprechen,
+                    Ausstellungsort unbekannt, 28. Mai 1720</title>
+                <title xml:lang="en">The report of Receb Agha, an agent of the Rumelian Governor 
+                    Abdullah Pasha, about his meeting with Graf Oduyer to discuss the details of the
+                    embassy exchange ceremony that will take place during the return journeys of the ambassadors,
+                    location unknown, May 28, 1720</title>
+                <title xml:lang="tr">Rumili Valisi Abdullah Paşa tarafından elçilerin geri dönüşleri
+                    esnasında sınırda gerçekleşecek elçi değişim töreninin organizasyonu için murahhas tayin edilen
+                    Receb Ağa’nın, Graf Oduyer ile görüşmesi hakkındaki raporu, yazıldığı yer bilinmiyor,
+                    28 Mayıs 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Receb Agha</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17200528</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>HHStA, Wien</institution>
+                        <collection>Turcica I, 188</collection>
+                        <idno>f. 43</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-05-28"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Der Bericht von Receb Agha, einem Agenten des rumelischen Gouverneurs Abdullah Pasha, über sein Treffen mit Graf Oduyer, um die Einzelheiten der Austauschzeremonie für die Rückreise der beiden Botschafter zu besprechen, Ausstellungsort unbekannt, 28. Mai 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="IMG_20200901_145532.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17200528">
+            <pb n="1" facs="#IMG1"/>
+                <ab>Hüve</ab>               
+                <cb/>
+                <ab>
+                <lb/>Biñ yüz otuz bir senesinde ilçileri mürūrları ve ikrāmları 
+                    <choice><sic>ḥ</sic><corr>ḫ</corr></choice>uṣūṣı-çün şevketlü ʿaẓametlü ʿadāletlü 
+                <lb/>kerāmetlü pādişāh-ı ʿālem-penāh ḥażretleri ḥālā Rūmili vilāyeti ve Nīşde ser-ʿasker vezīr-i mükerrem
+                    ʿAbdullāh Paşa ḥażretlerin
+                <lb/>vekīl idüb ol daḫı vekālet ḥasebiyle ṭarafından beni vekīl idüb Belġrāda göndermiş idi ki devlet-i Romāniyye
+                <lb/>Çāsārı ve İspanya Ḳrālı Karoluş ṭarafından ilçileri mürūrlarına ve ikrāmları ḫuṣūṣlarına vekīl olan
+                Belġrād Cenerāli
+                <lb/>ve Ṣırb memleketinde <rs type="person" ref="#mpr14241">Ser-ʿasker Yosef Ġrūf Odūyer</rs>
+                    ile vech-i lāyıḳı üzere söyleşüb ve sözi ḳaṭʿ idüb
+                <lb/>birbirlerimize ol şurūṭ üzerine temessük virüb ve temessük almaḳ içün Nīşden Belġrāda gelüb iki devlet
+                <lb/>ilçileri mürūrlarını ve ikrāmlarını söyleşüb Belġrād cenerāli ḥażretlerine temessük virüb ve temessük alub
+                <lb/>ol temessükler şurūṭı üzere iki devletüñ ilçileri mürūr itmişler idi. İşbu biñ yüz otuz iki 
+                <lb/>senesinüñ māh-ı Receb-i şerīfinde iki devletüñ ilçilerinüñ ʿavdetleri ẓuhūr itmegin yine mürūrları ve iḳtiżā iden
+                <lb/>ikrāmları <choice><sic>ḥ</sic><corr>ḫ</corr></choice>uṣūṣı-çün
+                    yine şevketlü ʿaẓametlü ʿadāletlü kerāmetlü pādişāh-ı ʿālem-penāh ḥażretleri ḥālā
+                <lb/>Rūmili vilāyeti ve Nīş ser-ʿasker<supplied resp="#yy">i</supplied> vezīr-i mükerrem ʿAbdullāh Paşa
+                ḥażretlerini vekīl idüb ol daḫı vekāleti 
+                <lb/>ḥasebiyle beni vekīl idüb devlet-i Romāniyye çāsārı ve İspanya ḳrālı ṭarafından ilçileri mürūrlarına
+                <lb/>ve iḳtiżā iden ikrāmlarına vekīl olan Belġrad cenerali Ṣırb memleketinde 
+                    <rs type="person" ref="#mpr14241">Ser-ʿasker Yosef Ġrūf Odūyer</rs> ile
+                <lb/>ve tercümān <rs type="person">Ādam Menāyīr</rs> ile bir yere gelüb ilçilerin mürūrların
+                    ve ikrāmları ḫuṣūṣlarına şöyle ʿahd-i mīs̱āḳ 
+                <lb/>eyledügi iki devletüñ ilçileri Nīşe ve Belġrāda dāḫıl olduḳları ve ḳalḳduḳları zemān geçen sene
+                <lb/>gendülerine ne miḳdār ʿasker ile alay olub ve ne miḳdār ṭob şenlikleri olmış ise yine öylece olub
+                <lb/>noḳṣān olmaya. Ve ḳonaḳlara ḳonmaḳ murād iderler ise de ḳonaḳlara ḳonub ḳonaḳlarda ve yollarda ve sāʾīr
+                <lb/>yerlerde geçen sene yanlarına ne miḳdār ʿasker taʿyīn olunub ne vechle ikrām olunmış ise bu sene daḫı öylece
+                <lb/>ikrām oluna. M<supplied resp="#yy">ā</supplied>ḥāṣıl-ı kelām geçen sene ne yüzden şenlik ve
+                ikrāmlar olunmış ise bu sene daḫı öylece
+                <lb/>olub noḳṣān olmaya. Ve iki devletüñ ilçileri Nīşe ve Belġrāda dāḫil olacaḳları gün maʿlūm olmadıġından
+                <lb/>oturub mübādele güni ve sāʿati ḳaṭʿ olun<supplied>ma</supplied>mışdur. İn-şāa’llāhu teʿalā iki 
+                    devletüñ ilçileri Nīşe ve Belġrāda
+                <lb/>dāḫil olduḳları sāʿat iki ṭaraf ser-ʿaskerleri birbirlerine menzil ile ādem gönderüb mübādele ne gün
+                <lb/>ve ne sāʿat olacaḳdur ḳaṭʿ ideler ve bu sene çayır(?) olmaduġından reʿāyāya zaḫmet olmamaḳ içün geçen sene
+                <lb/>dördünci māddede yazılan biñ beşer yüz süvārī ile ikişer yüz nefer piyādeden bu sene yalñız sekiz yüz
+                <lb/>süvārī ile yüzer nefer piyāde olub ziyāde ve noḳṣān olmaya. Ve geçen sene mevcūd olan altı ʿaded
+                <lb/>yarımşar vuḳiyye şāhī ṭobları bu sene daḫı mevcūd olub noḳṣān olmaya. Ve bu temessük istiḥkāmı
+                <lb/>içün şevketlü aẓametlü ʿādāletlü kerāmetlü pādişāh-ı ʿālem-penāh ḥażretleri ṭarafından ḥālā Rumili
+                
+                <cb/>
+                <lb/>vilāyeti ve Nīşde ser-ʿasker vezīr-i mükerrem ʿAbdullāh Paşa ḥażretleri vekīl olub ol daḫı
+                <lb/>vekāleti ḥasebiyle beni vekīl idüb göndürmekle ben daḫı vekāletüm ḥasebiyle ḳayd-ı temessükde
+                <lb/>olan māddelere istiḥkām içün kendi ḫaṭṭum ile yazub ve kendi mührüm ile bu temessüki 
+                <lb/>mühürleyüb cenerāl ḥażretlerine virdüm ve cenerāl ḥażretleri daḫı vekāleti ḥasebiyle bālāda
+                <lb/>taḥrīr olunan māddeleri Nemçe lisānı üzere temessük yazub ve kendi mühri ile mühürleyüb
+                <lb/>baña teslīm eyledi. Ṭarafeyne verilen temessükler şurūṭı üzere cümle māddeler ṭuṭulub noḳṣān olmaya.
+                <lb/><date type="Hijri" when="1720-05-28"> Fī 20 [<supplied resp="#yy">Rece</supplied>]b sene 1132</date>
+                
+                <lb/>Receb Aġa
+                <lb/>Muraḫḫaṣ-ı vālī-yi
+                <lb/>Rumili ve Nīş
+                <lb/>Ser-ʿasker
+                <lb/>ʿufiye ʿanhu
+                
+            </ab>
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17200528-transl">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

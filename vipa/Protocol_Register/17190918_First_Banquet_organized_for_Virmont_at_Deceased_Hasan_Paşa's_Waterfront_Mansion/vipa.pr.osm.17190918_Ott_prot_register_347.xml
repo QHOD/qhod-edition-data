@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister des ersten Festessens für Damien Hugo von Virmont in der Villa 
+                    am Wasser von dem verstorbenen Amcazade Hüseyin Pascha, Istanbul, 18. September 1719 </title>
+                <title xml:lang="en">Protocol register of the first banquet organized for Damien Hugo von Virmont at the 
+                    waterfront mansion of the deceased Amcazade Hüseyin Pasha, Istanbul, September 18, 1719</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont için merhum Amcazade Hüseyin Paşa’nın 
+                    yalısında düzenlenen ilk ziyafet, İstanbul, 18 Eylül 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190918</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it’s only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 60-64</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-09-18"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister des ersten Festessens für Damien Hugo von Virmont in der Villa am Wasser von dem verstorbenen Amcazade Hüseyin Pascha, Istanbul, 18. September 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00029a2.jpg" xml:id="IMG01"/>
+        </surface>
+        <surface start="#IMG02">
+            <graphic url="A_}d___00347_00029b.jpg" xml:id="IMG02"/>
+        </surface>
+        <surface start="#IMG03">
+            <graphic url="A_}d___00347_00030a.jpg" xml:id="IMG03"/>
+        </surface>
+        <surface start="#IMG04">
+            <graphic url="A_}d___00347_00030b.jpg" xml:id="IMG04"/>
+        </surface>
+        <surface start="#IMG05">
+            <graphic url="A_}d___00347_00031a1.jpg" xml:id="IMG05"/>
+        </surface>
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17190918">
+            <pb n="1" facs="#IMG01"/>
+            <ab>
+            <lb/><hi rend="#red"><rs type="person" ref="#mpr9435">Nemçe ilçisi</rs>ne 
+                <rs type="person" ref="#mpr14709">[Amcazade] Ḥüseyin Paşa</rs> merḥūmuñ yalısında olan ż iyāfeti
+                müşʿirdür. Fī <date type="Hijri" when="1719-09-18">4 Z̠iʾl-ḳaʿade
+                    1131</date></hi></ab>
+                
+                <ab><lb/>Māh-ı mezbūruñ dördünci is̠ neyn güni <rs type="person" ref="#mpr9435">ilçi-yi mezbūra</rs> <rs type="person" resp="#14709">ʿAmcazā de Ḥüseyin Paşa</rs>
+                <lb/>merḥ ūmuñ yalısında ż iyāfet olunmaġ la z̠ ikr olunur.</ab>
+                
+            <ab>Yalı-yı mezbūrda deryā <lb/>üzerinde vāḳiʿ ḳaṣr-ı kebīr ve ḳurbında olan küçük oṭa
+                ve ṭaşrasında <lb/>vāḳiʿ ṣuffa ve eṭrāfında
+                iki üç oṭa daḫı meḥterḫāne-i ʿāmireden <lb/>bir iki gün muḳaddem döşendürilüb ve
+                bir gün muḳaddem ketḫüdā beg ḥażretleri daḫı <lb/>gidüb mühimmāt-ı ż iyāfete ḳıyām ve
+                köşküñ derūnında olan fısḳiyenüñ <lb/>eṭrāfına dāiren-mā dār sepetler ile meyveler ve
+                ḳaṣrıñ üç ṣuffasını daḫı <lb/>şükūfeler ile tezyīn itdirmiş-idi.</ab>
+            
+            <ab><rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> ṭaşrada Ḥazinedār Çiftliginde olmaġ la <lb/>etbāʿı içün kifāyet
+                miḳdārı mükārī bārgīri irsāl olunub lākin <rs type="person" ref="#mpr9435">ilçi</rs> ve begzādegānı 
+                
+                <pb n="2" facs="#IMG02"/>
+                <lb/>kendü atlarıyla Defterdār İskelesine gelüb ve şıḳḳ-ı evvel efendinüñ yedi çifte
+                <lb/>ḳayıġ ına ve etbāʿı daḫı irsāl olunan on beş yigirmiḳadar ḳayıḳlara süvār
+                <lb/>olub sāʿat ikiye ḳarīb <rs type="person" ref="#mpr9441">ṣāḥib devletüñ</rs> Beşiktaş ḳurbında vāḳiʿ <lb/>yalısı
+                öñine geldiler.</ab>
+            
+                <ab>Ż iyāfet olunacaḳ yalıda ḫalḳ cemʿ olunca bir miḳdār <lb/>maḥabbetce ṣoḥbet olunmaḳ
+                üzere daʿvet olunmaġ la <rs type="person" ref="#mpr9435">ilçi</rs> ile ṭoḳuz nefer begzādegānı <lb/>ve ser-kātibi ve kendü
+                tercümānı ve dīvān <add type="superlinear">tercümānı</add> yalıya çıḳub ḳ uṣ ūr-i etbāʿı
+                <rs type="person" ref="#mpr9435">ilçi</rs> içün <lb/>yalı-yı mezbūr öniñde ḥāẓır olan İsmāʿīl Paşa çekdiri sefīnesine
+                <lb/>çıkarıldı.</ab>
+            
+            <ab><rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> yalı-yı meẕkūrda vākiʿ bāġ çeye oturdılub <lb/>ve begzādegān ḳıyāmen
+                durdılar. Baʿdehū ṣāḥ ib devlet ḥażretleri bāġ çe-i mezbūrıñ <lb/>ḥarem ḳapusından
+                çıḳduḳlarında <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ve ̣çavuş başı aġ a öñine düşüb <lb/>geldüklerinde 
+                <rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām idüb ṣadra ḳuʿūd eylediler. 
+                Bu es̠ nāda vezīr-i aʿẓam efendimüz <lb/>serḥaddī ṣofa ḳaplu semūr kürk giymişleridi.
+                Baʿdehū ṭatlu ve ḳahve virildikden ṣoñra <lb/>ḥalvet olunmışdur.</ab>
+            
+            <ab><rs type="person" ref="#mpr9441">ṣāḥib devlet efendimiz</rs> teşrīf eyledigi es̠ nāda <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ve çavuşbaşı <lb/>ve
+                teẕkireci efendiler ve muhż ır aġ a ve bostāncı oṭa başısı ve bu ḥaḳīr rūzmerre
+                <lb/>gidiñiz es̠ vāb ve ṣarıḳlar ile köşküñ ṣuffesi 
+                üzerinde selāma durmış-idik. <lb/>Lakin selām aġ ası bu maḥallde selām olmamışdur. 
+                Ve <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> yalıya yanaşduġ ında 
+                <lb/>selām aġ asıyla ḳapucılar ketḫüdāsı istiḳbāl idüb çavuş başı gitmemişdür.</ab>
+                
+            <ab><lb/>Ve <rs type="person" ref="#mpr9435">ilçi</rs>ye ḳahve virildügi es̠ nāda begzādegānına daḫı selsebīl ṭarafında olan küçük 
+                <lb/>oṭada ṭatlu ve ḳahve virilmişdür. <rs type="person" ref="#mpr9435">ilçi</rs> ile ṣaḥīb devlet maḥfīce ṣoḥbet üzere
+                <lb/>iken Dilsiz Ḥasan Aġ ayı ḥavuż a bıraḳdılar. ʿAẓ īm cilve-bahş olmışdur.</ab>
+            
+            <ab><lb/>Yarım sāʿat miḳdārı ṣoḥbet-i ḫāṣṣdan ṣoñra saʿādetlü vezīr-i aʿẓam ḥażretleri
+                <lb/>ḳalḳub içerüye teşrīf buyurduḳlarında fermānları üzere 
+                <rs type="person" ref="#mpr9435">ilçi begi</rs>  ṭaşrada mevlevīḫāneye
+                <lb/>muttaṣıl deryāya nāẓ ır köşke çıḳarılub yaṣdıḳ üzerine oturdub baʿdehū
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> gelüb şerbet ve buḫūr
+                gelinceye degin <rs type="person" ref="#mpr9441">ṣāḥib ṣadr ḥażretleri</rs>bir ikinci kerre
+                <lb/>tüfeng atmışdur. Baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi merḳūmı</rs>
+                ḳayıḳ ile çekdiriye götürüb süvār itdirildi.</ab>
+                
+            <ab><lb/>Bu es̠ nāda çekdiri filāndralar ile ve başdan başa küçük bayraḳlar ile ve cümle cānibinde 
+                <lb/>olan pāyzenlerüñ birkaç ḳatı ḳırmızı paġ uryalıklar ile müzeyyen olmışlar idi. 
+                <lb/>Ve <rs type="person" ref="#mpr9435">ilçi</rs> çekdiriye bindigi gibi bir
+                ḳalḳma ṭ opı atdılar. Ve żiyāfet maḥalline ʿazimet itdiler.</ab>
+                
+                
+            <ab><lb/>Bir sāʿatden ṣoñra vezīr-i aʿẓ am daḫı ṣ andala süvār olub rūzgār ziyāde 
+                <lb/>olduġ ından <rs type="person" ref="#mpr9435">ilçi</rs>nüñ çekdirisi tiziyye gidememekle
+                <rs type="person" ref="#mpr9435">ilçi</rs>den evvel ż iyāfet
+                <lb/>maḥalline gelüb çıḳduḳda yalı-yı mezbūrda müctemiʿ olan kürklü zuʿamā ve müteferriḳa başı vezīr
+                <lb/>aġ aları ve hācegān ve aġ avātdan mesṭūrüʾl-esāmī olanlar biʾl-cümle ferāce semūr kürk
+                <lb/>ve sarıḳlarıyla köşküñ ḫāricinde selāma ve çavuşān-ı dergāh-ı ʿālī daḫı tellileriyle
+                 
+            <pb n="3" facs="#IMG03"/>
+                
+                <lb/>zuʿamānıñ verāsında olan sedd üzerinde selāma ṭurmışlar idi.</ab>
+                
+            <ab><lb/>Bu günde mevcūd olan ricālden eks̠ eri bi-lā daʿvet gelmişlerdür. <rs type="person" ref="#mpr9435">ilçi</rs>, yalı-yı mezbūra
+                <lb/>gelmezden muḳaddem baʿżı begzādegānı gelmiş bulunmaġ la vezīr-i aʿżam ṣandaldan çıḳduḳda
+                <lb/>çavuşān-ı dergāh-ı ʿālī alḳış eylemişlerdür. <rs type="person" ref="#mpr9441">Ṣāḥib devlet</rs> köşke gelüb ḳuʿūd
+                <lb/>eyledikleründe derūn-i ḳaṣrda olan meyve ve şükūfeden bir miḳdārı intiḫāb olunub 
+                <lb/>veliyüʾl-niʿam-ı ʿālem olan şevketlü mehābetlü padişāhımız ṭarafına irsāl olundu.</ab>
+                
+            <ab><lb/>Baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūruñ</rs> 
+                çekdirisi aḳ ındıya güzer itmekde ṣuʿūbeti olduġ ından geç
+                <lb/>ḳalmaġ la tiziyye gelmesi içün ḫaber gönderilmekle Bebek Bāġ çesi öñini tecāvüz iderek
+                <lb/>çekdiriden çıḳarub yedi çifte ḳayıḳ ile yalıya getürilmişdür. Ḳuṣūr etbāʿı 
+                <lb/>yine çekdiri ile gelmişdür.</ab> 
+                
+            <ab><rs type="person" ref="#mpr9435">ilçi</rs> yalıya dāḫl olmazdan aḳdem vezīr-i aʿẓam küçük
+                <lb/>oṭaya girüb baʿdehū <rs type="person" ref="#mpr9435">ilçi</rs> geldükde
+                derūn-i ḳaṣrda ḳapuya nāẓır ṣofaya vażʿ olunan
+                <lb/>iskemleye ḳuʿūd itdirildi. Baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs>
+                efendimüz beyāż ferāce ṣofa ḳaplu
+                <lb/>semūr kürk ile teşrīf eyledüklerinde <rs type="person" ref="#mpr9435">ilçi</rs>
+                ḳıyām idüb muʿtād üzere ḥāżirūna 
+                <lb/>selām-dāde olduḳda selām aġ ası ṣavt-ı bülend
+                ile selām alub maḳām-ı ʿālīlerine 
+                <lb/>oturduḳlarında ṭātlu ve ḳahve virildi.</ab> 
+                
+            <ab><rs type="person" ref="#mpr9435">ilçi</rs>nüñ geldigi zamān sāʿat 
+                <lb/>beşi tecāvüz itmekle der-ʿaḳab ṭaʿām döşenüb dībā sofra ve gümüş sini ḳonmışdur.
+                <lb/>Ve <rs type="person" ref="#mpr9435">ilçi</rs> içün bir
+                ṭabaġ ın içine bir altūn kāfirī ḳaşıḳ ve bir çatal ve bir bıçaḳ 
+                <lb/>ḳonmışdur. Vezīr-i aʿẓam ve dāmādları vezīr-i mükerrem Nişāncı Muṣṭafā Paşa
+                <lb/>ve İmām-ı Evvel Şehriyārī <rs type="person" ref="#mpr9441">ʿArabzāde Efendi</rs>
+                ve <rs type="person" ref="#mpr14722">reʾīs efendi</rs> biʾl-cümle vezīr-i aʿẓamuñ 
+                <lb/>ṣol ṭarafına oturub ve <rs type="person" ref="#mpr9435">ilçi</rs> ṣaġ  ṭarafı semtine māʾilce yaṣdıḳ üzerine
+                <lb/>oturub ṭaʿām tenāvül olundı. Ṭaʿāmuñ ḳabları biʾl-cümle mertabānī 
+                <lb/>ve faġ fūr idi.</ab> 
+                
+            <ab>Ve begzādegānı içün daḫı köşküñ ḫāricinde bāġ çeye
+                <lb/>ḳarşu ṣofada üç ʿaded peşgūn ve ḳuʿūdları içün ṭūlānī iskemleler
+                <lb/>ḳonub ve etbāʿ-ı sāʾiresi içün daḫı aşaġ ı deñiz ṭarafında olan
+                <lb/>meydānda beş altı yerde ṣofralara ḳonmışdur. Baʿdeʾl-ṭaʿām mevcūd olan meyve
+                <lb/>ve şükūfeyi <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs>
+                <rs type="person" ref="#mpr9435">ilçi</rs>ye inʿām idüb ḳaldırılmışdur. Baʿdehū ḫānendeler gelüb
+                <lb/>köşküñ iç ṭarafında ṣaġ  cānibde vāḳiʿ ṣofa üzerine oturub faṣıl 
+                <lb/>eylemişlerdür.</ab>
+                
+                
+                <list type="musicians">
+                <item rend="column1">ḫānende, nefer 13</item>
+                <item rend="column2">neyzen, nefer 8</item>
+                <item rend="column3">ṭanbūrī, nefer 4</item>
+                <item rend="column4">ṣanṭūrī, nefer 2</item>
+                <item rend="column5">kemānī, nefer 3</item>
+                <item rend="column1">düdük, nefer 1</item>
+                <item rend="column2">nefīrī, nefer 2</item>
+                <item rend="column3">çeng, nefer 1</item>
+                <item rend="column4">mis̠ ḳāl, nefer 1</item>
+                </list>
+
+            <ab><lb/>Faṣıl olunur iken <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs>
+                efendimüz deryāda gezen ḳuşlara birkaç defʿa tüfeng
+                <lb/>atub ḥattā bir martı ḳuşını urdı. Bu es̠ nāda <rs type="person" ref="#mpr9435">ilçi</rs> daḫı şevḳe gelüb tüfengüñ
+                <lb/>birini eline alub nişāna baḳar ve atar gūne ḥareket eyledi. Lākin atmadı. Bu es̠ nāda nişāncı
+                
+                <pb n="4" facs="#IMG04"/>
+                
+                <lb/>paşa ve <rs type="person" ref="#mpr14716">imām-ı evvel efendi</rs> daḫı <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> ṭarafında otururlardı.</ab>
+                
+            <ab>Bu hengāmede
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> 
+                ḥażretlerinüñ engüşt-i şerīflerinde bir kebīr elmās yüzük ve bir vasaṭ elmās
+                <lb/>yüzük ve ṣol engüşt-i şerīflerinde daḫı bir kebīr zümrüd yüzük ve miyān-ı saʿādetlerinde
+                <lb/>cevāhir ḳuşaḳ ve elmās ile muraṣṣaʿ hançeri
+                <rs type="person" ref="#mpr9435">ilçi</rs> temāşā iderek bī-ṭāḳat
+                <lb/>olmaġ la lisāna getirüb vāfir reşk eylemişdür. Bugünde hidmetde olan Enderūn
+                <lb/>aġ aları biʾl-cümle mücevher hançer ile ve pāk libās ile müzeyyen idiler.</ab>
+                
+            <ab>Ḫānende faṣlı temām olduḳdan
+                <lb/>ṣoñra iç aġ aları sāde neḳāre ile cerīd oynadılar. Baʿdehū pehlivānlar güreşdiler.
+                <lb/>Baʿdehū ḥoḳḳa-bāzlar oynadılar. Baʿdehū Anaṭolu ve Rūmili ḥiṣārlarından Ḳaradeñiz
+                <lb/>Boġ azına ṭoġ rı üçer defʿa sekdirme ṭoplar atıldı. Baʿdehū yine ḫānende
+                <lb/>faṣıl itmişlerdür. Ve baʿdehū deryāya desti ḳonmaġ la <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> efendimüz tüfeng ile
+                <lb/>birkaç desti şikest itmişdür. Baʿdehū yeñiçeri tüfengcileri atdılar.</ab> 
+                
+                
+            <ab>Baʿdehū ikindi ṭaʿāmı 
+                <lb/>tenāvül olunub baʿdehū bir miḳdār ṣoḥbet olunduḳdan ṣoñra <rs type="person" ref="#mpr9435">ilçi</rs>nüñ begzādegān etbāʿından
+                <lb/>otuz miḳdārı keferenüñ boġ azlarına birer telli çekme baġ lanmışdur. Baʿdehū çekdiri başına
+                <lb/>ve üzerine meʾmūr yeñiçeri ḫaṣekisine ve üzerine meʾmūr 
+                <rs type="person" ref="#mpr14717">Ḳapucıbaşı Meḥ med Aġ a</rs>ya ve çorbacıya
+                <lb/>ve dīvān tercümānına ve kendü tercümānına birer hilʿat giydirilmişdür. 
+                
+                <note xml:id="ftn1" type="editorial" resp="#yy">
+                    This Mehmed Agha, a <foreign xml:lang="tr">ḳapucıbaşı</foreign> (chief steward or <foreign xml:lang="de">Kämmerer</foreign>)
+                    was appointed as the chief of guard and guide for the Austrian ambassador
+                    and his entourage <ref target="/o:vipa.tr.hbg.1723#facs_85">during the Austrian
+                        mission’s journey from Belgrade to Istanbul and their stay in the city in 1719-20.</ref>
+                    It appears that the ambassador and Mehmed Agha cultivated a cautious
+                    friendship: They <ref target="/o:vipa.tr.hbg.1723#facs_122"> had conversations about religion, faith,
+                        and even the end of the world and apocalypse during the journey.</ref>
+                    Once the convoy arrived in Istanbul, Mehmed Agha delivered the ambassador a welcome 
+                    letter from the grand vizier. <ref target="/o:vipa.tr.hbg.1723#facs_122">The same day in the evening, the agha 
+                        introduced his four sons to the ambassador.</ref></note>
+                On August 16, the last day of the month of Ramadan that year,
+                Virmont was invited to the house of the agha for a festive meeting of several embassy members
+                and numerous Ottoman officials. <ref target="/o:vipa.tr.hbg.1723#facs_218">The
+                    Austrian delegation spent the night at Mehmed Agha’s house.</ref> 
+                
+                
+                Ḥattā çekdiri paşasına ibtidā
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> yalısı öñinde iken sālyānesine bir yük aḳçe żamm olunmaḳ üzere defterdār 
+                <lb/>efendiye lisānen fermān buyurulmış.</ab>
+                
+                
+            <ab>vech-i meşrūḥ üzere ḫilʿatler ilbās olunduḳdan ṣoñra
+                <lb/><rs type="person" ref="#mpr9435">ilçi</rs>ye daḫı gül penbe çuḳa ferāceye ḳaplu semūr kürk ilbās olunmaġ la kürk ilbās
+                <lb/>olunmazdan muḳaddem <rs type="person" ref="#mpr9441">ṣaḥib devlet efendimüz</rs> ḳıyām idüb <rs type="person" ref="#mpr9435">ilçi</rs> daḫı ḳıyām eyledükde kürk
+                <lb/>ilbās olunmışdur. Baʿdehū <rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām ile çekdiriye binüb ʿavdet eylemişdür. Baʿdehū herkese iz̠ n 
+                <lb/>virilmişdür. Ḥattā begzādeniñ bir muʿteberine iki telli çekme virilmişdür. Baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> 
+                <lb/>efendimüz ḫānendelerden birkaç neferin intiḫāb itdirüb hāṣṣaten ḥużūr-i
+                <lb/>şerīflerinde faṣla āġ āz idüb</ab>
+                
+            <ab>aḫşām daḫı ḳarīb olmaġ la faḳ īr daḫı 
+                <lb/>iş ḳalmadı mülāḥaẓ asıyla ḳayıġ a binüb ʿaẓīmet üzere iken
+                <lb/><rs type="person" ref="#mpr9441">devletlü ṣadr-ı ʿālī efendimizüñ</rs> nażar-ı keremkārīlerine dūş olduġ umda deryā-yı 
+                <lb/>mürüvvetleri temevvüc ve girü yalı-yı mezbūra ʿavdetimiz fermān buyurulub ve ḥużūr-i ʿālīlerine 
+                <lb/>varduḳda bir ḫilʿat-ı ḫāṣṣüʾl-<corr>ḫ</corr><sic>h</sic>āṣ ilbās ve beyneʾl-aʿyān maḥsūdüʾl-aḳrān
+                <lb/>buyurmışlardur. Ḥaḳḳ sübḥānehū ve teʿālā ʿömr ü devletlerin dāʿim eyleye bir ż īyāfet olmışdur ki
+                <lb/>eslāfını birkaç fersaḥ geçmişdür. Rab teʿālā devlet-i ʿaliyeyi ilā yevmiʾl-ḳıyāme
+                <lb/>dāyim eyleye. Āmīn.</ab>
+                
+            <ab>Bu hal üzere żabṭ olunmışdur ki bizden ṣoñra gelenlere iḳtiżā 
+                <lb/>itdikde zaḥmet çekmeyeler ve bizi duʿā-yı ḫayr ile yād ideler.</ab>
+                
+                <pb n="5" facs="#IMG05"/>
+                
+                <ab><lb/><hi rend="#red"><rs type="person" ref="#mpr9435">ilçi</rs>ye żiyāfet olunduġ ı gün yalıya gelen ricāl-i aʿyāndur gelmeleri bilā daʿvetdür.</hi></ab>
+                
+                <list type="Ottoman_grandees">
+                    <item rend="column1">nişāncı paşa</item>
+                    <item rend="column2">imām-ı evvel efendi</item>
+                    <item rend="column3">defterdār efendi</item>
+                    <item rend="column4">def<supplied>t</supplied>er emīni efendi</item>
+                    <item rend="column1">başmuḥāsebeci efendi</item>
+                    <item rend="column2">fermān muhāsebecisi efendi</item>
+                    <item rend="column3">maṭba<corr>ḫ</corr><sic>h</sic> emīni efendi</item>
+                    <item rend="column4">arpa emīni efendi</item>
+                    <item rend="column1">ż arbḫāne nāẓırı efendi</item> 
+                    <item rend="column2">İstanbul bārūtḫāne nāẓırı aġ a</item>
+                    <item rend="column3">sermehterān-ı ḫayme</item>
+                    <item rend="column4">silāḥdār kātibi efendi</item>
+                    <item rend="column1">tersāne emīni efendi</item> 
+                    <item rend="column2">ḳapu ketḫüdālarından Mühür Yūsuf Aġ a</item>
+                    <item rend="column3">Silāḥdār Aġ a-yı sābıḳ Mehmed Aġ a</item>
+                    <item rend="column4">Ordu Ḳāżısı Fażallāh Efendi </item>
+               </list>
+                
+            <ab><lb/>Bostāncıbaşı Aġ a daḫı geçerken uġ rayub dāmenbūs-i āṣafī ile müşerref olub
+                <lb/>ḳahve virilüb yarım sāʿat miḳdārı celseden ṣoñra gitmişdür.</ab>
+                            
+        </div>
+        <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190918-transl">
+        <pb n="1" facs="#IMG01"/>
+        
+        <ab><hi rend="#red">The report on the banquet organized for  
+             <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> at the waterfront mansion of the
+            deceased <rs type="person" resp="#14709">[Amcazade] Hüseyin Pasha</rs>.</hi> September 18, 1719.</ab>
+        
+            <ab>The following relates the banquet that was organized for the said <rs type="person" ref="#mpr9435">ambassador</rs> at 
+                the mansion of the deceased <rs type="person" resp="#14709">Amcazade Hüseyin Pasha</rs>, <date type="Hijri" when="1719-09-18">on the fourth day of the aforementioned
+                month, which was a Monday.</date></ab>
+            
+            <ab>The large pavilion which is situated by the seaside at the said waterfront mansion,
+                the small room in the pavilion’s vicinity, and an exterior bench together with surrounding rooms
+                were richly furnished several days prior with items supplied from the inventory of the sultan’s
+                tent pitchers. On the previous day, the <rs type="person" ref="#mpr9441">grand vizier</rs>’s chief steward 
+                set about the preparations for the banquet. 
+                He had the entire circumference of fountain inside the kiosk adorned with baskets full of fruits 
+                and had the three benches outside the pavilion adorned with flowers.</ab>
+            
+            <ab>Since the <rs type="person" ref="#mpr9435">ambassador</rs> was at that time residing at Hazinedar Farm outside the city, a sufficient number of
+                packhorses were dispatched to accommodate his entourage. However, he and his inner circle 
+                <pb n="2" facs="#IMG02"/> came to the Treasurer’s Pier mounted on their own horses
+                and embarked on the chief treasurer’s caique equipped with
+                seven pairs of oarsmen, while his entourage embarked on fifteen to twenty
+                caiques. At about two o’clock, they arrived in front of the <rs type="person" ref="#mpr9441">grand vizier</rs>’s 
+                waterfront mansion in the vicinity of Beşiktaş.</ab>
+                
+            <ab>When people had gathered at the mansion where the banquet was to take place, the <rs type="person" ref="#mpr9435">ambassador</rs>
+                was invited for a friendly conversation together with the nine members of his inner circle
+                joined by his chief secretary, his personal interpreter, and the interpreter of the Ottoman imperial council,
+                they went to the waterfront mansion. The remainder of the <rs type="person" ref="#mpr9435">ambassador</rs>’s entourage were boarded onto İsmail Pasha’s
+                oar-powered ship (<foreign xml:lang="tr">çekdiri</foreign>) which was in front of the seaside mansion.</ab>
+            
+            <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> was offered a seat inside the garden at the mansion and his close entourage remained
+                standing. When his excellency, the <rs type="person" ref="#mpr9441">grand vizier</rs>, came inside through the garden’s harem gate –
+                preceded by the <rs type="person" ref="#mpr14722">chief of the scribes</rs> and the agha of palace ushers – the <rs type="person" ref="#mpr9435">ambassador</rs>
+                rose to his feet and the <rs type="person" ref="#mpr9441">grand vizier</rs> sat at his post. At that time,
+                our lord the <rs type="person" ref="#mpr9441">grand vizier</rs> had on him a sable fur lined with mohair (made in 
+                or designed after the style of the frontier regions). After coffee 
+                and sweets had been served, a private assembly took place.</ab>
+            
+            <ab>When the <rs type="person" ref="#mpr9441">grand vizier</rs> had honored the room with his entrance, the <rs type="person" ref="#mpr14722">chief of the scribes</rs>, 
+                the agha of the palace ushers, the grand vizier’s secretary (<foreign xml:lang="tr">tezkireci efendi</foreign>), the agha of the grand vizier’s guard,
+                the chief gardener, and this poor recorder of daily affairs have stood greeting at the antechamber
+                of the kiosk with our uniforms and turbans on [us]. However, the master of ceremonies
+                did not performed a salutation at this occasion. When the <rs type="person" ref="#mpr9435">ambassador</rs> came by the waterfront mansion, 
+                the master of ceremonies and the aghas of the palace gatekeepers 
+                went to receive him, but the agha of palace ushers did not go.</ab>
+            
+            <ab>As the <rs type="person" ref="#mpr9435">ambassador</rs> was being served coffee, his inner circle had also been
+                served coffee and desert in the room located on the side of the ornamental fountain.
+                As the <rs type="person" ref="#mpr9435">ambassador</rs> and the <rs type="person" ref="#mpr9441">grand vizier</rs> were having a private conversation, Dilsiz (Mute) Hasan Agha
+                was thrown in the pool. It was a [moment of] great amusement.</ab>
+            
+            <ab>Following a half-hour private conversation, our lord the felicitous <rs type="person" ref="#mpr9441">grand vizier</rs>,
+                stood up and honored the room with his entry. As per his command, the <rs type="person" ref="#mpr9435">ambassador</rs>
+                was taken outside to the waterfront kiosk next to the Mevlevi lodge and was seated
+                on a cushion. Then, the <rs type="person" ref="#mpr9441">grand vizier</rs> came and, until sorbet and frankincense were served,
+                he shot with a musket for a second time. After that, the <rs type="person" ref="#mpr9435">ambassador</rs> was brought
+                with a caique to the oar-powered ship and he was given a tour.</ab>
+            
+            <ab>The ship was adorned with pennants and small flags from one end to the other and the hulls
+                of the ship were adorned with [images of] red crabs. When the <rs type="person" ref="#mpr9435">ambassador</rs> came on deck,
+                a departure cannon was fired and they advanced to the location of the banquet.</ab>
+            
+            <ab>An hour later, the <rs type="person" ref="#mpr9441">grand vizier</rs> also embarked on a <foreign xml:lang="tr">ṣandal</foreign> (a European style row-boat).
+                However, due to excessive winds, the <rs type="person" ref="#mpr9435">ambassador</rs>’s ship could not swiftly go and
+                the <rs type="person" ref="#mpr9441">grand vizier</rs> came to the location of the banquet first. At that moment, 
+                the holders of large military fiefs (<foreign xml:lang="tr">zuʿamā</foreign>) with their furs and turbans 
+                on them, the head of the court
+                officials, the aghas of viziers, the elders and aghas – whose names were written [on a list] –
+                were standing in order to greet (them) outside the pavilion together. 
+                They were wearing sable furs covered on a ceremonial cloak and their turbans. 
+                The palace ushers, wearing their <foreign xml:lang="tr">telli</foreign>s [a ceremonial turban decorated with 
+                gold or silver wire or threads],
+                <pb n="3" facs="#IMG03"/>
+                were standing on top of the barrier located behind the holders
+                of large military fiefs (<foreign xml:lang="tr">zuʿamā</foreign>).</ab>
+                
+            <ab>The majority of the state officials who were present on this day came without an invitation.
+                Before the <rs type="person" ref="#mpr9435">ambassador</rs> had come to the mansion, some [members] of his inner circle had arrived, on which grounds
+                the aghas of the palace ushers applauded when the <rs type="person" ref="#mpr9441">grand vizier</rs> disembarked
+                the boat. When the <rs type="person" ref="#mpr9441">grand vizier</rs> came to the kiosk and
+                sat on his post, a certain amount of fruits and flowers that were present inside the kiosk
+                were selected and dispatched to our gracious, majestic, awe-inspiring sultan.</ab>
+                
+            <ab>The <rs type="person" ref="#mpr9435">ambassador</rs>’s ship had difficulty overcoming the current and, therefore, was late.
+                As news was sent for the ship to dock swiftly, the <rs type="person" ref="#mpr9435">ambassador</rs> was transferred
+                past the Garden of Bebek to a caique powered with seven pairs of oars and was taken 
+                to the waterfront mansion. Yet the rest of his entourage still came by ship.</ab>
+                
+            <ab>Before the <rs type="person" ref="#mpr9435">ambassador</rs> came inside the mansion, the <rs type="person" ref="#mpr9441">grand vizier</rs> entered the small room.
+                Then, the <rs type="person" ref="#mpr9435">ambassador</rs> came and he was seated on the stool that was located 
+                across the bench inside the pavilion. After that, as our lord the <rs type="person" ref="#mpr9441">grand vizier</rs> honored 
+                the room wearing a sable fur lined with a white mohair ceremonial cloak, the
+                <rs type="person" ref="#mpr9435">ambassador</rs> rose to his feet and, as per custom, saluted those who were present. The master of
+                ceremonies saluted back with a loud voice and, when [the <rs type="person" ref="#mpr9441">grand vizier</rs>] had sat down on his exalted post, 
+                sweets and coffee were served.</ab>
+                
+            <ab>When the <rs type="person" ref="#mpr9435">ambassador</rs> arrived, it was past five o’clock. A meal was then spread out.
+                A brocade meal cloth and a silver tray had been placed. For the <rs type="person" ref="#mpr9435">ambassador</rs>, an infidel-style
+                gold spoon, fork, and knife were placed on a plate. The <rs type="person" ref="#mpr9441">grand vizier</rs> and his son-in-law,
+                the esteemed vizier <rs type="person" ref="#mpr14715">Chancellor Mustafa Pasha</rs>, 
+                <rs type="person" ref="#mpr14716">the sultan’s private senior imam</rs>, <rs type="person" ref="#mpr14716">Arabzade [Abdurrahman Bahir] Efendi</rs>,
+                and the <rs type="person" ref="#mpr14722">chief of the scribes</rs> sat together on the left of the <rs type="person" ref="#mpr9441">grand vizier</rs>. The <rs type="person" ref="#mpr9435">ambassador</rs>
+                sat on a cushion slightly leaning towards the right side of the <rs type="person" ref="#mpr9441">grand vizier</rs> and the meal
+                was eaten. The entire tableware consisted of Martaban style dishes and Chinese porcelain.</ab>
+                
+            <ab>For the <rs type="person" ref="#mpr9435">ambassador</rs>’s inner circle, three benches and long stools had been placed 
+                on the porch outside the kiosk across the garden. For the rest of his entourage, meals
+                were spread on five or six different locations down on the maidan by the sea.
+                After the meal, the <rs type="person" ref="#mpr9441">grand vizier</rs> offered the fruits and flowers that were present 
+                to the <rs type="person" ref="#mpr9435">ambassador</rs>, after which they were removed. Then, vocalists
+                came, sat on the bench on the right side inside the kiosk, and performed.</ab>
+                
+                <list type="musicians">
+                    <item rend="column1">vocalist, 13 persons</item>
+                    <item rend="column2">ney player, 8 persons</item>
+                    <item rend="column3">tanbur player, 4 persons</item>
+                    <item rend="column4">santur player, 2 persons</item>
+                    <item rend="column5">violin player, 3 persons</item>
+                    <item rend="column1">düdük player, 1 person</item>
+                    <item rend="column2">nefir player, 2 persons</item>
+                    <item rend="column3">çeng player, 1 person</item>
+                    <item rend="column4">miskal player, 1 person</item></list>
+            
+                            
+            <ab>During the performance, our lord the <rs type="person" ref="#mpr9441">grand vizier</rs> shot a few times
+                at the birds swimming on the sea and he hit a seagull. The <rs type="person" ref="#mpr9435">ambassador</rs>,
+                carried away by the moment, took hold of a musket, aimed, and pretended to shoot but 
+                he did not shoot. At this moment, the chancellor <pb n="4" facs="#IMG04"/> and the sultan’s private personal
+                imam were sitting next to the <rs type="person" ref="#mpr9441">grand vizier</rs>.</ab>
+             
+            <ab>In the meantime, on [the right hand] fingers of his highness the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                there was a large diamond ring and a small diamond ring, while on his left [hand] finger
+                there was a large emerald ring. On his waist, there was a jeweled sash and a dagger
+                adorned with diamonds. The <rs type="person" ref="#mpr9435">ambassador</rs> looked at them with admiration and he 
+                could not overcome his desire to verbalize [how he felt], and he greatly envied [the <rs type="person" ref="#mpr9441">grand vizier</rs>]. On this day,
+                the aghas of the inner court were all adorned with jeweled daggers and bright uniforms.</ab>
+                
+            <ab>After the performance of the vocalists was over, the aghas of the inner court 
+                played the game of javelins as a single kettledrum played. After that, wrestlers wrestled.
+                Next, jugglers performed. Then, from the Anatolian and Rumelian fortresses, 
+                bouncing cannonballs were fired three times in the direction of the Black Sea.
+                After that, the vocalists performed again. Next, jugs were placed on the sea
+                and his highness the <rs type="person" ref="#mpr9441">grand vizier</rs> hit several jugs with a musket. Then,
+                the janissary musketeers shot.</ab>
+            
+            <ab>Then, the mid-afternoon meal was eaten. After that, from among the <rs type="person" ref="#mpr9435">ambassador</rs>’s inner circle,
+                each one of about thirty infidels was presented with an embroidered fabric bound around their necks.
+                Then, the palace janissaries, who were commissioned with service on and outside the ship,
+                the head of the imperial gatekeepers <rs type="person" ref="#mpr14717">Mehmed Agha</rs> who
+                supervised them, the janissary agha,
+                the imperial council interpreter as well as the Austrian interpreter were
+                dressed with robes of honor.<ref target="#ftn1" type="note_reference"/> 
+                
+                <!--<note type="footnote" resp="#yy">
+                    This Mehmed Agha, a <foreign xml:lang="tr">ḳapucıbaşı</foreign> (chief steward or <foreign xml:lang="de">Kämmerer</foreign>)
+                    was appointed as the chief of guard and guide for the Austrian ambassador
+                    and his entourage <ref target="/o:vipa.tr.hbg.1723#facs_85">during the Austrian
+                    mission’s journey from Belgrade to Istanbul and their stay in the city in 1719-20.</ref>
+                    It appears that the ambassador and Mehmed Agha cultivated a cautious
+                    friendship: They <ref target="/o:vipa.tr.hbg.1723#facs_122"> had conversations about religion, faith,
+                    and even the end of the world and apocalypse during the journey.</ref>
+                    Once the convoy arrived in Istanbul, Mehmed Agha delivered the ambassador a welcome 
+                    letter from the grand vizier. <ref target="/o:vipa.tr.hbg.1723#facs_122">The same day in the evening, the agha 
+                    introduced his four sons to the ambassador.</ref></note>
+                    On August 16, the last day of the month of Ramadan that year,
+                    Virmont was invited to the house of the agha for a festive meeting of several embassy members
+                    and numerous Ottoman officials. <ref target="/o:vipa.tr.hbg.1723#facs_218">The
+                    Austrian delegation spent the night at Mehmed Agha’s house.</ref> !-->
+                
+                Moreover, on the verbal orders of the <rs type="person" ref="#mpr9441">grand vizier</rs> to the
+                chief treasurer while in front of the waterfront mansion, the yearly salary of the agha of the ship
+                was increased by a load(?) of akçe.</ab>
+            
+            <ab>After they had been dressed with robes of honor in this way, the <rs type="person" ref="#mpr9435">ambassador</rs> himself
+                was dressed with a sable fur on a broadcloth ceremonial cloak. Before the 
+                <rs type="person" ref="#mpr9435">ambassador</rs> was dressed
+                with the fur, our lord the <rs type="person" ref="#mpr9441">grand vizier</rs> and the
+                <rs type="person" ref="#mpr9435">ambassador</rs> got up and the 
+                <rs type="person" ref="#mpr9435">ambassador</rs> was dressed with the fur in this way. 
+                Next, the <rs type="person" ref="#mpr9435">ambassador</rs> embarked on the oar-powered ship 
+                and returned. After that, everyone was dismissed. Furthermore, a man of good reputation
+                from among the inner circle of the <rs type="person" ref="#mpr9435">ambassador</rs> was presented with a [piece of] embroidered fabric. 
+                Next, our lord the <rs type="person" ref="#mpr9441">grand vizier</rs> had a few of the vocalists chosen and they started 
+                a private concert in his presence.</ab>
+            
+            <ab>As the evening was drawing near, assuming that there were left no tasks to be fulfilled, this humble servant
+                was about to leave by embarking on a caique. When I happened to
+                come across the benevolent sight of our lord the most excellent <rs type="person" ref="#mpr9441">grand vizier</rs>,
+                his sea of generosity surged and my return back to the waterfront mansion was
+                commanded. When I arrived in his presence, he had me dressed with a robe of honor of the best kind
+                that clearly made me envied among my peers. May God the exalted, may he be praised,
+                perpetuate his life and government; this was such a feast that it outshined by far those that had been
+                organized by the predecessors. Amen.</ab>
+            
+            <ab>[What happened] has been recorded in this way so that the posterity,
+                if need be, (may read it) without any toil and may remember us with a prayer of benediction.</ab>
+            
+            <pb n="5" facs="#IMG05"/>
+            
+            <ab><hi rend="#red">The list of the grandees who have come to the waterfront mansion 
+                on the day the banquet was organized. They came without invitation.</hi></ab>
+            
+            <list type="Ottoman_grandees">
+                <item rend="column1">chancellor</item>
+                <item rend="column2">sultan’s private senior imam</item>
+                <item rend="column3">the chief treasurer</item>
+                <item rend="column4">the superintendent of the (cadastral) register</item>
+                <item rend="column1">the chief accountant</item>
+                <item rend="column2">the accountant of the imperial edicts</item>
+                <item rend="column3">the superintendent of the imperial kitchens</item>
+                <item rend="column4">the superintendent of grains</item>
+                <item rend="column1">the minister of the imperial mints</item> 
+                <item rend="column2">the minister agha of the Istanbul arsenal</item>
+                <item rend="column3">the chief of the imperial military barracks</item>
+                <item rend="column4">the secretary of the swordkeepers</item>
+                <item rend="column1">the superintendent of the navy yard</item> 
+                <item rend="column2">Yusuf Agha, one of the aghas of the palace gatekeepers</item>
+                <item rend="column3">Mehmed Agha, the former agha of the swordkeepers</item>
+                <item rend="column4">Fazallah Efendi, army judge</item>
+            </list>
+                
+        <ab>The chief gardener agha had also stopped by and was honored by the kissing the skirts of 
+            the <rs type="person" ref="#mpr9441">grand vizier</rs>’s robe; he was served coffee and, after staying for half an hours, 
+            left.</ab>
+        
+        </div>
+        </body>
+    </text>
+</TEI>

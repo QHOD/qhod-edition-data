@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über Damian Hugo von Virmonts Besuch in der Villa
+                    des osmanischen Siegelbewahrers, Istanbul, 20. September 1719</title>
+                <title xml:lang="en">Protocol register of Damian Hugo von Virmont’s visit to the mansion
+                    of the Ottoman Chancellor, Istanbul, September 20, 1719</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Nişancı Paşa’yı
+                    yalısında ziyareti, İstanbul, 20 Eylül 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190920</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it's only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 64</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-09-20"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über Damian Hugo von Virmonts Besuch in der Villa des osmanischen Siegelbewahrers, Istanbul, 20. September 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00031a.jpg" xml:id="IMG01"/>
+        </surface>
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17190920">
+            <pb n="1" facs="#IMG01"/>
+                      
+            <ab><hi rend="#red"><rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> <rs type="person" ref="#mpr14715">Nişāncı Paşa</rs>
+                <add place="superlinear">y</add>alısına varduġ ını işʿār ider.</hi>
+                <date type="Hijri" when="1719-09-20">Fī 6 Z̠<supplied rend="#yy">ilkade</supplied> sene 1131</date>
+                <lb/>Yevm-i mezbūrda <rs type="person" ref="#mpr14715">dāmād-ı ṣadr-ı ʿālī vezīr-i mükerrem Nişāncı Muṣṭafā Paşa ḥażretleri</rs> Nemçe
+                <lb/>ṭarafından gelen mez̠ kūr <rs type="person" ref="#mpr9435">büyükilçi</rs> ile maḥ fīce mükālemeye meʾmūr olunmaġ la 
+                <rs type="person" ref="#mpr9435">ilçi-yi 
+                    <lb/>mezbūr</rs> müşārün ileyhüñ Anaṭolı cānibinde olan kendi yalısına daʿvet olunub
+                <lb/><rs type="person" ref="#mpr14722">reʾis efendi</rs> daḫı anda ḥ āżır olub baʿdeʾl-mükāleme ikindi ṭaʿāmı tenāvül
+                <lb/>olunduḳdan ṣoñra <rs type="person" ref="#mpr9435">ilçi</rs> gidecegi zamān bir telli çekme ve bir telli yemenī ve bir telli aġ ır yaġ lıḳ
+                <lb/>bir yire ṣarılub <rs type="person" ref="#mpr9435">ilçinüñ</rs> ḳoynına vaż ʿ ve ser-kātibine ve beş altı begzādegānına 
+                <lb/>daḫi birer telli çekme virilmişdür.
+                <lb/>Bir iki günden ṣoñra <rs type="person">ḳapūdān paşa</rs> daḫı daʿvet idüb żiyāfet eylemişdür.</ab>
+            
+            </div>
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190808-transl">
+            <pb n="1" facs="#IMG01"/>
+                
+            <ab><hi rend="#red">Report about  <rs type="person" ref="#mpr9435">the Austrian ambassador</rs>’s visit
+                to the Chancellor’s waterfront mansion</hi> On September 20, 1719.
+                
+                On that day, the grand vizier’s son-in-law, the revered vizier <rs type="person" ref="#mpr14715">Chancellor Mustafa Pasha</rs>,
+                was commissioned to have a private conference with the aforementioned  <rs type="person" ref="#mpr9435">Austrian ambassador</rs>.
+                For that reason, <rs type="person" ref="#mpr9435">the ambassador</rs> was invited to 
+                <rs type="person" ref="#mpr14715">the chancellor’s</rs> waterfront mansion
+                situated on the Anatolian side. The <rs type="person" ref="#mpr14722">chief of the scribes</rs> was also present at the meeting. 
+                Following the conference, they ate the mid-afternoon meal together. When <rs type="person" ref="#mpr9435">the ambassador</rs> was
+                about to leave, a [length of] embroidered fabric, an embroidered cotton handkerchief, and
+                a handkerchief made of heavy fabric(?) were wrapped up together and handed to <rs type="person" ref="#mpr9435">the ambassador</rs>.
+                His chief secretary and five or six members of his inner circle were each given a [length]
+                of embroidered fabric. A few days later, <rs type="person">the admiral</rs> also invited <rs type="person" ref="#mpr9435">the ambassador</rs> and
+                organized a feast.                
+                                
+            </ab>
+            
+            </div>
+        </body>
+    </text>
+</TEI>

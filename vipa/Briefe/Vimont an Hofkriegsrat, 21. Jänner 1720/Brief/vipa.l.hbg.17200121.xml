@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pera, 21. Jänner
+                    1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pera, January
+                    21, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.l.hbg.17200121</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 187-1, fol. 97r-99v, 111r-v, 124r-v.</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Pera, 21. Jänner 1720, bearb. von
+                    Manuela Mayer, Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz,
+                    in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20),
+                    hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo
+                        von Virmont</persName>
+                    <placeName ana="#mpr14657" ref="https://sws.geonames.org/750640/"
+                        >Pera</placeName>
+                    <date when="1720-01-21">21. Jänner 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/"
+                        >Wien</placeName>
+
+                </correspAction>
+
+                <correspContext>
+                    <ref type="prev"> Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                        an den <orgName>Hofkriegsrat</orgName>: <date when="1720-01-21">21. Jänner
+                            1720</date>
+                    </ref>
+                    <ref type="next"> Nächster Brief von <persName>Damian Hugo von
+                            Virmont</persName> an den <orgName>Hofkriegsrat</orgName>: <date
+                            when="1720-01-25">25. Jänner 1720</date>
+                    </ref>
+                </correspContext>
+                <note type="hasAttachment">
+                    <ref target="/o:vipa.l.hbg.17200121.b1"/>
+                    <ref target="/o:vipa.l.hbg.17200121.b2"/>
+                    <ref target="/o:vipa.l.hbg.17200121.b3"/>
+                    <ref target="/o:vipa.l.hbg.17200121.b4"/>
+                    <ref target="/o:vipa.l.hbg.17200121.b5"/>
+                </note>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>gifts to the Dutch ambassador</item>
+                    <item>liberation of slaves</item>
+                    <item>robbery of Janissaries in Belgrade</item>
+                    <item>plague</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="29KV_97r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="29KV_97v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="29KV_98r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="29KV_98v.jpg" xml:id="IMG4"/>
+        </surface>
+        <surface start="#IMG5">
+            <graphic url="29KV_99r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="29KV_99v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="29KV_111r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="29KV_111v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="29KV_124r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="29KV_124v.jpg" xml:id="IMG10"/>
+        </surface>
+
+    </facsimile>
+
+    <text type="letter">
+        <body>
+            <pb n="97r" facs="#IMG1"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">Nr. 29</ref> d.do. <rs
+                    type="place" ref="#mpr10447">Pera</rs>
+                <date when="1720-01-21">21. Januarii 1720</date> nebst 5 beylagen.</metamark>
+            <pb n="97v" facs="#IMG2"/>
+            <pb n="98r" facs="#IMG3"/>
+            <metamark place="top"><ref target="/o:vipa.i.hbg.1720">Nr. 29.</ref> d.do. <rs
+                    type="place" ref="#mpr10447">Pera</rs>
+                <date when="1720-01-21">21. Januarii 1720</date></metamark>
+
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. Unter den
+                    <date when="1719-12-13">13. verflossenen monaths und jahrs</date> an mich gnädig
+                und beliebig erlassenes, ist mir durch de courrier <rs type="person" ref="#mpr15432"
+                    >Thodor Costanza</rs> sambt ihrer <rs type="person" ref="#mpr9399">ksl. und
+                    cathol. Mt.</rs> allergnädigsten rescript von <date when="1719-12-09">9.
+                    eiusdem</date> richtig überbracht worden. Und gleichwie mich auf meine
+                allergehorsambste antwort im gegenwärtigen gehorsambst und schuldigsten bericht
+                beziehe, also habe allein beyzufüegen, daß die notification wegen anhero schickung
+                des herrn hof-kriegs-raths <rs type="person" ref="#mpr15460">von Fleischmann</rs>,
+                als auch was wegen der flaggen und patent <pb n="98v" facs="#IMG4"/>vor die kriegs-
+                und kauffertay schiff allergnädigst resolvirt worden, wie auch in meiner
+                allerunterthänigsten relation an ihro <rs type="person" ref="#mpr9399">ksl. und
+                    cathol. Mt.</rs> allergehorsambst anzaige, bey der Pforten gehörig abgelegt.</p>
+            <p>Was mir die Pforten vor einen tain gebe und was für dilationen, veränderungen und
+                umbstände dabey unterloffen, habe mit der unter den <date when="1719-11-15">15.
+                    Novembris</date> an euer durchleuchtigste excellenzien und meine hochgeehrtiste
+                herren von mir abgeschickten expedition, und zwar durch einen besonderen bericht
+                gehorsambst <pb n="99r" facs="#IMG5"/> und schuldigst überschriben. Also hoffe, daß
+                es mittlerweylle eingeloffen seyn und ein hochlöblicher hof-kriegs-rath die
+                verlangende information nunmehro davon haben wird.</p>
+            <p>Ich bethaure, daß zu berichten übersehen worden, der <rs type="place" ref="#mpr15215"
+                    >General Staaten der Vereinigten Niederlanden</rs> hiesigen herrn <rs
+                    type="person" ref="#mpr14842">bottschaffter</rs> das mitgegebene ksl. portrait
+                sambt denen zweytausent cremnizer ducaten behändiget zu haben. Welches doch bald
+                nach meiner ankunfft abgelegt und er, herr <rs type="person" ref="#mpr14842"
+                    >bottschaffter</rs>, seine allerunterthänigste erkenntlichkeit darfür vor mir
+                bezaiget hat. <pb n="99v" facs="#IMG6"/><metamark place="margin"
+                    >1.</metamark><note>Die <ref target="/o:vipa.l.hbg.17200121.b1">Beilage</ref>
+                    ist erhalten.</note> Die expeditiones, welche vor den fiumer negotianten <rs
+                    type="person" ref="#mpr15620">Orlando</rs>; wie auch wegen loßlassung des zu
+                    <metamark place="margin">2.</metamark><note>Die <ref
+                        target="/o:vipa.l.hbg.17200121.b2">Beilage</ref> ist erhalten.</note><rs
+                    type="place" ref="#mpr15461">Bihaz</rs> gefangenen edelmann <rs type="person"
+                    ref="#mpr15669">Jellachich</rs>; und dan ein besonderes commandement an
+                    <metamark place="margin">3.</metamark><note>Die <ref
+                        target="/o:vipa.l.hbg.17200121.b3">Beilage</ref> ist erhalten.</note> den
+                bassa von <rs type="place" ref="#mpr14247">Bosnien</rs> die particular gefangene umb
+                ein leydentliches losgelt heraus zu geben, schlüesse gehorsambst und in translato
+                hiebey. Und lege gleichfahls den türckichen befehl an den commendanten zu <rs
+                    type="place" ref="#mpr15461">Bihaz</rs> wegen ersagten <rs type="person"
+                    ref="#mpr15669">Jellachich</rs> und seiner abfolglassung, dan nicht weniger das
+                an den bassa von <rs type="place" ref="#mpr14247">Bosnien</rs> wegen der anderen <pb
+                    n="111r" facs="#IMG7"/>gefangenen zu gnädig- und beliebiger überschickung
+                originaliter an. Es wird aber vonnothen seyn, daß der <rs type="person"
+                    ref="#mpr15620">Orlando</rs> zeitlich jemanden in diser sach allhier committire,
+                welcher vollkombene information und vollmacht von ihm habe, umb sye mit denen anhero
+                berueffenen reisen ohne aufenthalt abhandlen zu können.</p>
+            <p>Sonsten aber ersehen euer durchleuchtigste excellenzien und meine hochgeehrtiste
+                herren aus <metamark place="margin">4.</metamark><note>Die <ref
+                        target="/o:vipa.l.hbg.17200121.b4">Beilage</ref> ist erhalten.</note> einer
+                andern anlaag, was von der Pforten wegen gewisser außgeraubten janizaren und anderer
+                leuth von der aus <rs type="place" ref="#mpr9425">Belgrad</rs> leztens <pb n="111v"
+                    facs="#IMG8"/>ausgezochenen türckischen besazung an mich communicirt und
+                deßwegen justiz begehret worden.</p>
+            <p><metamark place="margin">[</metamark>Die pestilentische kranckheiten haben Gottlob so
+                wohl zu <rs type="place" ref="#mpr14055">Constantinopl</rs>, <rs type="place"
+                    ref="#mpr14828">Galata</rs> und <rs type="place" ref="#mpr10447">Pera</rs>, alß
+                auch unterweegs gegen <rs type="place" ref="#mpr14602">Nissa</rs> hin, wie mann
+                vernehmet, dergestalten aufgehöret, daß von disem übl nichts mehr <metamark
+                    place="margin">]</metamark>zu hören <metamark>]</metamark>und zu hoffen, in
+                meinem ruckweeg davon frey durchzukomben, weillen mann ohne deme campiren zu können
+                sehen wird. <pb n="124r" facs="#IMG9"/>Lezlichen schlüesse auch zu mehrerer
+                verläßlichkeit die unter den <date when="1720-01-03">3. dises</date> abgeschickte
+                    <metamark place="margin">5.</metamark><note>Die <ref
+                        target="/o:vipa.l.hbg.17200121.b5">Beilage</ref> ist erhalten.</note>
+                gehorsambst- und schuldige relation sub duplicato hie an. und mich hiemit
+                gehorsambst und dienstschuldigst empfehlend verharre.</p>
+            <closer>
+                <salute>Euer durchleuchtigste excellenzien und meiner hochgeehrtisten
+                    herren</salute>
+                <signed>gehorsambster und dienst-schuldigster diener<rs ana="MPRautomatched"
+                        ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs type="place" ref="#mpr10447">Pera</rs> bey <rs type="place" ref="#mpr14055"
+                        >Constantinopl</rs>
+                </address>
+                <dateline>den <date when="1720-01-21">21. Januarii 1720</date></dateline>
+            </closer>
+
+
+
+            <pb n="124v" facs="#IMG10"/>
+            <metamark>Accusirt <rs type="place" ref="#mpr13416">Wienn</rs> den <date
+                    when="1720-03-12">12. Martii 1720.</date></metamark>
+            <metamark>Facto.</metamark>
+            <metamark>Fiat extractus a signo [ usque ] pro cancellaria Austriaca.</metamark>
+
+        </body>
+    </text>
+</TEI>

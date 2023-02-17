@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 2</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">
+                    <forename>Halit</forename>                         <surname>Temiz</surname>
+                </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>
+                    <persName key="#ht">                         <forename>Halit</forename>
+                        <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15670430</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖstA, HHStA, Wien</institution>
+                        <collection>Türkische Urkunden</collection>
+                        <idno type="regest_petritsch" n="530"/>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Ṭuġra gold</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen
+                    Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1567-04-21" notAfter="1567-04-30" calendar="#hijri">974 Şevvāl 11-20 </date> 
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15670321">Urkunde 1</ref>
+                <ref type="next" target="o:sema.rc.osm.15680209">Urkunde 3</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract> <p>Urkunde 2: Geschrieben zwischen dem 21. und 30.4.
+                1567 in <rs type="place" ref="#mpr14055">Konstantinopel.</rs> Selīm antwortet auf ein Schreiben
+                Maximilians, worin er die bevorstehende Abreise seiner Botschafter
+                bekanntgegeben hat. <rs type="person" ref="#mpr14221">Johann Sigismund Zápolya</rs>
+                und den Statthaltern von <rs type="place" ref="#mpr7448">Buda</rs>
+                und <rs type="place" ref="#mpr14059">Temesvár</rs> wurde befohlen, den Waffenstillstand einzuhalten.</p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Nāme</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>
+                    
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 2: Selim II. an Maximilian II., Konstantinopel, zwischen 21.4. und 30.4.1567, bearb. von Halit Temiz;
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz,
+                    in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz
+                    (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader><facsimile>
+            <surface start="#IMG.2">
+                <graphic url="02_530.jpg" xml:id="IMG.2"/>
+                
+            </surface>
+            
+        </facsimile><text type="record">
+        
+        <body>
+            
+                <div n="2">
+                    <div type="transcription" xml:lang="ota">
+                        <pb facs="#IMG.2" n="2"/> 
+                        
+                    <ab type="invocatio">hüve</ab>
+                    
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm II.</rs> 
+                        Şāh bin <rs type="person" ref="#mpr11015">Süleymān</rs> Şāh Ḫān el-muẓaffer dā’imā</ab>                               
+                    <ab type="inscriptio"><lb n="1"/>İftiḫāru l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtāru l-küberā’i
+                            l-fiḫāmi fī l-milleti l-mesīḥīye muṣliḥu maṣāliḥi cemāhīri ṭ-ṭāyifeti
+                            n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti ve-l-vaḳār ṣāḥibü delāyili l-mecdi
+                            ve-l-iftiḫār Rīm ḫalḳınuñ imperādorı <rs type="place" ref="#mpr7023">Nemçe</rs>
+                        ḳırālı <rs type="person" ref="#mpr14157">Maḳsimilyānoz</rs></ab>
+                             <ab type="salutatio">ḫutimet ʿavāḳibühū bi-l-ḫayr</ab>                        
+                            <ab type="notificatio"><lb n="2"/> tevḳīʿ-i refīʿ-i hümāyūn vāṣıl olıcaḳ maʿlūm ola ki</ab> <ab type="narratio">ḥālīyen
+                            āsitāne-i devlet-āşiyānümüz ki melāẕ-i selāṭīn-i ʿiẓ ām ve melce’-i
+                            ḫavāḳīn-i kirāmd<supplied resp="ht">ur</supplied> ėlçiñüz elinden mektūb-i muḫālaṣat-üslūbuñuz vārid
+                            olub bundan aḳdem ʿatebe-i ʿulyāmuz ṭarafına ėlçi göndermek
+                            <lb n="3"/>murād oldugı iʿlām olunduḳda icāzet-i hümāyūnumuz vėrildügine
+                            temām sürūr u ḥubūr ḥaṣıl olub āsitāne-i ʿadālet-ʿunvānumuzdan reʿāyā vü
+                            berāyā ḥaḳḳında şefḳat u merḥamet ẓ uhūr ėdüb ve yüce āsitānemüzden
+                            murād olunacaḳ ṣulḥ u ṣalāḥa rıżā’-yi
+                            <lb n="4"/> şerīfümüz olacaġı fehm olunub ol-bābda āsitān-i
+                            gerdūn-vaḳārumuz cānibine pīşkeş ile yarar ėlçi göndermek tedārükinde
+                            olduguñuz ve ġavġādan el çekmek içün serḥadd begleriñüze tenbīh olundugı
+                            iʿlām olunub andan ġayrı daḫı nāme-i muṣādaḳat-
+                            <lb n="5"/> maṣḥūbuñuzda her ne derc olunmış ise ʿalā vechi t-tafṣīl pāye-i serīr-i
+                        ʿālem-maṣīr-i ḫusrevānemüze ʿarż olunub ʿilm-i şerīf-i ʿālem-şümūl-i ḫıdīvānemüz muḥīṭ ü
+                        şāmil olmışdur</ab> <ab type="manifestatio">imdi ḫavāḳīn-i ʿālī-miḳdāruñ recā’ ü iltimāsları ḥayyiz-i ḳabūlde vāḳiʿ olmaḳ ʿādet-i ḳadīme-i 
+                            <lb n="6"/>ḫānedān-ı ʿadālet-bünyānumuz olmaġın ol-bābda işʿār ü iẓhār olunan muṣāfāt
+                        ü müvālātuñuz mevḳiʿ-i ḳabūlde vāḳiʿ olub</ab> <ab type="dispositio">südde-i seʿādetümüzden daḫı Yānoş
+                        <rs type="person" ref="#mpr14221">Zápolya</rs>
+                        ḳırāl oġlına <rs type="place" ref="#mpr7448">Budūn</rs>
+                        <rs type="place" ref="#mpr14059">Temesvár</rs> beglerbegileri
+                        ḳullaruma aḥkām-i şerīfe gönderilüb mā dām-ki ol cānibden 
+                            <lb n="7"/>ḥareket olmaya berü cānibden ėlçi gelüb cevāb vėrince min baʿd ol cānibe daḫl
+                        u tecāvüz ėtmeyeler dėyü tenbīh ü te’kīd olunmışdur in şā’a llāhu l-aʿazz ėlçiñüz gelüb vuṣūl
+                        bulduḳda şol-ki müvāfıḳ-i dīn ü devlet ve bāʿis̠-i refāhīyet ve iṭmīnān-i raʿīyet 
+                        <lb n="8"/>ve muḳteżā-yi dostlıḳdur ẓuhūra gelüb muḥaṣṣılu l-āmāl mürācaʿat ėtdürilür</ab>
+                        <ab type="datatio"><date calendar="#hijri" notBefore="1567-04-21" notAfter="1567-04-30">taḥrīren fī evāsiṭi
+                            şehri Şevvāli l-mükerrem senete erbaʿa ve-sebʿīn ve-tisʿa mi’e</date></ab>
+                         <ab type="locus">bi-maḳāmi <rs type="place" ref="#mpr14055">Ḳosṭanṭinīye</rs> el-maḥmīye</ab>                    
+                    </div><div type="translation" xml:lang="de">
+                        <pb facs="#IMG.2" n="2"/> 
+                        
+                        <ab type="invocatio">Er</ab>
+                        <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs> 
+                        Şāh, Sohn <rs type="person" ref="#mpr11015">Süleymāns</rs></ab>
+                   
+                        <ab type="inscriptio">Ruhmvoller der mächtigen christlichen Fürsten,
+                            Erwählter der geehrten Großen in der christlichen Glaubensgemeinschaft,
+                            Ordner der Angelegenheiten der christlichen Staaten, Träger der Schleppe
+                            von Ruhm und Würde, Inhaber der Zeichen der Majestät und der Ehre,
+                            Imperator des römischen Volkes, Kaiser von <rs type="place" ref="#mpr7023">Österreich</rs>
+                            <rs type="person" ref="#mpr14157">Maximilian</rs>,</ab>
+                        <ab type="salutatio">sein Leben möge im Guten enden.</ab>
+                            <ab type="notificatio">Sobald das erhabene großherrliche Schreiben einlangt, möge bekannt werden:</ab>
+                     <ab type="narratio">Nun ist an unsere glückliche Pforte, die das Asyl der mächtigen Sultane
+                        und der Zufluchtsort der geehrten Ḫākāne ist, durch Euren Gesandten Euer aufrichtiger Brief eingelangt.
+                    Als zuvor der Wunsch bekanntgegeben wurde, einen
+                            Gesandten an unsere erhabene Pforte zu schicken, ist <supplied resp="ht">bei Euch</supplied> volle
+                            Freude und Fröhlichkeit aufgekommen, dass unsere erhabene Billigung
+                            gewährt wurde. Von unserer gerechten Schwelle ist, was die Untertanen
+                            angeht Güte und Gnade in Erscheinung getreten.
+                     Es wurde <supplied resp="ht">von Euch</supplied> erkannt, dass für Friede und Eintracht,
+                        die von unserer hohen Pforte gewünscht wird, unsere erhabene Zustimmung gewährt wird.
+                        Es wurde bekanntgegeben, dass Ihr in jener Sache in Vorbereitung seid, an unsere
+                        schicksalshaft würdige, hohe Pforte, einen geeigneten Gesandten mit Geschenk zu
+                        entsenden und, dass Euren Grenzfürsten kundgetan wurde, dass sie vom Kampf abgelassen
+                        mögen. 
+                    Was darüber hinaus noch in Eurem
+                            freundschaftlichen Brief aufgeschrieben wurde, ist in allen Einzelheiten
+                            dem Fuße unseres ḫosrowischen Thrones, dem Zufluchtsort der Welt
+                            unterbreitet und von unserem erhabenen, weltumfassenden ḫidivischen
+                            Wissen erfasst und aufgenommen worden.</ab>
+                            <ab type="manifestatio">Nun, da es ein alter Brauch unserer gerechten
+                            Dynastie ist, dass die Erwartungen und Bitten der hochgeehrten Ḫāḳāne
+                            angenommen werden, ist die von Euch bekanntgegebene und dargelegte,
+                            aufrichtige Freundschaft angenommen worden.</ab> <ab type="dispositio">Von unserer glücklichen
+                            Pforte wurden an den Sohn des Königs Johann<supplied resp="ht">Sigismund<rs type="person" ref="#mpr14221">
+                                Zápolya</rs></supplied> und an meine Diener, die Beglerbege von
+                                <rs type="place" ref="#mpr7448">Buda</rs>
+                                und <rs type="place" ref="#mpr14059">Temesvár</rs>
+                                erhabene Befehle geschickt und ihnen mit allem Nachdruck mitgeteilt, dass von nun an,
+                                solange von Eurer Seite nicht gehandelt wird, von unserer Seite auch, 
+                                bis der Gesandte gekommen ist und geantwortet hat,
+                                auf die andere Seite keine Einmischung und Übertretung erfolgt.
+                        Sobald, so Gott der Erhabene es will, Euer Gesandter kommt und anlangt
+                        wird das gezeigt, was der Religion und dem Reich angemessen, die Ursache der
+                        Ruhe und Sicherheit der Untertanen und für die Freundschaft erforderlich ist,
+                        und man wendet sich an den, der die Hoffnungen erfüllt (=Gott).</ab>                            
+                            
+                        <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1567-04-21" notAfter="1567-04-30">mittleren Dekade des Monats
+                            Şevvāl, des Geehrten, des Jahres 974 (21.–30. April 1567),</date></ab> <ab type="locus">in der Residenz, dem wohlbehüteten
+                            <rs type="place" ref="#mpr14055">Konstantinopel</rs>.</ab>    
+                
+                </div>
+                </div>
+
+        </body>
+    </text></TEI>

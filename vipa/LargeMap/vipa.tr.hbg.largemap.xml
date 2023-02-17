@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Carte der grossen Haupt-Straassen von IAGODIN bis CONSTANTINOPEL</title>
+                <title xml:lang="en">Map of the main roads from Jagodin to Constantinople</title>
+                <author><persName>Otto Friedrich von Öbschelwitz</persName></author>
+                <respStmt>
+                    <resp>fecit</resp>
+                    <persName>C.L.W.v.N.</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> Creative Commons BY 4.0 </licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.tr.hbg.map</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="http://gams.uni-graz.at/context:qhod">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA</institution>
+                        <collection></collection>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.tr" type="context"> Reiseberichte </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Otto Friedrich von Öbschelwitz: Carte der grossen Haupt-Straassen von IAGODIN bis CONSTANTINOPEL, bearb. von Stephan Kurz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz; in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="Carte-Der-grossen-Hauptstrassen-von-Jagodin-bis-Constantinopel.jpg" xml:id="IMG1"/>
+            <zone ulx="132" uly="1079" lrx="286" lry="1115">Jagodina</zone>
+            <zone ulx="450" uly="1205" lrx="485" lry="1221">Paraćin</zone>
+            <zone ulx="578" uly="1468" lrx="593" lry="1481">8</zone>
+        </surface>
+    </facsimile>
+    <text type="legend">
+        <body>
+            <pb facs="#IMG1" n="1r"/>
+            <div>
+                <head>
+                    <lb/>Carte der grossen Haupt-Straassen von IAGODIN bis CONSTANTINOPEL
+                </head>
+                    <p>
+                        <lb/>so gut man solche <choice><abbr>a.o</abbr><expan>anno</expan></choice> <date>1719</date> und <date>1720</date> auf der Hin- und Her-Reise, be dem Röm. Kayserl. Groß-Botschaffter
+                        <lb/>Grafen von Virmont Excell. mit dem Poussel und Uhr. verborgener Weise, ins große aufnehmen kön<lb break="no"/>nen, von welchen hernach diese neunmahl kleiner reduciret, auf welcher dann alle Städte und 
+                        <lb/>Dörffer, auch alle große und kleine Bäche, mit deren Brücken, so weit man zu beyden Seiten
+                        <lb/>sehen, und im March seitwärts reiten können, angedeutet, ingleichen angewiesen, wohin die
+                        <lb/>Haupt-Straasen recht- und lincker Hand abgehen, wie auch sowohl die Wälder, als Haupt-
+                        <lb/>und eintzelne Gebürge nebst Feld-Höhen, und darinnen befindlichen Pässen angezeiget, die Flüs<lb break="no"/>se, soweit solche navigabel, gedoppelt gezeichnet, wie denn auch die darzu gehörige Relation
+                        <lb/>weitläufftigere Meldung thut. 
+                    </p>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von Jagodin bis Nissa.</head>
+                <list>
+                    <item n="1"><rs type="place" ref="#mpr14922">Morava Pallancka</rs>.</item>
+                    <item n="2">Jahowatz.</item>
+                    <item n="3">Barragin allwo eine Pallank</item>
+                    <item n="4">Eine Karaule.</item>
+                    <item n="5">Pillibrig. Wüste.</item>
+                    <item n="6">Rudoschewatz Wüste.</item>
+                    <item n="7">Ludschino Wüste.</item>
+                    <item n="8">Dorff Stolatz.</item>
+                    <item n="9">Warworin Wüste.</item>
+                    <item n="10">Maskar Wüste.</item>
+                    <item n="11">Schloss Stolatz.</item>
+                    <item n="12"><rs type="place" ref="#mpr14612">Raschanie Pallanka</rs></item>
+                    <item n="13">Eine Karaula.</item>
+                    <item n="14"><rs type="place" ref="#mpr1532">Alexinitze Pallanka</rs></item>
+                    <cb/>
+                    <item n="15"> </item>
+                    <item n="16">Eine Karaule.</item>
+                    <item n="17">Boschwitz.</item>
+                    <item n="18">Eine Karaule.</item>
+                    <item n="19">Palin</item>
+                    <item n="20">Trenowatz.</item>
+                    <item n="21">Setezanitz.</item>
+                    <item n="22">Lalins.</item>
+                    <item n="23">Czokotz.</item>
+                    <item n="24">Kommern.</item>
+                    <item n="25">Schloss Courvingrad</item>
+                    <item n="26">Brewnitz.</item>
+                    <item n="27">Hommern.</item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von Nissa bis <rs type="place" ref="#mpr10977">Sophia</rs>.</head>
+                <list>
+                    <item n="1">Breseingno.</item>
+                    <item n="2">Malitsch.</item>
+                    <item n="3">Knieseko.</item>
+                    <item n="4">Boschiatsch.</item>
+                    <item n="5">Ratickna Bara.</item>
+                    <item n="6"><rs type="place" ref="#mpr14924">Kuritniack</rs>.</item>
+                    <item n="7">Warmes Baad.</item>
+                    <item n="8">Dewnianitze.</item>
+                    <item n="9">Ostrowitz Gornia.</item>
+                    <item n="10">Eine Karaula.</item>
+                    <item n="11">Macklischte.</item>
+                    <item n="12">Pauvtitz</item>
+                    <item n="13">Gradischde.</item>
+                    <item n="14"> </item>
+                    <item n="15">Leschnitz.</item>
+                    <item n="16"> </item>
+                    <item n="17">Pokurowze.</item>
+                    <cb/>
+                    <item n="18"><rs type="place" ref="#mpr14600">Mussa Bascha Pallank</rs>.</item>
+                    <item n="19">Mokra, wobey ein Kloster.</item>
+                    <item n="20">Diblian.</item>
+                    <item n="21"><rs type="place" ref="#mpr14924">Koritznitze</rs>.</item>
+                    <item n="22"> </item>
+                    <item n="23"> </item>
+                    <item n="24">Slibnick.</item>
+                    <item n="25">Stresowatz</item>
+                    <item n="26">Kuraczeschma.</item>
+                    <item n="27">Klissura.</item>
+                    <item n="28">Kelnia.</item>
+                    <item n="29">Eine Karaula.</item>
+                    <item n="30">Kostar.</item>
+                    <item n="31"><rs type="place" ref="#mpr14926">Plato</rs>.</item>
+                    <item n="32">Stotol.</item>
+                    <item n="33">Raschnitz</item>
+                    <item n="34">Suhatoll.</item>
+                    <cb/>
+                    <item n="35">Schloss u. Flecken Sardkier.</item>
+                    <item n="36"> </item>
+                    <item n="37"><rs type="place" ref="#mpr14598">Pirodt</rs>.</item>
+                    <item n="38"></item>
+                    <item n="39"></item>
+                    <item n="40">Sakowa.</item>
+                    <item n="41">Kloster Bokeslo.</item>
+                    <item n="42">Gellpottin.</item>
+                    <item n="43">Zaribrodt neue Pallancka.</item>
+                    <item n="44"></item>
+                    <item n="45">Tragaul.</item>
+                    <item n="46">Bresnick</item>
+                    <item n="47">Sribritz</item>
+                    <item n="48">Tragoman.</item>
+                    <item n="49"><rs type="place" ref="#mpr14594">Slibnick</rs>.</item>
+                    <item n="50">Schirowa.</item>
+                    <cb/>
+                    <item n="51">Prolesche.</item>
+                    <item n="52">Potjowzii.</item>
+                    <item n="53"></item>
+                    <item n="54">Berden.</item>
+                    <item n="55">Petritz</item>
+                    <item n="56">Dowroslawzi.</item>
+                    <item n="57">Mranor.</item>
+                    <item n="58">Mirobiani.</item>
+                    <item n="59">Wollujeck</item>
+                    <item n="60">Copernize</item>
+                    <item n="61"><rs type="place" ref="#mpr14935">Obello</rs>.</item>
+                    <item n="62"><rs type="place" ref="#mpr14936">Werbnitz</rs>.</item>
+                    <item n="63">Ilians.</item>
+                    <item n="64">Kleder.</item>
+                    <item n="65">Ocariwanie.</item>
+                    <item n="66">Obrazowze.</item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von <rs type="place" ref="#mpr10977">Sophia</rs> bis Passarczick.</head>
+                <list>
+                    <item n="1">Bottune.</item>
+                    <item n="2">Slatin.</item>
+                    <item n="3"></item>
+                    <item n="4"></item>
+                    <item n="5">Primirze.</item>
+                    <item n="6"></item>
+                    <item n="7">Meczitto.</item>
+                    <item n="8">Pragane.</item>
+                    <item n="9">Tragolewzi.</item>
+                    <item n="10">Trebnitze.</item>
+                    <item n="11">Cziftlick oder Mayer-Hof.</item>
+                    <item n="12">Grublian, Haan.</item>
+                    <item n="13">Garmanitz.</item>
+                    <item n="14">Pistritz.</item>
+                    <item n="15">Czarteklie.</item>
+                    <item n="16">Losanie.</item>
+                    <item n="17">Busmanze. u. Eisenhammer</item>
+                    <item n="18">Kasitczani.</item>
+                    <item n="19">Samekart.</item>
+                    <cb/>
+                    <item n="20">Kriwina.</item>
+                    <item n="21">Bourow.</item>
+                    <item n="22">Bareywo.</item>
+                    <item n="23">Gliguribo.</item>
+                    <item n="24"></item>
+                    <item n="25"></item>
+                    <item n="26">Massacziewo.</item>
+                    <item n="27">Novoselze.</item>
+                    <item n="28">Sekarliewo.</item>
+                    <item n="29"></item>
+                    <item n="30">Malin.</item>
+                    <item n="31">Jeni oder Novi/Haan</item>
+                    <item n="32">Ormanlie.</item>
+                    <item n="33">Doganiwo.</item>
+                    <item n="34"></item>
+                    <item n="35"></item>
+                    <item n="36"></item>
+                    <item n="37"></item>
+                    <item n="38">Wockerel.</item>
+                    <cb/>
+                    <item n="39"></item>
+                    <item n="40">Sariczin.</item>
+                    <item n="41">Amgas.</item>
+                    <item n="42"></item>
+                    <item n="43">Ablikoy.</item>
+                    <item n="44">Gocziewo.</item>
+                    <item n="45">Saraslia.</item>
+                    <item n="46">Kralna<gap/></item>
+                    <item n="47">Tatczilla<gap></gap></item>
+                    <item n="48">Kabijaboli.</item>
+                    <item n="49">Ichteman, Haan.</item>
+                    <item n="50">Wosulitz.</item>
+                    <item n="51">Porte Trajani.</item>
+                    <item n="52">Jarwtzi.</item>
+                    <item n="53">Otczuschka.</item>
+                    <item n="54">Banga, Flecken u. Baad.</item>
+                    <item n="55">Michala.</item>
+                    <item n="56">Rodoil.</item>
+                    <item n="57">Kostanitz</item>
+                    <cb/>
+                    <item n="58">Hisarzig, Pallancka, wobey zwey Karaulen.</item>
+                    <item n="59">Novoselle.</item>
+                    <item n="60">Jabrowitze.</item>
+                    <item n="61">Kissderwend.</item>
+                    <item n="62"></item>
+                    <item n="63">Saram-Beick.</item>
+                    <item n="64">Essikaschli.</item>
+                    <item n="65">Elliderre oder Noviselle.</item>
+                    <item n="66">Kesse Moradewo.</item>
+                    <item n="67">Kawaczi, oder Demircziller.</item>
+                    <item n="68">Czangerli.</item>
+                    <item n="69">Kuschczelar.</item>
+                    <item n="70"></item>
+                    <item n="71"></item>
+                    <item n="72"></item>
+                    <item n="73"></item>
+                    <item n="74"></item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von Passarczick bis <rs type="place" ref="#mpr9442">Philippopel</rs>.</head>
+                <list>
+                    <item n="1">Misselin.</item>
+                    <item n="2">Simtowa.</item>
+                    <item n="3">Salatinova</item>
+                    <item n="4">Duganowa.</item>
+                    <item n="5">Aschiewo oder Hodoziewo.</item>
+                    <item n="6">Kuatarri.</item>
+                    <item n="7">Adakoy.</item>
+                    <item n="8"></item>
+                    <item n="9">Koschenkale.</item>
+                    <item n="10">Birva.</item>
+                    <item n="11">Pinitze.</item>
+                    <item n="12"></item>
+                    <item n="13"></item>
+                    <item n="14"></item>
+                    <item n="15"></item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von <rs type="place" ref="#mpr9442">Philippopel</rs> bis Adrianopel.</head>
+                <list>
+                    <item n="1"></item>
+                    <item n="2"></item>
+                    <item n="3"></item>
+                    <item n="4"></item>
+                    <item n="5"></item>
+                    <item n="6">Baschine male.</item>
+                    <item n="7">Kunari.</item>
+                    <item n="8"></item>
+                    <item n="9">Landos.</item>
+                    <item n="10">Rogosch.</item>
+                    <item n="11"></item>
+                    <item n="12">Stadt Stannimock.</item>
+                    <item n="13">Kloster Stannimock.</item>
+                    <item n="14">Czeschnatiniwo.</item>
+                    <item n="15">Krischkoy.</item>
+                    <item n="16">Novisillo.</item>
+                    <item n="17">Dogaczie.</item>
+                    <item n="18">Papasli wobey eine Reis-Mühle.</item>
+                    <item n="19">Jehale.</item>
+                    <item n="20">Amato.</item>
+                    <cb/>
+                    <item n="21">Hodschino.</item>
+                    <item n="22">Sadi Beiko.</item>
+                    <item n="23">Bahade.</item>
+                    <item n="24">Niderwen oder Novimahale.</item>
+                    <item n="25">Kagali.</item>
+                    <item n="26">Asfarter, gewesene Stadt.</item>
+                    <item n="27">Zittädsch.</item>
+                    <item n="28">Kuruczeschma.</item>
+                    <item n="29">Ksanack.</item>
+                    <item n="30">Semischeze.</item>
+                    <item n="31">Ussunschewa Hayn u. Flecken.</item>
+                    <item n="32">Owaczick.</item>
+                    <item n="33">Hermanli, Hayn.</item>
+                    <item n="34">Czeschmakoy.</item>
+                    <item n="35">Assarlo Gornia.</item>
+                    <item n="36">Assarlo Donia.</item>
+                    <item n="37">Jeniczeli.</item>
+                    <item n="38">Hepipcze.</item>
+                    <item n="39">Venenie.</item>
+                    <item n="40"></item>
+                    <cb/>
+                    <item n="41">Mustapha Pascha Tzupri.</item>
+                    <item n="42">Schermeng.</item>
+                    <item n="43">Carraba.</item>
+                    <item n="44">Carragatsch.</item>
+                    <item n="45">Saschschakoy.</item>
+                    <item n="46">Catikoy.</item>
+                    <item n="47"></item>
+                    <item n="48">Ackczibrim, Tekie Haan.</item>
+                    <item n="49"></item>
+                    <item n="50">Kurschälli.</item>
+                    <item n="51">Koy Malewo.</item>
+                    <item n="52">Eckmeckozikoy.</item>
+                    <item n="53">Catikoy.</item>
+                    <item n="54">Marasch.</item>
+                    <item n="55">Czereky.</item>
+                    <item n="56"></item>
+                    <item n="57">Karradadsch.</item>
+                    <item n="58">Demir Tasch. Quart. Kön. in Schwed.</item>
+                    <item n="59">Posnakoy</item>
+                    <item n="60">Joirischkoy.</item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von Adrianopel bis <rs type="place" ref="#mpr14990">Silivrea</rs>.</head>
+                <list>
+                    <item n="1"></item>
+                    <item n="2">Burnu Pamplucki.</item>
+                    <item n="3"></item>
+                    <item n="4">Sckenderkoy.</item>
+                    <item n="5">Karrabaier.</item>
+                    <item n="6">Karrabaier.</item>
+                    <item n="7"></item>
+                    <item n="8"></item>
+                    <item n="9"></item>
+                    <item n="10">Haschkoy.</item>
+                    <item n="11">Habsa, Flecken u. Haan.</item>
+                    <item n="12"></item>
+                    <item n="13">Kufalsch.</item>
+                    <item n="14">Scharrable.</item>
+                    <item n="15">Tgollimar.</item>
+                    <item n="16">Czauscha.</item>
+                    <item n="17">Hasnadar.</item>
+                    <item n="18">Kulelli.</item>
+                    <item n="19">Jeni Ackenczille.</item>
+                    <cb/>
+                    <item n="20">Minarellikoy.</item>
+                    <item n="21">Minarellikoy Gornia.</item>
+                    <item n="22">Kulelli Gornia.</item>
+                    <item n="23">Katikoy.</item>
+                    <item n="24">Karmasi.</item>
+                    <item n="25">Babeyischki Flecken u. Haan.</item>
+                    <item n="26">Naderli.</item>
+                    <item n="27">Tirle.</item>
+                    <item n="28">Allebli.</item>
+                    <item n="29">Dugunschilli.</item>
+                    <item n="30"></item>
+                    <item n="31">Saali.</item>
+                    <item n="32"></item>
+                    <item n="33">Sarmusackli.</item>
+                    <item n="34">Saricza.</item>
+                    <item n="35">Jenikoy.</item>
+                    <item n="36">Eywali.</item>
+                    <item n="37">Serczalli.</item>
+                    <item n="38">Krikollu.</item>
+                    <cb/>
+                    <item n="39">Tartarkoy.</item>
+                    <item n="40"></item>
+                    <item n="41">Evreni.</item>
+                    <item n="42"></item>
+                    <item n="43">Stadt Burgus.</item>
+                    <item n="44">Muchdar.</item>
+                    <item n="45"></item>
+                    <item n="46"></item>
+                    <item n="47"></item>
+                    <item n="48">Musselin.</item>
+                    <item n="49">Bedir.</item>
+                    <item n="50">Kaybeli.</item>
+                    <item n="51">Seyid.</item>
+                    <item n="52">Umurze.</item>
+                    <item n="53">Trutbi.</item>
+                    <item n="54">Czadar Cziftlick.</item>
+                    <item n="55">Frensi</item>
+                    <item n="56"></item>
+                    <item n="57"></item>
+                    <cb/>
+                    <item n="58"></item>
+                    <item n="59"></item>
+                    <item n="60">Cziftlickkoy.</item>
+                    <item n="61">Stadt Karistran.</item>
+                    <item n="62"></item>
+                    <item n="63"></item>
+                    <item n="64">Missinli, ist sehr gross.</item>
+                    <item n="65">Enosi.</item>
+                    <item n="66">Avlanbeick Cziftlick.</item>
+                    <item n="67">Krassinit Cziftlick.</item>
+                    <item n="68"></item>
+                    <item n="69"></item>
+                    <item n="70"></item>
+                    <item n="71"></item>
+                    <item n="72">Stadt Czorlu.</item>
+                    <item n="73"></item>
+                    <item n="74"></item>
+                    <item n="75"></item>
+                    <cb/>
+                    <item n="76"></item>
+                    <item n="77">Jauwuckli.</item>
+                    <item n="78">Semenli.</item>
+                    <item n="79">Umurze.</item>
+                    <item n="80">Jeni Arakli.</item>
+                    <item n="81">Alt Araklie</item>
+                    <item n="82">Kunickli.</item>
+                    <item n="83">Mühle.</item>
+                    <item n="84">Arrable.</item>
+                    <item n="85"></item>
+                    <item n="86">Karakoy.</item>
+                    <item n="87">Tczantkoy.</item>
+                    <item n="88">Ballabangli.</item>
+                    <item n="89">Jabaczick Cziftlick.</item>
+                    <item n="90">Mühle.</item>
+                    <item n="91">Papsli.</item>
+                    <item n="92">Kuladeri.</item>
+                    <item n="93"></item>
+                    <item n="94">Fenner.</item>
+                    <item n="95">Jabuckle.</item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter von <rs type="place" ref="#mpr14990">Silivrea</rs> bis Constantinopel und Schwartzen Canal.</head>
+                <list>
+                    <item n="1">Harratschle.</item>
+                    <item n="2"></item>
+                    <item n="3">Jabeczick</item>
+                    <item n="4">Kara Mechmet Cziftlick.</item>
+                    <item n="5">Cziftlick.</item>
+                    <item n="6">Fettekoy.</item>
+                    <item n="7">Surgun.</item>
+                    <item n="8">Bivatos, Flecken.</item>
+                    <item n="9">Sasteros.</item>
+                    <item n="10">Gallos.</item>
+                    <item n="11">Gombergas.</item>
+                    <item n="12"></item>
+                    <item n="13">Cellebi &amp; Bilaga.</item>
+                    <item n="14">Bokluczekoy.</item>
+                    <item n="15">Kaleygradgi.</item>
+                    <item n="16">Papaschkoy.</item>
+                    <item n="17">Bachczegisch.</item>
+                    <item n="18"></item>
+                    <item n="19"><rs type="place" ref="#mpr14994">Bojuckczeckmecze, od. Ponte Grand</rs>.</item>
+                    <item n="20">Czackmakli.</item>
+                    <cb/>
+                    <item n="21">Tarkivium.</item>
+                    <item n="22">Sirkoy.</item>
+                    <item n="23">Eskücze.</item>
+                    <item n="24"><unclear reason="illegible">Sulta</unclear> Kislacze.</item>
+                    <item n="25">Annachia Cziftlick.</item>
+                    <item n="26">Bosnakoy.</item>
+                    <item n="27">Hambarle.</item>
+                    <item n="28"><unclear reason="illegible">Fran</unclear>kaczia.</item>
+                    <item n="29">Angustia.</item>
+                    <item n="30"></item>
+                    <item n="31">Haramidere.</item>
+                    <item n="32">Daschagir.</item>
+                    <item n="33">Haramidere Kiczick.</item>
+                    <item n="34">Uxanos.</item>
+                    <item n="35"></item>
+                    <item n="36"></item>
+                    <item n="37"></item>
+                    <item n="38"><rs type="place" ref="#mpr14573">Kiczick Czeckmecze <choice><abbr>P.</abbr><expan>Ponte</expan></choice> Picklo</rs>.</item>
+                    <item n="39">Seralie.</item>
+                    <item n="40">Alkali.</item>
+                    <cb/>
+                    <item n="41"></item>
+                    <item n="42">Tatlinar.</item>
+                    <item n="43"></item>
+                    <item n="44"></item>
+                    <item n="45"></item>
+                    <item n="46"></item>
+                    <item n="47"></item>
+                    <item n="48">Kulelli.</item>
+                    <item n="49"></item>
+                    <item n="50">Eymama.</item>
+                    <item n="51">Tartarkoy.</item>
+                    <item n="52"></item>
+                    <item n="53">Czauscha.</item>
+                    <item n="54">Barutgane u. Demircapi, Pulvermühl</item>
+                    <item n="55">St. Stephan</item>
+                    <item n="56">Cziftlick.</item>
+                    <item n="57"><rs type="place" ref="#mpr14713">Hasnadar Cziftlick</rs></item>
+                    <item n="58">Cziftlick.</item>
+                    <item n="59">Balick Lusthaus v. Gr. Sultan</item>
+                    <item n="60"></item>
+                    <cb/>
+                    <item n="61"></item>
+                    <item n="62"></item>
+                    <item n="63"></item>
+                    <item n="64">Toppeczillar.</item>
+                    <item n="65">Cziftlick.</item>
+                    <item n="66">Vener Bachcze.</item>
+                    <item n="67">Litros Cziftlick.</item>
+                    <item n="68">Daud Bascha v. Gr. Sultan</item>
+                    <item n="69">Tabahaan, Vorstadt.</item>
+                    <item n="70">Egub, Vorstadt.</item>
+                    <item n="71">Gihathana Cziftlick.</item>
+                    <item n="72">Dorf Gihathana.</item>
+                    <item n="73">Dersana.</item>
+                    <item n="74">Caslan Bascha</item>
+                    <item n="75"><rs type="place" ref="#mpr10447">Pera, Quartier der Botschaffter</rs>.</item>
+                    <item n="76">St. Demitri.</item>
+                    <item n="77">Doppana.</item>
+                    <item n="78">Dunuckli.</item>
+                    <item n="79">Pesesdasch Lusthaus v. Gr Sult.</item>
+                    <item n="80">Ortakoy.</item>
+                    <cb/>
+                    <item n="81">Tschana Klimano.</item>
+                    <item n="82">Kurutschma.</item>
+                    <item n="83">Arnautkoy.</item>
+                    <item n="84">Kagalar.</item>
+                    <item n="85">Tartanelle Rommoli.</item>
+                    <item n="86">Baltalimani.</item>
+                    <item n="87">Emirkoy.</item>
+                    <item n="88">Cziftlick.</item>
+                    <item n="89">Isteinia.</item>
+                    <item n="90">jenikoy.</item>
+                    <item n="91">Darapia.</item>
+                    <item n="92">Kiffelkoy.</item>
+                    <item n="93">Baschtschakoy.</item>
+                    <item n="94">Belgrad, Quart. d. Gesant. zu Pest Zeit.</item>
+                    <item n="95">Bujuckderi.</item>
+                    <item n="96">Sariar.</item>
+                    <item n="97">Tartanelle.</item>
+                    <item n="98">Muromolos.</item>
+                    <item n="99">Pompey, Säule und Laterne.</item>
+                    <item n="100">Thurn, allwo Ovidius gesessen.</item>
+                </list>
+            </div>
+            <div>
+                <head>Nahmen der Oerter in Asien, Wie auch Erklärung der Buchstaben in Constantinopel.</head>
+                <list>
+                    <item n="1">Laterne oder Fener Natoli.</item>
+                    <item n="2">Tartanelle, Natoli.</item>
+                    <item n="3">Kawack, Haaven.</item>
+                    <item n="4">Eskikale oder Toka, <choice><abbr>Ser.</abbr><expan>Serail</expan></choice> v. <choice><abbr>G. S.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="5">Mühle.</item>
+                    <item n="6">Hinkiar Seralie v. <choice><abbr>Gr. Sult.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="7">Schalikoy.</item>
+                    <item n="8">Begotz.</item>
+                    <item n="9">Inscherli, <choice><abbr>Seral.</abbr><expan>Serail</expan></choice> v. <choice><abbr>Gr. Sult.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="10">Czibuckli.</item>
+                    <item n="11">Seym Bascha, <choice><abbr>Seral.</abbr><expan>Serail</expan></choice> v. <choice><abbr>G. S.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="12">Vanikoy.</item>
+                    <item n="13">Kantilsche.</item>
+                    <item n="14">Tartanelle.</item>
+                    <item n="15">Wanli.</item>
+                    <item n="16">Efendi.</item>
+                    <item n="17">Kulbachtozas Hunds Thurn v. <choice><abbr>G. S.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="18">Tschengilkoy.</item>
+                    <cb/>
+                    <item n="19">Stauros.</item>
+                    <item n="20">Bulkurlo.</item>
+                    <item n="21">Kuskunczuck.</item>
+                    <item n="22">Leander Thurn, <choice><abbr>Seral.</abbr><expan>Serail</expan></choice> v. <choice><abbr>G. Sult.</abbr><expan>Großen Sultan</expan></choice></item>
+                    <item n="23">Calcedonia.</item>
+                    <item n="24">Pharo, Fener oder Laterne.</item>
+                    <item n="25">Garten von Gross Sultan.</item>
+                </list>
+                <list>
+                    <head>Nahmen der 7 Haupt Moscheen</head>
+                    <item n="a">Sophien Kirche, sonst Grichisch, itzo Mahometan:</item>
+                    <item n="b">Moschee Sulta<supplied resp="#sk">n</supplied> Achmet.</item>
+                    <item n="c">Sultan Mechmet.</item>
+                    <item n="d">Sultan Selim.</item>
+                    <item n="e">Sultan Michreme.</item>
+                    <item n="f">Adrine Capusigamesi.</item>
+                    <item n="g">Cosa Musta Bascha.</item>
+                    <item n="h">Die Sieben Thürne.</item>
+                    <item n="i">Aquaduc, oder Wasserleitung.</item>
+                </list>
+            </div>
+            <metamark>C.L.W.v.N. fecit</metamark>
+            <metamark>Constantinopel Nro. 3</metamark>
+        </body>
+    </text>
+</TEI>

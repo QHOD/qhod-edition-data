@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Baronyvar (Branjin Vrh, Kroatien; ungarisch: Baranyavár), 4. Juli 1720</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Baronyvar (Branjin Vrh, Croatia; Hungarian: Baranyavár), July 4, 1720</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0"> 
+                        Creative Commons
+                        BY 4.0 </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17200704</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 188-1, fol. 194r-195v</idno>
+                    </msIdentifier>
+                    <physDesc> </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl> 
+            <refsDecl><p>Damian Hugo von Virmont an den Hofkriegsrat, Baronyvar (Branjin Vrh, Kroatien; ungarisch: Baranyavár), 4. Juli 1720, bearb. von Manuela Mayer, Lisa Brunner, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                
+                <ab>
+                    <ref target="context:vipa" type="context">Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20)</ref>
+                    <ref target="context:vipa.l" type="context">Briefe</ref>
+                    <ref target="context:qhod" type="context">Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500-1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+                
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="#mpr14657" ref="https://sws.geonames.org/3203558/">Branjin Vrh</placeName>
+                    <date when="1720-07-04">4. Juli 1720</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                    
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev"> 
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-07-02">02. Juli 1720</date>
+                    </ref>
+                    <ref type="next"> 
+                        Nächster Brief von <persName>Damian Hugo von Virmont</persName> an den <orgName>Hofkriegsrat</orgName>:
+                        <date when="1720-07-12">12. Juli 1720</date>
+                    </ref>
+                </correspContext>
+                
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>return journey</item>
+                    <item>preparations for the exchange ceremony</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="56KV_194r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="56KV_194v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="56KV_195r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="56KV_195v.jpg" xml:id="IMG4"/>
+        </surface>
+        
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb n="194r" facs="#IMG1"/>
+            <metamark place="top"><ref target="/o:vipa.i.1720">Nr. 56</ref> d.do. <rs type="place" ref="#mpr14657">Baronyvar</rs> <date when="1720-07-04">4. Julii 1720</date></metamark>
+            <opener>
+                <salute>Hochlöblicher ksl. hof-kriegs-rath. p.</salute>
+            </opener>
+            <p>Durchleuchtigster fürst, excellenzien und meine hochgeehrtiste herren. p. Eüer durchleuchtigste exzellenzien und meiner hochgeehrtisten herren untern <date when="1720-06-29">29. passati</date> an mich gnädigst- und gnädig abgelassenes ist mir von <rs type="place" ref="#mpr2046">Essegg</rs> zuruckh nachgeschickht, wohl zu handen komben. Und gleichwie darauß mit consolation die gnädigst- und gnädige approbation deren respective von der gränitz und <rs type="place" ref="#mpr9425">Belgrad</rs> abgeschickhten ksl. dollmetschen <rs type="person" ref="#mpr10485">Theyls</rs> und <rs type="person" ref="#mpr15670">Gottschalkh</rs>, mithin auch, daß sowohl meine vorhinnige, alß die beede leztere auß <rs type="place" ref="#mpr14911">Croczka</rs> und <rs type="place" ref="#mpr9425">Belgrad</rs> gehorsambst und schuldigst erlassene berichte richtig eingeloffen, zu ersehen gehabt, also habe gehorsambst und schuldigst nicht unbericht lassen
+                <pb n="194v" facs="#IMG2"/>sollen, daß so wenig auf die, so auß denen lezteren campamenten in turcico, alß auch auf das von <rs type="place" ref="#mpr14609">Jagodina</rs> untern <date when="1720-06-17">17. elapsi</date> an ihre <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> per expressum und zwar den <rs type="person" ref="#mpr15731">baronem von Locher</rs>, worin, wie der auswechslungs-actus mit gleichen caeremonien, alß vorm jahr bey der übernahmb vorbeygangen, gehorsambst berichtet, mir keine gnädigst- und gnädige antwortt eingeloffen, welches in der sorge zu schreiben nicht vorbeygehen lassen sollen, daß villeicht eine gnädigst- und gnädige befehle darinn enthalten seyn könten und ein hochlöblicher hof-kriegs-rath wissen möge, daß mir nichtes zukomben.</p>
+                <pb n="195r" facs="#IMG3"/><p>Sonsten waiß vor dissmahl nichts berichtwürdiges zu überschreiben, alß daß anheünt mit meiner suite alhier glücklich angelanget, morgen meinen march fortseze und solle von prosequirung meiner reyse die gehorsambst- und schuldigste berichte von zeit zu zeit einzuschickhen ohnermangeln. Womit zu beharrlichen gnaden mich gehorsambst empfehlendt schuldigst ersterbe.</p>
+            <closer>
+                <salute>Euer durchleuchtigste excellenzien und meiner hochgeehrtisten herren</salute>
+                <signed>gehorsambst und dienstschuldigster diener<rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <address>
+                    <rs type="place" ref="#mpr14657">Baronivar</rs>
+                </address>
+                <dateline>den <date when="1720-07-04">4. Julii 1720</date></dateline>
+            </closer>
+            
+            
+            <pb n="195v" facs="#IMG4"/>
+            <metamark>Pro notitia. <rs type="place">Wienn</rs> den <date when="1720-07-19">19. Julii 1720.</date></metamark>
+            
+            
+        </body>
+    </text>
+</TEI>

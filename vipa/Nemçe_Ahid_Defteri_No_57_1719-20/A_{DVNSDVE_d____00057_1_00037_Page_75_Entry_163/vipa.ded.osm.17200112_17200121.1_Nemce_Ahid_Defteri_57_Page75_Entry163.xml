@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an die Agha der Janitscharen und
+                    den Obergärtner, dem österreichischen Botschafter Hugo von Virmont, gemäß den
+                    Bedingungen des kaiserlichen Vertragsschreibens (ahidname) zu gestatten, den
+                    Wein, den er für sich und seine Männer gekauft hat, an seinen Wohnsitz zu
+                    transportieren; Istanbul, 12. Januar – 21. Januar 1720</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the agha of the Janissaries and
+                    the chief gardener to permit the Austrian ambassador Hugo von Virmont to
+                    transport the wine that he purchased for himself and for his men to his
+                    residence; Istanbul, January 12 – January 21, 1720</title>
+
+
+
+                <title xml:lang="tr">Sultanın, yeniçeri ağası ve bostancıbaşına hitaben yazılmış,
+                    Avusturya elçisi Hugo von Virmont’un kendisi ve adamlarının tüketimi için satın
+                    aldığı şarabı konağına nakletmesine müdahele edilmemesi hakkında hükmü;
+                    İstanbul, 12 Ocak – 21 Ocak, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17200112-17200121.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 75, entry 163</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-01-12" notAfter="1720-01-21"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an die Agha der Janitscharen und des Obergärtners,
+                    dem österreichischen Botschaft Hugo von Virmont, gemäß den Bedingungen des
+                    kaiserlichen Vertragsschreibens (ahidname) zu gestatten, den Wein, den er für
+                    sich und seine Männer gekauft hat, seinen Wohnsitz zu transportieren; Istanbul,
+                    12. Januar – 21. Januar 1720; bearb. von Yasir Yılmaz und Merve Kurkutlu,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Decree to the agha of the janissary agha and chief gardener to allow the
+                        dragoman Nicolo Theyls to transport his wine to his residence according to
+                        the conditions of the imperial letter of agreement</item>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>wine</item>
+                    <item>şarap</item>
+                    <item>janissary agha</item>
+                    <item>yeniçeri ağası</item>
+                    <item>chief gardener</item>
+                    <item>bostancıbaşı</item>
+                    <item>Asitane-i saadet (Istanbul)</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00037_Page_75_Entry_163.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>
+                <rs type="place" ref="#mpr14055">Istanbul</rs>
+                <rs type="place" ref="#mpr14828">Galata</rs>
+                ’
+                -->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17200112-17200121.1">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">163</metamark>
+
+                <ab><lb/>Yeñiçeri aġası <supplied><rs type="person" ref="#mpr16121"
+                        >Mehmed</rs></supplied>
+                    <gap unit="char" extent="4"/> Aġa ve ḫāṣṣa <rs type="person">bostāncıbaşı</rs>ya
+                    ḥüküm ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile der-i devlet-medāruma gelen <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs> ḫutimet ʿavāḳibühū
+                    bi-l-ḫayr <lb/>südde-i saʿādetüme ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab><rs type="person" ref="#mpr9435">gendüsi</rs>nüñ ve ādamlarınuñ kifāf-ı
+                    nefsleriyçün on biñ medre ḫamr iḳtiżā itmekle ruḫṣat virildügi üzere
+                    <lb/>eṭrāfdan bir defʿa aḳçasıyla iştirā eyledügi on biñ medre ḫamrı <rs
+                        type="place" ref="#mpr14828">Ġalaṭa</rs>da olan ḳonaġına naḳl eyledükde <rs
+                        type="person">Ġalaṭa voyvodası</rs> ve ümenā ve żābiṭler <lb/>ṭarafından min
+                    baʿd bāc ve ʿavāʾid ve gümrük nāmıyla ve sāʾir bahāne ile aḳça ṭaleb olunmayub
+                    ve naḳline kimesne māniʿ olmamaḳ bābında emr-i şerīfüm ricā eylemegin</ab>
+
+                <ab><lb/>iltimāsı üzere dostluġa bināʾen ancaḳ bir defʿa on biñ medre ḫamruñ naḳline
+                    mümānaʿat olmamaḳ emrüm olmışdur.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                    <lb/>ṣādır olan emrüm üzere ʿamel daḫī vech-i meşrūḥ üzere ilçi-yi mūmā
+                    ileyhimiñ ve ādamlarınuñ kifāf-ı nefsleriyçün eṭrāfda bir defʿa aḳçasıyla
+                    <lb/>iştirā eyledügi yalñız on biñ medre ḫamrı <rs type="person" ref="#mpr14828"
+                        >Ġalaṭa</rs>da vāḳiʿ ḳonāġına naḳline kimesneye mümānaʿat ve <rs
+                        type="person">Ġalaṭa voyvodası</rs> ve ümenā ve żabiṭler <lb/>ṭarafından min
+                    baʿd gümrük ve bāc ve ʿavāʾid ve ḫarc nāmıyla ve sāʾir bahāne ile aḳça ṭaleb
+                    itdürmeyesiz ammā muḳayyed olasız ki miḳdār-ı muʿayyeneden ziyāde <lb/>ve
+                    mükerrer olmaḳ iḥtimāli olmaya şöyle bilesiz.</ab>
+
+
+
+
+                <ab><date type="Hijri" notBefore="1720-01-12" notAfter="1720-01-21">fī evāḫir-i
+                            Rā<supplied resp="#yy">Rebīʿi’l-evvel</supplied> sene 1132</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17200112-17200121.1.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>Decree to the agha of the janissaries <supplied><rs type="person"
+                            ref="#mpr16121">Mehmed Aġa</rs></supplied>
+                    <gap unit="char" extent="4"/> and to the imperial chief gardener:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a petition
+                    to my threshold of felicity [about the following matter]:</ab>
+
+
+                <ab>Ten thousand <foreign xml:lang="ota">medre</foreign>s of wine is required for
+                    his own consumption and for his people. He requested my most noble order so that
+                    when he, as per the permission granted, transports to his residence at <rs
+                        type="place" ref="#mpr14828">Galata</rs> the ten thousand <foreign
+                        xml:lang="ota">medre</foreign>s of wine he purchased from around [Istanbul],
+                    henceforward, he shall not be injured by the <rs type="person">voivode of
+                        Galata</rs>, superintendents, and officers with claims of money under the
+                    names of tribute, fees, and customs duty or under other pretexts and no one
+                    shall prevent its transportation.</ab>
+
+                <ab>Upon his request and by virtue of friendship, it has been my order that the
+                    transportation of only ten thousand <foreign xml:lang="ota">medre</foreign>s of
+                    wine for a single time shall not be prevented.</ab>
+
+                <ab><rs type="person" ref="#mpr14244">I</rs> command that, you shall act in
+                    accordance with my order issued and, in the way described, you shall not allow
+                    anyone to prevent the transportation to [the ambassador’s] residence in <rs
+                        type="place" ref="#mpr14828">Galata</rs> of the ten thousand <foreign
+                        xml:lang="ota">medre</foreign>s of wine that the <rs type="place"
+                        ref="#mpr9435">aforesaid ambassador</rs> and his people purchased around for
+                    a single time for their own consumption. You shall not have the <rs
+                        type="person">voivode of Galata</rs>, superintendents, and officers claim
+                    money under the names of customs, tribute, fees, and contribution or under other
+                    pretexts. In addition, attend to the matter diligently so that no charges shall
+                    be levied more than the fixed amount and there shall be no possibility of
+                    recurrent charges. So shall you know!</ab>
+
+
+
+
+                <ab><date type="Hijri" notBefore="1720-01-12" notAfter="1720-01-21">January 12 to
+                        January 21, 1720</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 31. Mai 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Belgrade, May 31, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <!-- JS: removed @ref from persName here; info in teiHeader should be 'plain' for processing/harvesting reasons -->
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb"><!-- JS: xml:id added for further referencing -->
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <idno type="PID">o:vipa.l.hbg.17190531</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-1, fol. 162r-163v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Belgrad, 31. Mai 1719, bearb. von Lisa Brunner, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/792680/">Belgrad</placeName>
+                    <date when="1719-05-31">31. Mai 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190528">
+                        Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-05-28">28. Mai 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190531.2">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-05-31">31. Mai 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>arrival at Belgrade</item>
+                    <item>preparations for the exchange ceremony</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-11-22"/>Edited teiHeader;
+                added PID and contexts for test- ingest </change>
+            <change><persName>Jakob Sonnberger</persName><date when="2020-12-06"/>Added schema
+                location </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="3KV_162r.jpg" xml:id="IMG1"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="3KV_162v.jpg" xml:id="IMG2"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="3KV_163r.jpg" xml:id="IMG3"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="3KV_163v.jpg" xml:id="IMG4"/>
+            <!-- JS: '.jpg' added -->
+        </surface>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="162r"/>
+            
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 3</ref> d.d. <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs> den <date when="1719-05-31">lezten Maii
+                    1719</date></metamark>
+
+            <opener>
+                <salute>Hochlöblicher ksl. hoff-kriegs-rath.</salute></opener>
+                <p>Durchlauchtigster fürst, eüer excellenzien undt hochgeehrtiste herrn. </p>
+                <p>Als ich den <date when="1719-05-30">30.</date> so gestern gegen zwey uhr
+                nachmittags glüklich allhier angelanget undt von herrn general feldtwachtmeister <rs
+                    ana="MPRautomatched" ref="#mpr14241" type="person">grafen von Oduyer</rs>
+                empfangen worden, vernamme ich von selben, wie er sogleich, nachdeme von einen
+                hochlöblichen hoff kriegs rath ihne die nachricht erthaillet worden, daß ich von <rs
+                    ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> abgefahren, den <rs
+                    type="person" ref="#mpr14242">seraskier</rs> von <rs ana="MPRautomatched"
+                    ref="#mpr14602" type="place">Nissa</rs> es errinnert und begehret, wegen den
+                ceremoniale ein concert zu machen. Ich hatte ihne, <rs type="person" ref="#mpr14241"
+                    >herrn general feldtwachtmeister</rs>, <pb facs="#IMG2" n="162v"/> zwar
+                gleichfahls unterweegs auß und von verschidenen orthen, alß durch die ordinarie post
+                von <rs type="place" ref="#mpr14063">Comorrn</rs> und <rs ana="MPRautomatched"
+                    ref="#mpr7448" type="place">Ofen</rs>, durch einen <del rendition="#s"
+                    >expressen</del>
+                <rs type="person" ref="#mpr15672">courrier</rs> von <rs ana="MPRautomatched"
+                    ref="#mpr9458" type="place">Erdöd</rs> (bey welchen auch an eüer hochfürstlichen
+                durchleuchtigsten, eüer excellenzien und meinen hochgeehrtisten herrn gehorsambst
+                undt dienstlich berichtet, der brieff aber auß deßen irrthumb erst dahier undt nicht
+                zu <rs type="place" ref="#mpr14653">Bucovar</rs>, wie ich befohllen, auff die post
+                gegeben worden) undt lezlich mittels einer estaffette auß <rs ana="MPRautomatched"
+                    ref="#mpr1775" type="place">Peterwardein</rs> zu wißen gemacht, wie weit ich in
+                meinen weeg gekomben, umb damit er in dem jenigen, waß ihne der pottschafften halber
+                aufgegeben <pb facs="#IMG3" n="163r"/> ist, seine maaß abfaßen und in tempore daß
+                gehörige reguliren möchte können. Kheines aber von disen meinen schreiben, außer dem
+                durch dem <rs type="person" ref="#mpr15672">courrier</rs>, hat zur zeit alß ich
+                glauben sollen, sondern <del rendition="#s">fast</del> alle andere kurz und krumb
+                vor meiner ankunfft eingetroffen, also gar wohl geschechen ware, daß mehrermelter
+                    <rs type="person" ref="#mpr14241">herr general feldtwachtmeister</rs>
+                hierinfahls schon vorgekomben, wie dann auch solchemnach ein <rs type="person"
+                    >aga</rs>, welchen der <rs type="person" ref="#mpr14242">seraskier</rs> von <rs
+                    ana="MPRautomatched" ref="#mpr14602" type="place">Nissa</rs> abgeschikt, umb die
+                nothdurfft in der sach abzuhandlen und zu vergleichen, <date when="1719-05-30"
+                    >gestern</date> abends allhier angekomben, weillen es aber schon sehr spath ware
+                und der <rs type="person">aga</rs> selbst wegen müedigkheit verlangte, sich in ruhe
+                geben zu <pb facs="#IMG4" n="163v"/>
+                <metamark><date when="1719-05-31">1719 31. Mai</date></metamark>
+                <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs>
+                    den <date when="1719-06-10">10 Junii 1719</date>.</metamark> dörffen, so hat man
+                biß heünt verschoben, umb ein- und anderes von ihn zu vernemmen und einzurichten,
+                zur stunde doch noch nichts verläsliches zustande gebracht worden, von deme waß
+                gehorsambst undt dienstlich zu berichten were, sondern differirt mueß werden durch
+                eine estaffette nachzuschiken, waß undt wie man über eins komben würdt. Womit mich
+                gehorsambst undt dienstlichst empfhelle undt verbleibe.</p>
+            <closer>
+                <salute>Eüer durchleichtigsten excellenzien undt meiner hochgeehrtisten
+                    herrn.</salute>
+                <signed>Gehorsambst undt dienstschuldigster dienner <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian
+                        Hugo graf von Virmonten</rs></signed>
+                <address>
+                    <rs ana="MPRautomatched" ref="#mpr9425" type="place">Belgrad</rs>
+                </address> den <dateline><date when="1719-05-31">lezten Maii
+                1719</date></dateline></closer>
+        </body>
+    </text>
+</TEI>

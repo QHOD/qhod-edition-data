@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Woiwoden von Walachei und
+                    Moldau (Grigore II Ghica), in dem nach möglichen Folgen einer Zuweisung des Pottaschehandels an
+                    die habsburgischen Kaufleute gefragt wird; Istanbul, 11. February – 20. February
+                    1720</title>
+
+                <title xml:lang="en">Sultan’s letter addressed to the voivodes of Wallachia (Nicholas Mavrocordato) and
+                    Moldavia (Grigore II Ghica), inquiring the potential consequences of allocating pot ash trade to
+                    the Habsburg merchants; Istanbul, February 11 – February 20, 1720</title>
+                
+                
+
+                <title xml:lang="tr">Sultanın, Eflak ve Boğdan voyvodalarına hitaben yazılmış,
+                    bölgedeki meşe külü ticaretinin Habsburg tüccarlarına münhasır kılınmasının
+                    muhtemel sonuçlarının araştırılmasını ve rapor edilmesini isteyen mektubu;
+                    İstanbul, 11 Şubat - 20 Şubat, 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <!-- PAY ATTENTION * DIFFERENT EDITOR -->
+                        <forename>Canan</forename>
+                        <surname>Yıldırım</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.rc.osm.17200211-17200220</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>HHStA, Wien</institution>
+                        <collection>Turkische Urkunden 12</collection>
+                        <idno>11. bis 20. Februar 1720</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1720-02-11" notAfter="1720-02-20"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Befehlsschreiben des Sultans an den Woiwoden von Walachei und Moldau, in dem nach
+                    den möglichen Folgen einer Zuweisung des Pottaschehandels an die habsburgischen
+                    Kaufleute gefragt wird; Istanbul, 11. February – 20. February 1720; bearb. von
+                    Yasir Yılmaz und <!-- PAY ATTENTION * DIFFERENT EDITOR -->Canan Yıldırım,
+                    Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften
+                    Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer
+                    und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list><item>Austrian ambassador</item><item>Nemçe elçisi</item><item>Damian Hugo von Virmont</item>
+                    <item>inquiry concerning the potential consequences allocating the pot ash trade in 
+                        the principalities exclusively to Austrian merchants</item>
+                    <item>Asitane-i saadet (Istanbul)</item> 
+                    <item>Wallachia</item><item>Eflak</item>
+                    <item>Moldavia</item><item>Boğdan</item>
+                    <item>Nicholas Mavrocordato</item>
+                    <item>Grigore II Ghica</item>                        
+                    <item>Niš</item><item>Nissa</item>
+                    <item>Austrian merchant</item>
+                    <item>Holy Roman emperor</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="Turkische_Urkunden_12_17200211_17200220_Potash.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+
+    </facsimile>
+
+    <text type="letter">
+        <body>
+            <div type="original" xml:id="vipa.rc.osm.17200211-17200220">
+                <pb n="1" facs="#IMG1"/>
+                <ab><lb/><rs type="place" ref="#mpr1794">Eflāḳ</rs> ve <rs type="place" ref="#mpr14097">Boġdān</rs> voyvodalarına<note type="editorial" resp="#yy">
+                            At the time, the voivode of Wallachia was Nicholas Mavrocordato and
+                            the voivode of Moldavia was Grigore II Ghica.</note> yazılan mektūbların
+                    ṣūretidür:</ab>
+
+                <ab>
+                    <lb/><rs type="place" ref="#mpr1794">Eflāḳ</rs> memleketinde potāz dimekle
+                    maʿrūf bir nevʿ-i mīşe aġacı küli olub çuḳa <lb/>işliyenler istiʿmāl iderler
+                    imiş. Muḳaddemā <rs type="place" ref="#mpr3212">İngiltere</rs> ve <rs type="place" ref="#mpr15215">Nederlānd</rs> tüccārı ẕikr olunan <lb/>külden
+                    iştirā içün gelüb <rs type="place" ref="#mpr1794">Eflāḳ</rs> voyvodalarından
+                    akçeleriyle alub diyārlarına <lb/>götürürler imiş.</ab>
+
+                <ab>Ancaḳ bir ḳac seneden berü olmaḳla tüccārın āmed-şüdi münḳaṭiʿ <lb/>olmaġla
+                    el-ḥaletü ḥaẕihī devlet-i ʿaliyye-i ebed-peyvend ile ḥaşmetlü ḥürmetlü <rs type="person" ref="#mpr9399">Nemçe çāsārı</rs> ḥażretleri <lb/>beyninde
+                    vuḳūʿ bulan muṣālaḥa ve muvādaʿa muḳteżāsınca fīmā-baʿd ol-maḳūle mīşe <lb/>küli
+                        <rs type="place" ref="#mpr6718">Nemçe</rs> diyārından gelen tüccāra bahāları
+                    ile beyʿ olunub iştirāsına mümānaʿat <lb/>olunmamaḳ ve ẕikr olunan kül
+                    Nemçelüden ġayriye virilmeyüb <rs type="place" ref="#mpr6718">Nemçe</rs>
+                    tüccārına <lb/>maḫṣūṣ olmaḳ üzere ḥālā der-i devlet-medārda meks̱ üzere olan <rs type="person" ref="#mpr9435">Nemçe ilçisü dostumuz</rs>
+                    <lb/>bir ḳıtʿa fermān-ı ʿālīşān iḥsān olunmasın iltimās itmegin ḫuṣus-ı mezbūrun
+                    <lb/>bir dürlü maḥẕūru var mıdur yoḳ mıdur maʿlūm olmaḳ lāzıme-i ḥālden olmaġın
+                    <lb/>istiʿlām-ı aḥvāl içün mektūb taḥrīr ve irsāl olunmışdur.</ab>
+
+                <ab>Lede’l-vuṣūl tüccārın <lb/>āmed-şüdi münḳaṭiʿ olmasına baʿis̱ nedir, bir
+                    maḥẕūrı ẓuhūrundan nāşī ṭaraf-ı devlet-i ʿaliyyeden <lb/>menʿ olunduġı var
+                    mıdur? Ẕirā ḫuṣūṣ-ı mezbūr baʿżı vuḳūfı olanlardan tefaḥḥuṣ olunduḳda
+                    <lb/>ẕikri mürūr eden kül vilāyet-i merkūme reʿāyāsınuñ ḥavāyīc-i żarūriyyeleri
+                    içün ḳatʿ <lb/>ve daʾima yaḳdıkları odundan cemʿ ve ḥāṣıl olan kül degildür;
+                    voyvodalar maḫṣūṣ <lb/>ḳorılar ḳaṭʿ ve ḥarḳ itmekle ḥāṣıl idüb tüccār-ı merḳūme
+                    ol küli fürūḫt <lb/>iderler idi. Ol daḫī otuz sene ḳadar vardır ki tüccārı
+                    münḳaṭiʿ olub ḳaṭʿ ve ḥarḳ <lb/>olduġı yoḳdur diyü ḫaber virmişlerdür.</ab>
+
+                <ab>Bu taḳdirce baʿżı maḥẕūr ḫāṭıra gelüb <lb/>cümleden biri nice aḫyānda olmaḳla
+                    ḳorılarda ḥāṣıl olan aġaçlardan <lb/>köprüler bināsına ve ḳalʿa taʿmīrine ve
+                    sefāin inşāsına ve sāʾir umūr-ı mühimmeye <lb/>ṣarf içün kerāste ḳaṭʿı fermān
+                    buyuruldıḳda ḳorılar kül içün iḥrāḳ olundıġından <lb/>kerāste tedārikinde ʿusret
+                    ile ḥīn-i iḳtiżāda bir emr-i mühimmenüñ ʿadem-i ḥuṣūlüne müʾeddī <lb/>olur mı
+                    yoḫsa kül ḥāṣıl olacaḳ ḳorılar başḳa olub ve kerāste <lb/>ḳatʿ olunacak ḳorılar
+                    başḳa olmaġla bir dürlü müżāyaḳaya bāʿis olmaz mı <lb/>ve bundan ġayrı hücneti
+                    var mıdur ve bir maḥẕūr żımnında menʿi içün muḳaddemā emr-i şerīf <lb/>virilmiş
+                    midür ve bu misillü maḥẕūrātı olmadıġı ṣuretde ahālī-i memleketde bir dürlü
+                    żarara <lb/>mūceb olur ḥālet var mıdur?</ab>
+
+                <ab>Ḥāṣılı bu ḫuṣūṣı ziyāde teʿemmül ve mülāḥaẓa <lb/>ve müzākeresi iḳtiżā iden
+                    erbāb-ı vuḳūf bu maddenün ḥüsn ve ḳabaḥati <lb/>beyān iderek ʿale’l-tafṣīl
+                    ḳaleme alub ṣıḥḥati ve ḥaḳīḳati üzere iʿlām eyleyesün. <note type="editorial" resp="#yy">A month after this inquiry was dispatched to the Voivode of
+                        Wallachia, the Ottoman court issued <ref target="/o:vipa.ded.osm.17200311-17200320">an edict addressed to the
+                            voivode</ref> and gave the Habsburg merchants a monopoly on pot ash
+                        trade in the principality.</note></ab>
+
+
+                <ab><supplied><date type="Hijri" notBefore="1720-02-11" notAfter="1720-02-20">fī
+                            evāil-i Rebīʿi’l-āḫir 1132</date></supplied></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en" xml:id="vipa.rc.osm.17200211-17200220.translation">
+                <pb n="1" facs="IMG01"/>
+
+
+
+
+
+                <ab><supplied><date type="Hijri" notBefore="1720-02-11" notAfter="1720-02-20">February 11 to 20, 1720</date></supplied></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

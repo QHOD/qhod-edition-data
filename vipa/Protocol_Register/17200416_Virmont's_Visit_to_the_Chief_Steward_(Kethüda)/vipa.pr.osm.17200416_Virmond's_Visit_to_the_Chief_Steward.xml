@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <!-- title of the source -->
+            <title xml:lang="de">Protokollregister über Damien Hugo von Virmonts Abschiedsbesuch beim Stellvertreter des Großwesirs,
+                Istanbul, 16. April 1720</title>
+            <title xml:lang="en">Protocol register of Damien Hugo von Virmont’s farewell visit to the Grand Vizier’s Chief Steward,
+                Istanbul, April 16, 1720</title>
+            <title xml:lang="tr">Teşrifat defteri kaydı, Damien Hugo von Virmont’un Sadaret Kethüdası’na veda ziyareti,
+                İstanbul, 16 Nisan 1720</title>
+            <!-- author of the source -->
+            <author>
+                <persName>Teşrifati Salman Efendi</persName>
+            </author>
+            <!-- Responsibilities for the digital source -->
+            <respStmt>
+                <!-- editor -->
+                <resp>Edition</resp>
+                <persName xml:id="yy">
+                    <forename>Yasir</forename>
+                    <surname>Yılmaz</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+                <!-- data modelling-->
+                <resp>Datenmodellierung</resp>
+                <persName>
+                    <forename>Stephan</forename>
+                    <surname>Kurz</surname>
+                </persName>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>
+                <orgName ref="https://www.oeaw.ac.at/">
+                    Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies
+                </orgName>
+            </publisher>
+            <distributor>
+                <orgName ref="https://gams.uni-graz.at">
+                    GAMS - Geisteswissenschaftliches Asset Management System
+                </orgName>
+            </distributor>
+            <availability>
+                <licence target="https://creativecommons.org/licenses/by/4.0">
+                    Creative Commons BY 4.0
+                </licence>
+            </availability>
+            <date when="2021">2021</date>
+            <pubPlace>Vienna</pubPlace>
+            
+            <idno type="PID">o:vipa.pr.osm.17200416</idno>
+       </publicationStmt>
+        <seriesStmt>
+            <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+            <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+            <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+            <respStmt>
+                <resp>Projektleitung</resp>
+                <persName>
+                    <forename>Arno</forename>
+                    <surname>Strohmeyer</surname>
+                </persName>
+            </respStmt>
+        </seriesStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                    <institution>BOA, İstanbul</institution>
+                    <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                    <idno>no. 347, p. 88</idno>
+                </msIdentifier>
+                
+                <physDesc>
+                  
+                </physDesc>
+                <history>
+                    <origin>
+                        <origDate when="1720-04-16"/>
+                    </origin>
+                </history>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>Editionsregeln und Kodierungsrichtlinien</p>
+            <!-- this may be a pointer to the actual document --> 
+        </editorialDecl>
+        <projectDesc>
+            <ab>
+                <ref target="context:vipa" type="context">
+                    Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                </ref>
+                <ref target="context:vipa.pr" type="context">
+                    Protokollbücher
+                </ref>
+                <ref target="context:qhod" type="context">
+                    Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                </ref>
+            </ab>
+            <!-- Project description -->
+            <p>Projektbeschreibung</p>
+            <!-- this may be a pointer to the actual document -->
+        </projectDesc>
+        <refsDecl>
+            <p>
+                Protokollregister über Damien Hugo von Virmonts Abschiedsbesuch beim Stellvertreter des Großwesirs, Istanbul, 16. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+            </p>
+        </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="ota">Ottoman Turkish</language>
+        </langUsage>
+    </profileDesc>
+</teiHeader>
+
+<facsimile>
+    
+   <surface start="#IMG1">
+        <graphic url="A_}d___00347_00043a1.jpg" xml:id="IMG1"/>
+    </surface>
+    
+</facsimile>
+                   
+<text type="protocol">
+<body>
+    <div type="original" xml:id="vipa.pr.osm.17200416">
+    <pb n="1" facs="#IMG1"/>  
+    <ab>
+        <hi rend="#red"><rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> ketḫüdā beg ḥażretlerine geldigini müşʿirdür.</hi></ab>
+        
+        <ab>
+        <lb/><date type="Hijri" when="1720-04-16">Māh-ı mezbūruñ yedinci is̠ neyn güni</date> 
+            <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> saʿādetlü ketḫüdā beg ḥażretlerine gelmekle
+            <rs type="person" ref="#mpr9435">ilçi-yi mezbūruñ</rs> 
+        <lb/>rükūbı içün aġ ır bir raḫt ile müzeyyen bir at ve begzādegānı içün daḫı yigirmi ḳadar 
+            <choice><corr>eyer</corr> <sic>eger</sic></choice> kuşanmış atlar
+            <lb/>bāġ çe ḳapusına irsāl olunub baʿdehū <rs type="person" ref="#mpr14614">başdefterdār efendinüñ</rs> yedi çifte ḳayıġ ı ile
+        <lb/>iskele-i mezbūra gelüb mevcūd olan atlara süvār, aġ a-yı müşarün ileyhüñ Vālide Ḫānınuñ
+        <lb/>alt ṭarafında Boyacılar üzerinde vāḳiʿ ḫānesine sāʿat altıyı tecāvüz iderek nüzūl
+        <lb/>idüb</ab>
+        
+        <ab>
+        bāġ çe üzerine nāẓır olan odanuñ ḳapusı ḫāricinde vezīr aġ alarından bir miḳdār
+        <lb/>aġ alar ferāce semūr kürkler ile durub ve odanuñ dehlīzine şükūfe ve meyve konub 
+        <lb/>ve oṭ anuñ dīvārlarına cā-be-cā āyīneler ve üç ʿaded muṣannaʿ ḳılıç ve bir pala āviḫte olunub
+            <lb/>ve bāġ çe cānibinde olan köşenüñ ṣaġ  ṭarafında minder üzerine <rs type="person" ref="#mpr9435">ilçi</rs> içün iki iḥrām
+            <lb/>ḳonub ḥāżır olmaġ la <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> maḥall-i meẕkūra oturub baʿdehū ketḫüdā beg yeşil çuḳa 
+        <lb/>semūr kürk ile <rs type="person" ref="#mpr14722">reʾīs efendi</rs> daḫı maʿan içerü girdükde</ab>
+        
+        <ab><rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām idüb baʿdehū ketḫüdā beg
+        <lb/>ṣadra oturub ve <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ṣol ṭarafına oturub ṭatlu ve ḳahve virildükden ṣoñra
+        <lb/>bir miḳdār ṣoḥbet olunub baʿdehū aşaġ ı bāġçedeki fısḳiyeli köşke nüzūl olunub 
+        <lb/>ḫānende ve sāzende faṣl eylemişlerdür. Baʿdehū yuḳarı oṭ a-i mezbūra çıḳılub ṭaʿāma 
+        <lb/>oturulmışdur. Ketḫüdā beg <rs type="person" ref="#mpr9435">ilçi</rs> ve <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ve <rs type="person" ref="#mpr14240">Dürrī</rs> 
+        berāber ekl eylemişlerdür. Baʿdeʾl-ṭaʿām
+        <lb/>zīrde defter olunduġ ı üzere hedīyeler virilüb baʿdehū gitmişdür. Begzādegānı muʿtād üzere
+        <lb/>iṭʿām olunmışdur.</ab>
+        
+        <list type="giftlist">
+        <item rend="column1">ḳıymetli tüfenk ʿaded 2</item>
+        <item rend="column2">aġ ır boyama <supplied resp="#yy">ve</supplied> yaġ lıḳ, ʿaded 2</item>
+        <item rend="column3">kemer raḫt ile ve ḳırmızı işleme kesmelü
+        ve sīm rikāblu mükemmel ṭaḳımı ile ḳula at, 1</item>
+        <item rend="column1">begzādegānına telli çekme, 10</item>
+            <item rend="column2"><rs type="person" ref="#mpr14717">Ḳapūcubaşı Meḥmed Aġ aya</rs> ṣof ferāce, libās 1</item> 
+        <item rend="column3">teşrīfātçı efendiye çuḳa 1 ḳumāş 1</item>
+        <item rend="column4">yeñiçeri ḥāṣekisine çuḳa 1 ḳumāş 1</item>
+        <item rend="column1">çorbacıya çuḳa 1 ḳumāş 1</item>
+        <item rend="column2">dīvān çavuşlarına altun, ʿaded 6</item></list>  
+    </div>
+    
+    <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17200416-transl">
+    <pb n="1" facs="#IMG1"/>
+        
+        <ab>The following relates the <rs type="person" ref="#mpr9435">Austrian ambassador’s</rs> visit to the chief steward.</ab>
+        
+    <ab><date type="Hijri" when="1720-04-16">On the seventh day of the aforementioned month, a Monday</date>, 
+        the <rs type="person" ref="#mpr9435">ambassador</rs> visited his excellency the chief steward.
+        For the <rs type="person" ref="#mpr9435">ambassador’s</rs> ride,
+        a horse equipped with a heavy harness was sent to the garden gate, while for the noblemen
+        of the ambassador around twenty saddled horses were dispatched to the garden gate. 
+        Embarked on the <rs type="person" ref="#mpr14614">chief treasurer’s</rs> caique powered with seven oarsmen,
+        the <rs type="person" ref="#mpr9435">ambassador</rs> and his noblemen came by the pier where they mounted the horses present there.
+        As it was past six o’clock, they entered the agha’s house that was located
+        below the Valide Han and above Boyacılar quarter.</ab>
+
+    <ab>Outside the [reception] room’s door overlooking the garden, some aghas
+        from among the vizier household were standing, wearing sable furs on
+        ceremonial cloaks. Flower and fruit were placed on the passageway leading to the room.
+        Mirrors, three jeweled swords, and a machete were hanging in places on the walls
+        of the room. On the right-hand side of the corner facing the garden, two covers were
+        spread over a cushion for the ambassador. After the <rs type="person" ref="#mpr9435">ambassador</rs>
+        had sat down there, the chief steward, wearing a sable
+        fur on a green broadcloth cloak, came inside the room together with <rs type="person" ref="#mpr14722">the chief of the scribes</rs>.</ab>
+        
+        <ab>Upon their entry to the room, the <rs type="person" ref="#mpr9435">ambassador</rs> rose to his feet and the chief steward
+        sat on his seat. <rs type="person" ref="#mpr14722">The chief of the scribes</rs> sat on his left-hand side. After sweets
+        and coffee had been served, some conversation took place. 
+        Afterwards, the party moved to the fountained pavilion in the lower garden 
+        where vocalists and musicians performed. Thereafter, they returned again to
+        the upper room where they sat down for a meal.
+        The chief steward, <rs type="perosn" ref="#mpr14722">the chief of the scribes</rs>, and <rs type="person" ref="#mpr14240">Dürrī</rs> ate together. 
+        After the meal, gifts were presented as recorded below, after which the ambassador left.
+        His noblemen was also served a meal according to the custom.</ab>
+        
+        <list type="giftlist">
+            <item rend="column1">precious musket, 2 pieces</item>
+            <item rend="column2">colored heavy handkerchief and handkerchief, 2 pieces</item>
+            <item rend="column3">A buckskin horse, with a whole set of horse tack, 
+                including a leather-strap harness, a red embroidered horse blanket, and silver stirrups
+                <note xml:id="ftn1" type="editorial" resp="#yy">The ’arched’ saddle or <foreign xml:lang="tr">kemer raḫt</foreign> was likely of lesser value
+                than the <foreign xml:lang="tr">dīvān raḫtı</foreign>, the imperial ceremonial saddle that was used as a gear for
+                the horses rode by sultans, highest-ranked statesmen, or ambassadors.</note></item>
+            <item rend="column1">embroidered fabric to the ambassador’s
+                noblemen, 10 pieces</item>
+            <item rend="column2">a fine ceremonial cloak to the <rs type="person" ref="#mpr14717">Gatekeeper Mehmed Agha</rs>, 1 piece</item> 
+            <item rend="column3">a broadcloth and a fabric to the protocol registerer, 1 of each</item>
+            <item rend="column4">a broadcloth and a fabric to the janissary lieutenant, 1 of each</item>
+            <item rend="column1">a broadcloth and a fabric to the janissary captain, 1 of each</item>
+            <item rend="column2">gold coins to the palace ushers, 6 pieces</item></list>
+        
+    
+
+
+
+
+
+    </div>
+</body>
+</text>
+</TEI>

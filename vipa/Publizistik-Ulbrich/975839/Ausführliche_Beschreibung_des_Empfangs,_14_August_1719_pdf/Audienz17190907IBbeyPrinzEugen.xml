@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="de" type="full">Bericht Von der solennen Audienz / welche bey Ihrer Römisch=Kaiserlich= und Königlich=Catholischen Majestät würklich=geheimen und Conferenz=Raht / wie auch Hof=Kriegs=Rahts=Præsident / und General=Lieutenant / Ihro Durchleucht / Prinzen Eugeny von Savoyen / rc. der Türkische Groß=Botschafter / Vizier Mückerem, Rumeli Valesi Bajesile Taja-Sade, Ibrahim Bassa, &amp;c. den 7. September / 1719. gehabt</title>
+        <author><persName>
+          <surname>N</surname>
+          <forename>N</forename>
+        </persName></author>
+        <respStmt>
+          <resp>Edition</resp>
+          <persName xml:id="hu">
+            <forename>Helena</forename>
+            <surname>Ulbrich</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Datenmodellierung</resp>
+          <persName>
+            <forename>Jakob</forename>
+            <surname>Sonnberger</surname>
+          </persName>
+          <persName>
+            <forename>Stephan</forename>
+            <surname>Kurz</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digital Edition</edition>
+        <respStmt>
+          <resp>Transcribed, corrected, edited by</resp>
+          <persName>
+            <forename>Helena</forename>
+            <surname>Ulbrich</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>TEI conversion</resp>
+          <persName>
+            <forename>Stephan</forename>
+            <surname>Kurz</surname>
+          </persName>
+        </respStmt>
+      </editionStmt>
+      
+      <publicationStmt>
+        <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+        <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+        <pubPlace>Vienna</pubPlace>
+        <date>2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+        </availability>
+        <idno type="PID">o:vipa.pp.hbg.17190907</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+        <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+        <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+        <respStmt>
+          <resp>Projektleitung</resp>
+          <persName>
+            <forename>Arno</forename>
+            <surname>Strohmeyer</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <notesStmt>
+        <note>Based on the digitized item provided by the ONB</note>
+        <relatedItem>
+          <biblFull>
+            <titleStmt>
+              <title>Bericht Von der solennen Audienz / welche bey Ihrer Römisch=Kaiserlich= und Königlich=Catholischen Majestät würklich=geheimen und Conferenz=Raht / wie auch Hof=Kriegs=Rahts=Præsident / und General=Lieutenant / Ihro Durchleucht / Prinzen Eugeny von Savoyen / rc. der Türkische Groß=Botschafter / Vizier Mückerem, Rumeli Valesi Bajesile Taja-Sade, Ibrahim Bassa, &amp;c. den 7. September / 1719. gehabt</title>
+              <author>Schönwetter, Johann Baptist</author>
+            </titleStmt>
+            <publicationStmt>
+              <publisher>Reichs- u. Hof-Buchtruckerey</publisher>
+              <pubPlace>Wien</pubPlace>
+              <date when="1719">1719</date>
+            </publicationStmt>
+            <seriesStmt>
+              <title/>
+              <biblScope unit="page" from="61" to="64">61-64</biblScope>
+            </seriesStmt>
+          </biblFull>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>http://data.onb.ac.at/rep/102CDB39</idno>
+          </msIdentifier>
+          <!--        	 24.H.51 ALT PRUNK
+MF 6542 NEU MIK            -->
+          <!-- -->
+          <!--     	VD18  -->
+          <history>
+            <origin>
+              <origDate when="1719">1719</origDate>
+            </origin>
+          </history>
+          <additional>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="transkribus" version="1.13"><desc>Text has been recognized by use of a print HTR+ model in using Transkribus</desc></application>
+      </appInfo>
+      <editorialDecl>
+        <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+      </editorialDecl>
+      <refsDecl>
+        <p>Bericht Von der solennen Audienz / welche bey Ihrer Römisch=Kaiserlich= und Königlich=Catholischen Majestät würklich=geheimen und Conferenz=Raht / wie auch Hof=Kriegs=Rahts=Præsident / und General=Lieutenant / Ihro Durchleucht / Prinzen Eugeny von Savoyen / rc. der Türkische Groß=Botschafter / Vizier Mückerem, Rumeli Valesi Bajesile Taja-Sade, Ibrahim Bassa, &amp;c. den 7. September / 1719. gehabt, bearb. von Helena Ulbrich und Stephan Kurz, Datenmodellierung: Jakob Sonnberger, Stephan Kurz; in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022</p>
+      </refsDecl>
+      <projectDesc>
+        <ab>
+          <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20) </ref>
+          <ref target="context:vipa.pp" type="context"> Flugschriften </ref>
+          <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500–1918) </ref>
+        </ab>
+        <p>Projektbeschreibung</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change><persName>Stephan Kurz</persName><date when="2022-09-01"/>add preliminary teiHeader</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+<surface start="#facs_61" lrx="1793" lry="2227" ulx="0" uly="0"><graphic height="2227px" url="p062.jpg" width="1793px" xml:id="facs_61"/><zone points="96,180 1534,180 1534,2174 96,2174" rendition="TextRegion" xml:id="facs_61_r1">
+        <zone points="669,106 951,106 951,237 669,237" rendition="Line" xml:id="facs_61_r1l1"/>
+        <zone points="96,218 1516,218 1516,323 96,323" rendition="Line" xml:id="facs_61_r1l2"/>
+        <zone points="88,315 1518,315 1518,398 88,398" rendition="Line" xml:id="facs_61_r1l3"/>
+        <zone points="87,392 1517,392 1517,467 87,467" rendition="Line" xml:id="facs_61_r1l4"/>
+        <zone points="89,444 1505,444 1505,507 89,507" rendition="Line" xml:id="facs_61_r1l5"/>
+        <zone points="94,489 1517,489 1517,565 94,565" rendition="Line" xml:id="facs_61_r1l6"/>
+        <zone points="167,543 1454,543 1454,603 167,603" rendition="Line" xml:id="facs_61_r1l7"/>
+        <zone points="335,586 1265,586 1265,652 335,652" rendition="Line" xml:id="facs_61_r1l8"/>
+        <zone points="95,662 1520,662 1520,725 95,725" rendition="Line" xml:id="facs_61_r1l9"/>
+        <zone points="90,714 1515,714 1515,777 90,777" rendition="Line" xml:id="facs_61_r1l10"/>
+        <zone points="97,758 1520,758 1520,816 97,816" rendition="Line" xml:id="facs_61_r1l11"/>
+        <zone points="92,794 1523,794 1523,858 92,858" rendition="Line" xml:id="facs_61_r1l12"/>
+        <zone points="96,843 1521,843 1521,906 96,906" rendition="Line" xml:id="facs_61_r1l13"/>
+        <zone points="102,883 1521,883 1521,941 102,941" rendition="Line" xml:id="facs_61_r1l14"/>
+        <zone points="113,923 1520,923 1520,980 113,980" rendition="Line" xml:id="facs_61_r1l15"/>
+        <zone points="109,960 1529,960 1529,1019 109,1019" rendition="Line" xml:id="facs_61_r1l16"/>
+        <zone points="107,1011 1521,1011 1521,1069 107,1069" rendition="Line" xml:id="facs_61_r1l17"/>
+        <zone points="111,1049 1529,1049 1529,1109 111,1109" rendition="Line" xml:id="facs_61_r1l18"/>
+        <zone points="96,1098 224,1098 224,1165 96,1165" rendition="Line" xml:id="facs_61_r1l19"/>
+        <zone points="158,1098 1529,1098 1529,1194 158,1194" rendition="Line" xml:id="facs_61_r1l20"/>
+        <zone points="195,1169 1406,1169 1406,1217 195,1217" rendition="Line" xml:id="facs_61_r1l21"/>
+        <zone points="106,1209 1529,1209 1529,1277 106,1277" rendition="Line" xml:id="facs_61_r1l22"/>
+        <zone points="201,1257 339,1257 339,1309 201,1309" rendition="Line" xml:id="facs_61_r1l23"/>
+        <zone points="165,1274 1536,1274 1536,1348 165,1348" rendition="Line" xml:id="facs_61_r1l24"/>
+        <zone points="191,1332 466,1332 466,1387 191,1387" rendition="Line" xml:id="facs_61_r1l26"/>
+        <zone points="173,1354 1499,1354 1499,1421 173,1421" rendition="Line" xml:id="facs_61_r1l27"/>
+        <zone points="176,1418 1526,1418 1526,1476 176,1476" rendition="Line" xml:id="facs_61_r1l29"/>
+        <zone points="203,1464 1532,1464 1532,1506 203,1506" rendition="Line" xml:id="facs_61_r1l31"/>
+        <zone points="204,1500 1535,1500 1535,1551 204,1551" rendition="Line" xml:id="facs_61_r1l32"/>
+        <zone points="211,1538 1543,1538 1543,1587 211,1587" rendition="Line" xml:id="facs_61_r1l33"/>
+        <zone points="215,1570 965,1570 965,1634 215,1634" rendition="Line" xml:id="facs_61_r1l35"/>
+        <zone points="175,1619 1513,1619 1513,1675 175,1675" rendition="Line" xml:id="facs_61_r1l36"/>
+        <zone points="175,1665 650,1665 650,1712 175,1712" rendition="Line" xml:id="facs_61_r1l38"/>
+        <zone points="174,1698 1004,1698 1004,1752 174,1752" rendition="Line" xml:id="facs_61_r1l40"/>
+        <zone points="174,1739 1299,1739 1299,1796 174,1796" rendition="Line" xml:id="facs_61_r1l43"/>
+        <zone points="196,1785 1262,1785 1262,1838 196,1838" rendition="Line" xml:id="facs_61_r1l45"/>
+        <zone points="214,1819 1541,1819 1541,1873 214,1873" rendition="Line" xml:id="facs_61_r1l47"/>
+        <zone points="209,1863 545,1863 545,1924 209,1924" rendition="Line" xml:id="facs_61_r1l49"/>
+        <zone points="119,1906 1541,1906 1541,1972 119,1972" rendition="Line" xml:id="facs_61_r1l50"/>
+        <zone points="206,1957 1541,1957 1541,2012 206,2012" rendition="Line" xml:id="facs_61_r1l51"/>
+        <zone points="202,1992 934,1992 934,2036 202,2036" rendition="Line" xml:id="facs_61_r1l52"/>
+        <zone points="207,2033 1534,2033 1534,2090 207,2090" rendition="Line" xml:id="facs_61_r1l53"/>
+      </zone><zone points="1548,3 1633,3 1633,162 1548,162" rendition="TextRegion" xml:id="facs_61_r2">
+      </zone></surface>
+<surface start="#facs_62" lrx="1764" lry="2252" ulx="0" uly="0"><graphic height="2252px" url="p063.jpg" width="1764px" xml:id="facs_62"/><zone points="83,0 93,0 93,150 83,150" rendition="TextRegion" xml:id="facs_62_r1">
+      </zone><zone points="167,122 1592,122 1592,2199 167,2199" rendition="TextRegion" xml:id="facs_62_r2">
+        <zone points="249,106 1585,106 1585,164 249,164" rendition="Line" xml:id="facs_62_r2l1"/>
+        <zone points="250,146 949,146 949,199 250,199" rendition="Line" xml:id="facs_62_r2l2"/>
+        <zone points="245,188 1590,188 1590,239 245,239" rendition="Line" xml:id="facs_62_r2l3"/>
+        <zone points="255,227 1585,227 1585,284 255,284" rendition="Line" xml:id="facs_62_r2l5"/>
+        <zone points="254,274 1579,274 1579,318 254,318" rendition="Line" xml:id="facs_62_r2l6"/>
+        <zone points="247,317 1587,317 1587,367 247,367" rendition="Line" xml:id="facs_62_r2l7"/>
+        <zone points="246,356 1588,356 1588,407 246,407" rendition="Line" xml:id="facs_62_r2l8"/>
+        <zone points="254,400 1578,400 1578,446 254,446" rendition="Line" xml:id="facs_62_r2l9"/>
+        <zone points="259,436 1592,436 1592,484 259,484" rendition="Line" xml:id="facs_62_r2l10"/>
+        <zone points="253,481 1591,481 1591,532 253,532" rendition="Line" xml:id="facs_62_r2l11"/>
+        <zone points="256,517 1173,517 1173,564 256,564" rendition="Line" xml:id="facs_62_r2l12"/>
+        <zone points="248,555 1591,555 1591,610 248,610" rendition="Line" xml:id="facs_62_r2l13"/>
+        <zone points="250,594 841,594 841,652 250,652" rendition="Line" xml:id="facs_62_r2l15"/>
+        <zone points="247,642 1598,642 1598,689 247,689" rendition="Line" xml:id="facs_62_r2l16"/>
+        <zone points="257,683 1220,683 1220,731 257,731" rendition="Line" xml:id="facs_62_r2l18"/>
+        <zone points="230,714 1585,714 1585,771 230,771" rendition="Line" xml:id="facs_62_r2l19"/>
+        <zone points="247,771 1587,771 1587,820 247,820" rendition="Line" xml:id="facs_62_r2l21"/>
+        <zone points="254,811 1587,811 1587,858 254,858" rendition="Line" xml:id="facs_62_r2l22"/>
+        <zone points="254,850 1594,850 1594,894 254,894" rendition="Line" xml:id="facs_62_r2l23"/>
+        <zone points="249,891 1589,891 1589,937 249,937" rendition="Line" xml:id="facs_62_r2l24"/>
+        <zone points="247,927 803,927 803,975 247,975" rendition="Line" xml:id="facs_62_r2l25"/>
+        <zone points="169,962 1596,962 1596,1028 169,1028" rendition="Line" xml:id="facs_62_r2l26"/>
+        <zone points="257,1017 1150,1017 1150,1059 257,1059" rendition="Line" xml:id="facs_62_r2l27"/>
+        <zone points="208,1050 1585,1050 1585,1106 208,1106" rendition="Line" xml:id="facs_62_r2l28"/>
+        <zone points="171,1092 1587,1092 1587,1145 171,1145" rendition="Line" xml:id="facs_62_r2l29"/>
+        <zone points="166,1135 1586,1135 1586,1187 166,1187" rendition="Line" xml:id="facs_62_r2l30"/>
+        <zone points="167,1180 1454,1180 1454,1236 167,1236" rendition="Line" xml:id="facs_62_r2l31"/>
+        <zone points="250,1218 1579,1218 1579,1275 250,1275" rendition="Line" xml:id="facs_62_r2l32"/>
+        <zone points="169,1260 1583,1260 1583,1310 169,1310" rendition="Line" xml:id="facs_62_r2l33"/>
+        <zone points="165,1290 1580,1290 1580,1356 165,1356" rendition="Line" xml:id="facs_62_r2l34"/>
+        <zone points="166,1353 1596,1353 1596,1397 166,1397" rendition="Line" xml:id="facs_62_r2l35"/>
+        <zone points="173,1382 1576,1382 1576,1433 173,1433" rendition="Line" xml:id="facs_62_r2l36"/>
+        <zone points="173,1420 1587,1420 1587,1473 173,1473" rendition="Line" xml:id="facs_62_r2l37"/>
+        <zone points="171,1467 1585,1467 1585,1512 171,1512" rendition="Line" xml:id="facs_62_r2l38"/>
+        <zone points="173,1507 1591,1507 1591,1563 173,1563" rendition="Line" xml:id="facs_62_r2l39"/>
+        <zone points="174,1546 423,1546 423,1604 174,1604" rendition="Line" xml:id="facs_62_r2l40"/>
+        <zone points="254,1586 1590,1586 1590,1635 254,1635" rendition="Line" xml:id="facs_62_r2l41"/>
+        <zone points="168,1612 1591,1612 1591,1676 168,1676" rendition="Line" xml:id="facs_62_r2l42"/>
+        <zone points="170,1671 1594,1671 1594,1719 170,1719" rendition="Line" xml:id="facs_62_r2l43"/>
+        <zone points="174,1707 1590,1707 1590,1756 174,1756" rendition="Line" xml:id="facs_62_r2l44"/>
+        <zone points="172,1739 1585,1739 1585,1804 172,1804" rendition="Line" xml:id="facs_62_r2l45"/>
+        <zone points="180,1795 1586,1795 1586,1842 180,1842" rendition="Line" xml:id="facs_62_r2l46"/>
+        <zone points="174,1833 1583,1833 1583,1884 174,1884" rendition="Line" xml:id="facs_62_r2l47"/>
+        <zone points="179,1867 798,1867 798,1932 179,1932" rendition="Line" xml:id="facs_62_r2l48"/>
+        <zone points="262,1905 1588,1905 1588,1963 262,1963" rendition="Line" xml:id="facs_62_r2l49"/>
+        <zone points="183,1952 1596,1952 1596,2007 183,2007" rendition="Line" xml:id="facs_62_r2l50"/>
+        <zone points="183,1996 1594,1996 1594,2046 183,2046" rendition="Line" xml:id="facs_62_r2l51"/>
+        <zone points="188,2035 1601,2035 1601,2092 188,2092" rendition="Line" xml:id="facs_62_r2l52"/>
+      </zone></surface>
+<surface start="#facs_63" lrx="1804" lry="2220" ulx="0" uly="0"><graphic height="2220px" url="p064.jpg" width="1804px" xml:id="facs_63"/><zone points="72,0 93,0 93,58 72,58" rendition="TextRegion" xml:id="facs_63_r1">
+      </zone><zone points="102,0 1588,0 1588,2166 102,2166" rendition="TextRegion" xml:id="facs_63_r2">
+        <zone points="119,99 1550,99 1550,162 119,162" rendition="Line" xml:id="facs_63_r2l4"/>
+        <zone points="119,157 1539,157 1539,202 119,202" rendition="Line" xml:id="facs_63_r2l5"/>
+        <zone points="120,189 1546,189 1546,251 120,251" rendition="Line" xml:id="facs_63_r2l6"/>
+        <zone points="119,226 1029,226 1029,292 119,292" rendition="Line" xml:id="facs_63_r2l7"/>
+        <zone points="199,281 1544,281 1544,335 199,335" rendition="Line" xml:id="facs_63_r2l8"/>
+        <zone points="119,315 1539,315 1539,369 119,369" rendition="Line" xml:id="facs_63_r2l9"/>
+        <zone points="124,347 1535,347 1535,411 124,411" rendition="Line" xml:id="facs_63_r2l10"/>
+        <zone points="113,402 1536,402 1536,454 113,454" rendition="Line" xml:id="facs_63_r2l11"/>
+        <zone points="124,449 1532,449 1532,498 124,498" rendition="Line" xml:id="facs_63_r2l12"/>
+        <zone points="120,474 1526,474 1526,534 120,534" rendition="Line" xml:id="facs_63_r2l13"/>
+        <zone points="119,526 1531,526 1531,580 119,580" rendition="Line" xml:id="facs_63_r2l14"/>
+        <zone points="114,563 1536,563 1536,619 114,619" rendition="Line" xml:id="facs_63_r2l15"/>
+        <zone points="122,602 1393,602 1393,660 122,660" rendition="Line" xml:id="facs_63_r2l16"/>
+        <zone points="201,646 1543,646 1543,699 201,699" rendition="Line" xml:id="facs_63_r2l17"/>
+        <zone points="114,693 1532,693 1532,745 114,745" rendition="Line" xml:id="facs_63_r2l18"/>
+        <zone points="119,722 1536,722 1536,781 119,781" rendition="Line" xml:id="facs_63_r2l19"/>
+        <zone points="121,771 1531,771 1531,829 121,829" rendition="Line" xml:id="facs_63_r2l20"/>
+        <zone points="122,802 1534,802 1534,862 122,862" rendition="Line" xml:id="facs_63_r2l21"/>
+        <zone points="117,844 1534,844 1534,910 117,910" rendition="Line" xml:id="facs_63_r2l22"/>
+        <zone points="127,883 1528,883 1528,944 127,944" rendition="Line" xml:id="facs_63_r2l23"/>
+        <zone points="118,932 1537,932 1537,988 118,988" rendition="Line" xml:id="facs_63_r2l24"/>
+        <zone points="122,967 1131,967 1131,1021 122,1021" rendition="Line" xml:id="facs_63_r2l25"/>
+        <zone points="203,1017 1531,1017 1531,1069 203,1069" rendition="Line" xml:id="facs_63_r2l26"/>
+        <zone points="112,1050 1534,1050 1534,1113 112,1113" rendition="Line" xml:id="facs_63_r2l27"/>
+        <zone points="119,1097 1535,1097 1535,1154 119,1154" rendition="Line" xml:id="facs_63_r2l28"/>
+        <zone points="121,1125 1533,1125 1533,1192 121,1192" rendition="Line" xml:id="facs_63_r2l29"/>
+        <zone points="119,1179 1538,1179 1538,1229 119,1229" rendition="Line" xml:id="facs_63_r2l30"/>
+        <zone points="117,1224 1536,1224 1536,1283 117,1283" rendition="Line" xml:id="facs_63_r2l31"/>
+        <zone points="121,1259 682,1259 682,1309 121,1309" rendition="Line" xml:id="facs_63_r2l32"/>
+        <zone points="198,1280 1535,1280 1535,1355 198,1355" rendition="Line" xml:id="facs_63_r2l33"/>
+        <zone points="119,1334 1530,1334 1530,1392 119,1392" rendition="Line" xml:id="facs_63_r2l34"/>
+        <zone points="118,1375 1519,1375 1519,1435 118,1435" rendition="Line" xml:id="facs_63_r2l35"/>
+        <zone points="93,1433 1535,1433 1535,1484 93,1484" rendition="Line" xml:id="facs_63_r2l36"/>
+        <zone points="115,1455 1530,1455 1530,1514 115,1514" rendition="Line" xml:id="facs_63_r2l37"/>
+        <zone points="117,1498 1532,1498 1532,1553 117,1553" rendition="Line" xml:id="facs_63_r2l38"/>
+        <zone points="115,1546 1527,1546 1527,1612 115,1612" rendition="Line" xml:id="facs_63_r2l39"/>
+        <zone points="122,1579 749,1579 749,1628 122,1628" rendition="Line" xml:id="facs_63_r2l40"/>
+        <zone points="208,1619 1529,1619 1529,1683 208,1683" rendition="Line" xml:id="facs_63_r2l41"/>
+        <zone points="114,1659 1530,1659 1530,1725 114,1725" rendition="Line" xml:id="facs_63_r2l42"/>
+        <zone points="120,1707 1525,1707 1525,1769 120,1769" rendition="Line" xml:id="facs_63_r2l43"/>
+        <zone points="122,1742 1528,1742 1528,1803 122,1803" rendition="Line" xml:id="facs_63_r2l44"/>
+        <zone points="112,1787 1529,1787 1529,1860 112,1860" rendition="Line" xml:id="facs_63_r2l45"/>
+        <zone points="116,1827 1315,1827 1315,1885 116,1885" rendition="Line" xml:id="facs_63_r2l46"/>
+        <zone points="198,1868 1528,1868 1528,1924 198,1924" rendition="Line" xml:id="facs_63_r2l47"/>
+        <zone points="117,1906 1526,1906 1526,1974 117,1974" rendition="Line" xml:id="facs_63_r2l48"/>
+        <zone points="110,1956 1527,1956 1527,2005 110,2005" rendition="Line" xml:id="facs_63_r2l49"/>
+        <zone points="115,1991 1525,1991 1525,2060 115,2060" rendition="Line" xml:id="facs_63_r2l50"/>
+        <zone points="112,2039 1524,2039 1524,2101 112,2101" rendition="Line" xml:id="facs_63_r2l51"/>
+      </zone><zone points="1558,2054 1579,2054 1579,2206 1558,2206" rendition="TextRegion" xml:id="facs_63_r3">
+      </zone><zone points="1676,0 1688,0 1688,101 1676,101" rendition="TextRegion" xml:id="facs_63_r4">
+      </zone></surface>
+<surface start="#facs_64" lrx="1844" lry="2220" ulx="0" uly="0"><graphic height="2220px" url="p065.jpg" width="1844px" xml:id="facs_64"/><zone points="247,0 1662,0 1662,2170 247,2170" rendition="TextRegion" xml:id="facs_64_r1">
+        <zone points="327,104 1642,104 1642,167 327,167" rendition="Line" xml:id="facs_64_r1l2"/>
+        <zone points="238,146 1654,146 1654,203 238,203" rendition="Line" xml:id="facs_64_r1l3"/>
+        <zone points="240,201 1654,201 1654,251 240,251" rendition="Line" xml:id="facs_64_r1l4"/>
+        <zone points="238,238 1661,238 1661,292 238,292" rendition="Line" xml:id="facs_64_r1l5"/>
+        <zone points="243,282 1667,282 1667,324 243,324" rendition="Line" xml:id="facs_64_r1l6"/>
+        <zone points="252,321 1667,321 1667,370 252,370" rendition="Line" xml:id="facs_64_r1l7"/>
+        <zone points="249,357 1663,357 1663,412 249,412" rendition="Line" xml:id="facs_64_r1l8"/>
+        <zone points="247,404 1666,404 1666,456 247,456" rendition="Line" xml:id="facs_64_r1l9"/>
+        <zone points="242,443 1660,443 1660,495 242,495" rendition="Line" xml:id="facs_64_r1l10"/>
+        <zone points="243,483 1043,483 1043,540 243,540" rendition="Line" xml:id="facs_64_r1l11"/>
+        <zone points="323,522 1656,522 1656,575 323,575" rendition="Line" xml:id="facs_64_r1l12"/>
+        <zone points="250,566 1662,566 1662,616 250,616" rendition="Line" xml:id="facs_64_r1l13"/>
+        <zone points="252,608 1659,608 1659,654 252,654" rendition="Line" xml:id="facs_64_r1l14"/>
+        <zone points="247,653 1663,653 1663,699 247,699" rendition="Line" xml:id="facs_64_r1l15"/>
+        <zone points="238,691 1670,691 1670,746 238,746" rendition="Line" xml:id="facs_64_r1l16"/>
+        <zone points="238,731 1663,731 1663,781 238,781" rendition="Line" xml:id="facs_64_r1l17"/>
+        <zone points="810,811 1117,811 1117,901 810,901" rendition="Line" xml:id="facs_64_r1l22"/>
+        <zone points="243,884 1668,884 1668,959 243,959" rendition="Line" xml:id="facs_64_r1l23"/>
+        <zone points="386,954 1538,954 1538,1020 386,1020" rendition="Line" xml:id="facs_64_r1l24"/>
+        <zone points="861,995 1035,995 1035,1068 861,1068" rendition="Line" xml:id="facs_64_r1l25"/>
+        <zone points="250,1050 1669,1050 1669,1115 250,1115" rendition="Line" xml:id="facs_64_r1l26"/>
+        <zone points="331,1100 1672,1100 1672,1164 331,1164" rendition="Line" xml:id="facs_64_r1l27"/>
+        <zone points="334,1138 1664,1138 1664,1199 334,1199" rendition="Line" xml:id="facs_64_r1l28"/>
+        <zone points="338,1181 1129,1181 1129,1236 338,1236" rendition="Line" xml:id="facs_64_r1l29"/>
+        <zone points="255,1224 1498,1224 1498,1285 255,1285" rendition="Line" xml:id="facs_64_r1l30"/>
+        <zone points="260,1259 1664,1259 1664,1321 260,1321" rendition="Line" xml:id="facs_64_r1l31"/>
+        <zone points="340,1307 1668,1307 1668,1370 340,1370" rendition="Line" xml:id="facs_64_r1l32"/>
+        <zone points="340,1343 1658,1343 1658,1404 340,1404" rendition="Line" xml:id="facs_64_r1l33"/>
+        <zone points="253,1385 1373,1385 1373,1452 253,1452" rendition="Line" xml:id="facs_64_r1l34"/>
+        <zone points="271,1423 974,1423 974,1491 271,1491" rendition="Line" xml:id="facs_64_r1l35"/>
+        <zone points="263,1458 1527,1458 1527,1531 263,1531" rendition="Line" xml:id="facs_64_r1l36"/>
+        <zone points="311,1507 1142,1507 1142,1573 311,1573" rendition="Line" xml:id="facs_64_r1l37"/>
+        <zone points="265,1551 828,1551 828,1611 265,1611" rendition="Line" xml:id="facs_64_r1l39"/>
+        <zone points="268,1579 1150,1579 1150,1649 268,1649" rendition="Line" xml:id="facs_64_r1l40"/>
+        <zone points="262,1635 835,1635 835,1692 262,1692" rendition="Line" xml:id="facs_64_r1l41"/>
+        <zone points="306,1666 1146,1666 1146,1734 306,1734" rendition="Line" xml:id="facs_64_r1l42"/>
+        <zone points="267,1707 1069,1707 1069,1780 267,1780" rendition="Line" xml:id="facs_64_r1l44"/>
+        <zone points="311,1739 1638,1739 1638,1811 311,1811" rendition="Line" xml:id="facs_64_r1l45"/>
+        <zone points="268,1802 1594,1802 1594,1861 268,1861" rendition="Line" xml:id="facs_64_r1l47"/>
+        <zone points="267,1835 1250,1835 1250,1898 267,1898" rendition="Line" xml:id="facs_64_r1l48"/>
+        <zone points="262,1892 825,1892 825,1948 262,1948" rendition="Line" xml:id="facs_64_r1l49"/>
+        <zone points="262,1927 675,1927 675,1988 262,1988" rendition="Line" xml:id="facs_64_r1l50"/>
+        <zone points="372,2012 1211,2012 1211,2068 372,2068" rendition="Line" xml:id="facs_64_r1l54"/>
+        <zone points="757,2058 1197,2058 1197,2115 757,2115" rendition="Line" xml:id="facs_64_r1l55"/>
+      </zone></surface>
+</facsimile>
+  <text type="pamphlet"><body><div>
+<pb facs="#facs_61" n="61" xml:id="img_0061"/>
+      <head><lb facs="#facs_61_r1l1" n="N001"/>Bericht
+      <lb facs="#facs_61_r1l2" n="N002"/>Von der solennen Audienz / welche bey Ihrer
+      <lb facs="#facs_61_r1l3" n="N003"/><rs type="person">Römisch=Kaiserlich= und Königlich=Catholischen Ma<lb rend="#shy" break="no" facs="#facs_61_r1l4" n="N004"/>jestät</rs> würklich=geheimen und Conferenz=Raht / wie auch Hof=
+      <lb facs="#facs_61_r1l5" n="N005"/>Kriegs=Rahts=Præsident / und General=Lieutenant / Ihro Durchleucht /
+      <lb facs="#facs_61_r1l6" n="N006"/><rs ana="MPRautomatched" cert="surname-start-match" ref="#mpr10441" type="person">Prinzen Eugeny von Savoyen</rs> / etc. der <rs type="person">Türkische Groß=Botschafter /
+      <lb facs="#facs_61_r1l7" n="N007"/>Vizier Mückerem, Rumeli Valesi Bajesile Taja-Sade, Ibrahim
+      <lb facs="#facs_61_r1l8" n="N008"/>Bassa, &amp;c.</rs> den <date when="1719-09-07">7. September / 1719</date>. gehabt.</head>
+    <p>
+      <lb facs="#facs_61_r1l9" n="N009"/>Alldieweilen bey Ihrer Glorwürdigst=Regierend=Römisch=Kaiser<lb rend="#shy" break="no" facs="#facs_61_r1l10" n="N010"/>lich= und Königlich=Catholischen Majestät würklich=geheimen / und Conferenz=
+      <lb facs="#facs_61_r1l11" n="N011"/>Raht / wie auch Hof=Kriegs=Rahts=Præsidenten / General=Lieutenant / Dero und
+      <lb facs="#facs_61_r1l12" n="N012"/>des Heil. Römischen Reichs Feld=Marschallen / wie auch Guverneur= und Capitain=
+      <lb facs="#facs_61_r1l13" n="N013"/>General derer Kaiserlich=Oesterreichischen Niederlanden / und Obristen über ein
+      <lb facs="#facs_61_r1l14" n="N014"/>Regiment Dragoner / Ihro Durchleucht / <rs type="person">Prinzen Eugeny / etc.</rs> Rittern des goldenen
+      <lb facs="#facs_61_r1l15" n="N015"/>Vlieses / der <date when="1719-08-14">den 14. Augusti</date> dahier angekommen=<rs type="person">Türkische Herr Groß=Botschafter /
+        <lb facs="#facs_61_r1l16" n="N016"/>Ibrahim Bassa &amp;c.</rs> auch um offentliche Audienz geziemend angehalten / und Ihre Durch<lb rend="#shy" break="no" facs="#facs_61_r1l17" n="N017"/>leucht demselben dieser / Vormit<lb rend="#shy" break="no" facs="#facs_61_r1l18" n="N018"/>tags / um eilf Uhr / in nachfolgender Ordnung / und Begleitung zu besagter Audienz ver<lb rend="#shy" break="no" facs="#facs_61_r1l19" n="N019"/>füget;</p><p>
+      <lb facs="#facs_61_r1l20" n="N020"/>Erstlichen kamen 30. Mann von dem allhiesig=Kaiferlichen Leib= und Stadt=Garde=
+          <lb facs="#facs_61_r1l21" n="N021"/>Regiment / unter Aufführung <rs type="person">des Herrn Hauptmann / Jacob von Picki</rs>.</p><p>
+            <lb facs="#facs_61_r1l22" n="N022"/>2. Kamen 2. Hand=Pferde <rs type="person">des Türkischen Herrn Groß=Botschafters Hof=Mar<lb rend="#shy" break="no" facs="#facs_61_r1l23" n="N023"/>schallen</rs>.</p><p>
+              <lb facs="#facs_61_r1l24" n="N024"/>3. Ritte des <rs type="person">Türkischen Herrn Groß=Botschafters Hof=Marschall / oder Chiaja</rs>, mit sei<lb rend="#shy" break="no" facs="#facs_61_r1l26" n="N025"/>nen Bedienten.</p><p>
+                <lb facs="#facs_61_r1l27" n="N026"/>4. Wurd ein Præsent=Pferd / welches sehr kostbar ausgerüstet gewesen / geführet.</p><p>
+      <lb facs="#facs_61_r1l29" n="N027"/>5. Wurde wieder ein statliches Præsent=Pferd / aber ohne Zeug / geführet; Bey
+      <lb facs="#facs_61_r1l31" n="N028"/>welchen jedesmalen ein gemeiner Türk mit einen Schwam gangen / um diese
+      <lb facs="#facs_61_r1l32" n="N029"/>Pferde von dem Schweiß / oder Staub sauber zumachen; Wie solches auch
+                  <lb facs="#facs_61_r1l33" n="N030"/>den <date when="1719-09-04">4. September</date> / als bey Ihro <rs type="person">Kaiserlichen Majestät</rs> der <rs type="person">Herr Groß=Bot<lb rend="#shy" break="no" facs="#facs_61_r1l35" n="N031"/>schafter</rs> Audienz gehabt / beobachtet worden.</p><p>
+                    <lb facs="#facs_61_r1l36" n="N032"/>6. Wurd ein Maulthier geführet / darauf die übrige Præsenten geladen gewesen.</p><p>
+                      <lb facs="#facs_61_r1l38" n="N033"/>7. Ritten die Divan Chiausen.</p><p>
+                        <lb facs="#facs_61_r1l40" n="N034"/>8. Ritten die Delli und Guiöli mit ihren Officieren.</p><p>
+                          <lb facs="#facs_61_r1l43" n="N035"/>9. Ritten die vornehmste Officiers von dem <rs type="person">Herrn Groß=Botschafter</rs>.</p><p>
+                            <lb facs="#facs_61_r1l45" n="N036"/>10. Wurden des <rs type="person">Herrn Groß=Botschafters</rs> Hand=Pferde geführet.</p><p>
+      <lb facs="#facs_61_r1l47" n="N037"/>11. Der <rs type="person">Ottomannische General=Adjutant / und der Ober=Cammerer</rs> des <rs type="person">Herrn
+        <lb facs="#facs_61_r1l49" n="N038"/>Groß=Botschafters</rs>.</p><p>
+      <lb facs="#facs_61_r1l50" n="N039"/>12. Ritte der <rs type="person">Türkische Legations=Secretarius</rs> / das Schreiben des <rs type="person">Groß=Sul<lb rend="#shy" break="no" facs="#facs_61_r1l51" n="N040"/>tans</rs> / und <rs type="person">Groß=Veziers</rs> halb auf der Achsel / und halb auf den Händen / in
+          <lb facs="#facs_61_r1l52" n="N041"/>einem roten Sammet eingemacht / tragend.</p><p>
+      <lb facs="#facs_61_r1l53" n="N042"/>13. Giengen von Ihrer Durchleucht / <rs type="person">Prinzen Eugeny /</rs> 10. Laggeyen / paar und
+<pb facs="#facs_62" n="62" xml:id="img_0062"/><!--<ab facs="#facs_62_r1"/><ab facs="#facs_62_r2">-->
+      <lb facs="#facs_62_r2l1" n="N001"/>paar / in der neuen Liverey / so von rot= feinem Tuch / und mit weiss= und
+            <lb facs="#facs_62_r2l2" n="N002"/>blau=seidenen Borden bebramt gewesen.</p><p>
+      <lb facs="#facs_62_r2l3" n="N003"/>14. Kam Ihrer Durchleucht / <rs type="person">Prinzen Eugeny</rs> / prächtiger Leib=Wagen / von 6. stat<lb rend="#shy" break="no" facs="#facs_62_r2l5" n="N004"/>lichen und mit kostbaren Zeugen ausstaffirten Rappen gezogen; Oben ansasse
+      <lb facs="#facs_62_r2l6" n="N005"/>der <rs type="person">Türkische Herr Groß=Botschafter</rs> in seinem gewöhnlich=gelben Atlassen Ober=
+      <lb facs="#facs_62_r2l7" n="N006"/>Rock mit Satin und Zobel gefüttert / auch sein sonst gebräuchlichen Turband auf<lb rend="#shy" break="no" facs="#facs_62_r2l8" n="N007"/>habend; Welchen er auch bey der Audienz behalten / allein: und gegen über der
+              <lb facs="#facs_62_r2l9" n="N008"/><rs type="person" ref="#mpr15757">Kaiserl. Hof=Dollmetsch / Herr Andreas Schmidt</rs> / als welcher den <rs type="person">Herrn Groß=
+      <lb facs="#facs_62_r2l10" n="N009"/>Botschafter</rs> abgeholet hat; Zu beeden Seiten gieng ein Laggey von Ihro Durch<lb rend="#shy" break="no" facs="#facs_62_r2l11" n="N010"/>leucht / dan des <rs type="person">Herrn Groß=Botschafters Madraczi Bassi und Dufeckci Bassi</rs>,
+              <lb facs="#facs_62_r2l12" n="N011"/>mit denen Unter=Lieutenants / Laggeyen und Lauffern.</p><p>
+                <lb facs="#facs_62_r2l13" n="N012"/>15. Der <rs type="person">Silictar Aga, oder Waffentrager / und Tscohadar Aga, oder erster Cammer=Die<lb rend="#shy" break="no" facs="#facs_62_r2l15" n="N013"/>ner des Herrn Groß=Botschafters</rs>.</p><p>
+      <lb facs="#facs_62_r2l16" n="N014"/>16. Giengen die Janitscharen / mit ihren Officieren / ohne Gewehr / wia es bey den
+                  <lb facs="#facs_62_r2l18" n="N015"/>Audienzen allezeit gewöhnlich pfleget gehalten zuwerden.</p><p>
+      <lb facs="#facs_62_r2l19" n="N016"/>17. Ritten des <rs type="person">Herrn Groß=Botschafters</rs> sein vornehmste Cammer=Bedienten und
+      <lb facs="#facs_62_r2l21" n="N017"/>Pagen; Die Chiausen aber ritten bald Hinten / bald Vorn / um den Zug zu
+      <lb facs="#facs_62_r2l22" n="N018"/>commandiren; Dabey auch jedesmalen ein Türk ritte / welcher ein groß=le<lb rend="#shy" break="no" facs="#facs_62_r2l23" n="N019"/>dernen Sack mit Wasser bey sich gehabt / und währendem Zug / gleichwie
+                    <lb facs="#facs_62_r2l24" n="N020"/>bey dem Einzug / und der jüngsten Audienz / denen Türken aus ein klein le<lb rend="#shy" break="no" facs="#facs_62_r2l25" n="N021"/>dernem Sack zutrinken gegeben.</p><p>
+      <lb facs="#facs_62_r2l26" n="N022"/>18. Machten den Schluß dreysig Mann von dem Kaiserlichen Leib= und Stadt=Garde=
+                      <lb facs="#facs_62_r2l27" n="N023"/>Regiment / mit dem <rs type="person">Herrn Lieutenant Radelmayer</rs>.</p><p>
+      <lb facs="#facs_62_r2l28" n="N024"/>Der Zug geschahe wieder von der <rs ana="MPRautomatched" cert="placename-fullmatch" ref="#mpr1762" type="place">Leopoldstadt</rs> aus dessen Quartier / dem gol<lb rend="#shy" break="no" facs="#facs_62_r2l29" n="N025"/>denen Lambel / über die Schlagbrucke durch den roten Thurn / und der graden
+      <lb facs="#facs_62_r2l30" n="N026"/>Karntner=Strassen bis in die sogenante Himmelpfort=Gassen / als daselbsten das
+                        <lb facs="#facs_62_r2l31" n="N027"/>schön= und prächtige Gebäu Ihrer Durchleucht / <rs type="person">Prinzen Eugeny</rs> / befindlich;</p><p>
+      <lb facs="#facs_62_r2l32" n="N028"/>In welches der <rs type="person">Herr Groß=Botschafter</rs> einfuhre / und daselbsten ausstiege /
+      <lb facs="#facs_62_r2l33" n="N029"/>alda ihn sogleich bey dem Wagen Ihrer Durchleucht <rs type="person">Stallmaister / Herr Obrist=
+      <lb facs="#facs_62_r2l34" n="N030"/>Lieutenant / Baron von Wildenfeld</rs> / und Dero <rs type="person">Hofmaister / Herr Desiderius Par<lb facs="#facs_62_r2l35" n="N031" rend="#shy" break="no"/>terre</rs>, wie auch deroselben zwey Cammer=Dienere / als <rs type="person">Herr Antonius Benedetti</rs>.
+      <lb facs="#facs_62_r2l36" n="N032"/>und <rs type="person">Herr Joseph Schmid</rs> / empfangen / und ihn / samt seinen vornehmsten Officieren /
+      <lb facs="#facs_62_r2l37" n="N033"/>über die grosse Stiege zwischen beederseits / unter dem <rs type="person">Herrn Hauptmann / Fer<lb rend="#shy" break="no" facs="#facs_62_r2l38" n="N034"/>dinand Joseph de Pegorini</rs>, im Gewehr gestanden=zahlreicher Mannschaft von
+                          <lb facs="#facs_62_r2l39" n="N035"/>dem Kaiserlichen Leib= und Stadt=Garde=Regiment / hinauf und durch den Saal be<lb rend="#shy" break="no" facs="#facs_62_r2l40" n="N036"/>gleitet hatten;</p><p>
+      <lb facs="#facs_62_r2l41" n="N037"/>Alda Namens Ihrer Hochfürstlichen Durchleucht Ihrer Römisch= Kaiserlich=
+      <lb facs="#facs_62_r2l42" n="N038"/>und Catholichen Majestät würklicher Hof=Kriegs=Raht / Feld=Marschall und Obri<lb rend="#shy" break="no" facs="#facs_62_r2l43" n="N039"/>ster über ein Regiment zu Fuß / <rs type="person">Titl. Herr Scipio, Marches Bagni</rs> , den Herrn
+      <lb facs="#facs_62_r2l44" n="N040"/><rs type="person">Groß=Botschafter</rs> complimentiret: und folgends denselben in Ihrer Durchleucht
+      <lb facs="#facs_62_r2l45" n="N041"/>Audienz=Zimmer / so mit den Gliedern des Kaiserlichen Hof=Kriegs=Rahts / und
+      <lb facs="#facs_62_r2l46" n="N042"/>Hof=Kriegs=Canzley / dan den subordinirten Kriegs=Aemtern / wie ingleichem
+      <lb facs="#facs_62_r2l47" n="N043"/>vielen Generals= wie auch ander=vornehmen Personen / so alle in Galla erschienen /
+                            <lb facs="#facs_62_r2l48" n="N044"/>angefüllet gewesen / hinein geführet;</p><p>
+      <lb facs="#facs_62_r2l49" n="N045"/>Aldort sassen Ihre Hochfürstliche Durchleucht auf einem grün=sammeten mit
+      <lb facs="#facs_62_r2l50" n="N046"/>Gold bordirten Lehn=Sessel / wie dan auch das Zimmer mit grün= und dick mit
+      <lb facs="#facs_62_r2l51" n="N047"/>Gold=gestikten Spastieren ausgezieret gewesen / in einem Mausfarben und mit
+      <lb facs="#facs_62_r2l52" n="N048"/>breit=goldenen Borden bebramten Campagne=Kleyd / den goldenen Vließ vorn ha<pb facs="#facs_63" n="63" xml:id="img_0063"/><!--<ab facs="#facs_63_r1"/><ab facs="#facs_63_r2">-->
+      <lb break="no" rend="#shy" facs="#facs_63_r2l4" n="N001"/>bend / mit einem auch mit Gold bebramten Hut / darauf ein prächtigste Schliesen
+      <lb facs="#facs_63_r2l5" n="N002"/>von Diamanten gewesen / zur Seiten auch ein kostbaren mit Diamanten besezten
+      <lb facs="#facs_63_r2l6" n="N003"/>Degen tragend / mit welchem von Ihro <rs type="person">Kaiserl. Majestät</rs> Ihre <rs type="person">Hochfurstl. Durchl.</rs>
+                              <lb facs="#facs_63_r2l7" n="N004"/>vor etlichen Jahren Allergnädigst beschenket worden.</p><p>
+      <lb facs="#facs_63_r2l8" n="N005"/>Auf Ihrer <rs type="person">Hochfürstlichen Durchleucht</rs> rechter Seiten war Ihrer Römisch=
+      <lb facs="#facs_63_r2l9" n="N006"/>Kaiserlich= und Königlich=Catholischen Majestät würklich=geheimer Raht / Cammerer /
+      <lb facs="#facs_63_r2l10" n="N007"/>und Hof=Kriegs=Rahts Vice=Præsident / Leib=Gardi=Hartschieren=Hauptmann / Feld=
+      <lb facs="#facs_63_r2l11" n="N008"/>Marschall / und General der Windisch= und Petrinianischen Gränzen / wie auch
+      <lb facs="#facs_63_r2l12" n="N009"/>Obrister über ein Regiment zu Fuß / <rs type="person">Titl. Herr Leopold / des Heil. Röm. Reichs
+      <lb facs="#facs_63_r2l13" n="N010"/>Graf von Herberstein / rc.</rs> samt dem Hochlöblichen Hof=Kriegs=Raht / nach dem Rang :
+      <lb facs="#facs_63_r2l14" n="N011"/>Und auf Dero linken Seiten der Kaiserliche Hof=Kriegs=Raht wie auch geheime
+      <lb facs="#facs_63_r2l15" n="N012"/>Referendarius, <rs type="person">Titl. Herr Anton Joseph von Oettel / etc.</rs> und sonsten herum die
+                                <lb facs="#facs_63_r2l16" n="N013"/>Kaiserliche Generalen / wie auch viel ander=vornehme Personen gestanden.</p><p>
+      <lb facs="#facs_63_r2l17" n="N014"/>Bey Eintrettung des <rs type="person">Herrn Groß=Botschafters</rs> in besagtes Audienz=Zimmer war
+      <lb facs="#facs_63_r2l18" n="N015"/>ren Ihre <rs type="person">Hochfürstliche Durchleucht</rs> alsobald dem <rs type="person">Herrn Groß=Botschafter</rs> bis drey
+      <lb facs="#facs_63_r2l19" n="N016"/>Schrit entgegen gangen / und hatten Dero Hut etwas berührt; Sodan mach<lb rend="#shy" break="no" facs="#facs_63_r2l20" n="N017"/>te derselbe seine Reverenz / mit jedesmaliger Neigung des Haupts / und Druckung
+      <lb facs="#facs_63_r2l21" n="N018"/>der rechten Hand an die Brust / und liese sich sofort auf den Sessel / welcher gegen
+      <lb facs="#facs_63_r2l22" n="N019"/>Ihro <rs type="person">Durchleucht</rs> über / zwischen einem silbernen Tisch / so / wie die Sessel / auch
+      <lb facs="#facs_63_r2l23" n="N020"/>auf einem ausgebreiteten Teppich gestanden / auf beschehene Anweisung nieder /
+                                  <lb facs="#facs_63_r2l24" n="N021"/>und tahte hiernächst seine Ansprach in Türkischer Rede; Welche der <rs type="person" ref="#mpr15757">Kaiserliche Hof=
+        <lb facs="#facs_63_r2l25" n="N022"/>Dollmetsch / Herr Schmid</rs> / folgender Weise verdollmetschete:</p><p>
+      <lb facs="#facs_63_r2l26" n="N023"/>Es habe der <rs type="person">Groß=Sultan</rs> ihm den Befehl gegeben / nach der bey Ihro
+      <lb facs="#facs_63_r2l27" n="N024"/><rs type="person">Kaiserlichen Majestät</rs> gehabten Audienz / auch zu Dero <rs type="person">Kriegs=Präsidenten</rs>
+      <lb facs="#facs_63_r2l28" n="N025"/>zubegeben / dessen Wohlstand sich zuerkündigen / und ihme <rs type="person">des Groß=Sultans</rs> /
+      <lb facs="#facs_63_r2l29" n="N026"/>wie auch des <rs type="person">Groß=Veziers</rs> Schreiben zubehändigen / und Demselben zuer<lb rend="#shy" break="no" facs="#facs_63_r2l30" n="N027"/>suchen / daß er die gute Verständnuß und Freundschaft zwischen beyden Kaise<lb rend="#shy" break="no" facs="#facs_63_r2l31" n="N028"/>ren bestätigen: und zu der Erhaltung des zu Possarowitz geschlossen= Heiligen
+          <lb facs="#facs_63_r2l32" n="N029"/>Frieden alles beytragen wolle;</p><p>
+      <lb facs="#facs_63_r2l33" n="N030"/>Ein gleichmässigen Befehl hab ihm auch der <rs type="person">Groß=Vezier</rs> aufgetragen /
+      <lb facs="#facs_63_r2l34" n="N031"/>um Ihro <rs type="person">Durchleucht</rs> seiner Freundschaft nebst Uberreichung dessen Briefs zu<lb rend="#shy" break="no" facs="#facs_63_r2l35" n="N032"/>versicheren / in der Hofnung / daß / gleichwie er alle Sorgfalt brauchen werde /
+      <lb facs="#facs_63_r2l36" n="N033"/>um die zwischen beyden Mächtigsten Kaiseren und Dero Reichen gestiftet=gute
+      <lb facs="#facs_63_r2l37" n="N034"/>Verständnuß / zufordrist aber den Frieden in all=seinen Puncten genau und
+      <lb facs="#facs_63_r2l38" n="N035"/>beständig zubeobachten / also derselbe sich desgleichen von Ihro Durchleucht
+      <lb facs="#facs_63_r2l39" n="N036"/>versehete / und dieselbe ersuchte / Dero höchsten Orts auch nichts zuermanglen /
+            <lb facs="#facs_63_r2l40" n="N037"/>was dazu vorträglich seyn mögte,</p><p>
+      <lb facs="#facs_63_r2l41" n="N038"/>Ihre <rs type="person">Hochfürstliche Durchleucht</rs> hatten diese Ansprach auf Teutsch mit vielen
+      <lb facs="#facs_63_r2l42" n="N039"/>Gegen=Versicherungen beantwortet / welche der <rs type="person">Herr Groß=Botschafter</rs> / nach der
+      <lb facs="#facs_63_r2l43" n="N040"/>von dem <rs type="person">Herrn Hof=Dollmetsch</rs> getahnen Verdollmetschung / mit sehr freundlichen
+      <lb facs="#facs_63_r2l44" n="N041"/>Minen angenommen / und zugleich vorgebracht: daß der <rs type="person">Groß=Sultan</rs> und <rs type="person">Groß=
+        <lb facs="#facs_63_r2l45" n="N042"/>Vezier</rs> für Ihre <rs type="person">Durchleucht</rs> auch etliche Præsenten zum Zeichen der neuen Freund<lb rend="#shy" break="no" facs="#facs_63_r2l46" n="N043"/>schaft ihme mitgegeben habe / welche er dan hiermit überreichen wolte;</p><p>
+      <lb facs="#facs_63_r2l47" n="N044"/>Dafür Sich Ihre <rs type="person">Durchl.</rs> bedankten / und unter andern den <rs type="person">Hrn. Groß=Botschaf<lb rend="#shy" break="no" facs="#facs_63_r2l48" n="N045"/>ter</rs> befragten / ob ihme nicht einige Erfrischung beliebte; Welcher darauf antwor<lb rend="#shy" break="no" facs="#facs_63_r2l49" n="N046"/>tete / daß er sich alles / was Ihro <rs type="person">Durchleucht</rs> beliebte / gefallen lasse; Hiernächst=
+      <lb facs="#facs_63_r2l50" n="N047"/>Ihre <rs type="person">Durchleucht</rs> auf einer goldenen Tazza Caffee: auf silbernen aber Früchten / Con ;
+      <lb facs="#facs_63_r2l51" n="N048"/>fecturen / und allerhand Wasser für den <rs type="person">Herrn Groß=Botschafter</rs> bringen lassen.
+<pb facs="#facs_64" n="64" xml:id="img_0064"/><!--<ab facs="#facs_64_r1">-->
+      <lb facs="#facs_64_r1l2" n="N001"/>Welcher / gleichwie auch Ihre <rs type="person">Hochfürstliche Durchleucht</rs> dan Caffes genommen /
+      <lb facs="#facs_64_r1l3" n="N002"/>auch sonsten ein= und andets genossen; Hiernächst sich gegen Ihre Hochfürstliche
+      <lb facs="#facs_64_r1l4" n="N003"/>Durchleucht der <rs type="person">Herr Groß=Botschafter</rs> sofort wieder höflichst beurlaubte / und eben
+      <lb facs="#facs_64_r1l5" n="N004"/>auf die Manier / wie er hinein: also auch=wieder daraus sich erhube / da ihn dan
+      <lb facs="#facs_64_r1l6" n="N005"/>sogleich zwey von dessen Cammereren 
+      <lb facs="#facs_64_r1l7" n="N006"/>hatten; Ihre Durchleucht berührten hierbey wieder etwas Dero Hut / wie Sie es
+      <lb facs="#facs_64_r1l8" n="N007"/>eben auch so oft getahn / als man was von Ihro <rs type="person">Kaiserlich= und Catholischen Ma<lb rend="#shy" break="no" facs="#facs_64_r1l9" n="N008"/>jestät</rs> erwehnet hatte / und gaben demselben wieder 3. bis 4. Schrit: der Kaiserliche
+      <lb facs="#facs_64_r1l10" n="N009"/><rs type="person">Herr General / Marches Bagni</rs>, aber bis in den Saal: und folglichen die andere
+          <lb facs="#facs_64_r1l11" n="N010"/>Herren wieder bis an den Wagen das Geleit;</p><p>
+      <lb facs="#facs_64_r1l12" n="N011"/>Da dan der <rs type="person">Herr Groß=Botschafter</rs> / samt seinem Gefolg 
+      <lb facs="#facs_64_r1l13" n="N012"/>unter vormalig= im Gewehr gestandener Mannschaft von dem Kaiserlichen Leib= und
+      <lb facs="#facs_64_r1l14" n="N013"/>Stadt=Garde=Regiment / unter Vorausgehung des <rs type="person">Herrn Hauptmann von Picki</rs>,
+      <lb facs="#facs_64_r1l15" n="N014"/>mit seiner Mannschaft / und Schliesung des <rs type="person">Herrn Lieutenant Radelmayers</rs> / mit
+            <lb facs="#facs_64_r1l16" n="N015"/>eben auch seiner Mannschaft / nach dem Quartier in vorbesagte <rs ana="MPRautomatched" cert="placename-fullmatch" ref="#mpr1762" type="place">Leopoldstadt</rs> höchst<lb rend="#shy" break="no" facs="#facs_64_r1l17" n="N016"/>vergnügt von den empfangenen Ehren nach zwölf Uhr sich zuruck begeben hatte.</p>
+  </div>
+    <div>
+      <head><lb facs="#facs_64_r1l22" n="N017"/>Præsenten /
+      <lb facs="#facs_64_r1l23" n="N018"/>Welche Ihro <rs type="person">Hochfürstlichen Durchleucht / Prinzen Eugeny
+      <lb facs="#facs_64_r1l24" n="N019"/>von Savoyen / etc.</rs> der <rs type="person">Groß=Sultan</rs> und <rs type="person">Groß=Vezier</rs>
+      <lb facs="#facs_64_r1l25" n="N020"/>geschicket.</head>
+      <list type="giftlist">
+      <item><lb facs="#facs_64_r1l26" n="N021"/>1. Türkisch=falbes Pferd / dessen Brust= und Haupt=Stuck von purem Silber und
+      <lb facs="#facs_64_r1l27" n="N022"/>vergoldt / und mit Corallen besezt; Der Sattel von rotem Sammet / und vorn
+      <lb facs="#facs_64_r1l28" n="N023"/>und hinten gestickt; Die Decke von Silber=Stuck aus Damasco; Die Steig<lb rend="#shy" break="no" facs="#facs_64_r1l29" n="N024"/>bügel auch von purem Silber / und vergoldt.
+      <lb facs="#facs_64_r1l30" n="N025"/>Noch ein Türkisch=braunes Pferd / aber ohne Sattel und Zeug; Dan /</item>
+      <item><lb facs="#facs_64_r1l31" n="N026"/>1. Messer / zum Einstecken / dessen Handgrif mit Diamanten; wie auch die Scheid /
+      <lb facs="#facs_64_r1l32" n="N027"/>so von Gold ware / mit Diamanten / Rubinen / und Grenaden besezt: des<lb rend="#shy" break="no" facs="#facs_64_r1l33" n="N028"/>gleichen bey der Spiz der Scheid ein schöner Tropffen Schmaragd gewesen.</item>
+      <item><lb facs="#facs_64_r1l34" n="N029"/>5. Banseher / oder das kostbarste aus dem Leib einer Schlangen.</item>
+      <item><lb facs="#facs_64_r1l35" n="N030"/>5. Nabel / oder Mägen von dem Bisam.</item>
+      <item><lb facs="#facs_64_r1l36" n="N031"/>50. Miscal Ambra / das ist 18. Loht / und 3. Quintel unsers Gewichts.</item>
+      <item><lb facs="#facs_64_r1l37" n="N032"/>1. Stuck Weiß=Indianischen Zeugs / Cutnu genant.</item>
+      <item><lb facs="#facs_64_r1l39" n="N033"/>2. Stuck deto gestreiften Zeugs.</item>
+      <item><lb facs="#facs_64_r1l40" n="N034"/>1. Stuck Indianischen Zeugs / auf ein andere Art.</item>
+      <item><lb facs="#facs_64_r1l41" n="N035"/>1. Stuck Zeug / Gemesut genant.</item>
+      <item><lb facs="#facs_64_r1l42" n="N036"/>3. Indianisch=kostbare Leib=Binden / Schall genant.</item>
+      <item><lb facs="#facs_64_r1l44" n="N037"/>3. Stuck Constantinopolitanischen Drap d’Or.</item>
+      <item><lb facs="#facs_64_r1l45" n="N038"/>1. Deto Stuck Constantinopolitanischen Drap d’Or, darauf noch Gold gesticket.</item>
+      <item><lb facs="#facs_64_r1l47" n="N039"/>1. Groß=Seiden Persianischer Teppich / darin viel silberne Blumen gewirket.</item>
+      <item><lb facs="#facs_64_r1l48" n="N040"/>10. Fein=Türkische Turband / oder Binden um den Bund.</item>
+      <item><lb facs="#facs_64_r1l49" n="N041"/>1. Weiß=Seidener Beht=Teppich.</item>
+      <item><lb facs="#facs_64_r1l50" n="N042"/>3. Deto kleine Teppich.</item>
+      </list>
+      <ab><lb facs="#facs_64_r1l54" n="N043"/>Wien / getruckt / in der Kaiserlichen Reichs= und Hof=Buchtruckerey.
+      <lb facs="#facs_64_r1l55" n="N044"/>Zufinden im roten=Igel.</ab>
+</div>
+  </body></text></TEI>

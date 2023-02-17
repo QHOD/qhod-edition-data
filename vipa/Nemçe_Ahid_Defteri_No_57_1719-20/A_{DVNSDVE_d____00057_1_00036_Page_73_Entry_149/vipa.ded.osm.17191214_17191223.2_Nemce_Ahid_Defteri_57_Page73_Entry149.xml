@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Befehlsschreiben des Sultans an den Richter von Chios, um
+                    sicherzustellen, dass Vincenzo Moroni volle Autorität in
+                    Übersetzungsangelegenheiten auf der Insel hat, und um Einmischungen durch andere
+                    zu verhindern; Istanbul, 14. Dezember – 23. Dezember 1719</title>
+
+                <title xml:lang="en">Sultan’s decree addressed to the judge of Chios, to make sure
+                    that Vincenzo Moroni has full authority in translation matters on the island and
+                    to prevent interference by others; Istanbul, December 14 – December 23,
+                    1719</title>
+
+                <title xml:lang="tr">Sultanın, Sakız kadısına hitaben yazılmış, adada Vincenzo
+                    Moroni’nin tercümanlık işleri hakkında tek yetkili olması ve başklarının
+                    müdahele etmesinin engellenmesi hakkında hükmü; İstanbul, 14 Aralık – 24 Aralık,
+                    1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17191214-17191223.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 73, entry 149</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-12-14" notAfter="1719-12-23"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p> Befehlsschreiben des Sultans an den Richter von Chios, um sicherzustellen, dass
+                    Vincenzo Moroni volle Autorität in Übersetzungsangelegenheiten auf der Insel hat
+                    und um Eingriffe durch andere zu verhindern; Istanbul, 14. Dezember – 23.
+                    Dezember 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung:
+                    Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts
+                    und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>Decree to the judge of Chios (Sakız) that the dragoman Vincenzo Moroni
+                        should be the sole authority on interpretership for the Austrian affairs on
+                        the island of Chios</item>
+                    <item>nīşān-ı hümāyūn</item>
+                    <item>berat</item>
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>Chios</item>
+                    <item>Sakız</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00036_Page_73_Entry_149.jpg" xml:id="IMG1"/>
+        </surface>
+        <!--<rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                <rs type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki:</rs>
+                <rs type="place" ref="#mpr14602">Nīş</rs>
+                <rs type="person" ref="#mpr14242">muḥāfıẓı vezīre</rs>Abdullah Pasha
+                <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>
+                <rs type="place" ref="#mpr9425">Belġrād</rs>
+                <rs type="person" ref="#mpr14244">Buyurdum ki</rs>
+                <rs type="place" ref="#mpr6718">Nemçe</rs>
+                <rs type="place" ref="#mpr13416">Wien</rs>
+                <rs type="place" ref="#mpr7448">Buda</rs>
+                <rs type="place" ref="#mpr9372">Erdel</rs>
+                <rs type="place" ref="#mpr7118">Ottoman Empire</rs>-->
+
+
+    </facsimile>
+
+    <text type="decree">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17191214-17191223.2">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">149</metamark>
+
+                <ab><lb/><rs type="place" ref="#mpr15308">Sāḳız</rs> ḳāḍīsına ḥüküm:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından <lb/>der-i devlet-medāruma büyükilçilik ile gelen
+                        <rs type="person" ref="#mpr9435">Cenerāl Ġrūf <lb/>de Virmond</rs> ḫutimet
+                    ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme ʿarż-ı ḥāl gönderüb</ab>
+
+                <ab>
+                    <lb/>memālik-i maḥrūsemde <rs type="place" ref="#mpr15308">Sāḳız</rs> cezīresine
+                    müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>nuñ
+                    <lb/>bayraġıyla gelüb gidüb tüccār ve reʿāyāsınuñ vāḳiʿ olan maṣāliḥ <lb/>ve
+                    umūrları görmek üzere <rs type="person" ref="#mpr15452">Vincāco (Vincenzo)
+                        Moroni</rs> veled-i Kurumi(?) berāt-ı <lb/>şerīfümle tercümān naṣb olunub
+                    yedine berāt-ı ʿālī-şānum virildügin <lb/>bildürüb mūcebince tercümānlıḳ
+                    meẕkūr-ı mesfūra żabṭ itdürilüb <lb/>āḫarı müdāḫale itdürilmemek bābında emr-i
+                    şerīfüm ricā eylemegin berat-ı <lb/>mūcebince żabṭ itdürilmek bābında emrüm
+                    olmışdur.</ab>
+
+                <ab>Buyurdum ki <lb/>vuṣūl bulduḳda bu bābda ṣādır olan emrüm üzere ʿamel daḫī
+                    <lb/>ẕikr olunan tercümānlıġı yedinde olan berāt-ı ʿālī-şānum <lb/>mūcebince mesfūr
+                        <rs type="person" ref="#mpr15452">Vincāco (Vincenzo) Moroni</rs> veled-i
+                    Kurūmiyye żabṭ <lb/>itdürdüb min baʿd berātına ve emr-i hümāyūnuma muḫālif
+                    <lb/>āḫardan bir ferdi daḫl ve taʿarruż itdürmeyesin <lb/>şöyle bilesin.</ab>
+
+
+                <ab><date type="Hijri" notBefore="1719-12-14" notAfter="1719-12-23">fī evāil-i
+                            Ṣ<supplied resp="#yy">afer</supplied> sene 1132</date></ab>
+
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17191214-17191223.2.translation">
+                <pb n="1" facs="IMG01"/>
+
+
+                <ab>Decree to the judge of <rs type="place" ref="#mpr15308">Chios</rs>:</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as
+                    grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>,
+                    the paragon of the great commanders of the community of Messiah, sent a petition
+                    to my threshold of felicity [about the following matter]:</ab>
+
+                <ab><rs type="person" ref="#mpr15452">Vincenzo Moroni</rs> son of Kurumi (?)has been
+                    appointed with my noble charter (berāt) as an interpreter to the <rs
+                        type="place" ref="#mpr15308">Chios</rs> island in my well-protected domains
+                    to travel there under the flag of the <rs type="person" ref="#mpr9399">Roman
+                        emperor</rs> and to take care of the affairs and matters of the merchants
+                    and subjects of the <rs type="person" ref="#mpr9399">Roman emperor</rs>. [The
+                    ambassador] reported that a glorious charter of mine was handed to (the
+                    interpreter) and requested my most noble order that the aforesaid (interpreter)
+                    shall have authority over interpretation; others shall be prevented from
+                    interfering with it. Upon that, my order has been issued that (the interpreter)
+                    should control the matter of interpretation in accordance with the imperial
+                    charter.</ab>
+
+                <ab>I command that, when my order that has been issued about that matter arrives,
+                    you shall act in accordance with it. You shall have the aforesaid <rs
+                        type="person" ref="#mpr15452">Vincenzo Moroni</rs>, son of Kurumi, have full control
+                    on the interpretation matter in accordance with my illustrious charter that is in his possession.
+                    From now on, you shall not allow a single person to interfere with or attack in
+                    violation of my imperial order. So shall you know.</ab>
+
+
+
+
+
+                <ab><date type="Hijri" notBefore="1719-12-14" notAfter="1719-12-23">December 14 to
+                        December 23, 1719</date></ab>
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

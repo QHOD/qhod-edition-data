@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über die Abschiedsaudienz von Damian Hugo von Virmont beim Sultan, Istanbul,
+                    2. April, 1720</title>
+                <title xml:lang="en">Protocol register of the departure audience of Damian Hugo von Virmont with the Sultan, Istanbul, 
+                    Istanbul, April 2, 1720</title>
+                <title xml:lang="tr">Teşrifat defter kaydı, Damian Hugo von Virmont’un veda töreni için Sultan’ın
+                    huzuruna kabulü, İstanbul, 2 Nisan 1720</title>
+                
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17200402</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it's only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 78</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-02"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über die Abschiedsaudienz von Damian Hugo von Virmont beim Sultan, Istanbul, 2. April, 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00038a.jpg" xml:id="IMG01"/>
+        </surface>
+        
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17200402">
+            <pb n="1" facs="#IMG01"/>
+                      
+            <ab><lb/><hi rend="#red"><date type="#Hijri" notBefore="1719" notAfter="1720">Biñ yüz otuz bir senesinde</date> ṣulḥnāme <add place="superlinear">ile</add>
+                <rs type="person" ref="#mpr9399">Nemçe çāsārı</rs> ṭarafından
+                <lb/>Āsitāneye gelen <rs type="person" ref="#mpr9435">kebīr ilçinüñ</rs> ʿavdete meʾẕūn olub nāme-i hümāyūnı aldıġ ı gün
+                <lb/>vāḳiʿ olan keyfiyetdir. Der sene</hi> <date type="Hijri" when="1720-04-02">1132
+                    fī 23 C<supplied resp="#yy">emaziyülevvel</supplied></date></ab>
+                
+                <ab><lb/><date type="#Hijri" when="1720-04-02">Māh-ı mezbūruñ yigirmi üçünci Ṣalı güni</date> 
+                    <rs type="person" ref="#mpr9399">Nemçe çāsārı</rs> ṭarafından ṣulḥnāme ile gelen
+                <lb/><rs type="person" ref="#mpr9435">kebīr ilçi</rs> ʿavdete meʾẕūn olub dīvān-ı hümāyūnda nāmesin almaġ la ẕikr olunur.</ab>
+                
+                <note xml:id="ftn1" type="editorial" resp="#yy"><ref target="/o:vipa.tr.hbg.1723#facs_397">The Austrian secretary C. Driesch noted the date of the 
+                audience as April 3, 1720.</ref></note>
+                
+            <ab><lb/>Yevm-i mezbūrda ġ alebe dīvān olub <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> içün muʿtād üzere dīvān 
+                <lb/>bisāṭı ile müzeyyen at ve begzādegān ve etbāʿı içün daḫı yüz otuz ḳadar 
+                <choice><corr>eyerlenmiş</corr><sic>egerlenmiş</sic></choice>
+                <lb/>atlar iskeleye irsāl ve çavuşbaşı aġ a ve kātib ve emīn ve ḳırḳ elli miḳdārı
+                <lb/>çavuşān iskeleye varub <rs type="person" ref="#mpr9435">ilçi-yi mezbūrı</rs> alay ile sarāy-ı hümāyūna getürüb</ab>
+                
+            <ab><lb/>dergāh-ı ʿālī yeñiçerileri çorbaya segirdecekleri zemān içerü ḳonub seyr
+                <lb/>ve temāşā iderek ḳubbeye ḳarīb geldükde devletlü <rs type="person" ref="#mpr9441">ṣadr-ı ʿālī ḥażretleri</rs> ḳoltuḳ
+                <lb/>oṭasına gidüb <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> derūn-i ḳubbeye dāḫıl oldıġ ı gibi
+                <lb/><rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> daḫı içerüden berü gelüb vüzerāʾ-i iʿżām ve ahālī-yi dīvān 
+                <lb/>ḳıyām eyledüklerinde <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs>
+                <rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> ḥażretlerine ḳarşudan temennī idüb
+                <lb/><rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> daḫı muʿāmele-i nevāziş göstererek ḳuʿūd eyledüklerinde</ab>
+                
+            <ab><rs type="person" ref="#mpr9435">ilçi-yi                
+                <lb/>mezbūr</rs> <rs type="person" ref="#mpr14715">Nişāncı vezīr-i mükerrem Muṣṭafā Paşa</rs> ḥażretlerinüñ altında ṭūlānī 
+                <lb/>ṣofanuñ üzerine oturub baʿdehū <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> baştercümānı çaġ ırub
+                <lb/><rs type="person" ref="#mpr9435">ilçiniñ</rs> ḥāl-i ḫaṭırın suʾāl itdürdi. Baʿdehū dīvān ḳurılub meṣāliḥ-i 
+                <lb/>ʿibād görüldükden ṣoñra ṭaʿām gelüb <rs type="person" ref="#mpr9435">ilçi</rs>
+                <rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> ile begzādegānı vüzerāʾ-i
+                <lb/>iʿẓām ve defterdārān ile iṭʿām olunub</ab>
+                
+            <ab>baʿde’l-ṭaʿām ʿarż olmaḳ üzere
+                <lb/>ḥużūr-i hümāyūna <corr>telḫīṣ</corr><sic>telḥīṣ</sic> olunub ḫaṭt-ı hümāyūn ile müşerref 
+                    <corr>telḫīṣi</corr><sic>telḥīṣi</sic> ḳapucılar ketḫüdāsı
+                <lb/>getürdükde <rs type="person" ref="#mpr9441">vezīr-i aʿẓ am</rs> ḥażretleri derūn-i ḳubbenüñ vasaṭını tecāvüz iderek
+                <lb/>istiḳbāl idüb baʿdehū gelüb yerine oturduḳda işāret-i ʿaliyye mūcebince
+                <lb/>çavuşbaşı <rs type="person" ref="#mpr9435">ilçiyi</rs> ḥazīne öñine götürüb gendüye ferāce yeñlü serāsere ḳablu semūr kürk
+                <lb/>ve begzādegān ve etbāʿına daḫı rūznāmçede ḳayd olunduġ u miḳdār ḫilʿatler ilbās
+                <lb/>olunub</ab>
+                
+            <ab>baʿdehū <rs type="person">yeñiçeri aġ ası</rs> ʿarża girüb baʿdehū ḳażʿasker efendiler ʿarża
+                <lb/>girüb çıḳduḳdan ṣoñra <rs type="person" ref="#mpr9441">vezīr-i aʿẓam</rs> ve sāʾir vüzerā ḥużūr-i hümāyūna girüb baʿdehū 
+                <lb/><rs type="person" ref="#mpr9435">ilçi</rs> daḫı kendi ile on altı nefer ʿarż a ḳonub ḥuẓūr-i hümāyūnda nāmesin <unclear>alub</unclear>
+                <lb/><rs type="person" ref="#mpr9435">ilçinüñ</rs> sırkātibi elleri üzerinde ṭaşra çıḳarmışdur.
+                <note xml:id="ftn2" type="editorial" resp="#yy">For the speech Virmont delivered in the presence of the sultan,
+                    <ref target="/o:vipa.tr.hbg.1723#facs_400">see the travelogue of C. Driesch.</ref></note></ab>
+                
+                
+                
+            <ab>Bu günde ḳapucıbaşılardan
+                <lb/>baʿżıları meʾmūren ṭaşralarda bulunmaġ la müteferriḳagāndan altı yedi nefer ḳapucı
+                <lb/>başılar ṭaḳımı ile Bābüʾl-saʿādede mevcūd itdürilmiş-idi. Baʿdehū <rs type="person" ref="#mpr9435">ilçi</rs> ṭaşra
+                <lb/>çıḳub orta ḳapunuñ <choice><corr>ḫāricinde</corr><sic>ḥāricinde</sic></choice> ṭaraf-ı ciḥ āndārīden iʿṭā ve iḥsān 
+                <lb/>olunan dīvān bisāṭlu ata süvār olub</ab>
+            
+            <ab>ḫāṣṣ fırūn dīvārı cānibinde
+                <lb/>at üzerinde ṭurub erbāb-ı dīvān biʾl-cümle mürūr idince temāşā
+                <lb/>itdürilüb baʿdehū çavuşlar kātibi ve emīni ve çavuşān ile iskeleye <unclear reason="illegible">degin</unclear>
+                <lb/>alay ile götürilmişdür. Ancaḳ çavuşbaşı ʿavdetde gitmek ḳānūn olmamaġ la gitmemişdür.</ab>
+                </div>
+                
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190402-transl">
+                <pb n="1" facs="#IMG01"/>
+                <ab>The circumstances on the day when the Austrian <rs type="person" ref="#mpr9435">grand ambassador</rs>, who had been
+                    dispatched by the <rs type="person" ref="#mpr9399">Austrian emperor</rs> to Istanbul with a peace settlement <date notBefore="1718-11-24" notAfter="1719-11-13">in the
+                    year 1131 (November 24, 1718–November 13, 1719)</date>, was given permission to return
+                    [to Austria] and received the sultanic letter [addressed to the emperor]; April 2, 1720.
+                    <ref target="#ftn1" type="note_reference"/></ab>
+                
+                
+                
+                <ab>The following relates what happened on <date type="#Hijri" when="1720-04-02">the twenty-third day of the said month, a
+                    Tuesday</date>, when the <rs type="person" ref="#mpr9435">grand ambassador</rs> – 
+                    who had been dispatched by the <rs type="person" ref="#mpr9399">Austrian emperor</rs> 
+                    with a peace settlement – was given permission to return [to Austria] and
+                    received his [sultanic] letter inside the imperial council room.</ab>
+                
+                <ab>On that day, a festive imperial council meeting took place (for the payment of
+                    janissary salaries). As per custom, a horse adorned with an imperial ceremonial
+                    saddle was prepared for the <rs type="person" ref="#mpr9435">ambassador</rs>, while one-hundred-and-thirty saddled horses
+                    were prepared for his noblemen and attendants, which were dispatched to the
+                    pier. The agha of the palace ushers, the secretary, and the intendant [of the palace ushers], along with
+                    another forty to fifty palace ushers, went to the pier and paraded with the
+                    <rs type="person" ref="#mpr9435">ambassador</rs> back to the palace.</ab>
+                
+                <ab>As the janissaries of the court were about <q>“to dash to the soup,”</q>
+                    (<foreign xml:lang="tr">çorbaya segirdecekleri zemān</foreign>)
+                    the <rs type="person" ref="#mpr9435">ambassador</rs> was brought in and advanced to the imperial
+                    council room watching [the janissaries]. Meanwhile, his highness the grand
+                    vizier advanced to the antechamber (<foreign xml:lang="tr">ḳoltuḳ oṭası</foreign>). As soon as the <rs type="person" ref="#mpr9435">ambassador</rs>
+                    was brought inside the imperial council room, the <rs type="person" ref="#mpr9441">grand vizier</rs> also came inside.
+                    The viziers of the imperial council and other functionaries of the council had
+                    all risen to their feet. From across the room, the <rs type="person" ref="#mpr9435">ambassador</rs> expressed his good
+                    wishes to the <rs type="person" ref="#mpr9441">grand vizier</rs>, who returned the gesture by showing courtesy to the
+                    <rs type="person" ref="#mpr9435">ambassador</rs> and sat down.</ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> sat on the long bench below the revered
+                    <rs type="person" ref="#mpr14715">Chancellor Vizier Mustafa Pasha</rs>. After that, the <rs type="person" ref="#mpr9441">grand vizier</rs> summoned the chief interpreter and
+                    had him enquire about the <rs type="person" ref="#mpr9435">ambassador</rs>’s well-being. Next, the imperial council
+                    began and the usual affairs of [the] people were addressed. Then the meal came. During
+                    the meal, the <rs type="person" ref="#mpr9435">ambassador</rs> sat together with the <rs type="person" ref="#mpr9441">grand vizier</rs>, while his noblemen
+                    ate together with the viziers of the imperial council and the chief
+                    treasurer.</ab>
+                
+                <ab>After the meal, a grand vizieral report was submitted [to the sultan 
+                    asking for permission to be accepted] to the imperial presence.
+                    The agha of palace gatekeepers then brought back the
+                    grand vizieral report, which now contained the imperial rescript on it, upon
+                    which the <rs type="person" ref="#mpr9441">grand vizier</rs> moved forward, walked past the middle of the room, and then came
+                    back and sat down on his place. Then, as per the instruction by the sultan,
+                    the agha of palace ushers brought the <rs type="person" ref="#mpr9435">ambassador</rs> in front of the treasury room. The
+                    <rs type="person" ref="#mpr9435">ambassador</rs> himself was dressed with a sable fur on a brocade cloak with
+                    mohair sleeves and his noblemen and attendants were dressed with robes of
+                    honor in the amount that has been registered in the registry of daily
+                    expenses.</ab>
+                
+                <ab>Then, the agha of the janissaries entered the presence of the sultan. Next, the
+                    military judges [of Rumelia and Anatolia] entered the sultan’s presence and came
+                    outside. Then, the <rs type="person" ref="#mpr9441">grand vizier</rs> and the viziers of the imperial council entered
+                    the presence of the sultan. Next, the <rs type="person" ref="#mpr9435">ambassador</rs> was taken into the presence of
+                    the sultan along with his sixteen attendants. He took his letter in
+                    the presence of the sultan and, as the letter was on the hands of the
+                    <rs type="person" ref="#mpr9435">ambassador</rs>’s private secretary, they came back outside.
+                    <ref target="#ftn2" type="note_reference"/></ab>
+                
+                
+                
+                <ab>On this day, some of the court gatekeepers (<foreign xml:lang="tr">ḳapucıbaşılar</foreign>) were assigned duties outside the
+                    court. Therefore, six to seven head gatekeepers from among the court officials
+                    (<foreign xml:lang="tr">müteferriḳagān</foreign>) were deployed with their units at the Gate of Felicity. After
+                    that, the <rs type="person" ref="#mpr9435">ambassador</rs> went outside and, outside of the middle gate, he mounted a
+                    horse gifted by the sultan and saddled with an imperial ceremonial saddle.</ab>
+                
+                <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> stood remained mounted on the horse by the imperial bakery and watched all the
+                    members of the imperial council walk by. After that, was paraded
+                    to the pier accompanied by the secretary and the intendant of the palace ushers
+                    and some palace ushers. Since it was not customary for the agha
+                    of the palace ushers to accompany the return [convoy] he did not go.</ab>
+            </div>    
+            </body>
+    </text>
+</TEI>

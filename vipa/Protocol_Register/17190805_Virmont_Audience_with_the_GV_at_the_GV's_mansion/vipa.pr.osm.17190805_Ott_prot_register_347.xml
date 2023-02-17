@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über die erste Audienz von Damian Hugo von Virmont bei Großwesir Ibrahim Pascha
+                    im Großwesirpalast und die Liste der Geschenke von Virmont an den Großwesir, Istanbul, 5. August 1719</title>
+                <title xml:lang="en">Protocol register of the first audience of Damian Hugo von Virmont with Grand Vizier İbrahim Paşa at
+                    the grand vizieral palace and gifts presented by Virmont to the grand vizier, Istanbul, August 5, 1719</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un Veziriazam Damat İbrahim Paşa’ya ilk 
+                    ziyareti ve veziriazama sunduğu hediyelerin listesi, İstanbul, 5 Ağustos 1719</title>
+
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190805</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it’s only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 53-54</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-08-05"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über die erste Audienz von Damian Hugo von Virmont bei Großwesir Ibrahim Pascha im Großwesirpalast und die Liste der Geschenke von Virmont an den Großwesir, Istanbul, 5. August 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00026a.jpg" xml:id="IMG01"/>
+        </surface>
+        <surface start="#IMG02">
+            <graphic url="A_}d___00347_00026b.jpg" xml:id="IMG02"/>
+        </surface>
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17190805">
+            <pb n="1" facs="#IMG01"/>
+
+
+            <head><hi rend="#red">Mezbūr <rs type="person" ref="#mpr9435">Nemçe ilçisinüñ</rs> ibtidā
+                <rs type="person" ref="#mpr9441">ṣāḥib devlete</rs> geldigini
+                müşʿirdür.</hi> Fī <date type="Hijri" when="1719-08-05">19
+                <supplied>Ramaza</supplied>n sene 1131</date></head>
+                
+                <ab><lb/>Yevm-i mezbūrda <rs type="person" ref="#mpr9435">Nemçe ilçisi</rs>
+                    <rs type="person" ref="#mpr9441">ṣāḥib devlete</rs> gelmekle bu
+                siyāḳ üzeredür ki <lb/>ẕikr olunur.</ab>
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn1"><ref target="/o:vipa.tr.hbg.1723#page173">
+                    Virmont’s audience with the <rs type="person" ref="#mpr9441">grand vizier</rs></ref> took place at the grand vizieral palace.</note>
+
+            <ab>
+                <rs type="person" ref="#mpr9435">İlçi-yi mezbūr</rs> Ḫazīnedār Çiftliginde
+                çadırlarında olmaḳla çavuşbaşı aġ a <lb/>selīmī ve erkān kürk ve dīvān bisāṭlı at
+                ile çavuşlar kātibi <lb/>ve emīni daḫı mücevveze ve ferāce kürkler ile ve ḳırḳ elli
+                nefer dergāh-ı ʿālī çavuşlar <lb/>mücevvezeleri ile ʿaleʾl-seḥer maḥall-i mezbūra
+                vardılar. Ve <rs type="person" ref="#mpr9435">ilçi</rs>niñ rükūbı içün daḫı <lb/>dīvān raḫtı ve ʿabānī ile müzeyyen bir at
+                ve begzādegān ve etbāʿı için daḫı <lb/>yüz otuz ʿaded <corr><corr>eyerlenmiş</corr><sic>egerlenmiş</sic></corr>
+                atlar irsāl ve <rs type="person" ref="#mpr9435">ilçi-yi merḳūmı</rs> alub alay ile <lb/>sarāy-ı <rs type="person" ref="#mpr9441">ṣadr-ı ʿālīye</rs> getürmişlerdür.</ab>
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn2"><ref target="/o:vipa.tr.hbg.1723#page171">
+                    The Austrian secretary C. Driesch described the meeting with the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                </ref> in the second chapter of the second book.</note>
+            
+            <ab><rs type="person" ref="#mpr9435">İlçi</rs> gelüb dāḫıl olmazdan muḳaddem sarāy-ı
+                <lb/>ṣadr-ı ʿālīde Eski Dīvānḫāne semtinde vāḳiʿ cirīd meydānı olan ḥavlınıñ 
+                <lb/>ṭarafeynine delü ve göñüllü neferātı kisvetleriyle dizilüb ve vācibüʾl-riʿāya aġ aları <lb/>daḫı
+                sarıḳlarıyla dīvānḫānede durub ve meydān-ı mezbūra nāẓır köşke <lb/>gidecek dehlīzde
+                vezīr ḳapucıbaşıları ve kürklü aġ alar ḳaraca semūr <lb/>kürk ve mücevvezeleriyle
+                durub ve bunlarıñ yuḳarusında beş on nefer ḳadar <lb/>mücevvezelü çavuşān alḳış içün
+                müheyyā olduḳları cihetle <rs type="person" ref="#mpr9435">ilçi-yi mezbūr</rs> gelüb <lb/>binek ṭaşına nüzūl itdükde ve
+                devletlü <rs type="person" ref="#mpr9441">ṣadr-ı ʿālī ḥażretleri</rs> köşkden
+                ḳalḳub <lb/>ḳurbda olan küçük oṭaya gitdiler.</ab>
+            
+            <ab><rs type="person" ref="#mpr9435">İlçi-yi mezbūr</rs> gelüb ḳaṣr-ı mez̠ kūrda
+                <lb/>ṣadruñ önine vażʿ olunan iskemleye oturduḳdan ṣ oñra saʿādetlü 
+                <lb/><rs type="person" ref="#mpr9441">ṣāḥib-devlet</rs>
+                ḥażretleri kalāvī ve ṣof ferāceye ḳaplu semūr kürk ve miyān-ı
+                <lb/>saʿādetlerinden cevāhir ḳuşaḳ ve cevāhir ḫancer ile müzeyyen
+                <choice><sic>kethüdā</sic><corr>ketḫüdā</corr></choice> beg
+                ḥażretleri <pb n="2" facs="#IMG02"/>
+                <lb/>selīmī ve erkān kürk ile ve ḳapucılar 
+                <choice><sic>kethüdāsı</sic><corr>ketḫüdāsı</corr></choice> aġ a mücevveze ve erkān kürk
+                <lb/>ile ḳoltuġ ında ve <rs type="person" ref="#mpr14722">reʾīs efendi</rs> ve çavuşbaşı aġ a öñince teşrīf
+                <lb/>eyledüklerinde 
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn3">The secretary Driesch was impressed by the <rs type="person" ref="#mpr9441">grand vizier’s</rs> outfit
+                    and accessories which he <ref target="/o:vipa.tr.hbg.1723#page179">
+                    described in great detail.</ref></note>
+                
+                <rs type="person" ref="#mpr9435">ilçi</rs> ḳıyām idüb <rs type="person" ref="#mpr9441">ṣāḥib devlet</rs> efendimüz
+                [<supplied resp="#yy">ve</supplied>] <rs type="person" ref="#mpr14722">reʾīs efendi</rs> <lb/>ve
+                çavuşbaşı aġ a ṭarafına selāmdār olduḳda selām aġ ası <lb/>ṣavt-ı bülend ile selām
+                alub baʿdehū maḳām-ı ʿālīlerine ḳuʿūd eyledüklerinde <lb/>çavuşān-ı dergāh-ı ʿālī
+                alḳış eylediler.</ab>
+                
+            <ab>Baʿdehū ṭatlu ve ḳahve virildükden ṣoñra <lb/><rs type="person" ref="#mpr9435">ilçi-yi
+                mezbūruñ</rs> <rs type="person" ref="#mpr9441">ṣāḥ ib devlete</rs> getürdigi hedāyāsı ʿarż olunub
+                <lb/>baʿdehū <rs type="person" ref="#mpr9399">çāsārdan</rs> getürdigi mektūbı <rs type="person" ref="#mpr9441">ṣ āḥ ib devlete</rs> uzatdıḳda <rs type="person" ref="#mpr14722">reʾīs efendi</rs>
+                <lb/>alub yaṣdıḳ üzerine ḳoydı. Ve <rs type="person" ref="#mpr10441">başvekīlden</rs>
+                getürdigi mektūbı daḫı 
+                <lb/>uzatduḳda yine <rs type="person" ref="#mpr14722">reʾīs efendi</rs> alub yaṣdıḳ üzerine ḳoyub
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn4"><ref target="/o:vipa.tr.hbg.1723#page179">
+                    According to the Austrian secretary C. Driesch’s description of the audience</ref>,
+                    the letters of Emperor Karl VI and Prince Eugene were presented to the
+                    <rs type="person" ref="#mpr9441">grand vizier</rs> by members of the <rs type="person" ref="#mpr9435">ambassador</rs>’s entourage,
+                    <rs type="person">Count Carl von Bathyani</rs> and <rs type="person">Otto Friedrich 
+                    von Oebschelwitz</rs>. The latter, when approached by one of the pashas (probably the chief 
+                    of scribes) to hand in Prince Eugene’s letter, rejected the courtesy offered and handed the letter
+                    directly to the <rs type="person" ref="#mpr9441">grand vizier</rs> himself.</note>
+                
+                baʿdehū <lb/>dostāne muʿāmeleye şürūʿ olunub yarım sāʿat miḳdārı ṣoḥbetden
+                <lb/>ṣoñra 
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn5"><ref target="/o:vipa.tr.hbg.1723#page180">
+                    During the conversation, the <rs type="person" ref="#mpr9435">ambassador</rs> gave a list of prisoners of war
+                and requested their release.</ref></note>
+                
+                şerbet ve buhūr virilüb baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūra</rs> ferāce yeñlü serāsere
+                <lb/>ḳaplu semūr kürk ilbās ve begzādegānına daḫı bu maḥallde ḫilʿatler ilbās olunub
+                <lb/><choice><corr>küsūr-i</corr><sic>ḳuṣūr-i</sic></choice> 
+                    etbāʿına köşküñ taḥammüli olmamaġ la dīvānḫānede ilbās olunmaḳla
+                <lb/>mecmūʿına yüz yigirmi ḫilʿat ilbās olunmışdur.</ab>
+            
+                <ab>Baʿdehū <rs type="person" ref="#mpr9435">ilçi-yi mezbūra</rs> <rs type="person" ref="#mpr9441">devletlü ṣadr-ı ʿālī
+                <lb/>ḥażretleri</rs> ikrāmen bir donanmış siyāh-gūn peyker at çıḳ maḳ la süvār olunub
+                <lb/>alay ile cāy-ı maḳarrına gitmişdür. ʿAvdetde çavuşbaşı gitmek ḳānūn
+                <lb/>olmamaḳla sāyirleri gidüb çāvuşbaşı gitmemişdür.</ab>
+            
+            <ab><lb/><hi rend="red"><rs type="person" ref="#mpr9435">ilçi-yi mezbūruñ</rs> saʿādetlü ṣāḥ ib devlete geldükde getirdigi
+                    hedāyādür ki <lb/>z̠ ikr olunur</hi></ab>
+            <list type="giftlist">
+                <item rend="column1">çalar sāʿat ʿaded 3</item>
+                <item rend="column2">ṭ arz-ı kāfirī kebīr sīm legen ʿaded 2</item>
+                <item rend="column3">ṭ arz-ı mezbūr üzere yaldızlı kebīr sīm legen maʿa ibrīḳ ṭaḳım
+                    1</item>
+                <item rend="column1">sīm ḫavlı āb ṭası maʿa
+                    tebsi ṭaḳım ʿaded 6</item>
+                <item rend="column2">kebīr som ḳahve ibrīġ i ʿaded 2</item>
+                <item rend="column3">dört ayaḳlı iki ḳulblu kebīr sīm <unclear reason="illegible">?</unclear> ʿaded 1</item>
+                <item rend="column1">altışar mūm ḳonacaḳ kebīr sīm şemʿdān ʿaded 2</item>
+            </list>
+                
+                <note resp="#yy" place="paragraph" xml:id="ftn6"><ref target="/o:vipa.tr.hbg.1723#page180">
+                    Another list of the gifts presented by the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                    to <rs type="person" ref="#mpr9435">the Austrian ambassador</rs>
+                </ref> is available in the second chapter of the second book in C. Driesch’s travelogue.</note> 
+          </div>
+            
+        <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190805-transl">
+            <head><hi rend="#red">Report indicating the first audience of <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> with the
+               <rs type="person" ref="#mpr9441">grand vizier</rs> on August 4, 1719.</hi></head>
+            
+            <ab>On this day, <rs type="person" ref="#mpr9435">the Austrian ambassador</rs> visited the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                and the following is a description of the progress of the visit.<ref type="note_reference" target="#ftn1"/></ab>
+            
+            
+            <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page173">
+                Virmont’s audience with the <rs type="person" ref="#mpr9441">grand vizier</rs></ref> took place at the grand vizieral palace.</note>-->
+           
+           <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> was situated in his tent at Hazinedar Çiftliği. 
+               Therefore, at dawn, the agha of the palace ushers,
+               with his ceremonial turban (<foreign xml:lang="tr">selimi</foreign>) and ceremonial cloak, mounted a horse equipped with 
+               an imperial ceremonial harness. The secretary of palace ushers and the intendant of palace ushers 
+               with their <foreign xml:lang="tr">mücevveze</foreign> (a turban of many plaited folds) and ceremonial cloaks, and forty to fifty
+               palace ushers with their <foreign xml:lang="tr">mücevvezes</foreign>, arrived at the aforementioned place.
+               For the <rs type="person" ref="#mpr9435">ambassador</rs>’s ride, a horse was sent that was equipped with a ceremonial saddle 
+               and a silk cover. For his inner circle and entourage one hundred and thirty saddled horses were sent. 
+               They took the <rs type="person" ref="#mpr9435">ambassador</rs> and processioned to the <rs type="person" ref="#mpr9441">grand vizier</rs>’s palace.<ref type="note_reference" target="#ftn2"/></ab>
+            
+            <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page171">
+                The Austrian secretary C. Driesch described the meeting with the <rs type="person" ref="#mpr9441">grand vizier</rs>
+            </ref> in the second chapter of the second book.</note>-->
+           
+            <ab>Before the <rs type="person" ref="#mpr9435">ambassador</rs> arrived and entered [the palace], the members of the mad (<foreign xml:lang="tr">delü</foreign>)
+                and volunteer (<foreign xml:lang="tr">göñüllü</foreign>) corps,
+               wearing their uniforms, lined up on both sides of the courtyard of the javelin maidan
+               that is located near the old reception room by the 
+               grand vizieral palace. 
+                              
+                              The aghas of the palace guardsmen (<foreign xml:lang="tr">vācibüʾl-riʿāya aġ aları</foreign>) also
+               stood at the reception room with their turbans. The gatekeepers of the <rs type="person" ref="#mpr9441">grand vizier</rs> and palace aghas, with their
+                dark sable furs and <foreign xml:lang="tr">mücevveze</foreign>s (a turban of many plaited folds) on them,
+               stood along the vestibule that opens to the aforementioned maidan
+               through which the cortege would enter. Above them, five to ten ushers were ready to applaud. 
+               As the <rs type="person" ref="#mpr9435">ambassador</rs> came in this manner and arrived at the stepping-stone, the <rs type="person" ref="#mpr9441">grand vizier</rs> left
+               the mansion and went into the pavilion nearby.</ab>
+            
+            <ab>The <rs type="person" ref="#mpr9435">ambassador</rs> arrived and when he had sat down in the aforementioned fortress on the stool
+                that had been prepared in front of the seat of precedence (<rs>ṣadr</rs>),
+                his highness the most excellent <rs type="person" ref="#mpr9441">grand vizier</rs>, wearing a <foreign xml:lang="tr">ḳallāvī</foreign> (a large ceremonial turban for viziers)
+                and a sable fur on a mohair cloak and around his fortunate waist a jeweled sash and a jeweled dagger, [entered the room]
+                accompanied arm in arm by the chief steward, <pb n="2" facs="#IMG02"/>
+                who was wearing a ceremonial turban (<foreign xml:lang="tr">selīmī</foreign>) and a ceremonial fur cloak, 
+                and the chief steward of the palace gatekeepers, who was wearing a <foreign xml:lang="tr">mücevveze</foreign> and a ceremonial fur cloak, 
+                followed by the <rs type="person" ref="#mpr14722">chief of the scribes</rs> and the agha of palace ushers. <ref type="note_reference" target="#ftn3"/>
+                
+                <!--<note resp="#yy" place="paragraph">The secretary Driesch was impressed by the <rs type="person" ref="#mpr9441">grand vizier</rs>’s outfit
+                    and accessories which he <ref target="/o:vipa.tr.hbg.1723#page179">
+                        described in great detail.</ref></note>-->
+                
+                [When the grand vizier entered the room in this way]
+                the <rs type="person" ref="#mpr9435">ambassador</rs> stood up and saluted the <rs type="person" ref="#mpr9441">grand vizier</rs>, the <rs type="person" ref="#mpr14722">chief of the scribes</rs>, and the agha of palace ushers,
+                upon which the master of ceremonies saluted with a loud voice. As the <rs type="person" ref="#mpr9441">grand vizier</rs> sat down on his lofty post
+                the palace ushers applauded.</ab>
+                
+             <ab>Next, sweets and coffee was served and the gifts brought by the <rs type="person" ref="#mpr9435">ambassador</rs> to the <rs type="person" ref="#mpr9441">grand vizier</rs>
+                 were presented. After that, when the <rs type="person" ref="#mpr9435">ambassador</rs> handed the letter he had brought from the emperor
+                 to the <rs type="person" ref="#mpr9441">grand vizier</rs>, the <rs type="person" ref="#mpr14722">chief of the scribes</rs> took it and placed it on a pillow. When [the ambassador] 
+                 handed the letter he had brought from the chancellor as well, the <rs type="person" ref="#mpr14722">chief of the scribes</rs> took
+                 again and placed it on a pillow. <ref type="note_reference" target="#ftn4"/>
+                 
+                 <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page179">
+                     According to the Austrian secretary C. Driesch’s description of the audience</ref>,
+                     the letters of Emperor Karl VI and Prince Eugene were presented to the
+                     <rs type="person" ref="#mpr9441">grand vizier</rs> by members of the <rs type="person" ref="#mpr9435">ambassador</rs>’s entourage, Count Carl von Bathyani and Otto Friedrich 
+                     von Oebschelwitz. The latter, when approached by one of the pashas (probably the chief 
+                     of scribes) to hand in Prince Eugene’s letter, rejected the courtesy offered and handed the letter
+                     directly to the <rs type="person" ref="#mpr9441">grand vizier</rs> himself.</note>-->
+                 
+                 Then, friendly procedures commenced. Following a half-hour long
+                 conversation, <ref type="note_reference" target="#ftn5"/>
+                 
+                 <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page180">
+                     During the conversation, the <rs type="person" ref="#mpr9435">ambassador</rs> gave a list of prisoners of war
+                     and requested their release.</ref></note>-->
+                 
+                 sorbet and frankincense was served. After that, the <rs type="person" ref="#mpr9435">ambassador</rs> was 
+                 dressed with a sable fur lined with silk, gold, and silver
+                 threaded fabric which had cloak-style sleeves, while his noblemen were dressed with 
+                 cloaks at the same location. As the mansion was not large enough to accommodate
+                 the rest of his entourage, they were dressed at the reception room with a total of one-hundred and twenty robes of honor.</ab>
+            
+            <ab>Then, as a gift of the fortunate <rs type="person" ref="#mpr9441">grand vizier</rs>, a horse that had a dark-colored 
+                face was brought to the honor of the <rs type="person" ref="#mpr9435">ambassador</rs> who then processioned to
+                his location of residence. Since it was not customary for the agha of the palace ushers
+                to accompany the return cortege, he did not go but the rest went with the <rs type="person" ref="#mpr9435">ambassador</rs>.</ab>
+            
+           <ab>The gifts the <rs type="person" ref="#mpr9435">ambassador</rs> brought to the most fortunate <rs type="person" ref="#mpr9441">grand vizier</rs>:</ab>
+                <list type="giftlist">
+                <item rend="column1">a chiming clock, 3 pieces</item>
+                <item rend="column2">a large silver basin of infidel style, 2 pieces</item>
+                <item rend="column3">another large silver-painted basin in infidel style with a silver pitcher, 1 piece set</item>
+                <item rend="column1">water bowl coated with silver and tray, 6 sets</item>
+                <item rend="column2">large silver coffee pitcher, 2 pieces</item>
+                <item rend="column3">large silver <unclear reason="illegible">?</unclear>, with four legs and two handles, 1 piece</item>
+                <item rend="column1">chandelier with six candle holders, 2 pieces<ref type="note_reference" target="#ftn6"/></item>
+               </list>
+            
+            <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page180">
+                Another list of the gifts presented by the <rs type="person" ref="#mpr9441">grand vizier</rs> to the Austrian <rs type="person" ref="#mpr9435">ambassador</rs> Virmont
+            </ref> is available in the second chapter of the second book in C. Driesch’s travelogue.</note>-->
+        </div>
+
+        </body>
+    </text>
+</TEI>

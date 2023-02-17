@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                <title xml:lang="de">Protokollregister über Damian Hugo von Virmonts Ankunft, Istanbul, 3. August 1719</title>
+                <title xml:lang="en">Protocol register of Damian Hugo von Virmont’s arrival, Istanbul, August 3, 1719</title>
+                <title xml:lang="tr">Teşrifat defteri kaydı, Damian Hugo von Virmont’un varışı, İstanbul, 3 Ağustos 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName> Teşrifatçıbaşı Selman Efendi </persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                <idno type="PID">o:vipa.pr.osm.17190803</idno>
+                <!-- PID: o:[context].[genre].[language].[date-iso](.[nr])
+    # context: 
+        vipa for Virmont/Ibrahim Paşa 1719-1720
+        qhod ıs outdated, it's only used for the meta context that aggregates the different edition subparts.
+# genres:
+ad. administrative document
+ch. chronicle
+in. instruction
+l. letter
+mh. mühimme
+np. newspaper
+pr. protocol register
+pp. pamphlet
+pt. petition
+rc. record (Urkunde)
+re. receipt
+rp. report (Bericht, Relation)
+tr. travelogue
+# languages:
+osm. ottoman source
+hbg. habsburg source
+# date:
+yyyy-mm-dd or yyyy
+we use the first known date of creation for handwritten texts 
+and for printed ones the date of publication
+# nr:
+ONLY if a PID would duplicate (e.g. two habsburg letters on the same date) -->
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- Archive, Library,… -->
+                        <institution>BOA, İstanbul</institution>
+                        <collection>Teşrifat Merasimi Kayıt Defteri</collection>
+                        <idno>no. 347, p. 53-54</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="scribe1">
+                                <persName ref="#mpr13114">Teşrifatçıbaşı Selman Efendi</persName>
+                                <desc><!-- e.g. Written in red ink --></desc>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1719-08-03"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!-- Encoding guidelines -->
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.pr" type="context"> Protokollbücher </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Protokollregister über Damian Hugo von Virmonts Ankunft, Istanbul, 3. August 1719, Istanbul, 19. April 1719, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG01">
+            <graphic url="A_}d___00347_00025b.jpg" xml:id="IMG01"/>
+        </surface>
+        <surface start="#IMG02">
+            <graphic url="A_}d___00347_00026a.jpg" xml:id="IMG02"/>
+        </surface>
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.pr.osm.17190803">
+            <pb n="1" facs="#IMG01"/>
+                <!--Ḫḫ -->
+            <head><lb/><hi rend="#red"><rs type="person">Nemçe Çāsārı</rs> ṭarafından ṣulḥnāme ile
+                    gelen <rs type="person">kebīr ilçiniñ</rs> istiḳbāli <lb/>keyfiyetidür ki z̠ ikr
+                    olunur</hi>. Der sene <date type="Hijri" when="1719-08-03">1131, 17
+                        [Ramaza]n</date></head>
+            <ab><lb/><date type="Hijri" when="1719">Biñ yüz otuz bir senesi Ramażān-ı Şerīfinde</date> <rs type="person">Nemçe
+                    Çāsārı</rs> ṭarafından <lb/>ṣulḥnāme ile rikāb-ı müsteṭāba yüz sürmek üzere
+                gelen büyükilçi 
+                <lb/><rs type="place" ref="#mpr14573">Küçükçekmece’den</rs> ḳalḳub <rs type="place">Ḥazīnedār Çiftligi</rs> dimekle maʿrūf maḥalliñ <lb/>alt ṭarafına kendi
+                çadırı ile ḳonmaġ la <date type="Hijri" when="1719-07-28">māh-i mezbūruñ on birinci
+                    <lb/>güni</date> istiḳbāl ve alayı içün gidilmekle bu sibāḳ üzeredür ki
+                <lb/>z̠ikr olunur.</ab>
+                
+                <note type="footnote" resp="#yy" xml:id="ftn1"><ref target="/o:vipa.tr.hbg.1723#page151">
+                    The Austrian mission</ref> arrived in Küçükçekmece on July 31
+                    where they were met by Mehmed Agha, whose rank Driesch 
+                    described as <foreign xml:lang="de">kaiserlicher Kämmerling</foreign>,
+                    that is <foreign xml:lang="tr">kapı kethüdası</foreign> or the chief steward.
+                    <ref target="/o:vipa.tr.hbg.1723#page155">The next day, on August 1</ref>
+                    the palace dragoman, <rs type="person" ref="#mpr14575">Grigore II Ghica</rs>, met the Austrian grand ambassador
+                    to discuss the details the audience with the sultan.</note>
+                
+                <ab><date type="Hijri" when="1719-08-03">Yevm-i mezbūrda</date> ilçinüñ rükūbū içün dīvān raḫtı ve ʿabāyī ile <lb/>müzeyyen bir at
+                begzādegān ve etbāʿı içün daḫi yüz otuz atlar <choice><corr>eyerlenüb</corr><sic>egerlenüb</sic></choice>
+                <lb/>ʿale l-seḥer maḥall-i mezbūra getirilmişdür. 
+                Z̠ ikr olunan atlaruñ cümlesi devletlü ṣadr-ı ʿālī 
+                <lb/>ṭarafından gitmek muʿtād idi. Lākin ol miḳdār at mevcūd olmadıġ ından
+                <lb/>mez̠ kūr olan atlaruñ seksen ruʾūsı
+                ıṣṭabl-ı ʿāmire ṭarafından <choice><corr>berāṭsız</corr><sic>berāṭasız</sic></choice>
+                <lb/>yedekciler ile ḳuṣūrı daḫi <rs type="person">ṣāhib-i devlet</rs> ṭarafından
+                gönderilmişdi.</ab>
+                
+            <ab>Ve Edirne <lb/>Ḳapusı ḫāricinde Bayrāmpaşa Bostānına muṭṭaṣıl Ḳara
+                İbrāhīm Paşa <lb/>Çiftligi dimekle maʿrūf <choice><corr>Ḫadīce</corr><sic>Ḥadīce</sic></choice> Sulṭān Çiftliginde <rs type="person">ilçi-yi mezbūra</rs>
+                <lb/>żiyāfet içün <rs type="person">ṣadr-ı ʿālī</rs> ṭarafından bir gün muḳaddem
+                maṭbaḫ gönderilüb ve baġ çe-i <lb/>mezbūrda olan ḳaṣr daḫi mehterḫāne-i ʿāmireden 
+                ferş olunmuş-idi. <lb/>Ve ḫidmet içün daḫī yirmi beş ḳadar mülebbes
+                Enderūn aġ aları gelmiş-idi. <lb/>Vekīl-i ḫarc bi-nefsihī gelmiş-idi.</ab>
+                
+                <note type="footnote" resp="#yy" xml:id="ftn2"><ref target="/o:vipa.tr.hbg.1723#page160">
+                According to the travelogue of Driesch,</ref> on August 3, the Austrian delegation
+                    had a breakfast at the Ḥadīce Sulṭān Farm before the official entry
+                    parade to the city.</note>  
+                
+            <ab>Çavuşbaşı aġ a ve sipāh ve silāḥdār aġ aları <lb/>ve sipāh ve silaḥdār kātibleri ve
+                ketḫüdāları ve çavuşlar kātibi ve emīni ve ḳırḳ <lb/>elli nefer dergāh-ı ʿālī
+                çavuşları ve otuz ḳırk nefer sipāh ve silāḥdār çavuşları <lb/>bi’l-cümle bāġ çe-i
+                mezbūrda müctemiʿ olub ilçi-yi mezbūr maḥall-i merḳūma ḳarīb geldigi <lb/>ḫaber
+                virilmekle ḥāżır olan ṣarıḳlar ile süvār olub çeyrek sāʿat <lb/>miḳdārı yirde
+                istiḳbāl idüb alay ile çiftlige getürilüb ḳaṣr-ı mezbūr <lb/>üzerine çıḳ arılduḳda
+                ḳapuya nāẓır ṣadr öninde olan iskemleye oturdulub <lb/>yemīn ü yesārına çavuşbaşı
+                ve sipāh ve silāḥdār ve aşaġı bölük aġaları <lb/>oturub ṭatlu ve ḳahve virildükden
+                ṣoñra ṭaʿām döşenmekle</ab> <ab> aġalar ḳalḳub <lb/>tenāvül-i ṭaʿāmdan ṣoñra çavuşbaşı ve
+                sipāh ve silāḥdār aġ aları selīmī ve ṣarıḳ <lb/>ferāce ile dīvān bisāṭlu atlara süvār
+                ve sā<supplied>ʾ</supplied>irleri daḫi mücevvezeleriyle süvār <lb/>olub</ab>
+            
+            <ab>alay ile trompetesin çalaraḳ  <add place="margin">Edirne Ḳapusından duḫūl</add> ve
+                Sulṭān Ḥammāmı öñinden <lb/>mürūr ve Fenār Ḳapusından ṭaşra 
+                çıḳ ılub Yā Vedūd İskelesine varılub <lb/>andan Emīr Buḫārīye
+                varılduḳda cümlenüñ ʿavdeti içün ilçi iz̠n virmekle <lb/>herkes girü ʿavdet
+                olmışlardur. <rs type="place">İstanbula</rs> Edirne Ḳapusından girilmişdür. Ve
+                ilçi çıḳ ub <lb/>yine <supplied>Ḫ</supplied>azīnedār Çiftliginde çadırlarına gitmişdır. Bu es̠nāda <rs type="place">Āsitānede </rs>
+                vebā <sic>ḫastaligi</sic> <add place="margin">olmaġla anda
+                    oturmışdur.</add></ab>
+                
+                <note type="footnote" resp="#yy" xml:id="ftn3"><ref target="/o:vipa.tr.hbg.1723#page160">
+                    In Driesch’s travelogue, in the first chapter of the second book,</ref> 
+                    there is a detailed description of the etnry to the city. See especially
+                    pages 160-162.</note> 
+                
+            <pb n="2" facs="#IMG02"/>
+            <ab/>
+            <list>
+                <item rend="column1"><lb/>İlçi için vażʿ olunan sofrada yalñız dīvān tercümānı
+                    oturmışdır</item>
+                <item rend="column2">Ve köşküñ orta yirine daḫi begzādegānı içün bir <unclear reason="illegible" cert="medium">bütgūn</unclear>(?) ḳonmışdur</item>
+                <item rend="column1">Ve köşküñ bir ṭarafına daḫi meşīn sofra ile bir simāṭ vażʿ
+                    olunmışdur</item>
+                <item rend="column2">Ve ḥavā līde daḫi hācegānı içün ṭaʿām
+                    virilmişdür</item>
+                </list>
+           </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.pr.osm.17190803-transl">
+                <pb n="1" facs="#IMG1"/> 
+                
+             <head>Mentions the circumstances at the arrival of the grand ambassador dispatched with a peace settlement
+                 by the Austrian Emperor, the year <date type="Hijri" when="1719-08-03">1131, 17 [Ramada]n </date></head>
+                
+             <ab><date type="Hijri" when="1719">In the month of Ramadan of the year one thousand and thirty-one</date>, 
+                 a grand ambassador from the Austrian Emperor came to prostrate himself in front of the pleasant stirrups [of the sultan]
+                 with a peace settlement. He departed from <rs type="place" ref="#mpr14573">Küçükçekmece</rs>
+                 and settled in his own tent at the lower side of the location known as Hazinedar Çiftliği.<ref target="#ftn1" type="note_reference"/>
+                 
+                 
+                 
+                 <date type="Hijri" when="1719-07-28">On the eleventh day of the aforesaid month</date>, 
+                 we went for his reception and parade. Here is a description of what preceded that reception.</ab>
+                
+             <ab>On that day, a horse [had been] adorned with an imperial ceremonial harness and a silk cover for the ambassador
+                 and one hundred and thirty horses had been tacked up for the ambassador’s inner circle
+                 and [the horses] had been brought to the aforesaid location at dawn.
+                 It was a routine to send all of these horses from [the stables of] the grand vizier. Yet, 
+                 there not being a sufficient number of horses [in the grand vizier’s stables],
+                 eighty horses had been sent from the imperial stables without
+                 the issuance of a sultanic permission and the rest were dispatched by the grand vizier.</ab>
+                
+             <ab>The previous day, the grand vizier had sent a [portable] cookery to Hatice Sultan Farm, known as Kara İbrahim Paşa Farm,
+                 located outside the Edirne Gate next to Bayrampaşa Orchard, and the pavilion inside the garden had been furnished
+                 by the sultan’s tent pitchers (<foreign xml:lang="tr">meḥ terḫāne-i ʿāmire</foreign>). Twenty-five aghas from the inner court 
+                 had come with their uniforms on them to serve. The major-domo (<foreign xml:lang="tr">vekīl-i ḫarc</foreign>) himself was there too.
+                 <ref target="#ftn2" type="note_reference"/></ab>
+                
+                <!--><note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page160">
+                    According to the travelogue of Driesch,</ref> on August 3, the Austrian delegation
+                    had a breakfast at the Ḥadīce Sulṭān Farm before the official entry
+                    parade to the city.</note> !--> 
+                
+             <ab>The agha of the palace ushers, the aghas of the palace cavalry and sword-bearers,
+                 the secretaries of the palace cavalry and sword-bearers, the secretary of the palace ushers
+                 and the intendant of the palace ushers, forty to fifty palace ushers and thirty to forty
+                 ushers from the palace cavalry units and sword-bearers, all gathered at the aforesaid garden. 
+                 As it was reported that the ambassador approached the location, those who were present mounted on their horses 
+                 with their turbans [on their heads] and the ambassador was met at a quarter-hour distance.
+                 He was then paraded to the farm, brought on the pavilion, and made to sit on the stool that was 
+                 in front of the sofa next to the door. The agha of the palace ushers,
+                 the aghas of the palace cavalry units, sword-bearers, and lower cavalry units sat down on his right and left.
+                 After coffee and sweets had been served, a meal was spread out. </ab>
+                 
+             <ab>After eating the meal, the agha of the palace ushers and the aghas of the palace cavalry
+                 and sword-bearers, with their ceremonial turbans (<foreign xml:lang="tr">selīmī</foreign>),
+                 regular turbans (<foreign xml:lang="tr">ṣarıḳ</foreign>), and cloaks on them, 
+                 mounted horses equipped with ceremonial imperial saddles. Others, with <foreign xml:lang="tr">mücevveze</foreign>s 
+                 (a turban of many plaited folds) on their heads, also mounted horses.</ab>
+                
+             <ab>They paraded playing their trumpets and entered (the city) through the Edirne Gate.
+                 They passed by Sultan Hamamı and exited the city via the Phanar Gate. They arrived at Ya Vedud Pier
+                 and advanced to the lodge of Emīr Buhari, where the ambassador allowed everyone’s return.
+                 Upon which everyone returned and entered the city through the Edirne Gate. 
+                 The ambassador returned to his tent at Hazinedar Farm. At this time,
+                 there was the plague in Istanbul. Therefore, the ambassador settled at that location.
+                 <ref target="#ftn3" type="note_reference"/>                  
+                 <!--<note resp="#yy" place="paragraph"><ref target="/o:vipa.tr.hbg.1723#page160">
+                    In Driesch’s travelogue, in the first chapter of the second book,</ref> 
+                    there is a detailed description of the entry to the city. See especially
+                pages 160-162.</note> !--> </ab>
+                
+                
+                
+                <pb n="2" facs="#IMG02"/>   
+             <ab>Only the imperial council interpreter sat around the meal that was spread out for the ambassador.
+                 For the ambassador’s inner circle, a <unclear reason="illegible">bütgūn</unclear>(bench?) had been set up 
+                 in the middle of the mansion. In another part of the mansion, a meal was prepared
+                 on a leather spread. Moreover, a meal had been served for the elders of that quarter.</ab>
+           
+        </div>
+        </body>
+    </text>
+</TEI>

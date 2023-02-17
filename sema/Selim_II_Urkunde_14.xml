@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 14</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt><resp>Edition</resp><persName key="#ht"><forename>Halit</forename><surname>Temiz</surname></persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15740422</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Staatsabteilungen, Türkei I</collection>                        
+                        <idno type="regest_petritsch" n="743">Turcica 30/2, fol. 157</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1574-04-13" notAfter="1574-04-22" calendar="#hijri">981 Ẕī l-ḥicce 21-30</date>        
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="/o:sema.rc.osm.15740402">Urkunde 13</ref>
+                    <ref type="next" target="/o:sema.rc.osm.15741116">Urkunde 15</ref>
+                </correspContext>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 14: Geschrieben zwischen dem 13. und 22.4.1574
+                in <rs type="place" ref="#mpr14055">Konstantinopel</rs>. Befehl an den Beglerbegi von <rs ana="MPRautomatched" ref="#mpr7448" type="place">Buda</rs> <rs type="person" ref="#mpr14163">Muṣṭafā Paşa,</rs>
+                 geeignete Leute zur Grenzziehung zu
+                ernennen. Diese sollen gemeinsam mit den angekündigten Kommissaren des
+                Königs von <rs type="place" ref="#mpr13416">Wien</rs> die Zugehörigkeit der umstrittenen Dörfer im Grenzgebiet festlegen. </p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>                    
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 14: Selim II. an Muṣṭafā Paşa, Konstantinopel, zwischen 13. und 22.4.1574, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.14.1.">
+            <graphic url="14_743-1.jpg" xml:id="IMG.14.1"/>
+            
+        </surface>
+        <surface start="#IMG.14.2.">
+            <graphic url="14_743-2.jpg" xml:id="IMG.14.2."/>
+            
+        </surface>
+        
+    </facsimile>    
+        <text type="record"><body>
+           
+            
+                
+                    
+                    <div n="14"><div type="transcription" xml:lang="ota">
+                        <pb facs="#IMG.14.1." n="14.1."/>    
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                        
+                    
+                        <ab type="inscriptio"><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine
+                        ḥükm ki</ab> <ab type="narratio">vilāyet-i <rs type="place" ref="#mpr13416">Beç</rs>
+                        serḥaddlarında baʿż-i nizāʿlu ḳaryeler olub defʿ-i nizāʿ içün 
+                        <lb n="2"/>ḳırāl cānibinden vekīl naṣb olunub geldükde bu cānibde daḫı yarar ādemler taʿyīn olunub ol 
+                        <lb n="3"/>ḳaryelerüñ üzerine gönderilmek emr ėdüb</ab> 
+                        
+                        <ab type="dispositio">buyurdum ki varduḳda bu ḫuṣūṣa muḳayyed olub anuñ gibi 
+                        <lb n="4"/>ḳırāl-i müşārün ileyh ṭarafından naṣb olunan vekīl geldükde sen-daḫı yarar ve muḳaddim ve ehl-i vuḳūf ve 
+                        <lb n="5"/>muʿtemedün ʿaleyh ādemler taʿyīn eyleyüb nizāʿlu olan ḳurānuñ ṣūret-i defter-i ḫāḳānīden esāmīsi 
+                        <lb n="6"/>ehl-i tercümānlara ṣaḥīḥçe tercüme ėtdürüb öte cānibden gelen vekīllerine ḥaḳīḳat-i ḥāli iẕʿān ̧
+                        <lb n="7"/>ėtdürüb daḫı oñat vech-ile diḳķ̣at ü ihtimāmla tefaḥḥuṣ ėtdürüb vāḳiʿ olan nizāʿuñ 
+                        <lb n="8"/>bi l-külliyā (sic!) defʿ ü refʿ bābında geregi gibi saʿy ü iḳdām eyleyesin bu ḫuṣūṣı (sic!) umūr-i mühimmedendür 
+                        <lb n="9"/>bir vech-ile muḳayyed olasın ki min baʿd nizāʿ ber-ṭaraf olub mābeynde vāḳiʿ olan ʿahd ü 
+                        <lb n="10"/>emāna mugāyir kimesneye iş ėtmegi (sic!) mecāli olmaya ne-vech-ile tedārük ėdüb öte cānibden ne tārīḫde 
+                        <lb n="11"/>vekīl gelüb maṣlaḥata mübāşeret olundugın yazub südde-i seʿādetüme ʿarż u iʿlām eyleyesin</ab> 
+                        <ab type="datatio"><lb n="12"/><date calendar="#hijri" notBefore="1574-04-13" notAfter="1574-04-22">taḥrīren fī evāḫiri Ẕī l-ḥicce sene 981</date></ab>
+                        
+                        <pb facs="#IMG.14.2." n="14.2."/> 
+                        <p>Rückseite:
+                        Exemplum mandati ad Passam
+                            Budensem</p>
+                        
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.14.1." n="14.1."/>
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <ab type="inscriptio">Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda</rs>:
+</ab>                    <ab type="narratio">An den Grenzen des Landes <rs type="place" ref="#mpr13416">Wien</rs> gibt es einige strittige Dörfer. Ich habe Euch befohlen, dass, sobald seitens des Königs für die Lösung des Streitfalls ein Vertreter 
+                       Vertreter ernannt wird und <supplied resp="#ht">dieser</supplied> kommt, auch auf dieser Seite tüchtige Diener bestellt und in die Dörfer geschickt werden.</ab>
+                    <ab type="dispositio">Ich befehle, dass, sobald <supplied resp="#ht">der Befehl</supplied> einlangt du
+                        dich um diese Angelegenheit kümmerst und sobald der vom obenerwähnten
+                        König ernannte Vertreter ankommt, Du auch geeignete, vorzügliche,
+                        erfahrene und verlässliche Männer bestellst. Du sollst die Dolmetscher
+                        die Namen der strittigen Dörfer aus der Abschrift des defter-i
+                        ḫāḳānī <note place="footnote" n="1"><p rend="footnotetext"> Großherrliches
+                            Registerbuch.</p></note> wahrheitsgetreu übersetzen und ihren Vertretern, die von der anderen Seite kommen den wahren Sachverhalt mitteilen lassen. In gehöriger Weise sollst Du die Sache
+                         mit Sorgfalt untersuchen lassen und Dich wie es sich gehört um die gänzliche Lösung des vorhandenen Streitfalls bemühen. 
+                        Diese Sache ist eine wichtige Angelegenheit. Kümmere Dich auf diese Weise, damit von nun an der Konflikt abgeschafft wird und niemand im Stande ist gegen den zwischen <supplied resp="#ht">uns</supplied> bestehenden Vertrag und die Sicherheit zu handeln.
+                    Welche Maßnahmen getroffen wurden, zu welcher Zeit
+                        der Vertreter von der anderen Seite gekommen ist und man die
+                        Angelegenheit in Angriff genommen hat, sollst Du aufschreiben und meiner
+                        glücklichen Schwelle unterbreiten und bekanntgeben.</ab>
+                    
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1574-04-13" notAfter="1574-04-22"> letzten Dekade des Ẕī l-ḥicce
+                        des Jahres 981.</date></ab>
+                    <pb facs="#IMG.14.2." n="14.2."/> 
+                    <p>Rückseite:
+                        Die Abschrift des Befehlsschreibens an den Pascha
+                        von <rs type="place" ref="#mpr7448">Buda</rs>.</p>
+
+                </div>
+                </div>
+            
+        </body></text>
+    </TEI>

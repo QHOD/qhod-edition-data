@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Plowdiw, 9. Juli 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Plovdiv, July 9, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+                <!-- JS: PID added -->
+                <idno type="PID">o:vipa.l.hbg.17190709</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 184-2, fol. 128r-129v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an den Hofkriegsrat, Plowdiw, 9. Juli 1719, bearb. von Lisa Brunner, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918
+                    </ref>
+                    
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/728193/">Plowdiw</placeName>
+                    <date when="1719-07-09">9. Juli 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="prev" target="/o:vipa.l.hbg.17190630">
+                    Letzter Brief von <persName>Damian Hugo von Virmont</persName>
+                    an den 
+                    <orgName>Hofkriegsrat</orgName>
+                    :
+                    <date when="1719-06-30">30. Juni 1719</date>
+                    </ref>
+                    <ref type="next" target="/o:vipa.l.hbg.17190718">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-07-18">18. Juli 1719</date>
+                    </ref>
+                </correspContext>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>plague</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="11KV_128r.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="11KV_128v.jpg" xml:id="IMG2"/>
+        </surface>
+        <surface start="#IMG3">
+            <graphic url="11KV_129r.jpg" xml:id="IMG3"/>
+        </surface>
+        <surface start="#IMG4">
+            <graphic url="11KV_129v.jpg" xml:id="IMG4"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="128r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 11</ref> d.d. lagerung über <rs
+                    ana="MPRautomatched" ref="#mpr9442" type="place">Philippopoli</rs>
+                <date when="1719-07-09">9. Julii 1719</date></metamark>
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath.</salute>
+            </opener>
+            <p>Durchleüchtigster fürst, eüer excellenzien und meine hochgeehrtiste herren. Biß
+                anhero, daß ich in dem türckhischen gebiett reyße, habe von keinen ansteckhenden
+                kranckheiten oder pestilentischen seüche etwas vernohmen gehabt noch verspühret, bin
+                auch mit meinem gefolg wohl und in gesundem stand fortgekomben. Alß ich aber zu <rs
+                    type="place" ref="#mpr14588">Pasarsig</rs> sechs stund von hier angelangt, ist mir sowohl durch
+                brieff von hier auß, und zwar von dem griechischen mit der römisch catholischen
+                kirchen unirten <rs type="person" ref="#mpr15760">ertzbischoff</rs> selbsten, alß andere nachrichten
+                beygebracht worden, daß nicht allein in diser statt, alß besonders in der gegend auf
+                dem land herumb das contagiose übel starckh eingerissen, dahero mir angelegen seyn
+                laßen, alle mögliche vorsehung anzukheren, <pb facs="#IMG2" n="128v"/> damit ich und
+                mein gefolg davon unberührt bleibe und nebst der hülff Gottes behüettet werde. </p>
+            <p>Ich habe mich eine starckhe halbe stund über die statt hinauß gelagert und scharff
+                verbotten, daß niemand von meinigen <add place="superlinear">hinein</add>, auch die
+                von der statt nicht herauß in das lager gelassen werden, hätte auch gern disen weeg
+                völlig vermüden, wan durch einen anderen über die Meriza zu
+                komben gewust, welches aber ohne gar zu weithen umbweeg nicht mehr geschehen kunte,
+                sondern die hiesige bruckhen zu passiren ware. </p>
+            <p>Ich ermangle nicht, dem herrn generalfeldwachtmeister <rs ana="MPRautomatched"
+                    ref="#mpr14241" type="person">grafen von Oduyer</rs> unter ainsten davon zu
+                advertiren, damit er seine gute sorgfalt obwalten lasse, alle gehörige vorkherungen
+                zu thuen, wan <pb facs="#IMG3" n="129r"/> das übel (so Gott gnädiglich verhüetten
+                wolle) gegen ihrer <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> gränitzen sich mehrer
+                zuwenden möchte, womit mich gehorsambst und dienstlich empfehle, und verharre. </p>
+            <closer>
+                <salute>Eüer hochfürstliche durchleuchtigsten excellenzien und meiner
+                    hochgeehrtisten herren</salute>
+                <signed>Gehorsambster und dienstschuldiger diener <rs ana="MPRautomatched"
+                        ref="#mpr9435" type="person">Damian Hugo graff von Virmonten</rs></signed>
+                <dateline>Lagerung eine starckhe halbe stund über <rs type="place" ref="#mpr9442">Philipopoli</rs>
+                    <date when="1719-07-09">den neünten Julii 1719</date></dateline>
+            </closer>
+            <pb facs="#IMG4" n="129v"/>
+            <metamark><date when="1719-07-09">1719 9. Julii</date></metamark>
+            <metamark>Facto</metamark>
+            <metamark>Fiat copia pro cancellaria austriaca.</metamark>
+            <metamark>Exped. <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den
+                    <date when="1719-08-04">4. Augustii 1719</date></metamark>
+            <metamark><date when="1719-07-09">9. Julii 1719</date></metamark>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title xml:lang="de">Das Reportagebuch „Accurater Abriß, von der Auswechslung Ihro Römischen Kayserl. Mayest. Gross. Bottschaffter, mit dem Gross-Bottschaffter der Ottomanischen Portte“</title>
+                    <title xml:lang="en" resp="#sk">Commentary on ‘Accurate Outline of the Exchange of the Roman Imperial Great Ambassador with the Great Ambassador of the High Porte’</title>
+                    <author><persName>Laila Dandachi</persName></author>
+                    <respStmt>
+                        <resp>Konversion</resp>
+                        <persName xml:id="sk">
+                            <forename>Stephan</forename>
+                            <surname>Kurz</surname>
+                        </persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Datenmodellierung</resp>
+                        <persName>
+                            <forename>Stephan</forename>
+                            <surname>Kurz</surname>
+                        </persName>
+                    </respStmt>
+                    
+                </titleStmt>
+                <publicationStmt>
+                    <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</orgName>
+                    </publisher>
+                    <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+                    </distributor>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by/4.0"> Creative Commons BY 4.0 </licence>
+                    </availability>
+                    <date when="2022">2022</date>
+                    <pubPlace>Vienna</pubPlace>
+                    
+                    <idno type="PID">o:vipa.rp.hbg.festbuch.kommentar</idno>
+                </publicationStmt>
+                <seriesStmt>
+                    <title ref="http://gams.uni-graz.at/context:qhod">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918)</title>
+                    <respStmt>
+                        <resp>Projektleitung</resp>
+                        <persName>
+                            <forename>Arno</forename>
+                            <surname>Strohmeyer</surname>
+                        </persName>
+                    </respStmt>
+                </seriesStmt>
+                <sourceDesc>
+                    <p>born digital</p>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <editorialDecl>
+                    <p>Editionsregeln und Kodierungsrichtlinien</p>
+                </editorialDecl>
+                <projectDesc>
+                    <ab>
+                        <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20) </ref>
+                        <ref target="context:vipa.rp" type="context"> Berichte </ref>
+                        <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                    </ab>
+                    <p>Projektbeschreibung</p>
+                </projectDesc>
+                <refsDecl>
+                    <p>Laila Dandachi, Das Reportagebuch „Accurater Abriß, von der Auswechslung Ihro Römischen Kayserl. Mayest. Gross. Bottschaffter, mit dem Gross-Bottschaffter der Ottomanischen Portte“. in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022</p>
+                </refsDecl>
+            </encodingDesc>
+            <profileDesc>
+                
+                <langUsage>
+                    <language ident="de">Deutsch</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+    <facsimile>
+        <surface start="#facs_9" lrx="7308" lry="3112" ulx="0" uly="0"><graphic height="3112px" url="Festivitaetenbuch_OENB-0009.jpg" width="7308px" xml:id="facs_9"/></surface>
+    </facsimile>
+    <text type="kommentar">
+        <body>
+            <div type="document">
+            <head>Das Reportagebuch
+                <hi rend="italic">„Accurater Abriß, von der Auswechslung Ihro Römisch Kayser.
+                    Mayest. Gross. Bottschaffter, mit dem Gross-Bottschafter der Ottomanischen
+                    Porte. So den <date when="1719-06-15">15. Juni 1719</date> zwischen Parachin und Raschna oder zwischen der
+                    Land=strasse von Bellgrad nach Nissa, und dem Schupelach pach oder Stolaz
+                    geschehen […], Augsburg 1720, verlegt von Jeremias Wolff, mit Kupferstichen von
+                    Georg David Nessenthaler / Johann Gottfried Pfautz“</hi> (ediert an <ref target="/o:vipa.rp.hbg.festbuch">dieser Stelle</ref>)<note place="end" xml:id="ftn1" n="1"><p>
+                        Das Reportagebuch ist <ref target="/o:vipa.rp.hbg.festbuch">hier</ref> separat ediert.</p></note></head>
+            <p>Laila Dandachi</p>
+                <div type="intro">
+                    <div type="chapter">
+            <head n="1">1. Einleitung</head>
+                        <p>Zur Bestätigung des Friedens von Passarowitz, abgeschlossen am <date when="1718-07-21">21. Juli
+                1718</date>, wurde die Entsendung zweier Großbotschafter vereinbart, die gemäß einem streng
+                geregelten Zeremoniell am 15. Juni 1719 die Grenze zwischen der Habsburgermonarchie
+                und dem Osmanischen Reich überschritten. Das Zeremoniell wurde spätestens seit den
+                1620er Jahren in den habsburgisch-osmanischen Beziehungen und in der
+                Diplomatie verwendet.<note place="end" xml:id="ftn2" n="2"><p>
+                        Thomas <hi rend="smallcaps">Rahn, </hi>Grenz-Situationen des Zeremoniells in der Frühen Neuzeit, in: Thomas Rahn / Markus Bauer, Hg., Die Grenze. Begriff und Inszenierung, Berlin 1997, 177–206, hier 194–195; Arno 
+                        <hi rend="smallcaps">Strohmeyer,</hi> Die Theatralität interkulturellen Friedens. Damian Hugo von Virmont als kaiserlicher Großbotschafter an der Hohen Pforte (1719/20), in: Guido Braun / Arno Strohmeyer
+                        <hi rend="smallcaps">,</hi> Hg., Frieden und Friedenssicherung in der Frühen Neuzeit. Das Heilige Römische Reich und Europa. Festschrift für Maximilian Lanzinner zum 65. Geburtstag, Münster 2013, 413–438, hier 418–422.
+                    </p></note></p>
+            <p>Die bildliche Umsetzung des Grenzzeremoniells wurde durch eine Folge von
+                insgesamt 18 Kupferstichen (einschließlich des Vorwortblattes) mit den jeweiligen
+                Begleittexten verwirklicht. In der mittleren Kolumne des Vorwortblattes wird der
+                Autor, der in der Festung von Belgrad dienende Ingenieurleutnant Johann Conrad
+                Weiss, angegeben, der das Album seinem Kommandanten, dem Grafen <rs type="person" ref="#mpr14241">Oduyer</rs>, widmete.
+                Ebenso wird darin vermerkt, dass die Übergabe des Albums am <date when="1720-04-20">20. April 1720</date> in
+                Belgrad erfolgte.<note place="end" xml:id="ftn3" n="3"><p rend="footnote text"> Vgl. hierfür die Beschreibung des Vorwortblattes, 5–6.</p></note>
+                Der Titel des Werks „Accurater Abriß…“ weist bereits auf die besondere Gattung der
+                „Reportagebilder des diplomatischen Zeremoniells“ hin, die in Gemälden und
+                Kupferstichen bis ins späte 18. Jahrhundert verbreitet war. Ihren Charakter
+                kennzeichnen sowohl die Betonung des historischen Wahrheitsgehalts als auch die
+                künstlerische Standardisierung (z.B. die vereinheitlichte Darstellung von
+                Regimentern, Kostümen und Waffen). Das historische Ereignis wurde für gewöhnlich auf
+                einem einzigen grafischen Blatt (Einblattdruck) veranschaulicht, aber in diesem auf
+                mehrere Blätter übertragen. Die Kupferstecher Georg David Nessenthaler und Jeremias
+                Wolff schufen eine auf den von Augsburg dominierten mitteleuropäischen Markt
+                zugeschnittene Darstellungsweise, die von einer Reduktion der historischen
+                Komplexität geprägt ist.<note place="end" xml:id="ftn4" n="4"><p rend="footnote text"> Schriftliche Mitteilung von Werner Telesko, am 17.12.2021.</p></note></p>
+            <p>Eric Gornik erwähnt in seinem neulich erschienenen Aufsatz nur zwei bzw.
+                drei weitere Exemplare und geht daher davon aus, dass das Reportagebuch nur auf
+                einen eingeschränkten Leserkreis zugeschnitten war.<note place="end" xml:id="ftn5"
+                    n="5"><p rend="Fußnote">
+                        Eric <hi rend="smallcaps">Gornik,</hi>
+                        „Auff Türckische Art Herrlich Tractirt“. Das
+                            Album zum Österreichisch-Osmanischen Botschaftertausch 1719, in: Viribus
+                            Unitis 2017. Jahresbericht Heeresgeschichtliches Museum Wien (2018),
+                            23–35, hier 35.</p></note> Jedoch haben weitere Recherchen ergeben,
+                dass das Album in Europa weiter verbreitet war: Neben dem kolorierten Exemplar in
+                der Österreichischen Nationalbibliothek (Bild- und Grafiksammlung, 260420-E)
+                existieren noch eine Dublette, die von der k. k. Hofbibliothek 1895 ins
+                Heeresgeschichtliche Museum (KG/525/1) in Wien überführt wurde, eine weitere in der
+                Stiftsbibliothek in Kremsmünster (Saal der Benediktiner, 4*Ga 39) sowie zwei
+                Exemplare in Serbien (Nationalmuseum<note place="end" xml:id="ftn6" n="6"><p
+                        rend="footnote text">
+                        In der Bibliothek dieses Museums sind Informationen zum Bestand nur nach schriftlicher Anfrage erhältlich. </p></note>
+                und Stadtmuseum Belgrad, GI/1187)<note place="end" xml:id="ftn7" n="7"><p>
+                        Ana <hi rend="smallcaps">Milosevic</hi>, The Festival Book. Exchange of Austrian and
+                            Turkish Deputations in 1719, in: Charles Ingrao / Nikola Samardžić /
+                            Jovan Pesalj, Hg., The Peace of Passarowitz 1718, West Lafayette 2011,
+                            239–254, hier 250.
+                    </p></note> sowie eines in der Staatlichen Kunstsammlung Dresden
+                (Kupfertischkabinett, B 1919, 2) und in den Staatlichen Museen zu Berlin (Sammlung
+                Modebild –Lipperheidische Kostümbibliothek, R-Lipp Sba 27 quer). Weitere Exemplare
+                befinden sich in den USA (John Hay Library, Anne S.K. Brown Military Collection,
+                3-Size DR 2119.2 W45x 1720), in Stockholm (Königliche Bibliothek zu Stockholm, RAR
+                161 G2a 1719) sowie in Ungarn (Bibliothek der ungarischen Akademie der
+                Wissenschaften, Hauptbibliothek, Régész. Qu. 284 und Orientalische Sammlung, 716.
+                725). Alle gefundenen Exemplare sind in deutscher Sprache abgefasst, dies lässt die
+                Vermutung zu, dass sie vor allem für die deutschsprachige Oberschicht angefertigt
+                    wurden.<note place="end" xml:id="ftn8" n="8"><p rend="Fußnote">
+                        Siehe dazu den Aufsatz von Lisa <hi rend="smallcaps">Brunner,</hi> Habsburgisch-osmanische Großbotschaften als Medienereignisse des 18. Jahrhunderts. Die mediale Inszenierung der Großbotschaft Damian Hugos von Virmont (1719/20) nach Konstantinopel <hi rend="italic">(in Vorbereitung)</hi>.</p></note> Neben dem Aufsatz von Gornik
+                existiert noch ein Artikel von Ana Milosevic, die das Thema nicht nur aus
+                historischer Perspektive betrachtet, sondern auch kunsthistorische Vorbilder zu
+                Beginn der Frühen Neuheit für den Großbotschafterwechsel ausmachen konnte.<note
+                    place="end" xml:id="ftn9" n="9"><p rend="Fußnote">
+                        <hi rend="smallcaps">Milosevic</hi>, Festival Book, 249–250.
+                    </p></note></p>
+                    </div>
+                    <div type="chapter">
+            <head n="2">2. Der Verleger</head>
+                        <p>Der Augsburger Verleger und Kupferstecher <rs type="person" ref="#mpr14941">Jeremias Wolff</rs>
+                    (1663–1724) ließ unter Mitarbeit der Kupferstecher Georg David Nessenthaler und
+                    Gottfried Pfautz das Reportagebuch anfertigen. Wolff war neben Johann Andreas
+                    Pfeffel und Martin Engelbrecht einer der berühmtesten Verleger in der ersten
+                    Hälfte des 18. Jahrhunderts. Er begann zunächst als Uhrmacher und spezialisierte
+                    sich danach auf die Herstellung von Automaten. Gegen Ende des 17. Jahrhunderts
+                    eröffnete Wolff eine kleine Handlung mit Kupferstichen, wo er, selbst kein
+                    Kupferstecher, die besten Künstler für sich arbeiten ließ. Die meisten größeren
+                    Werke wurden sowohl mit dem Erscheinungsort Augsburg und seinem Herausgeber
+                    Jeremias Wolff –
+                <hi rend="italic"> „Jeremias Wolff excudit Augustae Vindelicorum“ – </hi>beschriftet. Außerdem sind auf den meisten Blättern die
+                    Namen der beiden Kupferstecher Nessenthaler und Pfautz
+                            <hi rend="italic">(„…sculpsit“)</hi> genannt. Am <date when="1700-03-03">3. März 1700</date> erhielt Wolff von Kaiser Leopold I. (reg. 1658–1705) das kaiserliche Privileg. Der Freiheitsbrief garantierte ihm die Möglichkeit, seine Werke beliebig zu illuminieren und zu verkaufen. Sämtliche Blätter sind daher mit der Aufschrift <hi rend="italic">„Cum Privilegio Sacrae Caesaris
+                    Majestatis“</hi> versehen. Als privilegierter Großverleger schuf Wolff das erfolgreichste Kunstverlag-Unternehmen in Augsburg und gab eine unüberschaubare Menge an Karten, Porträts, Architektur- und Ornamentbildern sowie historischen Tabellen und Veduten heraus. Doch vor allem seine Ansichten- und Architekturbücher wurden nicht nur in Augsburg, sondern auch in vielen anderen Städten Europas gehandelt. Bei der Herausgabe der Werke bediente Wolff sich nicht nur der Vorbilder aus früherer Zeit, sondern er ließ auch neue Vorlagezeichnungen herstellen, womit er bestimmte Künstler betraute.<note
+                    place="end" xml:id="ftn10" n="10"><p rend="footnote text"> Michael <hi rend="smallcaps">Schott</hi>, Hg., Augsburger Vedutenstecher und -verleger
+                            (4. Februar–21.März ’82 Ausstellung Schloss Haimhausen), München 1982,
+                            89.</p></note> Seine berühmtesten Publikationen waren die Traktate von Leonhard Christoph Sturm<note
+                    place="end" xml:id="ftn11" n="11"><p>
+                        Kathrin <hi rend="smallcaps">Ellwardt</hi>, Sturm Leonhard Christoph, in: Neue Deutsche
+                            Biographie, Bd. 25: Stadion-Tecklenburg, Berlin 2013, 652–654.
+                    </p></note> und der „Fürstliche Baumeister” von Paul Decker.<note
+                    place="end" xml:id="ftn12" n="12"><p>
+                        Paul <hi rend="smallcaps">Decker</hi>, Fürstlicher Baumeister,
+                            Oder Architectura Civilis, 3 Bde., Augsburg, 1711.</p></note> Sein Nachfolger Johann Balthasar Probst veröffentliche posthum die Vedutenwerke von Salomon Kleiner (z.B. Ansichten vom Wiener Belvedere und vom Augsburger Rathaus)
+                <note place="end" xml:id="ftn13" n="13"><p>
+                        Hans <hi rend="smallcaps">Reuther</hi>, Kleiner Salomon, in: Fritz Wagner, Hg., Neue
+                            Deutsche Biographie, Bd. 11: Kafka-Kleinfercher, Berlin 1977,
+                            749–750.</p></note> sowie Matthias Diesels “Erlustrierende Augen-Weyde”.<note
+                    place="end" xml:id="ftn14" n="14"><p>
+                        Matthias <hi rend="smallcaps">Diesel</hi>, Erlustierende Augenweide in Vorstellung herrlicher Garten und Lustgebäude Theils inventiert und angelegt, theils nach dermahligem
+                            Sito gezeichnet, Augsburg 1717; Peter <hi rend="smallcaps">Prange</hi>, Ein Bildnis des Augsburger
+                            Kunstverlegers Jeremias Wolff, in: John Roger Paas / Josef Biller /
+                            Maria-Luise Hopp-Gantner, Hg., Gestochen in Augsburg. Forschungen und Beiträge zur Augsburger Druckgraphik, Augsburg 2013, 132–138, hier 135. Werner <hi rend="smallcaps">Schwarz</hi>, Vom “stempelnden” Uhrmacher zum Kunstverleger: Jeremias Wolff und seine Nachfolger, in: Helmut Gier / Johannes Janota, Hg., Augsburger Buchdruck und Verlagswesen, Wiesbaden 1997, 587–620, hier 587–588, vgl. auch Werner <hi rend="smallcaps">Schwarz</hi>, Repraesentatio Belli– Eine
+                            Kupferstichabfolge zum Spanischen Erbfolgekrieg aus dem Augsburger
+                            Verlag Jeremias Wolff, in: Zeitschrift des historischen Vereins für
+                            Schwaben 84 (1991), 129–184, hier
+                    134–138.</p></note> Die Ermittlung der Auftraggeber der Werke Wolffs gestaltet sich schwierig, da über den Vertrieb des Verlages bis heute kaum Untersuchungen existieren. Der traditionelle Vertriebsweg über Buchhandel, Jahrmärkte und Messen kam für kostspielige Werke Wolffs, wie das Reportagebuch kaum in Frage. Vielmehr spielten für die europaweite Verbreitung des Werks Kunstagenten aus anderen Städten oder freie Werbeexemplare für die in der Widmung erwähnten Persönlichkeiten eine große Rolle, die sie an interessierte Kundschaft weitergaben.<note
+                    place="end" xml:id="ftn15" n="15"><p rend="Fußnote">
+                        <hi rend="smallcaps">Schwarz</hi>, Vom „stempelnden“ Uhrmacher, 605–606.</p></note>
+            </p>
+            <p>Wiewohl bereits Werner Schwarz den Kaiser als Auftraggeber
+                    des prunkvollen Tafelwerks
+                <hi rend="italic">„Repraesentatio Belli “</hi>– das den Verlauf der Kämpfe des spanischen
+                    Erbfolgekrieges illustriert – in Frage stellt und vielmehr Jeremias Wolff und
+                    Balthasar Probst als eigenständige Financiers vermutet,<note place="end" xml:id="ftn16" n="16"><p rend="footnote text">
+                        <hi rend="smallcaps">Schwarz</hi>, Repraesentatio, 179–180.
+                    </p></note> könnte man dieselbe Annahme auch für das Reportagebuch aufstellen: Die Standardisierung der künstlerischen Stilmittel und die Reduzierung der historischen Komplexität sprechen eigentlich gegen einen kaiserlichen oder fürstlichen Auftraggeber. 
+            </p>
+            <p>Neben Künstlern, Architekten und Festorganisatoren traten
+                    auch immer wieder Verleger und Kunsthändler als Auftraggeber in Erscheinung, die
+                    die auf die Wiedergabe von bestimmten Kunstgenres spezialisierten Zeichner und
+                    Stecher anwarben. Dabei konnten die Verleger von den in diesen Werken
+                    gehuldigten Personen reiche Entlohnung für die Anfertigung von
+                    Geschenkexemplaren, die für andere europäische Höfe bestimmt waren, erwarten.
+                    Der Verkauf der Restauflagen ermöglichte dem Verleger das Interesse des
+                    bürgerlichen Publikums für höfische Prachtentfaltung zu stillen und zugleich auf
+                    die Einmaligkeit des historischen Ereignisses hinzuweisen.<note
+                    place="end" xml:id="ftn17" n="17"><p rend="footnote text">
+                        Michaela <hi rend="smallcaps">Völkel</hi>, Funktionen der Druckgraphik an deutschen Höfen
+                            der Frühen Neuzeit, oder: Wie zeremonielles Wissen in Bildern
+                            gespeichert, verbreitet und zweckentfremdet wurde, in: Joachim Landwehr,
+                            Hg., Geschichte(n) der Wirklichkeit. Beiträge zur Kultur- und
+                            Sozialgeschichte des Wissens, Augsburg 2002, 191–217, hier
+                        205–208.</p></note></p>
+                    </div>
+                    <div type="chapter">
+            <head n="3">3. Künstler</head>
+            <p>Während der Verleger sowie die Kupferstecher namentlich in dem Werk genannt werden, gibt es über die Künstler der Stichvorlagen (Delineationen) keine Angaben. Gewöhnlich wurden diese von Malern, Architekten und Kunsthandwerkern geliefert, die als freie Mitarbeiter angeworben wurden. Am Beispiel des Tafelwerks <hi rend="italic">„Repraesentatio Belli“,</hi> das von dem Verlagswerk des Jeremias Wolff in mehreren Kupferstichen zwischen 1725 und 1730 herausgegeben wurde, konnte man u.a. die Zeichnungen bzw. Radierungen des Historienmalers Georg Phillip Rugendas d. Ä. oder jene des Goldschmieds Abraham Drenttwett als Stichvorlagen ausfindig machen.<note
+                    place="end" xml:id="ftn18" n="18"><p rend="Fußnote">
+                        <hi rend="smallcaps">Schwarz</hi>, Repraesentatio, 139; 143; vgl. Schwarz, Vom „stempelnden“ Uhrmacher, 612. </p></note>
+                Die Zeichnungen beruhen jedoch nicht so sehr auf den
+                    Vorstellungen oder Beobachtungen der Künstler, sondern vielmehr auf diversen
+                    Vorlagen, die die verwendeten Bildmotive bereits thematisierten.
+                <note place="end" xml:id="ftn19" n="19"><p rend="footnote text">
+                        <hi rend="smallcaps">Schwarz,</hi> Repraesentatio, 144.</p></note>
+                Die folgende Bildanalyse beschränkt sich daher auf die
+                    Beschreibung der militärischen, festlichen und zeremoniellen Charakteristiken
+                    des Reportagebuchs, wobei auf mögliche Vorbilder der Bildmotive nur fallweise
+                    eingegangen wird.
+            </p></div>
+                </div>
+                <div type="chapter">
+                <div type="intro">
+            <head n="4">Einzelbilder</head>
+            <p>Die habsburgische und osmanische Prozession wurde jeweils
+                    auf sieben Blättern dargestellt. Beide bewegen sich von der jeweils anderen
+                    Seite symmetrisch auf das Zentralbild mit dem Grenzzeremoniell zu. Im Anschluss
+                    daran wird noch der gegenseitige Empfang der bedeutendsten Repräsentanten auf
+                    zwei weiteren Blättern dokumentiert, der sich aber erst nach dem
+                    Grenzzeremoniell ereignete und daher nachträglich hinzugefügt wurde.
+                <note place="end" xml:id="ftn20" n="20"><p rend="footnote text">
+                        <hi rend="smallcaps">Milosevic,</hi> The Festival Book, 245.</p></note>
+                Die Geschenkwagons, Handpferde und Truppenregimenter
+                    werden sehr detailliert dargestellt, womit ein größeres Augenmerk auf Feinheiten
+                    wie Kostümierung, Gestik, Mimik, Bewegung und Anordnung im Raum gelegt wird, die
+                    nicht nur die politische Bedeutung des Geschehens zum Ausdruck bringen, sondern
+                    auch die Exklusivität bzw. Einzigartigkeit des Großbotschafteraustausches
+                    kolportieren. Die Relevanz des Geschehens ist daher nicht abhängig von der
+                    Aktualität, sondern von der politischen Bedeutung und dem sozialen Rang der
+                    Akteure. Der jeweilige Rang der höfischen Repräsentanten wird durch universelle
+                    Stilelemente und Techniken dokumentiert und soll dem Betrachter die
+                    Simultaneität und die sinnliche Erfahrung des Geschehens vor Augen führen. Im
+                    Gegensatz zu detaillierten schriftlichen Beschreibungen konnten die Bilder der
+                    Druckmedien auch die nicht höfische Gesellschaft erreichen.
+                <note place="end" xml:id="ftn21" n="21"><p rend="Fußnote">
+                        Volker <hi rend="smallcaps">Bauer</hi>, Höfische Gesellschaft und höfische
+                            Öffentlichkeit im Alten Reich. Überlegungen zur Mediengeschichte des
+                            Fürstenhofs im 17. und 18. Jahrhundert, in: Jahrbuch für
+                            Kommunikationsgeschichte 5 (2003), 29–68, hier 52–56.
+                    </p></note>
+                Darüber hinaus galten vor allem Kupferstiche als Ausdruck
+                    der höfischen Gedächtniskultur, da es an den Höfen der Frühen Neuzeit noch keine
+                    systematische Zeremonialordnung gab. Einmalige zeremonielle Abläufe wurden in
+                    Bildern transferiert und fungierten somit als Speichermedium. Dadurch konnte man
+                    sich bei der Organisation neuer höfischer Ereignisse auf vergangene Exempla
+                    beziehen, die man nicht nur aus der eigenen Dynastie, sondern aus den
+                    Festpublikationen der Bibliotheken von Nachbarhöfen bezog.<note
+                    place="end" xml:id="ftn22" n="22"><p rend="footnote text">
+                        <hi rend="smallcaps">Völkel</hi>, Funktionen, 198–199.</p></note></p>
+            <p>Die Bedeutung des Militärs ist in diesem Ereignis
+                    unübersehbar, wie die Beschreibungen der Einzelbilder zeigen werden.
+                    Militärische Handlungsmuster im Staatszeremoniell wurden seit dem 16.
+                    Jahrhundert immer häufiger: Im Rahmen von Herrschereinzügen wurde auf
+                    Einblattdrucken die Gelegenheit genutzt, auf das militärische Potenzial des
+                    Gastes oder des Gastgebers ostentativ aufmerksam zu machen. Seit dem
+                    Spätmittelalter führten die Herrscher ihre Leibgarden mit sich, die zwar
+                    prächtig gekleidet waren, aber deren Anzahl zunächst eher bescheiden war. Die
+                    Einführung der stehenden Heere im 17. Jahrhundert führte zu einer neuen
+                    Formensprache bei Herrschaftsinszenierungen, die auf starke formale
+                    Vereinheitlichungen setzen. Die Uniformierung des Militärs und die motivische
+                    Vereinheitlichung der mitgeführten Fahnen bekräftigten die Wirkung von Ordnung,
+                    Ästhetik und Harmonie.<note place="end" xml:id="ftn23" n="23"><p rend="Fußnote">
+                        Harriet <hi rend="smallcaps">Rudolph</hi>, Zeichen und Medien des Militärischen am
+                            Fürstenhof in Europa, Berlin 2017, 55, 60–61.</p></note>
+                Damit war im 18. Jahrhundert der Weg frei für die
+                    Schaffung eines Staatszeremoniells, womit nun Staaten ihre Herrschaftsansprüche
+                    nach innen und nach außen repräsentieren konnten. Die Darstellung von
+                    Truppenparaden mit Fahnen, klingendem Spiel und donnernden Kanonenfeuer wurde
+                    daher nicht nur intellektuell, sondern sinnlich erfahrbar.<note
+                    place="end" xml:id="ftn24" n="24"><p rend="Fußnote">
+                        <hi rend="smallcaps">Rudolph</hi>, Zeichen, 68–69.</p></note>
+            </p>
+            <p>Das zentrale Element der Darstellungsweise in den Einzelbildern ist neben der
+                            Symbolik des Militärischen auch die Theatralität. Das gesamte Ereignis
+                            des Botschafterwechsels wird dem Betrachter bühnenhaft vor Augen
+                            geführt. Dafür spricht die festliche Prachtentfaltung, die sich in der
+                            Kostümierung der Protagonisten und ihrer Höflinge, in der Größe und
+                            Aufwand des Gefolges und der Regimenter sowie in der Körperlichkeit
+                            (Gestik, Mimik und Bewegung im Raum) aller dargestellten Personen
+                                zeigt.<note place="end" xml:id="ftn25" n="25">
+                                <p rend="footnote text">
+                                    <hi rend="smallcaps">Gornik,</hi> Auff Türckische Art, 27; vgl.
+                                    Claudia Curtius <hi rend="smallcaps">Suetter von Lötzen</hi>,
+                                    Das Tafelzeremoniell an deutschen Höfen im 17. und 18.
+                                    Jahrhundert. Quellen und Rechtsgrundlagen, iur. Dissertation,
+                                    Universität Jena 2008, 96.</p>
+                            </note> Das Ziel dieser bühnenhaften „Vorstellung“ des
+                            Großbotschafterwechsels war, die politische Ebenbürtigkeit der beiden
+                            Großmächte durch freundschaftliche Gesten und ritualisierte Handlungen
+                            zu kommunizieren.<note place="end" xml:id="ftn26" n="26">
+                                <p rend="footnote text">
+                                    <hi rend="smallcaps">Strohmeyer,</hi> Theatralität, 420–421.</p>
+                            </note> Mit dieser Annäherung an den einstigen Erzfeind wollte man
+                            ethnographisches Wissen über die Osmanen zur Schau stellen, die vor
+                            allem im Militär und Zeremoniell ähnlich bzw. kompatibel schienen. Zwar
+                            gab es bereits seit dem 15. Jahrhundert positive Wahrnehmungen über die
+                            Türken – z.B. in Sachen Disziplin, Gehorsamkeit und Frömmigkeit etc. –
+                            aber die feindliche Gesinnung gegenüber dem übermächtigen Feind wich
+                            Anfang des 18. Jahrhunderts zunehmend seiner Entzauberung.<note
+                                place="end" xml:id="ftn27" n="27">
+                                <p rend="footnote text"> Joachim <hi rend="smallcaps">Eibach,</hi>
+                                    Annäherung – Abgrenzung – Exotisierung. Typen der Wahrnehmung
+                                    des „Anderen“ in Europa am Beispiel der Türken, Chinas und der
+                                    Schweiz (16. bis frühes 19. Jahrhundert), in: Joachim Eibach /
+                                    Horst Carl, Hg., Europäische Wahrnehmungen, 1650–1850.
+                                    Interkulturelle Kommunikation und Medienereignisse, Hannover
+                                    2008, 13–74, hier 31–36.</p>
+                            </note></p>
+                <p>Bis auf das Vorwortblatt und die beiden Blätter am Ende des Albums, die
+                ausführlicher über das bevorstehende bzw. abgebildete Ereignis berichten,
+                beschränken sich die Begleittexte zu den einzelnen Bildern auf kurze Beschreibungen
+                der Personen und Gegenstände. Somit kommentieren die Texte zwar das Ereignis, aber
+                geben keine persönlichen Eindrücke oder Interpretationen wieder. Die Bilder und
+                Begleittexte entsprechen daher den bei Festpublikationen angewandten Methoden. Aber
+                nicht nur die schriftlichen Beschreibungen, sondern auch die sparsame Ausgestaltung
+                der Bildszenen können dem Rationalisierungsdruck geschuldet sein.<note place="end"
+                    xml:id="ftn28" n="28"><p rend="footnote text">
+                        <hi rend="smallcaps">Suetter von Lötzen</hi>, Das Tafelzeremoniell, 98.</p></note></p>
+                    </div>
+                    <div type="section">
+                        <head>Das Vorwortblatt</head>
+                        <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+            <p>Dieses Blatt erwähnt die grundlegenden Elemente des
+                Großbotschafterwechsels. Die mittlere Kolumne ist durch einen festlichen Rahmen
+                hervorgehoben und beinhaltet die Widmung des Buches durch den Ingenieurleutnant,
+                Goldschmied und Autor des Texts Johann Conrad Weiss (1670–1758),<note place="end"
+                    xml:id="ftn29" n="29"><p>Manfred <hi rend="smallcaps">Grieb</hi>, Hg., Nürnberger Künstlerlexikon: Bildende
+                            Künstler, Kunsthandwerker, Gelehrte, Sammler, Kulturschaffende und
+                            Mäzene vom 12. bis zur Mitte des 20. Jahrhunderts, München 2007,
+                            1646.</p></note> an <rs type="person" ref="#mpr14241">Johann Josef Graf von Oduyer</rs>, den General
+                Feld-Wachtmeister der Festung Belgrad. Graf <rs type="person" ref="#mpr14241">Oduyer</rs>, ein gebürtiger Ire, wurde
+                erstmals von Graf Guido Starhemberg für militärische Dienste in Anspruch genommen.
+                Zu Beginn des 18. Jahrhunderts konnte er in der kaiserlichen Armee seine
+                militärische Karriere fortsetzen und wurde aufgrund seiner verdienstvollen
+                Leistungen in Spanien und Italien durch <rs type="person" ref="#mpr9399">Kaiser Karl VI.</rs> 1713 in den Grafenstand
+                erhoben. Daraufhin konnte er sich im venezianisch-österreichischen Türkenkrieg
+                (1716–1718) bewähren und wurde daher 1718 zum Generalfeldwachtmeister der
+                Grenzfestung Belgrad im Königreich Serbien ernannt. Neben militärischen und
+                administrativen Aufgaben leistete er auch in diplomatischen Angelegenheiten
+                Unterstützung, wie es in der Begegnung des habsburgischen Großbotschafters <rs type="person" ref="#mpr9435">Damian
+                Hugo Graf von Virmont</rs> (1666–1722)<note place="end" xml:id="ftn30" n="30"><p> August
+                        <hi rend="smallcaps">Heldmann</hi>, Virmont, in: Allgemeine Deutsche Biographie,
+                            Bd. 55: Nachträge bis 1899, Leipzig 1910, 332–341.</p></note> mit
+                dem osmanischen Großbotschafter Ibrahim Pascha (ca. 1662–1730)<note place="end" xml:id="ftn31" n="31"><p>
+                        Müner <hi rend="smallcaps">Aktepe</hi>, Ibrāhīm Pas̲h̲a Nevs̲h̲ehirli, in: Peri
+                            Bearman, u.a., Hg., Encyclopaedia of Islam. Second Edition, Leiden 2012
+                            [online Version].
+                         Diese Quelle wird von nun an mit dem Kürzel EI<hi rend="superscript">2</hi> zitiert.</p></note>
+                überliefert ist. Die erste Kolumne des Vorwortblattes erwähnt den
+                Großbotschafterwechsel, der sich am <date when="1719-06-15">15. Juni 1719</date> auf der Straße von Belgrad nach
+                Niš zwischen Paracín und Ražanj ereignete. Die dritte Kolumne weist schließlich auf
+                seine bedeutende Rolle als Vermittler in diesem Ereignis hin: Er übergab den
+                kaiserlichen Großbotschafter Virmont symbolisch in die Hand des Seraskiers <rs type="person" ref="#mpr14242">Abdullah
+                Pascha</rs>, Beylerbey von Niš und Rumelien.<note place="end" xml:id="ftn32" n="32"><p>
+                        Zur Person vgl.: Aykut <hi rend="smallcaps">Mustak</hi>, In Through the Out Door: Muhsinzade Abdullah
+                            Pasha’s Provincial Career. Paper presented at the 27<hi rend="superscript">th</hi> MEHAT Conference, University of Chicago, May 4–5, 2012.
+                </p></note> In ähnlicher Weise nahm <rs type="person" ref="#mpr14241">Oduyer</rs> den osmanischen Großbotschafter
+                Ibrahim Pascha in seine Obhut. Anschließend begleiteten <rs type="person" ref="#mpr14242">Abdullah Pascha</rs> und <rs type="person" ref="#mpr14241">Oduyer</rs>
+                die beiden Repräsentanten auf ihren Weg zur vereinbarten Grenze.<note place="end" xml:id="ftn33" n="33"><p rend="footnote text">
+                        Simon Emil <hi rend="smallcaps">Königer</hi>, Die Großbotschaft des Grafen Damian Hugo von
+                            Virmont 1719/20. Eine historisch-kritische Edition der Berichte von Otto
+                            Friedrich von Öbschelwitz und Johann Joseph Graf von Oduyer,
+                            Masterarbeit, Universität Salzburg 2021, 47–52.
+                    </p></note> Der Verlauf des Großbotschafterwechsels geht einer intensiven und
+                präzisen Planung voraus, die sowohl vom Hauptmann der Festung von Belgrad, <rs type="person" ref="#mpr14241">Graf von
+                    Oduyer</rs>,<note place="end" xml:id="ftn34" n="34"><p rend="footnote text"> Der <ref target="/o:vipa.rp.hbg.17190621.oduyer">hier edierte Bericht Oduyers</ref> befindet sich in Wien im Haus-, Hof- und Staatsarchiv, StAbt Türkei I, 184/2, Relation vom 21.06.1719, 45r–54v.</p></note>
+                als auch vom Ingenieurhauptmann und Kartograph Otto Friedrich von Öbschelwitz <note place="end" xml:id="ftn35" n="35"><p> Haus-, Hof- und Staatsarchiv, StAbt Türkei I, 184/1, Relation 1719, 136r–159v. Zur Person und Funktion von Öbschelwitz während des Großbotschafterwechsels, vgl. 
+                        <hi rend="smallcaps">Königer</hi>, Die Großbotschaft,
+                31–37.</p></note>vorgenommen worden ist. Der gesamte Reiseverlauf der
+                Großbotschaft des Grafen Damian Hugo von Virmont von Wien nach Konstantinopel wurde
+                von dessen Sekretär und Kartograph Gerard Cornelius Driesch ausführlich
+                    beschrieben.<note place="end" xml:id="ftn36" n="36"><p rend="footnote text">
+                        <ref target="/o:vipa.tr.hbg.1723">Gerhard Cornelius von den <hi rend="smallcaps">Driesch, </hi>Historische Nachricht von der Röm. Kayserl.
+                            Groß-Botschafft nach Constantinopel, welche auf allergnädigsten Befehl
+                            Sr. Röm. Kayserlichen und Catholischen Majestät Carl des Sechsten nach
+                            glücklich vollendeten zweyjährigen Krieg, der hoch und Wohlgebohrne des
+                            H. R. Reichs Graf Damian Hugo von Virmondt rühmlichst verrichtet […].
+                            Nürnberg 1723.</ref>
+                    </p></note></p>
+                    </div>
+                    <div type="section">
+            <head>Der kaiserliche Zug</head>
+                        <div type="subsection" xml:id="db1">
+                            <head>1. Doppelbild: „Die Inszenierung der Gepäck- und Paradewagen“</head>
+                            <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+            <p>Die drei dargestellten Wagen unterscheiden sich in der Ausstattung, Anzahl der Pferde
+                                und der Gespannführer, die hier in typischer blauer Tracht mit
+                                goldenen Knöpfen, roten Manschetten und schwarzem Dreispitz
+                                dargestellt werden.<note place="end" xml:id="ftn37" n="37">
+                                    <p rend="footnote text"> Magdalena <hi rend="smallcaps"
+                                            >Bayreuther</hi>: Royal Equipage on its way. Carriages
+                                        and Court Ceremonial in Eighteenth-Century Munich, in: Mark
+                                        Hengerer / Nadir Weber, Hg., Animals and Courts. Europe, c.
+                                        1200–1800, Berlin / Boston 2020, 241–263, hier 255. </p>
+                                </note> Während die ersten beiden Fahrzeuge, der Gepäck- und
+                                Präsentwagen, von einem Dreigespann gezogen werden, besteht die
+                                Kutsche aus einem Coupé (Zweiersitz) und einem Sechsergespann. Der
+                                Rang und die Bedeutung dieser Gespanne zeigen sich anhand des
+                                Präsentwagens durch seine rote mit Gold bestickte Hülle und anhand
+                                der schwarzen Kutsche durch die goldenen Ornamente auf der
+                                Oberfläche des Coupés. Sie unterscheiden sich daher deutlich von dem
+                                schlichten Gepäckwagen am Ende des Zuges. Der Fokus dieses Blattes
+                                liegt aber eindeutig auf der Repräsentation der Personenkutsche,
+                                deren Pferde noch durch ihr goldenes Zaumzeug und ihren roten
+                                Kopfschmuck hervorgehoben werden. Außerdem weist die Kutsche zwei
+                                Gespannführer auf, von denen der vordere – Postillion genannt – die
+                                ersten beiden Pferde lenkt, während der eigentliche Kutscher oder
+                                Hofwagenmeister auf einem erhöhten Sitz die hinteren vier Pferde
+                                anführt. Die goldbordierten Decken der Pferde demonstrieren außerdem
+                                die zeremonielle Bedeutung des Gefährts gegenüber den von
+                                Unterwagenmeistern geführten Gepäck- und Geschenkwagen.<note
+                                    place="end" xml:id="ftn38" n="38">
+                                    <p rend="footnote text"><hi rend="smallcaps">Bayreuter</hi>,
+                                        Royal Equipage, 251, 253.</p>
+                                </note>
+                            </p>
+            <p>Die Pferdekutsche galt Anfang des 18. Jahrhunderts als zentrales Element der
+                                höfischen Repräsentation: Die Fahrt drückte nicht nur eine
+                                hierarchische Distanzierung aus, sondern bestach auch durch ihre
+                                mystische Dimension, die – wie im Fall der schwarzen Kutsche des
+                                Großbotschafters – durch geschlossene Vorhänge noch verstärkt
+                                    wurde.<note place="end" xml:id="ftn39" n="39">
+                                    <hi rend="smallcaps">Bayreuter,</hi> Royal Equipage, 243.</note>
+                                Die drei dargestellten Wagen dienen hier nur als
+                                Illustrationsbeispiel eines sehr langen Großbotschafterzuges, der
+                                sich – wie in der Beschreibung angegeben – aus mehreren hundert
+                                Fahrzeugen zusammensetzte. Die Anzahl der Kutschen, des Gepäcks und
+                                der Präsente spiegelt nicht nur die zeremonielle, sondern auch die
+                                politische Bedeutung des Botschafters, der die Hoheit und den
+                                Reichtum des Herrschers angemessen repräsentieren sollte. <note
+                                    place="end" xml:id="ftn40" n="40">
+                                    <p> Johann Christian <hi rend="smallcaps">Lünig</hi>, Theatrum
+                                        Ceremoniale Historico-Politicum Oder Historisch- und
+                                        Politischer Schau-Platz Aller Ceremonien: Welche bey Päbst-
+                                        und Käyser- auch Königlichen Wahlen und Crönungen …
+                                        beobachtet worden, 2 Bde., Leipzig 1719, hier Bd. 1,
+                                        384–386; Andrea <hi rend="smallcaps">Sommer-Mathis</hi>,
+                                        Theatrum Ceremoniale. Rang und Sitzordnungen bei
+                                        theatralischen Veranstaltungen am Wiener Kaiserhof im 17.
+                                        und 18. Jahrhundert, in: Jörg Jochen Berns / Thomas Rahn,
+                                        Hg., Zeremoniell als höfische Ästhetik in Spätmittelalter
+                                        und Früher Neuzeit, Tübingen 1995, 511–533, hier 522. </p>
+                                </note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db2">
+                        <head>2. Doppelbild: „Aufmarsch der Grenadiere“</head>
+                        <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+            <p>Auf dem linken Bild sind noch weitere nicht militärische
+                    Teilnehmer des Großbotschaftereinzuges abgebildet: Die sieben Maultiere, die von
+                    zwei Beiläufern angeführt werden, sind mit goldbestickten Schabracken aus rotem
+                    Samt und goldenem Zaumzeug geschmückt. Außerdem befinden sich noch dreifarbige
+                    Federbüsche auf ihren Köpfen und auf den „höckerförmigen Aufsätzen“, was den
+                    theatralischen Charakter des Großbotschaftereinzuges unterstreicht. Darüber
+                    hinaus sind die Maultiere im Vergleich zu der Anordnung der Grenadiere auf dem
+                    rechten Bild noch deutlich größer dargestellt.
+            </p>
+            <p>Bereits seit dem Ende des 15. Jahrhunderts sind neben
+                    Paradepferden, Geschenk- und Gepäckwagen auch prunkvoll geschmückte Maultiere
+                    bei fürstlichen Einzügen bezeugt: Der Aufbruch des Hofes des Herzogs von Ferrara
+                    nach Rom beinhaltete u. a. mehrere hundert Paradepferde und Maultiere, von denen
+                    etliche mit karmesinrotem Samt geschmückt und mit wertvollen
+                    Einrichtungsgegenständen beladen wurden.<note place="end" xml:id="ftn41" n="41"><p rend="footnote text"> Lucas <hi rend="smallcaps">Burkart</hi>, Bildnisproduktion und Herrscherwahrnehmung am
+                            herzoglichen Hof von Ferrara, in: Zeitschrift für historische Forschung
+                            25 (1998), 55–84, hier
+                    57–58.</p></note> Daher könnte es sich bei den „höckerförmigen Aufsätzen“ der 
+                Maultiere im Reportagebuch auch um wertvolle Utensilien des höfischen Gefolges handeln. Prunkvolle Einzüge mit prachtvollen Kutschen, 
+                Handpferden und Maultieren als Gepäcksträger gehörten auch noch im frühen 18. Jahrhundert zum Standard der höfischen Repräsentation.<note place="end" xml:id="ftn42" n="42"><p rend="footnote text">
+                        Beispielsweise beim Einzug der österreichischen Prinzessin Maria Josepha am 2. September 1719 in Dresden, der im <hi rend="bold color(0079BF)">7. Doppelbild</hi>
+                        besprochen wird.</p></note></p>
+            <p>Der Aufmarsch der Grenadiere charakterisiert zur Gänze das
+                    rechte Bild und betont das militärische Rahmengefüge des
+                    Großbotschaftereinzuges, der in den folgenden Doppelbildern noch verstärkt
+                    wird.
+            </p>
+            <p>Hier werden zwei Regimenter von Grenadieren gezeigt, die
+                    jeweils in 6 Reihen zu je 6 Personen angeordnet sind. Sie tragen enge Hosen mit
+                    rosafarbenen Gamaschen, graue, knielange Mantelkleider mit roten Manschetten,
+                    Halbschuhe mit kurzen Absätzen und schwarz-gelbe, spitz zulaufende Pelzmützen
+                    mit herabhängendem Beutel. Außerdem trägt jeder Grenadier bis auf die zwei
+                    Trommler, die jeweils in der Mitte der vordersten Reihe der Regimenter stehen,
+                    einen Säbel und ein Gewehr.<note place="end" xml:id="ftn43" n="43"><p rend="footnote text">
+                        Richard <hi rend="smallcaps">Knötel</hi>, Handbuch zur Uniformkunde, Leipzig 1896,
+                            216–218.</p></note>
+                Die Trommler gehören neben den Pfeifern zu jenen
+                    Militärmusikern, die die Infanterie mit Marschmusik begleiten.<note
+                    place="end" xml:id="ftn44" n="44"><p rend="footnote text">
+                        Hans-Peter <hi rend="smallcaps">Stein /</hi>
+                        Hans-Martin <hi rend="smallcaps">Ottmer</hi>, Hg., Symbole und Zeremoniell in deutschen
+                            Streitkräften vom 18. bis 20. Jahrhundert, Herford 1984,
+                        256–257.</p></note> Die Grenadiere als Infanterietruppen werden in der kaiserlichen Armee erstmals 1664 erwähnt. Um 1720 war bereits die Vereinheitlichung ihrer Uniformierung weitgehend abgeschlossen.<note
+                    place="end" xml:id="ftn45" n="45"><p rend="footnote text">
+                        <hi rend="smallcaps">Knötel,</hi> Handbuch zur Uniformkunde, 216.</p></note>
+                Die Einfärbung der Hosen, Pelzmützen und Manschetten
+                    dienen hier und in den folgenden Doppelbildern zur Unterscheidung der
+                    verschiedenen Infanterie- und Kavallerieregimenter.
+            </p></div>
+                    <div type="subsection"  xml:id="db3">
+                        <head>3. Doppelbild: „Die Militärparade des Großbotschafters Damian Hugo von Virmont“</head>
+                        <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+            <p>An der Spitze des Zuges befindet sich der Großbotschafter Virmont, der in
+                                herrschaftlicher Manier ein schwarzes Pferd reitet und von 12
+                                Infanteriesoldaten, gruppiert in 3 Reihen zu je 4 Personen,
+                                begleitet wird. Ihre Kostüme – graue Mantelkleider mit roten
+                                Manschetten und rosafarbenen Gamaschen – ähneln den Grenadieren im
+                                    <hi rend="bold color(0079BF)"><ref target="#db2">2.
+                                        Doppelbild,</ref></hi> wohingegen ihre Bewaffnung auf den
+                                Degen beschränkt ist. Der höhere Rang dieses Infanterieregiments und
+                                ihre Zugehörigkeit zum Großbotschafter erklärt sich durch die
+                                goldenen Knöpfe ihrer Mantelkleider. Der Großbotschafter selbst
+                                trägt, wie alle Teilnehmer dieses Blattes, einen Dreispitz als
+                                Kopfbedeckung und ein rotes Mantelkleid mit Goldstickerei.
+                                Zusätzlich wird er noch durch sein schwarzes Pferd hervorgehoben,
+                                das mit einer blauen, goldbestickten Satteldecke und einem goldenen
+                                Zaumzeug ausgestattet ist. Sein bedeutender Rang erklärt sich durch
+                                seine Positionierung am Anfang des Zuges, seine Haltung, Kleidung
+                                und der Anzahl seiner Begleiter,<note place="end" xml:id="ftn46"
+                                    n="46">
+                                    <p rend="footnote text"> Gottfried <hi rend="smallcaps"
+                                            >Stieve</hi>, Europäisches Hof-Ceremoniel: In welchem
+                                        Nachricht gegeben wird, was es für eine Beschaffenheit habe
+                                        m. d. Praerogativa u. d. aus selbiger fließenden Ceremoniel,
+                                        welches zwischen Käyser- und Königl. Majestäten,
+                                        Churfürsten, Cardinälen, Fürsten und freyen Republiquen,
+                                        dero Gesandten und Abgesandten beobachtet wird, Augsburg
+                                        1723, 1–2; Claudia <hi rend="smallcaps">Schnitzer</hi>:
+                                        Höfische Maskeraden. Funktion und Ausstattung von
+                                        Verkleidungsdivertissements an deutschen Höfen der Frühen
+                                        Neuzeit, Tübingen 1999, 6–29.</p>
+                                </note> von denen die restlichen noch auf dem <ref target="#db4">4.
+                                    Doppelbild</ref> dargestellt werden. Die Darstellung des
+                                Großbotschafters als führender Reiter seines Zuges erinnert an
+                                herrschaftliche Reiterporträts, die den Fürsten oder König in
+                                derselben Reiterpose zeigen, wie z.B. den französischen König Ludwig
+                                XIV. in einem Reiterbildnis aus der 2. Hälfte des 17. Jahrhunderts
+                                im Musée des Beaux-Arts in Dijon:<note place="end" xml:id="ftn47"
+                                    n="47">
+                                    <p rend="footnote text"> René-Antoine <hi rend="smallcaps"
+                                            >Houasse</hi>, Louis XIV à cheval, Dijon 1793, Musée des
+                                        beaux-arts de Dijon, CA 154, online unter: <ref
+                                            target="http://mba-collections.dijon.fr/ow4/mba/voir.xsp?id=00101-43465&amp;qid=sdx_q1&amp;n=5&amp;e="
+                                            >http://mba-collections.dijon.fr/ow4/mba/voir.xsp?id=00101-43465&amp;qid=sdx_q1&amp;n=5&amp;e=</ref>
+                                        (13.04.2022).</p>
+                                </note> Die Präsenz der dargestellten Person – im Reportagebuch
+                                vertritt der Großbotschafter den Kaiser – wird durch die Kleidung
+                                und Insignien zeichenhaft überhöht, wodurch die Theatralität der
+                                Herrscheridee nach außen getragen wird.<note place="end"
+                                    xml:id="ftn48" n="48">
+                                    <p rend="footnote text"> Matthias <hi rend="smallcaps"
+                                            >Müller</hi>, Unfassbare Komplexität und überwältigtes
+                                        Staunen. Die theaterhafte Inszenierung höfischer Räume im
+                                        Dienst der königlichen Evidenz, in: Margret Scharrer / Heiko
+                                        Lass / Matthias Müller, Hg., Musiktheater im höfischen Raum
+                                        des frühneuzeitlichen Europas, Heidelberg 2020, 41–66, hier
+                                        56–60.</p>
+                                </note> In ähnlicher Aufmachung, aber in etwas weniger prunkvoller
+                                Darstellung, folgt der Zug des Oberstallmeisters, der sich aus
+                                Infanteristen und Kavalleriesoldaten zusammensetzt, deren Pferde
+                                rote, goldbestickte Satteldecken tragen. Die besondere Stellung des
+                                Oberstallmeisters kennzeichnet wieder, wie im Fall des
+                                Großbotschafters, seine Positionierung am Beginn des Zuges, sein
+                                rotes mit Goldbordüren geschmücktes Mantelkleid und die blaue mit
+                                Goldstickerei versehene Satteldecke seines weißen Pferdes. </p>
+            <p>In der Kostümierung und Ausstattung des Gefolges des
+                    Oberstallmeisters ergeben sich im Vergleich zu den Fußsoldaten des
+                    Großbotschafters keine Unterschiede. Der Oberstallmeister erfüllte im
+                    kaiserlichen Hofstaat die Aufsicht über die Sattel- und Rüstkammer sowie die
+                    Wagenburg und den Marstall. Darüber hinaus ist dieser eng mit der Person des
+                    Fürsten bzw. mit der des Grafen Virmont verknüpft, da er ihn bei seinem Ausritt
+                    gewöhnlich begleitet.<note place="end" xml:id="ftn49" n="49"><p rend="footnote text"> Ivan <hi rend="smallcaps">von Žolger</hi>, Der Hofstaat des Hauses Österreich, Wien /
+                            Leipzig 1917, 134.</p></note></p>
+            <p>Der musikalische Rahmen des Zuges wird von den sich auf
+                    der linken Bildhälfte gruppierenden Hauptboisten gebildet, wodurch der festliche
+                    und bühnenhafte Charakter der Militärparade verstärkt wird. Das Regiment der
+                    Hauptboisten entwickelte sich aus den Spielleuten, die die kaiserliche Armee
+                    spätestens seit dem Dreißigjährigen Krieg mit ihren Pfeifen und Trommeln
+                    begleiteten, um die Signale für verschiedene Marschbefehle anzuzeigen. Ab der 2.
+                    Hälfte des 17. Jahrhunderts kamen dann die Oboen und Fagotte hinzu, die ab 1700
+                    den Kern kleinerer Ensembles aus „Harmonien“ oder Hauptboisten bildeten.<note place="end" xml:id="ftn50" n="50"><p rend="footnote text">
+                        Eugen <hi rend="smallcaps">Brixel</hi>, Kulturfaktor Militärmusik. Leitbild und
+                            Wegbereiter des zivilen Blasmusikwesens in Österreich, in:
+                            Österreichische Musikzeitschrift 52/7, 1997, 16–23, hier
+                    17.</p></note></p>
+            <p>Das Ende des Zuges besteht aus drei Repräsentanten der
+                    kaiserlichen Infanterie, deren Dienstgrade durch die Farbe ihrer Kostüme sowie
+                    ihre unterschiedlichen Waffen (Hellebarde, Fahne und Lanze) hervorgehoben
+                    werden. In der Prachtentfaltung unterscheiden sie sich aber kaum. Die erste und
+                    ranghöchste Position nimmt der „Capitain“ bzw. der Hauptmann ein, der die
+                    militärische Truppe anführt, welchem die beiden niedrigeren Ränge wie der
+                    Fähnrich, dem die ehrenvolle Aufgabe der Verteidigung der Fahne gebührt, und der
+                    Sergeant unterstellt sind.<note place="end" xml:id="ftn51" n="51"><p rend="footnote text">
+                        Vgl. die Funktion des Fahnenträgers bei der Kavallerie im <hi rend="bold color(0079BF)"><ref target="#db4">4. Doppelbild</ref>.</hi></p></note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db4">
+                        <head>4. Doppelbild: „Aufmarsch der Kavallerie“</head>
+                        <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+            <p>Auf der linken Bildhälfte setzt sich der Zug des Großbotschafters vom <hi rend="bold color(0079BF)"><ref target="#db3">3. Doppelbild</ref></hi>
+                fort: Er besteht aus insgesamt 24 Infanteriesoldaten, die mit dem gleichen Kostüm ausgestattet sind wie jene, die den Großbotschafter umgeben. 
+            </p>
+            <p>Die Bedeutung des Blattes konzentriert sich auf das
+                    Zentrum mit der Darstellung der Kavallerie, deren Kleidung oder Satteldecken
+                    farblich und mit Goldstickerei hervorgehoben werden und daher der prachtvollen
+                    Darstellung des Oberstallmeisters im<hi rend="bold color(0079BF)"> <ref target="#db3">3. Doppelbild</ref></hi>
+                in nichts nachsteht. Dieselbe Stufe der Prachtentfaltung
+                    trifft auch auf die Dienerschaft der Kavalleristen zu.
+            </p>
+            <p>Die Hierarchisierung innerhalb dieses Regiments ist im
+                    Vergleich zum Zug des Großbotschafters deutlich zurückgenommen. Der Schwerpunkt
+                    des Blattes verschiebt sich daher auf die militärische Komponente des Zuges: In
+                    der vordersten Reihe der Kavallerie befindet sich in mittiger Position der
+                    Fahnenträger, der eine Fahne mit dem Bild des kaiserlichen Doppeladlers trägt.
+                    Sein Habitus ähnelt ein wenig der Reiterpose des Großbotschafters, dennoch
+                    versinnbildlicht er nicht so sehr die kaiserliche Präsenz, sondern vielmehr
+                    seine äußerst ehrenvolle Funktion in dem Regiment: Der Fahneneid verpflichtet
+                    den Träger, der oft den niedrigsten Rang in der adeligen Offizier-Charge
+                    einnimmt, die kaiserliche Fahne bis auf den letzten Blutstropfen vor dem Gegner
+                    zu verteidigen. Der Ruhm und Geist dieser Truppe steht daher völlig im Dienst
+                    des Monarchen. Die Erbeutung von gegnerischen Fahnen galt als besonders ehrenvoll. Das
+                    Bild unterstreicht somit ihre symbolische Bedeutung für die kaiserliche Armee.<note place="end" xml:id="ftn52" n="52"><p rend="footnote text">
+                        <hi rend="smallcaps">Stein / Ottmer</hi>, Hg., Symbole, 213–218.</p></note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db5">
+                        <head>5. Doppelbild: „Der Paradezug des Hofmarschalls“</head>
+                        <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+            <p>Im Gegensatz zum vorhergehendem Doppelbild ist hier wieder
+                    eine deutliche Hierarchisierung der Hofbeamten zu beobachten: Der vordere Zug
+                    wird vom Hofmarschall geleitet, der wieder durch seine Positionierung an der
+                    Spitze und durch seine Reiterpose als die wichtigste Person dieses Doppelbildes
+                    gekennzeichnet wird. Die Prachtentfaltung der Kostümierung (Farbe, Material
+                    etc.) seines aus 18 adeligen Reitern („Gentilhommes“) bestehenden Paradezuges
+                    ist dem Zug der Kavalleristen im <ref target="#db4">4. Doppelbild</ref>
+                ebenbürtig. Damit tritt die repräsentative Symbolik des Fahnenträgers, der sich auch hier in der Mitte der vorderen Reihe befindet, etwas zurück. 
+            </p>
+            <p>Auf der linken Bildhälfte gruppiert sich der hierarchisch niedrigere Zug des
+                                Legationssekretärs, der sich aus sechs geistlichen Teilnehmern
+                                zusammensetzt. Seine Position ist mit demjenigen des Hofmarschalls
+                                vergleichbar, da er in derselben Prachtentfaltung und Reiterpose
+                                dargestellt wird, wobei hier zusätzlich zwei mit Degen bewaffnete
+                                Diener die vorderen Zügel halten. Die Rangabstufung der Teilnehmer
+                                ist nicht durch die Farbwahl und den Aufwand ihrer Kleidung
+                                erkennbar, sondern durch die Positionierung des Prälaten bzw. ihres
+                                Vorstehers am Ende des Zuges. Dieses Doppelbild weist auf die
+                                zeremonielle Funktion des Hofmarschalls als Empfänger ausländischer
+                                Gesandtschaften hin, die er am Tag des Einzuges vor den Toren der
+                                Stadt abholte, um sie danach in ihr Quartier zu geleiten.<note
+                                    place="end" xml:id="ftn53" n="53">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Žolger</hi>, der Hofstaat, 108.</p>
+                                </note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db6">
+                        <head>6. Doppelbild: „Paradezug des Hofmeisters“</head>
+                        <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+            <p>Wie auch im Fall der Darstellung des Hofmarschalls im vorangehendem Doppelbild, ist
+                                hier der Hofmeister vor allem durch seine Positionierung an der
+                                Spitze seines Regiments - bestehend aus 15 Offizieren der Kavallerie
+                                - hervorgehoben. Dahinter folgt der Zug der Sprachknaben mit den
+                                adeligen Kanzlei- und Hofbediensteten, die hier wieder nicht durch
+                                ihre Kostümierung, sondern durch ihre hierarchische Anordnung
+                                differenziert werden. Die höchste Stellung am Hof gebührt dem
+                                Hofmeister, dem die Leitung und Organisation der kaiserlichen
+                                Hofämter obliegt, wie z.B. des Personals der Hofbibliothek, das
+                                neben den Dolmetschern auch die Sprachknaben einschließt, deren
+                                Bedeutung für die Großbotschaft durch ihre Positionierung an der
+                                Spitze demonstriert wird. Erst danach folgen die Mitglieder der
+                                Hofkanzlei und ihre adeligen Diener auf dem linken Bildrand. <note
+                                    place="end" xml:id="ftn54" n="54">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Žolger</hi>, der Hofstaat, 66–67, 69,
+                                        75–76.</p>
+                                </note> Auf der rechten Bildhälfte treten noch die hochangesehenen
+                                Militärmusiker der Kavallerie - bestehend aus vier Trompetern und
+                                einem Pauker in der Mitte - auf. Die Trompeter und der den Takt
+                                vorgebende Pauker begleiten mit ihrem Marschsignal die Offiziere des
+                                    Hofmeisters.<note place="end" xml:id="ftn55" n="55">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Stein / Ottmer</hi>, Hg., Symbole,
+                                        256–257; <hi rend="smallcaps">Brixel</hi>, Kulturfaktor,
+                                        17.</p>
+                                </note> Sie tragen schwarze Kostüme mit goldenen Bordüren und sitzen
+                                auf den mit Gold bestickten Satteldecken ihrer Pferde und sind daher
+                                ähnlich prachtvoll gekleidet wie die Sprachknaben und Hofdiener auf
+                                der linken Bildhälfte. Der hohe Rang des Hofmeisters innerhalb des
+                                kaiserlichen Hofstaats wird somit durch die große Anzahl der ihm
+                                unterstellten Mitglieder der Großbotschaft (9 Sprachknaben, 4
+                                Kanzleibeamte und 18 „Gentilhommes“, 15 Kavalliere und 5 Musiker)
+                                veranschaulicht. </p>
+                    </div>
+                    <div type="subsection"  xml:id="db7">
+                        <head>7. Doppelbild: „Die kaiserliche Militärparade des Großbotschafterwechsels“</head>
+                        <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+            <p>Das letzte Blatt vor dem Grenzzeremoniell veranschaulicht die
+                Militärmacht des Kaiserreichs. Die verschiedenen Infanterie- und
+                Kavallerieregimenter der kaiserlichen Armee kommen auf 60 bzw. 80 Schritt vor der
+                ersten Grenzsäule zum Stehen<note place="end" xml:id="ftn56" n="56"><p rend="footnote text">
+                        Haus-, Hof- und Staatsarchiv, StAbt Türkei I, 184/2, Relation vom 21.06.1719, 50r; Haus-, Hof- und Staatsarchiv, StAbt Türkei I, 184/1, Relation 1719, fol. 138v; 
+                    <ref target="/o:vipa.tr.hbg.1723"><hi rend="smallcaps">Driesch</hi>, Historische Nachricht,</ref> 49–50 und
+                        52–53.</p></note>: Die Einheiten (Husaren, Dragoner, Kürassiere und
+                Grenadiere) sind auf der rechten Bildhälfte in 8 Reihen zu je 4 Mann
+                angeordnet, während auf der linken der Paradezug mit 14 Handpferden und der gleichen
+                Anzahl von Dienern unter Führung des Stallmeisters, der von zwei Hofkurieren
+                begleitet wird, abgebildet ist. Wie bereits in den anderen Doppelbildern
+                beschrieben, werden die bedeutendsten Persönlichkeiten des Zuges auch hier wieder
+                durch ihre Positionierung, Habitus, Kleidung und Anzahl des Gefolges hervorgehoben.
+                Die Spitze des Zuges bilden die beiden Hofkuriere, die durch ihre mit Goldbordüren
+                geschmückten und farblich unterschiedlichen Kostüme hervorstechen. Während sich die
+                beiden berittenen Kuriere vom Betrachter abwenden, folgt der Stallmeister auf seinem
+                Pferd in Dreiviertelansicht, was seine Funktion und seinen Rang in dieser Parade
+                hervorhebt.</p>
+            <p>Die prächtige Ausstattung der Handpferde mit goldbestickten Schabracken
+                aus rotem Samt geben Einblick in das festliche Rahmengefüge des
+                Großbotschafterwechsels, worauf bereits im
+                <ref target="#db1">1. Doppelbild</ref> und <ref target="#db2">2. Doppelbild</ref>
+                eingegangen wurde. Der theatralische Einzug der österreichischen Prinzessin Maria
+                Josepha am <date when="1719-09-02">2. September 1719</date> in Dresden veranschaulicht deutlich das Zusammenspiel
+                von Militär, Fest und Kostümierung, spezifische Elemente, die sich auch in
+                politischen Ereignissen wie dem Großbotschafterauswechsels widerspiegeln. Im
+                Kupferstich-Kabinett in Dresden wird der festliche Einzug jeweils auf einem Blatt in
+                drei Streifen dargestellt, wo der Generalpostmeister mit den Postillionen die Parade
+                eröffnet. Danach treten der Oberstallmeister, die Handpferde, Maultiere, Paradewagen
+                auf, die von den höchsten sächsischen Hofbeamten und militärischen Truppen wie
+                Kürassieren, Dragonern und Grenadieren begleitet werden.<note place="end"
+                    xml:id="ftn57" n="57"><p rend="footnote text">
+                        Vgl. Claudia  <hi rend="smallcaps">Schnitzer</hi>, Eine gute Figur machen. Kostüm und Fest am
+                            Dresdner Hof, Dresden 2000, 237–238.</p></note> Mögliche Vorbilder
+                für diese in einem militärischen Rahmen eingebetteten Einzüge stammen noch aus der
+                Mitte des 17. Jahrhunderts, wie es z.B. der Kupferstich von Wenzel Holler
+                (1607–1677) veranschaulicht.<note place="end" xml:id="ftn58" n="58"><p>
+                        Wenzel <hi rend="smallcaps">Holler</hi>, Feierlicher Einzug eines Fürsten, Albertina, D III 5 82, online unter: <ref
+                            target="https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=%5bD/III/5/82%5d&amp;showtype=record">https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[D/III/5/82]&amp;showtype=record</ref> (13.04.2022).</p></note></p>
+            <p>Die einzelnen Regimenter im Reportagebuch sind hier deutlich durch ihre
+                Kopfbedeckung, Bewaffnung (Gewehr, Säbel, Degen etc.) sowie durch die Art und
+                Einfärbung ihrer Ausrüstung unterschieden. Die Husarentracht setzt sich aus dem
+                Krummsäbel mit abgeflachter Klinge, einer Beutelmütze, weiter Hose und langem
+                Mantelkleid in blauer Farbe, das jedoch im Gegensatz zu den Kostümen der anderen
+                Einheiten keine Knöpfe aufweist, zusammen. Farbe und Form der Uniform dieser
+                ungarischen Militäreinheit war bis in die zweite Hälfte des 18. Jahrhunderts sehr
+                    unterschiedlich.<note place="end" xml:id="ftn59" n="59"><p rend="footnote text">
+                        <hi rend="smallcaps">Knötel</hi>, Handbuch, 234–235; vgl. zur ungarischen Herkunft des Husarenregiments: Hans <hi rend="smallcaps">Blackwenn</hi>, Der Kaiserin Hayduken, Husaren und Grenzer.
+                            Bild und Wesen (1740–1769), in: Gerda Mraz, Hg., Maria Theresia als
+                            Königin von Ungarn, Eisenstadt 1984, 113–123, hier
+                    116–117.</p></note> Die Dragoner sind mit Degen bewaffnet und tragen
+                schwarze Dreispitze und graue Kostüme, lediglich die Armborten sind mit roter Farbe
+                hervorgehoben. Die danach folgenden Kürassiere unterscheiden sich von ihnen kaum.
+                Grundsätzlich sind die Kürassiere im Gegensatz zu den Dragonern, die unter der
+                Bekleidung einen ledernen Koller tragen, mit einem eisernen Burstharnisch
+                ausgestattet. Die rote Farbe dient bei ersteren als Unterscheidung der Regimenter,
+                was jedoch hier auch auf die Dragoner übertragen wird.<note place="end" xml:id="ftn60" n="60"><p rend="footnote text">
+                        <hi rend="smallcaps">Knötel</hi>, Handbuch, 227–233.</p></note></p>
+            <p>Die dritte Gruppe setzt sich aus zwei Kompanien Grenadiere zusammen, wie
+                aus der des Prinzen Alexander und der des Kommandanten Geschwind, die unter der
+                Befehlsgewalt des Grafen von Waldeck stehen.<note place="end" xml:id="ftn61" n="61"><p rend="footnote text">
+                        Haus-, Hof- und Staatsarchiv, StAbt Türkei I,
+                            184/2, Relation vom 21.06.1719, fol. 45v.
+                    </p></note> Die letzteren tragen gelb-schwarze Mützen und ein graues Mantelkleid
+                mit roten Manschetten und ähneln daher den Grenadieren, die im <ref target="#db2">2. Doppelbild</ref> dargestellt sind. Die ersteren
+                unterscheiden sich zwar durch ihre gelben Mantelkleider und rot-schwarzen Mützen,
+                gleichen sich aber in der Tracht sowie der Bewaffnung völlig. Im Vergleich zum Zug
+                des Stallmeisters ist die Pracht der Ausrüstung und Bewaffnung stark reduziert und
+                die eigentlich 1700 Mann erfassende Armee beschränkt sich wie die Kutschen und
+                Gepäckwägen im <ref target="#db1">1. Doppelbild</ref>
+                auf eine verkürzte Darstellung von insgesamt 128 Soldaten. Die symmetrische und
+                gestaffelte Anordnung der einzelnen Regimenter verweisen auf die Prinzipien der
+                Ordnung und Disziplin in der kaiserlichen Armee zu Beginn des 18. Jahrhunderts sowie
+                auf die zunehmende Vereinheitlichung der militärischen Formensprache.</p>
+                    </div>
+                        <div type="subsection"  xml:id="db8">
+                            <head>8. Doppelbild: „Das Grenzzeremoniell“<note place="end" xml:id="ftn62" n="62"><p rend="footnote text">
+                        Die osmanischen Transkriptionen folgen der in der Türkei üblichen Methode des İslam Ansiklopedisi (İA).</p></note></head>
+                            <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+                <p>Dieses Blatt visualisiert den Ablauf und die Struktur des Grenzzeremoniells,
+                das in drei Phasen abläuft: In der ersten Phase stehen die beiden
+                Repräsentationsmächte einander als gegensätzliche Militäreinheiten gegenüber, was
+                sich in den kaiserlichen Doppelbildern vor und in den osmanischen Pendants nach dem
+                Zeremoniell zeigt. Die hier dargestellte zweite Phase kennzeichnet die Auflösung der
+                kriegerischen Grenze durch das Zeremoniell der symmetrischen Annäherung. Die
+                zeitweise Aufhebung der Rangunterschiede ermöglicht gleichzeitig auch eine
+                Neutralisierung der Gegensätze, die durch die Schaffung von räumlichen Symmetrien
+                hergestellt wird. Die Grenze versinnbildlicht die Front einer Schlacht, deren
+                kriegerisches Potenzial durch eine symmetrische Annäherung an einen neutralen Ort
+                gänzlich aufgelöst wird und zu einem Akt der Verbrüderung führt.<note place="end" xml:id="ftn63" n="63"><p rend="Fußnote">
+                        <hi rend="smallcaps">Rahn,</hi> Grenz-Situationen, 179–181.</p></note> Der
+                durch das Zeremoniell geschaffene harmonische und alle Konflikte ausblendende
+                Begegnungsraum löst sich beim Auseinandergehen in der dritten Phase auf.<note place="end" xml:id="ftn64" n="64"><p rend="footnote text">
+                        <hi rend="smallcaps">Rahn</hi>, Grenz-Situationen, 190–192.</p></note>
+                Die letzte Phase ist in diesem Doppelbild nicht mehr dargestellt, sondern der „Akt
+                der Verbrüderung“ erfährt seine Fortsetzung beim Empfang und gemeinsamen Mahl im
+                Festzelt einige Zeit später (siehe Audienzen).</p>
+            <p>Die symmetrische Annäherung geschieht im Bild — wie in beiden Berichten
+                    beschrieben<note place="end" xml:id="ftn65" n="65"><p rend="footnote text">
+                        Haus-, Hof- und Staatsarchiv, StAbt Türkei I,
+                            184/2, Relation vom 21.06.1719, fol. 50r–51r.; Haus-, Hof- und
+                            Staatsarchiv, StAbt Türkei I, 184/1, Relation 1719, fol. 138v–140r.
+                    </p></note> — innerhalb der drei Säulen: Im Zentrum befindet sich die mittlere
+                Säule, die von beiden Seiten jeweils von zwei Stühlen umgeben ist. Auf der linken
+                Seite nimmt <rs type="person" ref="#mpr14241">Oduyer</rs> auf dem unteren Stuhl Platz, wobei der obere für den
+                Großbotschafter reserviert bleibt. Hinter <rs type="person" ref="#mpr14241">Oduyer</rs> steht der kaiserliche Dolmetscher,
+                der ihm gerade den Stuhl zurechtrückt. Sowohl der Generalfeldwachtmeister als auch
+                der nächste im Rang, der Hofmarschall, fallen durch ihre farbige und prachtvolle
+                Kleidung auf: <rs type="person" ref="#mpr14241">Oduyer</rs> trägt einen roten, goldbestickten Rock sowie einen blauen,
+                ebenso bestickten Mantel, während beim Hofmarschall nur der rote Mantel
+                vergleichbaren Dekor aufweist. Ein kleines Stück hinter dem Hofmarschall halten sich
+                noch der Leutnant und der Adjutant <rs type="person" ref="#mpr14241">Oduyers</rs> mit den Hofdienern und zwei Beiläufern
+                auf. Der Rang des Freiherrn wird hier weniger durch seine aufwendige Kleidung als
+                durch seine vorrangige Position in der Gruppe verdeutlicht.</p>
+            <p>In angemessenen Abstand hinter <rs type="person" ref="#mpr14241">Oduyer</rs> und seinen Begleitern beziehen elf
+                Kavaliere mit dem Stallmeister, ihren Dienern und den Pferden Stellung. Diese beiden
+                Verbände bilden eine geschlossene Reihe hinter der Gruppe um <rs type="person" ref="#mpr14241">Oduyer</rs>. Der Mantel des
+                Stallmeisters und eines jeden Reiters sind ähnlich aufwendig dekoriert wie bereits
+                beim Hofmarschall beschrieben. Die Pferde tragen farbige, mit Mustern bestickte
+                Schabracken, von denen das erste neben dem Stallmeister, der im Gegensatz zu den
+                Reitern zu seiner Linken einen Dreispitz trägt, dem Grafen <rs type="person" ref="#mpr14241">Oduyer</rs> zugeordnet werden
+                kann.</p>
+            <p>Gleich hinter seinem Pferd, etwas oberhalb der äußeren Säule, gruppieren
+                sich die serbischen Infanteriesoldaten Oduyers: acht Fußsoldaten, die Hayduken
+                (Heyducken), die zur Verteidigung der Militärgrenze herangezogen wurden, zeichnen
+                sich durch ihre „national“ geprägte Uniform aus. Sie tragen aufwendig bestickte
+                Mäntel und „bienenkorbförmige“ Filzmützen, die ähnlich wie die Janitscharenmützen
+                (vgl. <ref target="#db16">16. Doppelbild</ref> und <ref target="#db17">17. Doppelbild</ref>) auf der Vorderseite eine Feder
+                    aufweisen.<note place="end" xml:id="ftn66" n="66"><p rend="footnote text"> Zur Geschichte und Entstehung der Hayduken vgl.: <hi rend="smallcaps">Blackwenn</hi>, Der Kaiserin, 117–123.</p></note>
+                Dahinter gruppiert sich noch die lange Reihe ihrer zwölf Diener, die beinahe bis an
+                den linken Bildrand reicht, was auf die hohe Stellung und Funktion der Hayduken im
+                kaiserlichen Heer hinweist.</p>
+            <p>Die rechte Bildhälfte wird von der osmanischen Delegation eingenommen: Auf dem
+                                unteren Stuhl sitzt der Seraskier von Niš, <rs type="person"
+                                    ref="#mpr14242">Abdullah
+                                    Pascha</rs>, in Begleitung seines Dolmetschers. Der obere Stuhl
+                                wird wie auf der kaiserlichen Seite für den Großbotschafter Ibrahim
+                                Pascha freigehalten. Die fünf osmanischen Würdenträger, die sich um
+                                den Seraskier gruppieren, tragen farbige Kleider und Turbane.
+                                Während der höhere Rang des Seraskiers durch einen hohen Turban
+                                angedeutet wird,<note place="end" xml:id="ftn67" n="67">
+                                    <p rend="footnote text"> Der Rang der osmanischen Hofbeamten
+                                        wird durch die Form und Höhe des Turbans sowie durch den
+                                        Aufwand des Kopfschmuckes bestimmt. Vgl. Luigi Ferdinando
+                                            <hi rend="smallcaps">Marsigli</hi>, Stato militare dell’
+                                        imperio Ottomano, incremento e decremento del medesimo, Den
+                                        Haag 1732, S. 64–65 (mit Abbildungen), online unter:
+                                        Österreichische Nationalbibliothek, <ref
+                                            target="http://data.onb.ac.at/rep/1069E6E6"
+                                            >http://data.onb.ac.at/rep/1069E6E6</ref>
+                                        (12.04.2022).</p>
+                                </note> gibt es bei den beiden Paschas, dem Feldflaschenträger
+                                (Matarani bzw. Mataracı) und dem Vorsteher der Zeltaufschlager
+                                (Doffisi bzw. Deveci) kaum Unterschiede in Bezug auf Kleidung,
+                                Position und Habitus. Die Repräsentation der osmanischen Delegation
+                                ist hier im Vergleich zur kaiserlichen bewusst zurückhaltender
+                                gestaltet, was sich nicht nur in der geringeren Anzahl der Paschas
+                                um den Seraskier, sondern auch in der reduzierten Größe und
+                                Prachtentfaltung der osmanischen Würdenträger und Militäreinheiten
+                                zeigt. Kurz vor der türkischen Säule erscheinen auf der rechten bzw.
+                                osmanischen Bildhälfte als Gegenbild zu den kaiserlichen
+                                Kavalleristen und Hayduken zwei verschiedene Einheiten von
+                                Fußsoldaten: Die erste Reihe besteht aus sechs Zeltaufschlagern bzw.
+                                Çadiren (Chatirn) und die beiden hinteren Reihen aus ebenso je
+                                sechs Mantelträgern bzw. Çuhādāren (Cruhatarn).<note place="end"
+                                    xml:id="ftn68" n="68">
+                                    <p rend="footnote text"> Ibrahim Pascha wird im <ref
+                                            target="#db12">12. Doppelbild</ref> von denselben
+                                        Paschas und Hofbediensteten umgeben.</p>
+                                </note> Sie tragen wie die anderen osmanischen Würdenträger farbige
+                                Kleidung, aber kleinere bzw. einfachere Turbane. Im Gegensatz zu den
+                                kaiserlichen Militäreinheiten sind jene aber mit Säbeln und Gewehren
+                                ausgestattet. Als Ausgleich erscheint am unteren Ende der linken
+                                bzw. kaiserlichen Bildhälfte der in einem roten Mantel erscheinende
+                                Kanonenmeister, der die sechs aneinandergereihten Kanonen mitsamt
+                                seinen drei Gehilfen im Blick behält.</p>
+            <p>Obwohl die Reihe der Paschas, Agas und Janitscharen in Anzahl und Pracht
+                reduziert dargestellt ist, wird die Ebenbürtigkeit der Großbotschafter durch die
+                hinter der äußeren Säule erscheinenden 8 Pferde der begleitenden Aghas angedeutet,
+                die in den dargestellten Pferden des kaiserlichen Großbotschafters auf der linken
+                Bildhälfte ihr gleichwertiges Pendant finden.</p>
+            <p>Neben der Darstellung von verschiedenen Waffen sind die mit Goldstickerei versehenen
+                                Schabraken der Pferde der einzige Verweis auf die sonst prunkvoll
+                                ausgestatteten Prozessionszüge der Osmanen. Beispielsweise tragen
+                                die Teilnehmer der osmanischen Botschaft des Mehmed Effendi im
+                                Tuilerien-Palast von Paris am <date when="1721-01-21">21. März
+                                    1721</date> aufwendige Kostüme, Turbane, Waffen und
+                                Schmuckgegenstände, wie sie der französische Künstler Charles
+                                Parrocel in seinem Ölgemälde veranschaulicht.<note place="end"
+                                    xml:id="ftn69" n="69">
+                                    <p rend="footnote text"> Charles <hi rend="smallcaps"
+                                            >Parrocel</hi>, Entrée de Mehmed effendi aux Tuileries,
+                                        Paris 1723, Schloss von Versailles, MV 177, online unter:
+                                            <ref
+                                            target="http://collections.chateauversailles.fr/?permid=permobj_fe5ccb34-83a7-4a4f-9069-bc86cc099d0d"
+                                            >http://collections.chateauversailles.fr/?permid=permobj_fe5ccb34-83a7-4a4f-9069-bc86cc099d0d</ref>
+                                        (12.04.2022).</p>
+                                </note></p>
+                    </div>
+                    </div>
+                    <div type="section"><head>Der Osmanische Zug</head>
+                        <div type="subsection"  xml:id="db9">
+            <head>9. Doppelbild: „Die osmanische Militärparade vor dem Großbotschafterwechsel“</head>
+                            <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+            <p>Die linke Bildhälfte wird von zwei verschiedenen Regimentern der osmanischen Armee
+                                bestimmt: Es gruppieren sich Infanterie- (Janitscharen bzw.
+                                Yeñiçeri) und Kavallerieregimenter (Spahi bzw. Sipāhī)
+                                nebeneinander, die wie die kaiserliche Militärparade im <ref
+                                    target="#db7">7. Doppelbild</ref> 1700 Mann umfassen. Im
+                                Gegensatz zu den Janitscharen, die hauptsächlich aus der Auslese
+                                christlicher Knaben bestanden und am Hof des Sultans erzogen
+                                (devşirme) worden waren, besaßen die „Spahi“ eigenes Land
+                                    (tīmār).<note place="end" xml:id="ftn70" n="70">
+                                    <p> Gustav <hi rend="smallcaps">Bayerle</hi>, Pashas, Begs and
+                                        Effendis. A Historical Dictionary of Titles and Terms in the
+                                        Ottoman Empire, Istanbul 1997, 137; Pál <hi rend="smallcaps"
+                                            >Fodor</hi>, Army, Ottoman (1300-1700), in: Kate Fleet,
+                                        u.a., Hg., Encyclopaedia of Islam. Three. Leiden 2016.</p>
+                                </note> Allerdings geriet diese reguläre, leicht bewaffnete Reiterei
+                                nicht nur gegenüber den mit Pistolen und Gewehren ausgestatteten
+                                Janitscharen ins Hintertreffen, sondern hielt kaum noch den schwer
+                                bewaffneten Husaren (siehe <ref target="#db7">7. Doppelbild</ref>)
+                                stand, die sich aus Kroaten, Ungarn und Serben zusammensetzte und
+                                nach dem Vorbild der irregulären, leichtbewaffneten Kavallerie der
+                                Deliler (siehe <ref target="#db10">10. Doppelbild</ref>) gebildet
+                                    wurde.<note place="end" xml:id="ftn71" n="71">
+                                    <p rend="footnote text"> Dávid <hi rend="smallcaps">Géza</hi>
+                                        / Pál <hi rend="smallcaps">Fodor</hi>, Changes in the
+                                        Structure and Strength of the Timariot Army from the Early
+                                        Sixteenth to the End of the Seventeenth Century, Eurasian
+                                        Studies 4/2 (2005), 157–188, hier 179. </p>
+                                </note></p>
+            <p>Was die Uniform und Kopfbedeckung dieser Truppen betrifft,
+                    sind sie sehr einheitlich gestaltet und werden allenfalls nur farblich
+                    voneinander unterschieden. Die osmanischen Reiter sind mit Säbel, Speer und
+                    Bogen ausgerüstet, während die Janitscharen neben dem Säbel auch ein Gewehr
+                    tragen. In der Bildmitte ist eine weitere Infanterieeinheit der Janitscharen,
+                    die Deveci (Deferckerisch) abgebildet, die vor allem als Eskorte bei
+                    zeremoniellen Anlässen eingesetzt werden.<note place="end" xml:id="ftn72" n="72"><p rend="footnote text">
+                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 36–37.</p></note></p>
+            <p>In der rechten Bildhälfte erkennt man noch den Anführer
+                    der Kavallerieeinheit der Kapı kulı („Sklaven der Pforte“), hier als „Ianati“
+                    bezeichnet, die sich aufgrund ihrer auf Speere befestigten Fähnchen
+                    identifizieren lassen.<note place="end" xml:id="ftn73" n="73"><p rend="footnote text">
+                        <hi rend="smallcaps">Marsigli</hi>, Stato, 52–53 (mit Abbildungen).</p></note>
+                Sie gleichen zwar hinsichtlich Mannstärke und Ausrüstung
+                    der Einheit der Deliler, gehören aber wie die oben erwähnten Janitscharen zur
+                    stehenden Armee des Sultans.<note place="end" xml:id="ftn74" n="74"><p rend="footnote text">
+                        Gábor <hi rend="smallcaps">Ágoston</hi>, Warfare, in: Gábor Ágoston / Bruce Masters,
+                            Hg., Encyclopedia of the Ottoman Empire, New York 2009, 591–595, hier 593.
+                    </p></note></p>
+            <p>Somit präsentiert sich hier die gesamte Militärmacht der Osmanen mit samt den im unteren Mittelfeld platzierten Kanonen (Artillerie), die jedoch bei der habsburgischen Delegation im <ref target="#db8">8. Doppelbild</ref> 
+                bereits im Rahmen des Grenzzeremoniells erscheinen. Die
+                    größte Gruppe der Regimenter bilden jedoch die Janitscharen, die nicht nur
+                    wichtige militärische Funktionen innehaben, sondern sich auch durch ihre
+                    zeremonielle Rolle im osmanischen Staat (diwān-i hümāyūn) auszeichnen.<note place="end" xml:id="ftn75" n="75"><p>
+                        Godfrey <hi rend="smallcaps">Goodwin</hi>, The Janissaries, London 1994, 42–53; <hi rend="smallcaps" >Bayerle</hi>, Pashas, 59; Rhoads <hi rend="smallcaps">Murphey</hi>, Yeñi Čeri, in: EI<hi rend="superscript">2</hi>.</p></note></p>
+                    </div>
+                        <div type="subsection" xml:id="db10">
+            <head>10. Doppelbild: „Der Zug der Fahnen- und Standartenträger“</head>
+                            <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+            <p>Hier bestimmen drei unterschiedliche militärische Einheiten das Geschehen: Zunächst
+                                findet man auf der rechten Bildhälfte die Parade des
+                                Oberstallmeisters, die bis in die linke Bildhälfte des <ref
+                                    target="#db11">11. Doppelbildes</ref> hineinreicht. Die
+                                wichtigste Darstellung des Doppelbildes konzentriert sich auf die
+                                Gruppe der Standarten- und Fahnenträger, deren hierarchische
+                                Stellung durch ihre Kopfbedeckungen erkennbar werden: Die beiden
+                                Anführer in der Mitte der hinteren Reihe tragen hohe Turbane, die
+                                von einer Aigrette geschmückt sind.<note place="end" xml:id="ftn76"
+                                    n="76">
+                                    <p rend="footnote text"> Vgl. Luigi Ferdinando <hi
+                                            rend="smallcaps">Marsigli</hi>, Stato militare dell’
+                                        imperio Ottomano, incremento e decremento del medesimo, Den
+                                        Haag 1732, S. 64–65 (mit Abbildungen), online unter:
+                                        Österreichische Nationalbibliothek, <ref
+                                            target="http://data.onb.ac.at/rep/1069E6E6"
+                                            >http://data.onb.ac.at/rep/1069E6E6</ref>
+                                        (12.04.2022).</p>
+                                </note> Außerdem verweisen die beiden Ross-Schweife (Tugs) auf den
+                                Rang eines Paschas.<note place="end" xml:id="ftn77" n="77">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 150; Zdzislaw <hi
+                                            rend="smallcaps">Zygulski</hi>: Ottoman Art in the
+                                        Service of the Empire, New York 1992, 69–99.</p>
+                                </note> Der Bostancı (Postacri) und Ḫaṣṣekī (Husaki) Pascha sind die
+                                Anführer der militärischen Kompanie der „Gärtner“, die ursprünglich
+                                aus der Palastschule der Janitscharen stammten<note place="end"
+                                    xml:id="ftn78" n="78">
+                                    <p rend="footnote text"> Bzgl. Janitscharen, siehe <ref
+                                            target="#db9">9. Doppelbild</ref>.</p>
+                                </note> und gleichzeitig die manuelle Arbeit in den imperialen
+                                Gärten leisteten, bevor sie zu Beginn des 18. Jahrhundert auch als
+                                militärische Einheiten bei öffentlichen Paradezeremonien und bei
+                                osmanischen Feldzügen eingesetzt wurden.<note place="end"
+                                    xml:id="ftn79" n="79">
+                                    <p>
+                                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 23, 77; İsmail
+                                        Hakkı <hi rend="smallcaps">Uzunçarşili</hi>, Bostānd̲ji̲,
+                                        in: EI <hi rend="superscript">2</hi>.</p>
+                                    <p>Cengiz <hi rend="smallcaps">Orhonlu</hi>, K̲h̲āṣṣekī, in:
+                                            EI<hi rend="superscript">2</hi>
+                                    </p>
+                                </note> Außerdem wurde dem Pascha dieser Einheit das Privileg
+                                zuteil, den Steigbügel und Helm des Sultans während seiner Paraden
+                                in Istanbul zu führen.<note place="end" xml:id="ftn80" n="80">
+                                    <p> Oliver <hi rend="smallcaps">Bouquet</hi>, Bostancıbaşı, in:
+                                        Kate Fleet, u.a., Hg., Encyclopaedia of Islam. Three. Leiden
+                                        2018.</p>
+                                </note>
+                            </p>
+            <p>Die Fahnen (Bayrak) sind detailliert mit goldenen Borten
+                    und Monden dargestellt, die eine große Bedeutung in der Ideologie und
+                    Organisation des Osmanischen Reiches spielen. Jedes größere Regiment in der
+                    osmanischen Armee erhielt vom Sultan eine eigene Fahne. Die Fahnen variierten
+                    nach Größe, Form, Farbe und Kostbarkeit der Materialien: Die wertvollsten Fahnen
+                    (heilige Fahne Muhammeds, Fahne des Sultans und seiner Wesire) sowie die der
+                    hohen osmanischen Würdenträger waren aus kostspieligen Stoffen (z.B. Seide)
+                    gefertigt und trugen aufwendige Inschriften in Gold und Silber sowie komplexe,
+                    künstlerische Motive.<note place="end" xml:id="ftn81" n="81"><p rend="footnote text">
+                        Harold <hi rend="smallcaps">Bowen</hi>, Bayraḳdār, in: EI<hi rend="superscript">2</hi>; <hi rend="smallcaps">Zygulski</hi>, Ottoman Art, 26–32; vgl. dazu die Darstellung
+                            einer osmanischen Prozession des niederländischen Künstlers Ryckx, der
+                            wahrscheinlich eine diplomatische Delegation 1665 nach Istanbul
+                            begleitete: Olga <hi rend="smallcaps">Nefedova</hi> / Nicolas <hi rend="smallcaps">Ryckx</hi>, in: Olgla Nefedova, Hg., A journey into the
+                            world of the Ottomans. The Catalogue, Mailand 2009, 110–113.
+                    </p></note></p>
+            <p>Kleinere Untereinheiten des osmanischen Heeres verfügten
+                    über einfachere Fahnen aus groben Leinenstoff, wie z.B. bei der
+                    Kavallerieeinheit der Gauckler und Narren (Deliler): Diese waren irreguläre,
+                    leichtbewaffnete Soldaten, die von hohen osmanischen Würdenträgern vor allem für
+                    die Verteidigung der nördlichen Grenze des osmanischen Reiches in den Dienst
+                    genommen wurden. Obwohl der Anführer dieser Einheit (deli-başı) normalerweise
+                    eine Kompanie mit bis zu 60 Soldaten kommandiert, zeigt sich sein höherer Rang
+                    im Doppelbild nur durch seine Positionierung am Beginn des Zuges, der sich hier
+                    aus 3 Reihen mit je 7 Mann zusammensetzt.<note place="end" xml:id="ftn82" n="82"><p>
+                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 35; Halil
+                        <hi rend="smallcaps">İnalcık</hi>, Gönüllü, in: EI<hi rend="superscript">2</hi>.</p></note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db11">
+                        <head>11. Doppelbild: „Der Zug des Stallmeisters“</head>
+                        <pb facs="#facs_42" n="42" xml:id="img_0042"/>
+            <p>Der Anfang der rechten Bildhälfte wird von weiteren
+                    Teilnehmern der Paradezeremonie des Großbotschafters im
+                <ref target="#db12">12. Doppelbild</ref> bestimmt: Als erstes erschient wahrscheinlich der Tafelmeister oder Tafeldecker (Gablug bzw. Sofradschi) im Rang eines Paschas, der sich von den beiden voranschreitenden Dolmetschern durch seinen hohen Turban mit zentraler Aigrette und einem mit goldenen Ornamenten geschmückten Mantel unterscheidet. Dieser Würdenträger gehörte zu den Agas des inneren Palastes.<note place="end" xml:id="ftn83" n="83"><p rend="footnote text">
+                        <hi rend="smallcaps">Gornik</hi>, Auff Türckische Art, 31; Joseph <hi rend="smallcaps">von Hammer-Purgstall</hi>, Geschichte des osmanischen
+                        Reiches. Grossentheils aus bisher unbenützten Handschriften und Archiven,
+                        10. Bde., Wien 1828, Bd. 2, 234–235: Dieser Amtsträger rangiert nach den
+                        vier wichtigsten Ämtern des inneren Palastes (Enderün), vgl. <ref target="#db12">12. Doppelbild</ref>. Die Befehlshaber der
+                        Çorbacı Janitscharen tragen einen ähnlich konisch geformten Turban
+                        (ḳalafat), den auch der untere Stallmeister trägt, vgl. İsmail Hakkı <hi rend="smallcaps">Uzunçarşili</hi>, “Čorbad̲j̲i̊”, in: EI<hi rend="superscript">2</hi>; Burak <hi rend="smallcaps">Çetintaş</hi>,
+                        Headdress Worn by the Janissary Officer Core: An Essay on the Kalafat and
+                        Çatal Kalafat Headdress, in: Annual of İstanbul Studies 7 (2018), ohne
+                        Seitenangabe.</p></note>
+                In der Bildmitte präsentiert sich der Unterstallmeister
+                    (küçük Mir-Aḫūr), der die gleiche prachtvolle Kostümierung und Kopfbedeckung
+                    aufweist wie der Tafelmeister, da er hier als Anführer von 15 osmanischen
+                    Würdenträgern (Agas) zu erkennen ist. Zur Aufgabe des Unterstallmeisters gehörte
+                    die Aufsicht des geheimen Stalles des Sultans, in dem sich eine kleinere Anzahl
+                    an Paradepferden und deren wertvolle Silberausrüstung befand. Danach folgen die
+                    mit silbernen Armschilden ausgestatteten Stallburschen (Crausch bzw.
+                    Çavūş<note place="end" xml:id="ftn84" n="84"><p rend="footnote text"> Mit Çavūş (Bote)
+                        bezeichnete man im Allgemeinen eine militärische Einheit aus Soldaten, die
+                        verschiedene Dienste am Hof des Sultans erfüllten. <hi rend="smallcaps">Bayerle</hi>, Pashas, 29.</p></note>) in Begleitung mit den prachtvoll geschmückten Pferden des großen Stalles, die häufig bei zeremoniellen Anlässen oder auch bei militärischen Unternehmungen verwendet wurden. Die Aufsicht über den großen Stall hatte der Oberstallmeister (büyük-Mīr Aḫūr) inne, der noch mit weiteren Stallburschen im 
+                <ref target="#db10">10. Doppelbild</ref>
+                dargestellt ist.<note place="end" xml:id="ftn85" n="85"><p>
+                        Rhoads <hi rend="smallcaps">Murphey</hi>, Mīr-Āk̲h̲ūr, in:
+                            EI<hi rend="superscript">2</hi>.</p></note>
+            </p>
+            <p>Die Verwendung von Metallschilden in der Frühen Neuzeit
+                    war die Antwort auf die aufkommenden Feuerwaffen, da jene einen besseren Schutz
+                    vor tödlichen Verletzungen als die bis dahin verbreiteten Lederschilde boten.
+                    Aber auch anlässlich bedeutender Zeremonien wurden Prunkschilde aus Metall
+                    verwendet, da sie aufgrund ihrer glänzenden Eigenschaft bei den Betrachtern
+                    einen großen Eindruck hinterließen. Die silbernen Armschilde sind vielleicht das
+                    Pendant zu der silbernen Ausrüstung der Paradepferde, die aus dem Schatz des
+                    geheimen Stalles des Sultans stammen.<note place="end" xml:id="ftn86" n="86"><p>
+                        <hi rend="smallcaps">Murphey</hi>, Mīr-Āk̲h̲ūr;
+                        Clifford Edmund <hi rend="smallcaps">Bosworth</hi> / David <hi rend="smallcaps">Nicolle</hi>, Silāḥ, in: EI<hi rend="superscript">2</hi>.</p></note> 
+                Jedoch werden im Bild weder das Zaumzeug der Pferde noch die Schilde durch Silbereinfärbungen hervorgehoben. Sie sind stattdessen mit einem schlichten Grau koloriert, um deren prunkvolle Erscheinung etwas in den Hintergrund zu rücken.</p>
+                    </div>
+                    <div type="subsection"  xml:id="db12">
+            <head>12. Doppelbild: „Die Paradezeremonie des osmanischen Großbotschafters“</head>
+                        <pb facs="#facs_45" n="45" xml:id="img_0045"/>
+            <p>Das zentrale Element dieses Bildes ist die Inszenierung des Großbotschafters Ibrahim
+                                Pascha, umgeben von hohen osmanischen Würdenträgern und
+                                Infanterietruppen. Die Bedeutung der einzelnen Personen und
+                                bestimmter militärischer Einheiten wird hier entweder farblich oder
+                                durch die Form ihrer Kopfbedeckung hervorgehoben. Darüber hinaus ist
+                                für den Rang nur die Positionierung der Pagen oder Würdenträger
+                                innerhalb eines Zuges entscheidend. In der Mitte der mit Säbeln und
+                                Speeren bewaffneten Mantelträger (Cruhatar bzw. Çuhādār) des inneren
+                                Palastes (vgl. <ref target="#db13">13. Doppelbild</ref>) sitzt der
+                                Großbotschafter Ibrahim Pascha in einem goldbordierten Mantel
+                                gekleidet auf einem weißen Pferd, dessen blaue Satteldecke mit
+                                goldenen Ornamenten geschmückt ist. Das Kennzeichen seines hohen
+                                Ranges ist der hohe, rote Turban mit einer großen, zentralen
+                                Aigrette. Diese Art von Turban tragen weder die ihn flankierenden
+                                Würdenträger noch jene Hofbeamte und Pagen, die sich jeweils an den
+                                Bildaußenseiten befinden. Nur die Fußsoldaten bzw. Mantelträger
+                                tragen hier den gleichen Turbantyp, obwohl ihre Kostüme farblos
+                                gestaltet sind. Dennoch könnte es sich um die Anführer (Agas)
+                                handeln, die zum persönlichen Geleit des Großbotschafters ausgewählt
+                                    wurden.<note place="end" xml:id="ftn87" n="87">
+                                    <p rend="footnote text"> Vgl. Halil <hi rend="smallcaps"
+                                            >İnalcık</hi>, G̲h̲ulām. The Ottoman empire, in: EI<hi
+                                            rend="superscript">2</hi>.</p>
+                                </note> Im Gegensatz dazu sind die Zeltaufschlager (Crattin bzw.
+                                Çadır Mehteri) in farbiger Kleidung dargestellt, die dem Zug
+                                voranschritten, um am nächsten Rastplatz die Zelte
+                                    aufzustellen.<note place="end" xml:id="ftn88" n="88">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 29.</p>
+                                </note></p>
+            <p>Die hohen Würdenträger werden mit „Pascha“ tituliert und
+                    stehen mit dem Großbotschafter unmittelbar in Beziehung, da sie auf beiden
+                    Seiten neben dem Großbotschafter aufgestellt sind. Das Amt des Säbelträgers
+                    (Zilligtar bzw. Silāḥdār), gehörte – zusätzlich zu den Steigbügelträgern
+                    (Rikābdār), den Mantelträgern (Çuhādār) sowie zu den neben ihm stehenden
+                    Feldflaschenträgern (Mataracı) – zu den vier oder fünf wichtigsten Ämtern des
+                    inneren Palastes (Enderün). Diese Amtsträger begleiteten ihn häufig bei
+                    zeremoniellen Anlässen.<note place="end" xml:id="ftn89" n="89"><p>
+                        Jean <hi rend="smallcaps">Deny</hi>, “Rikābdār”,
+                        in: EI<hi rend="superscript">2</hi>; <hi rend="smallcaps">Ertuğ</hi>, Topkapı Palace (New Imperial Palace), in: Gábor Ágoston / Bruce Masters, Hg., Encyclopedia, 568; Artan
+                        <hi rend="smallcaps">Tülay</hi>, Royal Weddings and the
+                            Grand Vizirate. Institutional and Symbolic Change in the Early
+                            Eighteenth Century, in: Jeroen Duindam / Tülay Artan / Metin Kunt, Hg.,
+                            Royal Courts in Dynastic States and Empires. A Global Perspective,
+                            Leiden 2011, 339–299, hier
+                    386–387.</p></note> Die äußeren Paschas (Doffezi bzw. Deveci) gehören jedoch den Kameltreibern an, die für die Instandhaltung der Zelte und die Aufrechterhaltung des Nachschubes für militärische Truppen zuständig waren. Daher unterstanden ihnen auch die dem Zug voranschreitenden Zeltaufschlager.<note
+                    place="end" xml:id="ftn90" n="90"><p>
+                        <hi rend="smallcaps">Bayerele</hi>, Pashas, 36–37; Peter Alford 
+                        <hi rend="smallcaps">Andrews</hi>, Yurtči̊, in: EI<hi rend="superscript">2</hi>.</p></note>
+            </p>
+            <p>Am rechten Bildrand sind weitere wichtige Amtsträger des inneren Palastes
+                                hierarchisch angeordnet: Direkt hinter dem Zug des Großbotschafters
+                                folgen die ranghöchsten Hofbeamten des inneren Palastes: Der
+                                Schatzmeister des Sultans (Hasnatar bzw. Ḫazīnedār-Başı) und ein
+                                weiterer Würdenträger, der wie Ibrahim Pascha das Amt des
+                                Säbelträgers (Silligahar bzw. Silāḥdār) innehatte. Dieser
+                                beaufsichtigte die Waffen und Rüstungsgegenstände und begleitete
+                                beispielsweise den Sultan als sein Säbelträger bei öffentlichen
+                                    Zeremonien.<note place="end" xml:id="ftn91" n="91">
+                                    <p> Shai <hi rend="smallcaps">Har-El</hi>, Silāḥdār, in: EI<hi
+                                            rend="superscript">2</hi>.</p>
+                                    <p><hi rend="smallcaps">Bayerle</hi>, Pashas, 79.</p>
+                                </note> Danach folgen noch zwei weitere Agas, der Schreiber bzw.
+                                Sekretär des Schatzmeisters („Hasnakatipi“) sowie der
+                                Schüsselverwahrer („Agrator Agisi“ bzw. Anaḫtar Aġası).<note
+                                    place="end" xml:id="ftn92" n="92">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">İnalcık</hi>, G̲h̲ulām. The Ottoman
+                                        empire; <hi rend="smallcaps">Hammer-Purgstall</hi>,
+                                        Geschichte, Bd. 7, 19.</p>
+                                </note> Danach bildet ein Zug von acht berittenen Kammerdienern
+                                (Iitsch Uglani bzw. İç-oġlanı) den Abschluss.<note place="end"
+                                    xml:id="ftn93" n="93">
+                                    <p rend="footnote text"> Vgl. <ref target="#db13">13.
+                                            Doppelbild</ref>.</p>
+                                </note></p>
+            <p>Die Würdenträger auf der linken Bildhälfte bekleideten weitere wichtige Funktionen,
+                                wie der Zeremonienmeister (Salama Agasi bzw. Selām Aġası) am Beginn
+                                des Zuges,<note place="end" xml:id="ftn94" n="94">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 134.</p>
+                                </note> gefolgt vom Pförtner (Capischilar Cagasi bzw. Ḳ̣apucılar
+                                Kaḥyā), der den Botschaftssekretär (Divan Effendisi Teutsch
+                                Secretary bzw. Diwān Effendisi Çavuş) mit einem Geistlichen
+                                    (Imam)<note place="end" xml:id="ftn95" n="95">
+                                    <p rend="footnote text"> Generell wurde der Titel Effendi (Herr)
+                                        jenen Hofbeamten verliehen, die eine höhere Schulbildung
+                                        genossen hatten, Stephan <hi rend="smallcaps">Kekule</hi>:
+                                        Über Titel, Ämter, Rangstufen und Anreden in der offiziellen
+                                        osmanischen Sprache, Halle an der Saale 1892, 8.</p>
+                                </note> begleitet. Sowohl der Pförtner als auch der Botschafter
+                                gehörten der Ratsversammlung (Diwan) des Sultans an.<note
+                                    place="end" xml:id="ftn96" n="96">
+                                    <p> Robert <hi rend="smallcaps">Mantran</hi>, Ḳapi̲̊d̲j̲i, in
+                                            EI<hi rend="superscript">2</hi>; <hi rend="smallcaps"
+                                            >Bayerle</hi>, Pashas, 29–30, 38, 93.</p>
+                                </note> Dort wurden nicht nur Beschwerden geschlichtet oder
+                                Weisungen erteilt, sondern auch Audienzen gegeben und Verhandlungen
+                                mit ausländischen Gesandtschaften geführt.<note place="end"
+                                    xml:id="ftn97" n="97">
+                                    <p rend="footnote text"> Zur Funktion des Çavuṣ im Diwan vgl.
+                                        Konrad <hi rend="smallcaps">Dilger</hi>, Untersuchungen zur
+                                        Geschichte des osmanischen Hofzeremoniells im 15. und 16.
+                                        Jahrhundert, München 1967, 38.</p>
+                                </note> Die oben erwähnten Agas waren aber auch Teilnehmer der
+                                zeremoniellen Prozession des Sultans (diwān-i hümāyūn).<note
+                                    place="end" xml:id="ftn98" n="98">
+                                    <p> Jean <hi rend="smallcaps">Deny</hi>, Rikāb, in: EI<hi
+                                            rend="superscript">2</hi>; Vgl.: Artan <hi
+                                            rend="smallcaps">Tülay</hi>, Royal weddings,
+                                        386–387.</p>
+                                </note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db13">
+                        <head>Doppelbild 13: „Das Gefolge der Kammerherren“</head>
+                        <pb facs="#facs_48" n="48" xml:id="img_0048"/>
+            <p>Die Präsentation der zivilen Hofbeamten des osmanischen
+                    Staates wird auf der linken Bildhälfte fortgesetzt mit einem Fokus auf die
+                    Darstellung von berittenen Kammerdienern (Itsch mechter bzw. İç-oġlanı)<note place="end" xml:id="ftn99" n="99"><p> Grundsätzlich bezeichnet Mechter einen Kammerdiener oder einen anderen höheren Hofbediensteten. Vgl. James W. 
+                        <hi rend="smallcaps">Redhouse,</hi>
+                        Mihter, in: A Turkish and English Lexicon,
+                            Beirut 1987, 2042;
+                        <hi rend="smallcaps">İnalcık</hi>, G̲h̲ulām. The Ottoman
+                            empire, in: EI<hi rend="superscript">2</hi>.</p></note>des
+                    inneren Palastes (Enderün), die als christliche Knaben in den Provinzen
+                    ausgehoben wurden, um in den Palastschulen des Sultans in Istanbul eine
+                    differenzierte Ausbildung zu erhalten (devşirme).<note place="end" xml:id="ftn100" n="100"><p> Victor Louis
+                        <hi rend="smallcaps">Ménage</hi>, Devs̲h̲irme, in: EI<hi rend="superscript">2</hi>; <hi rend="smallcaps">Bayerle</hi>, Pashas, 37; Gábor
+                        <hi rend="smallcaps">Ágoston,</hi> devşirme (devshirme), in:
+                            Gábor Ágoston / Bruce Masters, Hg., Encyclopedia, 183–185.</p></note>
+                Dies ermöglichte ihnen, später hohe Posten in der
+                    Provinzverwaltung des osmanischen Reichs zu erlangen.<note place="end" xml:id="ftn101" n="101"><p rend="footnote text">
+                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 84.</p></note>
+                Die hierarchische Gliederung der Kammerherren und ihrer
+                    Diener zeigt sich dadurch, dass ihre Anführer, ein Aga<note place="end" xml:id="ftn102" n="102"><p rend="footnote text">
+                        Mit Aga bezeichnet man jene Militär- und
+                            Hofbeamte, die keine höheren Titel wie Bey oder Pascha trugen. Vgl.
+                        <hi rend="smallcaps">Kekule</hi>, Über Titel, 7–8; <hi rend="smallcaps">Bayerle</hi>, Pashas, 2.</p></note> und ein „Caga” bzw. Kaḥyā<note place="end" xml:id="ftn103" n="103"><p rend="footnote text">
+                        Vgl. <ref target="#db14">14. Doppelbild</ref>.</p></note>, in
+                    der Mitte des Zuges stehen. Weitere wichtige Angaben bezüglich Kostümierung,
+                    Bewaffnung und Schmuck werden hier offensichtlich bewusst ausgespart, um nicht
+                    den Eindruck eines mächtigen osmanischen Staates zu vermitteln.</p>
+            <p>Der rechte Bildrand wird noch von zwei Beiläufern mit ihren Handpferden sowie einer
+                                Infanterie-Einheit eingenommen, die aus mit Säbeln und Gewehren
+                                bewaffneten Mantelträgern (Czuhatar bzw. Çuhādār) besteht, die zu
+                                den persönlichen Dienern der inneren Kammer des Sultans gehörten und
+                                für seine Außenbekleidung zuständig waren. Wie die Kammerdiener
+                                gehörten auch sie dem inneren Teil des Palastes (Enderün) an, wobei
+                                hier jedoch auch auf ihre Schutzfunktion hingewiesen wird.<note
+                                    place="end" xml:id="ftn104" n="104">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 32; <hi
+                                            rend="smallcaps">İnalcik</hi>, Ghulām, The Ottoman
+                                        empire, EI<hi rend="superscript">2</hi>; <hi
+                                            rend="smallcaps">Ertuğ</hi>, Topkapı Palace (New
+                                        Imperial Palace), in: Gábor Ágoston / Bruce Masters, Hg.,
+                                        Encyclopedia, 568.</p>
+                                </note></p>
+                    </div>
+                        <div type="subsection"  xml:id="db14">
+                            <head>Doppelbild 14: „Der Aufzug der Musikkapelle“</head>
+                            <pb facs="#facs_51" n="51" xml:id="img_0051"/>
+            <p>Wie bereits im <ref target="#db15">15. Doppelbild</ref> beschrieben, bestimmt die
+                                rechte Bildhälfte noch die Fortsetzung des repräsentativen
+                                Geschenkzuges der Osmanen, während sich die linke Bildhälfte auf
+                                zwei von osmanischen Hofbeamten angeführte Züge konzentriert. Im
+                                allgemeinen lassen sich deutliche Unterschiede in der Darstellung im
+                                Vergleich zu den adeligen Mitgliedern des kaiserlichen Hofstaates
+                                und seiner Militärparaden erkennen: Die detailgetreue Abbildung von
+                                osmanischen Kostümen tritt deutlich in den Hintergrund, d.h. die
+                                höheren Würdenträger sind fallweise nur – wie auch hier der
+                                Musikdirektor und Hofmarschall – durch die mit Goldbordüren
+                                dekorierten Mäntel zur erkennen sowie durch deren Pferde mit
+                                goldenem Zaumzeug oder prachtvoll ornamentierten Schabracken. Die
+                                hierarchische Rangabstufung beschränkt sich bei der Darstellung der
+                                Osmanen auf Position und Habitus des Würdenträgers sowie auf die
+                                Größe seines Gefolges. Auch die militärischen Einheiten werden für
+                                gewöhnlich nur farblich voneinander unterschieden, während man auf
+                                Details wie Schmuck und Bewaffnung, mit Ausnahme der
+                                Kopfbedeckungen, die vor allem die hierarchische Stellung der Person
+                                im Zug noch deutlicher hervorheben, weniger Aufmerksamkeit legt. </p>
+            <p>Der osmanische Würdenträger des ersten Paradezuges ist der
+                    Hofmarschall, der hier auch als „Caga“ bezeichnet wird und ein Gefolge bestehend
+                    aus zwei Reihen zu je sieben Hofbeamten anführt. Im Osmanischen bezeichnete man
+                    mit „Caga“ bzw. Kaḥyā/Ketḫüdā einen autorisierten Stellvertreter des
+                    eigentlichen Würdenträgers.<note place="end" xml:id="ftn105" n="105"><p>
+                        <hi rend="smallcaps">Bayerle</hi>, Pashas, 96; Cengiz <hi rend="smallcaps">Orhonlu</hi>, u.a., Ketk̲h̲udā, in:
+                            EI<hi rend="superscript">2</hi>; vgl. <hi rend="smallcaps">Von Hammer-Purgstall</hi>,
+                            Geschichte, Bd. 9, 28: der Reichsmarschall wird als „kiajabeg“
+                            bezeichnet.</p></note>
+                Seine hohe Position wird hier durch seinen aufwendigeren
+                    Turban, der mit einer Agraffe geschmückt ist, sowie durch seinen mit
+                    Goldbordüren bestickten Mantel hervorgehoben.</p>
+            <p>Besonderes Interesse dürfte den osmanischen Musikkapellen gegolten haben, da der auf
+                                einem Kamel reitende Musikdirektor mit einer Trommel den Takt für
+                                den Marsch seines in 3 Reihen zu je 7 Mann geordneten Gefolges
+                                vorgibt. Die verwendeten Musikinstrumente ähneln der kaiserlichen
+                                Militärmusik wie verschiedene Schlag- (Trommeln, Tamburine) und
+                                Blasinstrumente (Flöten, Schalmeien), wovon die letzteren eine
+                                besondere Position in den um die Mitte des 18. Jahrhunderts
+                                gebildeten Janitscharenkapellen einnehmen werden.<note place="end"
+                                    xml:id="ftn106" n="106">
+                                    <p>
+                                        <hi rend="smallcaps">Brixel</hi>, Kulturfaktor, 17–18. Diese
+                                        Musikensembles gelangten ursprünglich als Rekruten an den
+                                        Hof des Sultans, waren aber auch Teil des Hofpersonals von
+                                        Wesiren und Provinzstatthaltern. Vgl.: Walter <hi
+                                            rend="smallcaps">Feldman</hi>, Mehter, in: EI<hi
+                                            rend="superscript">2</hi>.</p>
+                                </note></p>
+                        </div>
+                        <div type="subsection"  xml:id="db15">
+            <head>Doppelbild 15: „Der Transport von osmanischem Gepäck und Geschenken“</head>
+                            <pb facs="#facs_54" n="54" xml:id="img_0054"/>
+            <p>Im Gegensatz zur Inszenierung der kaiserlichen Kutschen im <ref target="#db1">1.
+                                    Doppelbild</ref> erfährt die Darstellung des „Leibwagen[s] des
+                                Botschafters“ eine viel schlichtere Ausgestaltung. Während der
+                                Leibwagen noch von zwei Pferden gezogen wird, der mit Gold und
+                                Silber bestickten Schabracken ausgestattet ist, werden die einfachen
+                                Gepäckwagen nur mit einem Ochsengespann geführt. Ebenso wenig wird
+                                die Größe des gesamten Botschafterzuges veranschaulicht, da hier im
+                                Vergleich zum kaiserlichen Pendant die Angaben zur Anzahl von Last-
+                                und Kutschenwagen fehlen. Das Hauptaugenmerk des osmanischen
+                                Transportzuges liegt auf der Darstellung der mit den
+                                Einrichtungsgegenständen beladenen Maultiere, sowie auf den
+                                zahlreichen Präsentpferden, die mit kostbaren Schabracken
+                                ausgeschmückt sind, die sich in Material und Ornamentik dem
+                                osmanischen Stil angleichen.<note place="end" xml:id="ftn107"
+                                    n="107">
+                                    <p rend="footnote text"> Vgl. Die Schabracken der Pferde des
+                                        osmanischen Botschaftereinzuges in Paris, auf die im <ref
+                                            target="#db8">8. Doppelbild</ref> näher eingegangen
+                                        wurde.</p>
+                                </note> Im Gegensatz dazu ist die Darstellung der Maultiere und
+                                Kamele, die mit grünen Schabrunken und dreifarbigen Federbüschen
+                                ausgestattet sind, den kaiserlichen Maultieren auf dem <ref
+                                    target="#db2">2. Doppelbild</ref> sehr ähnlich: Wie die Kutsche
+                                oder der Schlitten erfüllen Pferde und Maultiere in höfischen
+                                Kostümfesten hohe repräsentative Funktionen.<note place="end"
+                                    xml:id="ftn108" n="108">
+                                    <p rend="footnote text"> Vgl. die farbigen Federzeichnungen von
+                                        verschiedenen Reittieren und Fahrzeugen, erwähnt bei <hi
+                                            rend="smallcaps">Schnitzer</hi>, Eine gute Figur,
+                                        140–141.</p>
+                                </note> Die Darbietung der Geschenkpferde, die sich in einem Zug von
+                                der linken bis in die rechte Bildhälfte des <ref target="#db2">2.
+                                    Doppelbildes</ref> fortsetzt (insgesamt 16 Pferde), entspricht
+                                jedoch den osmanischen Gepflogenheiten bei Gesandtschaftseinzügen:
+                                Je wertvoller und aufwendiger die Geschenke der Osmanen für den hier
+                                habsburgischen- Verhandlungspartners sind, desto höher wird dessen
+                                diplomatischer Rang eingestuft.<note place="end" xml:id="ftn109"
+                                    n="109">
+                                    <p rend="footnote text"> Vgl. zur Bedeutung der Geschenke bei
+                                        den Osmanen: <hi rend="smallcaps">Dilger</hi>,
+                                        Untersuchungen 96–103; Hedda <hi rend="smallcaps"
+                                            >Reindl-Kiel</hi>, Power and Submission. Gifting at
+                                        Royal Circumcision Festivals in the Ottoman Empire (16th-
+                                        18th centuries), in: Turcica 41 (2009), 37–88; Peter <hi
+                                            rend="smallcaps">Burschel</hi>, Der Sultan und das
+                                        Hündchen. Zur politischen Ökonomie des Schenkens in
+                                        interkultureller Perspektive, in: Historische Anthropologie
+                                        15/3 (2007), 408–421.</p>
+                                </note></p>
+                        </div>
+                    </div>
+                    <div type="section">
+                        <head>Die Audienzen<note place="end" xml:id="ftn110" n="110"><p rend="footnote text"> Die folgenden beiden Doppelbilder sind im Faksimile nicht mehr nummeriert.</p></note></head>
+                    <div type="subsection"  xml:id="db16">
+                        <head>16. Doppelbild: „Gegenseitige Visiten des türkischen Großbotschafters und des Generalfeldmarschalls im Festzelt am <date notBefore="1719-06-27" notAfter="1719-06-28">27.–28. Juni 1719</date>“<note place="end" xml:id="ftn111" n="111">
+                <p rend="footnote text">In den Quellen konnte bis dato keine Beschreibung dieser Empfänge gefunden werden.</p></note></head>
+                        <pb facs="#facs_57" n="57" xml:id="img_0057"/>
+            <p>Auf diesem Doppelbild sind zwei Szenen dargestellt: Das linke Bild zeigt den
+                                osmanischen Großbotschafter Ibrahim Pascha beim Empfang in dem
+                                Festzelt von Generalfeldmarschall <rs type="person"
+                                    ref="#mpr14241">Oduyer</rs>.
+                                Beide Repräsentanten werden in prächtiger, mit Gold bestickter
+                                Kleidung dargestellt, umgeben auf der linken Seite von dem
+                                osmanischen Dolmetscher und den hohen osmanischen Würdenträgern
+                                (Agas und Paschas) sowie gegengleich auf der rechten Seite vom
+                                kaiserlichen Dolmetscher und den adeligen Offizieren. In der Mitte
+                                vor dem Zelt warten zwei Stallburschen mit dem Pferd des
+                                Großbotschafters, während dahinter und am linken Rand des Zeltes
+                                sich noch jeweils vier Gardesoldaten der beiden Repräsentanten
+                                positionieren. Es ergibt sich durch die gleiche Anzahl von
+                                Hofbediensteten und Fußsoldaten auf beiden Seiten eine symmetrisch
+                                aufgebaute Empfangszeremonie, die wie das Grenzzeremoniell auf die
+                                politische und militärische Ebenbürtigkeit der beiden Reiche
+                                hinweisen soll. Auch die wertvollen Geschenke (Schnalle, Steigbügel,
+                                Pferdegeschirr, Säbel) der osmanischen Repräsentanten sind ein
+                                Symbol für die Anerkennung der diplomatischen Aufwertung der
+                                Habsburger durch den Sultan.<note place="end" xml:id="ftn112"
+                                    n="112">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Reindl-Kiel</hi>, Gifting; <hi
+                                            rend="smallcaps">Burschel</hi>, Der Sultan.</p>
+                                </note></p>
+            <p>Der Empfang <rs type="person" ref="#mpr14241">Oduyers</rs> durch Ibrahim Pascha im türkischen
+                    Festzelt auf dem rechten Bild weist nur wenige Unterschiede auf: Zunächst hebt
+                    sich das Festzelt Ibrahim Paschas durch die Bekrönung mit dem Halbmond und
+                    seiner Ausstattung im osmanischen Dekorationsstil (z.B. drei türkische Teppiche)
+                    deutlich von seinem kaiserlichen Pendant ab: Während der Generalfeldmarschall
+                    auf dem linken Bild den osmanischen Großbotschafter auf Stühlen sitzend
+                    empfängt, sitzen sie hier auf Sofas unter einem Baldachin. Dadurch wird der
+                    Wertschätzung von osmanischer Lebensart und Kultur besonders Ausdruck verliehen,
+                    da nach dem Frieden von Karlowitz (1699) die einstige militärische Bedrohung
+                    durch das osmanische Reich deutlich zurück gegangen war.
+            </p>
+            <p>Um die Jahrhundertwende setzte daher eine zunehmende
+                    Orientalisierung der höfischen Festkultur ein,<note place="end" xml:id="ftn113" n="113"><p rend="footnote text">
+                        <hi rend="smallcaps">Schnitzer</hi>, Eine gute Figur,
+                    69.</p></note> was sich anhand der Ausgestaltung und Innenausstattung von Zelten, die im Rahmen von öffentlichen Ereignissen, wie z.B. des Empfangs der habsburgischen Prinzessin Maria Josepha in Dresden nachweisen lässt: Nachdem die Vermählung zuvor am <date when="1719-08-20">20. August 1719</date> in Wien während der Anwesenheit des osmanischen Großbotschafters Ibrahim Paschas stattgefunden hatte, reiste das Brautpaar nach Dresden, wo es am 2. September ankam, um danach in osmanischen Festzelten empfangen zu werden. Die Federzeichnung von Raymond de Leplat zeigen ähnlich wie auf diesem Doppelbild Zelte mit osmanisch beeinflussten Bekrönungen, wie z.B. einem Halbmond oder einer Fahne mit scheinbar türkischen Inschriften.<note place="end" xml:id="ftn114" n="114"><p rend="footnote text">
+                        <hi rend="smallcaps">Raymond de Leplat</hi>, Ankunft und Empfang Maria Josephas an der
+                            alten Vogelwiese 1719, Dresden 1728, Staatliche Sammlungen Dresden,
+                            Kupferstichkabinett, Inv. Nr. C 6732, online unter:
+                        <ref target="https://skd-online-collection.skd.museum/Details/Index/1119493">https://skd-online-collection.skd.museum/Details/Index/1119493</ref> (11.04.2022).</p></note>
+            </p>
+            <p>Außerdem wird noch der „Akt der Verbrüderung“ (siehe <ref target="#db8">8. Doppelbild</ref>) durch das gemeinsame Mal demonstriert, in dem die
+                    Repräsentation des Botschafters zum Ausdruck kommt: Das beim Empfang verwendete
+                    Tafelgeschirr sowie die Art und Materialität der Sitzmöbel sollen wie die
+                    Kleidung seinem Rang entsprechen.<note place="end" xml:id="ftn115" n="115"><p rend="footnote text">
+                        <hi rend="smallcaps">Suetter von Lötzen</hi>, Das Tafelzeremoniell, 72.</p></note> Die fürstlichen Tafeln hatten in der Frühen Neuzeit die Aufgabe, die gesellschaftlichen Schichten durch die Auswahl der Speisen, des Tafelgeschirrs, der Ausstattung des Tafelzimmers sowie durch die Einhaltung der Tisch- und Sitzordnungen zu unterscheiden. Der Vorteil zu anderen zeremoniellen Handlungen zeigt sich im Tafelzeremoniell im gemeinschaftlichen Akt, der die soziale Distinktion zurücktreten lässt. Daher dient es insbesondere bei diplomatischen Ereignissen zur Überbrückung von kulturellen Unterschieden.<note place="end" xml:id="ftn116" n="116"><p rend="footnote text">
+                        <hi rend="smallcaps">Suetter von Lötzen</hi>, Das Tafelzeremoniell, 100–101;
+                    110.</p></note> Dementsprechend ist in diesem Doppelbild der Vorrang der Einzelperson nicht erwünscht. Dies zeigt sich nämlich in der Auswahl der runden Tischform, aber auch in der Verwendung bestimmter Sitzmöbel: Während des kaiserlichen Empfangs sitzen die beiden Repräsentanten auf gepolsterten Sesseln ohne Armlehnen, wohingegen die anderen beiden Botschafter auf einem osmanischen Sofa Platz nehmen, womit nicht nur ihrem gesellschaftlichen Rang, sondern auch der Angleichung an die Gepflogenheiten der jeweils anderen Kultur Rechnung getragen wird.<note place="end" xml:id="ftn117" n="117"><p rend="footnote text">
+                        Vgl. Ebd., 117; 124–125.</p></note></p>
+            <p>Darüber hinaus fällt bei der Darstellung der Mahlszene im türkischen Zelt ein
+                                interessanter Ausstattungsgegenstand auf: Die beiden Repräsentanten
+                                sitzen auf Sofas, über denen sich ein auf vier Säulen ruhender
+                                Baldachin erhebt. Dieser besteht aus einem roten, mit Blumen
+                                bestickten Atlas und erinnert an den in einem Ölgemälde von Jean
+                                Baptiste Vanmour dargestellten Thron Sultan Ahmeds III., der in
+                                seinem privaten Audienzraum aufgestellt ist. Auch hier sitzt der
+                                Sultan auf einem Sofa unter einem Baldachin auf vier Säulen, der mit
+                                einem sehr kostbaren, vergoldeten Stoff ausgestattetet ist.<note
+                                    place="end" xml:id="ftn118" n="118">
+                                    <p rend="footnote text"> Jean Baptiste <hi rend="smallcaps"
+                                            >Vanmour</hi>, Ambassadeur Cornelis Calkoen op audiëntie
+                                        bij sultan Ahmed III, Istanbul? 1727–1730, Rijksmuseum
+                                        Amsterdam, Inv.Nr. SK-A-4078, online unter: <ref
+                                            target="http://hdl.handle.net/10934/RM0001.COLLECT.5653"
+                                            >http://hdl.handle.net/10934/RM0001.COLLECT.5653</ref>
+                                        (11.04.2022). Weitere europäische Visualisierungen und
+                                        Beschreibungen vom türkischen Hofstaat vgl. Gülrü <hi
+                                            rend="smallcaps">Necipoğlu</hi>, Architecture,
+                                        Ceremonial and Power. The Topkapi Palace in the Fifteenth
+                                        and Sixteenth Centuries, New York 1991, XII–XIV. </p>
+                                </note> Das mit einem Ehrenteppich oder Baldachin versehene
+                                Tafelzimmer galt auch im kaiserlichen Hofzeremoniell als
+                                    Standessymbol.<note place="end" xml:id="ftn119" n="119">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Suetter von Lötzen</hi>, Das
+                                        Tafelzeremoniell, 115.</p>
+                                </note></p>
+            <p>Das Interesse an der höfischen und militärischen Kultur des Osmanischen Reichs
+                                verdrängte zunehmend der Furcht vor dem einst übermächtigem Feind,
+                                was sich in der Reduktion der militärischen Präsenz vor dem
+                                osmanischen Zelt zeigt: Man verzichtet hier auf die Darstellung der
+                                vier Grenadiere und stattdessen werden hier nur wie auf der linken
+                                Szenerie die vier Offiziere der Janitscharen wirklichkeitsgetreu
+                                dargestellt, da sie ihre typische Kopfbedeckung, die hohen Mützen
+                                mit den Federhülsen, tragen, wie es das Beispiel eines hochrangigen
+                                Janitscharenoffiziers im Ölgemälde von Jean Baptiste Vanmour im
+                                Rijksmuseum in Amsterdam zeigt.<note place="end" xml:id="ftn120"
+                                    n="120">
+                                    <p> Jean Baptiste <hi rend="smallcaps">Vanmour</hi>, Een soldaat
+                                        van de Janitsaren, Istanbul 1700–1737, Rijksmuseum
+                                        Amsterdam, Inv. Nr. SK- A-2027, online unter: <ref
+                                            target="http://hdl.handle.net/10934/RM0001.COLLECT.5644"
+                                            >http://hdl.handle.net/10934/RM0001.COLLECT.5644</ref>
+                                        (11.04.2022). Nach dem Vorbild der Ölgemälde von Vanmour,
+                                        der einige Zeit mit der französischen Botschaft in Istanbul
+                                        verbrachte, entstanden kolorierte Kupferstiche von
+                                        osmanischen Würdenträgern, die vom französischen Botschafter
+                                        Ferriol in Auftrag gegebenen und auch ins Deutsche übersetzt
+                                        wurden. Vgl. Christoph <hi rend="smallcaps">Weigel</hi>,
+                                        Wahreste und neueste Abbildung Des Türckischen Hofes/:
+                                        welche nach denen Gemählden/ so der Königliche Französische
+                                        Ambassadeur, Monsr. de Ferriol, Zeit seiner Gesandtschafft
+                                        in Constantinopel im Jahr 1707 und 1708. Durch einen
+                                        geschickten Mahler nach den Leben hat verfertigen lassen/ Jn
+                                        fünff und sechzig Kupffer=Blatten gebracht worden. Nebst
+                                        einer aus dem Französischen ins Teutsche übersetzten
+                                        Beschreibung, Nürnberg 1719, online unter: Österreichische
+                                        Nationalbibliothek <ref
+                                            target="http://data.onb.ac.at/rep/10598247"
+                                            >http://data.onb.ac.at/rep/10598247</ref>
+                                        (12.04.2022).</p>
+                                </note> Der Respekt und die Anerkennung gegenüber dem osmanischem
+                                Militär und Hofzeremoniell zeigt sich aber auch in deren Integration
+                                in höfische Festumzüge, wie z.B. das Cartel-Rennen von 1697, bei dem
+                                der sächsische Kurfürst August der Starke als Sultan verkleidet mit
+                                einer Einheit von Janitscharen auftritt.<note place="end"
+                                    xml:id="ftn121" n="121">
+                                    <p rend="footnote text">
+                                        <hi rend="smallcaps">Schnitzer</hi>, Eine gute Figur,
+                                        68-71.</p>
+                                </note></p>
+                    </div>
+                    <div type="subsection"  xml:id="db17">
+                        
+            <head>17. Doppelbild: „Gegenseitige Visiten der diplomatischen Repräsentanten im Festzelt kurz nach dem Großbotschafterwechsel am 15.6.1719“<note place="end" xml:id="ftn122" n="122"><p rend="footnote text"> Siehe <ref target="#db8">8. Doppelbild</ref> (Grenzzeremoniell).</p></note></head>
+                        <pb facs="#facs_60" n="60" xml:id="img_0060"/>
+            <p>Gegenüber dem 16. Doppelbild ergeben sich hier kaum formale und inhaltliche
+                                Unterschiede: Auf der linken Seite wird der Empfang des osmanischen
+                                Großbotschafters beim Generalfeldmarschall im kaiserlichen Zelt
+                                dargestellt, während die rechte Seite den Empfang des kaiserlichen
+                                Großbotschafter Virmont durch den Seraskier von Niš zeigt. Die
+                                Ereignisse fanden kurz nach dem Botschafterauswechsel statt: Daher
+                                sind hier auf beiden Seiten jeweils vier Grenadiere und Janitscharen
+                                dargestellt, was die vom Grenzzeremoniell implizierte militärische
+                                und politische Ebenbürtigkeit noch deutlicher als im <ref
+                                    target="#db16">16. Doppelbild</ref> veranschaulicht. Außerdem
+                                verzichtet man unter Rücksichtnahme des Prinzips der
+                                Gleichwertigkeit auf eine ausführliche Darstellung der
+                                Innenausstattung des türkischen Zelts. Ein weiterer Unterschied
+                                betrifft die Darstellung der beiden Tafelszenen: Während die
+                                Empfangsszene im kaiserlichen Zelt gleich wie im <ref target="#db16"
+                                    >16. Doppelbild</ref> gestaltet wird, nimmt der Großbotschafter
+                                Virmont im türksichen Zelt sein Mal nicht auf einem Sofa, wie der
+                                Seraskier, sondern in erhöhter Position auf einem Schemel sitzend
+                                ein, wodurch man auf seinen höheren Rang aufmerksam macht.<note
+                                    place="end" xml:id="ftn123" n="123">
+                                    <p rend="footnote text"> Vgl. <hi rend="smallcaps">Suetter von
+                                            Lötzen</hi>, Das Tafelzeremoniell, 124–125.</p>
+                                </note></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

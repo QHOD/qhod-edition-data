@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 5</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15680329</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türkische Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="551"/> 
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Ṭuġra gold. Invocatio: Schrift in Gold, Erweiterter Text, Reimprosa</p>                   
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1568-03-20" notAfter="1568-03-29" calendar="#hijri">975 Ramażān 21-30 </date>
+                    <placeName ref="http://sws.geonames.org/747712/">Edirne</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/11857938X">Maximilian II.</persName>
+                    <placeName ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15680309">Urkunde 4</ref>
+                <ref type="next" target="o:sema.rc.osm.15681115">Urkunde 6</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract> <p>Urkunde 5: Geschrieben zwischen dem 20. und 29.3.1568 in <rs type="place" ref="#mpr14060">Edirne.</rs>
+                 Achtjähriger Friedensvertrag zwischen Selīm
+                II. und <rs type="person" ref="#mpr14157">Maximilian II.</rs> </p></abstract>
+            <textClass>
+                <keywords>
+                    <term>ʿAhdnāme</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                       <interpretation>
+                <p>
+                    <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                        von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                        seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                </p>
+                
+            </interpretation> 
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 5: Selim II. an Maximilian II., Edirne, zwischen 20. und 29.3.1568, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+   
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+        <facsimile>
+            <surface start="#IMG.4.1.">
+                <graphic url="04_551-stitched.jpg" xml:id="IMG.4.1."/>
+                
+            </surface>
+            
+        </facsimile><text type="record">
+        <body>
+            
+                <div n="4"><div type="transcription" xml:lang="ota">
+                    
+                    <pb facs="#IMG.4.1." n="4.1."/> 
+                   
+                   
+                    <ab type="invocatio" rendition="#gold #larger"><hi rend="gold">
+                        <lb n="1" ana="I"/>Çün mālikü l-mülk ve melikü l-müteʿāl ve-müfīżü l-āmāl ve vāhibü n-nevāl 
+                        <lb n="2" ana="II"/>celle şānühū ʿani ş-şebīhi ve-l-mis̠āl ve-tenezzehe mine l-infiʿāl ve-l-iḫtilāl ḥażretinüñ
+                    
+                        <lb n="3" ana="III"/>ʿināyet-i seʿādet-ġāyet-i ezelīye ve hidāyet-i ʿizzet-nihāyet-i
+                     lem yezelīyesiyle
+                        <lb n="4" ana="IV"/>ve ḥażret-i server-i nesl-i ādem ve sebeb-i
+                     raḥmet-i dū ʿālem şefīʿ-i ʿuṣāt-i ümem 
+                        <lb n="5" ana="V"/>
+                        menbaʿ-i l-lütfi ve-l-kerem seyyid-i enbiyā’-i güzīn mesned-i aṣfiyā’-i evvelīn ve āḫirīn 
+                        <lb n="6" ana="VI"/>ḥabībullāh Muḥammed resūlu llāhuñ ṣalla
+                        llāhü teʿālā ʿaleyhi ve-sellem teslīmen kes̱iren
+                        
+                        <lb n="7" ana="VII"/>muʿcizāt-i kes̠īretü l-berekātı vesīlesiyle</hi></ab>
+                    
+                    
+                    
+                    <ab type="Ṭuġra">
+                    <rs type="person" ref="#mpr14045">Selīm</rs> Şāh bin <rs type="person" ref="#mpr14195">Süleymān</rs> Şāh Ḫān el-muẓaffer dā’imā
+                    </ab>
+                                            
+                    
+
+                        <ab type="intitulatio"><lb n="1"/>ben ki sulṭān-i selāṭīn-i memālik-i <rs type="place" ref="#mpr14116">Rūm</rs> ve ʿArab ve ʿAcem ve ḫāḳān-i ḫavāḳīn-i<rs type="place" ref="#mpr9866"> Çīn</rs> ve <rs type="place" ref="#mpr14127"> Ḫaṭā</rs> ve Türk ve <rs type="place" ref="#mpr14125">Deylem</rs>
+                        nerīmān-i ṣavlet <supplied resp="#ht">u</supplied> gīr-u-dārī ḳahramān-i sāḥa-i taḫt-gīrī vü tāc-dārī şehsüvār-i ʿarṣa-i leşker-keş ü kişver-güşāyī 
+                        
+                        <lb n="2"/>şehryār-i iḳlīm-baḫş u  memleket-ārāyī fermān-fermāy-i ḳayāṣire-i ʿaṣr u āvān <anchor xml:id="Hlk68696426"/>ṣāḥib-ḳırān-i ḳarn-i nuṣret-iḳtirān olub<rs type="place" ref="#mpr14148"> Aḳ Deñiz</rs>
+                         eknāfında olan bilād-i sipihr-irtifāʿuñ ve<rs type="place" ref="#mpr14149"> Ḳara Deñiz</rs> eṭrāfındaki ḳilāʿ u biḳāʿuñ 
+                         <lb n="3"/>ve nādire-i ʿaṣr olan<rs type="place" ref="#mpr1484"> Mıṣr</rs> u <rs type="place" ref="#mpr14223">Saʿīd</rs>-i aʿlānuñ ve<rs type="place" ref="#mpr14117">
+                          Baġdād</rs>-i dārü s-selām ve bilād-i <rs type="place" ref="#mpr1536">Ḥaleb</rs>  ve Şāmuñ ve bender-i <rs type="place" ref="#mpr14123">Cidde</rs> ve <rs type="place" ref="#mpr14154">Beytü llāhi l-ḥarāmuñ</rs> ve <rs type="place" ref="#mpr14224">Medīne</rs>
+                         -i münevvere ve<rs type="place" ref="#mpr14155"> Ḳuds-i
+                          şerīf</rs> -i lāzimi l-iḥtirāmuñ
+                          şerrefehümü l-llāhü teʿālā şerefen ve taʿẓīmen ve vilāyet-i<rs type="place" ref="#mpr9860">
+                          Yemen</rs> ve<rs type="place" ref="#mpr9859">ʿAden</rs> ve<rs type="place" ref="#mpr14121"> Ṣanʿā</rs> nuñ
+                        <lb n="4"/>ve memālik-i<rs type="place" ref="#mpr14126"> Ḥabeş</rs> ve <rs type="place" ref="#mpr14118"> Baṣra</rs> ve
+                        <rs type="place" ref="#mpr14153">Laḫsānuñ</rs> ve <rs type="place" ref="#mpr14119">Kürdistān</rs>, ve <rs type="place" ref="#mpr14120">Gürcistān</rs> ve<rs type="place" ref="#mpr14235">Lūristān</rs> ve <rs type="place" ref="#mpr14128">Vānuñ</rs> ve <rs type="place" ref="#mpr14236"> deşt-i Ḳıpçaḳ</rs>  ve diyār-i Tātāruñ ve küllīyen vilāyet-i
+                          <rs type="place" ref="#mpr14237">Anaṭolı</rs> ve <rs type="place" ref="#mpr14122">Ḳaramān</rs> ve <rs type="place" ref="#mpr14116"> Rūm</rs> ve <rs type="place" ref="#mpr14143">Ẕū l-ḳadrīye</rs>  nüñ ve ʿumūmen memālik-i <rs type="place" ref="#mpr14238">Rūmeli</rs> 
+                        <lb n="5"/>ve<rs type="place" ref="#mpr14098"> Eflāḳ</rs> ve<rs type="place" ref="#mpr14097"> Boġdānuñ </rs> ve <anchor xml:id="Hlk68696326"/>bunlardan
+                            māʿadā niçe şemşīr-i ẓafer-te’s̠īrümüzle fetḥ olmış diyār-i ʿaẓīmü
+                            l-iʿtibāruñ ve ança ḳilāʿ ü bilād-i nām-dāruñ pādişāhı ve sulṭānı
+                          <lb n="6"/><hi rend="gold"><rs type="person" ref="#mpr14045">Sulṭān Selīm</rs>
+                          <rs type="person" ref="#mpr11015"> ḫān bin Süleymān</rs>
+                              <rs type="person" ref="#mpr14165"> ḫān bin Selīm</rs>
+                              <rs type="person" ref="#mpr14167"> ḫān bin Bāyezīd</rs>
+                              <rs type="person" ref="#mpr14166"> ḫān bin Meḥemmed</rs>
+                              <rs type="person" ref="#mpr14168"> ḫān bin Murād</rs>ḫānam</hi>
+                           bi-ʿināyeti llāhi l-meliki l-aḳder inān-i semend-i seʿādet-mend-i
+                        ʿ    meydān-i ṣāḥib-ḳırānī ḳabża-i ḳadr-i ḳudretüme muḳadder ve ṣavlecān-i sāḥa-i kişver-gīrī
+                            <lb n="7"/>vü gītī-sitānī keff-i kifāyet-baḫşuma muḳarrer ü müyesser
+                              olub ʿarṣa-i erż bi-ṭ-ṭūl ve-l-ʿarż diyār-i şarḳ ve memālik-i<rs type="place" ref="#mpr9866">
+                            Çīn</rs> den tā be-aḳṣā-yi rūy-i zemīn lemeʿāt-i bāriḳāt-i şemşīr-i ḳażā-te’s̠īrümle tābān u münevver 
+<lb n="8"/>ve cümle rubʿ-i meskūn ve heft iḳlīm zimām-i iḳtidāruma münʿaṭif ve müsaḫḫar olub <anchor xml:id="Hlk68695838"/>bi   
+                            l-cümle taḫt-i ʿālī-baḫt-i seʿādet-menşūrumuñ ednā pāyesine nisbet
+                            ḳaṣr-i ḳayṣar-i pür-ḳuṣūr ve mülk-i mevrūs̠-i maʿdalet-mens̠ūrumuñ 
+                              <lb n="9"/>bir ḳabżası mülk-i melik-i <rs type="person" ref="#mpr14230">Sikender</rs> ve şāh-i Faġfūr<note place="footnote" n="1"><p rend="footnote text"> „Fagfūr“ (Pl.
+                                Faġ̣āfire) ist der Titel des chinesischen Herrschers. Er wird auch
+                                in Verbindung mit dem persischen „şāh“ (= König) verwendet: „<hi> Bu işden şāh-i Faġ̣fūr oldı āgāh, ḳızardı vü bozardı çün seḥergāh</hi>“; Vgl. Alpay, Günay, „Zati ve Şemʿ ü                                                                     
+                                Pervāne Mesnevisi“, in: İstanbul Üniversitesi
+                                    Edebiyat Fakültesi Türk Dili ve Edebiyatı Dergisi 11 (2012), 129-142; Zenker,
+                                Handwörterbuch II, s.v.
+                                „fagfūr“.</p></note> olub ḫātem-i mülk-i Süleymānī şāyeste-i engüşt-i cihān-bānī olub ṣaḥāyif-i rūy-i zemīn zīr-i nigīn-i maʿdelet-mekīn u seʿādet-ḳarīnüm olmışdur
+                            ḥamden ʿalā ālā’ihī l-cezīl 
+<lb n="10"/>ve şükren ʿalā nuʿamā‘ihī l-cemīl</ab> 
+                    
+                    
+     <ab type="inscriptio">ve sen-ki iftiḫārü l-ümerā’i l-ʿiẓāmi l-ʿīsevīye muḫtārü l-küberā’i l-fiḫāmi fī milleti l-mesīḥīye muṣliḥu maṣāliḥi cemāhīri ṭ-ṭāyifeti n-naṣrānīye sāḥibü eẕyāli l-ḥaşmeti ve-l-vaḳār ṣāḥibü delāyili l-mecdi ve-l-iftiḫār 
+                        <lb n="11"/><rs type="person" ref="#mpr14157">Maḳsimilyānūş</rs> Çeh
+                        ḳırālsın Rīm ḫalḳınuñ güzīde ve
+                        ḥürmetlüsi ve <rs type="place" ref="#mpr9291">Alāmān</rs> vilāyetlerinüñ īmperādorı ve <rs type="place" ref="#mpr14114">Çeh</rs> ve <rs type="place" ref="#mpr14113">İslovīn</rs> ve <rs type="place" ref="#mpr6938">Ḫırvāt</rs> memleketlerinüñ ve sāyir buña muʿādil niçe memāliküñ ḥākimi ve ḳırālısın</ab> 
+<ab type="narratio"><lb n="12"/>bāb-i aʿlāmuz ki melce’-i selāṭīn-i ʿiẓām-i devrān ve cenāb-i muʿallāmuz ki melāẕ-i ḫavāḳīn-i ʿaṣr u āvān olub südde-i senīye-i seʿādet-bünyānümüz muḳabbel-i şifāh-i  ḳayāṣire-i cihān ve ʿatebe-i ʿalīye-i ʿadālet-ʿünvānumuz 
+                        <lb n="13"/>müzdaḥem-i ekāsire-i zemīn ü zemān olmışdur binā’en ʿalā hāẕā müceddeden temhīd-i ḳavāʿid-i muʿāhedet ve teşyīd-i merāsim-i muṣālaḥat içün irsāl eyledügüñüz mefāḫirü l-aʿyāni l-milleti l-mesīḥīye Egrī pişḳopı <rs type="person" ref="#mpr14174">Anton Verençyo</rs> 
+                        <lb n="14"/>ve Ḳıriştofor <rs type="person" ref="#mpr14179">Ātūfpāḫ</rs> ve Albertoz <rs type="person" ref="#mpr14180">Vīz</rs> nām yarar ve kār-güẕār muʿteber ėlçilerüñüze ʿahdnāmeñüz gönderüb ḥażret-i ʿĪsā nebī ʿalā nebīyinā ve ʿaleyhi ṣ-ṣalātu ve-s-selām tārīḫinüñ biñ beş-yüz altmış sekiz senesinde 
+<lb n="15"/>Yanār ayı ki bizüm ulu peygāmberümüz ḥażret-i risālet-penāh ṣalla llāhu ʿaleyhi ve-sellemüñ hicreti tārīḫinüñ ṭoḳuz yüz yetmiş beş senesinde vāḳiʿ olan māh-i Recebi l-müreccebüñ ġurresinde olmışdur 
+                    
+                   bundan böyle sekiz yıla degin 
+<lb n="16"/>memleket ü vilāyet emn ü emān ve ʿāmme-i reʿāyā istirāḥat ü iṭmīnān üzre olub mābeynde dostlıḳ muḥkem ü muḳarrer olmaḳ bābında istidʿā-yi ʿināyet edüb sāl be-sāl āsitāne-i seʿādet-ittiṣālümüze 
+<lb n="17"/>her Yanār ayında bī-ḳuṣūr ve-lā
+    küsūr otuz biñ Üngürūs altunı irsāl u īṣāl olunması ʿuhdeñüzde olub şol şarṭla ki ḳarındaşlaruñuz ki <rs type="person" ref="#mpr14169">Ferendūş</rs> ve <rs type="person" ref="#mpr14172">Ḳārlo</rs> Avusturya 
+<lb n="18"/>ve ārçīdūḳalardur muʿāhedemüzde bile olub mā-dām ki ol cānibde olan vilāyetlerüñ ve nāḥiyelerüñ ve ḳalʿelerüñ eger ḳarada ve deñizde ve aḳar ṣular ḳurbındadur żābiṭleri 
+<lb n="19"/>ve ḥākimleri ve ʿāmme-i berāyā vü kāffe-i re’āyāsı cān u göñülden ittifāḳ üzre maḥabbetlerin ve dostlıḳ şarṭların muḥkem ḥıfẓ ėdüb ʿahd ü emāna müteʿalliḳ olan ḫuṣūṣı geregi gibi                                   
+<lb n="20"/>ṣaḳlayu<supplied resp="#ht">b</supplied> ve ʿazīz ṭutalar biz daḫı serḥadd-i memālik-i maḥrūsemüzde olan beglerbegiler ve sancaḳbegleri ḳullarumuza ve ʿumūmen ʿasākir-i manṣūremüz ḫalḳına baş ve cānları gerek ise ol cānibden 
+           
+                                             
+<lb n="21"/>ʿahda muḫālif vażʿ ṣādır olub yüce dergāhumuza ʿarż u iʿlām olunmadın ʿahd u emāna mugāyir iş ėtmeyeler ve defter-i ḫāḳānīde mesṭūr olmayan ḳaryelerine ve cānlu ve cānsız rızḳlarına bu dostlıḳ zemānında 
+<lb n="22"/>aṣlā daḫl olunmayub ve reʿāyāñuz żabṭı içün varub gelen ādemlerüñüze māniʿ olmayub ve emre muḫālif yeñiden nesne ṭaleb olunmayub dostlıḳ ḫuṣūṣını ḥıfẓ ėdeler dėyü muḥkem tenbīh olunur 
+                        <lb n="23"/>ve ol cānibden daḫı bu dostlıḳ içinde ḳırāl oġlınuñ <rs type="place" ref="#mpr9372">Erdel</rs> vilāyeti ve Erdelden ṭaşra sāyir ādemlerinüñ ve gendünüñ ellerinde olan yėrlerine ve mülklerine ki ḥāliyen mutaṣarrıflardur 
+<lb n="24"/>aṣlā daḫl olunmayub dostlıġa mugāyir daḫl eyleyenüñ müntehā ḥaḳḳından gelinüb muḥkem ḥaḳāret oluna ve bu cānibden daḫı ḳırāl oġlına tenbīh oluna ki mā-dām ki ol cānibden ʿasker cemʿ ėdüb 
+<lb n="25"/>ʿahda mugāyir vażʿ olmaya ol daḫı sefer tedārükinden ve ʿasker cemʿ eylemekden berī olub gendü ḥālinde olub ḥaḳḳına rāżī ola aṣlā
+                            ʿahda muḫālif gizlü ve āşikāre düşmenlik eylemeye
+                            <lb n="26"/>bu dostlıġumuzda bile olub min baʿd dostlıḳ zemānında eger
+                            gendü ve eger aña tābiʿ olanlardan biri ʿahd ü emāna mugāyir vażʿ ėderse
+                            muʿāteb olalar ve ḳaryelerüñüze ādem gönderüb ayartmaḳdan
+                            <lb n="27"/>ve segirdmeden ve ṭavar sürmekden berī olub bu yasaġı
+                            gözetmeyenlerüñ ẕikr olundugı üzre her kim olursa ḥaḳḳlarından geline ve
+                            muḳaddemā seferlerde ve ġayrı sebeb ile olan bugż ü ʿadāvetleri 
+<lb n="28"/>iki cānibden daḫı añılmayub ʿafv olunub emīn olalar dėyü te’kīd oluna ve şimdiye degin niçe defʿa nizāʿ olub faṣl olmayub ḳalmış ve bir cānibe ṭapmış baʿż-i kimesneler olsa 
+ <lb n="29"/>anuñ gibiler mülkleri ve ḥiṣārlarıyle ṭapdugı ve ḫidmet eylemek istedügi yėrde ḳalub söz keleci olmaya ve menʿ ü defʿ olunmaya ve ḳırāl oġlınuñ Üngürūs ve <rs type="place" ref="#mpr9372">Erdel</rs> vilāyetlerinde 
+                            <lb n="30"/>müşterek ḥiṣārları ve ḳaştelleri ve varoşları ve ġayri yėrleri olub dostlıḳ içinde iki cānibüñ iḫtiyārlarıyla istibdāl murād olunsa ʿale l-ḫuṣūṣ bir yėrini aldamayub 
+                                
+                            
+<lb n="31"/>ve ziyādesin ṭaleb ėtmeyüb ḫayrlusı ve iki cānibüñ żabṭına enfaʿ u āsān olsa anuñ gibiler mufaṣṣalen āsitāne-i seʿādetümüze ʿarż olunduḳda iki cānibe nāfiʿ oldugına göre ʿamel oluna 
+<lb n="32"/>ve ehl-i islāmdan ve ḳırāl oġlı ve Boġdān ve Eflāḳ voyvodalarından muḳaddemā olan ʿadāvetleri sebebi ile eyledükleri ʿarżları pāye-i serīr-i seʿādet-maṣīre ʿarż olunub 
+<lb n="33"/>teftīş ü tefaḥḥus olunmadın maḳbūl olmayub iʿtimād olunmaya ve ḫilāf-i vāḳiʿ ḳażīye ʿarż ėdenler muʿāteb u muʿāḳab olalar ve iki cānibden ve ehl-i islāma tābiʿ olan eger reʿāyā ve ġayrıdur
+                        <lb n="34"/>ve <rs type="place" ref="#mpr9372">Erdel</rs> ve <rs type="place" ref="#mpr14097">Boġdān</rs> ve <rs type="place" ref="#mpr14098">Eflāḳ</rs>
+                        ṭarafından ve ġayrıdandur anlar ki gendü ḥāllerinde olmayub
+                            ʿahda muḫālif iş işleyüb fesād ü şenāʿat üzre olub ṭuyılub ḳaçduḳda
+                            ṭaleb olundugı gibi
+                            <lb n="35"/>ele vėrilüb<note place="footnote" n="2"><p rend="footnote text"> Hier wurde „getürilüb“ zu „verilüb“
+                                korrigiert, wobei der Strich des Buchstaben kef (ک) weggekratzt
+                                wurde.</p></note>
+                        ḥaḳḳlarından geline tā ki
+                            ġayrılara mūcib-i ʿibret u naṣīḥat ola ve bu barışıḳlıḳ zemānında iki cānibden daḫı eger ḍarbla ve eger ugurlıġla şehr ve varoş ve ḳalʿe veyāḫūd ḳaştel alınursa 
+<lb n="36"/>dostlıḳ şarṭı yėrine ḳonılub gėrü ṣāḥiblerine vėrile anuñ gibi fesāda mübāşeret ėdenlerüñ ḥaḳḳlarından geline ėtdükleri fesād yanlarında ḳalmaya ve iki cānibden her kişi gendü memleketi dāḫilinde 
+<lb n="37"/>ḳalʿe ve yėrler taʿmīr ü termīm ėdüb azıḳ ḳoyub ḥıfẓ eylemek murād ėdinse mā-dām ki gendü memleketi ḥaddinden tecāvüz eylemeye kimesne māniʿ olmaya dėyü bildürmişsiz eyle ola 
+                        <lb n="38"/>ammā bu bābda fermān-i celīlü l-ḳadrüm şöyle olmışdur ki bundan aḳdem ḳuvvet-i ḳāhire-i pādişāhānemüzle Sigetvār seferinde alınub bi-l-fiʿl ḫarāb olan ḳalʿelerden <rs type="place" ref="#mpr14133">Çūrġova</rs> ve <rs type="place" ref="#mpr14234">Līfeş</rs> ve <rs type="place" ref="#mpr14131">Sekiz</rs> 
+                        <lb n="39"/> ve <rs type="place" ref="#mpr14137">Mārçal</rs> ve <rs type="place" ref="#mpr14147">Ṣogen</rs> ve <rs type="place" ref="#mpr14134">Çāḳān</rs> nām ḳalʿeler ve <rs ana="MPRautomatched" ref="#mpr9372" type="place">Erdel</rs>
+                        ḳırālı serḥaddinde bundan aḳdem
+                        ʿasker-i islām varub aldugı <rs type="place" ref="#mpr14136">Çehvār</rs> ve <rs type="place" ref="#mpr14062">Bāna</rs>ve <rs type="place" ref="#mpr14139">Erdūd</rs> nām ḫarābe ḳalʿeler daḫı taʿmīr ü termīm olunmayub 
+<lb n="40"/>ḥāli üzre ḫarāb ḳala bi-l-cümle ol ḳalʿeler ṭopraġında ve sınurında yeñiden ḳalʿeler yapılmaya ve min baʿd ol cānibden serḥadd muḥāfaẓasında olan serdārlaruñuza ve vekīllerüñüze muḥkem yasaġ ve tenbīh oluna ki 
+<lb n="41"/> <rs type="place" ref="#mpr7761">Setede</rs>
+                           usḳoḳ ṣaḳlamayub ve ḥāydūd levend ṭāyifesine yüz vėrmeyüb ve muʿāvenet eylemeyeler bi-l-cümle iki cānibden ʿulūfe ile ve dirlikle taʿyīn olunub bellü ḫidmetde olan 
+<lb n="42"/>ādemlerden ve nökerlerden ġayrı yanlarında ve ḥiṣārlarında belürsüz ādem ṭutmayalar mütenebbīh olmayub anuñ gibi ehl-i fesāda muʿīn olanlaruñ ḥaḳḳlarından geline ve bu dostlıḳ zemānında 
+<lb n="43"/>iki cānibden bile reʿāyādan ve berāyādan biri esīr olub ve ʿasker ḫalḳından birinüñ elinde esīr bulunsa ḳullandurmayub ve ṣatmayub ve baġışlamayub behāsuz ṣaġ ve sālim memleketine gönderile 
+<lb n="44"/>ve ṭutan kimesne teftīş olunub dostlıḳ bozub cebr ile aldugı ve ugurladugı ẓāhir olursa cezāsı vėrile ve esīrci ṭāyifesi bu dostlıḳ muḳarrer olduḳdan ṣoñra 
+<lb n="45"/>serḥaddlerde gezüb ugurlıḳ esīr almaya alursa ṭuyılduḳda geregi gibi ḥaḳḳından geline ve aldugı esīr elinden alınub memleketine gönderile ve baʿż-i esīrler ʿadāvet içinde esīr olub zindānlarda ve ayaḳlarında 
+<lb n="46"/>demür olub ʿināyet-i ḥaḳḳla bu dostlıḳdan ṣoñra ḳaçub ḳurtulsa iki cānibden daḫı ṭaleb olunmaya ve bundan böyle dostlıġumuz muḳarrer olub her vech-ile ḥıfẓ eylemek murāduñuz olub istidʿā-yi ʿināyet 
+<lb n="47"/>eyledügüñüz ecilden ʿaẓametlü bārgāhumuzda ėlçilerüñüz ve maṣlaḥat-güẕārlaruñuz ve-yāḫūd vekīllerüñüz mütemekkin olub ve ḫayr ḫaber ile ulaġla gelüb gitmek lāzım olduḳda ṭoġrı yoldan varub gelmege 
+<lb n="48"/>ve kāġıdlarına ve gendülerine her ne vaḳt olursa kimesne māniʿ olmayub daḫl u taʿarruż eylemeye ve istedükleri yėrde ev ṭutub ṭaşra çıḳub at ve deñiz seyrine ve istedükleri deñlü tercümān ḳullanmaġa 
+                        <lb n="49"/>kimesne māniʿ olmayub ve bir nizāʿ ve daʿvā düşer ise ol ṭarafdan vekī naṣb olunduḳda berü cānibden daḫı <rs type="place" ref="#mpr1607">Budūn</rs> beglerbegisi vekāleten istimāʿ-i daʿvā ėdüb ʿarża muḥtāc olmayanı 
+<lb n="50"/>ale l-fevr faṣl ėde ʿarża muḥtāc olanı vuḳūʿı üzre südde-i seʿādetüme ʿarż eyleye ve iḥsān olunan ʿahdnāme-i hümāyūnumuzuñ ṭugra-yi ġarrā-yi iclāl-efzā-yi ḫāḳānī ile bir ṣūreti 
+                            
+                            <lb n="51"/>ʿatebe-i ʿulyāmuzda olan ėlçün͂üze(!) ṣadaḳa oluna ki lāzım olduḳda
+                            gendüde buluna bi-l-cümle sāyir dostlıḳ ėden pādişāhlaruñ ėlçilerine ve
+                            ādemlerine riʿāyet olundugı gibi riʿāyet oluna
+                            <lb n="52"/>ve dergāh-i muʿallāmuzda mütemekkin olan ėlçün͂üzün͂(!) yėrine āḫer kimesne daḫı göndermesen͂üz her ḳaçan olursa daʿvet eyleseñüz
+                            icāzet vėrilüb dostlıḳ zemānında ve ʿadāvet āvānındadur denilmeyüb
+                            <lb n="53"/> memleketüñüze ulaşdurmaġa ādem ḳoşıla tā ki ādemümüz ėlçi
+                            ṭarīḳiyle varub gelmegi iḫtiyār ėdebileler dėmişsiz eyle ola ve bundan
+                            aḳdem iki cānibe müşterek olub vėrgü vėren reʿāyādan
+                            <lb n="54"/>ve köylerden ki defter-i ḫāḳānīde mesṭūrlardur geçdük meẕkūr
+                            reʿāyā-yi ehl-i islām iki <supplied resp="#ht">defʿa</supplied> çekinmeyüb defterde olmayan ḫāric
+                            köylerden vėrgü ṭaleb olunmayub ve derd-mend reʿāyāmuz emn ü emān üzre
+                            olalar
+                            <lb n="55"/>ve mābeynde bir nizāʿ olsa her kişi intiḳām almaġiçün
+                            segirtmege ḳādir olmaya bi-l-cümle iki cānibden daḫı serḥaddlerde olan
+                            serdārlardan birer serdār naṣb olunub ehl-i islām cānibinden <rs type="place" ref="#mpr1607">Budūn</rs> beglerbegisi olanlar 
+<lb n="56"/>nāẓır olub anuñ gibi ʿatebe-i ʿulyādan irsāl olunan mührlü defter-i ḫāḳānīde mesṭūr olan ḳaryeler ve yėrler ḫuṣūṣında ve ġayrı
+                        ḳażīyelerde nizāʿları olsa iki cānibden daḫı nāẓır naṣb olanlar defter-i ḫāḳānīyle maʿan 
+<lb n="57"/>maḥall-i nizāʿuñ üzerine varub faṣl ėdeler bi-ẕ-ẕāt görilmek mümkün olmayana iki cānibden muʿtemedün ʿaleyh vekīller naṣb olunub ammā nizāʿ olunan ḫuṣūṣuñ üzerine varmalu olduḳlarında muḳaddemā birbiriyle 
+<lb n="58"/>ḫaberleşüb aña göre iki cānibden daḫı berāber varılub vech ü münāsib görildügi üzre ʿahdnāme mūcibince ḳaṭʿ-i nizāʿ olunub iki cānibden daḫı her kişi yėrlü yėrini bilüb birbirinden 
+<lb n="59"/>emīn ü sālim ayrılub ve dostlıḳ muḥkemligine saʿy ėdeler ẕikr olunan nāẓırlardan ve vekīllerden ṣaḥīḥ ḫaber gelüb aḥvālleri
+                        āsitāne-i seʿādete mufaṣṣalen ʿarż
+                            olunmadın her kişi düşmenlige mübāşeret eylemeye
+ <lb n="60"/>ve barışıḳlıḳ içinde kimesne kimesneyi meydāna oḳumaya ve
+                            ẕikr olunan dostlıġumuz cān u-dilden maḥabbet üzre muḳarrer olub dostlıḳ
+                            şarṭların riʿāyet eyledügümüzden ġayrı yarar ādemlerümüz ile 
+<lb n="61"/>gönderegeldügümüz üzre her Yanār ayında armaġānumuz içün otuz biñ Üngürūs filorīsini südde-i seʿādete teslīm eylemek ʿuhdemüzde ola dėyü ʿahdnāme-i hümāyūn-i celālet-maḳrūnumuz ṭaleb eyledügüñüzi 
+<lb n="62"/>ėlçileriñüz iʿlām eyledükleri ecilden bizüm daḫı ḫānedān-i merḥamet-bünyān ve dūd-mān-i mevhibet-ʿunvānumuza ṣadāḳat u iḫlāṣla iḫtiṣāṣ gösterüb ṣamīm-i dilden dostlıḳ ṭaleb ėden 
+<lb n="63"/>selāṭīn-i muḫālaṣat-āyīn ve ḫavāḳīn-i muṣādaḳat-temkīn ḫuṣūṣında ebvāb-i muṣāfātumuz meftūḥ olmaġın bu ʿahdnāme-i hümāyūn-i seʿādet-nümūnı vėrdüm ki min baʿd sizüñ ṭarafuñuzdan ve size tābiʿ olan 
+<lb n="64"/>ḳarındaşlaruñuzdan ve beglerüñüzden ve ġayri ʿaskerüñüzden mā-dām ki bāʿis̠-i iḫtilāl-i ʿahd u emān olur bir vażʿ ṣādır olmayub ve defter-i ḫāḳānīde muḳayyed olanlardan geçdük dėdügüñüz ḳaryelere 
+<lb n="65"/>aṣlā daḫl olunmayub defterde muḳayyed oldugı üzre vėregeldükleri vėrgülerini ke-mā kāne getürüb vėreler ve memālik-i maḥrūsemüzde ādemlerüñüz ve ḥāydūdlarıñuz cidden gezmeyeler 
+<lb n="66"/>bi-l-cümle ẕikr olundugı üzre ʿahdnāme-i seʿādet-nümā vü behcet-fezāmuz muḳteżāsınca ʿamel olunub <rs type="place" ref="#mpr7761">Setede</rs> usḳoḳ ṣaḳlamayub ve
+ ġayrı serḥaddlerüñüzde ḥāydūd ve levend ṭāyifesine yüz vėrilmeyüb 
+                            
+  <lb n="67"/>ve <rs type="place" ref="#mpr9372">Erdel</rs> ḳırālınuñ ve aña tābiʿ olanlaruñ
+                        
+                            yėrlerine ve mülklerine ve serḥadd-i memālik-i maḥrūsemüzde olan reʿāyā
+                            vü berāyāya vechen mine l-vücūh daḫl olunmayub dostlıḳ şerāyiṭi merʿī vü
+                            muḥterem ṭutılub
+                            <lb n="68"/>temām-i ʿizzetle riʿāyet oluna ben-daḫı eymān-i şidād ile
+                            yemīn ėderem ki yėri gögi yoġ iken var ėden perverdigāruñ birligiyçün veİstefān ḳırāl
+                            ulu ʿazīz peygāmberümüzüñ muʿcizātı ḥaḳḳı içün bu muʿāhede olunan
+                            <lb n="69"/> müddet içinde mā-dām ki ol cānibden ʿahda mugāyir ḥālet
+                            olmaya beglerbegilerümüzden ve begler ḳullarumuzdan ve ḳapudānlar veİstefān ḳırālEflāḳ
+                            subaşılar ve voyvodalarumuzdan bi-l-cümle serḥadd-i memālik-i islāmīyede
+                            olan
+                            <lb n="70"/> ʿasākir-i feyż-meẓāhirümüzden ve ḳuvvet-i ḳāhire-i
+                        ḫüsrevāne ve şemşīr-i ḳażā-te’s̠īr-i mülūkānemüzle fetḥ olunan <rs type="place" ref="#mpr9372">Erdel</rs> vilāyetinüñ ḳırālı <rs type="person" ref="#mpr14221">Zápolya</rs> İstefān ḳırāldan ve <rs type="place" ref="#mpr14098">Eflāḳ</rs> ve <rs type="place" ref="#mpr14097">Boġdān</rs> voyvodalarından                                                           
+                            <lb n="71"/>ve sāyir ḫarāc-güẕār kefere ḳullarumdan ki bu dostlıġumuzda biledür aṣlā size müteʿalliḳ olan memleket ü vilāyete ve reʿāyāya ve taḥt-i ḥükūmetüñüzde olan ḳalʿelere ve uçlara daḫl u taʿarruż olunmayub 
+                        <lb n="72"/>żarar u ziyān ve teʿaddī vü tecāvüz olunmaz ve <rs type="place" ref="#mpr6873"> Fırānçe</rs> ve <rs type="place" ref="#mpr6814">Leh</rs>
+                        ḳırālları ve <rs type="place" ref="#mpr1416">Venedīk</rs>
+                                          begleri ki ḳadīmü l-eyyāmdan ʿatebe-i ʿalīye-i sipihr-irtisāmumuza dostlıḳ ėdegelmişlerdür 
+<lb n="73"/>gėrü dostlarumuzdur eyle maʿlūm ola muḥaṣṣal-i kelām şol-ki müşeyyed-i ḳavāʿid-i dostī vü maḥabbetdür bu müddet içinde riʿāyet olunması ol ṭarafa rāciʿdür şöyle-ki ol cānibden 
+    <lb n="74"/>merāsim-i ʿahd ü emān riʿāyet oluna in şā’a llāhü r-raḥmān bu cānibden ḫilāf-i vaʿd u peymān bir vażʿ ṣādır olmaz</ab> 
+                    <ab type="datatio">taḥrīren<date calendar="#hijri" notBefore="1568-03-20" notAfter="1568-03-29">fī evāḫiri Ramażāni l-mübārek min şuhūri seneti ḫams ve-sebʿīn ve-tisʿa mi’e </date></ab>       
+                          
+                                <ab type="locus">bi-maḳāmi 
+                    <rs type="place" ref="#mpr14060">Edirne</rs> el-maḥmīye</ab></div>  
+                    
+                    
+                <div type="translation" xml:lang="de">
+                    <pb facs="#IMG.4.1." n="4.1."/> 
+                    <ab type="invocatio">Da ich, der durch die ewige, höchst glückliche
+                            Gnade und unaufhörliche, unendlich rühmliche Führung des Herrn der
+                            Herrschaft, des erhabenen Königs, des Spenders der Hoffnungen und
+                            dessen, der Geschenke gibt, dessen großer Ruhm Seinesgleichen nicht hat
+                            und frei von Trübsal und Verwirrung ist, und durch die Vermittlung der
+                            segenreichen Wunder Mohammeds, des Ersten des Menschengeschlechts, der
+                            Ursache der Gnade auf beiden Welten, des Fürsprechers für die Sünder der
+                            Gemeinschaft, der Quelle der Güte und der Großmut, des Herrn der
+                            erwählten Propheten, der Stütze der ersten und letzten Reinen, des
+                            Freundes Allahs, des Gesandten Allahs, Allah, der Erhabene segne ihn und
+                            spende ihm reichlich Heil und Frieden</ab>
+                    
+                    <ab type="Ṭuġra"><rs type="person" ref="#mpr14045">Selīm</rs>
+                        Şāh, Sohn <rs type="person" ref="#mpr11015">Süleymān</rs> Şāh Ḫāns, immer siegreich</ab>
+                    
+                    <ab type="intitulatio">Sultan der Sultane der Länder der Rhomäer, der
+                        Araber und der Perser, Ḫāḳān der Ḫāḳāne von China, <rs type="place" ref="#mpr14127">Ḫaṭā</rs>,<rs type="place" ref="#mpr14125">Türk und Deylem</rs>, Nerīmān des Angriffs und des Kampfes, Held des Feldes der Throneroberer und Könige, gewandter Reiter des Schlachtfeldes der Heerführer und Eroberer, Erdteil spendender und Länder verzierender Monarch, Gebieter der Kaiser des Zeitalters und der Zeiten, 
+                       Herr der glücklichen Konjunktion der mit dem Sieg vereinigten Epoche,
+                       Pādişāh und Sultan der himmelhohen Städte, die sich am Mittelmeer befinden, der Festungen und Grundstücke um das Schwarze Meer, 
+                        von <rs type="place" ref="#mpr1484">Ägypten</rs>, des Gelobten des Zeitalters und des
+                        höchsten Ṣaʿīd, von <rs type="place" ref="#mpr14117">Bagdad</rs>, dem Haus des Friedens, der Städte
+                        <rs type="place" ref="#mpr1536">Aleppo</rs>, Damaskus, der Hafenstadt Jiddah und <rs type="place" ref="#mpr14154"> der geheiligten Kaaba</rs>, des erleuchteten Medina, von erhabenen Jerusalem, dessen Verehrung notwendig ist, Allāh, der Erhabene möge sie
+                            mit Ehrerbietung und Hochachtung ehren, des Landes Jemen,von Aden und 
+                        Sanaa, der Länder <rs type="place" ref="#mpr14126">Ḥabeş</rs>, <rs type="place" ref="#mpr14118">Basra</rs>, <rs type="place" ref="#mpr14153">Laḥsā</rs>, 
+                        <rs type="place" ref="#mpr14119">Kurdistan,</rs>
+                        <rs type="place" ref="#mpr14120">Georgien,</rs> <rs type="place" ref="#mpr14235">Lūristān</rs> und <rs type="place" ref="#mpr14128">Vān</rs>, der Ḳıpçakischen Steppe, aller Länder Anatoliens, von
+                        <rs type="place" ref="#mpr14122">Ḳaramān</rs> von <rs type="place" ref="#mpr14116">Rūm</rs> und von<rs type="place" ref="#mpr14143"> Ẕū l-ḳadrīye</rs>, allgemein der Länder von
+                        <rs type="place" ref="#mpr14238">Rūmeli</rs> der <rs type="place" ref="#mpr14098">Walachei</rs> und <rs type="place" ref="#mpr14097">Moldau</rs> und der vielen, hochangesehenen Länder, die außerdem durch unser siegreiches Schwert erobert wurden und so vieler ruhmreicher Festungen und Gebiete, 
+                        Sulṭān <rs type="person" ref="#mpr14045">Selīm</rs>
+                        Ḫān, Sohn <rs type="person" ref="#mpr11015">Süleymān</rs>
+                        Ḫāns, des Sohnes <rs type="person" ref="#mpr14165">Selīm</rs>
+                        Ḫāns, des Sohnes <rs type="person" ref="#mpr14167"> Bāyezīd</rs>
+                        Ḫāns, des Sohnes <rs type="person" ref="#mpr14166">Meḥmed</rs>
+                        Ḫans, des Sohnes <rs type="person" ref="#mpr14168">Murād</rs>
+                        Ḫāns.
+                    Durch die Gnade Allāhs, des mächtigsten Herrn wurden die Zügel des glücklichen Pferdes des 
+                       des Schlachtfelds des Herrn der glücklichen Konjunktion in den Griff meiner hohen Macht vorherbestimmt und der Krummstab des Feldes der Weltbeherrschung und der Welteroberung meiner Fähigkeit spendenden Hand gelegt und übergeben.
+                    Von den Gebieten des Ostens und den Ländern von
+                        <rs type="place" ref="#mpr9866">China</rs> bis zum Äußersten des Erdbodens ist die Erdoberfläche in der Länge und Breite mit den Strahlen der Gewitterwolken meines schicksalshaften Schwertes erglänzt und erleuchtet und die sieben Klimata den Zügeln meiner Macht zugewandt und unterworfen worden.
+                     Im Vergleich zum niedrigsten Fuß meines glücklichen und
+                                    glückhaften Thrones ist der Palast des Kaisers voll Makel, und
+                                    ein <supplied resp="#ht">kleines</supplied> Stück meines ererbten von Gerechtigkeit erfüllten
+                                    Reiches ist gleich dem Reich des Königs <rs type="person" ref="#mpr14230">
+                            Alexander</rs> und des
+                                    chinesischen Kaisers. Das Siegel des Reiches Salomos kommt einem
+                                    Finger der Weltherrschaft gleich und
+                        die Erdoberfläche ist unter mein gerechtes und glückliches Siegel gelangt. Lob sei <supplied resp="ht">Gott</supplied> für
+                       seinen reichlichen Segen und Dank sei für seine Gottesgaben.</ab>
+                        
+                    
+                    <ab type="inscriptio">Und Du, der Du nun der Ruhmvolle der mächtigen
+                            christlichen Fürsten, Erwählter der geehrten Großen in der christlichen
+                            Glaubensgemeinschaft, Ordner der Angelegenheiten der christlichen
+                            Staaten, Träger der Schleppe von Ruhm und Würde, Inhaber der Zeichen der
+                            Majestät und der Ehre, König <rs type="person" ref="#mpr14157">Maximilian</rs> bist, und der Du der Erwählte und Geehrte des Volkes von <rs type="place" ref="#mpr1997">Rom</rs> und der Imperator der deutschen Länder, und der Beherrscher und König der Länder der Tschechen, Slowenen, Kroaten und vieler gleichwertiger Länder bist.</ab>
+                    
+                    <ab type="narratio">Unsere allerhöchste Pforte ist der Zufluchtsort
+                            der mächtigen Sultane der Zeitalter und unsere erhabene Majestät, das
+                            Asyl der Ḫāḳāne der Zeit und der Zeiten geworden und unsere hohe,
+                            glückliche Schwelle ist geküsst von den Lippen der Cäsaren der Welt und
+                            unsere hohe, Gerechtigkeit betitelte Pforte ist zum Ort des Gedränges
+                            der Ḫosrowen von Raum und Zeit geworden.
+                    Demzufolge habt Ihr im Jänner des Jahres 1568 der
+                            Zeitrechnung des heiligen Propheten Jesus, über ihn und unseren
+                            Propheten sei Segen und Heil, welche dem Ersten des Monats Receb, des
+                            geehrten des Jahres 975 der Zeitrechnung unseres großen Propheten, des
+                            heiligen Zufluchtsortes des Prophetentums <supplied resp="#ht">=Mohammed</supplied>, Allah segne ihn
+                            und spende ihm Heil, entspricht, mit Euren tüchtigen, gewandten und
+                            geschätzten Botschaftern, Geehrte der Vornehmen der christlichen
+                            Glaubensgemeinschaft, dem Bischof von <rs type="place" ref="#mpr14130">Erlau</rs> namens 
+                        <rs type="person" ref="#mpr14174">Anton Verencyo </rs><supplied resp="#ht">Anton Verancsics,</supplied> <rs type="person" ref="#mpr14179">Ḳıriştofor Atūfpāḫ</rs><supplied resp="ht">Christoph von Teuffenbach</supplied> und <rs type="person" ref="#mpr14180">Albertoz Vīz</rs><supplied resp="#ht">Albert von                        
+                            Wijs</supplied> für die erneute Festigung des
+                            Vertragsfundaments und Stärkung des Friedensvertrages Euer
+                            Vertragsschreiben geschickt.
+                     Ihr habt um die Gnade
+                                gebeten, dass das Land und Gebiet acht Jahre lang in Frieden und
+                                Sicherheit und alle Untertanen in Ruhe und Sicherheit und die
+                                Freundschaft zwischen uns gefestigt und aufrecht sein
+                                zu senden.Es obliegt Eurer Verantwortung  jährlich an unsere, dem Glück verbundene Pforte, jeden Jänner 30.000 ungarische Dukaten vollständig und ohne Fehlbetrag
+                                Fehlbetragsenden und gelangen zu lassen, unter der Bedingung, dass Eure Brüder <rs type="person" ref="#mpr14169">Ferenduş</rs><supplied resp="#ht">Ferdinand</supplied> und <rs type="person" ref="#mpr14172">Kārlo</rs><supplied resp="#ht">Karl</supplied>, die Erzherzöge in
+                            <rs type="place" ref="#mpr7023">Österreich</rs> sind in unserem Vertrag eingeschlossen werden.
+                   
+                   Solange die Kommandanten, Befehlshaber und alle Untertanen der Länder, Nāḥīyes und Festungen von Eurer Seite, sei es zu Lande, auf hoher See oder in der Nähe von Fließgewässern von ganzem Herzen einhellig ihre Zuneigung und die Bedingungen der Freundschaft sicher bewahren, die Angelegenheiten, die dem Vertrag und Waffenstillstand gehören, entsprechend beschützen und ehren, wird auch unseren Dienern, den Beglerbegen und Sancaḳbegen an der Grenze unserer wohlbehüteten Länder und insgesamt unserem siegreichen Heer nachdrücklich kundgetan werden, dass sie, wenn
+                                ihnen ihr Leben lieb ist,
+                        falls von Eurer Seite eine vertragswidrige Handlung erfolgt, keine Handlung gegen den Vertrag und Waffenstillstand unternehmen sollen, bevor es unserer erhabenen Schwelle dargelegt und bekanntgegeben wird; und dass während dieser Freundschaft niemals ihre Dörfer, die nicht im großherrlichen Registerbuch eingetragen sind, ihr Vieh und sonstige Verpflegung angegriffen werden; dass sie Eure Männer, die zur Verwaltung (bzw. Kontrolle) Eurer Untertanen kommen nicht daran hindern; dass keine neuen Forderungen gegen den Befehl gestellt werden und, dass sie die Angelegenheit des Friedens bewahren.
+                    Und auch von Eurer Seite soll im Rahmen dieser
+                            Freundschaft des Königssohns Land <rs type="place" ref="#mpr9372">Siebenbürgen</rs> und jene Örtlichkeiten und Besitztümer außerhalb von Siebenbürgen, die sich in seiner eigenen und in den Händen seiner übrigen Männer befinden und über die sie jetzt verfügen niemals angegriffen werden.
+                   Und auch von dieser Seite soll der Königssohn ermahnt werden, dass, wenn von Eurer Seite keine Soldaten gesammelt und gegen den Vertrag gehandelt wird, er es meiden
+                            soll,für einen
+                            Feldzug vorzubereiten und Soldaten zu sammeln, <supplied resp="#ht">er soll</supplied> sich friedlich verhalten, miṯ
+                            seinem Recht abfinden und niemals gegen den Vertrag, heimlich oder offen
+                            Feindseligkeiten begehen.
+                    <supplied resp="#ht">Er soll</supplied> in unserer Freundschaft mit einbegriffen sein. Von nun an sollen während der Freundschaft jene, sei es er selbst oder einer seiner Untergebenen, die gegen den Vertrag und Waffenstillstand handeln, getadelt werden. Es soll unterlassen werden, Männer in Eure Dörfer zu schicken und <supplied resp="#ht">Menschen</supplied> wegzuführen,
+                            einzufallen und Vieh zu verschleppen. Wie schon erwähnt sollen jene, die auf das Verbot nicht aufpassen, – wer auch immer – bestraft werden. Es soll bekräftigt werden, dass der Hass und die Feindseligkeiten, die vordem in den Feldzügen und aufgrund anderer Ursachen entstanden sind von beiden Seiten nicht erwähnt werden, sodass sie Verzeihung
+                            erhalten und in Sicherheit bleiben.
+                   Wenn es bis jetzt mehrfach Streitfälle gegeben
+                            hat, die nicht entschieden wurden und es irgendwelche Leute geben
+                            sollte, die einer der Seiten gegenüber lehenspflichtig sind, sollen
+                            solche mit ihren Besitztümern und Festungen an jenem Ort, an dem sie
+                            untertänig sein und dienen möchten bleiben, es soll kein übles Gerede
+                            geben und <supplied resp="#ht">sie sollen</supplied> nicht behindert und fortgetrieben
+                        werden.
+                    Der Königssohn hat in den ungarischen und
+                            siebenbürgischen Ländern gemeinschaftliche Festungen, Kastellen,
+                            Vorstädte und andere Grundstücke. Wenn im Rahmen der Freundschaft auf
+                            beiderseitigen Wunsch ein Tausch gewünscht wird, soll man sich vor allem
+                            nicht gegenseitig betrügen und nicht zu viel verlangen. Wenn es gut und
+                            für die Verwaltung beider Seiten nützlich und leicht ist und unserer
+                            glücklichen Pforte detailliert dargelegt wird, soll für beide Seiten
+                            vorteilhaft gehandelt werden.
+                    Und die Petitionen von Muslimen, vom Königssohn, von den Woiwoden von der
+                            <rs type="place" ref="#mpr14097">Moldau</rs> und der <rs type="place" ref="#mpr14098">Walachei,</rs> die sie aufgrund früherer
+                            Feindseligkeiten erbracht haben werden nicht angenommen und man soll
+                            ihnen nicht vertrauen, ehe sie dem Fuß des Thrones, wo das Glück
+                            Zuflucht findet berichtet und untersucht wurden. Jene, die falsche
+                            Sachverhalte darstellen sollen getadelt und bestraft werden.
+                    Wenn von beiden Seiten jene, seien es Untertanen
+                            der Muslime oder andere, sowie <supplied resp="#ht">jene</supplied> aus <rs type="place" ref="#mpr9372">Siebenbürgen,</rs> der <rs type="place" ref="#mpr14097">Moldau</rs> und der <rs type="place" ref="#mpr14098">Walachei</rs> oder anderen <supplied resp="#ht">Gebieten</supplied>, die sich nicht friedlich verhalten, gegen den Vertrag handeln, Unruhe erregen und Missetaten begehen gefasst werden aber entfliehen, sollen sie bei Rückforderung restituiert und bestraft werden, sodass sie den übrigen ein Beispiel und eine Mahnung seien. 
+                    Wenn während dieser Freundschaft von beiden Seiten eine Stadt, Vorstadt, Burg oder Kastell, sei es mit Gewalt oder durch Schwindel eingenommen wird, soll die Freundschaftsbedingung eingehalten und <supplied resp="#ht">diese</supplied> ihren Besitzern zurückgegeben werden. Und solche, die Unruhe stiften sollen bestraft werden und nicht ungestraft bleiben. 
+                    Ihr habt mitgeteilt, dass wenn eine Jeder den Wunsch hegt, innerhalb seines Landes Festungen und Grundstücke wiederherzustellen und auszubessern, sowie Vorräte anzulegen und sie zu bewachen,soll <supplied resp="#ht">ihn</supplied>
+                             <supplied resp="ht">ihn</supplied> niemand daran hindern soll, solange derjenige die Grenzen seines Landes nicht überschreitet; so soll es sein. 
+                    In folgender Sache ist mein gewaltiger Befehl ergangen: Die Festungen namens <rs type="place" ref="#mpr14133">Csurgó,</rs> <rs type="place" ref="#mpr14234">Lifes,</rs>
+                        <rs type="place" ref="#mpr14131">Segesd,</rs> <rs type="place" ref="#mpr14137">Marcali,</rs> <rs type="place" ref="#mpr14147">Sogen</rs> und <rs type="place" ref="#mpr14134">Csákány</rs>, die vordem während des
+                            <rs type="place" ref="#mpr14103">Sigetvár</rs>-Feldzuges mit unserer siegreichen
+                            sultanischen Macht eingenommen wurden und sich de facto in zerstörtem
+                            Zustand befinden, und die zerstörten Festungen namens <rs type="place" ref="#mpr14136">Páncél-Cseh,</rs> <rs type="place" ref="#mpr14062">Nagy Bánya</rs> und <rs type="place" ref="#mpr14139">Erdőd</rs>
+                        an der Grenze des Königs von
+                            <rs type="place" ref="#mpr9372">Siebenbürgen</rs> die vordem unser islamisches Heer
+                            eingenommen hatte, sollen nicht ausgebessert und wiederhergestellt
+                            werden und in ihrem zerstörtem Zustand belassen werden. Auf dem Boden
+                            und an der Grenze dieser Festungen sollen keine neuen Festungen gebaut
+                            werden.
+                    Von jetzt an soll von Eurer Seite Euren
+                            Befehlshabern und Vertretern, die Eure Grenzen beschützen nachdrücklich
+                            verboten werden, dass sie in <rs type="place" ref="#mpr7761">Senj</rs> keine Uskoken
+                            verstecken und den Haiduken und Vagabunden nichts gestatten und helfen sollen.
+                    Überhaupt sollen sie auf beiden Seiten bei sich
+                            oder in ihren Burgen keine unbekannten Leute, außer den besoldeten
+                            Männern und Dienern, die sich in einem bestimmten Dienst befinden,
+                            halten. Es sollen jene, die nicht wachsam sind und den Missetätern
+                            helfen bestraft werden.
+                    Sollte in dieser Zeit der Freundschaft von beiden
+                            Seiten ein Untertan in Gefangenschaft geraten und sich in den Händen
+                            eines Soldaten in Gefangenschaft befinden, soll man <supplied resp="#ht">diesen</supplied> nicht zu
+                            Diensten gebrauchen, verkaufen oder verschenken, sondern ohne Lösegeld
+                            gesund und wohlbehalten heimschicken. Es soll derjenige, der ihn
+                            gefangen genommen hat ausgeforscht und bestraft werden, wenn sich
+                            herausstellt, dass er den Frieden gebrochen, <supplied resp="#ht">ihn</supplied> mit Gewalt gefangen
+                            genommen und entführt hat.
+                    Die Sklavenhändler sollen, nachdem diese Freundschaft beschlossen wurde an den Grenzen nicht umherziehen und keine entführten Menschen (bzw. Gefangene) kaufen. Wenn einer von ihnen Gefangene kaufen sollte und es bekannt wird, soll
+                            <supplied resp="#ht">derjenige</supplied> in gehöriger Weise bestraft und der Gefangene, den er
+                            gekauft hat ihm aus der Hand genommen und heimgeschickt werden. Wenn
+                            manche Gefangene, die in der Zeit der Feindschaft gefangen genommen
+                            wurden und mit Fesseln an den Füßen in Kerkern sitzen, nach diesem
+                            Freundschaft<supplied resp="#ht">svertrag</supplied> mit Hilfe Gottes ausbrechen und sich befreien
+                            sollen von beiden Seiten nicht mehr gefordert werden.
+                    Da von nun an unsere Freundschaftaufrecht
+                            ist und es Euer Wunsch ist sie in jeder Weise zu bewahren und Ihr <supplied resp="#ht">uns</supplied> um Gnade gebeten habt, soll niemand Eure Gesandten und Geschäftsträger oder Eure Vertreter daran hindern an unserem erhabenen Hof zu residieren. Wenn Kuriere mit guten Nachrichten kommen und gehen müssen, <supplied resp="#ht">soll sie niemand daran hindern</supplied>, dass sie, wann auch immer auf dem direkten Weg kommen und gehen, und sie selbst oder ihre
+                            Briefe soll niemand angreifen und überfallen.
+                     Es soll sie niemand daran hindern, dort wo sie wollen ein
+                             Haus zu mieten, hinauszugehen, einen Spazierritt oder eine Seereise zu unternehmen und so viele Dolmetscher einzusetzen, wie sie möchten. Wenn es einen Streitfall oder eine Klage gibt und von Eurer Seite ein Vertreter ernannt wird, soll von dieser Seite der Beglerbegi von <rs type="place" ref="#mpr1607">Buda</rs> 
+                        stellvertretend den Fall anhören, das was nicht gemeldet werden muss rasch erledigen und das was einer Anzeige bedarf, so wie die Sache stattgefunden hat meiner glücklichen Pforte berichten. Eine mit dem glänzenden, Macht vermehrenden, ḫāḳānischen Ṭuġra versehene Abschrift unseres, Euch gewährten großherrlichen Vertragsschreibens soll Eurem Gesandten, der sich an unserer hohen Pforte befindet übergeben werden, damit er sie bei sich hat, wenn es vonnöten ist.
+                    
+                    Sowie die Gesandten aller übrigen Herrscher, die
+                            <supplied resp="#ht">mit uns</supplied> Freundschaft halten einen Respekt genießen, soll ihnen genauso
+                            Achtung geschenkt werden.
+                    Ihr habt gesagt, dass, wenn Ihr anstelle Eures Gesandten, der an meiner hohen Schwelle residiert eine andere Personen schickt, wann auch immer ihr <supplied resp="#ht">ihn</supplied> einberuft, soll ihm die Erlaubnis gegeben werden, „sei es zur Zeit der Freundschaft oder Feindschaft, soll ihm eine Eskorte beigestellt werden, um sie in ihr Land gelangen zu lassen, damit unsere Männer als Botschafter kommen und gehen können“, so soll es sein. Und auf die gemeinsamen Untertanen, die vordem beiden Seiten Steuer gezahlt haben und die Dörfer, die im großherrlichen Registerbuch eingetragen sind,
+                        verzichtet Ihr. Die Muslime sollen die genannten Untertanen nicht zweifach zu Abgaben zwingen,
+                    von Dörfern, die im großherrlichen Registerbuch eingetragen sind, von denen Ihr gesagt habt, sollen keine Abgaben eingefordert werden und unsere
+                            unglücklichen (bzw. armen) Untertanen sollen in Frieden und Sicherheit
+                            bleiben.
+                    Wenn es zwischen <supplied resp="#ht">beiden Seiten</supplied> einen Streit
+                            geben sollte, soll niemandem gestattet werden (bzw. in der Lage sein)
+                            einzufallen um sich zu rächen.
+                    Es soll von beiden Seiten je ein Befehlshaber von
+                            den Befehlshabern, die sich an den Grenzen befinden als
+                            Kommissare ernannt werden; von der muslimischen Seite soll es der Beglerbegi von Budun sein. Wenn sie bezüglich den Dörfern und Orten, die im besiegeltem großherrlichen Registerbuch, das von der hohen Pforte geschickt wurde eingetragen sind und anderen Angelegenheiten einen Streitfall haben sollten, sollen sich die ernannten Kommissare mit dem großherrlichen Registerbuch an den Ort des Streitfalls begeben und <supplied resp="#ht">den Streit</supplied> schlichten.
+                    Für <supplied resp="#ht">Fälle</supplied>, die nicht persönlich untersucht
+                            werden können sollen von beiden Seiten verlässliche Vertreter ernannt
+                            werden. Wenn sie sich aber auf dem Weg zum strittigen Ort machen, soll
+                            man sich vorher in Verbindung setzen, demgemäß von beiden Seiten auch
+                            zugleich ankommen, den Streit gemäß dem Vertragsschreiben in geeigneter
+                            Weise schlichten und es soll auf beiden Seiten jeder seinen Platz
+                            wissen. Sie sollen sicher und wohlbehalten auseinander gehen und sich um
+                            die Festigung der Freundschaft bemühen. Es soll niemand mit
+                            Feindseligkeiten beginnen, solange eine aufrichtige Nachricht von den
+                            genannten Kommissaren und Vertretern nicht eingelangt ist und ihre
+                            Situation der glücklichen Pforte nicht dargelegt wurde. Und während des
+                            Friedens soll niemand jemanden (bzw. soll sich niemand gegenseitig) zum
+                            Kampf herausfordern.
+                    Da Eure Gesandte bekanntgegeben haben, dass Ihr unser großherrliches, mit Glück verbundenes Vertragsschreiben begehrt<supplied resp="ht">des obengenannten Inhalts,</supplied>
+                       da <supplied resp="#ht">ihr folgendes vermeldet</supplied>: „Unsere genannte Freundschaft ist mit Zuneigung von ganzem Herzen aufrecht. Wir halten die Bedingungen der Freundschaft ein
+                            und es obliege außerdem unserer Verantwortung die 30.000 ungarischen Dukaten, die wir mit unseren geeigneten Männern jeden Jänner zu schicken pflegen der glücklichen Pforte zu übergeben“, habe ich, da bezüglich der aufrichtigen Sultānen und treuen Ḫāḳānen, die gegenüber unserer barmherzigen und großmütigen Dynastie mit Treue und Ergebenheit Hingabe erweisen und von ganzem Herzen Freundschaft begehren die Tore Freundschaft offen sind dieses großherrliche, Glück zeigende Vertragsschreiben gewährt und befehle
+                                folgendes:.
+                    Von nun an soll, solange von Eurer Seite und
+                            vonseiten Eurer Brüder, Begen und anderer Militärs die Euch unterworfen sind nichts geschieht, was die Ursache zur Zerstörung des Vertrags und Waffenstillstands ist und jene Dörfer, die im großherrlichen Registerbuch eingetragen sind und von denen Ihr gesagt
+                           habt: „wir verzichten <supplied resp="#ht">darauf</supplied>“ niemals angegriffen wird, sie sowie im Registerbuch eingetragen ihre Steuer, die sie zu zahlen pflegen wie früher zahlen, 
+                    Eure Männer und Haiduken niemals sollen in unseren wohlbehüteten Ländern herumziehen, insgesamt wie genannt gemäß unserem, Glück zeigenden und Freude mehrenden Vertragsschreiben gehandelt wird, keine Uskoken in <rs type="place" ref="#mpr7761">Senj</rs> gehalten und an Euren anderen Grenzen Haiduken und Vagabunden nicht geduldet werden, die Gebiete und Besitztümer des Königs von <rs type="place" ref="#mpr9372">Siebenbürgen</rs> 
+                        sowie seiner Unterworfenen und die Untertanen an der Grenze unserer wohlbehüteten Länder in keiner Weise angegriffen, die Freundschaftsbedingungen beobachtet und geehrt, und mit vollkommener Ehre eingehalten werden, schwöre auch ich mit starken Eiden, dass um der Einheit Gottes, der Himmel und Erde aus dem Nichts erschaffen hat willen und um der Wunder unseres erhabenen geliebten Propheten willen, innerhalb der Frist dieses Vertrages, solange von Eurer Seite nichts vertragswidriges passiert, von unseren Dienern,
+                            den Beglerbegen und Begen, Ḳapudānen und Subaşı und Woiwoden und von
+                            allen Segen offenbarenden Militärs innerhalb der Grenzen der islamischen
+                            Länder und von seiten des Königs Stefan von Siebenbürgen, das durch
+                            unsere siegreiche ḫosrowische Macht und schicksalhaftes großherrliches
+                            Schwert erobert wurde, seitens der Woiwoden der <rs type="place" ref="#mpr14098">Walachei</rs> und der <rs type="place" ref="#mpr14097">Moldau</rs> und meiner anderen tributpflichtigen ungläubigen Diener, die in diese Freundschaft einbezogen sind, die Euch zugehörigen Länder, Gebiete und Untertanen, alle Burgen, die Eurer Herrschaft unterstehen, und die Grenzen niemals angegriffen und belästigt werden. Schaden und Unheil, Bedrückung und Übertretung dürfen nicht vorkommen.
+                    Die Könige von <rs type="place" ref="#mpr6873">Frankreich,</rs> <rs type="place" ref="#mpr6814">Polen</rs> und die Bege (bzw. Dogen) von <rs type="place" ref="#mpr1416">Venedig</rs>, die seit altersher für unsere erhabene, himmlische (bzw. himmelsgleiche) Pforte Freundschaft hegen, sind noch unsere Freunde; so möge es bekannt werden. 
+                    Kurz gesagt, fällt während dieser Zeit die
+                        
+                            Beachtung dessen, was das Fundament der Freundschaft und Zuneigung
+                            festigt Eurer Seite zu, sodass, solange die Regeln des Vertrages und
+                            Waffenstillstandes von Eurer Seite eingehalten werden, wird, so Gott der
+                            Barmherzige es will von dieser Seite keine dem Versprechen und Vertrag
+                            zuwiderlaufende Handlung geschehen.</ab>
+                    <ab type="datatio">Geschrieben in der<date calendar="#hijri" notBefore="1568-03-20" notAfter="1568-03-29"> letzten Dekade des geehrten
+                        Ramażān, des Monats des Jahres 975 (20.–29.3.1568)</date></ab> <ab type="locus">in der Residenz, dem wohlbehüteten <rs type="place" ref="#mpr14060">Edirne.</rs></ab>
+
+               
+                </div>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">Letter of Grand Vizier Ibrahim Pasha to Prince Eugene, confirming the letter of recall 
+                    for the imperial grand ambassador Graf von Virmont, Istanbul, April 21, 1720</title>
+                <title xml:lang="de">Großwesir Damad Ibrahim Pascha an Prinz Eugen als Rück-Beglaubigungsschreiben (Rekreditiv) für 
+                den kaiserlichen Großbotschafter Graf von Virmont, Konstantinopel, 21. April 1720</title>
+                <title xml:lang="tr">Vezir-i Azam İbrahim Paşa’nın Prens Evgen’e hitaben yazdığı, imparatorluk 
+                büyük elçisi Graf von Virmont’un geri çağırılma mektubuna cevabı, İstanbul, 21 Nisan 1720</title>
+
+                <author><persName>Grand Vizier Nevşehirli Ibrahim Pasha</persName></author>
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date>2020</date>
+                <availability>
+                    <licence>CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:vipa.l.osm.1720421</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>HHStA, Wien</institution>
+                        <collection>Turkische Urkunden 12</collection>
+                        <idno>Folio 1720-IV-21, "Damad Ibrahim Pascha an Prinz Eugen"</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 Seite</p>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/1018616411">Grand Vizier Nevşehirli Ibrahim Pasha</persName>
+                    <date when="1720-04-21">1720-04-21</date>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/118605941">Prinz Eugen</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/ https://sws.geonames.org/2761369/">Vienna</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to
+                    reference them here.</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.l" type="context"> Briefe </ref>
+                    <ref target="context:qhod" type="context"> Online Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie (1500-1918) </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Großwesir Damad Ibrahim Pascha an Prinz Eugen als Rück-Beglaubigungsschreiben (Rekreditiv) für den kaiserlichen Großbotschafter Graf von Virmont, Konstantinopel, 21. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="IMG_20200921_114124.jpg" xml:id="IMG1"/>
+        </surface>
+    </facsimile>
+    <text type="letter">
+        <body>
+            <div type="transcription" xml:id="vipa.l.osm.1720421">
+            <pb facs="#IMG1" n="00241"/>
+                <metamark function="archival"><lb/>468</metamark>
+            
+                <ab type="Inscriptio/Elkab">
+                    <lb/><rs type="person" ref="#mpr10441">İftiḫārü’l-ümerāʾi’l-ʿiẓāmi’l-ʿĪseviyye, mümtāzü’l-küberāʾi’l-fiḫāmi’l-mesīḥiyye,
+                     ḥürmetlü, haşmetlü Romā İmparāṭorınuñ
+                     <lb/>başvekīli riʿāyetlü, raġbetlü, meveddetlü dostumuz 
+                    Prenc Evgīnūs dö Ṣāvūye</rs></ab> 
+                
+                    <ab type="Salutatio/Dua">ṣavb-ı raġbet-medār-ı bāhirü’l-iʿtibārlarına                    
+                        <lb/>müʾekked-esās-ı meveddet  ve müsālemet ve müşeyyed-bünyān-ı muṣāfāt ve müʾāneset olan
+                    ḫülāṣā-ı kelām ḫātır-nevāz
+                    <lb/>meveddet-üslūb ve nakāve-i peyām-ı dostāne-i müṣādaḳat-maṣḥūb iblāġıyla ḥāl ve 
+                    ḫāṭırları suʾāl olunub
+                    <lb/>dāʾīmā iyilik ve ṣaġlıḳları mesʾūlümüz idügi ifāde olunduḳdan ṣoñra</ab> 
+                        
+                    <ab type="Notificatio">muḥibbāne inhā 
+                    olunan budur ki:
+                    </ab> 
+                
+                <ab type="Narratio/Nakil">Benüm
+                    <lb/>mezīd-i raġbetlü ve ḥürmetlü dostum <gap unit="char" extent="2"/>
+                    ifti<supplied resp="#yy">ḫā</supplied>ru mülūk-ı naṣārā ve efḫamu ḥükümdārān-ı mülk-ārā
+                    olan ulu dostumuz
+                    <lb/>ḥaşmetlü ḥürmetlü <rs type="person" ref="#mpr9399">çāsār-ı bā-vaḳār</rs> ḥażretleri ṭarafından nāme-i ṣadāḳat-ʿalāmeleriyle
+                    <rs type="place" ref="#mpr14055">āsitāne-i saʿādet-āşiyāne-i
+                    <lb/>şehinşāhīye</rs> teşyīd-i ḳavāʿid-i muṣālaḥat ve teʾkīd-i muʿāḳıd-ı muʾāneset
+                    içün resm-i ḳadīm üzere baʿs̱  ve irsāl 
+                    <lb/>olunan piyādegānbaşı mümtāz ve münteḫab ve müsteşār ve muʿteber büyükilçileri ḳıdvetü
+                    ümerāʾ-i’l-milleti’l-mesīḥiyye 
+                    <lb/><rs type="person" ref="#mpr9435">Cenerāl Ġrūf dö Virmond</rs> ḫayr-ḫᵛāhıñuz yediyle ṭarafıñuzdan 
+                    <rs type="person" ref="#mpr9441">cānib-i ṣadīḳuñuza</rs> 
+                    irsāl olunan mektūb-ı merġūbıñuz 
+                    <lb/>gelüb vāṣıl olub </ab> 
+                
+                
+                <ab type="Narratio/Nakil">mażmūn-ı müṣādaḳat-nümūnında bu iki devlet arasında müceddeden münʿaḳid
+                    olub ṭarafeynden
+                    <lb/>ʿahdnāmeler ile taṣdīk ve ʿuhūd ve mevās̱īḳ ile teʾkīd ḳılınan ṣulḥ ve ṣalāḥuñ şerāyiṭine
+                    ḳoñşuluḳ
+                    <lb/>ve hemcivārlıḳ ḥuḳūḳına riʿāyet ve ḥürmet aḳṣā-yı maḳāṣıdıñuz olmaġla </ab><ab>gerek dostluḳ ve
+                    müsāleme şerāyiṭine
+                    <lb/>müteʿallıḳ ve gerek berren ve baḥren ve nehren ticāret umūrına müterettib şürūṭ ve ḳuyūda
+                    bilā-taġyīr mürāʿāt ve ḫilāf ve şiḳāḳdan 
+                    <lb/>ictināb olunmaḳ içün memālik-i çāṣāriyye ve serḥaddlar żābıṭānına muḥkem tenbīh ve teʾkīd
+                    olunduġın derc                    
+                    <lb/>ve işʿār</ab>
+                
+                <ab type="Narratio/Nakil"> ve <rs type="person" ref="#mpr9435">ilçi-yi mūmā ileyh</rs>
+                    daḫı biʾl-cümle taḥrīrātıñuzı taṣdīk ve ḥüsn-i sülūk ve bu mübārek muṣāfaḥanuñ
+                    <lb/>şerāyiṭine riʿāyet ile reʿāyā-yı ṭarafeynüñ emn ve rāḥatına ihtimāmıñuzı taḳrīr itmekle
+                    fevḳe’l-ḥadd maḥẓūẓ olunub
+                    <lb/>ṭaraf-ı iḫlāṣ-kārıñuzdan daḫı dostluḳ ve ḫayır-ḫᵛāhlıġıñuza muvāfıḳ ve muṣāfāt ve müsāleme
+                    <lb/>merāsimine şürūṭ ve ḳuyūdı ile icrāda diḳḳat olunub ve 
+                    <rs type="person" ref="#mpr9435">ilçi-yi mūmā ileyh</rs> teblīġine meʾmūr
+                    olduġı 
+                    <lb/>nāme-i muṣādaḳat-ʿalāme ve pīşkeş ve hedāyāyı ḳāʿide-i ḳadīme-i ʿos̱mānī ve 
+                    dīr<supplied resp="#yy">ī</supplied>ne-i müstedīme-i cihānbānī 
+                    <lb/>üzere <rs type="place" ref="#mpr14841">rikāb-ı müsteṭāb-ı şehinşāhīye</rs> teblīġ ve teslīm ve teşrīfāt-ı pādişāhāne ile
+                    <lb/>ikrām ve talṭīf olundıġından māʿadā der-i devlet-medārda meks̱ ve iḳāmeti eyyāmında
+                    izdiyād-ı dostluġıñuza
+                    <lb/>raġbeten <rs type="person" ref="#mpr9441">bu ḫayr-endīşiñüz ṭarafından</rs> daḫı merāsim-i müḥimm-sāzī ve ḫāṭır-nevāzīlerine ihtimām
+                    olunub <rs type="person" ref="#mpr9435">ilçi-yi mūmā ileyḥiñ</rs>
+                    <lb/>daḫı eṭvār-ı pesendīde ve her vech ile ʿāḳılāne ve muʾeddebāne ḥarekāt ve revişi ve ṭarafeynüñ
+                    ḥüsn-i rıżāsı
+                    <lb/>celbine saʿy ve kūşişi nümāyān ve izdiyād-ı müvālāt cānibine ihtimām ve ḫayır-ḫᵛāhlıġı ẓāhir
+                    ve ʿayān
+                    <lb/>olmaḳdan nāşī eslāfından ziyāde merʿī ve mükerrem ve ʿahdnāme-i hümāyūnda olan mevāddan 
+                    fażla
+                    <lb/>nice mültemesine müsāʿade ile muṭayyeb ve muhterem ḳılınub </ab> 
+                
+                <ab type="Narratio/Nakil">ve umūr-i risāleti daḫı ke-mā yenbaġī
+                    edā ve tetmīm ve ʿuhde-i ihtimāmına
+                    <lb/>iḥāle ḳılınan dostluḳ ve müṣāfāt merāsimini iki devletüñ şānına lāyıḳ ve ʿahdnāmelere 
+                    muvāfıḳ
+                    <lb/>vech üzere mürāʿāt ve tekmīl idüb ʿavd ve inṣirāfına iẕn ve ruḫṣat ṭaleb itmegin tekrār 
+                    <rs type="place" ref="#mpr14984">dīvān-ı
+                    <lb/>bülend-eyvān-ı şehriyārī</rs> ve ḥużūr-i lāmiʿu’nūr-ı tācdārīde teşrīfāt-ı fāḫire-i muʿtāde ile 
+                    iktisāb-ı 
+                    <lb/>müfāḫeret </ab> <ab>ve <rs type="person" ref="#mpr14244">cānib-i cenāb-ı meʿālīmdār-ı cihāndāriden</rs>
+                        ḥaşmetlü <rs type="person" ref="#mpr9399">çāsār-ı bā-vaḳār</rs> ḥażretleri ṭarafına şeref-i ṣüdūr
+                    <lb/>bulan name-i hümāyūn-ı meveddet-meşhūn ve musālemet-maḳrūn ile ʿavdet ve ricʿate iẕn ve
+                    ruḫṣat-ı cihānbānī
+                        <lb/>erzānī ve ʿināyet ḳılınmaġla mektūb-ı meveddet taḥrīr ve <rs type="person" ref="#mpr9435">ilçi-yi mūmā</rs> ileyh ile 
+                        <rs type="person" ref="#mpr10441">ṭarafıñuza</rs> firistāde ḳılınmışdur.</ab>
+                  
+                        
+                <ab type="Dispositio/Hüküm"><lb/>Lede’l-vuṣūl bi-ḥamdi’llāhi teʿālā <rs type="person" ref="#mpr10441">sizüñ</rs> 
+                        ve <rs type="person" ref="#mpr9441">bizüm</rs> saʿy ve ihtimāmımuz ile bu iki devlet
+                    miyānında tecdīd<cb/>
+                    
+                    <lb/>ve kemāl-i istiḥkām ile teʾkīd ve teşyīd olunan ṣulḥ ve ṣalāḥ ile ṭarafeynüñ reʿāyāsına 
+                    <lb/>emniyet ḥāṣıl ve ʿasākir-i devleteyne daḫı istirāḥat şāmil olmaġla bu ḫayırlu muṣālāḥanuñ
+                    <lb/>şürūṭına ve dostluḳ ve hemcivārlıḳ ḥuḳūḳınuñ riʿāyet ve ḥürmetine ve ʿale’l-ḫuṣūṣ
+                    s̱emere-i ṣulḥ ve ṣalāḥ
+                    <lb/>olan berren ve baḥren ve nehren ticāret umūrınuñ şerāyiṭine bi-lā-taġyīr ʿahdnāmeler 
+                    mūcebince mürāʿāt 
+                    <lb/>olunmaġa ṭarafıñuzdan taḳayyud ve ihtimām olundıġı gibi bu ṭarafdan daḫı ke-mā yenbaġī mürāʿāt
+                    ve ḫilāfı üzere
+                    <lb/>ḥareketden ictināb olunmaḳ içün memālik-i maḥrūse ve serhad-i islāmiyyede olan żābıṭāna 
+                    <lb/>evāmīr-i ̣aliyye-i ciḥān-muṭāʿla tenbīh ve teʾkīd olundıġı maʿlūmıñuz olub
+                    ve ḫuṣūṣan sizüñ
+                    ḥüsn-i sülūkıñuza
+                    <lb/>meveddeten mükātebe ve mürāsele ile muʾāneset ve izdiyād-ı müʾālefetiñüze meyl ve raġbetimüz
+                    olduġında iştibāh
+                    <lb/>olunmayub bu ṭarafa ādemleriñüz gelür olduḳda bāʿis̱ -i tezāyüd-i meveddet olur mektūb-ı
+                    cālibu’l-ḳulūbıñuz ile
+                    <lb/>ḫaber-i ṣıḥḥat ve ʿāfiyetiñüzi iʿlām ve işʿārdan ẖālī olmamaları meʾmūldür.</ab>
+                   </div>
+            
+            <div type="translation" xml:lang="en" xml:id="vipa.l.osm.1720421-transl">
+                <pb n="1" facs="#IMG1"/>
+                
+                
+                <ab type="Inscriptio/Elkab"><rs type="person" ref="#mpr10441">Laudable pride of the great commanders of Christendom, 
+                    distinguished among the illustrious greats of the community of the Messiah,
+                    the chief deputy of the venerable, majestic Roman emperor,
+                    our honorable, esteemed, affectionate friend Prince Eugene of Savoy</rs>:</ab>   
+                
+                <ab type="Salutatio/Dua"><rs type="person" ref="#mpr9441">We</rs> inquire after your health and general situation while sending to your profoundly
+                    dignified quarter which is a center of esteeem—to shortly summarize—[our] affable,
+                    friendly wishes and the news of pure, amicable, mutual sincere friendship that are
+                    fortified foundations of affection and reconciliation and steadfast edifice of
+                    cultivating intimacy and true sincerity. Having expressed that we wish your perpetual
+                    goodness and health</ab> 
+                
+                <ab type="Notificatio">we notify you affectionately of the following:
+                </ab>
+                
+                <ab type="Narratio/Nakil"><rs type="person" ref="#mpr9441">My</rs> esteemed and revered friend; your desirable letter that was dispatched to the direction
+                    of <rs type="person" ref="#mpr9441">your faithful</rs> through the assistance of the infantry chief, distinguished, chosen, councillor,
+                    and esteemed grand ambassador, your well-wisher, 
+                    <rs type="person" ref="#mpr9435">General Graf von Virmont</rs>—laudable pride of the
+                    commanders of the community of the Messiah who was sent and dispatched, as per the old ceremony,
+                    by our friend the laudable pride of Christian kings,
+                    the illustrious among the dominion-adorning sovereigns, his excellencies the majestic, revered, 
+                    dignified <rs type="person" ref="#mpr9399">caesar</rs>-along with a letter of faithfulness, to
+                    <rs type="place" ref="#mpr14055">the capital of the king of the
+                    kings that is a nest of felicity</rs> in order to strengthen the rules of the reconciliation and reinforce the
+                    cultivation of intimacy between the two parties who mutually made a contract—came and was delivered.
+                </ab>
+                
+                <ab type="Narratio/Nakil">In its content that displays sincere friendship 
+                    <rs type="person" ref="#mpr10441">you</rs> wrote that it is your ultimate goal to 
+                    abide by and respect the conditions of the peace and reconciliation—that was once again agreed
+                    on between these two states and confirmed through written pacts and reinforced with agreements and pledges- 
+                    and to observe and respect the law of neighborliness and sharing an adjacent border.
+                    It is [also] written and reported that firm monitions and reiterations are dispatched to the
+                   officers across the lands of the empire and frontiers to avoid violations of and divergence from,
+                   without modification, the terms and recorded matters concerning friendship and
+                   the conditions of reconciliation and [matters] regarding commerce over sea, land, and rivers.
+               </ab>
+               
+                <ab>The <rs type="person" ref="#mpr9435">aforesaid ambassador</rs> validated and confirmed all of 
+                    <rs type="person" ref="#mpr10441">your</rs> written communication and he expressed
+                   your upright conduct and your diligence for the security and comfort of the subjects of both sides
+                   through observance of the conditions of this blessed covenant (<foreign xml:lang="tr">muṣāfaḥa</foreign>)
+                    which made [us] extraordinarily satisfied. Also, on the side of 
+                    <rs type="person" ref="#mpr9441">your sincere friend</rs>, in congruence with 
+                    <rs type="person" ref="#mpr10441">your</rs>
+                    friendship and benevolence, attention is paid to the execution of true friendship and
+                    the ceremonies of the state of being mutually at peace. As per the old Ottoman
+                    principles and time-honored, continuous [practices] of the protector of the world, 
+                    <rs type="person" ref="#mpr9435">the aforesaid ambassador</rs>
+                    delivered and presented to <rs type="place" ref="#mpr14841">the admirable stirrup of the king of the kings</rs> the letter
+                    of mutual sincere friendship, gifts, and presents that he was commissioned to deliver and [thus]
+                    he is honored with sultanic protocols and treated with kindness.
+                </ab>
+                
+                <ab type="Narratio/Nakil">Besides, during the days of <rs type="person" ref="#mpr9435">his</rs>
+                    stay and residence in the capital, in recognition of <rs type="person" ref="#mpr10441">your</rs> 
+                    growing friendship, <rs type="person" ref="#mpr9441">this well-wisher of yours</rs> paid attention to the important ceremonies
+                    and <rs type="person" ref="#mpr9435">his</rs> good treatment. <rs type="person" ref="#mpr9435">The aforesaid ambassador’s </rs>
+                    admired conduct and his unquestionably admirable manner, reasonable and courteous behavior and manners, and his struggle and
+                    effort to call forth the appreciation of both sides became visible, while his attention
+                    in the direction of increasing the mutual confidence and his benevolence were obvious 
+                    and evident. Consequently, <rs type="person" ref="#mpr9435">he</rs> was respected and revered more than his predecessors and
+                    he was treated pleasantly and shown respect with permission to more favors than he requested
+                    and [previously] agreed.
+                </ab>
+                
+                <ab type="Narratio/Nakil"><rs type="person" ref="#mpr9435">He</rs> performed and completed his ambassadorial affairs as before.
+                    <rs type="person" ref="#mpr9435">He</rs> observed and accomplished the rituals of friendship and sincerity that were commissioned 
+                    to his care in a way worthy of the reputation of both states and in accordance with the 
+                    treaty. Thus, as he requested permission and license to return and go back, one more time,
+                    he earned honor with customary laudable protocol at <rs type="place" ref="#mpr14984">the lofty imperial council</rs> 
+                    and the brilliant royal presence. And, <rs type="person" ref="#mpr9435">he</rs> was granted
+                    and found worthy of permission and license from the side of <rs type="person" ref="#mpr14244">his exalted
+                    and great majesties</rs> who rules the world to return and go back along with an affectionate
+                    and reconciliatory sultanic letter that is [dispatched] by <rs type="person" ref="#mpr14244">his sublime excellency the
+                        ruler of the world</rs> to <rs type="person" ref="#mpr9399">his excellency the majestic, dignified caesar</rs>. [Thus], the affectionate
+                    letter was penned and sent to you with the aforementioned ambassador.</ab>
+                    
+                    <ab type="Dispositio/Hüküm">With the arrival [of the letter], with thanks to Almighty God and through
+                        <rs type="person" ref="#mpr10441">our</rs> and <rs type="person" ref="#mpr9441">your</rs> 
+                    effort and diligence, security accrued to the subjects of both sides with utmost firmness via 
+                    the peace and reconciliation that was reinforced and fortified between these two states,
+                    including a relaxation of the troops of both sides.
+                    Just as <rs type="person" ref="#mpr10441">you</rs> pay attention and care on your side, as per the treaty and without any changes to it,
+                    the observation and respect of the conditions of this auspicious reconciliation, friendship, and the law of
+                    having adjacent borders and, in particular, the conditions of the matters of commerce over land, 
+                    sea, and rivers which is a fruit of the peace and reconciliation, on this side too, as before, 
+                    we sent monitions and firm orders of the sublime <rs type="person" ref="#mpr14244">ruler</rs> - who is obeyed by the whole
+                    world - to the officers in the well-protected dominions and the frontiers of Islam to
+                    obey [the conditions of the treaty] and avoid contradicting actions; <rs type="person" ref="#mpr10441">you</rs> already know that.
+                        And in particular, there shall be no doubt in <rs type="person" ref="#mpr9441">our</rs> 
+                        interest in and appreciation for friendly correspondence,
+                    mutual sending of messengers, cultivating intimacy, and growth of friendship out of love for your
+                    upright conduct. In case your men come to this direction, <rs type="person" ref="#mpr9441">we</rs> wish that they shall not be devoid of
+                        <rs type="person" ref="#mpr10441">your</rs> heartfelt letter, which is a means of increasing friendship, and news and reports about your good state of
+                    health and welfare.</ab>
+                
+                
+            </div>
+        </body>
+    </text>
+</TEI>

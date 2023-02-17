@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 12.2</title>
+                
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt><resp>Edition</resp><persName key="#ht"><forename>Halit</forename> <surname>Temiz</surname></persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15720731.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Türkische Urkunden</collection>                        
+                        <idno type="regest_petritsch" n="671"/>
+                    </msIdentifier>
+                    <physDesc>
+                        <p/>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1572-07-22" notAfter="1572-07-31" calendar="#hijri">980 Rebīʿ I 11-20 </date>  
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15720731.1">Urkunde 12/1</ref>
+                <ref type="next" target="o:sema.rc.osm.15740402">Urkunde 13</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 12: Geschrieben zwischen dem 22. und 31.7.1572
+                in <rs type="place" ref="#mpr14055">Konstantinopel.</rs> Befehl an den Beglerbegi von <rs ana="MPRautomatched" ref="#mpr7448" type="place">
+                    Buda</rs>  
+                    <rs type="person" ref="#mpr14163">Muṣṭafā Paşa,</rs> auf Grund eines Protest des Botschafters
+                von <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wien.</rs> Die habsburgischen Dörfer sollen nicht
+                angegriffen und überfallen werden. Er soll osmanischerseits friedenswidrige
+                Handlungen nicht zulassen. In einem zweiten Befehl wird angeordnet, dass der
+                Aufenthaltsort des gefangenen Bruders von
+               <rs type="person" ref="#mpr14185">Ormándy Johann</rs> festgestellt und er freigelassen wird.
+             </p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Original</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                <interpretation>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                    </p>
+                    
+                </interpretation>
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 12/2: Selim II. an Muṣṭafā Paşa, Konstantinopel, zwischen 22. und 31.7.1572, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.12">
+            <graphic url="12_1-2_671.jpg" xml:id="IMG.12.2."/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+            
+                
+                
+                <div n="12-2"><div type="transcription" xml:lang="ota">
+                    <pb facs="#IMG.12" n="12.2."/> 
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    
+                    <ab type="inscriptio"><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine</ab>
+     
+                    
+       <ab type="narratio"><lb n="2"/>Āsitāne-i seʿādete ḫazīne ile gelen ėlçiler ʿarż-i ḥāl vėrüb
+       <rs type="place" ref="#mpr7795">Ūstolnī Belġrādda</rs>
+       <lb n="3"/>maḥbūs olan <rs type="person" ref="#mpr14185">Ormāndī Yānoş</rs>
+       vere kāġıdı ile ḳarındaşın  <rs type="place" ref="#mpr7795">Ūstolnī Belġrādda</rs>
+       <lb n="4"/>getürüb gendü yėrine rehn ḳoyub gendüsi behāsı tedārükine memleketine varmışken 
+       <lb n="5"/>iki müslimān esīrlerin gendü behāsı miḳdārı üç biñ beş-yüz ġurūş taḳdīr ėdüb 
+                            <lb n="6"/>ḳarındaşumuñ istiḫlāṣı içün vėresin dėyü iṭlāḳ ėdüb vere ile Ūstolnī       
+       <lb n="7"/><rs type="place" ref="#mpr7795">Belġrāda</rs> göndermişler
+       meẕkūr müslimān esīrleri <rs type="person" ref="#mpr14185">Ormāndī Yānoş</rs> ḳarındaşı istiḫlāṣına
+                            <lb n="8"/>muḳayyed olmayub hevālarında olmışlar arada müddet mürūr
+       ėtmekle <rs type="person" ref="#mpr14185">Ormāndī Yānoşuñ</rs>
+       <lb n="9"/> ḳarındaşı <rs type="person" ref="#mpr14185">Ormāndī Yānoşla</rs>
+       tekrār ḫaberleşmek içün vere ile
+                            ādem gönderildükde
+       <lb n="10"/><rs type="person" ref="#mpr14185">Ormāndī Yānoş</rs> gendüsi
+       Şoryā Ferenc ve bir kefere daḫı <rs type="place" ref="#mpr7795">Ūstolnī Belġrāda</rs> gelüb 
+<lb n="11"/>ġaybet olduḳların iʿlām eylediler</ab> 
+                    
+                    <ab type="manifestatio">imdi bu ḫuṣūṣ ʿahd u mīs̠ āḳa mülāyim 
+       <lb n="12"/>olmamaġın <rs type="place" ref="#mpr7795">Ūstolnī
+           Belġrād</rs> begi ʿazl olunub bu ḫuṣūṣı vuḳūʿ üzre görülmesi 
+       <lb n="13"/>lāzım olmışdur</ab> 
+                    
+                    <ab type="dispositio">ḥükm-i şerīf varduḳda göresin ve ḳażīye Ūstolnī Belġrād<supplied resp="#ht">y</supplied>i vāḳiʿ oldugı üzre 
+<lb n="14"/>ʿarż eyleyesin ve Ormāndī Yānoşuñ yerine rehn ḳalan ḳarındaşı kimüñ elindedür 
+       <lb n="15"/>buldurub iṭlāḳ ėdesin ve
+       <rs type="person" ref="#mpr14185">Ormāndī Yānoş</rs> gendü behāsiyçün iṭlāḳ ėtdügi 
+<lb n="16"/>iki müslimān esīri behāların Ormāndī Yānoşuñ ḳarındaşına vėrürlerse febihā ve vėrmege 
+<lb n="17"/>taʿannüd ėderlerse Ormāndī Yānoşuñ ḳarındaşınuñ eline teslīm eyleyesin ve ʿAlī begi 
+       <lb n="18"/>südde-i seʿādetüme gönderesin</ab> 
+                    
+                    <ab type="sanctio">şöyle bilesin ʿalāmet-i şerīfe iʿtimād ḳılasın</ab> 
+                    <ab type="datatio"><date calendar="#hijri" notBefore="1572-07-22" notAfter="1572-07-31">taḥrīren
+<lb n="19"/>fī evāsiṭi Rebīʿi l-evvel senete 980</date></ab>
+                    
+                    <pb facs="#IMG.12a" n="12.2.a"/> 
+                    <ab>Rückseite:
+                            Jul. 1572 Copia duorum mandatorum
+                            Sultanicorum ad Passam <rs type="place" ref="#mpr7448">Budensem</rs>
+                        super negocijs villarum et <rs type="person" ref="#mpr14185">Johannis Ormandi</rs>
+                            datorum Julio <supplied resp="#ht">15</supplied>72</ab>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.12" n="12.2."/> 
+                    <ab><supplied>Invocatio fehlt</supplied></ab>
+                    <ab type="inscriptio">An den Beglerbegi von <rs type="place" ref="#mpr7448">Buda.</rs></ab>
+                    <ab type="narratio">Die Gesandten, die mit dem Schatz an meine
+                        glückliche Pforte gekommen sind haben eine Petition eingereicht: Der in
+                        <rs type="place" ref="#mpr7795">Stuhlweißenburg</rs> gefangene
+                        <rs type="person" ref="#mpr14185">Ormándy Johann</rs> hat seinen Bruder
+                        mit einem Passbrief nach Stuhlweißenburg gebracht, ihn an seiner statt als Geisel
+                                zurückgelassen und er selbst ist, um sein Lösegeld zu beschaffen in seine Heimat
+                            gegangen. Er hat den Betrag seines Lösegeldes als 3500 Ġurūş bestimmt,
+                            zwei seiner Sklaven freigelassen und <supplied resp="#ht">ihnen</supplied> gesagt: „Gebt es für die
+                            Freilassung meines Bruders“ und <supplied resp="#ht">sie</supplied> mit dem Passbrief nach Ūstolnī
+                            Belġrād geschickt.
+                    Die erwähnten muslimischen Gefangene haben sich nicht um die Befreiung des Bruders von 
+                        <rs type="person" ref="#mpr14185">Ormándy Johann</rs> 
+                        gekümmert und sind ihren Trieben nachgegangen. Als einige Zeit vergangen war und ein Mann
+                        mit Geleitbrief geschickt wurde, damit 
+                    <rs type="person" ref="#mpr14185">Ormándy Johann</rs>
+                    Bruder sich mit Ormándy Johann wieder in Verbindung setzen kann,
+                    ist <rs type="person" ref="#mpr14185">Ormándy Johann</rs>
+                    selbst mit Şorya Ferenc und einem weiteren Ungläubigen nach 
+                    Ūstolnī Belġrād gekommen und haben bekanntgegeben, dass sie verschwunden sind.</ab>
+                    
+                    <ab type="manifestatio">Da nun diese Angelegenheit dem Vertrag und
+                        Versprechen nicht passt, wurde der Beg von 
+                        <rs type="place" ref="#mpr7795">Stuhlweißenburg</rs> 
+                        abgesetzt. Es ist notwendig, diese Angelegenheit, so wie sie sich ereignet hat zu klären.</ab>
+                    
+                    <ab type="dispositio">Sobald mein erhabener Befehl einlangt, sollst du
+                        <supplied resp="#ht">die Angelegenheit</supplied> untersuchen und die Sache, so wie sie geschehen ist
+                        berichten. Und herausfinden lassen, in wessen Besitz sich der Bruder von 
+                        <rs type="person" ref="#mpr14185">Ormándy Johann</rs> 
+                        der als Geisel geblieben ist, befindet
+                        und <supplied resp="#ht">ihn</supplied> freilassen. Und jene zwei muslimischen Gefangene, 
+                        die <rs type="person" ref="#mpr14185">Ormándy Johann</rs>
+                        für sein Lösegeld freigelassen hat, wenn sie ihre Lösegelder dem Bruder von <rs type="person" ref="#mpr14185">Ormándy Johann</rs> geben, dann  ist gut.
+                        Und wenn sie sich widersetzen es zu geben, sollst du sie dem Bruder von Ormándy Johann 
+                        übergeben und ʽAlī Beg an meine glückhafte Schwelle schicken.</ab> <ab type="sanctio">So sollst du es wissen und
+                        dem erhabenen Zeichen Vertrauen schenken.</ab> 
+                    
+                    <ab type="datatio">Geschrieben in der <date calendar="#hijri" notBefore="1572-07-22" notAfter="1572-07-31"> mittleren Dekade des 
+                        Rebīʿu l-evvel des Jahres 980.</date></ab>
+                    
+                    <pb facs="#IMG.12a" n="12.2.a"/>
+                    <ab> Rückseite: Juli 1572. Abschrift des sultanischen Befehlsschreibens an den Pascha von
+                        <rs type="place" ref="#mpr7448">Buda</rs>
+                        über die Angelegenheit der Dörfer und 
+                        <rs type="person" ref="#mpr14185">Johannes Ormandi.</rs> Datum Juli 1572.</ab>                                                                                                                                                                
+                
+                </div>
+                </div>
+        </body></text>
+    </TEI>

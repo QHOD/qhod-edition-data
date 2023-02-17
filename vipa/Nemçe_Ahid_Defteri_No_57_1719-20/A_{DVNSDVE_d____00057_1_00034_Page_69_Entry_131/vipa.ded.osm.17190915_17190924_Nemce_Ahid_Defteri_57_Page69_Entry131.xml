@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Abschrift des sultanischen Dekrets (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über die Ernennung eines neuen
+                    Dolmetschers an der österreichischen Botschaft; Istanbul, 15. September – 24.
+                    September 1719</title>
+
+                <title xml:lang="en">Copy of the sultan’s imperial charter (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) about the appointment of a new
+                    interpreter (dragoman) to the Austrian embassy; Istanbul, September 15 –
+                    September 24, 1719</title>
+
+                <title xml:lang="tr">Sultanın, Avusturya elçiliğine yeni bir tercüman atanması
+                    hakkında beratı (nīşān-ı hümāyūn); İstanbul, 15 Eylül - 24 Eylül, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190915-17190924.2</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 69, entry 131</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-09-15" notAfter="1719-09-24"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Abschrift des Sultans Dekret (<foreign>nīşān-ı
+                        hümāyūn</foreign>/<foreign>berat</foreign>) über die Ernennung eines neuen
+                    Dolmetschers an der österreichischen Botschaft; Istanbul, 15. September – 24.
+                    September 1719, bearb. von Yasir Yılmaz und Merve Kurkutlu, Datenmodellierung:
+                    Jakob Sonnberger, Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts
+                    und Ibrahim Pachas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale
+                    Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von
+                    Arno Strohmeyer, Projekt 1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>freedoms and liberties granted to the dragoman of a European (in this case an Austrian) embassy in Istanbul</item>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+                    <item>appointment of a new dragoman</item>
+                    <item>dragoman</item>
+                    <item>tercüman</item>
+                    <item>Dolmetsch</item>
+                    <item>translation</item>
+                    <item>nişan-ı hümayun</item>
+                    <item>berat</item>
+                    <item>imperial charter</item>
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00034_Page_69_Entry_131.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190915-17190924.2">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">131</metamark>
+
+                <ab><seg rend="#diagonal"><lb/>Mesfūr <rs type="person" ref="#mpr10485">Niḳolos</rs>
+                        tercümān hālık olub <lb/>ḳaydı terḳīn buyurmaġla yirine papasın oġlı
+                            <lb/><rs type="person">Arutin</rs> (Arvitin/Arvitre?) tercümān naṣb ve
+                        berat-ı ʿālī-şān virilmişdür. <lb/><date type="Hijri" notBefore="1742-07-14"
+                            notAfter="1742-07-23">fī evāṣıṭ-ı cā(Cemāẕiyye’l-evvel)
+                        1155</date></seg><note resp="#yy" place="paragraph" xml:id="ftn1"> It
+                        appears that this note was added on the record retrospectively when Nikolas
+                        Theyls died in 1741.</note></ab>
+
+
+                <ab><lb/>Nīşān-ı hümāyūn oldur ki</ab>
+
+                <lb/>
+                <ab><rs type="person" ref="#mpr9399">Romā imperāṭorı</rs> ṭarafından büyükilçilik
+                    ile der-i devlet-medāruma gelen ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs
+                        type="person" ref="#mpr9435">Cenerāl Ġrūf de Virmond</rs>
+                    <lb/>ḫutimet ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme ʿarż-ı ḫāl gönderüb</ab>
+
+                <ab>bundan aḳdem müşārün ileyh <rs type="person" ref="#mpr9399">Romā imperāṭorı</rs>
+                    ṭarafından <rs type="place" ref="#mpr14055">āsitāne-i saʿādet</rs>ümde muḳīm
+                    olan <lb/>ḳapu ketḫüdāsı yanına tercümān olan <rs type="person" ref="#mpr16117"
+                        >Maderos</rs> nām tercümān mürd olmaġla yirine rāfiʿ-i tevḳīʿ-i refīʿü
+                    ş-şān-ı ḫāḳāni <rs type="person" ref="#mpr10485">Niḳolos</rs><note resp="#yy"
+                        place="paragraph" xml:id="ftn2">In the document, Nikolos is mentioned
+                        without last name and who he was is not clear based on this charter.
+                        However, we infer from the ambassador <ref target="/o:vipa.l.hbg.17190906"
+                            >Virmont’s report dated September 6, 1719</ref> that the interpreter
+                        whom this <foreign>berat</foreign> was addressed to was Nikolas
+                        Theyls.</note>
+                    <lb/>tercümān naṣb ve taʿyīn olunmaġlaʿahdnāme-i hümāyūnum mūcebince ola geldügi
+                    üzere berāt-ı şerīfüm virilmek bābında ʿināyet ricā itmegin <lb/>bu nīşān-ı
+                    hümāyūnı virdüm ve buyurdum ki:</ab>
+
+                <ab>Mesfūr <rs type="person" ref="#mpr10485">Niḳolos</rs> vech-i meşrūḥ üzere
+                    tercümān olub tercümānlıḳ ḫidmetinde olanlar <lb/>ve oġulları ve ḫizmetkārları
+                    ve cāriyeleri ḫarāc ve ʿavārıż ve ḳaṣṣāb aḳçası ve resm-i üsārā ve sāʾir tekālīf-i
+                    ʿörfiyye ṭalebiyle <lb/>rencīde ve remīde olunmayub ve ḳul ve cāriye istiḫdām
+                    idermişsin diyü kimesne ḫarāc ve rüsūm ve bāc ṭalebiyle daḫl ve rencīde eylemeye
+                    <lb/>ve gendünüñ maṣraf ve hedāyāsına ve ḳadīmden geydügi melbūsāt ve mefrūşāt
+                    ve meʾkūlāt ve meşrūbātına kimesne daḫl ve rencīde <lb/>eylemeyüb ḳadīmden ola
+                    geldügi üzere ʿafv olunub ve rüsūm-ı gümrük ve bāc ṭaleb olunmaya ve evlerine
+                    ʿaskerīden ḳonaḳ ḳonulmaġıyla rencīde <lb/>olunmaya ve gendü bāġında ḥāṣıl olan
+                    şīreden ḫamr emīni ve <rs type="place" ref="#mpr14828">Ġalaṭa</rs> voyvodaları
+                    sāʾirlerden ola geldügi üzere fuçı aḳçasını <lb/>ṭaleb eylemeyüb gendüsi ve
+                    evlādı ve taṣarrufında olan cāriyeleri ḫarāc ve ʿavārıż ve ḳaṣṣāb aḳçası ve
+                    resm-i maṣdariyyeden <lb/>ve tekālīf-i ʿörfiyyenüñ cümlesinden muʿāf ve müsellem
+                    olub ve mezbūr ile ve her kimüñ daʿvāsı olur ise ellerinde olan ʿahdnāme-i
+                    <lb/>hümāyūn mūcebince āsitāne-i saʿādetüme ḥavāle olunub ġayr-ı yirde istimāʿ
+                    olunmaya ve baʿżı zamānda bir yire gitmek istedükde gidişde <lb/>ve gelişde
+                    ḳaradan ve deryādan menāzil ve merāḥilde gendüye ve esvāb ve ṭavarlarına ve
+                    emvāl ve erzāḳına ve yanında olan <lb/>ādamlarına ulaḳ ve ulaḳ akçası ve ġayr-i
+                    cānibde kimesne daḫl ve taʿarruż eylemeyüb ve her ḳanda dāḫıl olur ise <lb/>zād
+                    ve zevāde ve sāʾir ẕaḫīresi narḫ-ı rūzī üzere aḳçasıyla virilüb bir ferd
+                    taʿallül ve nizāʿ eylemeye ve maḫūf <lb/>ve muḫāṭara olan yirlerde başına aḳ
+                    ṣarınub ve ḳılıç ve oḳ ve yay ve sāʾir levāzımāt götürdükde ḳāḍīlar <lb/>ve
+                    beglerbegiler ve ġayrıdan bir ferd rencīde eylemeyüb ola geldügi üzere ḥimāyet
+                    ve ṣiyānet ve anuñ gibi teʿaddī ve tecāvüz <lb/>üzere olanlar menʿ ve defʿolunub
+                    dāʾimā işbu nīşān-ı hümāyūnumuñ mażmūn-ı münīfi ile ʿamel olunub ḫilāfına rıżā
+                    ve cevāz gösterilmeye şöyle bileler ʿalāmet-i şerīfe. </ab>
+                <ab><date type="Hijri" notBefore="1719-09-15" notAfter="1719-09-24">fī evāil-i Ẕā
+                            [<supplied resp="#yy">Ẕi’l-ḳaʿide</supplied>] sene 1131</date></ab>
+
+
+
+                <ab/>
+
+            </div>
+
+
+            <div type="translation" xml:lang="en"
+                xml:id="vipa.ded.osm.17190915-17190924.2.translation">
+                <pb n="1" facs="IMG01"/>
+                <ab><seg rend="diagonal">The aforesaid interpreter Nikolos died. His record is
+                        deleted. In his place, <rs type="person">Arutin</rs> (Arvitin/Arvitre?), the
+                        son of a priest, has been assigned and a noblest imperial deed of grant
+                            (<foreign xml:lang="ota">berāt</foreign>) is issued. <date type="Hijri"
+                            notBefore="1742-07-14" notAfter="1742-07-23">July 14 to July 23,
+                            1742.</date></seg><ref type="note_reference" target="#ftn1"/></ab>
+
+                <ab>So is the imperial charter / sign(<foreign xml:lang="ota">nīşān-ı
+                        hümāyūn</foreign>):</ab>
+
+                <ab>The paragon of the great commanders of the community of Messiah, <rs
+                        type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>—may
+                    God end his days propitiously—who came to my gate that is the center of state as grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, sent a
+                    petition to my threshold of felicity.</ab>
+                <ab>The interpreter named Maderos, who was formerly the interpreter for the resident
+                    envoy of the aforesaid <rs type="person" ref="#mpr9399">Roman emperor</rs> in my
+                        <rs type="place" ref="#mpr14055">threshold of felicity</rs>, died. In his
+                    place, the most glorious imperial sign [has been bestowed to announce that] the translator
+                        <rs type="person" ref="#mpr10485">Nikolos</rs><ref type="note_reference"
+                        target="#ftn2"/> has been assigned and appointed. For the grand ambassador
+                    officially requested my favor to grant my noble charter (<foreign xml:lang="ota">berāt-ı şerīf</foreign>), as it
+                    has been taking place to this day according to my imperial letter of agreement
+                    (<foreign xml:lang="ota">ʿahdnāme-i ḥumāyūn</foreign>), I issue this imperial sign (<foreign xml:lang="ota">nīşān-ı hümayun</foreign>) and I command
+                    that:</ab>
+                <ab>The aforesaid <rs type="person" ref="#mpr10485">Nikolos</rs> has become an
+                    interpreter in the way described. Those who work as interpreters, their sons,
+                    servants, and the women in their household shall not be injured and disturbed
+                    with claims of tribute, extraordinary tax, dues for goods in transit 
+                    (<foreign xml:lang="ota">ḳaṣṣāb aḳçası</foreign>, lit. 'butcher’s fee'), captive tax, or other
+                    levies. No one shall interfere with him demanding tribute, tax, or toll under
+                    the pretext that he employs male and female slaves and oppress him. No one shall
+                    interfere with his own expenses, gifts, garments, furniture, food, and drinks
+                    and oppress him. He shall be forgiven as per the time-honored practice and no
+                    customs duty or tolls shall be claimed. He shall not be oppressed through the
+                    deployment of a military officer at their house. The voivode of <rs type="place"
+                        ref="#mpr14828">Galata</rs> and the wine superintendent shall not claim
+                    barrel money for the must produced from his own vineyard as they have been
+                    claiming from others. Himself, his children, and the women under his authority
+                    shall be exempt and delivered from tribute, extraordinary tax, dues for goods in
+                    transit (<foreign xml:lang="tur">ḳaṣṣāb aḳçası</foreign>, lit. 'butcher’s fee'), export fee (<foreign
+                        xml:lang="ota">maṣdariyye</foreign>), wine tax, and all of the extraordinary
+                    levies. Whoever has a court case with the aforesaid [interpreter], as required
+                    by the letter of agreement in their possession, the case shall be referred to my
+                    threshold of felicity and a hearing shall not take place at another location. At
+                    certain times, as he would like to go somewhere, as he comes and goes on land
+                    and sea, at stations on the road, and during stages of the journey, no one shall
+                    interfere and attack him, his clothes, flock of animals, properties, 
+                    provisions, and his men accompanying him [claiming] messenger fees or on any
+                    other excuses. In whichever location he enters, his victual, provisions for the
+                    journey, and cereals shall be given in return for the fixed price. No one shall
+                    seek an excuse to avoid or dispute it. Judges, provincial governors, and not
+                    even a single person from among the rest shall disturb him when he, at dangerous
+                    and insecure places, wraps his head in white (<foreign xml:lang="tur">başına aḳ
+                        ṣarınub</foreign>) and takes with him a sword, an arrow, a bow, and other
+                    equipment; they shall guard and protect [him] as it has been the practice. Those who
+                    do wrong and attack shall be prevented and repelled. At all times, [all] should
+                    act as required by the exalted purview of my imperial sign (<foreign
+                        xml:lang="tur">nīşān-ı hümāyūn</foreign>); no consent or permission shall be
+                    shown to the contrary. Thus shall they know and [have confidence] in the noble
+                    mark!</ab>
+                <ab><date type="Hijri" notBefore="1719-09-15" notAfter="1719-09-24">September 15 to
+                        September 24, 1719</date></ab>
+            </div>
+        </body>
+    </text>
+</TEI>

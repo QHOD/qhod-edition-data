@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+                
+                <title xml:lang="de">Die Rede, die der osmanische Großbotschafter Dayezade İbrahim Pascha bei
+                    der Abschiedsaudienz bei Karl VI. hielt, 13. April 1720</title>
+                <title xml:lang="en">The speech that was delivered by the Ottoman grand ambassador Dayezade İbrahim Pasha
+                    at the Farewell Audience with Emperor Charles VI, April 13, 1720</title>
+                <title xml:lang="tr">Osmanlı büyükelçisi Dayezade İbrahim Paşa’nın, İmparator 6. Karl’ın 
+                    huzurundaki veda konuşması, 13 Nisan 1720</title>
+                <!-- author of the source -->
+                <author>
+                    <persName>Dayezade İbrahim Efendi</persName>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.misc.osm.17200413</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>HHStA, Wien</institution>
+                        <collection>Turcica I, 186</collection>
+                        <idno>111-114</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1720-04-13"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.misc" type="context"> Miscellanea </ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+            <refsDecl>
+                <p>
+                    Die Rede, die der osmanische Großbotschafter Dayezade İbrahim Pascha bei der Abschiedsaudienz bei Karl VI. hielt, 13. April 1720, bearb. von Yasir Yılmaz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz unter Mitarbeit von Claudia Römer (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.
+                </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="IMG_20200806_133459.jpg" xml:id="IMG1"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="protocol">
+        <body>
+            <div type="original" xml:id="vipa.misc.osm.17200413">
+            <pb n="1" facs="#IMG1"/>
+            <ab>Hüve</ab>
+                
+                <ab>
+                <lb/>Şevketlü ḥürmetlü ʿaẓametlü <gap extent="four" unit="char"/> 
+                Romā imparāṭorı pīşgāh-ı salṭanat-ı dest-gāhlarına
+                <lb/>biz ki şevketlü ʿaẓametlü Mekke ve Medīne ve Ḳudüs-i şerīf ḫādimi pādişāh-ı rūy-ı zemīn ḥażretleri
+                <lb/>ṭaraf-ı eşrefinden ʿālī-baḫtlu büyükilçiyim ki devleteyn beyninde <rs type="place" ref="#mpr14611">Pūjerefçede</rs> ʿaḳd
+                <lb/>ve ḳarār-dāde olan ṣulḥ ve ṣalāḥ-ı ḫayr-encām iḫtitām idüb mābeyn-i devleteyn-i ʿaliyyeteynde muṣāfāt
+                <lb/>ve dostluġı daḫı ke-mā yenbaġī teʾyīd ve muḥkem ve ḳavī ve müstaḥkem eylemek ḫidmetiyle devlet-i imparāṭoriyye
+                <lb/>cānibine baʿs ve irsāl ve ḫidmet-i mezbūreyi edā ve ikmāl ile şeref-yāb-ı mübāhāt 
+                <lb/>olmışdur. Ṭarafeynüñ emn ve rāḥatı ve bi-ʿavnihī teʿālā muʿaḳḳed ve müʾekked olan ve dād ve muṣālaḥatı
+                <lb/>edille-i ẓāhire ile maʿlūm ve meczūmımuz olub memnūn ve maḥẓūẓ olmışuzdur. İn-şāa’llāhu teʿālā
+                <lb/>ẕikr olunan ṣulḥ ve ṣalāḥ ve muṣāfāt mūris̱u’l-necāḥ mürāʿāt-ı şürūṭ ve ḳuyūd ile merhūn-ı devām
+                <lb/>ve ḫulūd olmasından ġāʾile-i iştibāhı merfūʿdur. Ve muʿtād-ı ḳadīm üzere ṭarafeyn-i devleteynüñ
+                <lb/>ulu pādişāhları baʿs̱ ve irsāl eyledükleri büyükilçileri itmām-ı ḫidmet ile kendi āsitānelerine
+                <lb/>ʿavdet ve ircāʿ itdürilmek iẕn-i ʿālīlerine mevḳūf olmaġla biz daḫı ruḫṣat-ı pādişāhāneleriyle
+                <lb/>ʿatebe-i ʿaliyye-i ḫüsrevānīye rūmāl-ı müsāraʿate müsāʿade ve işāretleri iltimās olunur.
+                <lb/>Ve lāzime-i devlet-i imparāṭoriyye olan ikrām-ı mihmāndārī ve riʿāyet-i salṭanat-şiʿārīlerinden
+                <lb/>her vech ile memnūn ve mesrūr olub müstaġraḳ-ı niʿmet-i celīle olmışdur. Eġer ṭarafımuzdan 
+                <lb/>ḫilāf-ı rıżā müsāhele ve taḳsīr ṣudūrı bi-ḥasebü’l-beşeriyye vāḳiʿ olmış ise iġmāż-ı
+                <lb/>mülūkāneleri ile tetmīm ve mes<choice><sic>t</sic><corr>ṭ</corr></choice>ūr olunmaḳ
+                    recā ve istidʿā olunur. Ve ḥüsn-i muʿayyenimüz ile mā-beynde
+                <lb/>olan dostluḳlarıñ temşiyyet ve istiḥkāmına in-şāa’llāhu teʿālā beẕl-i maḳdūr ve saʿy-ı 
+                <lb/>mevfūr olunmaḳ ẕimmet-i ẕimmet-i himmetümüze va-beste-i iltizāmdur.
+                <lb/><foreign xml:lang="ar"><unclear reason="eccentric_ductus">El-faḳīr
+                        el-ḥaḳīr</unclear></foreign> <rs type="person" ref="#mpr14276">İbrāhīm</rs>    
+                
+            </ab>
+               
+            </div> 
+            
+            <!--<div type="translation" xml:lang="en" xml:id="vipa.misc.osm.17200413-transl">
+            <pb n="1" facs="IMG01"/>
+            <ab>
+           </ab>
+        </div>-->
+        </body>
+    </text>
+</TEI>

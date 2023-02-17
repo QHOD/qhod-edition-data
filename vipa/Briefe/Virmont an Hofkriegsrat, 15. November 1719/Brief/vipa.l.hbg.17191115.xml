@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://qhod.acdh-dev.oeaw.ac.at/gamsdev/qhod/schema/qhod_volledition.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:n="http://www.example.org/ns/nonTEI">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Damian Hugo von Virmont an den Hofkriegsrat, Pera, 15. November 1719</title>
+                <title xml:lang="en">Damian Hugo von Virmont to the Aulic War Council, Pera, November 15, 1719</title>
+                <author><persName>Damian Hugo von Virmont</persName></author>
+                
+                <respStmt>
+                    <resp>Edition</resp>
+                    <persName xml:id="lb">
+                        <forename>Lisa</forename>
+                        <surname>Brunner</surname>
+                    </persName>
+                    <persName xml:id="mm">
+                        <forename>Manuela</forename>
+                        <surname>Mayer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                
+                <publisher><orgName ref="https://www.oeaw.ac.at/">Austrian Academy of Sciences, Institute for Habsburg and Balkan
+                    Studies</orgName></publisher>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        Creative Commons BY 4.0
+                    </licence>
+                </availability>
+                <date when="2021">2021</date>
+                <pubPlace>Vienna</pubPlace>
+                
+               
+                <idno type="PID">o:vipa.l.hbg.17191115</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title> 
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title> 
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHStA Wien</institution>
+                        <collection>Staatenabteilungen, Türkei I</collection>
+                        <idno>Kt. 185-1, fol. 17r-40v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        
+                    </physDesc>
+                    <history/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+            </editorialDecl>
+            <refsDecl>
+                <p>Damian Hugo von Virmont an Karl VI., Pera, 15. November 1719, bearb. von Lisa Brunner, Manuela Mayer, Datenmodellierung: Stephan Kurz, in: Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20), hg. von Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt 1), Wien 2022.</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context">
+                        Die Großbotschaften Damian Hugo von Virmonts und Ibrahim Paschas (1719/20)
+                    </ref>
+                    <ref target="context:vipa.l" type="context">
+                        Briefe
+                    </ref>
+                    <ref target="context:qhod" type="context">
+                        Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918
+                    </ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ana="MPRautomatched" ref="https://d-nb.info/gnd/102205337">Damian Hugo von Virmont</persName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/750640/">Pera</placeName>
+                    <date when="1719-11-15">15. November 1719</date>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName ref="https://d-nb.info/gnd/4520865-7">Hofkriegsrat</orgName>
+                    <placeName ana="MPRautomatched" ref="https://sws.geonames.org/2761369/">Wien</placeName>
+                </correspAction>
+                
+                <correspContext>
+                    <ref type="next" target="/o:vipa.l.hbg.17190528">
+                        Nächster Brief von
+                        <persName>Damian Hugo von Virmont</persName>
+                        an den 
+                        <orgName>Hofkriegsrat</orgName>
+                        :
+                        <date when="1719-12-03">3. Dezember 1719</date>
+                    </ref>
+                </correspContext>
+                <note>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17191115.b1"/>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17191115.b2"/>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17191115.b3a"/>
+                    <ref type="hasAttachment" target="/o:vipa.l.hbg.17191115.b3b"/>
+                </note>
+            </correspDesc>
+            <abstract>
+                <list>
+                    <item>negotiations between Venice and the Ottoman Empire concerning borders</item>
+                    <item>liberation of slaves</item>
+                    <item>borders between Habsburg Empire and Ottoman Empire</item>
+                    <item>trade with Persia</item>
+                    <item>production of potash</item>
+                    <item>trade agents</item>
+                    <item>protection of European merchants</item>
+                    <item>treaty of Passarowitz</item>
+                    <item>plague</item>
+                    <item>exilation of Hungarian rebels</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG1">
+            <graphic url="20KV_16r.jpg" xml:id="IMG1"/>
+           </surface>
+        <surface start="#IMG2">
+            <graphic url="20KV_16v.jpg" xml:id="IMG2"/>
+            </surface>
+        <surface start="#IMG3">
+            <graphic url="20KV_17r.jpg" xml:id="IMG3"/>
+           </surface>
+        <surface start="#IMG4">
+            <graphic url="20KV_17v.jpg" xml:id="IMG4"/>
+            </surface>
+        <surface start="#IMG5">
+            <graphic url="20KV_18r.jpg" xml:id="IMG5"/>
+        </surface>
+        <surface start="#IMG6">
+            <graphic url="20KV_18v.jpg" xml:id="IMG6"/>
+        </surface>
+        <surface start="#IMG7">
+            <graphic url="20KV_19r.jpg" xml:id="IMG7"/>
+        </surface>
+        <surface start="#IMG8">
+            <graphic url="20KV_19v.jpg" xml:id="IMG8"/>
+        </surface>
+        <surface start="#IMG9">
+            <graphic url="20KV_20r.jpg" xml:id="IMG9"/>
+        </surface>
+        <surface start="#IMG10">
+            <graphic url="20KV_20v.jpg" xml:id="IMG10"/>
+        </surface>
+        <surface start="#IMG11">
+            <graphic url="20KV_21r.jpg" xml:id="IMG11"/>
+        </surface>
+        <surface start="#IMG12">
+            <graphic url="20KV_21v.jpg" xml:id="IMG12"/>
+        </surface>
+        <surface start="#IMG13">
+            <graphic url="20KV_22r.jpg" xml:id="IMG13"/>
+        </surface>
+        <surface start="#IMG14">
+            <graphic url="20KV_22v.jpg" xml:id="IMG14"/>
+        </surface>
+        <surface start="#IMG15">
+            <graphic url="20KV_25r.jpg" xml:id="IMG15"/>
+        </surface>
+        <surface start="#IMG16">
+            <graphic url="20KV_25v.jpg" xml:id="IMG16"/>
+        </surface>
+        <surface start="#IMG17">
+            <graphic url="20KV_26r.jpg" xml:id="IMG17"/>
+        </surface>
+        <surface start="#IMG18">
+            <graphic url="20KV_26v.jpg" xml:id="IMG18"/>
+        </surface>
+        <surface start="#IMG19">
+            <graphic url="20KV_31r.jpg" xml:id="IMG19"/>
+        </surface>
+        <surface start="#IMG20">
+            <graphic url="20KV_31v.jpg" xml:id="IMG20"/>
+        </surface>
+        <surface start="#IMG21">
+            <graphic url="20KV_36r.jpg" xml:id="IMG21"/>
+        </surface>
+        <surface start="#IMG22">
+            <graphic url="20KV_36v.jpg" xml:id="IMG22"/>
+        </surface>
+        <surface start="#IMG23">
+            <graphic url="20KV_37r.jpg" xml:id="IMG23"/>
+        </surface>
+        <surface start="#IMG24">
+            <graphic url="20KV_37v.jpg" xml:id="IMG24"/>
+        </surface>
+        <surface start="#IMG25">
+            <graphic url="20KV_38r.jpg" xml:id="IMG25"/>
+        </surface>
+        <surface start="#IMG26">
+            <graphic url="20KV_38v.jpg" xml:id="IMG26"/>
+        </surface>
+        <surface start="#IMG27">
+            <graphic url="20KV_39r.jpg" xml:id="IMG27"/>
+        </surface>
+        <surface start="#IMG28">
+            <graphic url="20KV_39v.jpg" xml:id="IMG28"/>
+        </surface>
+        <surface start="#IMG29">
+            <graphic url="20KV_40r.jpg" xml:id="IMG29"/>
+        </surface>
+        <surface start="#IMG30">
+            <graphic url="20KV_40v.jpg" xml:id="IMG30"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter">
+        <body>
+            <pb facs="#IMG1" n="16r"/>
+            <metamark><ref target="/o:vipa.i.hbg.1720">Nr. 20.</ref> d.d. <rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs>
+                <date when="1719-11-15">15. Novembris 1719</date> <del>ohne be</del> mit 3 beylagen.</metamark>
+            <pb n="16v" facs="#IMG2"/>
+            <pb n="17r" facs="#IMG3"/>
+            <opener>
+                <salute>Hochlöblichster ksl. hof-kriegs-rath p.</salute></opener> 
+          <p>Eüer durchleuchtigsten excellenzien und meinen hochgeehrtisten herren habe ich unter
+                den <date when="1719-10-25">25. des vergangenen monaths</date> gehorsambst und
+                schuldigst berichtet, was mit dem <rs type="person" ref="#mpr9441">gros vezier</rs> in meiner den
+                    <date when="1719-10-09">9. eiusdem</date> bey ihm gehabten zusambenkhunfft
+                gesprochen. Nun ist bey selber türckhischer seyts angetragen und ich auch nach der
+                hand sollicitirt worden, mich nächstens bey dem <rs type="person">rees effendi</rs>
+                einzufinden, umb mit verabredung verschidener beede reich betreffende sachen,
+                sonderlich auch zu sehen, wie man mit dem <rs type="person" ref="#mpr15746">venetianischen
+                    bottschaffter</rs> die zwischen denen gränitz commissarien in <rs
+                    ana="MPRautomatched" ref="#mpr1574 mpr7819" type="place">Dalmatien</rs>
+                entstandene strittigkeiten beylegen und vergleichen kunte, indeme der <rs
+                    type="person" ref="#mpr9441">gros vezier</rs> mich durchauß dabey zu haben verlangt und dise
+                sach gleichsamb zu meiner mediation (auf welche arth ich es aber, wie schon
+                berichtet, nicht an <pb n="17v" facs="#IMG4" break="no"/>genohmen, sondern lieber
+                gar evitirt hätte) übergeben wollen. Weillen ich aber mich verlautten lassen, daß
+                sich nicht wohl schickhe, daß ihrer <rs type="person" ref="#mpr9399">röm. ksl. und cathol. Mt.</rs>
+                gros bottschaffter zu den <rs type="person">rees effendi</rs> inß hauß und ihne
+                gleichsamb zu besuchen komme, und wan gleichwie sye replicirten, öffters andere und
+                wie leztlich der <rs type="person" ref="#mpr15779">moscovitische</rs> und <rs type="person"
+                    >pohlnische minister</rs> zu ihn gangen, so wolte es dahin gestellet seyn
+                lassen, ob sye wohl oder nicht gethan, mir aber komme zue, eines röm. kaysers, deren
+                nur einer were, höchsten respect in acht zu nehmen. Alß haben sye das expediens
+                genohmen, daß mich bemelter <rs type="person">rees effendi</rs> zu einer mahlzeit
+                und divertisment zu sich laden solle, wie er dan auch seinen chehaya den <date
+                    when="1719-11-05">5. huius</date> mit einem billet zu mir geschickht und auf den
+                    <date when="1719-11-06">6.</date> zum <pb n="18r" facs="#IMG5"/>ersten und einer
+                kleinen recreation bitten lassen, auch die stund, wan ich kumben wolte, zur willkhur
+                gegeben, umb den <rs type="person" ref="#mpr15746">venetianischen bottschaffter</rs> etwas spätter
+                zu bestellen, damit wür von denen beede reich angehenden geschäfften vorhero allein
+                zusamben zu sprechen zeit hetten. Ich habe mich demnach veranlast, umb neün uhr
+                fruhe in seine<del>r</del> behausung nach <rs ana="MPRautomatched" ref="#mpr14055"
+                    type="place">Constantinopl</rs> mich zu verfüegen, so ich auch also vorgenohmen
+                und alda die effendi, <rs type="person">Mehmed</rs> alß anderten zu <rs type="place" ref="#mpr14611">Posaroviz</rs>
+                gewesten plenipotentiarium und den seiffulach eben alda verordneten commercii
+                commissarium gefunden.</p>
+            <p>Wür sezten unß zusamben und ich beklagte mich anfänglich sehr, daß zu dato sowohl verschidene von vorigen krieg noch her enthaltene, <add place="superlinear">und mehr andere</add> seit selben in die dienstbahrkeit gefallene ihrer
+            <pb n="18v" facs="#IMG6"/><rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> unterthanen denen so heilig doch beschwohrnen capitulationen zugegen noch nicht herauß haben können. Und der <rs type="person">capitain bassa</rs>, so villmahls ich sye von ihm begehren lasse, allzeit mit ermanglenden zuelänglichen befehlen sich entschuldigen will und von so villen, die man würckhlich oder in der bagno oder auf des <rs type="person" ref="#mpr14244">sultans</rs> kriegs schüffen vorhanden zu seyn waiß und benantlich angezaigt hat, jüngster tagen kaumb sechs extradirt. Der <rs type="person">rees effendi</rs> bezaigte sich, alß ob ihn wunder dises zu hören, indeme er doch sagen könne, daß schon der austrückhliche befehl an den <rs type="person">capitain bassa</rs> gegeben worden, alle die jenige von ihrer <rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> unterthanen auszufolgen, welche man vermög des tractats schuldig seye und da ich ihn den <rs type="person">rees effendi</rs> noch länger hierüber starckh zuegeredet, hat er versprochen,
+            <pb n="19r" facs="#IMG7"/>selbsten darob zu seyn, daß deme der billiche vollzug geschehe. Worauf dan anjezo ihn und den <rs type="person">capitain bassa</rs> pressiren und meines orths nichts unterlasse, was zur hülff diser unglückhlichen leüth gedeyhen mag. <seg rend="encrypted"><choice><orig>8 77 40 348 189 90 77 51 130 132 153 26 53 48 33 74 185 97</orig><reg type="decoding" resp="#contemp">Ich mues doch gestehen, daß von</reg></choice></seg> denen bishero ausgelüfferten sclaven <seg rend="encrypted"><choice><orig>66 10 52 349 60 132 126 38 10 483 151 209 53 54 32 167 401 168 313 39 380 158 54 33 143 399 33 190 326 10 26 52 8 97 159 461 61 26 169 66 10 97 67 127 130 102 26 130 97 197 468 378 40 467 130 60 11 126 (38 10 39 140 61 32 188 95 21 171 32 130 26 510 8 97 54 27 190 66 10 143 443</orig><reg type="decoding" resp="#contemp">die mehriste wiewohl aus der <rs type="person" ref="#mpr9399">röm. ksl. Mt.</rs> oder des reichs landen in <del>Ja</del> venetianischen dienst gefangene und ohne unterscheid (wie schien zu besorgen <del>)</del>, indem <del>Jem</del> die Türckhen</reg></choice></seg> in allen <seg rend="encrypted"><choice><orig>8 7 131 26 151 122 77 10 97 40 21 171 97 54 32 33 503 17 33 168 421 10 26 75 14 26 21 70 145 68</orig><reg type="decoding" resp="#contemp">ihre sachen, besonders was <del>venetianischen</del> venetianische anbetrifft</reg></choice></seg>, difficulteten zu machen, <seg rend="encrypted"><choice><orig>66 10 74 130 47 7 26 153 8 70 151 295 97) 143 73 21 32 130 21 26</orig><reg type="decoding" resp="#contemp">die gewonheit haben) übergeben</reg></choice></seg> worden.</p>
+            <pb n="19v" facs="#IMG8"/><p>Da nun auch der <rs type="person" ref="#mpr9441">gros vezier</rs> bey vorgemelter jüngster zusambenkhunfft auf mein begehren zugesagt, daß eine taxe wegen der anderen particular gefangenen gemacht werde und man nicht einen jeden, was er für seinen sclaven verlangt, sondern etwas billiches darfür zu zahlen schuldig seye. Alß habe auch dahier darumben widerhollet und angehalten, der <rs type="person">rees effendi</rs> auch versprochen, daß er es sogleich dem <rs type="person" ref="#mpr9441">gros vezier</rs> vorbringen werde.</p>
+            <p>Der herr feldmarschall <rs type="person" ref="#mpr15348">graf von Steinville</rs> hat unter den <date
+                    when="1719-10-10">10. Oktober</date> an mich berichtet, daß es selber enden mit
+                dem gränitz weesen an der Donau und Aluta auch zur richtigkeit gelanget und
+                weillen noch von vorigen krieg und carlovizischen friden einige kleinere
+                differenzien gegen das moldauische confinium, wegen gewisser wayd- und vieh
+                haltungen abzuthuen weren, davon an <pb n="20r" facs="#IMG9"/>eüer durchleuchtigsten
+                excellenzien und meine hochgeehrtiste herren schon anzaig geschehen und daß auch
+                diselbe nach regulirung der Donau und Alutha gränitzen durch commissarien ausgemacht solle werden, zur antwortt
+                erhalten, von mir verlanget, bey der Pforten einen befehl zu dem ende an den <rs
+                    type="person" ref="#mpr15618">waywoden</rs> in der <rs ana="MPRautomatched" ref="#mpr14097"
+                    type="place">Moldau</rs>auszuwürckhen, umb auf das fruhe jahr, da es anjezo
+                wegen der winterszeit in selbigen rauchen gebürgen sich nicht thun lasse, pari
+                numero seine deputirte mit denen benöttigten documentis zu schickhen, da auch unser
+                darzue erscheinen werden. Ich habe derowegen auch solches in diser zusambenkhunfft
+                bey dem <rs type="person">rees effendi</rs> begehrt und dabey auch vorgetragen, ob
+                die Pforten nicht convenient befinde, die von einer und anderen seythen seyende
+                wallachische geistliche boyaren und andere unterthanen ihre respective in ihrer <rs
+                    type="person" ref="#mpr9399">röm. ksl. und cathol. Mt.</rs>
+                <pb n="20v" facs="#IMG10"/>oder der ottomanischen Wallachey ligende güetter und
+                grund stückh, ohne sye zur personal sistirung oder ruckher zu obligiren, wie andere
+                unterthannen genüessen zu lassen, oder wenigst sich hierüber erclähren und ihro
+                befehl an den <rs type="person" ref="#mpr15618">waywoden</rs> ergehen lassen möchte, auf daß ein
+                gleiches von ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs> allergnadigst befohlen und von
+                dero commandirenden generalen allerunterthänigst befolget werden möge. Der <rs
+                    type="person">rees effendi</rs> hat sich eines- und andere gefallen lassen und
+                es ad referendum auch angenohmen.</p>
+            <p>Nach disen habe gegen den <rs type="person">seiffulach effendi</rs> gewendet und von
+                dem nach <rs ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs>
+                einzurichtenden commercio zu sprechen vorgenohmen, remonstrirend, wie dise sach zu
+                besonderen nuzen vor das Ottomanische Reich were. Sye <pb n="21r" facs="#IMG11"
+                />bezaigten auch, alß ob sye es wohl begriffen, und kamen nicht mit der geringsten
+                difficultät dargegen vor. Ihr vorschlag gienge gleich dahin, daß sowohl von eüer
+                durchlaucht dem herrn <rs type="person" ref="#mpr10441">kriegs praesidenten</rs>, alß von dem <rs
+                    type="person" ref="#mpr9441">gros vezier</rs> an des <rs type="person" ref="#mpr15659">königs</rs> in <rs
+                    ana="MPRautomatched" ref="#mpr14151" type="place">Persien</rs>
+                <rs type="person">premier minister</rs> (weillen nicht die gewonheit, daß dise
+                orientalische souverainen sich directe zueschreiben) brieff darüber abgehen und daß
+                man türckhischer seyts darinnen anregen wurde, wie dises commercium dem <rs
+                    type="person" ref="#mpr15659">könig</rs> in <rs ana="MPRautomatched" ref="#mpr14151"
+                    type="place">Persien</rs> auf ihrer <rs type="person" ref="#mpr9399">ksl. Mt.</rs> begehren
+                zuegestanden wurde, umb damit der <rs type="person" ref="#mpr15659">persianische könig</rs>
+                derselben besondere obligation darfür haben solle. Sye erbietten sich auch eüer
+                durchlaucht schreiben mit dem ihrigen zugleich nach <rs ana="MPRautomatched"
+                    ref="#mpr14151" type="place">Persien</rs> zu senden. Ich habe sye ersuchet, das
+                project von des <rs type="person" ref="#mpr9441">gros veziers</rs> brief mir zu communiciren, damit
+                es nach ihrer <pb n="21v" facs="#IMG12"/><rs type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs>
+                hof einschickhen und man alda die convenirende maaß darnach abfassen und sich,
+                sovill für guet befunden wirdt werden, conformiren möge, oder auch darüber
+                verbschaiden könne. Welches sye nicht weniger zu thuen versprochen und ich dises
+                project oder aufsatz noch vor ablauff des gegenwärtigen zu überkomben und mit
+                beyzulegen erwartte.</p>
+            <p>Wegen der pottaschen wusten sye keine auskhunfft zu geben und gar nicht was es seye.
+                Nachdeme aber ich es ihnen explicirt, haben beschlossen, an die <rs type="person"
+                     ref="#mpr15442">waywoden</rs> von <rs type="place" ref="#mpr1794">Wallachey</rs> und <rs ana="MPRautomatched"
+                    ref="#mpr14097" type="place">Moldau</rs> zu schreiben, sich davon weithers zu
+                erkhundigen und ihr guttachten über dise gewerbschafft einzuhollen.</p>
+            <p>Alß ich nun schlüessen und aufstehen wolte, batte mich der <rs type="person"
+                    >seiffulach effendi</rs>, ihn über etwas auch anzuhören und brachte vor, wie man
+                zu <rs type="place" ref="#mpr14611">Posaroviz</rs>
+                <pb n="22r" facs="#IMG13"/>durch die tractaten conveniret, zu sicherheit der kauff-
+                und handels-leüthe in denen orthen, wo es die nothdurfft erforderen wurde, leüth, so
+                vor das commerce weesen und die handelschafft sorg tragen, anzustellen, denenselben
+                auch gewisse freyheiten und protection genüessen zu lassen. Ich <seg
+                    rend="encrypted"><choice>
+                        <orig>47 19 166 40 37 77 52 (23 8 19 178 26 143 162 97 151 30 132 197 47 167
+                            164 10 53 163 26 126 64 19 178 166 97) 158 358 190 187 20 167 359 158 12
+                            172 7 32 510</orig>
+                        <reg type="decoding" resp="#contemp">wolte mich (weillen schon wußte, wo sie
+                            hinzillenten) nicht vill noch clar</reg>
+                    </choice></seg> darauf <seg rend="encrypted"><choice>
+                        <orig>153 124 73 33 74 329 97 189 436 26 143 122 6 166 198 85 32</orig>
+                        <reg type="decoding" resp="#contemp">heraus lassen, sondern sagte nur</reg>
+                    </choice></seg>, daß man erstlich sehen müeste, was das commercium vor einen
+                fortgang gewinnen wirdt und wan sich alsdan <del>für</del> nöttig zaigen wurde,
+                consules und dergleichen zu besorgung der commerce-sachen und negocianten hin und
+                her zu schickhen und stabiliren nicht unbillich were, ihnen die ausgemachte
+                privilegia zuezustehen. Da aber der <rs type="person">seiffulach</rs> zum zweythen
+                    <pb break="no" n="22v" facs="#IMG14"/>mahl damit herfür kamme und sagte, daß sye
+                glaubten erforderlich zu seyn, von ihrer seyts einen sachbender, daß ist sovill alß
+                ein agent in specie zu <rs type="person" ref="#mpr13416">Wienn</rs> und auch ein-
+                und andern orths noch derentwegen zu halten, so antworttete ich, daß, wan es dazu
+                komben und nöttig befunden wird werden, dergleichen leüth und sachbender
+                anzustellen, alßdan zeit seye davon zu reden und schreiben. Dabey es damahls wider
+                gebliben.</p>
+            <p>Hai occasione solte ich nicht vorbey gehen, daß eben diser tagen der <rs
+                    type="person">rees effendi</rs> zu den dollmetsch <rs type="person"
+                    ref="#mpr10485">Nicola Theyls</rs>, alß er wegen des in der insul <rs
+                    type="place" ref="#mpr15601">Cypro</rs> (wie auch schon berichtet) angehalten
+                gewesten <rs type="person" ref="#mpr15620">handelßmann</rs> von <rs ana="MPRautomatched" ref="#mpr1714" type="place"
+                    >Fiume</rs> bey der Pforten gewesen und zu besserer sicherheit, damit
+                khünfftighin, wan denen handelsleüthen widerumb solche casus begegnetten und sye
+                mehrer angehalten wurden, bey der Pforten man sich mehrer obligirt befande, justiz
+                zu thuen <metamark place="margin">1.</metamark><note type="editorial">Die <ref target="/o:vipa.l.hbg.17191115">Beilage</ref> hat
+                    sich erhalten.</note>und satisfaction zu geben <add
+                    place="superlinear">beygehendes schrifftlich verlanget</add>
+                habe. <pb n="25r" facs="#IMG15"/>Er wundere sich, daß man
+                nicht consules und dergleichen leüth vor die handelschafft, womit die negocianten
+                umbso leichter in ihren traficiren fortkomben und ihren handel und wandel mit
+                mehrerer bequemblichkeit treiben wurden und wurden, so lang solche nicht gesezt, die
+                ksl. schüff und kauff-leüth öfftere anfechtung haben, auch erwarte man die copiam
+                eines patents und flaggen.</p>
+            <p>Was die consules betrifft, habe <seg rend="encrypted"><choice><orig>212 151 359 167 318 10 53 436 33 143 142 73 6 186 77 10 188 152 13 8 10 12 142 40 23 19 77 10 198</orig><reg type="decoding" resp="#contemp">alhier noch keine sonders taugliche subiecta, welche</reg></choice></seg> ihrer <seg rend="encrypted"><choice><orig>313 74 130 45 7 32 106 75 467 70 121 26 106 97</orig><reg type="decoding" resp="#contemp"><rs type="person" ref="#mpr9399">ksl. Mt.</rs> gebohrne unterthanen</reg></choice></seg> weren, <seg rend="encrypted"><choice><orig>130 99 26 54 97 189</orig><reg type="decoding" resp="#contemp">gefunden</reg></choice></seg>. Es geschicht zwar <seg rend="encrypted"><choice><orig>229 39 14 26 54 131 97 151 82 175 25 106 26 75 48 33 40 34 26 188 179 32 140 54 106 97 196 25 32 70 153 97 517 54 32 51 108 97 152 19 126 185 26 40 10 8 106 32 52 14 73 77 158 185 97 167 54 32 127 14 26 54 131 97 52 66 10 74 236</orig><reg type="decoding" resp="#contemp">bey anderen nationen, daß an verschidenen orthen der consul von einer auch von der anderen die commission</reg></choice></seg> habe.
+            <pb n="25v" facs="#IMG16"/>Unterdessen ware auch der <rs type="person" ref="#mpr15746">venetianische bottschaffter</rs> gekomben, dene, weillen wür noch in unseren sachen redeten, der <rs type="person">rees effendi</rs> in ein anderes zimmer führen lassen. Alß wür aber geendet, tratte er auch zu uns ein. Und da es schon bey zwey uhr nachmittags zeit, liesse der <rs type="person">rees effendi</rs> etliche musicanten und singer vorkomben, welche, biß das essen aufgetragen wurde, spilleten.</p>
+            <p>Nach der mahlzeit hat man gleich von obgedachter mit der <rs type="place"
+                    ref="#mpr1416">Republique</rs> vorgefallenen gränitz-strittigkeiten zu reden
+                vorgenomben, allwo es, wie vorgesehen, hart gehalten und ehender der tag alß die
+                disputen ein ende gemacht. Die ottomanische ministri sagten, daß sye in dem
+                supposito die in dem tractat zu <rs type="place" ref="#mpr14611">Posaroviz</rs>, und
+                zwar in dessen ersten article designirte gränitz-lineam zugestanden, man were
+                venetianischer seyts schon damahls davon in possession gewesen. So ihnen aber jezund
+                von allen leüthen anderst berichtet würdt, und <pb n="26r" facs="#IMG17"/>erst nach
+                der hand der <rs type="place" ref="#mpr1416">Republique</rs> trouppen von dem
+                mehrheiten theill ausser des posto <rs type="place" ref="#mpr16008">Imoschi</rs>
+                sich impadronirt. Der <rs type="person" ref="#mpr15746">venetianische
+                    bottschaffter</rs> gestunde es zwar nicht, <seg rend="encrypted"><choice>
+                        <orig>10 33 151 120 8 106 70 52 213 74 90 77 167 34 19 33 127 25 13 190 154
+                            58 21 32 190 358 75 123 32 143 179 67 53 249 189 154 72 10 40</orig>
+                        <reg type="decoding" resp="#contemp">es scheinet aber doch, als ob selber
+                            nicht gar vest damit seye</reg>
+                    </choice></seg>. Er führte <seg rend="encrypted"><choice>
+                        <orig>213 74 24 156 39 94 24 186 87 159 124 175 25 106 127 14 97</orig>
+                        <reg type="decoding" resp="#contemp">aber pro duplici ratione an,</reg>
+                    </choice></seg> wie man ihnen dise lineam auch zu einer compensation, dessen so
+                sye in den ragusaeischen zuruckhgelassen, zugetheillet habe. Der <rs type="person"
+                    >Mehmed effendi</rs> hingegen wolte nichts von diser compensation wissen und
+                blibe beständig bey dem, daß es auf den fundament, uti possidetis allein geschehen
+                seye. Ich habe <seg rend="encrypted"><choice>
+                        <orig>37 77 52 60 26 67 148 12 175 25 97 33 130 16 33 133 570 130 121 19 166
+                            26 127 468 74 54 26 198 461 10 97 39 205 40 171 187 20 52 164 77 168 454
+                            97 75 329 26 167 54 32 130 125 19 70 512 171 73 166 88</orig>
+                        <reg type="decoding" resp="#contemp">mich <del>in</del> instructions-gemäss
+                            gehalten und den <rs type="person" ref="#mpr15746">venetianischen
+                                ambassadeur</rs> so vill sich thuen lassen, dergestalt
+                            soutenirt</reg>
+                    </choice></seg>, <pb n="26v" facs="#IMG18"/><seg rend="encrypted"><choice>
+                        <orig>32 70 74 468 39 357 70 148 41 18 186 77</orig>
+                        <reg type="decoding" resp="#contemp">und nachtrucklich</reg>
+                    </choice></seg> vorgestelt, wie von einer durch solenne tractaten einsmahls
+                eingestandener sach sich nicht wohl abweichen lasse und <seg rend="encrypted"><choice>
+                        <orig>121 21 151 432 10 26 39 66 61</orig>
+                        <reg type="decoding" resp="#contemp">habe sonsten die</reg>
+                    </choice></seg> venetianische praetension <seg rend="encrypted"><choice>
+                        <orig>54 32 130 125 19 70 128 14 24 91 144 131 134 159 48 33 197 73 32 122
+                            77 52 95 6 172 73 21 97 74 121 21</orig>
+                        <reg type="decoding" resp="#contemp">dergestalt apoggiret, das ursach zu
+                            glauben habe</reg>
+                    </choice></seg>, daß der venetianische <seg rend="encrypted"><choice>
+                        <orig>205 40 37 70 519 37 32 143 95 269 10 26 75 154 72 97 167</orig>
+                        <reg type="decoding" resp="#contemp"><rs type="person" ref="#mpr15746"
+                                >ambassadeur</rs> mit mir zufriden seyn</reg>
+                    </choice></seg> kan, er dan auch <seg rend="encrypted"><choice>
+                        <orig>82 7 22 26 33 189 154 8 106 32 570 408 52 187 10 178 39 131 33 55 12
+                            177 61 73 154 128 108 97 166 125 175 25 106 97 40 185 32 74 298 313 127
+                            130 353 519</orig>
+                        <reg type="decoding" resp="#contemp">nahmens seiner <rs type="place"
+                                ref="#mpr1416">Republique</rs> ville respectuense contestationen vor
+                            ihre <rs type="person" ref="#mpr9399">ksl. Mt.</rs> gemacht</reg>
+                    </choice></seg>. Der <rs type="person">rees effendi</rs> nahme sodan endlich
+                eines und das andere zu referiren über sich, es ist <seg rend="encrypted"><choice>
+                        <orig>213 52 95 171 32 130 97 188</orig>
+                        <reg type="decoding" resp="#contemp">aber zu sorgen</reg>
+                    </choice></seg>, daß <seg rend="encrypted"><choice>
+                        <orig>358 40 171 228 40 468 330</orig>
+                        <reg type="decoding" resp="#contemp">nicht so bald und leicht</reg>
+                    </choice></seg> der <seg rend="encrypted"><choice>
+                        <orig>185 26 151 54 32 74 408 519 130 30 97 69 166 52 10 9 118 41 70 158 160
+                            19 130 26 126 246</orig>
+                        <reg type="decoding" resp="#contemp">von der <rs type="place" ref="#mpr1416"
+                                >Republique</rs> gewünschte effect folgen dörffe</reg>
+                    </choice></seg>. Dan mit <pb n="31r" facs="#IMG19"/><seg rend="encrypted"><choice>
+                        <orig>14 13 70 131 134 177 26 6 53 54 32</orig>
+                        <reg type="decoding" resp="#contemp">abtrettung der</reg>
+                    </choice></seg> in quaestione stehenden orth und landes <seg rend="encrypted"><choice>
+                        <orig>66 10 74 90 32 175 130</orig>
+                        <reg type="decoding" resp="#contemp">die dortige</reg>
+                    </choice></seg> türckhische gränitz <seg rend="encrypted"><choice>
+                        <orig>37 186 80 168 23 19 77 10 40 8 97 167 154 19 21 26 158 66 67 145 41
+                            166 26 590</orig>
+                        <reg type="decoding" resp="#contemp">miliz, welche in selben
+                            districten</reg>
+                    </choice></seg> ihre <seg rend="encrypted"><choice>
+                        <orig>125 36 186 22 97 70 127 468 130 85 33 53 295 26 189 154 7 32 53 8 97
+                            166 131 33 164 32 70 519 468 48 185 26 40 187 19 178 133 168 130 69 131
+                            72 74 229 54 32 75 394 151 468 128 8 27 190 399 527 344 26</orig>
+                        <reg type="decoding" resp="#contemp">stabiliment und genus haben, sehr
+                            interessirt und davon villes geschrey bey der Pforten und im reich
+                            machen</reg>
+                    </choice></seg>. <metamark place="margin">2.</metamark><note type="editorial">Die <ref
+                        target="/o:vipa.l.hbg.17191115.b2">Beilage</ref> hat sich
+                erhalten.</note> Und lege ich hier
+                gehorsambst und schuldigst bey die bericht, so von denen ottomanischen
+                gränitz-commissarien eingeschickht und mir in eben dem lateinischen translato durch
+                der Pforten dollmetsch zugestellt worden. Doch haben sich die ottomanische ministri, ehe wür von einander
+                gangen, erclähret, daß, wo von seyten der <rs type="place" ref="#mpr1416"
+                    >Republique</rs> erwisen würdt werden, daß selbige vor den Posarovizer fridens
+                schluß in würckhlicher possession gewesen, dasselbe ihnen auch bleiben solle. <pb
+                    n="31v" facs="#IMG20"/><metamark place="margin">3.</metamark><note type="editorial">Die Beilage hat sich erhalten.
+                    Sie besteht aus zwei Schriftstücken, von denen <ref
+                        target="/o:vipa.l.hbg.17191115.b3a">eines</ref> dem Brief heute noch
+                    beigelgt ist, das <ref target="/o:vipa.l.hbg.17191115.b3b">andere</ref> wurde
+                    umgelagert und befindet sich heute im Bestand "Türkische Urkunden 12".</note> Das neüe
+                commandament an den neüen <rs type="person">bassa</rs> von <rs type="place"
+                    ref="#mpr15842">Scutari</rs> in <rs ana="MPRautomatched" ref="#mpr1574 mpr7819"
+                    type="place">Dalmatien</rs>, wovor gleichfahls in meiner lezten relation
+                gedacht, schluesse auch an. 
+                Das leydige contagiose übel will noch nicht völlig aufhören, sondern lasset sich
+                dort und da noch spühren, wie dan jüngster tägen hier in <rs ana="MPRautomatched"
+                    ref="#mpr10447" type="place">Pera</rs> ein französischer dollmetsch davon, wie
+                auch sonsten noch zwey civile personen von Franquen, gestorben. Mein gefolg ist,
+                Gott dem allmächtigen seye grosser danckh, noch zu dato davon behüettet und hoffe,
+                es würdt bey ankombender kälte gar cessiren.</p>
+            <p>Die ausländische herren ministri haben zwar schon alle sich widerumb hier eingefunden
+                und seyndt sye sambtlich alle hier alß der <rs type="person" ref="#mpr15352">französische</rs>, <rs
+                    type="person" ref="#mpr14961">gros brittannische</rs>, <rs type="person" ref="#mpr15746">venetianische</rs> und
+                der <rs type="place" ref="#mpr14842">General-Staaten der vereinigten Niederlande</rs> den <date
+                    when="1719-11-05">5. huius</date>, nachdeme ich tags zuvor ihrer <rs
+                    type="person" ref="#mpr9399">ksl. und cathol. Mt.</rs> hohes nahmens-fest in der P. P.
+                Franciscaner kirchen mit meiner ganzen musique und hoch gesungenen heyligen <pb
+                    n="36r" facs="#IMG21"/>meeß-ambt feüerlich celebrirt, bey mir zu mittags
+                gewesen, welches hier, weillen dise herren bottschaffter <seg rend="encrypted"><choice>
+                        <orig>358 74 483 151 95 122 27 21 26 127 154 153 97 143 468 21 171 26 54 32
+                            33</orig>
+                        <reg type="decoding" resp="#contemp">nicht wohl zusamben sehen und
+                            besonders</reg>
+                    </choice></seg> dermahlen, <seg rend="encrypted"><choice>
+                        <orig>54 32 40 284 13 145 70 142 88 120 158</orig>
+                        <reg type="decoding" resp="#contemp">der <rs type="person"
+                                 ref="#mpr14961">grosbritanische</rs></reg>
+                    </choice></seg> mit <seg rend="encrypted"><choice>
+                        <orig>54 27 75 264 10 26 190 487 158 49 32 175 84 172 32 188 122 77 10 26
+                            197 8 97 126 54 32 39</orig>
+                        <reg type="decoding" resp="#contemp">dem <rs type="person"
+                                 ref="#mpr15352">französischen</rs> wegen particular sachen in der</reg>
+                    </choice></seg> vertraülichkeit <seg rend="encrypted"><choice>
+                        <orig>60 26 166 37 156 27 65 32 70 590</orig>
+                        <reg type="decoding" resp="#contemp"><del>in</del> interrompirt</reg>
+                    </choice></seg>, diser aber <seg rend="encrypted"><choice>
+                        <orig>54 27 40 461 10 97 167 467 39 54 26</orig>
+                        <reg type="decoding" resp="#contemp">dem <rs type="person"
+                                 ref="#mpr15746">venetianischen</rs> unter dem</reg>
+                    </choice></seg> vorwand wegen so vill <seg rend="encrypted"><choice>
+                        <orig>209 130 184 132 113 151 421 10 97 517</orig>
+                        <reg type="decoding" resp="#contemp">ausgelöster sclaven</reg>
+                    </choice></seg> die verlangende <seg rend="encrypted"><choice>
+                        <orig>209 172 14 6 198 468 122 175 33 102 12 175 25 26 127 358 40 95 295 26
+                            168</orig>
+                        <reg type="decoding" resp="#contemp">auslag und satisfaction nicht zu
+                            haben</reg>
+                    </choice></seg>, re <seg rend="encrypted"><choice>
+                        <orig>8 111 122 143 213 590 487 197 54 39 491 52 263 158 468 198 66 154 32
+                            53 408</orig>
+                        <reg type="decoding" resp="#contemp">ipsa aber wegen der zwischen <subst>
+                                <add><rs ana="MPRautomatched" ref="#mpr6873" type="place"
+                                        >Frankreich</rs></add>
+                                <del>französisch</del>
+                            </subst> und diser <rs type="place" ref="#mpr1416">Republique</rs></reg>
+                    </choice></seg> noch <seg rend="encrypted"><choice>
+                        <orig>25 13 69 23 21 26 54 97 128 179 32 11 145 10 33 186 77 165 60 166 26
+                            151 359 165 10 106 167 187 164 166 52 130 130 21 26</orig>
+                        <reg type="decoding" resp="#contemp">obschwebenden verdriesslichkeiten noch
+                            keine visite gegeben</reg>
+                    </choice></seg>, wie man sagt, <seg rend="encrypted"><choice>
+                        <orig>359 40 88 10 7 74 130 154</orig>
+                        <reg type="decoding" resp="#contemp">noch nie gesehen</reg>
+                    </choice></seg>, <pb n="36v" facs="#IMG22"/><seg rend="encrypted"><choice>
+                        <orig>153 97 197 485 519</orig>
+                        <reg type="decoding" resp="#contemp">worden</reg>
+                    </choice></seg>. Ich werde nicht ausser acht lassen, demnächsten widerumb wegen
+                    <seg rend="encrypted"><choice>
+                        <orig>10 26 70 118 7 32 85 97 6 40 54 33 404</orig>
+                        <reg type="decoding" resp="#contemp">entfernung deß <rs type="person"
+                                 ref="#mpr15310">Ragozy</rs> seiner gesellen</reg>
+                    </choice></seg> weither passus zuthuen. Diser tagen habe vernohmen, daß man <seg
+                    rend="encrypted"><choice>
+                        <orig>54 97 151 253 74 468 40 66 10 154 33 158 186 10 54 32 186 77 61 75 130
+                            171 26 11 19 198 171</orig>
+                        <reg type="decoding" resp="#contemp">den <rs type="person" ref="#mpr14953"
+                                >Esterhasy</rs> und dieses liederliche gesindl</reg>
+                    </choice></seg> gegen <seg rend="encrypted"><choice>
+                        <orig>66 10 167 279 61 26 95 10 158 164 77 530 14 73 9 121 19 166 26 129 185
+                            97 48 26 106 26 196 359 74 23 12 18 104 9 118 97 517</orig>
+                        <reg type="decoding" resp="#contemp">die gränzen zue sich aufhalten, von
+                            dannen eylend wegschaffen</reg>
+                    </choice></seg> wirdt. <seg rend="encrypted"><choice>
+                        <orig>54 32 160 32 123 70 69 75 121 70 39 247 143 130 8 67 186 77 10</orig>
+                        <reg type="decoding" resp="#contemp">Der <rs type="person" ref="#mpr15594">Forgatsch</rs>
+                            hat durch geistliche</reg>
+                    </choice></seg> offt bey mir <seg rend="encrypted"><choice>
+                        <orig>14 26 121 19 166 26 530 329 26 158 48 33 40 8 7 97 127 90 77</orig>
+                        <reg type="decoding" resp="#contemp">anhalten lassen, das ihn doch</reg>
+                    </choice></seg> einsmahls <seg rend="encrypted"><choice>
+                        <orig>14 26 170 154 26 74 46 77 166 151 23 8 19 178 26 197 10 32 40 73
+                            32</orig>
+                        <reg type="decoding" resp="#contemp">anhören möchte, weillen er nur</reg>
+                    </choice></seg> sachen zu ihrer <rs type="person" ref="#mpr9399">ksl. Mt.</rs> dienst <seg
+                    rend="encrypted"><choice>
+                        <orig>14 26 179 32 70 124 73 153 97 188 30 113 54 8 77 127 121 21 519 14 19
+                            171 198 179 32 152 77 10 97 199 484 26</orig>
+                        <reg type="decoding" resp="#contemp">anvertrauen wurdte. Ich habe also
+                            versuchen wollen</reg>
+                    </choice></seg>, was daran seye und sehen, was <pb n="37r" facs="#IMG23"/><seg
+                    rend="encrypted"><choice>
+                        <orig>61 32 39 48 26 127 185 32 35 145 26 130 97</orig>
+                        <reg type="decoding" resp="#contemp">er dan vorbringen</reg>
+                    </choice></seg> würdt und ob <seg rend="encrypted"><choice>
+                        <orig>185 26 128 8 7 131 97 590 45 154 26 158 14 13 154 153 97 74 468 39 81
+                            15 186 164 148 26 130 97</orig>
+                        <reg type="decoding" resp="#contemp">von ihren bösen absehen undt
+                            cabalisirungen</reg>
+                    </choice></seg> etwas <seg rend="encrypted"><choice>
+                        <orig>153 124 73 33 167 95 184 12 165 26 143 468 75 95</orig>
+                        <reg type="decoding" resp="#contemp">heraus zu lothen undt zu</reg>
+                    </choice></seg>erfahren. Dahero eingewilliget, daß <seg rend="encrypted"><choice>
+                        <orig>10 32 188 95 54 106 26 128 49 70 131 97 198 62 124 26 87 33 81 106 131
+                            97</orig>
+                        <reg type="decoding" resp="#contemp">er zu denen patren Franciscanern</reg>
+                    </choice></seg>, so an <seg rend="encrypted"><choice>
+                        <orig>22 8 106 579 47 43 85 26 6</orig>
+                        <reg type="decoding" resp="#contemp"><del>meime</del> meine wohnung</reg>
+                    </choice></seg> mit <seg rend="encrypted"><choice>
+                        <orig>54 32 40 60 43 145 130 26 151 14 97 157 33 154 26</orig>
+                        <reg type="decoding" resp="#contemp">der ihrigen anstossen</reg>
+                    </choice></seg> und ich <seg rend="encrypted"><choice>
+                        <orig>281 74 247 143 22 8 106 26 158 123 32 166 97 198 247</orig>
+                        <reg type="decoding" resp="#contemp">gleich durch meinen garten durch</reg>
+                    </choice></seg> eine thüer in diselbe <seg rend="encrypted"><choice>
+                        <orig>130 153 26 168 141 97 597 130 322 151 8 67</orig>
+                        <reg type="decoding" resp="#contemp">gehen kan, gekommen ist</reg>
+                    </choice></seg>, allwohin auch, <seg rend="encrypted"><choice>
+                        <orig>14 19 33 189 25 13 40 60 26 127 66 10 39 179 32 33 55 7 32 166 159 174
+                            32 77 10 97 75 14 26 48 77 70 33 489 10 26 199 144 61 97 130 74 37 77
+                            188 10 8 97 130 199 144 61 97 130 74 37 77 188 10 8 97 130 99 26 54
+                            26</orig>
+                        <reg type="decoding" resp="#contemp">als ob in die verspehrte kirchen
+                            andachts willen gienge, mich eingefunden</reg>
+                    </choice></seg>. <note>Vom Kloster hat sich die einstige Klosterkirche Santa Maria Draperis erhalten.</note>Ich habe <seg rend="encrypted"><choice>
+                        <orig>8 7 26 151 38 61 74 211 493</orig>
+                        <reg type="decoding" resp="#contemp">ihn wie alzeith</reg>
+                    </choice></seg>, indeme ihn <seg rend="encrypted"><choice>
+                        <orig>483 509 130 165 97 106 70 158</orig>
+                        <reg type="decoding" resp="#contemp">wohl gekennet,</reg>
+                    </choice></seg> in <seg rend="encrypted"><choice>
+                        <orig>154 8 106 97 167 173 130 26 190 130</orig>
+                        <reg type="decoding" resp="#contemp">seinen vagen</reg>
+                    </choice></seg>
+                <pb n="37v" facs="#IMG24"/><seg rend="encrypted"><choice>
+                        <orig>88 25 74 130 99 97 54 26</orig>
+                        <reg type="decoding" resp="#contemp">genio gefunden</reg>
+                    </choice></seg> und nicht verspühret, daß <seg rend="encrypted"><choice>
+                        <orig>10 32 40 171 186 54 32 590 485 75 61 113 489 151 185 32 69 73 56 26
+                            158 48 33 52 10 32</orig>
+                        <reg type="decoding" resp="#contemp">er solider worden. Er will vorschuzen,
+                            das er</reg>
+                    </choice></seg> mit vorwissen <seg rend="encrypted"><choice>
+                        <orig>298 313 (44 184 32 30 32 66 6 132 26 75 14 26 54 26 12 165 97 33) 54
+                            133 40 312 33 143 60 25 154 24 43 33 189</orig>
+                        <reg type="decoding" resp="#contemp">ihro <rs type="person" ref="#mpr9399">ksl. Mt.</rs>
+                            (glorwürdigsten andenckens) des kaysers <rs type="person"
+                            >Josephs</rs></reg>
+                    </choice></seg> und <seg rend="encrypted"><choice>
+                        <orig>123 32 74 37 70 52 10 8 106 32 40 60 97 67 148 41 175 96 97</orig>
+                        <reg type="decoding" resp="#contemp">gar mit einer instruction</reg>
+                    </choice></seg> von <seg rend="encrypted"><choice>
+                        <orig>54 32 154 19 21 26 167 95 54 106 97 199 406 506</orig>
+                        <reg type="decoding" resp="#contemp">derselben zu denen rebellen</reg>
+                    </choice></seg> fortgangen und daß der <seg rend="encrypted"><choice>
+                        <orig>179 32 157 113 21 106 151 265 178 25 91 19 11 168 185 26 128 172 27 21
+                            32 6 190 48 185 26 39 481 26 104 68</orig>
+                        <reg type="decoding" resp="#contemp">verstorbene fürst <rs type="person"
+                                >Leopold von Lamberg</rs> davon wissenschafft</reg>
+                    </choice></seg> gehabt. Er <seg rend="encrypted"><choice>
+                        <orig>21 70 121 73 32 166 158 54 26 209 154 32 186 77 10 26 143 120 8 97 357
+                            52 468 37 70 40 70 7 124 106 26 129 48 33 73 26 6 186 41 18</orig>
+                        <reg type="decoding" resp="#contemp">bethaurte den aüsserlichen schein nach
+                            und mit thränen daß unglikh</reg>
+                    </choice></seg>, in welches <seg rend="encrypted"><choice>
+                        <orig>10 32 40 179 32 102 19 178 97 198</orig>
+                        <reg type="decoding" resp="#contemp">er verfallen</reg>
+                    </choice></seg> und <seg rend="encrypted"><choice>
+                        <orig>154 73 5 56 70 159 357 312 186 77 10 32 127 44 82 11 507 468 148 40
+                            165 7 113</orig>
+                        <reg type="decoding" resp="#contemp">seuffzet nach kayserlicher gnad und
+                            ruckkher</reg>
+                    </choice></seg> in das <pb n="38r" facs="#IMG25"/><seg rend="encrypted"><choice>
+                        <orig>173 70 166 32 326 74 471 40 66 10 69 16 77 190 8 26 154 8 106 32 39
+                            102 37 19 178 198</orig>
+                        <reg type="decoding" resp="#contemp">vatterland, umb die schmach in seiner
+                            famille</reg>
+                    </choice></seg> etwas <seg rend="encrypted"><choice>
+                        <orig>14 73 33 184 69 10 26 189 468 154 8 97 75 178 21 26 53 8 26 126 148
+                            153 151 468 38 10 199</orig>
+                        <reg type="decoding" resp="#contemp">auslöschen und sein leben in ruhe und,
+                            wie</reg>
+                    </choice></seg> er sagt, in einem <seg rend="encrypted"><choice>
+                        <orig>12 184 132 32</orig>
+                        <reg type="decoding" resp="#contemp">closter</reg>
+                    </choice></seg> oder anderen <seg rend="encrypted"><choice>
+                        <orig>10 8 26 122 27 21 97 39 25 32 70 7 74 95 10 13 145 26 130 97 597
+                            95</orig>
+                        <reg type="decoding" resp="#contemp">einsamben orth zuebringen zu</reg>
+                    </choice></seg> können, <seg rend="encrypted"><choice>
+                        <orig>378 10 70 17 33 143 185 26 75 154 30 106 26 158 280 10 131 97 53 436
+                            97 167 85 32 159 48 33 178 21 26</orig>
+                        <reg type="decoding" resp="#contemp">ohne etwas von seinen güttern, sondern
+                            nur das leben</reg>
+                    </choice></seg> begehrend. Wessentwegen <seg rend="encrypted"><choice>
+                        <orig>10 113 179 32 140 54 106 168 24 156 166 125 175 25 106 33 74 185 26
+                            154 8 106 32</orig>
+                        <reg type="decoding" resp="#contemp">er verschidene protestationes von
+                            seiner</reg>
+                    </choice></seg> innerlichen <seg rend="encrypted"><choice>
+                        <orig>10 32 130 21 26 153 8 70 52 95 298 74 313</orig>
+                        <reg type="decoding" resp="#contemp">ergebenheit zu ihro <rs type="person"
+                                 ref="#mpr9399">ksl. Mt.</rs> und allerdurchleuchtigsten ertzhaus <del>hätte</del>
+                            betheurte</reg>
+                    </choice></seg> und sagte, wan <seg rend="encrypted"><choice>
+                        <orig>10 32</orig>
+                        <reg type="decoding" resp="#contemp">er</reg>
+                    </choice></seg> auch <seg rend="encrypted"><choice>
+                        <orig>358 74 6 82 11 190 10 32 335 10 26 189 171 19 166 510</orig>
+                        <reg type="decoding" resp="#contemp">nicht gnad erlangen solte</reg>
+                    </choice></seg>, gleichwohl <seg rend="encrypted"><choice>
+                        <orig>66 10 70 131 73 127 8 27 143 153 32 56 26 197 227 8 26 158 181 11
+                            70</orig>
+                        <reg type="decoding" resp="#contemp">die treu in herzen biß in todt</reg>
+                    </choice></seg> gegen <seg rend="encrypted"><choice>
+                        <orig>48 33 154 19 21 188 108 26 154 32 187 131 97 190 482 127 8 77 39 121
+                            21 8 7 27</orig>
+                        <reg type="decoding" resp="#contemp">dasselbe conserviren werdte. Ich habe
+                            ihn</reg>
+                    </choice></seg> darauf geantworttet, <pb n="38v" facs="#IMG26"/>daß man auch die
+                    <seg rend="encrypted"><choice>
+                        <orig><del>12</del> 152 77 10 26 54 52 6 82 11</orig>
+                    </choice><reg type="decoding" resp="#contemp">suchende gnad</reg></seg> mit <seg
+                    rend="encrypted"><choice>
+                        <orig>10 8 88 130 97 127 209 154 32 186 77 10 26 151 14 12 188 158 95 179 32
+                            66 61 106 26 198 164 77 14 26 130 178 130 97 510</orig>
+                        <reg type="decoding" resp="#contemp">einigen aüsserlichen actu zu verdienen
+                            sich angelegen</reg>
+                    </choice></seg> müeste seyn lassen. Allein er <seg rend="encrypted"><choice>
+                        <orig>8 67 198</orig>
+                        <reg type="decoding" resp="#contemp">ist</reg>
+                    </choice></seg> mit <seg rend="encrypted"><choice>
+                        <orig>358 33 74 411 10 26 52 153 113 273 130 322</orig>
+                        <reg type="decoding" resp="#contemp">nichts rechten herfür gekommen</reg>
+                    </choice></seg> und alß <seg rend="encrypted"><choice>
+                        <orig>8 77 39 60 7 97 9 124 6 166 53 17 33 74 48 97</orig>
+                        <reg type="decoding" resp="#contemp">ich ihn fragte, was dan</reg>
+                    </choice></seg> anjezo des <seg rend="encrypted"><choice>
+                        <orig>404 52 468 198 54 32 14 97 54 131 26 151 8 7 32 454 26 53 468</orig>
+                        <reg type="decoding" resp="#contemp"><rs type="person" ref="#mpr15310">Ragozy</rs> und der
+                            anderen ihr thuen und</reg>
+                    </choice></seg> lassen, <seg rend="encrypted"><choice>
+                        <orig>14 73 77 40 14 13 154 153 26 51 154 72 10 171 123 21 539 10 32 37 113
+                            128 95 32</orig>
+                        <reg type="decoding" resp="#contemp">auch absehen seye, so gabe er mir
+                            zur</reg>
+                    </choice></seg> antwortt, <seg rend="encrypted"><choice>
+                        <orig>48 33 164 10 128 358 33 74 492 185 32 296 26</orig>
+                        <reg type="decoding" resp="#contemp">das sie nichts zwar vorhätten</reg>
+                    </choice></seg>, doch auch, <seg rend="encrypted"><choice>
+                        <orig>17 97 164 10 130 178 130 97 153 60 70 151 296 97 198 21 171 26 54 32
+                            33 54 32 52 232 167 14 19 33 198 54 33 55 124 166 127 327 143 185 26 8 7
+                            106 97 190 358 33 159 147 166 133</orig>
+                        <reg type="decoding" resp="#contemp">wan sie gelegenheit hätten, besonders
+                            der <rs type="person" ref="#mpr14964">Bereczeny</rs>, als desperate leuth von ihnen
+                            nichts guthes</reg>
+                    </choice></seg> zu erwartten. <seg rend="encrypted"><choice>
+                        <orig>54 113 404 74 23 131 52 154 8 106 97</orig>
+                        <reg type="decoding" resp="#contemp">Der <rs type="person" ref="#mpr15310">Ragoczy</rs> wäre
+                            seinem</reg>
+                    </choice></seg> anstellen nach <seg rend="encrypted"><choice>
+                        <orig>283 158 155 70 134 33 160 32 77 175 6</orig>
+                        <reg type="decoding" resp="#contemp">ganz gottsförchtig</reg>
+                    </choice></seg> und der <seg rend="encrypted"><choice>
+                        <orig>14 26 48 77 70 95</orig>
+                        <reg type="decoding" resp="#contemp">andacht zu</reg>
+                    </choice></seg> gegeben. <pb n="39r" facs="#IMG27"/>Es hat zwar <seg
+                    rend="encrypted"><choice>
+                        <orig>54 32 158 12 50 174 74 14 73 77 169 25 5 166 32 33 197 179 32 172 6 70
+                            127 37 70 53 37 32 151 33 24 131 77 10 26 167 95</orig>
+                        <reg type="decoding" resp="#contemp">der <rs type="person" ref="#mpr15749">Czaky</rs> auch
+                            öffters verlangt, mit mir sprechen zu</reg>
+                    </choice></seg> können, es <seg rend="encrypted"><choice>
+                        <orig>8 67 213 509 22 60 106 33 74 61 32 14 77 166 26 33 198 37 70</orig>
+                        <reg type="decoding" resp="#contemp">ist aber meines erachtens mit</reg>
+                    </choice></seg> einem <seg rend="encrypted"><choice>
+                        <orig>38 10 188 37 70 143 54 27 128</orig>
+                        <reg type="decoding" resp="#contemp">wie mit dem</reg>
+                    </choice></seg> anderen <seg rend="encrypted"><choice>
+                        <orig>21 132 19 178 70 74 468 154 72 97 42 134 128 85 32</orig>
+                        <reg type="decoding" resp="#contemp">bestellet und seynt nur</reg>
+                    </choice></seg> von lehren <seg rend="encrypted"><choice>
+                        <orig>130 69 17 70 80 74 468 24 172 73 54 131 72 10 97 510</orig>
+                        <reg type="decoding" resp="#contemp">geschwätz und plaudereyen</reg>
+                    </choice></seg>, womit mich gehorsambst und dienstschuldigst empfehle und
+                ersterbe.</p>
+           
+            <closer>
+                <salute>Eüer durchleuchtigsten excellenzien und meinen hochgeehrtisten herren</salute>
+ 
+                <dateline><rs ana="MPRautomatched" ref="#mpr10447" type="place">Pera</rs> bey <rs ana="MPRautomatched" ref="#mpr14055" type="place">Constantinopl</rs> den <date when="1719-11-15">15. November 1719</date>.</dateline>
+                <signed>Gehorsambster und dienstschuldigster diener <rs ana="MPRautomatched" ref="#mpr9435" type="person">Damian Hugo
+                    graff von Virmonten</rs></signed>
+                
+            </closer>
+          <pb n="39v" facs="#IMG28"/>
+            <pb n="40r" facs="#IMG29"/>
+            <pb n="40v" facs="#IMG30"/>
+            <metamark>Accusirt <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1719-12-13">13. Dezember 1719</date>.</metamark>
+            <metamark>Expedirt <rs ana="MPRautomatched" ref="#mpr13416" type="place">Wienn</rs> den <date when="1720-03-06">6. Merzen 1720</date>.</metamark>
+        </body>
+    </text>
+</TEI>

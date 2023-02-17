@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- title of the source -->
+
+                <title xml:lang="de">Kaiserliches Patent (<foreign>nişan-ı
+                        Hümayun</foreign>/<foreign>berat</foreign>) über die Freizügigkeit von
+                    trinitarischen Patres, Patres, die durch das Osmanische Reich reisen um
+                    habsburgische Gefangene zu befreien (pater redemptor), Jesuiten, und den Schutz
+                    der Katholiken vor Interventionen griechischer, serbischer und bulgarischer
+                    Kirchen; Istanbul, 25. September – 4. Oktober 1719</title>
+
+                <title xml:lang="en">Imperial charter (<foreign>nişan-ı
+                        Hümayun</foreign>/<foreign>berat</foreign>) concerning the free movement of
+                    Trinitarian fathers, who are traveling across the Ottoman empire to free
+                    Habsburg captives (pater redemptor), and Jesuits, and the protection of
+                    Catholics from the interventions of Greek, Serbian, and Bulgarian churches;
+                    Istanbul, September 25 – October 4, 1719</title>
+
+                <title xml:lang="tr">Berat formunda yazılmış, Katolik mezhebine tâbi olup esirleri
+                    azat etmek için imparatorluk içinde seyahat eden Teslis (Triniteryen) cemaati
+                    rahipleri (pater redemptor) ve Cizvit rahiplerinin serbest dolaşımına izin
+                    verilmesi ve Katolikler’e Rum, Sırp ve Bulgar kiliseleri tarafından müdahele
+                    edilmesini yasaklayan nişan-ı hümayun; İstanbul, 25 Eylül – 4 Ekim, 1719</title>
+                <!-- author of the source -->
+                <author>
+                    <persName/>
+                </author>
+                <!-- Responsibilities for the digital source -->
+                <respStmt>
+                    <!-- editor -->
+                    <resp>Edition</resp>
+                    <persName xml:id="yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                    <persName xml:id="mk">
+                        <forename>Merve</forename>
+                        <surname>Kurkutlu</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- translation -->
+                    <resp>Translation</resp>
+                    <persName sameAs="#yy">
+                        <forename>Yasir</forename>
+                        <surname>Yılmaz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <!-- data modelling-->
+                    <resp>Datenmodellierung</resp>
+                    <persName>
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="https://www.oeaw.ac.at/"> Austrian Academy of Sciences, Institute
+                        for Habsburg and Balkan Studies </orgName>
+                </publisher>
+                <distributor>
+                    <orgName ref="https://gams.uni-graz.at"> GAMS - Geisteswissenschaftliches Asset
+                        Management System </orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+                </availability>
+                <date when="2022">2022</date>
+                <pubPlace>Vienna</pubPlace>
+
+                <idno type="PID">o:vipa.ded.osm.17190925-17191004.3</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen
+                    Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic
+                    Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu
+                    1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>BOA, Istanbul</institution>
+                        <collection>Düvel-i Ecnebiye Defterleri, Nemçelü Ahid Defteri, no.
+                            57</collection>
+                        <idno>Page 69-70, entry 132</idno>
+                    </msIdentifier>
+
+                    <physDesc> </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1719-09-24" notAfter="1719-10-04"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Editionsregeln und Kodierungsrichtlinien</p>
+                <!-- this may be a pointer to the actual document -->
+            </editorialDecl>
+            <refsDecl>
+                <p>Kaiserliche Patent (nişan-ı Hümayun/berat) über die Freizügigkeit von
+                    trinitarischen Vätern, Vätern die durch das Osmanische Reich reisen um
+                    habsburgische Gefangene zu befreien (pater redemptor), Jesuiten, und den Schutz
+                    der Katholiken vor den Eingriffen griechischer, serbischer und bulgarischer
+                    Kirchen; Istanbul, 25. September – 4. Oktober 1719, bearb. von Yasir Yılmaz und
+                    Merve Kurkutlu, Datenmodellierung: Jakob Sonnberger, Stephan Kurz, in: Die
+                    Großbotschaften Damian Hugo von Virmonts und Ibrahim Pachas (1719/20), hg. von
+                    Arno Strohmeyer und Stephan Kurz (Digitale Edition von Quellen zur
+                    habsburgisch-osmanischen Diplomatie 1500-1918, hg. von Arno Strohmeyer, Projekt
+                    1), Wien 2022. </p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:vipa" type="context"> Die Großbotschaften Damian Hugo von
+                        Virmonts und Ibrahim Paschas (1719/20) </ref>
+                    <ref target="context:vipa.ded" type="context">Düvel-i Ecnebiye Defteri</ref>
+                    <ref target="context:qhod" type="context"> Digitale Edition von Quellen zur
+                        habsburgisch-osmanischen Diplomatie 1500–1918 </ref>
+                </ab>
+                <!-- Project description -->
+                <p>Projektbeschreibung</p>
+                <!-- this may be a pointer to the actual document -->
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <abstract xmlns="">
+                <list>
+                    <item>Austrian ambassador</item>
+                    <item>Nemçe elçisi</item>
+                    <item>Damian Hugo von Virmont</item>
+
+                    <item>Protection of Catholics in the Ottoman empire</item>
+                    <item>Katolik</item>
+                    <item>Catholics</item>
+                    <item>Jesuits</item>
+                    <item>Redemptorists</item>
+                    <item>Cizvit</item>
+                    <item>nişan-ı hümayun</item>
+                    <item>berat</item>
+                    <item>imperial charter</item>
+                    <item>protection</item>
+                    <item>protection from the interventions of Greek, Serbian, and Bulgarian
+                        churches</item>
+
+                    <item>ahidname</item>
+                </list>
+            </abstract>
+            <langUsage>
+                <language ident="ota">Ottoman Turkish</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+
+        <surface start="#IMG1">
+            <graphic url="A_{DVNSDVE_d____00057_1_00034_Page_69_Entry_132_Part1.jpg" xml:id="IMG1"/>
+        </surface>
+        <surface start="#IMG2">
+            <graphic url="A_{DVNSDVE_d____00057_1_00034_Page_70_Entry_132_Part2.jpg" xml:id="IMG2"/>
+        </surface>
+
+
+    </facsimile>
+
+    <text type="charter">
+        <body>
+            <div type="original" xml:id="vipa.ded.osm.17190925-17191004.3">
+                <pb n="1" facs="#IMG1"/>
+                <metamark place="margin">132</metamark>
+
+
+                <ab><lb/>Nīşān-ı hümāyūn oldur ki:</ab>
+
+                <ab><lb/>Ḳıdvetü ümerāʾi’l-milleti’l-mesīḥiyye <rs type="person" ref="#mpr9399">Romā
+                        imperāṭorı</rs> ṭarafından büyükilçilik ile āsitāne-i saʿādetüme gelen <rs type="person" ref="#mpr9435">Cenerāl Ġrūf <lb/>de Virmond</rs> ḫutimet
+                    ʿavāḳibühū bi-l-ḫayr südde-i saʿādetüme ʿarż-ı ḥal gönderüb</ab>
+
+                <ab><date when="1649">biñ elli ṭoḳuz senesi</date>nde virilen ʿahdnāme-i hümāyūnda
+                    <lb/>münderic olduġı üzere pāpişta meẕhebinden Trinitari ve <foreign><unclear cert="medium" reason="illegible">dellā redemeçīris</unclear></foreign>
+                    <note xml:id="ftn1" type="editorial" resp="#yy"> What this particular term here
+                        means or implies is confusing, but it must be the Turkish rendering of the
+                        Trinitarian designation <foreign>pater redemptor</foreign> that was used for the
+                        monks in the order who travelled to find and free captives. The process of
+                        liberation itself was called <foreign>redemption</foreign>.</note> taʿbīr
+                    olunur pāpāslar ve ruhbānlar <lb/>ve yezūvītelere ẓulm ve teʿaddī olunmamaḳ
+                    üzere mesṭūr olub</ab>
+
+                <ab>ve bundan māʿadā daḫī ḳaradan ve deryādan varub <lb/>gelüb sākin olduḳları
+                    meskenlerine kimesne taʿarruż eylemeyüb ve evlerini taʿmīr eyledükde kimesne
+                    daḫl eylemeye ve āyīn <lb/>ve ʿibādetlerini Lātīn dīni üzere eyledüklerinde
+                    beglerbegiler ve ḳaḍīlar ve sāʾir ḥükkāmdan yollarda ve meskenlerde ve ḳadīmden
+                    <lb/>żabṭ eyledükleri kelīsālarınde kimesne daḫl ve taʿarruż itmeyüb ve nāsuñ
+                    ṣadaḳasından ġayrı geçinecekleri olmamaḳla ticāret içün <lb/>getürdükleri
+                    eşyādan ġayrı gendülerüñ esbāblarından resm bāc u ḫarāc ve sāʾir tekālīfden bir
+                    şeyʾ ṭaleb itmeyeler <lb/>ve aralarından birisi mürd olduḳda esvāb ve
+                    eşḳāllerine beytü’l-māl emīni ṭarafından daḫl olunmaya ve mürd olduḳlarında
+                    <lb/>ṣandūḳ aḳçası nāmıyla gendülerden bir şeyʾ ṭaleb itmeyeler ve sākin
+                    olduḳları maḥallerde ḳan düşürülmeye kan <lb/>bahāsın edā eylemek bahānesiyle
+                    ḥabs olunmayalar ve ẕikr olunan ruhbānlar ve yezūtīler ve sāʾir Lātīn pāpāsları
+                    <lb/>Rūm ve Ṣırf ve Bulġār pisḳoposlarından daḫl olunmayub ḳadīmden berü ḥālā
+                    żabṭlarında olan kilīselerinde <lb/>ve gendülere tābiʿ olan reʿāyānuñ ḫidmetinde
+                    anlar gibi bunlardan daḫī gendü kilīselerinde Lātīn dīni üzere <pb n="1" facs="#IMG2"/>
+                    <metamark>70</metamark>
+                    <lb/>āyīn ve ʿibādetlerin idüb Rūmdan ve Ṣırfdan kimesne daḫl ü taʿaruż eylemeye
+                    ve varub gendülerin ġamz <lb/>idüb aḳçaların almayalar diyü sene <date type="Hijri" notBefore="1665-11-29" notAfter="1665-12-08">sitte ve sebʿīn ve
+                        elf cemāẕiye’l-ūlāsı evāḫirinde</date> baʿdehū sene <date type="Hijri" notBefore="1700-10-05" notAfter="1700-10-14">isnā ʿaşere <lb/>ve-miʾe ve elf
+                        rebīʿü l-āḫirinüñ evāḫirinde</date> nīşān-ı hümāyūn virildügin bildürüb
+                    tecdīdin ricā itmegin</ab>
+
+                <ab><lb/>mūcebince tecdīd olunub bu nīşān-ı hümāyūnı virdüm ve buyurdum ki fī-mā
+                    baʿd daḫī vech-i meşrūḥ üzere ʿamel olunub <lb/>ḫilāfına rıżā ve cevāz
+                    gösterilmeyüb min baʿd şerʿ-i şerīfe ve muḳaddemā ve ḥālā virilen nīşān-ı
+                    hümāyūna <lb/>muġāyir kimesneye iş itdürmeyeler şöyle bileler.</ab>
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">fī evāsıṭ-ı
+                            Ẕā[<supplied resp="#yy">Ẕi’l-ḳaʿide</supplied>] sene 1131</date></ab>
+
+
+            </div>
+
+
+            <div type="translation" xml:lang="en" xml:id="vipa.ded.osm.17190925-17191004.3.translation">
+                <pb n="1" facs="IMG01"/>
+
+                <ab>So is the imperial sign (nīşān-ı hümāyūn):</ab>
+
+                <ab><rs type="person" ref="#mpr9435">General [Damian Hugo] Count of Virmont</rs>
+                    —may God end his days propitiously—who came to my gate that is the center of state as grand ambassador from the <rs type="person" ref="#mpr9399">Roman emperor</rs>, the
+                    paragon of the great commanders of the community of Messiah, sent a petition to
+                    my threshold of felicity:</ab>
+
+                <ab>As included in the imperial letter of agreement (<foreign xml:lang="ota">ʿahdnāme-i
+                        ḥumāyūn</foreign>) that was issued in <date type="Hijri" when="1649">1059</date>, the priests and clergy from the papal order of Trinitarians
+                    and the priests and clergy who are called <foreign>redemptionist
+                        fathers</foreign>(?) <ref target="#ftn1" type="note_reference"/> as well as
+                    Jesuits shall not be wronged and oppressed.</ab>
+
+                <ab>Besides, they shall travel to and from their residences over land and sea and no
+                    one shall molest them. When they repair their houses, no one shall interfere. As
+                    they conduct their rites and worship according to the Roman Catholic religion
+                    (<foreign xml:lang="ota">Lātīn dīni üzere</foreign>), no one from among the provincial governors, judges,
+                    and other administrators shall interfere and molest them on roads, houses, and
+                    churches in their possession since old days. Since they do not have anything to
+                    live on other than the charity of people, except for the commodities they
+                    brought for trade, [the aforesaid officials] shall not demand tax, tribute and
+                    contribution, and other levies from their own requisites. When someone among
+                    them dies, the superintendent of the inheritance department at the public
+                    treasury shall not interfere with the deceased person’s garments and personal
+                    possessions (<foreign xml:lang="ota">eşḳāl</foreign>). When they die, nothing shall be demanded
+                    from them on the pretext of treasury money (<foreign xml:lang="ota">ṣandūḳ aḳçası</foreign>). No
+                    blood shall be shed in quarters where they live and they shall not be jailed on
+                    the pretext of paying blood compensation. The Greek, Serbian, and Bulgarian
+                    prelates shall not interfere with the aforesaid clergy, Jesuits, and other Roman
+                    Catholic priests (<foreign xml:lang="ota">Lātīn pāpāsları</foreign>). Just as the Greek, Serbian, and Bulgarian
+                    churches, the Roman Catholics too shall perform in their own churches, which they
+                    have owned from the old days to the present, their rites and prayers as per the
+                    Roman Catholic faith in the service of the subjects that follow them. <pb n="1" facs="#IMG2"/> 
+                    No one from among the Greeks and Serbians shall interfere and
+                    molest them or get their money by fraud. The ambassador reported that an
+                    imperial sign (<foreign xml:lang="ota">nīşān-ı hümāyūn</foreign>) dated 
+                    <date notBefore="1665-11-29" notAfter="1665-12-08">November 29 – December 8, 1665</date> and, after
+                    that, another one dated <date notBefore="1700-10-05" notAfter="1700-10-14">October 5 – October 14, 1700</date> were issued. He requested a
+                    renewal.</ab>
+
+                <ab>It has been renewed and I issued the present imperial sign (charter). I order
+                    that, from now on, [all] shall act in the described way and no consent or
+                    permission shall be shown to the contrary. From now on, no one shall [be allowed
+                    to] do a thing in violation of the canonical law of Islam and the imperial signs
+                    that were issued formerly and the one issued now. So shall they know!</ab>
+
+                <ab><date type="Hijri" notBefore="1719-09-25" notAfter="1719-10-04">September 25 to
+                        October 4, 1719</date></ab>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

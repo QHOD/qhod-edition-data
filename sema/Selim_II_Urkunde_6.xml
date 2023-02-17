@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lido="http://www.lido-schema.org" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bibtex="http://bibtexml.sf.net/" xmlns:qhod="https://gams.uni-graz.at/o:qhod#" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en"/>
+                <title xml:lang="de" type="TemizOrig">Urkunde 6</title>
+                <title xml:lang="tr"/>
+                <author><persName>Selim II.</persName></author>
+                <editor>
+                    <persName xml:id="ht">
+                        <forename>Halit</forename>
+                        <surname>Temiz</surname>
+                    </persName>
+                </editor>
+                <respStmt>                     <resp>Edition</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt><respStmt>                     <resp>Übersetzung</resp>                     <persName key="#ht">                         <forename>Halit</forename>                         <surname>Temiz</surname>                     </persName>                 </respStmt>
+                <respStmt>
+                    <resp>Datenmodellierung</resp>
+                    <persName xml:id="js">
+                        <forename>Jakob</forename>
+                        <surname>Sonnberger</surname>
+                    </persName>
+                    <persName xml:id="sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Konvertierung</resp>
+                    <persName xml:id="ld">
+                        <forename>Laila</forename>
+                        <surname>Dandachi</surname>
+                    </persName>
+                    <persName key="#sk">
+                        <forename>Stephan</forename>
+                        <surname>Kurz</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</publisher>
+                <distributor>Austrian Academy of Sciences, Institute for Habsburg and Balkan Studies</distributor>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2022">2022</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">CC-BY 4.0</licence>
+                </availability>
+                <idno type="PID">o:sema.rc.osm.15681115</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="de">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</title>
+                <title xml:lang="en">Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500–1918</title>
+                <title xml:lang="tr">Habsburg-Osmanlı Diplomasisi Kaynakları Dijital Edisyonu 1500–1918</title>
+                <respStmt>
+                    <resp>Projektleitung</resp>
+                    <persName>
+                        <forename>Arno</forename>
+                        <surname>Strohmeyer</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>ÖStA, HHstA Wien</institution>
+                        <collection>Staatsabteilungen, Türkei I</collection>                        
+                        <idno type="regest_petritsch" n="579">Karton 25/1, fol. 43</idno>
+                    </msIdentifier>
+                    <physDesc>
+                    </physDesc>
+                    <history/>
+                </msDesc>
+                <bibl>Extrakt aus „Die Schreiben Selims II. aus dem Haus-, Hof- und Staatsarchiv zu Wien und die habsburgisch-osmanischen Beziehungen zwischen 1566 und 1574“, verfasst von / submitted by Halit Temiz, BA, Wien 2020</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/138054231">Selim II.</persName>
+                    <date notBefore="1568-10-31" notAfter="1568-11-15">Anfang November 1568</date>
+                    <placeName ref="https://sws.geonames.org/745044/">Istanbul</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://d-nb.info/gnd/1209643995">Muṣṭafā Paşa</persName>
+                    <placeName ref="http://sws.geonames.org/3054667/">Buda</placeName>
+                </correspAction>
+            <correspContext>
+                <ref type="prev" target="o:sema.rc.osm.15680329">Urkunde 5</ref>
+                <ref type="next" target="o:sema.rc.osm.15681120">Urkunde 7</ref>
+</correspContext></correspDesc>
+            <langUsage>
+                <language ident="ota">Osmanisches Türkisch</language>
+                <language ident="de">Deutsch</language>
+            </langUsage>
+            <abstract><p>Urkunde 6: Geschrieben Anfang November 1568 in <rs ana="MPRautomatched" ref="#mpr14055" type="place">
+                Konstantinopel</rs> Befehl an den Beglerbegi von
+         <rs type="place" ref="#mpr7448">Buda</rs> <rs type="person" ref="#mpr14163">Muṣṭafā Paşa,</rs> dass er sowohl vom König von
+                <rs type="place" ref="#mpr9372">Siebenbürgen</rs> <rs type="person">Johann Sigismund Zápolya</rs> als auch vom König von 
+                <rs type="place" ref="#mpr13416">Wien</rs> <rs type="person" ref="#mpr14157">Maximilian</rs> geeignete Kommissare fordern soll, die in Vertretung aller Parteien eine Entscheidung über die Zugehörigkeit der umstrittenen Orte <rs type="place" ref="#mpr14062">Nagy Bánya</rs> und <rs type="place" ref="#mpr14136">Páncél-Cseh</rs> treffen sollen.</p></abstract>
+            <textClass>
+                <keywords>
+                    <term>Ḥükm</term>
+                    <term>Osman.-türk. Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                <p>Once we have a serious documentation of our encoding guidelines, we have to reference them here.</p>
+                    <p>
+                        <note type="editorial">Die Regesten wurden unter Beiziehung der Regesten
+                            von Dr. Ernst Dieter Petritsch angefertigt. In Klammer sind jeweils
+                            seine Regestennummern angegeben; Vgl. Petritsch, Regesten, 179ff.</note>
+                        
+                    </p>
+                    
+                </interpretation>  
+            </editorialDecl>
+            <refsDecl>
+                <p>Urkunde 6: Selim II. an Muṣṭafā Paşa, Konstantinopel, Anfang November 1568, bearb. von Halit Temiz; Datenmodellierung: Jakob Sonnberger, Stephan Kurz; Konvertierung: Laila Dandachi, Stephan Kurz, in: Die Schreiben Selims II. an Maximilian II. und Mustafa Paşa (1566–1574), hg. von Halit Temiz und Stephan Kurz (Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918, hg. von Arno Strohmeyer, Projekt 3), Wien 2022</p>
+            </refsDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:sema" type="context">Selim II. und Maximilian II.</ref>
+                    <ref target="context:sema.rc" type="context">Urkunden</ref>
+                    <ref target="context:qhod" type="context">Digitale Edition von Quellen zur habsburgisch-osmanischen Diplomatie 1500–1918</ref>
+                </ab>
+                <p>Projektbeschreibung</p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface start="#IMG.6">
+            <graphic url="06_579.jpg" xml:id="IMG.6"/>
+            
+        </surface>
+        
+    </facsimile>
+        <text type="record"><body>
+            
+                <div n="6"><div type="transcription" xml:lang="ota">
+                    <pb facs="#IMG.6" n="6"/>
+                    
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>
+                    
+                    <p><note resp="#ht" place="footnote" n="2"><p rend="footnote text">Es
+                        handelt sich um eine Abschrift eines Ḥükms aus Mühimme Defteri Nr. 7 vom 10. Cemāẕīye l-evvel 976: BOA, Mühimme Defteri 7, Nr. 2409.
+                        </p></note></p> 
+                                             
+                                    
+                                        
+                    
+                        <ab type="narratio"><lb n="1"/><rs type="place" ref="#mpr7448">Budūn</rs> beglerbegisine ḥükm ki
+                        <rs type="place" ref="#mpr13416">Beç</rs> ḳırālı ile <rs type="place" ref="#mpr9372">Erdel</rs> ḳırālınuñ mābeynlerinde
+                      <rs type="place" ref="#mpr14062">Bāna</rs> ve <rs type="place" ref="#mpr14136">Cehver</rs>
+                            nām ḳalʿeler ḥuṣūṣında nizāʿ olunub ikisi daḫı ṣulḥ u ṣalāḥ                                                              
+                            <lb n="2"/>zemānında ẕikr olunan ḳalʿeler bizüm taṣarrufumuzda idi dėyü iʿlām ėtdükleri ecilden ṣıḥḥati üzre maʿlūm olub ṣulḥ u ṣalāḥ zemānında 
+                        <lb n="3"/>ḳanġı cānibüñ taṣarrufında bulundı ise ʿahdnāme-i hümāyūn muḳteżāsınca aña göre ʿamel olunmaḳ emr ėdüb ol bābda <rs type="place" ref="#mpr9372">Erdel</rs>
+                            ḳırālına daḫı nāme-i hümāyūnum
+                            <lb n="4"/> gönderilmişdür</ab> <ab type="dispositio">buyurdum ki varduḳda bu bābda temām baṣīret
+                        üzre olub müşārün ileyhimā <rs type="place" ref="#mpr13416">Beç</rs>
+                        ḳırālından ve <rs type="place" ref="#mpr9372">Erdel</rs> ḳırālından
+                            <lb n="5"/>yarar ve muʿtemedün ʿaleyh ādemlerin ṭaleb ėdüb sen-daḫı
+                            yarar ve umūr-dīde kimesne taʿyīn ėdüb daḫı ẕikr olunan ḳalʿelerüñ
+                            <lb n="6"/>üzerine gönderesin ki varub oñat vechle ḥaḳḳ üzre görüb ẕikr
+                            olunan ḳalʿeler ṣulḥ u ṣalāḥ olub ʿahdnāme-i hümāyūnum
+                            <lb n="7"/>vėrildügi zemānda ṣaḥīḥ ḳanġı cānibüñ żabṭ u taṣarrufında
+                            bulundı ise o cānibe ḥükm ėdüb ṣulḥ u ṣalāḥa muḫālif cānib-i āherden
+                            kimesne <supplied resp="ht">y</supplied>i daḫl
+                            <lb n="8"/>u taʻarruż ėtdürmeyesiz ammā ẕikr olunan ḳalʻeler ḳanġı
+                            cānibe ḥükm olunur ise geregi gibi tenbīh ü te’kīd eyleyesin-ki
+                            ʿahdnāme-i hümāyūnuma muḫālif ol
+                            <lb n="9"/>ḳalʿeleri aṣlā taʿmīr ü meremmet ėtmeyüp ḥāli üzre ḫarāb
+                            ḳoyub ve ol ḳalʿe sınurında yeñiden ḳalʿe daḫı iḥdās̠  eylemeyeler</ab>
+                            <ab type="sanctio">ve-l-ḥāṣıl
+                            <lb n="9"/>bu bābda vėrilen ʿahdnāme-i hümāyūnuma muḫālif vażʿ ṣādır
+                            olmaḳdan ziyāde iḥtirāz ėdüb ʿahdnāme-i hümāyūnum mūcibince faṣl-i
+                            <lb n="10"/> nizāʿ eyleyesin</ab>
+                    <pb facs="#IMG.6a" n="6a"/>
+                    <p> Rückseite:
+                        Exemplu mandati transmissi ad
+                            Bassam Budensem, super negotie Banya</p>
+                    
+                </div><div type="translation" xml:lang="de">
+                    <pb facs="#IMG.6" n="6"/>
+                    <ab><supplied resp="#ht">Invocatio fehlt</supplied></ab>                    
+                    
+                    <ab type="narratio">Befehl an den Beglerbegi von <rs type="place" ref="#mpr7448">Buda:</rs>
+                    Zwischen dem König von  <rs type="place" ref="#mpr13416">Wien</rs> und dem König
+                        von <rs type="place" ref="#mpr9372">Siebenbürgen</rs>gibt es wegen den Festungen namens
+                        <rs type="place" ref="#mpr14062">Nagy Bánya</rs>
+                        und <rs type="place" ref="#mpr14136">Páncél-Cseh</rs> einen Konflikt. 
+                        Da beide <supplied resp="ht">folgendermaßen</supplied> bekanntgegeben haben: „in der Zeit des Friedens 
+                        und der Eintracht waren die genannten Festungen unter unserer Verwaltung”, habe ich verordnet, dass, 
+                        sofern genau bekannt geworden ist, unter der Verwaltung von welcher Seite sie in der Zeit des Friedens
+                        und der Eintracht waren, demgemäß, entsprechend dem großherrlichen Vertragsschreiben gehandelt wird. 
+                        Und es wurde in dieser Sache auch dem König von Siebenbürgen mein großherrlicher Brief geschickt.</ab>
+                    <ab type="dispositio">Ich befehle, dass, sobald <supplied resp="ht">er</supplied> einlangt, Du in
+                        dieser Sache ganz wachsam bist, von den Erwähnten, dem König von <rs type="place" ref="#mpr13416">Wien</rs>
+                        und dem König von <rs type="place" ref="#mpr9372">Siebenbürgen</rs>geeignete
+                        und verlässliche Männer verlangst und auch du geeignete und erfahrene Personen bestellst und zu den genannten
+                        Festungen schickst, damit <supplied resp="ht">die Sache</supplied> an Ort und Stelle, in gehöriger Weise, 
+                        dem Recht gemäß behandelt wird. Ihr sollt
+                            sie zugunsten der Seite zusprechen, welche tatsächlich die genannten Festungen unter der Verwaltung 
+                            und dem Besitz gehabt hat, als Friede und Eintracht beschlossen und mein erhabenes Vertragsschreiben
+                            gewährt wurde und niemanden von der anderen Seite gegen den Frieden und Eintracht eine Einmischung oder
+                           einen Angriff unternehmen lassen.                     
+                    Aber, welcher Seite <supplied resp="ht">auch immer</supplied> die genannten
+                            Festungen zugesprochen werden, sollst du, wie es sich gehört
+                            nachdrücklich kundtun, dass sie die Festungen niemals gegen mein
+                            großherrliches Vertragsschreiben ausbessern oder wiederherstellen, in
+                            ihrem zerstörten Zustand belassen und keine neue Festungen neben der
+                            <supplied resp="ht">bestehenden</supplied> Festung errichten sollen.</ab>
+                    <ab type="sanctio">Kurz und gut sollst du dich in dieser Sache hüten,
+                            gegen mein gewährtes großherrliches Vertragsschreiben zu handeln und
+                            gemäß meinem großherrlichen Vertragsschreiben den Streitfall
+                            lösen.</ab>
+                    <pb facs="#IMG.6a" n="6a"/>
+                    <p>
+                            Rückseite:
+                                Die Abschrift des Befehls an den Pascha von <rs type="place" ref="#mpr7448">Buda</rs> über die Angelegenheit Bánya.</p>                                 
+                </div>
+            </div>
+        </body></text>
+    </TEI>
